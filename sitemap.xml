@@ -138,6 +138,13 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Blog / Resources -->
+  <url>
+    <loc>https://salesaiguide.com/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
   <!-- Tool Reviews -->
   <url>
     <loc>https://salesaiguide.com/tools/instantly-review.html</loc>
