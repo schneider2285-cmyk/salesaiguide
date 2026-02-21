@@ -1,0 +1,36 @@
+# Affiliate redirects
+/go/clay          https://clay.com?ref=salesaiguide          302
+/go/apollo        https://apollo.io?ref=salesaiguide         302
+/go/instantly     https://instantly.ai?ref=salesaiguide      302
+/go/smartlead     https://smartlead.ai?ref=salesaiguide      302
+/go/gong          https://gong.io?ref=salesaiguide           302
+/go/chorus        https://chorus.ai?ref=salesaiguide         302
+/go/zoominfo      https://zoominfo.com?ref=salesaiguide      302
+/go/outreach      https://outreach.io?ref=salesaiguide       302
+/go/salesloft     https://salesloft.com?ref=salesaiguide     302
+/go/lemlist       https://lemlist.com?ref=salesaiguide       302
+/go/clearbit      https://clearbit.com?ref=salesaiguide      302
+/go/lusha         https://lusha.com?ref=salesaiguide         302
+/go/hubspot       https://hubspot.com?ref=salesaiguide       302
+/go/pipedrive     https://pipedrive.com?ref=salesaiguide     302
+/go/lavender      https://lavender.ai?ref=salesaiguide       302
+/go/vidyard       https://vidyard.com?ref=salesaiguide       302
+/go/dialpad       https://dialpad.com?ref=salesaiguide       302
+/go/aircall       https://aircall.io?ref=salesaiguide        302
+/go/orum          https://orum.com?ref=salesaiguide          302
+/go/calendly      https://calendly.com?ref=salesaiguide      302
+/go/chili-piper   https://chilipiper.com?ref=salesaiguide    302
+/go/clari         https://clari.com?ref=salesaiguide         302
+/go/people-ai     https://people.ai?ref=salesaiguide         302
+/go/6sense        https://6sense.com?ref=salesaiguide        302
+/go/seismic       https://seismic.com?ref=salesaiguide       302
+/go/drift         https://drift.com?ref=salesaiguide         302
+/go/reply-io      https://reply.io?ref=salesaiguide          302
+/go/seamless-ai   https://seamless.ai?ref=salesaiguide       302
+/go/salesforce    https://salesforce.com?ref=salesaiguide    302
+/go/recapped      https://recapped.io?ref=salesaiguide       302
+
+# Directory index redirects
+/compare          /compare/index.html                        200
+/categories       /categories/index.html                     200
+/tools            /tools/index.html                          200
