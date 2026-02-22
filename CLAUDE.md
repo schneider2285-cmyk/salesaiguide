@@ -20,7 +20,7 @@ Data Sources (G2/Capterra) → Data Agent → Airtable → Content Agent (Claude
 |-------|----------|--------|---------|
 | Content Agent | Make.com | Working | Every 1 hour |
 | Publish Agent | GitHub Actions | Working | Every 2 hours + manual |
-| Data Agent | Not built | Planned | Weekly |
+| Data Agent | Claude Code + `scripts/data-check.js` | Working | Weekly (manual) |
 
 ### Key Infrastructure
 | Service | Details |
@@ -31,7 +31,7 @@ Data Sources (G2/Capterra) → Data Agent → Airtable → Content Agent (Claude
 
 ## Agent System
 
-Six specialized agents in `.claude/agents/`, orchestrated via `coordination/`:
+Seven specialized agents in `.claude/agents/`, orchestrated via `coordination/`:
 
 | Agent | File | Role | Trigger |
 |-------|------|------|---------|
@@ -40,6 +40,7 @@ Six specialized agents in `.claude/agents/`, orchestrated via `coordination/`:
 | **SEO Auditor** | `seo-auditor.md` | Verify 13-point SEO checklist on all pages | Before every push |
 | **Content Reviewer** | `content-reviewer.md` | Quality, accuracy, conversion optimization | After new pages published |
 | **Deployment Agent** | `deployment-agent.md` | Git operations, push, verify deploy | After any file changes |
+| **Data Agent** | `data-agent.md` | Monitor data freshness, spot-check G2/vendor sites | Weekly (manual trigger) |
 | **Analytics Tracker** | `analytics-tracker.md` | Status reports, content coverage metrics | Weekly review |
 
 ### Coordination Files
@@ -55,9 +56,15 @@ coordination/
 
 ### Daily Pipeline Sequence
 ```
-Content Agent (Make.com, hourly) → Matt Approves (Airtable) →
+Data Agent (weekly) → Content Agent (Make.com, hourly) → Matt Approves (Airtable) →
 Publish Agent (GitHub Actions, 2h) → SEO Auditor (verify) →
 Deployment Agent (git push) → Netlify (auto-deploy)
+```
+
+### Data Pipeline (Weekly)
+```
+Data Agent (scripts/data-check.js) → Freshness Report →
+Matt Reviews → Updates Airtable → Content Agent picks up changes
 ```
 
 See `coordination/workflows/daily_pipeline.md` for full details.

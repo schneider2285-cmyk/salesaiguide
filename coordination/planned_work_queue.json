@@ -42,11 +42,12 @@
     {
       "id": "PLAN-005",
       "title": "Build Data Agent (Browse AI + Make.com)",
-      "agent": "manual",
+      "agent": "data-agent",
       "priority": "medium",
+      "status": "DONE — data-agent.md + scripts/data-check.js built",
       "reason": "Automated tool discovery from G2/Capterra/Product Hunt. Currently all 30 tools were manually entered.",
-      "estimate": "2-3 sessions",
-      "dependencies": ["Browse AI account setup"]
+      "estimate": "Completed",
+      "completed": "2026-02-21"
     },
     {
       "id": "PLAN-006",

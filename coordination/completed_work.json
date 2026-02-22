@@ -1,6 +1,6 @@
 {
   "_description": "Completed tasks log. Append-only — never delete entries.",
-  "_updated": "2026-02-21",
+  "_updated": "2026-02-22",
   "tasks": [
     {
       "id": "DONE-001",
@@ -33,6 +33,22 @@
       "completed": "2026-02-21",
       "commit": "47cb02a",
       "summary": "CLAUDE.md with project context and two-tool workflow rules. docs/project-brief.md (597 lines). scripts/publish.js — full Publish Agent with Airtable integration, HTML template generation, sitemap updates."
+    },
+    {
+      "id": "DONE-005",
+      "title": "Build multi-agent orchestration system (6 agents + coordination)",
+      "agent": "deployment-agent",
+      "completed": "2026-02-21",
+      "commit": "706e1aa",
+      "summary": "6 agent definitions in .claude/agents/ (publish, site-builder, seo-auditor, content-reviewer, deployment, analytics-tracker). Coordination system with active_work, completed_work, planned_work_queue, standards, and daily_pipeline workflow."
+    },
+    {
+      "id": "DONE-006",
+      "title": "Build Data Agent with freshness check script",
+      "agent": "data-agent",
+      "completed": "2026-02-22",
+      "commit": "pending",
+      "summary": "New data-agent.md: monitors Airtable data freshness, spot-checks G2/vendor sites, discovers new tools, generates freshness reports. Companion script scripts/data-check.js: connects to Airtable API, analyzes staleness (30/90 day thresholds), checks local file coverage (redirects, review pages), generates markdown reports with recommendations. Supports --json, --stale-only, --days flags."
     }
   ]
 }

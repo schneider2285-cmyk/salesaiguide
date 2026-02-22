@@ -4,12 +4,22 @@
 
 This is the sequence agents run in for the SalesAIGuide content pipeline. Each step produces output the next step consumes.
 
+### Daily/Hourly Pipeline (Content Publishing)
 ```
 ┌─────────────┐     ┌──────────────┐     ┌─────────────┐     ┌────────────────┐     ┌─────────────────┐
 │ Content Agent│────▶│ Matt Approves│────▶│Publish Agent│────▶│ SEO Auditor    │────▶│Deployment Agent │
 │ (Make.com)  │     │ (Airtable)   │     │(publish.js) │     │ (verify SEO)   │     │ (git push)      │
 └─────────────┘     └──────────────┘     └─────────────┘     └────────────────┘     └─────────────────┘
      hourly              manual              every 2h            after publish          after audit
+```
+
+### Weekly Pipeline (Data Freshness)
+```
+┌────────────┐     ┌─────────────────┐     ┌──────────────┐     ┌──────────────┐
+│ Data Agent │────▶│ Freshness Report│────▶│ Matt Reviews │────▶│Updates Airtable│
+│(data-check)│     │ (console/file)  │     │ (30-60 min)  │     │(stale records)│
+└────────────┘     └─────────────────┘     └──────────────┘     └──────────────┘
+    weekly              automated               manual               manual
 ```
 
 ## Step-by-Step
@@ -101,6 +111,30 @@ This is the sequence agents run in for the SalesAIGuide content pipeline. Each s
 
 ---
 
+## Weekly Data Freshness Check
+
+**Agent:** Data Agent (`scripts/data-check.js`)
+**Trigger:** Weekly (during Friday review, or when Matt says "check the data")
+**Input:** Airtable Tools table (all 30 records)
+**Output:** Data Freshness Report with staleness flags, missing data, affiliate coverage
+
+**What happens:**
+1. Runs `node scripts/data-check.js` (requires `AIRTABLE_TOKEN` env var)
+2. Fetches all tools from Airtable, analyzes last-modified timestamps
+3. Flags stale records (>30 days) and critical records (>90 days)
+4. Checks local repo for `/go/` redirect coverage and review page existence
+5. Generates markdown report with recommendations
+6. Optionally: spot-checks G2 pages and vendor websites for changed data
+
+**CLI Options:**
+- `--json` — raw JSON output for piping to other tools
+- `--stale-only` — only show records past staleness threshold
+- `--days N` — set custom staleness threshold (default: 30)
+
+**Handoff:** Matt reviews report → updates stale Airtable records → Content Agent picks up changes
+
+---
+
 ## Weekly Analytics Review
 
 **Agent:** Analytics Tracker
@@ -143,6 +177,9 @@ This is the sequence agents run in for the SalesAIGuide content pipeline. Each s
 | Git push rejected | Deployment Agent | Check PAT scope, split commit if workflow file issue |
 | Netlify deploy fails | Deployment Agent | Check deploy.yml, verify NETLIFY secrets |
 | Content Agent fails | Make.com | Check Make.com scenario logs |
+| G2 page blocked/403 | Data Agent | Skip tool, note "unable to verify" in report |
+| AIRTABLE_TOKEN missing | Data Agent | Exit with error, instruct to set env var |
+| Stale data detected (>90 days) | Data Agent | Exit code 1 — alerts Matt in report |
 
 ## Metrics
 
