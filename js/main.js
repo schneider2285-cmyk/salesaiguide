@@ -27,14 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
         revealEls.forEach(el => el.classList.add('in-view'));
     }
 
-    // ─── Navbar Scroll State ──────────────────────────────────────────────
-    const navbar = document.querySelector('.navbar');
-    if (navbar) {
-        window.addEventListener('scroll', function() {
-            navbar.classList.toggle('scrolled', window.scrollY > 50);
-        }, { passive: true });
-    }
-
     // ─── Affiliate Link Tracking ──────────────────────────────────────────
     const affiliateLinks = document.querySelectorAll('a[href*="/go/"]');
     affiliateLinks.forEach(link => {
