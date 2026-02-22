@@ -30,6 +30,51 @@
 /go/salesforce    https://salesforce.com?ref=salesaiguide    302
 /go/recapped      https://recapped.io?ref=salesaiguide       302
 
+# New tool redirects
+/go/11x           https://11x.ai?ref=salesaiguide              302
+/go/artisan       https://artisan.com?ref=salesaiguide          302
+/go/aisdr         https://aisdr.com?ref=salesaiguide            302
+/go/salesforge    https://salesforge.ai?ref=salesaiguide        302
+/go/aviso         https://aviso.ai?ref=salesaiguide             302
+/go/boostup       https://boostup.ai?ref=salesaiguide           302
+/go/revenue-grid  https://revenuegrid.com?ref=salesaiguide      302
+/go/bombora       https://bombora.com?ref=salesaiguide          302
+/go/usergems      https://usergems.com?ref=salesaiguide         302
+/go/warmly        https://warmly.ai?ref=salesaiguide            302
+/go/leadfeeder    https://dealfront.com?ref=salesaiguide        302
+/go/second-nature https://secondnature.ai?ref=salesaiguide      302
+/go/mindtickle    https://mindtickle.com?ref=salesaiguide       302
+/go/allego        https://allego.com?ref=salesaiguide           302
+/go/hyperbound    https://hyperbound.ai?ref=salesaiguide        302
+/go/highspot      https://highspot.com?ref=salesaiguide         302
+/go/showpad       https://showpad.com?ref=salesaiguide          302
+/go/mailshake     https://mailshake.com?ref=salesaiguide        302
+/go/saleshandy    https://saleshandy.com?ref=salesaiguide       302
+/go/woodpecker    https://woodpecker.co?ref=salesaiguide        302
+/go/leadiq        https://leadiq.com?ref=salesaiguide           302
+/go/cognism       https://cognism.com?ref=salesaiguide          302
+/go/kaspr         https://kaspr.io?ref=salesaiguide             302
+/go/people-data-labs https://peopledatalabs.com?ref=salesaiguide 302
+/go/fullenrich    https://fullenrich.com?ref=salesaiguide       302
+/go/avoma         https://avoma.com?ref=salesaiguide            302
+/go/fireflies     https://fireflies.ai?ref=salesaiguide        302
+/go/revenue-io    https://revenue.io?ref=salesaiguide           302
+/go/klenty        https://klenty.com?ref=salesaiguide           302
+/go/mixmax        https://mixmax.com?ref=salesaiguide           302
+/go/monday-crm    https://monday.com?ref=salesaiguide           302
+/go/freshsales    https://freshworks.com/crm?ref=salesaiguide   302
+/go/close         https://close.com?ref=salesaiguide            302
+/go/heygen        https://heygen.com?ref=salesaiguide           302
+/go/autobound     https://autobound.ai?ref=salesaiguide         302
+/go/regie         https://regie.ai?ref=salesaiguide             302
+/go/koncert       https://koncert.com?ref=salesaiguide          302
+/go/justcall      https://justcall.io?ref=salesaiguide          302
+/go/reclaim       https://reclaim.ai?ref=salesaiguide           302
+/go/kronologic    https://kronologic.ai?ref=salesaiguide        302
+
+# Sales analytics redirect (removed category)
+/categories/sales-analytics.html  /categories/revenue-intelligence.html  301
+
 # Directory index redirects
 /compare          /compare/index.html                        200
 /categories       /categories/index.html                     200
