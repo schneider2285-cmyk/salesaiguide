@@ -145,6 +145,40 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Guide / Pillar Pages -->
+  <url>
+    <loc>https://salesaiguide.com/guides/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/guides/best-ai-outbound-prospecting-tools.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/guides/best-ai-email-outreach-tools.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/guides/top-conversation-intelligence-platforms.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/guides/ai-sales-assistant-comparison.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Editorial -->
+  <url>
+    <loc>https://salesaiguide.com/editorial.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
   <!-- Tool Reviews -->
   <url>
     <loc>https://salesaiguide.com/tools/instantly-review.html</loc>
