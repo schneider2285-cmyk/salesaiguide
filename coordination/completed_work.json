@@ -1,0 +1,38 @@
+{
+  "_description": "Completed tasks log. Append-only — never delete entries.",
+  "_updated": "2026-02-21",
+  "tasks": [
+    {
+      "id": "DONE-001",
+      "title": "Build complete static website (31 pages)",
+      "agent": "site-builder",
+      "completed": "2026-02-21",
+      "commit": "ee269a3",
+      "summary": "Homepage, 10 comparisons, 10 categories, tools directory, about, disclosure, 2 tool reviews. Dark navy design, mobile responsive, hamburger nav."
+    },
+    {
+      "id": "DONE-002",
+      "title": "Add Open Graph meta tags and fix review page navigation",
+      "agent": "seo-auditor",
+      "completed": "2026-02-21",
+      "commit": "083fa40",
+      "summary": "OG + Twitter Card tags on all 28 pages. Fixed nav on clay-review and instantly-review to match site structure."
+    },
+    {
+      "id": "DONE-003",
+      "title": "Add 404 page, favicon, blog stub, JSON-LD, canonical URLs",
+      "agent": "site-builder + seo-auditor",
+      "completed": "2026-02-21",
+      "commit": "fafa86b",
+      "summary": "Custom 404 page, SVG favicon on all pages, blog/resources stub, JSON-LD on 15 remaining pages, canonical URLs on 4 missing pages, sitemap + redirects updated."
+    },
+    {
+      "id": "DONE-004",
+      "title": "Add project brief, CLAUDE.md, and Publish Agent",
+      "agent": "publish-agent + deployment-agent",
+      "completed": "2026-02-21",
+      "commit": "47cb02a",
+      "summary": "CLAUDE.md with project context and two-tool workflow rules. docs/project-brief.md (597 lines). scripts/publish.js — full Publish Agent with Airtable integration, HTML template generation, sitemap updates."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "_description": "Planned work backlog. Ordered by priority. Pull into active_work.json when starting.",
+  "_updated": "2026-02-21",
+  "queue": [
+    {
+      "id": "PLAN-001",
+      "title": "Add 20+ new comparison pairs to Airtable and publish",
+      "agent": "publish-agent",
+      "priority": "high",
+      "reason": "More comparison pages = more long-tail SEO traffic. Each '[Tool A] vs [Tool B]' query is a low-competition keyword.",
+      "estimate": "1 session",
+      "dependencies": ["TASK-001 (publish workflow)", "TASK-002 (Airtable secret)"]
+    },
+    {
+      "id": "PLAN-002",
+      "title": "Generate individual tool detail pages for all 30 tools",
+      "agent": "site-builder + publish-agent",
+      "priority": "high",
+      "reason": "Tool pages drive '[tool name] review' search queries. Currently only Clay and Instantly have reviews.",
+      "estimate": "1-2 sessions",
+      "dependencies": [],
+      "files_affected": ["tools/[slug]-review.html (x30)", "tools/index.html", "sitemap.xml"]
+    },
+    {
+      "id": "PLAN-003",
+      "title": "Build 'Best X Tools' listicle pages",
+      "agent": "site-builder",
+      "priority": "medium",
+      "reason": "'Best cold outreach tools 2026' is high-volume search query. 10 listicle pages (one per category).",
+      "estimate": "1 session",
+      "files_affected": ["best/[category-slug].html (x10)", "sitemap.xml"]
+    },
+    {
+      "id": "PLAN-004",
+      "title": "Add email capture backend (ConvertKit or Beehiiv)",
+      "agent": "site-builder",
+      "priority": "medium",
+      "reason": "Newsletter form on homepage doesn't connect to anything. Email list = owned audience.",
+      "estimate": "1 session",
+      "files_affected": ["index.html", "blog/index.html", "js/main.js"]
+    },
+    {
+      "id": "PLAN-005",
+      "title": "Build Data Agent (Browse AI + Make.com)",
+      "agent": "manual",
+      "priority": "medium",
+      "reason": "Automated tool discovery from G2/Capterra/Product Hunt. Currently all 30 tools were manually entered.",
+      "estimate": "2-3 sessions",
+      "dependencies": ["Browse AI account setup"]
+    },
+    {
+      "id": "PLAN-006",
+      "title": "Extend publish.js to handle tool pages and category updates",
+      "agent": "publish-agent",
+      "priority": "medium",
+      "reason": "Currently publish.js only handles comparisons. Should also auto-generate tool review pages and update category pages when new tools are added.",
+      "estimate": "1 session",
+      "files_affected": ["scripts/publish.js"]
+    },
+    {
+      "id": "PLAN-007",
+      "title": "Add internal linking strategy",
+      "agent": "content-reviewer",
+      "priority": "low",
+      "reason": "Cross-link comparison pages to relevant category pages and tool reviews. Improves SEO crawlability and time-on-site.",
+      "estimate": "1 session"
+    },
+    {
+      "id": "PLAN-008",
+      "title": "Performance optimization (lazy loading, minified CSS)",
+      "agent": "site-builder",
+      "priority": "low",
+      "reason": "Page speed affects SEO ranking. Not critical until traffic grows.",
+      "estimate": "1 session",
+      "files_affected": ["css/main.css", "css/review.css", "all HTML files"]
+    }
+  ]
+}

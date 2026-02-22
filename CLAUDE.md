@@ -29,6 +29,39 @@ Data Sources (G2/Capterra) → Data Agent → Airtable → Content Agent (Claude
 | Netlify | Site ID: `c79f346d-e91d-42cf-80e2-295f8d7095e9` |
 | GitHub Actions | `deploy.yml` (Netlify deploy on push), `publish.yml` (Airtable → HTML) |
 
+## Agent System
+
+Six specialized agents in `.claude/agents/`, orchestrated via `coordination/`:
+
+| Agent | File | Role | Trigger |
+|-------|------|------|---------|
+| **Publish Agent** | `publish-agent.md` | Airtable → HTML generation → deploy | Every 2h (automated) or manual |
+| **Site Builder** | `site-builder.md` | Create/maintain HTML pages and CSS | When new pages needed |
+| **SEO Auditor** | `seo-auditor.md` | Verify 13-point SEO checklist on all pages | Before every push |
+| **Content Reviewer** | `content-reviewer.md` | Quality, accuracy, conversion optimization | After new pages published |
+| **Deployment Agent** | `deployment-agent.md` | Git operations, push, verify deploy | After any file changes |
+| **Analytics Tracker** | `analytics-tracker.md` | Status reports, content coverage metrics | Weekly review |
+
+### Coordination Files
+```
+coordination/
+├── active_work.json          # Currently active tasks
+├── completed_work.json       # Done log (append-only)
+├── planned_work_queue.json   # Prioritized backlog
+├── standards.md              # Output formats, quality rules, naming conventions
+└── workflows/
+    └── daily_pipeline.md     # Agent sequence and handoff format
+```
+
+### Daily Pipeline Sequence
+```
+Content Agent (Make.com, hourly) → Matt Approves (Airtable) →
+Publish Agent (GitHub Actions, 2h) → SEO Auditor (verify) →
+Deployment Agent (git push) → Netlify (auto-deploy)
+```
+
+See `coordination/workflows/daily_pipeline.md` for full details.
+
 ## File Structure
 
 ```
@@ -50,6 +83,21 @@ salesaiguide/
 │   └── publish.js          # Publish Agent (Node.js)
 ├── docs/
 │   └── project-brief.md    # Full project context
+├── context/
+│   └── session-summary.md  # Ephemeral session handoff (overwritten each session)
+├── coordination/           # Agent orchestration
+│   ├── active_work.json
+│   ├── completed_work.json
+│   ├── planned_work_queue.json
+│   ├── standards.md
+│   └── workflows/daily_pipeline.md
+├── .claude/agents/         # Agent definitions
+│   ├── publish-agent.md
+│   ├── site-builder.md
+│   ├── seo-auditor.md
+│   ├── content-reviewer.md
+│   ├── deployment-agent.md
+│   └── analytics-tracker.md
 └── .github/workflows/
     ├── deploy.yml           # Netlify auto-deploy on push
     └── publish.yml          # Publish Agent cron (every 2h)

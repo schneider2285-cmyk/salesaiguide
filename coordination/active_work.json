@@ -1,0 +1,41 @@
+{
+  "_description": "Currently active tasks. Move to completed_work.json when done.",
+  "_updated": "2026-02-21",
+  "tasks": [
+    {
+      "id": "TASK-001",
+      "title": "Push publish.yml workflow to GitHub",
+      "agent": "deployment-agent",
+      "status": "blocked",
+      "blocker": "GitHub PAT needs 'workflow' scope — create Classic token with repo+workflow",
+      "created": "2026-02-21",
+      "files": [".github/workflows/publish.yml"]
+    },
+    {
+      "id": "TASK-002",
+      "title": "Add AIRTABLE_TOKEN GitHub secret",
+      "agent": "manual",
+      "status": "pending",
+      "notes": "Matt must add Airtable Personal Access Token as repo secret. Go to: github.com/schneider2285-cmyk/salesaiguide/settings/secrets/actions",
+      "created": "2026-02-21"
+    },
+    {
+      "id": "TASK-003",
+      "title": "Replace placeholder affiliate URLs in _redirects",
+      "agent": "manual",
+      "status": "pending",
+      "notes": "30 tools have placeholder ?ref=salesaiguide URLs. Replace with real affiliate links as programs are approved. Current applications: Instantly, Reply.io, Smartlead.",
+      "created": "2026-02-21",
+      "files": ["_redirects"]
+    },
+    {
+      "id": "TASK-004",
+      "title": "Add Google Analytics GA4 snippet to all pages",
+      "agent": "site-builder",
+      "status": "pending",
+      "notes": "Waiting for GA4 measurement ID from Matt. Google had internal error during initial setup attempt.",
+      "created": "2026-02-21",
+      "files": ["index.html", "about.html", "disclosure.html", "404.html", "compare/*.html", "categories/*.html", "tools/*.html", "blog/*.html"]
+    }
+  ]
+}
