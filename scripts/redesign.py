@@ -18,7 +18,7 @@ import glob
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # ─── Tool Name → Domain Mapping ────────────────────────────────────────────
-# Used for Clearbit Logo API: https://logo.clearbit.com/{domain}
+# Used for local logo lookup: /img/logos/{slug}.png
 TOOL_DOMAINS = {
     "Clay": "clay.com",
     "Apollo": "apollo.io",
@@ -61,6 +61,45 @@ TOOL_DOMAINS = {
     "Salesforce": "salesforce.com",
     "Recapped": "recapped.io",
 }
+
+# ─── Domain → Local Logo Path Mapping ──────────────────────────────────────
+DOMAIN_TO_LOGO = {
+    "instantly.ai": "/img/logos/instantly.png",
+    "clay.com": "/img/logos/clay.png",
+    "gong.io": "/img/logos/gong.png",
+    "apollo.io": "/img/logos/apollo.png",
+    "lavender.ai": "/img/logos/lavender.png",
+    "outreach.io": "/img/logos/outreach.png",
+    "smartlead.ai": "/img/logos/smartlead.png",
+    "lemlist.com": "/img/logos/lemlist.png",
+    "reply.io": "/img/logos/reply.png",
+    "chorus.ai": "/img/logos/chorus.png",
+    "salesloft.com": "/img/logos/salesloft.png",
+    "vidyard.com": "/img/logos/vidyard.png",
+    "clari.com": "/img/logos/clari.png",
+    "zoominfo.com": "/img/logos/zoominfo.png",
+    "clearbit.com": "/img/logos/clearbit.png",
+    "hubspot.com": "/img/logos/hubspot.png",
+    "dialpad.com": "/img/logos/dialpad.png",
+    "people.ai": "/img/logos/people-ai.png",
+    "drift.com": "/img/logos/drift.png",
+    "lusha.com": "/img/logos/lusha.png",
+    "aircall.io": "/img/logos/aircall.png",
+    "6sense.com": "/img/logos/sixsense.png",
+    "seismic.com": "/img/logos/seismic.png",
+    "salesforce.com": "/img/logos/salesforce.png",
+    "pipedrive.com": "/img/logos/pipedrive.png",
+    "seamless.ai": "/img/logos/seamless-ai.png",
+    "calendly.com": "/img/logos/calendly.png",
+    "chilipiper.com": "/img/logos/chili-piper.png",
+    "recapped.io": "/img/logos/recapped.png",
+    "orum.com": "/img/logos/orum.png",
+}
+
+
+def get_logo_path(domain):
+    """Get local logo path for a domain, with fallback."""
+    return DOMAIN_TO_LOGO.get(domain, f"/img/logos/{domain.split('.')[0]}.png")
 
 # Google Fonts preconnect + stylesheet tags
 GOOGLE_FONTS_TAGS = """    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -118,7 +157,7 @@ def add_logos_to_tool_cards(html):
 
     After:
         <div class="tool-name-row">
-            <img src="https://logo.clearbit.com/clay.com" alt="Clay logo" class="tool-logo" width="40" height="40" loading="lazy" onerror="this.style.display='none'">
+            <img src="/img/logos/clay.png" alt="Clay logo" class="tool-logo" width="40" height="40" loading="lazy" onerror="this.style.display='none'">
             <h3>Clay</h3>
         </div>
     """
@@ -138,7 +177,7 @@ def add_logos_to_tool_cards(html):
         if not domain:
             return full_match  # No domain found, leave as-is
 
-        logo_url = f"https://logo.clearbit.com/{domain}"
+        logo_url = get_logo_path(domain)
         return (
             f'<div class="tool-name-row">'
             f'<img src="{logo_url}" alt="{tool_name} logo" class="tool-logo" '
@@ -171,7 +210,7 @@ def add_logos_to_tool_cards(html):
         if not domain:
             return match.group(0)
 
-        logo_url = f"https://logo.clearbit.com/{domain}"
+        logo_url = get_logo_path(domain)
         return (
             f'{header_open}'
             f'<div class="tool-name-row">'
@@ -227,14 +266,14 @@ def add_logos_to_compare_headers(html):
     logo_b = ""
     if domain_a:
         logo_a = (
-            f'<img src="https://logo.clearbit.com/{domain_a}" '
+            f'<img src="{get_logo_path(domain_a)}" '
             f'alt="{tool_a} logo" class="compare-tool-logo" '
             f'width="48" height="48" loading="lazy" '
             f'onerror="this.style.display=\'none\'">'
         )
     if domain_b:
         logo_b = (
-            f'<img src="https://logo.clearbit.com/{domain_b}" '
+            f'<img src="{get_logo_path(domain_b)}" '
             f'alt="{tool_b} logo" class="compare-tool-logo" '
             f'width="48" height="48" loading="lazy" '
             f'onerror="this.style.display=\'none\'">'
@@ -289,7 +328,7 @@ def add_logos_to_review_header(html, filename):
 
     # Add logo before the h1
     logo_html = (
-        f'<img src="https://logo.clearbit.com/{found_domain}" '
+        f'<img src="{get_logo_path(found_domain)}" '
         f'alt="{found_name} logo" class="review-hero-logo" '
         f'width="56" height="56" loading="lazy" '
         f'onerror="this.style.display=\'none\'" '
@@ -365,7 +404,7 @@ def main():
     # Verification hints
     print(f"\nVerification:")
     print(f"  grep -r 'fonts.googleapis.com' --include='*.html' | wc -l  (should be {len(files)})")
-    print(f"  grep -r 'logo.clearbit.com' --include='*.html' | wc -l   (should be > 0)")
+    print(f"  grep -r '/img/logos/' --include='*.html' | wc -l          (should be > 0)")
     print(f"  grep -r 'trust-badges' --include='*.html' | wc -l        (should be 0)")
     print(f"  grep -r 'hero-byline' --include='*.html' | wc -l         (should be 1)")
 
