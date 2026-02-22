@@ -589,6 +589,138 @@
     color: var(--accent);
 }
 
+/* ─── Decision Module ──────────────────────────────────────────────── */
+
+.decision-module {
+    border-top: 3px solid var(--accent);
+    margin-top: 3rem;
+    padding-top: 2rem;
+}
+
+/* S1: Quick Verdict */
+.dm-verdict-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.dm-verdict-item {
+    padding: 1.5rem;
+    border-radius: var(--radius-sm);
+    background: var(--warm-bg-alt);
+}
+
+.dm-verdict-item h4 {
+    font-family: 'DM Serif Display', Georgia, serif;
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+}
+
+.dm-best-for {
+    border-left: 4px solid var(--success);
+}
+
+.dm-best-for h4 {
+    color: var(--success);
+}
+
+.dm-avoid-if {
+    border-left: 4px solid var(--warning);
+}
+
+.dm-avoid-if h4 {
+    color: var(--warning);
+}
+
+.dm-bottom-line {
+    border-left: 4px solid var(--accent);
+}
+
+.dm-bottom-line h4 {
+    color: var(--accent);
+}
+
+/* S2: Decision Snapshot scores */
+.dm-score {
+    font-weight: 800;
+    color: var(--accent);
+    font-size: 1.25rem;
+}
+
+.dm-snapshot-table td:nth-child(2) {
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+/* S3: Pricing Gotchas callout */
+.dm-pricing-gotchas {
+    background: rgba(245, 158, 11, 0.05);
+    border: 1px solid var(--warning);
+    border-radius: var(--radius-sm);
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.dm-pricing-gotchas h4 {
+    color: var(--warning);
+    font-family: 'DM Serif Display', Georgia, serif;
+    margin-bottom: 0.75rem;
+}
+
+.dm-pricing-gotchas ul {
+    margin: 0 0 0 1.25rem;
+}
+
+.dm-pricing-gotchas li {
+    color: var(--text-body);
+    margin-bottom: 0.5rem;
+}
+
+/* S8: Example Stack flow */
+.dm-example-stack {
+    background: var(--navy-dark);
+    color: var(--white);
+    padding: 1.5rem 2rem;
+    border-radius: var(--radius-md);
+    margin-top: 1.5rem;
+}
+
+.dm-example-stack h4 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.dm-stack-flow {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 0;
+}
+
+/* S11: Footer metadata */
+.dm-meta {
+    border-top: 1px solid var(--warm-border);
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
+
+.dm-meta p {
+    font-size: 0.8125rem;
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+.dm-meta a {
+    color: var(--accent-dark);
+    text-decoration: underline;
+}
+
 /* Responsive */
 @media (max-width: 968px) {
     .content-wrapper {
@@ -613,6 +745,12 @@
 
     .pricing-tier.featured.in-view {
         transform: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .dm-verdict-grid {
+        grid-template-columns: 1fr;
     }
 }
 

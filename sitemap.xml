@@ -284,6 +284,54 @@
     <priority>0.9</priority>
   </url>
 
+  <url>
+    <loc>https://salesaiguide.com/tools/apollo-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/tools/gong-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/tools/outreach-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/tools/salesloft-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/tools/hubspot-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/tools/zoominfo-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/tools/smartlead-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/tools/lavender-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- How We Score -->
+  <url>
+    <loc>https://salesaiguide.com/how-we-score/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
   <!-- Guide Pages -->
   <url>
     <loc>https://salesaiguide.com/guides/</loc>

@@ -41,6 +41,19 @@
       }
     }
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Is Clay worth $149/month?", "acceptedAnswer": {"@type": "Answer", "text": "For teams that currently subscribe to multiple data providers (Apollo, ZoomInfo, Hunter, etc.), Clay often saves money by consolidating into one credit-based system. If you only need one data source, a dedicated tool may be cheaper."}},
+        {"@type": "Question", "name": "How fast do Clay credits get used up?", "acceptedAnswer": {"@type": "Answer", "text": "Credit consumption varies by workflow complexity. Simple lookups use 1 credit each, but multi-step enrichment workflows with AI can burn through credits quickly. Most teams on the Explorer plan (10K credits) support 2-3 active reps."}},
+        {"@type": "Question", "name": "Can Clay replace ZoomInfo or Apollo?", "acceptedAnswer": {"@type": "Answer", "text": "Clay aggregates data from 50+ providers including ZoomInfo and Apollo, so it can replace direct subscriptions in many cases. However, Clay doesn't include a built-in CRM or email sending like Apollo does."}},
+        {"@type": "Question", "name": "How long does Clay take to set up?", "acceptedAnswer": {"@type": "Answer", "text": "Basic setup takes 1-2 hours for connecting integrations and importing data. Building advanced waterfall enrichment workflows takes days to weeks depending on complexity. Most teams see value within the first week."}},
+        {"@type": "Question", "name": "Does Clay work with my CRM?", "acceptedAnswer": {"@type": "Answer", "text": "Clay natively integrates with HubSpot, Salesforce, and Outreach. For other CRMs, you can use Zapier or Make. The API also supports custom integrations."}}
+      ]
+    }
+    </script>
 </head>
 <body>
     <nav class="navbar">
@@ -304,6 +317,210 @@
                         </div>
                     </section>
 
+                    <!-- ═══ DECISION MODULE ═══ -->
+                    <div id="decision-module" class="decision-module">
+
+                        <section class="content-section">
+                            <h2>Quick Verdict</h2>
+                            <div class="dm-verdict-grid">
+                                <div class="dm-verdict-item dm-best-for">
+                                    <h4>&#10003; Best For</h4>
+                                    <p>RevOps teams running multi-source enrichment workflows who want to consolidate 3-5 data subscriptions into one platform.</p>
+                                </div>
+                                <div class="dm-verdict-item dm-avoid-if">
+                                    <h4>&#10007; Avoid If</h4>
+                                    <p>You need a simple plug-and-play contact database or your budget is under $150/month for data tools.</p>
+                                </div>
+                                <div class="dm-verdict-item dm-bottom-line">
+                                    <h4>Bottom Line</h4>
+                                    <p>Clay is the power tool for data enrichment &mdash; unmatched flexibility through 50+ providers, but comes with a real learning curve and credit costs that can surprise you.</p>
+                                </div>
+                            </div>
+                            <div style="display:flex;gap:1rem;margin-top:1.5rem;flex-wrap:wrap;">
+                                <a href="/go/clay" class="btn btn-primary btn-large" target="_blank" rel="nofollow sponsored">Visit Clay &#8599;</a>
+                                <a href="#dm-alternatives" class="btn btn-outline">See Alternatives</a>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Decision Snapshot</h2>
+                            <p>Scores from 0&ndash;10 based on our <a href="../how-we-score/">scoring methodology</a>.</p>
+                            <div class="comparison-table-wrapper">
+                                <table class="comparison-table dm-snapshot-table">
+                                    <thead>
+                                        <tr><th>Dimension</th><th>Score</th><th>Notes</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td><strong>Enterprise Fit</strong></td><td><span class="dm-score">7</span>/10</td><td>SSO and team features on Pro plan; no SOC 2 certification publicly listed</td></tr>
+                                        <tr><td><strong>Ease of Adoption</strong></td><td><span class="dm-score">5</span>/10</td><td>Steep learning curve; spreadsheet UI is powerful but overwhelming for new users</td></tr>
+                                        <tr><td><strong>AI Depth</strong></td><td><span class="dm-score">9</span>/10</td><td>Native ChatGPT/Claude integration for research, personalization, and data analysis</td></tr>
+                                        <tr><td><strong>Integration Depth</strong></td><td><span class="dm-score">9</span>/10</td><td>200+ integrations; HubSpot, Salesforce, Outreach native; API and webhooks available</td></tr>
+                                        <tr><td><strong>Pricing Transparency</strong></td><td><span class="dm-score">7</span>/10</td><td>Tier pricing is public but credit consumption varies by workflow; hard to predict costs</td></tr>
+                                        <tr><td><strong>Scalability</strong></td><td><span class="dm-score">7</span>/10</td><td>Works well for small-to-mid teams; some users report slowness with very large tables</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Pricing Breakdown</h2>
+                            <p><strong>TL;DR:</strong> Starts at $149/mo (2K credits). Most teams need Explorer at $349/mo (10K credits). Enterprise starts at $800/mo.</p>
+                            <div class="dm-pricing-gotchas">
+                                <h4>&#9888; Pricing Gotchas</h4>
+                                <ul>
+                                    <li>Credits burn faster on multi-step workflows &mdash; a 5-step waterfall can use 5+ credits per record</li>
+                                    <li>AI enrichment steps consume credits on top of data lookups</li>
+                                    <li>The $149 &rarr; $349 tier jump is steep; no mid-tier option</li>
+                                    <li>Overage charges apply if you exceed your monthly credits</li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>What Clay Is Great At</h2>
+                            <div class="pros">
+                                <ul>
+                                    <li><strong>Data consolidation:</strong> Replace 3-5 data subscriptions with one unified credit system across 50+ providers</li>
+                                    <li><strong>Waterfall enrichment:</strong> Automatic fallback logic finds data when the first provider misses &mdash; match rates reported 20-40% higher than single-source tools</li>
+                                    <li><strong>AI-powered research:</strong> Built-in LLM integration turns raw data into personalized messaging and prospect analysis</li>
+                                    <li><strong>No-code workflow builder:</strong> Complex enrichment sequences without engineering support</li>
+                                    <li><strong>Active community:</strong> Template library and Slack community accelerate time-to-value for new users</li>
+                                    <li><strong>CRM sync flexibility:</strong> Bi-directional sync with major CRMs keeps data fresh across systems</li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Where Clay Breaks at Scale</h2>
+                            <div class="cons">
+                                <ul>
+                                    <li><strong>Credit cost unpredictability:</strong> Complex workflows make monthly costs hard to forecast until you've run them for a full cycle</li>
+                                    <li><strong>Performance with large datasets:</strong> Tables with 10K+ rows can become sluggish; batch processing helps but adds workflow complexity</li>
+                                    <li><strong>Onboarding time:</strong> G2 reviewers consistently report 2-4 weeks before teams are fully productive</li>
+                                    <li><strong>No built-in sending:</strong> Clay is data-only &mdash; you still need a separate tool for email/LinkedIn outreach</li>
+                                    <li><strong>Admin overhead:</strong> Maintaining workflows requires ongoing RevOps attention as data providers change</li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Who Should NOT Buy Clay</h2>
+                            <div class="use-case bad">
+                                <ul>
+                                    <li><strong>Solo SDRs on a budget:</strong> At $149/mo minimum, Clay is expensive if you just need basic contact lookup</li>
+                                    <li><strong>Teams wanting plug-and-play:</strong> If you want a tool that works out of the box without building workflows, use Apollo or Lusha instead</li>
+                                    <li><strong>Low-volume prospectors:</strong> Sending fewer than 200 emails/week doesn't justify the platform overhead</li>
+                                    <li><strong>Teams needing an all-in-one:</strong> Clay doesn't send emails, doesn't have a CRM &mdash; it's a data layer only</li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Implementation Reality</h2>
+                            <div class="stats-grid">
+                                <div class="stat-card">
+                                    <div class="stat-number">1&ndash;2 weeks</div>
+                                    <div class="stat-label">Time to Value</div>
+                                </div>
+                                <div class="stat-card">
+                                    <div class="stat-number">Medium</div>
+                                    <div class="stat-label">Setup Complexity</div>
+                                </div>
+                                <div class="stat-card">
+                                    <div class="stat-number">Medium</div>
+                                    <div class="stat-label">RevOps Lift</div>
+                                </div>
+                                <div class="stat-card">
+                                    <div class="stat-number">Medium</div>
+                                    <div class="stat-label">Training Required</div>
+                                </div>
+                                <div class="stat-card">
+                                    <div class="stat-number">Light</div>
+                                    <div class="stat-label">Data Migration</div>
+                                </div>
+                            </div>
+                            <p>Most teams connect their CRM and build 2-3 core workflows in the first week. Advanced waterfall sequences and AI-powered research workflows take 2-4 weeks to optimize.</p>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Common Stack Pairings</h2>
+                            <div class="feature-grid">
+                                <div class="feature-card">
+                                    <h4><a href="instantly-review.html">Instantly.ai</a></h4>
+                                    <p>Clay enriches the data, Instantly sends the cold emails at scale.</p>
+                                </div>
+                                <div class="feature-card">
+                                    <h4><a href="apollo-review.html">Apollo.io</a></h4>
+                                    <p>Use Apollo's database as one of Clay's 50+ data sources for enrichment.</p>
+                                </div>
+                                <div class="feature-card">
+                                    <h4>HubSpot CRM</h4>
+                                    <p>Bi-directional sync keeps enriched contact data flowing into HubSpot pipelines.</p>
+                                </div>
+                                <div class="feature-card">
+                                    <h4><a href="outreach-review.html">Outreach</a></h4>
+                                    <p>Clay enriches and scores leads; Outreach handles multi-channel sequences.</p>
+                                </div>
+                                <div class="feature-card">
+                                    <h4><a href="smartlead-review.html">Smartlead</a></h4>
+                                    <p>Alternative to Instantly for sending Clay-enriched leads via cold email.</p>
+                                </div>
+                            </div>
+                            <div class="dm-example-stack">
+                                <h4>Example Stack</h4>
+                                <p class="dm-stack-flow">Clay (enrich) &#8594; Instantly (send) &#8594; HubSpot (CRM) &#8594; Gong (calls)</p>
+                            </div>
+                        </section>
+
+                        <section id="dm-alternatives" class="content-section">
+                            <h2>Alternatives to Clay</h2>
+                            <div class="comparison-table-wrapper">
+                                <table class="comparison-table">
+                                    <thead>
+                                        <tr><th>Tool</th><th>Best For</th><th>G2 Rating</th><th>Price</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td><strong><a href="apollo-review.html">Apollo.io</a></strong></td><td>All-in-one prospecting + sending</td><td>4.8/5</td><td>From $49/mo</td></tr>
+                                        <tr><td><strong><a href="zoominfo-review.html">ZoomInfo</a></strong></td><td>Enterprise-grade B2B data</td><td>4.4/5</td><td>From $15K/yr</td></tr>
+                                        <tr><td><strong>Lusha</strong></td><td>Quick contact lookup</td><td>4.3/5</td><td>From $29/mo</td></tr>
+                                        <tr><td><strong>Clearbit</strong></td><td>Real-time enrichment API</td><td>4.4/5</td><td>Custom</td></tr>
+                                        <tr><td><strong>FullEnrich</strong></td><td>Budget Clay alternative</td><td>4.5/5</td><td>From $29/mo</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Frequently Asked Questions</h2>
+                            <div class="content-section" style="padding:0;margin:0;">
+                                <h3>Is Clay worth $149/month?</h3>
+                                <p>For teams that currently subscribe to multiple data providers (Apollo, ZoomInfo, Hunter, etc.), Clay often saves money by consolidating into one credit-based system. If you only need one data source, a dedicated tool may be cheaper.</p>
+                            </div>
+                            <div class="content-section" style="padding:0;margin:0;">
+                                <h3>How fast do Clay credits get used up?</h3>
+                                <p>Credit consumption varies by workflow complexity. Simple lookups use 1 credit each, but multi-step enrichment workflows with AI can burn through credits quickly. Most teams on the Explorer plan (10K credits) support 2-3 active reps.</p>
+                            </div>
+                            <div class="content-section" style="padding:0;margin:0;">
+                                <h3>Can Clay replace ZoomInfo or Apollo?</h3>
+                                <p>Clay aggregates data from 50+ providers including ZoomInfo and Apollo, so it can replace direct subscriptions in many cases. However, Clay doesn't include a built-in CRM or email sending like Apollo does.</p>
+                            </div>
+                            <div class="content-section" style="padding:0;margin:0;">
+                                <h3>How long does Clay take to set up?</h3>
+                                <p>Basic setup takes 1-2 hours for connecting integrations and importing data. Building advanced waterfall enrichment workflows takes days to weeks depending on complexity. Most teams see value within the first week.</p>
+                            </div>
+                            <div class="content-section" style="padding:0;margin:0;">
+                                <h3>Does Clay work with my CRM?</h3>
+                                <p>Clay natively integrates with HubSpot, Salesforce, and Outreach. For other CRMs, you can use Zapier or Make. The API also supports custom integrations.</p>
+                            </div>
+                        </section>
+
+                        <div class="dm-meta">
+                            <p><strong>Last verified:</strong> February 2026 &bull; <strong>Methodology:</strong> <a href="../how-we-score/">How we score tools</a> &bull; <a href="../disclosure.html">Affiliate disclosure</a></p>
+                        </div>
+
+                    </div>
+                    <!-- ═══ END DECISION MODULE ═══ -->
+
                     <div class="final-cta">
                         <h3>Learn More About Clay</h3>
                         <p>Visit their site for current pricing, a product demo, and free trial details.</p>
@@ -375,13 +592,26 @@
             <div class="footer-content">
                 <div class="footer-col">
                     <h4>Sales<span class="highlight">AI</span>Guide</h4>
-                    <p>A curated directory of AI sales tools with aggregated ratings and comparisons.</p>
+                    <p>A curated directory of AI sales tools. We aggregate ratings and organize comparisons so you can evaluate tools faster.</p>
                 </div>
                 <div class="footer-col">
-                    <h4>Top Tools</h4>
+                    <h4>Categories</h4>
                     <ul>
-                        <li><a href="instantly-review.html">Instantly.ai</a></li>
-                        <li><a href="clay-review.html">Clay</a></li>
+                        <li><a href="../categories/cold-outreach.html">Cold Outreach</a></li>
+                        <li><a href="../categories/lead-prospecting.html">Lead Prospecting</a></li>
+                        <li><a href="../categories/ai-sdrs.html">AI SDRs</a></li>
+                        <li><a href="../categories/revenue-intelligence.html">Revenue Intelligence</a></li>
+                        <li><a href="../categories/conversation-intelligence.html">Conversation Intelligence</a></li>
+                        <li><a href="../categories/sales-engagement.html">Sales Engagement</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="../compare/index.html">Comparisons</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../disclosure.html">Affiliate Disclosure</a></li>
+                        <li><a href="../how-we-score/">How We Score</a></li>
                     </ul>
                 </div>
             </div>

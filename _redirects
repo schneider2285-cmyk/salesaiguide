@@ -75,6 +75,9 @@
 # Sales analytics redirect (removed category)
 /categories/sales-analytics.html  /categories/revenue-intelligence.html  301
 
+# How We Score page
+/how-we-score      /how-we-score/index.html                    200
+
 # Directory index redirects
 /compare          /compare/index.html                        200
 /categories       /categories/index.html                     200
