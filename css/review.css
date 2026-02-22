@@ -862,6 +862,132 @@
     color: var(--success);
 }
 
+/* ─── Evidence Signals ─────────────────────────────────────────────── */
+
+.dm-evidence-signals {
+    background: var(--warm-bg-alt);
+    border: 1px solid var(--warm-border);
+    border-radius: var(--radius-md);
+    padding: 1.5rem 2rem;
+    margin: 1rem 0;
+}
+
+.dm-evidence-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.875rem;
+}
+
+.dm-evidence-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--text-body);
+    line-height: 1.5;
+}
+
+.dm-evidence-icon {
+    flex-shrink: 0;
+    width: 20px;
+    text-align: center;
+}
+
+.dm-evidence-label {
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.dm-evidence-label.fresh {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.dm-evidence-label.recent {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.dm-evidence-label.dated {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+/* ─── Video Demos ──────────────────────────────────────────────────── */
+
+.dm-video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.dm-video-slot {
+    background: var(--warm-bg-alt);
+    border: 1px solid var(--warm-border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.dm-video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    background: var(--navy-dark);
+}
+
+.dm-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.dm-video-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.dm-video-caption {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    color: var(--text-body);
+    font-weight: 500;
+}
+
+.dm-video-type {
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-right: 0.5rem;
+    background: var(--accent-light);
+    color: var(--accent-dark);
+}
+
 /* Responsive */
 @media (max-width: 968px) {
     .content-wrapper {
@@ -901,6 +1027,14 @@
 
     .dm-score-number {
         font-size: 2.75rem;
+    }
+
+    .dm-evidence-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .dm-video-grid {
+        grid-template-columns: 1fr;
     }
 }
 
