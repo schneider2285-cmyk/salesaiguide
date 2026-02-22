@@ -1,0 +1,40 @@
+name: Publish Agent
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'  # Every 2 hours
+  workflow_dispatch:        # Manual trigger from GitHub UI
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Publish Agent
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+        run: node scripts/publish.js
+
+      - name: Commit and push new pages
+        run: |
+          git config user.name "SalesAIGuide Bot"
+          git config user.email "bot@salesaiguide.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No new pages to publish"
+          else
+            git commit -m "feat(auto): publish new comparison pages
+
+            Published by SalesAIGuide Publish Agent
+            Triggered: ${{ github.event_name }}"
+            git push
+          fi
