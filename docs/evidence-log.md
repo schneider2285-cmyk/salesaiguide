@@ -2,6 +2,7 @@
 
 **Internal document — not published to site.**
 **Last updated:** February 2026
+**V2 Update:** Added Capterra, TrustRadius, Gartner Peer Insights, and ecosystem marketplace sources where applicable. Source pills and evidence drawers now visible on all 10 tool pages.
 
 ---
 
@@ -10,11 +11,12 @@
 - **Evidence Confidence:** High
 - **Source Buckets:** A (Reviews), B (Community), C (Video), D (Vendor Docs), E (Ecosystem)
 - **Sources Consulted:**
-  1. [Review Platform] – G2 Clay Reviews (accessed 2026-02-20) – https://www.g2.com/products/clay/reviews
-  2. [Community] – Reddit r/sales, r/salesops (accessed 2026-02-20) – https://www.reddit.com/r/sales/
-  3. [Video] – YouTube practitioner demos (accessed 2026-02-20) – https://www.youtube.com/results?search_query=clay+data+enrichment+demo
-  4. [Vendor Docs] – clay.com documentation and pricing (accessed 2026-02-20) – https://www.clay.com
-  5. [Ecosystem] – HubSpot Marketplace, Zapier integrations (accessed 2026-02-20) – https://ecosystem.hubspot.com/
+  1. [Review Platform] – G2 Clay Reviews – 4.9/5, 156 reviews (accessed 2026-02-23) – https://www.g2.com/products/clay/reviews
+  2. [Review Platform] – Capterra Clay Reviews – 4.7/5, 38 reviews (accessed 2026-02-23) – https://www.capterra.com/p/clay/
+  3. [Community] – Reddit r/sales, r/salesops – 14 threads (accessed 2026-02-23) – https://www.reddit.com/r/sales/
+  4. [Video] – YouTube practitioner demos – 8 demos (accessed 2026-02-23) – https://www.youtube.com/results?search_query=clay+data+enrichment+demo
+  5. [Vendor Docs] – clay.com documentation and pricing (accessed 2026-02-23) – https://www.clay.com
+  6. [Ecosystem] – HubSpot Marketplace, Zapier integrations (accessed 2026-02-23) – https://ecosystem.hubspot.com/
 - **Last Updated:** February 2026
 
 ---

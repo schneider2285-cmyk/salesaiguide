@@ -1097,6 +1097,179 @@
     color: var(--accent-dark);
 }
 
+/* ─── V2: User Voice Section ──────────────────────────────────────── */
+
+.dm-user-voice-theme {
+    background: var(--warm-card);
+    border: 1px solid var(--warm-border);
+    border-radius: var(--radius-md);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.dm-voice-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.dm-voice-header h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--navy-dark);
+    margin: 0;
+}
+
+.dm-voice-sentiment {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.dm-voice-sentiment.positive { background: #d1fae5; color: #065f46; }
+.dm-voice-sentiment.mixed { background: #fef3c7; color: #92400e; }
+.dm-voice-sentiment.negative { background: #fee2e2; color: #991b1b; }
+
+.dm-voice-synthesis {
+    font-size: 0.9rem;
+    color: var(--text-body);
+    line-height: 1.6;
+    margin: 0.5rem 0 0.75rem;
+}
+
+.dm-voice-sources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.dm-voice-count {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-light);
+    background: var(--warm-bg);
+    border: 1px solid var(--warm-border);
+    border-radius: 4px;
+    padding: 0.15rem 0.5rem;
+}
+
+/* ─── V2: Source Pills ────────────────────────────────────────────── */
+
+.dm-source-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.75rem 0;
+}
+
+.dm-source-pill {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-body);
+    background: var(--warm-card);
+    border: 1px solid var(--warm-border);
+    border-radius: 20px;
+    padding: 0.25rem 0.75rem;
+    white-space: nowrap;
+}
+
+/* ─── V2: Evidence Drawers ────────────────────────────────────────── */
+
+.dm-evidence-drawer {
+    margin-top: 0.5rem;
+}
+
+.dm-evidence-drawer summary {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.dm-evidence-drawer summary:hover {
+    color: var(--accent-dark);
+}
+
+.dm-evidence-chain {
+    list-style: none;
+    padding: 0.5rem 0 0 0;
+    margin: 0;
+}
+
+.dm-evidence-chain li {
+    font-size: 0.8rem;
+    color: var(--text-body);
+    line-height: 1.5;
+    padding: 0.2rem 0;
+    padding-left: 0.75rem;
+    border-left: 2px solid var(--warm-border);
+    margin-left: 0.25rem;
+}
+
+/* ─── V2: Enterprise Readiness Grid ───────────────────────────────── */
+
+.dm-enterprise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+}
+
+.dm-enterprise-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.75rem 1rem;
+    background: var(--warm-card);
+    border: 1px solid var(--warm-border);
+    border-radius: var(--radius-sm);
+}
+
+.dm-enterprise-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    color: var(--text-light);
+}
+
+.dm-enterprise-value {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-body);
+}
+
+.dm-enterprise-value.dm-available { color: #065f46; }
+.dm-enterprise-value.dm-unavailable { color: #991b1b; }
+.dm-enterprise-value.dm-partial { color: #92400e; }
+
+/* ─── V2: Evidence Freshness ──────────────────────────────────────── */
+
+.dm-evidence-freshness {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--warm-border);
+    font-size: 0.8rem;
+    color: var(--text-light);
+}
+
 /* Responsive */
 @media (max-width: 968px) {
     .content-wrapper {
@@ -1158,6 +1331,28 @@
 
     .dm-video-grid {
         grid-template-columns: 1fr;
+    }
+
+    .dm-voice-sources {
+        flex-direction: column;
+        gap: 0.35rem;
+    }
+
+    .dm-source-pills {
+        gap: 0.35rem;
+    }
+
+    .dm-enterprise-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .dm-user-voice-theme {
+        padding: 1rem;
+    }
+
+    .dm-evidence-freshness {
+        flex-direction: column;
+        gap: 0.5rem;
     }
 }
 

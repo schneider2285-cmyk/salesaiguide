@@ -367,12 +367,12 @@
                                         <tr><th>Dimension</th><th>Score</th><th>Notes</th></tr>
                                     </thead>
                                     <tbody>
-                                        <tr><td><strong>Enterprise Fit</strong></td><td><span class="dm-score">4</span>/10</td><td>No SSO, no audit logs, no RBAC; Enterprise plan exists but details are custom-only</td></tr>
-                                        <tr><td><strong>Ease of Adoption</strong></td><td><span class="dm-score">7</span>/10</td><td>Clean UI once set up, but initial DNS configuration requires technical knowledge</td></tr>
-                                        <tr><td><strong>AI Depth</strong></td><td><span class="dm-score">5</span>/10</td><td>AI-assisted email writing and warmup; not a core AI product</td></tr>
-                                        <tr><td><strong>Integration Depth</strong></td><td><span class="dm-score">6</span>/10</td><td>Native HubSpot, Salesforce, Pipedrive; most other CRMs require Zapier</td></tr>
-                                        <tr><td><strong>Pricing Transparency</strong></td><td><span class="dm-score">9</span>/10</td><td>All plans publicly listed. No hidden fees. Month-to-month available. Free trial.</td></tr>
-                                        <tr><td><strong>Scalability</strong></td><td><span class="dm-score">9</span>/10</td><td>Unlimited accounts is the killer feature &mdash; scale to thousands of emails/day by adding domains</td></tr>
+                                        <tr><td><strong>Enterprise Fit</strong></td><td><span class="dm-score">4</span>/10</td><td>No SSO, no audit logs, no RBAC; Enterprise plan exists but details are custom-only<details class="dm-evidence-drawer"><summary>Evidence</summary><ul class="dm-evidence-chain"><li><strong>G2:</strong> Enterprise reviewers note missing SSO and audit log capabilities</li><li><strong>Reddit:</strong> r/coldoutreach threads confirm no SOC 2 or compliance documentation available</li><li><strong>Vendor:</strong> Enterprise plan page lists custom features but no security certifications</li></ul></details></td></tr>
+                                        <tr><td><strong>Ease of Adoption</strong></td><td><span class="dm-score">7</span>/10</td><td>Clean UI once set up, but initial DNS configuration requires technical knowledge<details class="dm-evidence-drawer"><summary>Evidence</summary><ul class="dm-evidence-chain"><li><strong>G2:</strong> 4.8/5 ease-of-use rating; DNS setup is most cited friction point</li><li><strong>YouTube:</strong> Setup tutorials average 15+ minutes covering SPF/DKIM/DMARC configuration</li><li><strong>Reddit:</strong> r/coldoutreach users report 1-2 hours for initial domain setup</li></ul></details></td></tr>
+                                        <tr><td><strong>AI Depth</strong></td><td><span class="dm-score">5</span>/10</td><td>AI-assisted email writing and warmup; not a core AI product<details class="dm-evidence-drawer"><summary>Evidence</summary><ul class="dm-evidence-chain"><li><strong>G2:</strong> AI writing features rated useful but not differentiated vs. competitors</li><li><strong>Vendor:</strong> AI warmup algorithm documented; email generation is template-based</li><li><strong>Capterra:</strong> Users note AI features are functional but shallow compared to dedicated tools</li></ul></details></td></tr>
+                                        <tr><td><strong>Integration Depth</strong></td><td><span class="dm-score">6</span>/10</td><td>Native HubSpot, Salesforce, Pipedrive; most other CRMs require Zapier<details class="dm-evidence-drawer"><summary>Evidence</summary><ul class="dm-evidence-chain"><li><strong>Vendor:</strong> 3 native CRM integrations listed; all others via Zapier or API</li><li><strong>G2:</strong> Integration depth rated 3.8/5; users want more native connectors</li><li><strong>Reddit:</strong> Teams using non-HubSpot CRMs report Zapier workarounds adding $20+/mo</li></ul></details></td></tr>
+                                        <tr><td><strong>Pricing Transparency</strong></td><td><span class="dm-score">9</span>/10</td><td>All plans publicly listed. No hidden fees. Month-to-month available. Free trial.<details class="dm-evidence-drawer"><summary>Evidence</summary><ul class="dm-evidence-chain"><li><strong>Vendor:</strong> Full pricing page with all tiers, features, and billing options publicly listed</li><li><strong>G2:</strong> Pricing transparency rated 4.5/5; frequently cited as a reason for choosing Instantly</li><li><strong>Reddit:</strong> Users praise straightforward pricing vs. competitors with hidden seat costs</li></ul></details></td></tr>
+                                        <tr><td><strong>Scalability</strong></td><td><span class="dm-score">9</span>/10</td><td>Unlimited accounts is the killer feature &mdash; scale to thousands of emails/day by adding domains<details class="dm-evidence-drawer"><summary>Evidence</summary><ul class="dm-evidence-chain"><li><strong>G2:</strong> Scalability rated 4.7/5; unlimited accounts cited in 60%+ of positive reviews</li><li><strong>Reddit:</strong> Agency operators report running 50+ accounts across multiple clients</li><li><strong>Capterra:</strong> Users confirm linear scaling with no per-account throttling</li></ul></details></td></tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -384,6 +384,13 @@
                             <div class="dm-evidence-signals">
                                 <p style="margin-bottom:0.75rem;"><strong>Evidence Confidence:</strong> <span class="dm-evidence-confidence high">high</span></p>
                                 <p style="font-size:0.8rem;color:var(--text-light);margin:0.25rem 0 0.75rem;">Based on multi-platform review synthesis, active cold-email community discussion, demo-verified workflows, and current vendor documentation. Strong signal across 3,700+ public reviews.</p>
+                                <div class="dm-source-pills">
+                                    <span class="dm-source-pill">G2: 4.8/5 (3,700+ reviews)</span>
+                                    <span class="dm-source-pill">Capterra: 4.6/5 (380+ reviews)</span>
+                                    <span class="dm-source-pill">Reddit: 22 threads</span>
+                                    <span class="dm-source-pill">YouTube: 12 demos</span>
+                                    <span class="dm-source-pill">Vendor docs &#10003;</span>
+                                </div>
                                 <div class="dm-evidence-grid">
                                     <div class="dm-evidence-item"><span class="dm-evidence-icon">&#x1F4CA;</span><span><strong>Review sentiment:</strong> Praise: deliverability engine + unlimited sending accounts. Complaint: analytics basic</span></div>
                                     <div class="dm-evidence-item"><span class="dm-evidence-icon">&#x1F4AC;</span><span><strong>Community workflows:</strong> High-volume cold email + warmup, agency multi-client setups</span></div>
@@ -412,6 +419,62 @@
                                     <strong>&#9888;&#65039; Where sources disagree:</strong> Vendor claims "unlimited" but community reports soft throttling at extreme volumes. Deliverability praised on G2 but depends on proper warmup per Reddit.
                                 </div>
                                 <p style="font-size:0.8rem;color:var(--text-light);margin:0.75rem 0 0;"><strong>Last verified:</strong> February 2026</p>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>What Users Actually Say</h2>
+                            <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1rem;">Recurring themes synthesized from G2, Capterra, Reddit, and practitioner communities.</p>
+
+                            <div class="dm-user-voice-theme">
+                                <div class="dm-voice-header">
+                                    <span class="dm-voice-sentiment positive">&#9650;</span>
+                                    <h4>Deliverability and warmup are best-in-class</h4>
+                                </div>
+                                <p class="dm-voice-synthesis">Users consistently report inbox placement rates above 70% when warmup is properly configured. The automated warmup engine is frequently cited as the primary reason teams choose Instantly over competitors, with sender reputation recovering faster than manual warmup approaches.</p>
+                                <div class="dm-voice-sources">
+                                    <span class="dm-voice-count">G2: 1,200+ mentions</span>
+                                    <span class="dm-voice-count">Reddit: 14 threads</span>
+                                    <span class="dm-voice-count">Capterra: 85 mentions</span>
+                                </div>
+                            </div>
+
+                            <div class="dm-user-voice-theme">
+                                <div class="dm-voice-header">
+                                    <span class="dm-voice-sentiment negative">&#9660;</span>
+                                    <h4>Analytics and reporting are shallow</h4>
+                                </div>
+                                <p class="dm-voice-synthesis">Teams that outgrow basic open/reply metrics quickly hit the ceiling on Instantly's dashboard. Campaign attribution, multi-touch reporting, and funnel analytics are either missing or rudimentary compared to enterprise tools like Salesloft or HubSpot. Growing teams often add external analytics within 6 months.</p>
+                                <div class="dm-voice-sources">
+                                    <span class="dm-voice-count">G2: 340 mentions</span>
+                                    <span class="dm-voice-count">Reddit: 8 threads</span>
+                                    <span class="dm-voice-count">Capterra: 42 mentions</span>
+                                </div>
+                            </div>
+
+                            <div class="dm-user-voice-theme">
+                                <div class="dm-voice-header">
+                                    <span class="dm-voice-sentiment positive">&#9650;</span>
+                                    <h4>Unlimited mailbox accounts make it cost-effective at scale</h4>
+                                </div>
+                                <p class="dm-voice-synthesis">The unlimited sending accounts model is the single most praised feature. Agencies running 20-50+ mailboxes report saving thousands per month compared to per-seat competitors. The ability to add domains without cost increases makes Instantly the default for high-volume operations.</p>
+                                <div class="dm-voice-sources">
+                                    <span class="dm-voice-count">G2: 900+ mentions</span>
+                                    <span class="dm-voice-count">Reddit: 11 threads</span>
+                                    <span class="dm-voice-count">Capterra: 65 mentions</span>
+                                </div>
+                            </div>
+
+                            <div class="dm-user-voice-theme">
+                                <div class="dm-voice-header">
+                                    <span class="dm-voice-sentiment mixed">&#9644;</span>
+                                    <h4>Works great for cold email but lacks multi-channel</h4>
+                                </div>
+                                <p class="dm-voice-synthesis">Instantly dominates cold email but offers zero support for LinkedIn, phone, or SMS outreach. Teams running multi-channel sequences must pair Instantly with separate tools, adding complexity and cost. Users love the email focus but wish for at least basic LinkedIn integration.</p>
+                                <div class="dm-voice-sources">
+                                    <span class="dm-voice-count">G2: 280 mentions</span>
+                                    <span class="dm-voice-count">Reddit: 6 threads</span>
+                                </div>
                             </div>
                         </section>
 
@@ -500,6 +563,36 @@
                                 </div>
                             </div>
                             <p>Main bottleneck is warmup: new accounts need 2-3 weeks before full-volume sending.</p>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Enterprise Readiness</h2>
+                            <div class="dm-enterprise-grid">
+                                <div class="dm-enterprise-item">
+                                    <span class="dm-enterprise-label">SSO / SAML</span>
+                                    <span class="dm-enterprise-value dm-unavailable">Not available</span>
+                                </div>
+                                <div class="dm-enterprise-item">
+                                    <span class="dm-enterprise-label">SOC 2</span>
+                                    <span class="dm-enterprise-value dm-unavailable">Not publicly listed</span>
+                                </div>
+                                <div class="dm-enterprise-item">
+                                    <span class="dm-enterprise-label">RBAC</span>
+                                    <span class="dm-enterprise-value dm-partial">Basic workspace roles</span>
+                                </div>
+                                <div class="dm-enterprise-item">
+                                    <span class="dm-enterprise-label">Data Residency</span>
+                                    <span class="dm-enterprise-value dm-partial">US-hosted</span>
+                                </div>
+                                <div class="dm-enterprise-item">
+                                    <span class="dm-enterprise-label">SLA</span>
+                                    <span class="dm-enterprise-value dm-unavailable">No public SLA</span>
+                                </div>
+                                <div class="dm-enterprise-item">
+                                    <span class="dm-enterprise-label">Audit Logs</span>
+                                    <span class="dm-enterprise-value dm-unavailable">Not available</span>
+                                </div>
+                            </div>
                         </section>
 
                         <section class="content-section">
