@@ -1161,6 +1161,29 @@
     padding: 0.15rem 0.5rem;
 }
 
+/* ─── V2: User Quotes ────────────────────────────────────────────── */
+
+.dm-user-quote {
+    margin: 0.75rem 0 0;
+    padding: 0.75rem 1rem;
+    background: #fffbf0;
+    border-left: 3px solid var(--star-yellow, #f4a623);
+    font-style: italic;
+    font-size: 0.85rem;
+    color: var(--text-body);
+    line-height: 1.6;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.dm-user-quote cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-style: normal;
+    font-size: 0.75rem;
+    color: var(--text-light);
+    font-weight: 600;
+}
+
 /* ─── V2: Source Pills ────────────────────────────────────────────── */
 
 .dm-source-pills {
