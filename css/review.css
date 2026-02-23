@@ -1270,6 +1270,213 @@
     color: var(--text-light);
 }
 
+/* ─── V2 Phase 2: Comparison Module ───────────────────────────────── */
+
+.cm-score-comparison {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: var(--warm-bg-alt);
+    border: 1px solid var(--warm-border);
+    border-radius: var(--radius-md);
+}
+
+.cm-score-tool {
+    text-align: center;
+    flex: 1;
+    max-width: 220px;
+}
+
+.cm-score-tool img {
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.cm-score-tool h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy-dark);
+    margin: 0 0 0.5rem;
+}
+
+.cm-score-pair {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.cm-score-pair .dm-score-card {
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.35rem 0.75rem;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.cm-score-pair .dm-score-card.org {
+    background: var(--navy-dark);
+    color: var(--white);
+}
+
+.cm-score-pair .dm-score-card.individual {
+    background: var(--accent);
+    color: var(--white);
+}
+
+.cm-score-vs {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.25rem;
+    color: var(--text-light);
+    flex-shrink: 0;
+}
+
+.cm-dimension-table .cm-edge {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--accent-dark);
+}
+
+.cm-voice-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.cm-voice-col h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--navy-dark);
+    margin: 0 0 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent);
+}
+
+.cm-pricing-comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.cm-pricing-tool {
+    background: var(--warm-card);
+    border: 1px solid var(--warm-border);
+    border-radius: var(--radius-md);
+    padding: 1.25rem;
+}
+
+.cm-pricing-tool h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--navy-dark);
+    margin: 0 0 0.75rem;
+}
+
+.cm-enterprise-comparison {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    gap: 0;
+    border: 1px solid var(--warm-border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.cm-enterprise-comparison .cm-ent-header,
+.cm-enterprise-comparison .cm-ent-cell {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+    border-bottom: 1px solid var(--warm-border);
+}
+
+.cm-enterprise-comparison .cm-ent-header {
+    background: var(--navy-dark);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.cm-enterprise-comparison .cm-ent-label {
+    font-weight: 600;
+    color: var(--text-dark);
+    background: var(--warm-bg-alt);
+}
+
+.cm-enterprise-comparison .cm-ent-cell:last-child {
+    border-bottom: none;
+}
+
+.cm-migration-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.cm-migration-card {
+    background: var(--warm-bg-alt);
+    border: 1px solid var(--warm-border);
+    border-radius: var(--radius-md);
+    padding: 1rem 1.25rem;
+}
+
+.cm-migration-card h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--navy-dark);
+    margin: 0 0 0.5rem;
+}
+
+.cm-migration-card p {
+    font-size: 0.85rem;
+    color: var(--text-body);
+    margin: 0.25rem 0;
+}
+
+.cm-faq-list details {
+    background: var(--warm-card);
+    border: 1px solid var(--warm-border);
+    border-radius: var(--radius-sm);
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+}
+
+.cm-faq-list summary {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--navy-dark);
+    padding: 0.875rem 1rem;
+    cursor: pointer;
+    list-style: none;
+}
+
+.cm-faq-list summary::-webkit-details-marker { display: none; }
+
+.cm-faq-list summary::before {
+    content: "+";
+    margin-right: 0.5rem;
+    font-weight: 400;
+    color: var(--accent);
+}
+
+.cm-faq-list details[open] summary::before {
+    content: "−";
+}
+
+.cm-faq-list details p {
+    padding: 0 1rem 0.875rem;
+    font-size: 0.9rem;
+    color: var(--text-body);
+    line-height: 1.6;
+    margin: 0;
+}
+
 /* Responsive */
 @media (max-width: 968px) {
     .content-wrapper {
@@ -1353,6 +1560,22 @@
     .dm-evidence-freshness {
         flex-direction: column;
         gap: 0.5rem;
+    }
+
+    .cm-score-comparison {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .cm-voice-grid,
+    .cm-pricing-comparison,
+    .cm-migration-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cm-enterprise-comparison {
+        grid-template-columns: auto 1fr;
     }
 }
 
