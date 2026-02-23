@@ -867,8 +867,9 @@
 .dm-evidence-signals {
     background: var(--warm-bg-alt);
     border: 1px solid var(--warm-border);
+    border-top: 3px solid var(--accent);
     border-radius: var(--radius-md);
-    padding: 1.5rem 2rem;
+    padding: 1.75rem 2rem;
     margin: 1rem 0;
 }
 
@@ -924,22 +925,22 @@
 .dm-evidence-confidence {
     display: inline-block;
     font-family: 'DM Sans', sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     font-weight: 700;
-    padding: 0.2rem 0.6rem;
+    padding: 0.25rem 0.7rem;
     border-radius: 4px;
     text-transform: uppercase;
     letter-spacing: 0.3px;
 }
 
-.dm-evidence-confidence.high { background: #d1fae5; color: #065f46; }
-.dm-evidence-confidence.medium { background: #fef3c7; color: #92400e; }
+.dm-evidence-confidence.high { background: #bbf7d0; color: #065f46; }
+.dm-evidence-confidence.medium { background: #fde68a; color: #92400e; }
 .dm-evidence-confidence.low { background: #fee2e2; color: #991b1b; }
 
 .dm-evidence-themes {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1.25rem;
+    gap: 1.5rem;
     margin-top: 1rem;
     padding-top: 1rem;
     border-top: 1px solid var(--warm-border);
@@ -951,7 +952,8 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.3px;
-    margin-bottom: 0.5rem;
+    color: var(--navy-dark);
+    margin-bottom: 0.75rem;
 }
 
 .dm-evidence-theme-col ul {
@@ -975,10 +977,10 @@
 
 .dm-evidence-disagree {
     margin-top: 1rem;
-    padding: 0.875rem 1.25rem;
+    padding: 1rem 1.25rem;
     background: var(--warm-bg);
-    border-left: 3px solid var(--warning);
-    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    border-left: 4px solid var(--warning);
+    border-radius: 0 6px 6px 0;
     font-size: 0.85rem;
     color: var(--text-body);
     line-height: 1.5;
@@ -1136,10 +1138,22 @@
         font-size: 2.75rem;
     }
 
+    .dm-evidence-signals {
+        padding: 1.25rem 1rem;
+    }
+
     .dm-evidence-grid,
     .dm-evidence-themes,
     .dm-screenshot-grid {
         grid-template-columns: 1fr;
+    }
+
+    .dm-evidence-themes {
+        gap: 1rem;
+    }
+
+    .dm-evidence-disagree {
+        padding: 0.875rem 1rem;
     }
 
     .dm-video-grid {
