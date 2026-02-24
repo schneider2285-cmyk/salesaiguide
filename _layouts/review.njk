@@ -1,0 +1,541 @@
+---
+layout: base.njk
+extraCss:
+  - /css/review.css
+---
+{% set t = tools[tool] %}
+
+    <div class="review-header">
+        <div class="container">
+            <div class="breadcrumbs">
+                <a href="/index.html">Home</a> <span style="color:var(--accent);margin:0 0.25rem">›</span> <a href="/tools/index.html">Tools</a> <span style="color:var(--accent);margin:0 0.25rem">›</span> {{ t.hero.breadcrumbName }}
+            </div>
+            {% if t.hero.logoSrc %}
+            <img src="{{ t.hero.logoSrc }}" alt="{{ t.hero.logoAlt }}" class="review-hero-logo" width="56" height="56" loading="lazy" onerror="this.style.display='none'" style="margin-bottom: 1rem; border-radius: 12px; background: white; padding: 4px;">
+            {% endif %}
+            <h1>{{ t.hero.h1 }}</h1>
+            <div class="review-meta">
+                <div class="rating-large">
+                    <span class="stars">{{ t.hero.starsHtml | safe }}</span>
+                    <span class="score">{{ t.hero.score }}</span>
+                </div>
+                <div class="updated">{{ t.hero.updated }}</div>
+                <div class="tested">{{ t.hero.dataSource }}</div>
+            </div>
+            {% if t.hero.personaTags %}
+            <div class="persona-tags" style="margin-top:0.75rem;">{% for tag in t.hero.personaTags %}<span class="persona-tag {{ tag.class }}">{{ tag.text }}</span>{% endfor %}</div>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="quick-summary">
+        <div class="container">
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <h3>What It Does</h3>
+                    <p>{{ t.quickSummary.whatItDoes }}</p>
+                </div>
+                <div class="summary-item">
+                    <h3>Best For</h3>
+                    <p>{{ t.quickSummary.bestFor }}</p>
+                </div>
+                <div class="summary-item">
+                    <h3>Pricing</h3>
+                    <p>{{ t.quickSummary.pricing }}</p>
+                </div>
+                <div class="summary-item cta-item">
+                    <a href="{{ t.quickSummary.ctaUrl }}" class="btn btn-primary btn-large" target="_blank" rel="nofollow sponsored">{{ t.quickSummary.ctaText }} &#8599;</a>
+                    <p class="cta-note">Affiliate link &mdash; <a href="/disclosure.html" style="color: var(--text-light);">disclosure</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <article class="review-content">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="main-content">
+
+                    <section class="content-section">
+                        <h2>What Is {{ t.hero.breadcrumbName }}?</h2>
+                        {% for p in t.whatIs.paragraphs %}
+                        <p>{{ p | safe }}</p>
+                        {% endfor %}
+                        {% if t.whatIs.noteHtml %}
+                        <p><em>{{ t.whatIs.noteHtml | safe }}</em></p>
+                        {% endif %}
+                    </section>
+
+                    <section class="content-section">
+                        <h2>Key Features</h2>
+                        <div class="feature-grid">
+                            {% for feature in t.features %}
+                            <div class="feature-card">
+                                <h4>{{ feature.title }}</h4>
+                                <p>{{ feature.description }}</p>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </section>
+
+                    <section class="content-section">
+                        <h2>Pricing</h2>
+                        <p><em>{{ t.pricing.note }}</em></p>
+                        <div class="pricing-table">
+                            {% for tier in t.pricing.tiers %}
+                            <div class="pricing-tier{% if tier.featured %} featured{% endif %}">
+                                {% if tier.badge %}
+                                <div class="tier-badge">{{ tier.badge }}</div>
+                                {% endif %}
+                                <h3>{{ tier.name }}</h3>
+                                <div class="price-amount">{{ tier.price }}<span>/{{ tier.period }}</span></div>
+                                <ul>
+                                    {% for item in tier.features %}
+                                    <li>{{ item }}</li>
+                                    {% endfor %}
+                                </ul>
+                                <a href="{{ tier.ctaUrl }}" class="btn {{ tier.ctaClass }}" target="_blank" rel="nofollow sponsored">{{ tier.ctaText }} &#8599;</a>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <p><strong>{{ t.pricing.creditNote | safe }}</strong></p>
+                    </section>
+
+                    <section class="content-section">
+                        <h2>What G2 Reviewers Say</h2>
+                        <p>{{ t.g2Reviews.intro }}</p>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h3>Common Praise</h3>
+                                <ul>
+                                    {% for item in t.g2Reviews.pros %}
+                                    <li><strong>{{ item.bold }}:</strong> {{ item.text }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h3>Common Criticism</h3>
+                                <ul>
+                                    {% for item in t.g2Reviews.cons %}
+                                    <li><strong>{{ item.bold }}:</strong> {{ item.text }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        <p>Read all reviews: <a href="{{ t.g2Reviews.link }}" target="_blank" rel="noopener">{{ t.hero.breadcrumbName }} on G2 &rarr;</a></p>
+                    </section>
+
+                    <section class="content-section">
+                        <h2>{{ t.hero.breadcrumbName }} vs Competitors</h2>
+                        <div class="comparison-table-wrapper">
+                            <table class="comparison-table">
+                                <thead>
+                                    <tr>
+                                        {% for header in t.competitorTable.headers %}
+                                        <th>{{ header }}</th>
+                                        {% endfor %}
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for row in t.competitorTable.rows %}
+                                    <tr>
+                                        <td>{% if row.featureBold %}<strong>{{ row.feature }}</strong>{% else %}{{ row.feature }}{% endif %}</td>
+                                        {% for val in row.values %}
+                                        <td{% if val.class %} class="{{ val.class }}"{% endif %}>{{ val.text | safe }}</td>
+                                        {% endfor %}
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                        <p>See full comparisons: {% for link in t.competitorTable.seeFullLinks %}{% if not loop.first %} | {% endif %}<a href="{{ link.url }}">{{ link.text }}</a>{% endfor %}</p>
+                    </section>
+
+                    <section class="content-section">
+                        <h2>Who Is {{ t.hero.breadcrumbName }} For?</h2>
+                        <div class="use-cases">
+                            <div class="use-case good">
+                                <h4>&#10003; {{ t.whoIsFor.goodFit.heading }}</h4>
+                                <ul>
+                                    {% for item in t.whoIsFor.goodFit.items %}
+                                    <li>{{ item }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="use-case bad">
+                                <h4>&#10007; {{ t.whoIsFor.notAFit.heading }}</h4>
+                                <ul>
+                                    {% for item in t.whoIsFor.notAFit.items %}
+                                    <li>{{ item }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- ═══ DECISION MODULE ═══ -->
+                    <div id="decision-module" class="decision-module">
+
+                        <section class="content-section">
+                            <h2>Quick Verdict</h2>
+                            <div class="dm-verdict-grid">
+                                <div class="dm-verdict-item dm-best-for">
+                                    <h4>&#10003; Best For</h4>
+                                    <p>{{ t.decisionModule.verdict.bestFor }}</p>
+                                </div>
+                                <div class="dm-verdict-item dm-avoid-if">
+                                    <h4>&#10007; Avoid If</h4>
+                                    <p>{{ t.decisionModule.verdict.avoidIf }}</p>
+                                </div>
+                                <div class="dm-verdict-item dm-bottom-line">
+                                    <h4>Bottom Line</h4>
+                                    <p>{{ t.decisionModule.verdict.bottomLine | safe }}</p>
+                                </div>
+                            </div>
+                            <div style="display:flex;gap:1rem;margin-top:1.5rem;flex-wrap:wrap;">
+                                <a href="{{ t.decisionModule.verdict.ctaUrl }}" class="btn btn-primary btn-large" target="_blank" rel="nofollow sponsored">{{ t.decisionModule.verdict.ctaText }} &#8599;</a>
+                                <a href="#dm-alternatives" class="btn btn-outline">See Alternatives</a>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Org vs Individual Score</h2>
+                            <div class="dm-dual-score">
+                                <div class="dm-score-card org">
+                                    <div class="dm-score-label">Org Fit Score</div>
+                                    <div class="dm-score-number">{{ t.decisionModule.dualScore.org.score }}</div>
+                                    <p class="dm-score-explain">{{ t.decisionModule.dualScore.org.explain }}</p>
+                                </div>
+                                <div class="dm-score-card individual">
+                                    <div class="dm-score-label">Individual Rep Value</div>
+                                    <div class="dm-score-number">{{ t.decisionModule.dualScore.individual.score }}</div>
+                                    <p class="dm-score-explain">{{ t.decisionModule.dualScore.individual.explain }}</p>
+                                </div>
+                            </div>
+                            <div class="dm-sub-scores">
+                                {% for sub in t.decisionModule.subScores %}
+                                <span class="dm-sub-chip">{{ sub.label }} <strong>{{ sub.score }}</strong></span>
+                                {% endfor %}
+                            </div>
+                            <p style="font-size:0.875rem;color:var(--text-light);">Composite scores derived from our <a href="/methodology/">6-dimension scoring methodology</a>.</p>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Decision Snapshot</h2>
+                            <p>{{ t.decisionModule.decisionSnapshot.intro | safe }}</p>
+                            <div class="comparison-table-wrapper">
+                                <table class="comparison-table dm-snapshot-table">
+                                    <thead>
+                                        <tr><th>Dimension</th><th>Score</th><th>Notes</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for row in t.decisionModule.decisionSnapshot.rows %}
+                                        <tr><td><strong>{{ row.dimension }}</strong></td><td><span class="dm-score">{{ row.score }}</span>/10</td><td>{{ row.notes }}{% if row.evidence %}<details class="dm-evidence-drawer"><summary>Evidence</summary><ul class="dm-evidence-chain">{% for e in row.evidence %}<li><strong>{{ e.source }}:</strong> {{ e.text }}</li>{% endfor %}</ul></details>{% endif %}</td></tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Evidence Signals</h2>
+                            <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1rem;">What we verified and where the data comes from. <a href="/methodology/">Our methodology</a>.</p>
+                            <div class="dm-evidence-signals">
+                                <p style="margin-bottom:0.75rem;"><strong>Evidence Confidence:</strong> <span class="dm-evidence-confidence {{ t.decisionModule.evidenceSignals.confidence }}">{{ t.decisionModule.evidenceSignals.confidence }}</span></p>
+                                <p style="font-size:0.8rem;color:var(--text-light);margin:0.25rem 0 0.75rem;">{{ t.decisionModule.evidenceSignals.confidenceNote }}</p>
+                                <div class="dm-source-pills">
+                                    {% for pill in t.decisionModule.evidenceSignals.sourcePills %}
+                                    <span class="dm-source-pill">{{ pill | safe }}</span>
+                                    {% endfor %}
+                                </div>
+                                <div class="dm-evidence-freshness">
+                                    {% for item in t.decisionModule.evidenceSignals.freshness %}
+                                    <span>{{ item | safe }}</span>
+                                    {% endfor %}
+                                </div>
+                                <div class="dm-evidence-grid">
+                                    {% for item in t.decisionModule.evidenceSignals.evidenceGrid %}
+                                    <div class="dm-evidence-item"><span class="dm-evidence-icon">{{ item.icon | safe }}</span><span>{{ item.text | safe }}</span></div>
+                                    {% endfor %}
+                                </div>
+                                <div class="dm-evidence-themes">
+                                    <div class="dm-evidence-theme-col">
+                                        <h4>Strength Themes</h4>
+                                        <ul>
+                                            {% for theme in t.decisionModule.evidenceSignals.strengthThemes %}
+                                            <li>{{ theme }}</li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                    <div class="dm-evidence-theme-col">
+                                        <h4>Limitation Themes</h4>
+                                        <ul>
+                                            {% for theme in t.decisionModule.evidenceSignals.limitationThemes %}
+                                            <li>{{ theme }}</li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dm-evidence-disagree">
+                                    <strong>{{ t.decisionModule.evidenceSignals.disagreeNote | safe }}</strong>
+                                </div>
+                                <p style="font-size:0.8rem;color:var(--text-light);margin:0.75rem 0 0;"><strong>Last verified:</strong> {{ t.decisionModule.evidenceSignals.lastVerified }}</p>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>What Users Actually Say</h2>
+                            <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1rem;">Recurring themes synthesized from G2, Capterra, Reddit, and practitioner communities.</p>
+
+                            {% for theme in t.decisionModule.userVoiceThemes %}
+                            <div class="dm-user-voice-theme">
+                                <div class="dm-voice-header">
+                                    <span class="dm-voice-sentiment {{ theme.sentiment }}">{{ theme.sentimentIcon | safe }}</span>
+                                    <h4>{{ theme.heading }}</h4>
+                                </div>
+                                <p class="dm-voice-synthesis">{{ theme.synthesis }}</p>
+                                <div class="dm-voice-sources">
+                                    {% for source in theme.sources %}
+                                    <span class="dm-voice-count">{{ source }}</span>
+                                    {% endfor %}
+                                </div>
+                                <blockquote class="dm-user-quote">
+                                    {{ theme.quote | safe }}
+                                    <cite>— {{ theme.quoteCite }}</cite>
+                                </blockquote>
+                            </div>
+                            {% endfor %}
+                        </section>
+
+                        <section class="content-section" id="dm-screenshots" style="display:none;">
+                            <h2>Screenshots</h2>
+                            <p style="font-size:0.9rem;color:var(--text-light);">Key interface views.</p>
+                            <div class="dm-screenshot-grid">
+                                <!-- Populate with real screenshots then remove style="display:none" from section -->
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Pricing Breakdown</h2>
+                            <p><strong>TL;DR:</strong> {{ t.decisionModule.pricingBreakdown.tldr }}</p>
+                            <div class="dm-pricing-gotchas">
+                                <h4>&#9888; Pricing Gotchas</h4>
+                                <ul>
+                                    {% for gotcha in t.decisionModule.pricingBreakdown.gotchas %}
+                                    <li>{{ gotcha | safe }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>What {{ t.hero.breadcrumbName }} Is Great At</h2>
+                            <div class="pros">
+                                <ul>
+                                    {% for item in t.decisionModule.greatAt %}
+                                    <li>{{ item | safe }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Where {{ t.hero.breadcrumbName }} Breaks at Scale</h2>
+                            <div class="cons">
+                                <ul>
+                                    {% for item in t.decisionModule.breaksAtScale %}
+                                    <li>{{ item | safe }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Who Should NOT Buy {{ t.hero.breadcrumbName }}</h2>
+                            <div class="use-case bad">
+                                <ul>
+                                    {% for item in t.decisionModule.whoShouldNotBuy %}
+                                    <li>{{ item | safe }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Implementation Reality</h2>
+                            <div class="stats-grid">
+                                {% for stat in t.decisionModule.implementationReality.stats %}
+                                <div class="stat-card">
+                                    <div class="stat-number">{{ stat.number | safe }}</div>
+                                    <div class="stat-label">{{ stat.label }}</div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <p>{{ t.decisionModule.implementationReality.note }}</p>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Enterprise Readiness</h2>
+                            <div class="dm-enterprise-grid">
+                                {% for item in t.decisionModule.enterpriseReadiness %}
+                                <div class="dm-enterprise-item">
+                                    <span class="dm-enterprise-label">{{ item.label }}</span>
+                                    <span class="dm-enterprise-value {{ item.class }}">{{ item.value }}</span>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Who This Is For</h2>
+                            <div class="dm-persona-split">
+                                <div class="dm-persona-block org">
+                                    <h3>{{ t.decisionModule.whoThisIsFor.org.heading }}</h3>
+                                    <ul>
+                                        {% for item in t.decisionModule.whoThisIsFor.org.items %}
+                                        <li>{{ item }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                                <div class="dm-persona-block individual">
+                                    <h3>{{ t.decisionModule.whoThisIsFor.individual.heading }}</h3>
+                                    <ul>
+                                        {% for item in t.decisionModule.whoThisIsFor.individual.items %}
+                                        <li>{{ item }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Common Stack Pairings</h2>
+                            <div class="feature-grid">
+                                {% for card in t.decisionModule.stackPairings.cards %}
+                                <div class="feature-card">
+                                    <h4>{% if card.titleLink %}<a href="{{ card.titleLink }}">{{ card.title }}</a>{% else %}{{ card.title }}{% endif %}</h4>
+                                    <p>{{ card.description }}</p>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <div class="dm-example-stack">
+                                <h4>Example Stack</h4>
+                                <p class="dm-stack-flow">{{ t.decisionModule.stackPairings.exampleStack | safe }}</p>
+                            </div>
+                        </section>
+
+                        <section class="content-section" id="dm-videos" style="display:none;">
+                            <h2>Real-World Reviews &amp; Walkthroughs</h2>
+                            <p style="font-size:0.9rem;color:var(--text-light);">Practitioner walkthroughs and vendor demos.</p>
+                            <div class="dm-video-grid">
+                                <!-- Populate with real video embeds then remove style="display:none" from section -->
+                            </div>
+                        </section>
+
+                        <section id="dm-alternatives" class="content-section">
+                            <h2>Alternatives to {{ t.hero.breadcrumbName }}</h2>
+                            <div class="comparison-table-wrapper">
+                                <table class="comparison-table">
+                                    <thead>
+                                        <tr><th>Tool</th><th>Best For</th><th>G2 Rating</th><th>Price</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for row in t.decisionModule.alternatives.rows %}
+                                        <tr><td><strong>{% if row.toolLink %}<a href="{{ row.toolLink }}">{{ row.tool }}</a>{% else %}{{ row.tool }}{% endif %}</strong></td><td>{{ row.bestFor }}</td><td>{{ row.g2 }}</td><td>{{ row.price }}</td></tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+
+                        <section class="content-section">
+                            <h2>Frequently Asked Questions</h2>
+                            {% for faq in t.decisionModule.faqs %}
+                            <div class="content-section" style="padding:0;margin:0;">
+                                <h3>{{ faq.question }}</h3>
+                                <p>{{ faq.answer }}</p>
+                            </div>
+                            {% endfor %}
+                        </section>
+
+                        <div class="dm-meta">
+                            <p><strong>Last verified:</strong> {{ t.decisionModule.meta.lastVerified }} &bull; <strong>Methodology:</strong> <a href="{{ t.decisionModule.meta.methodologyLink }}">How we score tools</a> &bull; <a href="{{ t.decisionModule.meta.disclosureLink }}">Affiliate disclosure</a></p>
+                        </div>
+
+                    </div>
+                    <!-- ═══ END DECISION MODULE ═══ -->
+
+                    <div class="final-cta">
+                        <h3>{{ t.finalCta.heading }}</h3>
+                        <p>{{ t.finalCta.description }}</p>
+                        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                            <a href="{{ t.finalCta.primaryUrl }}" class="btn btn-primary btn-large" target="_blank" rel="nofollow sponsored">{{ t.finalCta.primaryText }} &#8599;</a>
+                            <a href="{{ t.finalCta.secondaryUrl }}" class="btn btn-outline btn-large" target="_blank" rel="noopener">{{ t.finalCta.secondaryText }} &#8599;</a>
+                        </div>
+                        <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--text-light);">{{ t.finalCta.disclosureText | safe }}</p>
+                    </div>
+
+                </div>
+
+                <aside class="sidebar">
+                    <div class="sidebar-card">
+                        <h4>At a Glance</h4>
+                        <div class="quick-stats">
+                            {% for stat in t.sidebar.atAGlance %}
+                            <div class="stat">
+                                <span class="label">{{ stat.label }}</span>
+                                <span class="value">{{ stat.value }}</span>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <a href="{{ t.sidebar.ctaUrl }}" class="btn btn-primary btn-block" target="_blank" rel="nofollow sponsored">Visit Site &#8599;</a>
+                    </div>
+
+                    {% if t.sidebar.comparisons.length %}
+                    <div class="sidebar-card">
+                        <h4>Comparisons</h4>
+                        <ul class="related-links">
+                            {% for link in t.sidebar.comparisons %}
+                            <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+
+                    {% if t.sidebar.externalReviews.length %}
+                    <div class="sidebar-card">
+                        <h4>External Reviews</h4>
+                        <ul class="related-links">
+                            {% for link in t.sidebar.externalReviews %}
+                            <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.text }} &#8599;</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+
+                    {% if t.sidebar.relatedGuides.length %}
+                    <div class="sidebar-card">
+                        <h4>Related Guides</h4>
+                        <ul class="related-links">
+                            {% for link in t.sidebar.relatedGuides %}
+                            <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+
+                    <div class="sidebar-card sidebar-email-card">
+                        <h4>{{ t.sidebar.emailCard.heading }}</h4>
+                        <p>{{ t.sidebar.emailCard.description }}</p>
+                        <form class="netlify-newsletter" name="newsletter-sidebar" method="POST" data-netlify="true">
+                            <input type="hidden" name="form-name" value="newsletter-sidebar">
+                            <input type="email" name="email" placeholder="Work email" required>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                        <div class="form-message"></div>
+                        <p class="newsletter-privacy">No spam. Unsubscribe anytime.</p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </article>

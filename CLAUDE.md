@@ -150,7 +150,7 @@ All affiliate links use `/go/[tool-slug]` (managed via `_redirects`). When affil
 
 ## Development Rules
 
-- **Static HTML only** — no build tools, no frameworks
+- **Eleventy (11ty) SSG** — `.njk` templates in `_layouts/` and `_includes/`, data in `_data/`, output to `_site/`. Run `npm run build` or `npx @11ty/eleventy`. Only `.njk` files are processed as templates; all `.html` files are passthrough-copied unchanged. New pages should use `.njk` templates; existing HTML pages remain static until migrated.
 - **Dark navy theme** — all pages match the design system above
 - **SEO on every page** — canonical URL, OG tags, JSON-LD, sitemap entry
 - **Mobile responsive** — hamburger nav at 768px breakpoint

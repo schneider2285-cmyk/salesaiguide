@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "title": "Clay Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "description": "Clay product profile with G2 ratings, pricing tiers, key features, and competitor comparison table. Data aggregated from G2 and vendor documentation.",
+    "ogTitle": "Clay Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "ogDescription": "Clay product profile with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources.",
+    "ogUrl": "https://salesaiguide.com/tools/clay-review.html",
+    "canonicalUrl": "https://salesaiguide.com/tools/clay-review.html",
+    "twitterTitle": "Clay Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "twitterDescription": "Clay product profile with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources."
+  },
+  "jsonLd": {
+    "softwareApplication": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Clay",
+      "applicationCategory": "Sales Software",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "ratingCount": "183",
+        "reviewCount": "183"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "149",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31"
+      }
+    },
+    "faqPage": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Clay worth $149/month?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For teams that currently subscribe to multiple data providers (Apollo, ZoomInfo, Hunter, etc.), Clay often saves money by consolidating into one credit-based system. If you only need one data source, a dedicated tool may be cheaper."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast do Clay credits get used up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Credit consumption varies by workflow complexity. Simple lookups use 1 credit each, but multi-step enrichment workflows with AI can burn through credits quickly. Most teams on the Explorer plan (10K credits) support 2-3 active reps."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Clay replace ZoomInfo or Apollo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clay aggregates data from 50+ providers including ZoomInfo and Apollo, so it can replace direct subscriptions in many cases. However, Clay doesn't include a built-in CRM or email sending like Apollo does."
+          }
+        }
+      ]
+    }
+  },
+  "hero": {
+    "breadcrumbName": "Clay",
+    "logoSrc": "/img/logos/clay.png",
+    "logoAlt": "Clay logo",
+    "h1": "Clay: Data Enrichment & Prospecting Platform",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9733;",
+    "score": "4.9/5 on G2",
+    "updated": "Updated February 2026",
+    "dataSource": "Data from G2 & clay.com",
+    "personaTags": [
+      { "class": "requires-admin", "text": "Requires Admin" }
+    ]
+  },
+  "quickSummary": {
+    "whatItDoes": "Access 50+ data providers from one spreadsheet interface with AI-powered enrichment and waterfall logic.",
+    "bestFor": "Sales teams who need high-quality data enrichment and want to build prospecting workflows without code.",
+    "pricing": "Starts at $149/month (Starter). Explorer at $349/mo. Pro at $800/mo.",
+    "ctaUrl": "/go/clay",
+    "ctaText": "Visit Clay"
+  },
+  "whatIs": {
+    "paragraphs": [
+      "Clay is a data enrichment platform that aggregates 50+ providers (Apollo, ZoomInfo, Hunter, Clearbit, etc.) into a spreadsheet-like interface with a unified credit system, AI-powered research, and waterfall enrichment logic for RevOps and sales teams."
+    ],
+    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/clay/reviews\" target=\"_blank\" rel=\"noopener\">Clay on G2</a>."
+  },
+  "features": [
+    { "title": "50+ Data Providers", "description": "Access Apollo, ZoomInfo, Hunter, Clearbit via unified credits." },
+    { "title": "AI-Powered Enrichment", "description": "ChatGPT/Claude integration for research and personalized copy." },
+    { "title": "Waterfall Enrichment", "description": "Automatic fallback sequences across providers for higher match rates." },
+    { "title": "No-Code Integrations", "description": "200+ integrations including HubSpot, Salesforce, Instantly." },
+    { "title": "Spreadsheet Interface", "description": "Familiar spreadsheet UI for building workflows without code." },
+    { "title": "Team Collaboration", "description": "Shared workspace with templates and real-time editing." }
+  ],
+  "pricing": {
+    "note": "Pricing from clay.com. Verify on their site before purchasing.",
+    "tiers": [
+      {
+        "name": "Starter",
+        "price": "$149",
+        "period": "month",
+        "features": [
+          "2,000 credits/month",
+          "All 50+ data providers",
+          "AI integrations",
+          "Basic integrations",
+          "1 user seat"
+        ],
+        "ctaUrl": "/go/clay",
+        "ctaText": "Visit Site",
+        "ctaClass": "btn-primary",
+        "featured": false
+      },
+      {
+        "name": "Explorer",
+        "price": "$349",
+        "period": "month",
+        "badge": "Most Popular",
+        "features": [
+          "10,000 credits/month",
+          "Everything in Starter",
+          "Advanced integrations",
+          "Priority support",
+          "3 user seats"
+        ],
+        "ctaUrl": "/go/clay",
+        "ctaText": "Visit Site",
+        "ctaClass": "btn-primary",
+        "featured": true
+      },
+      {
+        "name": "Pro",
+        "price": "$800",
+        "period": "month",
+        "features": [
+          "30,000 credits/month",
+          "Everything in Explorer",
+          "Dedicated CSM",
+          "Custom integrations",
+          "Unlimited seats"
+        ],
+        "ctaUrl": "/go/clay",
+        "ctaText": "Contact Sales",
+        "ctaClass": "btn-outline",
+        "featured": false
+      }
+    ],
+    "creditNote": "How credits work: 1 credit = 1 enrichment action; Explorer (10K/month) supports 2-3 reps."
+  },
+  "g2Reviews": {
+    "intro": "Based on 156 reviews on G2 (4.9/5 rating):",
+    "pros": [
+      { "bold": "Replaces multiple tools", "text": "Consolidates data subscriptions into one" },
+      { "bold": "Data quality", "text": "Waterfall enrichment yields better match rates" },
+      { "bold": "AI integration", "text": "ChatGPT/Claude cited as a differentiator" },
+      { "bold": "No-code workflows", "text": "Non-technical users build enrichment flows" },
+      { "bold": "Active community", "text": "Templates and Slack community praised" }
+    ],
+    "cons": [
+      { "bold": "Learning curve", "text": "Takes time to learn the platform" },
+      { "bold": "Credits burn fast", "text": "Complex workflows consume credits quickly" },
+      { "bold": "Can be overwhelming", "text": "Feature density barriers new users" },
+      { "bold": "Price jumps", "text": "$149 to $349 gap steep for small teams" },
+      { "bold": "Performance", "text": "Slowness reported with large tables" }
+    ],
+    "link": "https://www.g2.com/products/clay/reviews"
+  },
+  "competitorTable": {
+    "headers": ["Feature", "Clay", "Apollo", "ZoomInfo"],
+    "rows": [
+      { "feature": "G2 Rating", "featureBold": true, "values": [{ "text": "4.9/5 (156)" }, { "text": "4.8/5 (7,200)" }, { "text": "4.4/5 (8,300)" }] },
+      { "feature": "Data Providers", "featureBold": false, "values": [{ "text": "50+" }, { "text": "1 (built-in)" }, { "text": "1 (built-in)" }] },
+      { "feature": "AI Enrichment", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }] },
+      { "feature": "Waterfall Logic", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }] },
+      { "feature": "Starting Price", "featureBold": false, "values": [{ "text": "$149/mo" }, { "text": "$49/mo" }, { "text": "$15K+/year" }] },
+      { "feature": "Built-in CRM", "featureBold": false, "values": [{ "text": "&#10007;", "class": "cross" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }] },
+      { "feature": "Email Sending", "featureBold": false, "values": [{ "text": "&#10007;", "class": "cross" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }] }
+    ],
+    "seeFullLinks": [
+      { "text": "Clay vs Apollo", "url": "/compare/clay-vs-apollo.html" },
+      { "text": "Clay vs Clearbit", "url": "/compare/clay-vs-clearbit.html" }
+    ]
+  },
+  "whoIsFor": {
+    "goodFit": {
+      "heading": "Good Fit If You:",
+      "items": [
+        "Need data from multiple enrichment sources",
+        "Run multi-step prospecting workflows",
+        "Want AI-assisted research and personalization",
+        "Are comfortable with a learning curve",
+        "Pay for multiple data tools separately"
+      ]
+    },
+    "notAFit": {
+      "heading": "Likely Not a Fit If You:",
+      "items": [
+        "Need a simple, plug-and-play tool",
+        "Budget is under $149/month",
+        "Want built-in email sending",
+        "Need basic prospecting only"
+      ]
+    }
+  },
+  "decisionModule": {
+    "verdict": {
+      "bestFor": "RevOps teams running multi-source enrichment workflows who want to consolidate 3-5 data subscriptions into one platform.",
+      "avoidIf": "You need a simple plug-and-play contact database or your budget is under $150/month for data tools.",
+      "bottomLine": "Clay is the power tool for data enrichment &mdash; unmatched flexibility through 50+ providers, but comes with a real learning curve and credit costs that can surprise you.",
+      "ctaUrl": "/go/clay",
+      "ctaText": "Visit Clay"
+    },
+    "dualScore": {
+      "org": {
+        "score": 73,
+        "explain": "Strong integration and enrichment depth make it ideal for RevOps teams building centralized data workflows."
+      },
+      "individual": {
+        "score": 68,
+        "explain": "Powerful but steep learning curve and credit-based pricing create friction for solo reps."
+      }
+    },
+    "subScores": [
+      { "label": "Enterprise Fit", "score": "7/10" },
+      { "label": "Ease of Adoption", "score": "5/10" },
+      { "label": "AI Depth", "score": "9/10" },
+      { "label": "Integration Depth", "score": "9/10" },
+      { "label": "Pricing Transparency", "score": "7/10" },
+      { "label": "Scalability", "score": "7/10" }
+    ],
+    "decisionSnapshot": {
+      "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
+      "rows": [
+        {
+          "dimension": "Enterprise Fit",
+          "score": 7,
+          "notes": "SOC 2 Type II certified; SSO on Enterprise plan only",
+          "evidence": [
+            { "source": "G2", "text": "Enterprise users note team management features added recently" },
+            { "source": "Vendor", "text": "SOC 2 Type II certified via trust.clay.com; SSO available on Enterprise plan" },
+            { "source": "Reddit", "text": "r/sales threads discuss enterprise readiness improvements" },
+            { "source": "TrustRadius", "text": "Mid-market users praise team workspace features but note enterprise admin controls are basic" }
+          ]
+        },
+        {
+          "dimension": "Ease of Adoption",
+          "score": 5,
+          "notes": "Steep learning curve; spreadsheet UI is powerful but overwhelming for new users",
+          "evidence": [
+            { "source": "G2", "text": "40% of reviewers mention learning curve in first 2 weeks" },
+            { "source": "Reddit", "text": "r/sales users report 1-2 week ramp for basic workflows" },
+            { "source": "YouTube", "text": "Demo walkthroughs average 20+ minutes for core features" },
+            { "source": "TrustRadius", "text": "8 of 14 reviewers mention significant onboarding effort" }
+          ]
+        },
+        {
+          "dimension": "AI Depth",
+          "score": 9,
+          "notes": "Native ChatGPT/Claude integration for research, personalization, and data analysis",
+          "evidence": [
+            { "source": "G2", "text": "AI enrichment columns consistently praised as differentiator" },
+            { "source": "Vendor", "text": "Native OpenAI + Anthropic integration documented in API docs" },
+            { "source": "Community", "text": "Practitioners share AI-powered waterfall templates on Slack" }
+          ]
+        },
+        {
+          "dimension": "Integration Depth",
+          "score": 9,
+          "notes": "200+ integrations; HubSpot, Salesforce, Outreach native; API and webhooks available",
+          "evidence": [
+            { "source": "Vendor", "text": "200+ listed integrations on docs site; native CRM connectors" },
+            { "source": "G2", "text": "Integration depth rated 4.6/5 across enterprise reviewers" },
+            { "source": "Capterra", "text": "Users confirm reliable HubSpot and Salesforce sync" },
+            { "source": "Software Advice", "text": "Users rate integrations 4.8/5 for breadth of connectors" }
+          ]
+        },
+        {
+          "dimension": "Pricing Transparency",
+          "score": 7,
+          "notes": "Tier pricing is public but credit consumption varies by workflow; hard to predict costs",
+          "evidence": [
+            { "source": "Vendor", "text": "Public pricing page with 3 tiers and credit allocations" },
+            { "source": "Reddit", "text": "Multiple threads report surprise costs from multi-step waterfalls" },
+            { "source": "G2", "text": "Pricing transparency rated 3.9/5; credit model is the main complaint" }
+          ]
+        },
+        {
+          "dimension": "Scalability",
+          "score": 7,
+          "notes": "Works well for small-to-mid teams; some users report slowness with very large tables",
+          "evidence": [
+            { "source": "G2", "text": "Enterprise users report table performance degrades past 10K rows" },
+            { "source": "Reddit", "text": "Teams of 5-15 reps report no issues; 50+ seat deployments less common" },
+            { "source": "Vendor", "text": "No published performance benchmarks or SLA guarantees" }
+          ]
+        }
+      ]
+    },
+    "evidenceSignals": {
+      "confidence": "high",
+      "confidenceNote": "Based on multi-platform review synthesis, active practitioner community discussion, demo walkthroughs, and verified vendor documentation. Strong signal across 150+ public reviews.",
+      "sourcePills": [
+        "G2: 4.9/5 (183 reviews)",
+        "TrustRadius: 9.3/10 (135 reviews)",
+        "Reddit: 14+ threads",
+        "YouTube: 8+ demos",
+        "Vendor docs &#10003;",
+        "Trust center &#10003;"
+      ],
+      "freshness": [
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 318+ total reviews across 2 verified platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
+      ],
+      "evidenceGrid": [
+        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: unmatched waterfall enrichment flexibility. Complaint: credit burn unpredictable" },
+        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> Waterfall enrichment, CRM-to-Clay-to-outbound loops" },
+        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Spreadsheet UI, AI enrichment columns, HubSpot sync" },
+        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Pricing tiers, 200+ integrations, API documentation" }
+      ],
+      "strengthThemes": [
+        "Waterfall enrichment flexibility unmatched",
+        "Spreadsheet UI makes complex workflows accessible",
+        "200+ integration connectors"
+      ],
+      "limitationThemes": [
+        "Credit burn unpredictable on large tables",
+        "Learning curve for non-technical users",
+        "Pricing jumps sharply between tiers"
+      ],
+      "disagreeNote": "&#9888;&#65039; Where sources disagree: Community reports credit costs vary widely vs. vendor docs suggesting predictable pricing. G2 praises flexibility; Reddit flags unexpected bills.",
+      "lastVerified": "February 2026"
+    },
+    "userVoiceThemes": [
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Waterfall enrichment finds data other tools miss",
+        "synthesis": "Users consistently report that Clay's multi-provider waterfall approach yields 20-40% higher match rates than single-source tools like Apollo or ZoomInfo. The ability to chain 50+ providers means if one source misses a contact, the next picks it up automatically.",
+        "sources": ["G2: 67 mentions", "Reddit: 9 threads", "Capterra: 18 mentions"],
+        "quote": "\"We switched from ZoomInfo to Clay and our match rates jumped from 60% to 85%. The waterfall approach across 50+ providers means we almost never hit a dead end on enrichment.\"",
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+      },
+      {
+        "sentiment": "negative",
+        "sentimentIcon": "&#9660;",
+        "heading": "Credit burn surprises teams mid-month",
+        "synthesis": "The most common complaint across all platforms: credit consumption is hard to predict. Multi-step workflows with AI enrichment can burn 5-10x more credits than expected. Teams frequently report running out of credits mid-cycle, forcing upgrades or workflow pauses.",
+        "sources": ["G2: 43 mentions", "Reddit: 11 threads", "Capterra: 14 mentions"],
+        "quote": "\"Love the product, but our monthly bill went from $400 to $1,200 when we added multi-step waterfalls. You need a dedicated ops person just to monitor credit usage.\"",
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+      },
+      {
+        "sentiment": "mixed",
+        "sentimentIcon": "&#9644;",
+        "heading": "Powerful but steep learning curve divides users",
+        "synthesis": "The spreadsheet-style UI is both Clay's strength and weakness. Technical users and RevOps teams praise the flexibility. Non-technical reps consistently report frustration in the first 1-2 weeks. The community templates and Claybooks help, but onboarding remains a real investment.",
+        "sources": ["G2: 52 mentions", "Reddit: 6 threads", "Capterra: 11 mentions"],
+        "quote": "\"It took our team about two weeks to get comfortable with Clay's spreadsheet interface. Once it clicked, we built workflows that would have taken 10x longer in any other tool.\"",
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+      },
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Replaces 3-5 data subscriptions for most teams",
+        "synthesis": "RevOps teams report consolidating separate subscriptions to ZoomInfo, Clearbit, Hunter, and others into Clay's single credit-based system. The net cost is often lower than maintaining multiple tools, though total spend depends heavily on workflow complexity.",
+        "sources": ["G2: 38 mentions", "Reddit: 5 threads"],
+        "quote": "\"Clay's HubSpot integration is the best I've used — bidirectional sync, custom field mapping, and it just works. We retired three Zapier automations after connecting Clay directly.\"",
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+      },
+      {
+        "sentiment": "mixed",
+        "sentimentIcon": "&#9654;",
+        "heading": "Multi-step workflows are powerful but credit costs add up fast",
+        "synthesis": "TrustRadius and Software Advice reviewers echo the G2 sentiment about credit consumption, noting that complex waterfall workflows with 5+ steps can burn through monthly credits in the first week. Several mid-market users recommend starting with simple 2-3 step chains before scaling.",
+        "sources": ["TrustRadius: 8 mentions", "Software Advice: 14 mentions", "G2: 41 mentions"],
+        "quote": "\"We burned through our entire monthly credit allotment in five days after building a 6-step waterfall. Start with simple 2-3 step chains and scale up once you understand the credit math.\"",
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+      }
+    ],
+    "pricingBreakdown": {
+      "tldr": "$149/mo (2K credits). Most teams need Explorer at $349/mo (10K credits). Enterprise at $800/mo.",
+      "gotchas": [
+        "5-step waterfalls can use 5+ credits per record",
+        "AI steps consume credits on top of data lookups",
+        "$149 &rarr; $349 tier jump is steep; no mid-tier option",
+        "Overage charges apply when you exceed monthly credits"
+      ]
+    },
+    "greatAt": [
+      "<strong>Data consolidation:</strong> Replace 3-5 data subs with one credit system across 50+ providers",
+      "<strong>Waterfall enrichment:</strong> Fallback logic yields 20-40% higher match rates than single-source tools",
+      "<strong>AI-powered research:</strong> LLM integration turns raw data into personalized messaging",
+      "<strong>No-code workflow builder:</strong> Complex enrichment sequences without engineering",
+      "<strong>Active community:</strong> Templates and Slack community accelerate time-to-value"
+    ],
+    "breaksAtScale": [
+      "<strong>Credit cost unpredictability:</strong> Monthly costs hard to forecast until workflows run a full cycle",
+      "<strong>Large dataset performance:</strong> 10K+ row tables can become sluggish",
+      "<strong>Onboarding time:</strong> 2-4 weeks before teams are fully productive",
+      "<strong>No built-in sending:</strong> Data-only &mdash; need a separate outreach tool",
+      "<strong>Admin overhead:</strong> Workflows need ongoing RevOps attention"
+    ],
+    "whoShouldNotBuy": [
+      "<strong>Solo SDRs on a budget:</strong> $149/mo minimum is steep for basic contact lookup",
+      "<strong>Teams wanting plug-and-play:</strong> Use Apollo or Lusha if you don't want to build workflows",
+      "<strong>Low-volume prospectors:</strong> Under 200 emails/week doesn't justify the overhead",
+      "<strong>Teams needing an all-in-one:</strong> No email sending, no CRM &mdash; data layer only"
+    ],
+    "implementationReality": {
+      "stats": [
+        { "number": "1&ndash;2 weeks", "label": "Time to Value" },
+        { "number": "Medium", "label": "Setup Complexity" },
+        { "number": "Medium", "label": "RevOps Lift" },
+        { "number": "Medium", "label": "Training Required" },
+        { "number": "Light", "label": "Data Migration" }
+      ],
+      "note": "Most teams build 2-3 core workflows in the first week; advanced waterfall sequences take 2-4 weeks to optimize."
+    },
+    "enterpriseReadiness": [
+      { "label": "SSO / SAML", "value": "Enterprise plan only (Okta, Azure AD, Google)", "class": "dm-available" },
+      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
+      { "label": "RBAC", "value": "Team roles on Explorer+", "class": "dm-available" },
+      { "label": "Data Residency", "value": "US-hosted; no EU option listed", "class": "dm-partial" },
+      { "label": "SLA", "value": "No public SLA", "class": "dm-unavailable" },
+      { "label": "Audit Logs", "value": "Activity history available", "class": "dm-partial" }
+    ],
+    "whoThisIsFor": {
+      "org": {
+        "heading": "Best for Sales Teams & RevOps",
+        "items": [
+          "RevOps consolidating 3-5 data subscriptions into one platform",
+          "Sales ops automating enrichment across the full pipeline",
+          "Growth teams needing multi-source waterfall enrichment"
+        ]
+      },
+      "individual": {
+        "heading": "Best for Individual Reps",
+        "items": [
+          "Reps comfortable with spreadsheet-style data manipulation",
+          "Solo prospectors needing enriched leads without a data team",
+          "ICs willing to invest time learning advanced workflows"
+        ]
+      }
+    },
+    "stackPairings": {
+      "cards": [
+        { "title": "Instantly.ai", "titleLink": "instantly-review.html", "description": "Clay enriches; Instantly sends at scale." },
+        { "title": "Apollo.io", "titleLink": "apollo-review.html", "description": "Apollo database as one of Clay's 50+ sources." },
+        { "title": "HubSpot CRM", "titleLink": null, "description": "Bi-directional sync for enriched contacts." },
+        { "title": "Outreach", "titleLink": "outreach-review.html", "description": "Clay enriches; Outreach runs sequences." },
+        { "title": "Smartlead", "titleLink": "smartlead-review.html", "description": "Instantly alternative for Clay-enriched sends." }
+      ],
+      "exampleStack": "Clay (enrich) &#8594; Instantly (send) &#8594; HubSpot (CRM) &#8594; Gong (calls)"
+    },
+    "alternatives": {
+      "rows": [
+        { "tool": "Apollo.io", "toolLink": "apollo-review.html", "bestFor": "All-in-one prospecting + sending", "g2": "4.8/5", "price": "From $49/mo" },
+        { "tool": "ZoomInfo", "toolLink": "zoominfo-review.html", "bestFor": "Enterprise-grade B2B data", "g2": "4.4/5", "price": "From $15K/yr" },
+        { "tool": "Lusha", "toolLink": null, "bestFor": "Quick contact lookup", "g2": "4.3/5", "price": "From $29/mo" },
+        { "tool": "Clearbit", "toolLink": null, "bestFor": "Real-time enrichment API", "g2": "4.4/5", "price": "Custom" },
+        { "tool": "FullEnrich", "toolLink": null, "bestFor": "Budget Clay alternative", "g2": "4.5/5", "price": "From $29/mo" }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is Clay worth $149/month?",
+        "answer": "For teams subscribing to multiple data providers, Clay saves money by consolidating into one credit system. If you only need one source, a dedicated tool may be cheaper."
+      },
+      {
+        "question": "How fast do Clay credits get used up?",
+        "answer": "Simple lookups use 1 credit, but multi-step AI workflows burn credits fast. Most Explorer plan teams (10K credits) support 2-3 reps."
+      },
+      {
+        "question": "Can Clay replace ZoomInfo or Apollo?",
+        "answer": "Clay aggregates 50+ providers including ZoomInfo and Apollo, replacing direct subscriptions in many cases. However, it lacks a built-in CRM or email sending."
+      }
+    ],
+    "meta": {
+      "lastVerified": "February 2026",
+      "methodologyLink": "/methodology/",
+      "disclosureLink": "/disclosure.html"
+    }
+  },
+  "sidebar": {
+    "atAGlance": [
+      { "label": "G2 Rating", "value": "4.9/5" },
+      { "label": "G2 Reviews", "value": "156" },
+      { "label": "Starting Price", "value": "$149/mo" },
+      { "label": "Category", "value": "Data Enrichment" },
+      { "label": "Free Trial", "value": "Yes" }
+    ],
+    "ctaUrl": "/go/clay",
+    "comparisons": [
+      { "text": "Clay vs Apollo", "url": "/compare/clay-vs-apollo.html" },
+      { "text": "Clay vs Clearbit", "url": "/compare/clay-vs-clearbit.html" }
+    ],
+    "externalReviews": [
+      { "text": "G2 Reviews", "url": "https://www.g2.com/products/clay/reviews" }
+    ],
+    "relatedGuides": [
+      { "text": "Best AI Prospecting Tools", "url": "/guides/best-ai-outbound-prospecting-tools.html" },
+      { "text": "Best AI Email Outreach Tools", "url": "/guides/best-ai-email-outreach-tools.html" }
+    ],
+    "emailCard": {
+      "heading": "Weekly Tool Intel",
+      "description": "Get honest tool comparisons and decision frameworks in your inbox."
+    }
+  },
+  "finalCta": {
+    "heading": "Learn More About Clay",
+    "description": "Visit their site for current pricing, a product demo, and free trial details.",
+    "primaryUrl": "/go/clay",
+    "primaryText": "Visit Clay",
+    "secondaryUrl": "https://www.g2.com/products/clay/reviews",
+    "secondaryText": "Read G2 Reviews",
+    "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VRBZ6Z6885"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-VRBZ6Z6885');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ ogTitle }}">
+    <meta property="og:description" content="{{ ogDescription }}">
+    <meta property="og:url" content="{{ ogUrl }}">
+    <meta property="og:site_name" content="Sales AI Guide">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ twitterTitle }}">
+    <meta name="twitter:description" content="{{ twitterDescription }}">
+    <meta name="description" content="{{ description }}">
+    <link rel="canonical" href="{{ canonicalUrl }}">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    {% if extraCss %}{% for css in extraCss %}
+    <link rel="stylesheet" href="{{ css }}">
+    {% endfor %}{% endif %}
+    {% if extraHead %}{{ extraHead | safe }}{% endif %}
+</head>
+<body>
+    {% include "navbar.njk" %}
+
+    {{ content | safe }}
+
+    {% include "newsletter.njk" %}
+    {% include "footer.njk" %}
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
