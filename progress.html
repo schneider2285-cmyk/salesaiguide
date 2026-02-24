@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SalesAIGuide — Project Progress</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --surface2: #22263a;
+      --border: #2e3348;
+      --accent: #00c2a8;
+      --accent2: #4f8ef7;
+      --warn: #f5a623;
+      --danger: #e05252;
+      --success: #3ecf8e;
+      --text: #e8eaf0;
+      --text-muted: #7c8299;
+      --font: 'Inter', system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--font); font-size: 14px; line-height: 1.6; }
+
+    /* Header */
+    .header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 20px 32px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .header-left { display: flex; align-items: center; gap: 16px; }
+    .logo { font-size: 18px; font-weight: 700; color: var(--accent); letter-spacing: -0.5px; }
+    .logo span { color: var(--text-muted); font-weight: 400; }
+    .header-meta { font-size: 12px; color: var(--text-muted); }
+    .header-stats { display: flex; gap: 24px; }
+    .stat { text-align: center; }
+    .stat-num { font-size: 22px; font-weight: 700; color: var(--accent); display: block; }
+    .stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+    /* Layout */
+    .main { max-width: 1100px; margin: 0 auto; padding: 32px 24px; display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
+    @media (max-width: 768px) { .main { grid-template-columns: 1fr; } }
+
+    /* Sidebar */
+    .sidebar { display: flex; flex-direction: column; gap: 16px; }
+    .sidebar-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .sidebar-card h3 { font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-muted); margin-bottom: 12px; }
+
+    /* Phase nav */
+    .phase-nav { display: flex; flex-direction: column; gap: 4px; }
+    .phase-link { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 6px; cursor: pointer; transition: background 0.15s; text-decoration: none; color: var(--text); }
+    .phase-link:hover { background: var(--surface2); }
+    .phase-link.active { background: var(--surface2); border-left: 2px solid var(--accent); }
+    .phase-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .phase-dot.done { background: var(--success); }
+    .phase-dot.active { background: var(--accent); box-shadow: 0 0 6px var(--accent); }
+    .phase-dot.pending { background: var(--border); }
+    .phase-link-label { font-size: 13px; flex: 1; }
+    .phase-pct { font-size: 11px; color: var(--text-muted); }
+
+    /* Revenue tracker */
+    .revenue-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--border); }
+    .revenue-row:last-child { border-bottom: none; }
+    .revenue-month { font-size: 12px; color: var(--text-muted); }
+    .revenue-range { font-size: 13px; font-weight: 600; color: var(--text); }
+    .revenue-range.current { color: var(--accent); }
+
+    /* Who does what */
+    .legend { display: flex; flex-direction: column; gap: 6px; }
+    .legend-item { display: flex; align-items: center; gap: 8px; font-size: 12px; }
+    .badge { display: inline-flex; align-items: center; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; flex-shrink: 0; }
+    .badge.matt { background: rgba(245,166,35,0.15); color: var(--warn); }
+    .badge.cc { background: rgba(79,142,247,0.15); color: var(--accent2); }
+    .badge.manus { background: rgba(0,194,168,0.15); color: var(--accent); }
+    .badge.done-badge { background: rgba(62,207,142,0.15); color: var(--success); }
+
+    /* Main content */
+    .content { display: flex; flex-direction: column; gap: 24px; }
+
+    /* Phase block */
+    .phase-block { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .phase-header { padding: 16px 20px; display: flex; align-items: center; gap: 12px; cursor: pointer; user-select: none; }
+    .phase-header:hover { background: var(--surface2); }
+    .phase-number { width: 28px; height: 28px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; }
+    .phase-number.done { background: rgba(62,207,142,0.15); color: var(--success); }
+    .phase-number.active { background: rgba(0,194,168,0.15); color: var(--accent); }
+    .phase-number.pending { background: var(--surface2); color: var(--text-muted); }
+    .phase-title { flex: 1; }
+    .phase-title h2 { font-size: 15px; font-weight: 600; }
+    .phase-title p { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+    .phase-progress-wrap { display: flex; align-items: center; gap: 10px; }
+    .progress-bar { width: 80px; height: 5px; background: var(--border); border-radius: 3px; overflow: hidden; }
+    .progress-fill { height: 100%; border-radius: 3px; background: var(--accent); transition: width 0.3s; }
+    .progress-fill.done { background: var(--success); }
+    .progress-pct { font-size: 12px; color: var(--text-muted); min-width: 30px; text-align: right; }
+    .phase-toggle { color: var(--text-muted); font-size: 18px; transition: transform 0.2s; }
+    .phase-toggle.open { transform: rotate(90deg); }
+
+    /* Task list */
+    .task-list { padding: 0 20px 16px; display: flex; flex-direction: column; gap: 2px; }
+    .task-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 10px; border-radius: 6px; transition: background 0.1s; }
+    .task-item:hover { background: var(--surface2); }
+    .task-item input[type="checkbox"] { margin-top: 2px; width: 15px; height: 15px; accent-color: var(--accent); cursor: pointer; flex-shrink: 0; }
+    .task-label { flex: 1; cursor: pointer; }
+    .task-label.checked { text-decoration: line-through; color: var(--text-muted); }
+    .task-meta { display: flex; align-items: center; gap: 6px; margin-top: 2px; }
+    .task-note { font-size: 11px; color: var(--text-muted); }
+    .task-week { font-size: 10px; color: var(--text-muted); background: var(--surface2); padding: 1px 6px; border-radius: 3px; }
+
+    /* Divider */
+    .session-divider { font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-muted); padding: 8px 10px 4px; }
+
+    /* Save notice */
+    .save-notice { position: fixed; bottom: 20px; right: 20px; background: var(--success); color: #0f1117; padding: 8px 16px; border-radius: 6px; font-size: 13px; font-weight: 600; opacity: 0; transition: opacity 0.3s; pointer-events: none; }
+    .save-notice.show { opacity: 1; }
+
+    /* Timeline */
+    .timeline-strip { display: flex; gap: 0; margin-bottom: 4px; }
+    .timeline-week { flex: 1; text-align: center; font-size: 10px; color: var(--text-muted); padding: 4px 2px; border-right: 1px solid var(--border); }
+    .timeline-week:last-child { border-right: none; }
+    .timeline-week.current { color: var(--accent); font-weight: 700; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <div class="logo">Sales<span>AI</span>Guide <span style="font-size:13px;color:var(--text-muted);margin-left:4px;">/ Progress Dashboard</span></div>
+    <div class="header-meta">Last updated: <span id="last-updated">Feb 24, 2026</span></div>
+  </div>
+  <div class="header-stats">
+    <div class="stat"><span class="stat-num" id="total-done">0</span><span class="stat-label">Done</span></div>
+    <div class="stat"><span class="stat-num" id="total-tasks">0</span><span class="stat-label">Total Tasks</span></div>
+    <div class="stat"><span class="stat-num" id="overall-pct" style="color:var(--accent2)">0%</span><span class="stat-label">Complete</span></div>
+  </div>
+</div>
+
+<div class="main">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+
+    <div class="sidebar-card">
+      <h3>Phases</h3>
+      <div class="phase-nav" id="phase-nav"></div>
+    </div>
+
+    <div class="sidebar-card">
+      <h3>Revenue Milestones</h3>
+      <div class="legend">
+        <div class="revenue-row"><span class="revenue-month">Month 1</span><span class="revenue-range">$50–150</span></div>
+        <div class="revenue-row"><span class="revenue-month">Month 3</span><span class="revenue-range">$1,000–3,000</span></div>
+        <div class="revenue-row"><span class="revenue-month">Month 6</span><span class="revenue-range">$4,000–10,000</span></div>
+        <div class="revenue-row"><span class="revenue-month">Month 12</span><span class="revenue-range current">$12,000–30,000</span></div>
+      </div>
+    </div>
+
+    <div class="sidebar-card">
+      <h3>Who Does What</h3>
+      <div class="legend">
+        <div class="legend-item"><span class="badge matt">Matt</span> Manual actions only you can do</div>
+        <div class="legend-item"><span class="badge cc">Claude Code</span> Code changes &amp; builds</div>
+        <div class="legend-item"><span class="badge manus">Manus</span> Strategy, briefs &amp; validation</div>
+      </div>
+    </div>
+
+    <div class="sidebar-card">
+      <h3>8-Week Timeline</h3>
+      <div class="timeline-strip">
+        <div class="timeline-week current">W1<br>Now</div>
+        <div class="timeline-week">W2</div>
+        <div class="timeline-week">W3</div>
+        <div class="timeline-week">W4</div>
+        <div class="timeline-week">W5</div>
+        <div class="timeline-week">W6</div>
+        <div class="timeline-week">W7</div>
+        <div class="timeline-week">W8</div>
+      </div>
+      <div style="font-size:11px;color:var(--text-muted);margin-top:8px;line-height:1.8;">
+        <div>W1 — Phase 0: Eleventy + Foundation</div>
+        <div>W2 — Phase 1: 10 Tool Pages v4</div>
+        <div>W3 — Phase 2: 10 Comparison Pages v4</div>
+        <div>W4 — Phase 3: New Content Pages</div>
+        <div>W5–6 — Phase 4: Categories + Remaining Comparisons</div>
+        <div>W7–8 — Phase 5: Persona Hubs + Homepage</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Main content -->
+  <div class="content" id="phases-content"></div>
+
+</div>
+
+<div class="save-notice" id="save-notice">✓ Progress saved</div>
+
+<script>
+const STORAGE_KEY = 'salesaiguide-progress-v1';
+
+const phases = [
+  {
+    id: 'phase0',
+    label: 'Phase 0',
+    title: 'Foundation',
+    subtitle: 'Eleventy migration + foundation components — Week 1',
+    status: 'active',
+    sessions: [
+      {
+        label: 'Step 0 — Eleventy Migration',
+        tasks: [
+          { id: 'p0-s1', text: 'Session 1: Install Eleventy, migrate Clay page as proof of concept', who: 'cc', done: true },
+          { id: 'p0-s2', text: 'Session 2: Migrate all 9 remaining tool pages to Eleventy templates', who: 'cc', done: false },
+          { id: 'p0-s3', text: 'Session 3: Migrate comparison + category pages + homepage', who: 'cc', done: false },
+          { id: 'p0-s4', text: 'Session 4: Set up branch strategy, disable Airtable workflow, verify live site', who: 'cc', done: false },
+        ]
+      },
+      {
+        label: 'Step 0 — Foundation Components',
+        tasks: [
+          { id: 'p0-c1', text: 'Brief 0.1: Create /how-we-score.html credibility page', who: 'cc', done: false },
+          { id: 'p0-c2', text: 'Brief 0.2: Build Journey Bar tab navigation component', who: 'cc', done: false },
+          { id: 'p0-c3', text: 'Brief 0.3: Build Evidence Drawer component', who: 'cc', done: false },
+          { id: 'p0-c4', text: 'Brief 0.4: Build Score Strip component (dual scores above fold)', who: 'cc', done: false },
+          { id: 'p0-c5', text: 'Brief 0.5: Create JSON schema + populate clay.json + instantly.json', who: 'cc', done: true, note: 'clay.json done in Session 1' },
+          { id: 'p0-c6', text: 'Brief 0.6: Update global nav (add How We Score, fix Guides placeholder)', who: 'cc', done: false },
+        ]
+      },
+      {
+        label: 'Matt Actions (Week 1)',
+        tasks: [
+          { id: 'p0-m1', text: 'Apply to Clay affiliate program (clay.com/affiliates)', who: 'matt', done: false },
+          { id: 'p0-m2', text: 'Apply to Apollo affiliate program (apollo.io/partners)', who: 'matt', done: false },
+          { id: 'p0-m3', text: 'Apply to Instantly affiliate program (instantly.ai/affiliates)', who: 'matt', done: false },
+          { id: 'p0-m4', text: 'Apply to HubSpot affiliate program (hubspot.com/partners/affiliates)', who: 'matt', done: false },
+          { id: 'p0-m5', text: 'Connect Google Search Console to salesaiguide.com', who: 'matt', done: false },
+          { id: 'p0-m6', text: 'Request manual indexing for 9 priority URLs in Search Console', who: 'matt', done: false },
+        ]
+      },
+      {
+        label: 'Already Done ✓',
+        tasks: [
+          { id: 'p0-d1', text: 'GA4 tracking (G-VRBZ6Z6885) live across all pages', who: 'cc', done: true },
+          { id: 'p0-d2', text: 'Netlify Forms email capture live', who: 'cc', done: true },
+          { id: 'p0-d3', text: 'Internal linking: homepage links to all 10 tool pages', who: 'cc', done: true },
+          { id: 'p0-d4', text: 'Manus GitHub write access established', who: 'manus', done: true },
+          { id: 'p0-d5', text: 'MANUS_CONTEXT.md + all strategic briefs committed to repo', who: 'manus', done: true },
+        ]
+      }
+    ]
+  },
+  {
+    id: 'phase1',
+    label: 'Phase 1',
+    title: '10 Tool Pages — v4 Design',
+    subtitle: 'Upgrade all tool review pages to v4 layout — Week 2',
+    status: 'pending',
+    sessions: [
+      {
+        label: 'v4 Upgrades (parallel sessions)',
+        tasks: [
+          { id: 'p1-clay', text: 'Clay review page — v4 layout (sticky sidebar, 5-tab nav, score strip)', who: 'cc', done: false },
+          { id: 'p1-instantly', text: 'Instantly review page — v4 layout', who: 'cc', done: false },
+          { id: 'p1-apollo', text: 'Apollo review page — v4 layout', who: 'cc', done: false },
+          { id: 'p1-gong', text: 'Gong review page — v4 layout', who: 'cc', done: false },
+          { id: 'p1-hubspot', text: 'HubSpot review page — v4 layout', who: 'cc', done: false },
+          { id: 'p1-salesloft', text: 'Salesloft review page — v4 layout', who: 'cc', done: false },
+          { id: 'p1-outreach', text: 'Outreach review page — v4 layout', who: 'cc', done: false },
+          { id: 'p1-lavender', text: 'Lavender review page — v4 layout', who: 'cc', done: false },
+          { id: 'p1-smartlead', text: 'Smartlead review page — v4 layout', who: 'cc', done: false },
+          { id: 'p1-zoominfo', text: 'ZoomInfo review page — v4 layout', who: 'cc', done: false },
+        ]
+      },
+      {
+        label: 'Manus Validation',
+        tasks: [
+          { id: 'p1-v1', text: 'Validate all 10 tool pages match v4 spec (sticky sidebar, tabs, scores)', who: 'manus', done: false },
+          { id: 'p1-v2', text: 'Verify affiliate CTAs present on all 10 pages', who: 'manus', done: false },
+        ]
+      }
+    ]
+  },
+  {
+    id: 'phase2',
+    label: 'Phase 2',
+    title: '10 Priority Comparison Pages — v4',
+    subtitle: 'Upgrade top comparison pages — Week 3',
+    status: 'pending',
+    sessions: [
+      {
+        label: 'Priority Comparisons',
+        tasks: [
+          { id: 'p2-c1', text: 'clay-vs-apollo — v4 (dual scores, evidence bar, reader selector)', who: 'cc', done: false },
+          { id: 'p2-c2', text: 'clay-vs-clearbit — v4', who: 'cc', done: false },
+          { id: 'p2-c3', text: 'instantly-vs-lemlist — v4', who: 'cc', done: false },
+          { id: 'p2-c4', text: 'instantly-vs-smartlead — v4', who: 'cc', done: false },
+          { id: 'p2-c5', text: 'apollo-vs-zoominfo — v4', who: 'cc', done: false },
+          { id: 'p2-c6', text: 'outreach-vs-salesloft — v4', who: 'cc', done: false },
+          { id: 'p2-c7', text: 'gong-vs-chorus — v4', who: 'cc', done: false },
+          { id: 'p2-c8', text: 'hubspot-vs-pipedrive — v4', who: 'cc', done: false },
+          { id: 'p2-c9', text: 'lavender-vs-instantly — v4', who: 'cc', done: false },
+          { id: 'p2-c10', text: 'cognism-vs-zoominfo — v4', who: 'cc', done: false },
+        ]
+      },
+      {
+        label: 'Affiliate Activation (when programs approve)',
+        tasks: [
+          { id: 'p2-a1', text: 'Update _redirects with real Clay affiliate URL', who: 'manus', done: false },
+          { id: 'p2-a2', text: 'Update _redirects with real Apollo affiliate URL', who: 'manus', done: false },
+          { id: 'p2-a3', text: 'Update _redirects with real Instantly affiliate URL', who: 'manus', done: false },
+          { id: 'p2-a4', text: 'Update _redirects with real HubSpot affiliate URL', who: 'manus', done: false },
+        ]
+      }
+    ]
+  },
+  {
+    id: 'phase3',
+    label: 'Phase 3',
+    title: 'New Content Pages',
+    subtitle: 'Listicles, alternatives pages, 10 new tool reviews — Week 4',
+    status: 'pending',
+    sessions: [
+      {
+        label: '"Best X Tools" Listicles (5 pages)',
+        tasks: [
+          { id: 'p3-l1', text: 'Best AI SDR Tools 2026 (target: 2,900/mo searches)', who: 'cc', done: false },
+          { id: 'p3-l2', text: 'Best Cold Email Software 2026 (target: 3,600/mo)', who: 'cc', done: false },
+          { id: 'p3-l3', text: 'Best Sales Intelligence Tools 2026 (target: 1,200/mo)', who: 'cc', done: false },
+          { id: 'p3-l4', text: 'Best Conversation Intelligence Software 2026 (target: 880/mo)', who: 'cc', done: false },
+          { id: 'p3-l5', text: 'Best Revenue Intelligence Platforms 2026 (target: 720/mo)', who: 'cc', done: false },
+        ]
+      },
+      {
+        label: 'Alternatives Pages',
+        tasks: [
+          { id: 'p3-a1', text: '7 Best Clay Alternatives 2026 (target: 2,400/mo)', who: 'cc', done: false },
+          { id: 'p3-a2', text: '6 Best Instantly Alternatives 2026 (target: 1,100/mo)', who: 'cc', done: false },
+        ]
+      },
+      {
+        label: '10 New Tool Review Pages',
+        tasks: [
+          { id: 'p3-t1', text: 'Cognism review page', who: 'cc', done: false },
+          { id: 'p3-t2', text: 'Lusha review page', who: 'cc', done: false },
+          { id: 'p3-t3', text: 'LeadIQ review page', who: 'cc', done: false },
+          { id: 'p3-t4', text: 'Warmly review page', who: 'cc', done: false },
+          { id: 'p3-t5', text: 'Vidyard review page', who: 'cc', done: false },
+          { id: 'p3-t6', text: 'Chili Piper review page', who: 'cc', done: false },
+          { id: 'p3-t7', text: 'Clari review page', who: 'cc', done: false },
+          { id: 'p3-t8', text: 'Seismic review page', who: 'cc', done: false },
+          { id: 'p3-t9', text: 'Highspot review page', who: 'cc', done: false },
+          { id: 'p3-t10', text: 'MindTickle review page', who: 'cc', done: false },
+        ]
+      }
+    ]
+  },
+  {
+    id: 'phase4',
+    label: 'Phase 4',
+    title: 'Categories + Remaining Comparisons',
+    subtitle: 'Upgrade 14 category pages + 16 remaining comparisons — Weeks 5–6',
+    status: 'pending',
+    sessions: [
+      {
+        label: '14 Category Pages',
+        tasks: [
+          { id: 'p4-cat1', text: 'AI SDRs category page — upgrade with decision guidance', who: 'cc', done: false },
+          { id: 'p4-cat2', text: 'Cold Outreach category page', who: 'cc', done: false },
+          { id: 'p4-cat3', text: 'Data Enrichment category page', who: 'cc', done: false },
+          { id: 'p4-cat4', text: 'Conversation Intelligence category page', who: 'cc', done: false },
+          { id: 'p4-cat5', text: 'Sales Engagement category page', who: 'cc', done: false },
+          { id: 'p4-cat6', text: 'Revenue Intelligence category page', who: 'cc', done: false },
+          { id: 'p4-cat7', text: 'Sales Coaching category page', who: 'cc', done: false },
+          { id: 'p4-cat8', text: 'Sales Enablement category page', who: 'cc', done: false },
+          { id: 'p4-cat9', text: 'Lead Prospecting category page', who: 'cc', done: false },
+          { id: 'p4-cat10', text: 'Intent Data category page', who: 'cc', done: false },
+          { id: 'p4-cat11', text: 'CRM & Pipeline category page', who: 'cc', done: false },
+          { id: 'p4-cat12', text: 'Dialers & Calling category page', who: 'cc', done: false },
+          { id: 'p4-cat13', text: 'Meeting Schedulers category page', who: 'cc', done: false },
+          { id: 'p4-cat14', text: 'Sales Content category page', who: 'cc', done: false },
+        ]
+      },
+      {
+        label: 'Remaining 16 Comparison Pages',
+        tasks: [
+          { id: 'p4-comp1', text: 'Upgrade remaining 16 comparison pages to v4', who: 'cc', done: false, note: 'Batch session' },
+        ]
+      }
+    ]
+  },
+  {
+    id: 'phase5',
+    label: 'Phase 5',
+    title: 'Persona Hubs + Homepage Redesign',
+    subtitle: 'Final design layer — Weeks 7–8',
+    status: 'pending',
+    sessions: [
+      {
+        label: 'Persona Hubs',
+        tasks: [
+          { id: 'p5-p1', text: 'Build /for-sales-reps/ persona hub', who: 'cc', done: false },
+          { id: 'p5-p2', text: 'Build /for-sales-managers/ persona hub', who: 'cc', done: false },
+          { id: 'p5-p3', text: 'Build /for-revenue-ops/ persona hub', who: 'cc', done: false },
+        ]
+      },
+      {
+        label: 'Homepage Redesign',
+        tasks: [
+          { id: 'p5-h1', text: 'Asymmetric hero layout with live stats bar', who: 'cc', done: false },
+          { id: 'p5-h2', text: 'Featured tools section with "Read Review" CTAs', who: 'cc', done: false },
+          { id: 'p5-h3', text: 'Methodology trust bar', who: 'cc', done: false },
+          { id: 'p5-h4', text: 'Curated comparisons section', who: 'cc', done: false },
+        ]
+      },
+      {
+        label: 'Permanent Agents (launch after Phase 2)',
+        tasks: [
+          { id: 'p5-ag1', text: 'Schedule Site Validator agent (daily 8am)', who: 'manus', done: false },
+          { id: 'p5-ag2', text: 'Schedule Evidence Refresher agent (Monday 9am)', who: 'manus', done: false },
+          { id: 'p5-ag3', text: 'Schedule Affiliate Health Monitor (daily 10am)', who: 'manus', done: false },
+          { id: 'p5-ag4', text: 'Schedule SEO Performance Monitor (Friday 9am)', who: 'manus', done: false },
+          { id: 'p5-ag5', text: 'Schedule Competitor Intelligence agent (Friday 10am)', who: 'manus', done: false },
+          { id: 'p5-ag6', text: 'Schedule New Tool Scout (Wednesday 9am)', who: 'manus', done: false },
+          { id: 'p5-ag7', text: 'Schedule Revenue Optimization agent (Monday 10am)', who: 'manus', done: false },
+          { id: 'p5-ag8', text: 'Schedule Growth Strategy agent (1st Monday/month)', who: 'manus', done: false },
+        ]
+      }
+    ]
+  }
+];
+
+// Load saved state
+function loadState() {
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    return saved ? JSON.parse(saved) : {};
+  } catch { return {}; }
+}
+
+function saveState(state) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  const notice = document.getElementById('save-notice');
+  notice.classList.add('show');
+  setTimeout(() => notice.classList.remove('show'), 1500);
+}
+
+function getState() {
+  const state = loadState();
+  // Merge hardcoded done:true with saved state
+  const merged = {};
+  phases.forEach(phase => {
+    phase.sessions.forEach(session => {
+      session.tasks.forEach(task => {
+        merged[task.id] = task.id in state ? state[task.id] : task.done;
+      });
+    });
+  });
+  return merged;
+}
+
+function calcPhaseProgress(phase, state) {
+  let total = 0, done = 0;
+  phase.sessions.forEach(s => s.tasks.forEach(t => {
+    total++;
+    if (state[t.id]) done++;
+  }));
+  return { total, done, pct: total ? Math.round(done / total * 100) : 0 };
+}
+
+function calcOverall(state) {
+  let total = 0, done = 0;
+  phases.forEach(phase => {
+    phase.sessions.forEach(s => s.tasks.forEach(t => {
+      total++;
+      if (state[t.id]) done++;
+    }));
+  });
+  return { total, done, pct: total ? Math.round(done / total * 100) : 0 };
+}
+
+function whoClass(who) {
+  return { matt: 'matt', cc: 'cc', manus: 'manus' }[who] || 'cc';
+}
+function whoLabel(who) {
+  return { matt: 'Matt', cc: 'Claude Code', manus: 'Manus' }[who] || who;
+}
+
+function render() {
+  const state = getState();
+  const overall = calcOverall(state);
+
+  document.getElementById('total-done').textContent = overall.done;
+  document.getElementById('total-tasks').textContent = overall.total;
+  document.getElementById('overall-pct').textContent = overall.pct + '%';
+
+  // Phase nav
+  const nav = document.getElementById('phase-nav');
+  nav.innerHTML = phases.map(phase => {
+    const prog = calcPhaseProgress(phase, state);
+    const dotClass = prog.pct === 100 ? 'done' : phase.status === 'active' ? 'active' : 'pending';
+    return `<a class="phase-link" href="#${phase.id}">
+      <span class="phase-dot ${dotClass}"></span>
+      <span class="phase-link-label">${phase.label}: ${phase.title}</span>
+      <span class="phase-pct">${prog.pct}%</span>
+    </a>`;
+  }).join('');
+
+  // Phase blocks
+  const content = document.getElementById('phases-content');
+  content.innerHTML = phases.map((phase, pi) => {
+    const prog = calcPhaseProgress(phase, state);
+    const numClass = prog.pct === 100 ? 'done' : phase.status === 'active' ? 'active' : 'pending';
+    const fillClass = prog.pct === 100 ? 'done' : '';
+
+    const sessionsHtml = phase.sessions.map(session => `
+      <div class="session-divider">${session.label}</div>
+      ${session.tasks.map(task => {
+        const checked = state[task.id];
+        return `<div class="task-item">
+          <input type="checkbox" id="${task.id}" ${checked ? 'checked' : ''} onchange="toggleTask('${task.id}', this.checked)">
+          <div class="task-label ${checked ? 'checked' : ''}">
+            <label for="${task.id}">${task.text}</label>
+            <div class="task-meta">
+              <span class="badge ${whoClass(task.who)}">${whoLabel(task.who)}</span>
+              ${task.note ? `<span class="task-note">${task.note}</span>` : ''}
+            </div>
+          </div>
+        </div>`;
+      }).join('')}
+    `).join('');
+
+    return `<div class="phase-block" id="${phase.id}">
+      <div class="phase-header" onclick="togglePhase('${phase.id}')">
+        <div class="phase-number ${numClass}">${pi}</div>
+        <div class="phase-title">
+          <h2>${phase.label}: ${phase.title}</h2>
+          <p>${phase.subtitle}</p>
+        </div>
+        <div class="phase-progress-wrap">
+          <div class="progress-bar"><div class="progress-fill ${fillClass}" style="width:${prog.pct}%"></div></div>
+          <span class="progress-pct">${prog.pct}%</span>
+        </div>
+        <span class="phase-toggle ${phase.status === 'active' ? 'open' : ''}" id="toggle-${phase.id}">›</span>
+      </div>
+      <div class="task-list" id="tasks-${phase.id}" style="display:${phase.status === 'active' ? 'flex' : 'none'}">
+        ${sessionsHtml}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function toggleTask(id, checked) {
+  const state = loadState();
+  state[id] = checked;
+  saveState(state);
+  render();
+}
+
+function togglePhase(id) {
+  const tasks = document.getElementById('tasks-' + id);
+  const toggle = document.getElementById('toggle-' + id);
+  const isOpen = tasks.style.display !== 'none';
+  tasks.style.display = isOpen ? 'none' : 'flex';
+  toggle.classList.toggle('open', !isOpen);
+}
+
+render();
+</script>
+</body>
+</html>
