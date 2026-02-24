@@ -75,6 +75,10 @@
       { "class": "chrome-extension", "text": "Chrome Extension" }
     ]
   },
+  "scores": {
+    "org": { "value": 63, "verdict": "Niche coaching, limited enterprise fit" },
+    "rep": { "value": 79, "verdict": "Highest rep value, instant setup" }
+  },
   "quickSummary": {
     "whatItDoes": "AI email coaching tool that analyzes your cold emails in real-time and scores them for effectiveness, providing specific suggestions to improve reply rates.",
     "bestFor": "SDRs and AEs who want to write better cold emails with real-time AI coaching.",

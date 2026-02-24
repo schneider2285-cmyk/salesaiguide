@@ -74,6 +74,10 @@
       { "class": "enterprise-grade", "text": "Enterprise Grade" }
     ]
   },
+  "scores": {
+    "org": { "value": 78, "verdict": "Best-in-class revenue intelligence" },
+    "rep": { "value": 63, "verdict": "Big Brother feel, team-only pricing" }
+  },
   "quickSummary": {
     "whatItDoes": "Revenue intelligence platform that records, transcribes, and analyzes sales calls to surface deal insights, coaching opportunities, and forecast accuracy.",
     "bestFor": "Sales managers and revenue leaders who need visibility into what's actually happening on calls.",

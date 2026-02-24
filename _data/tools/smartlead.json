@@ -74,6 +74,10 @@
       { "class": "low-cost", "text": "Low Cost" }
     ]
   },
+  "scores": {
+    "org": { "value": 54, "verdict": "Budget sending, lacks enterprise depth" },
+    "rep": { "value": 64, "verdict": "Affordable, straightforward for reps" }
+  },
   "quickSummary": {
     "whatItDoes": "Cold email infrastructure platform with unlimited mailboxes, auto-rotation, warmup, and a unified master inbox for managing multi-account outreach.",
     "bestFor": "Agencies and power users sending high-volume cold email who want more features than Instantly.",

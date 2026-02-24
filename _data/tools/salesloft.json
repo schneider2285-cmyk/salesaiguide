@@ -75,6 +75,10 @@
       { "class": "enterprise-grade", "text": "Enterprise Grade" }
     ]
   },
+  "scores": {
+    "org": { "value": 70, "verdict": "Solid engagement, mid-market fit" },
+    "rep": { "value": 56, "verdict": "Team-oriented, solo adoption difficult" }
+  },
   "quickSummary": {
     "whatItDoes": "Sales engagement platform for multichannel sequences, deal management, and AI-driven coaching.",
     "bestFor": "Mid-market sales teams wanting an Outreach alternative with stronger coaching.",

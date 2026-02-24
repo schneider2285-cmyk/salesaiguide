@@ -25,6 +25,19 @@ extraCss:
             {% if t.hero.personaTags %}
             <div class="persona-tags" style="margin-top:0.75rem;">{% for tag in t.hero.personaTags %}<span class="persona-tag {{ tag.class }}">{{ tag.text }}</span>{% endfor %}</div>
             {% endif %}
+            <!-- Dual scores — visible above fold -->
+            <div class="hero-scores">
+                <div class="score-card score-org">
+                    <div class="score-label">ORG SCORE</div>
+                    <div class="score-value">{{ t.scores.org.value }}<span class="score-max">/100</span></div>
+                    <div class="score-verdict">{{ t.scores.org.verdict }}</div>
+                </div>
+                <div class="score-card score-rep">
+                    <div class="score-label">REP SCORE</div>
+                    <div class="score-value">{{ t.scores.rep.value }}<span class="score-max">/100</span></div>
+                    <div class="score-verdict">{{ t.scores.rep.verdict }}</div>
+                </div>
+            </div>
         </div>
     </div>
 

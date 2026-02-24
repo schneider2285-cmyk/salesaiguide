@@ -75,6 +75,10 @@
       { "class": "chrome-extension", "text": "Chrome Extension" }
     ]
   },
+  "scores": {
+    "org": { "value": 68, "verdict": "Good all-in-one, data gaps at scale" },
+    "rep": { "value": 72, "verdict": "Easiest all-in-one for solo reps" }
+  },
   "quickSummary": {
     "whatItDoes": "All-in-one sales intelligence and engagement platform with 275M+ B2B contacts, email sequences, dialer, and CRM.",
     "bestFor": "SDRs and AEs who need prospecting + outreach in one tool without paying enterprise prices.",

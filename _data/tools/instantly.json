@@ -76,6 +76,10 @@
       { "class": "chrome-extension", "text": "Chrome Extension" }
     ]
   },
+  "scores": {
+    "org": { "value": 63, "verdict": "Scalable cold email, limited CRM" },
+    "rep": { "value": 70, "verdict": "Fast setup, ideal for solo senders" }
+  },
   "quickSummary": {
     "whatItDoes": "Cold email platform with unlimited sending accounts, built-in email warmup, and a unified inbox for managing replies at scale.",
     "bestFor": "SDRs, agencies, and sales teams sending high-volume cold outreach (500+ emails/day).",

@@ -74,6 +74,10 @@
       { "class": "enterprise-grade", "text": "Enterprise Grade" }
     ]
   },
+  "scores": {
+    "org": { "value": 73, "verdict": "Enterprise-grade engagement platform" },
+    "rep": { "value": 53, "verdict": "Complex setup, solo adoption hard" }
+  },
   "quickSummary": {
     "whatItDoes": "Sales engagement platform for multichannel outreach sequences across email, phone, LinkedIn, and SMS.",
     "bestFor": "Mid-market and enterprise sales teams running structured, multichannel outreach at scale.",

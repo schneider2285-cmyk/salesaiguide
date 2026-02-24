@@ -73,6 +73,10 @@
       { "class": "requires-admin", "text": "Requires Admin" }
     ]
   },
+  "scores": {
+    "org": { "value": 73, "verdict": "Strong enrichment depth for RevOps" },
+    "rep": { "value": 68, "verdict": "Powerful but steep learning curve" }
+  },
   "quickSummary": {
     "whatItDoes": "Access 50+ data providers from one spreadsheet interface with AI-powered enrichment and waterfall logic.",
     "bestFor": "Sales teams who need high-quality data enrichment and want to build prospecting workflows without code.",
