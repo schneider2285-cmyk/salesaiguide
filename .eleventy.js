@@ -4,8 +4,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("compare");
-  eleventyConfig.addPassthroughCopy("categories");
+  // compare/ and categories/ are now .njk templates — no passthrough needed
   eleventyConfig.addPassthroughCopy("guides");
   eleventyConfig.addPassthroughCopy("blog");
   eleventyConfig.addPassthroughCopy("editorial-policy");
@@ -18,7 +17,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("sitemap.xml");
   eleventyConfig.addPassthroughCopy("favicon.svg");
 
-  // All root-level HTML files (index, about, 404, disclosure, editorial, logo-prototypes)
+  // Root-level HTML files (about, 404, disclosure, editorial, logo-prototypes)
+  // index.html is now generated from index.njk
   eleventyConfig.addPassthroughCopy("*.html");
 
   // Tool listing page (all reviews are now .njk templates)
