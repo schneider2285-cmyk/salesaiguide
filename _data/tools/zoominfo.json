@@ -75,6 +75,10 @@
       { "class": "enterprise-grade", "text": "Enterprise Grade" }
     ]
   },
+  "scores": {
+    "org": { "value": 77, "verdict": "Enterprise data standard, unmatched depth" },
+    "rep": { "value": 51, "verdict": "Enterprise pricing, reps rarely use it" }
+  },
   "quickSummary": {
     "whatItDoes": "Enterprise B2B data platform with 100M+ business profiles, intent data, website visitor tracking, and sales automation workflows.",
     "bestFor": "Enterprise sales and marketing teams needing premium-quality B2B contact and company data at scale.",
@@ -386,6 +390,11 @@
     }
   },
   "sidebar": {
+    "startingPrice": "~$15K",
+    "pricingLabel": "/year (annual)",
+    "ctaText": "Visit ZoomInfo",
+    "altText": "See Alternatives",
+    "altUrl": "/compare/index.html",
     "atAGlance": [
       { "label": "G2 Rating", "value": "4.5/5" },
       { "label": "G2 Reviews", "value": "9,005" },

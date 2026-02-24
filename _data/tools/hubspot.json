@@ -74,6 +74,10 @@
       { "class": "enterprise-grade", "text": "Enterprise Grade" }
     ]
   },
+  "scores": {
+    "org": { "value": 74, "verdict": "Default CRM for scaling teams" },
+    "rep": { "value": 72, "verdict": "Most accessible CRM for reps" }
+  },
   "quickSummary": {
     "whatItDoes": "CRM with built-in email sequences, meeting scheduler, pipeline management, and reporting for growing teams.",
     "bestFor": "SMBs and mid-market teams wanting CRM + sales tools in one platform.",
@@ -382,6 +386,11 @@
     }
   },
   "sidebar": {
+    "startingPrice": "$20",
+    "pricingLabel": "/seat/month (Starter)",
+    "ctaText": "Visit HubSpot",
+    "altText": "See Alternatives",
+    "altUrl": "/compare/index.html",
     "atAGlance": [
       { "label": "G2 Rating", "value": "4.4/5" },
       { "label": "G2 Reviews", "value": "13,499" },

@@ -76,6 +76,10 @@
       { "class": "chrome-extension", "text": "Chrome Extension" }
     ]
   },
+  "scores": {
+    "org": { "value": 63, "verdict": "Scalable cold email, limited CRM" },
+    "rep": { "value": 70, "verdict": "Fast setup, ideal for solo senders" }
+  },
   "quickSummary": {
     "whatItDoes": "Cold email platform with unlimited sending accounts, built-in email warmup, and a unified inbox for managing replies at scale.",
     "bestFor": "SDRs, agencies, and sales teams sending high-volume cold outreach (500+ emails/day).",
@@ -484,6 +488,11 @@
     }
   },
   "sidebar": {
+    "startingPrice": "$37",
+    "pricingLabel": "/month (Growth)",
+    "ctaText": "Visit Instantly",
+    "altText": "See Alternatives",
+    "altUrl": "/compare/index.html",
     "atAGlance": [
       { "label": "G2 Rating", "value": "4.8/5" },
       { "label": "G2 Reviews", "value": "~3,200" },

@@ -25,6 +25,19 @@ extraCss:
             {% if t.hero.personaTags %}
             <div class="persona-tags" style="margin-top:0.75rem;">{% for tag in t.hero.personaTags %}<span class="persona-tag {{ tag.class }}">{{ tag.text }}</span>{% endfor %}</div>
             {% endif %}
+            <!-- Dual scores — visible above fold -->
+            <div class="hero-scores">
+                <div class="score-card score-org">
+                    <div class="score-label">ORG SCORE</div>
+                    <div class="score-value">{{ t.scores.org.value }}<span class="score-max">/100</span></div>
+                    <div class="score-verdict">{{ t.scores.org.verdict }}</div>
+                </div>
+                <div class="score-card score-rep">
+                    <div class="score-label">REP SCORE</div>
+                    <div class="score-value">{{ t.scores.rep.value }}<span class="score-max">/100</span></div>
+                    <div class="score-verdict">{{ t.scores.rep.verdict }}</div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -51,10 +64,22 @@ extraCss:
         </div>
     </div>
 
+    <nav class="journey-bar" id="journey-bar">
+      <div class="container">
+        <div class="journey-tabs">
+          <a href="#pricing-reality" class="journey-tab active" data-section="pricing-reality">Pricing Reality</a>
+          <a href="#who-should-use" class="journey-tab" data-section="who-should-use">Who Should Use</a>
+          <a href="#decision-snapshot" class="journey-tab" data-section="decision-snapshot">Decision Snapshot</a>
+          <a href="#where-it-breaks" class="journey-tab" data-section="where-it-breaks">Where It Breaks</a>
+          <a href="#stack-fit" class="journey-tab" data-section="stack-fit">Stack Fit</a>
+        </div>
+      </div>
+    </nav>
+
     <article class="review-content">
         <div class="container">
-            <div class="content-wrapper">
-                <div class="main-content">
+            <div class="review-layout">
+                <div class="review-main">
 
                     <section class="content-section">
                         <h2>What Is {{ t.hero.breadcrumbName }}?</h2>
@@ -79,7 +104,7 @@ extraCss:
                     </section>
 
                     {% if t.pricing %}
-                    <section class="content-section">
+                    <section class="content-section" id="pricing-reality">
                         <h2>Pricing</h2>
                         <p><em>{{ t.pricing.note }}</em></p>
                         <div class="pricing-table">
@@ -158,7 +183,7 @@ extraCss:
                     {% endif %}
 
                     {% if t.whoIsFor %}
-                    <section class="content-section">
+                    <section class="content-section" id="who-should-use">
                         <h2>Who Is {{ t.hero.breadcrumbName }} For?</h2>
                         <div class="use-cases">
                             <div class="use-case good">
@@ -228,7 +253,7 @@ extraCss:
                             <p style="font-size:0.875rem;color:var(--text-light);">Composite scores derived from our <a href="/methodology/">6-dimension scoring methodology</a>.</p>
                         </section>
 
-                        <section class="content-section">
+                        <section class="content-section" id="decision-snapshot">
                             <h2>Decision Snapshot</h2>
                             <p>{{ t.decisionModule.decisionSnapshot.intro | safe }}</p>
                             <div class="comparison-table-wrapper">
@@ -347,7 +372,7 @@ extraCss:
                             </div>
                         </section>
 
-                        <section class="content-section">
+                        <section class="content-section" id="where-it-breaks">
                             <h2>Where {{ t.hero.breadcrumbName }} Breaks at Scale</h2>
                             <div class="cons">
                                 <ul>
@@ -416,7 +441,7 @@ extraCss:
                             </div>
                         </section>
 
-                        <section class="content-section">
+                        <section class="content-section" id="stack-fit">
                             <h2>Common Stack Pairings</h2>
                             <div class="feature-grid">
                                 {% for card in t.decisionModule.stackPairings.cards %}
@@ -485,24 +510,33 @@ extraCss:
 
                 </div>
 
-                <aside class="sidebar">
+                <aside class="review-sidebar">
+                    <!-- Price Block + CTA -->
+                    <div class="sidebar-card">
+                        <div class="sidebar-price">{{ t.sidebar.startingPrice }}</div>
+                        <div class="sidebar-price-label">{{ t.sidebar.pricingLabel }}</div>
+                        <a href="{{ t.sidebar.ctaUrl }}" class="btn btn-primary btn-block" target="_blank" rel="nofollow sponsored">{{ t.sidebar.ctaText }} &#8599;</a>
+                        <a href="{{ t.sidebar.altUrl }}" class="sidebar-alt-link">{{ t.sidebar.altText }}</a>
+                    </div>
+
+                    <!-- At a Glance -->
                     <div class="sidebar-card">
                         <h4>At a Glance</h4>
-                        <div class="quick-stats">
+                        <div class="at-a-glance">
                             {% for stat in t.sidebar.atAGlance %}
-                            <div class="stat">
-                                <span class="label">{{ stat.label }}</span>
-                                <span class="value">{{ stat.value }}</span>
+                            <div class="at-a-glance-row">
+                                <span class="at-a-glance-label">{{ stat.label }}</span>
+                                <span class="at-a-glance-value">{{ stat.value }}</span>
                             </div>
                             {% endfor %}
                         </div>
-                        <a href="{{ t.sidebar.ctaUrl }}" class="btn btn-primary btn-block" target="_blank" rel="nofollow sponsored">Visit Site &#8599;</a>
                     </div>
 
+                    <!-- Compare Links -->
                     {% if t.sidebar.comparisons.length %}
                     <div class="sidebar-card">
-                        <h4>Comparisons</h4>
-                        <ul class="related-links">
+                        <h4>Compare {{ t.hero.breadcrumbName }}</h4>
+                        <ul class="compare-links">
                             {% for link in t.sidebar.comparisons %}
                             <li><a href="{{ link.url }}">{{ link.text }}</a></li>
                             {% endfor %}
@@ -510,10 +544,11 @@ extraCss:
                     </div>
                     {% endif %}
 
+                    <!-- External Reviews -->
                     {% if t.sidebar.externalReviews.length %}
                     <div class="sidebar-card">
                         <h4>External Reviews</h4>
-                        <ul class="related-links">
+                        <ul class="compare-links">
                             {% for link in t.sidebar.externalReviews %}
                             <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.text }} &#8599;</a></li>
                             {% endfor %}
@@ -521,10 +556,11 @@ extraCss:
                     </div>
                     {% endif %}
 
+                    <!-- Related Guides -->
                     {% if t.sidebar.relatedGuides.length %}
                     <div class="sidebar-card">
                         <h4>Related Guides</h4>
-                        <ul class="related-links">
+                        <ul class="compare-links">
                             {% for link in t.sidebar.relatedGuides %}
                             <li><a href="{{ link.url }}">{{ link.text }}</a></li>
                             {% endfor %}
@@ -532,6 +568,7 @@ extraCss:
                     </div>
                     {% endif %}
 
+                    <!-- Newsletter -->
                     <div class="sidebar-card sidebar-email-card">
                         <h4>{{ t.sidebar.emailCard.heading }}</h4>
                         <p>{{ t.sidebar.emailCard.description }}</p>
