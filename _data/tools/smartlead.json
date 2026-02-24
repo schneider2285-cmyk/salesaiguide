@@ -375,6 +375,11 @@
     }
   },
   "sidebar": {
+    "startingPrice": "$39",
+    "pricingLabel": "/month (Base)",
+    "ctaText": "Visit Smartlead",
+    "altText": "See Alternatives",
+    "altUrl": "/compare/index.html",
     "atAGlance": [
       { "label": "G2 Rating", "value": "4.6/5" },
       { "label": "G2 Reviews", "value": "289" },

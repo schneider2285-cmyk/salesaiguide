@@ -65,8 +65,8 @@ extraCss:
 
     <article class="review-content">
         <div class="container">
-            <div class="content-wrapper">
-                <div class="main-content">
+            <div class="review-layout">
+                <div class="review-main">
 
                     <section class="content-section">
                         <h2>What Is {{ t.hero.breadcrumbName }}?</h2>
@@ -497,24 +497,33 @@ extraCss:
 
                 </div>
 
-                <aside class="sidebar">
+                <aside class="review-sidebar">
+                    <!-- Price Block + CTA -->
+                    <div class="sidebar-card">
+                        <div class="sidebar-price">{{ t.sidebar.startingPrice }}</div>
+                        <div class="sidebar-price-label">{{ t.sidebar.pricingLabel }}</div>
+                        <a href="{{ t.sidebar.ctaUrl }}" class="btn btn-primary btn-block" target="_blank" rel="nofollow sponsored">{{ t.sidebar.ctaText }} &#8599;</a>
+                        <a href="{{ t.sidebar.altUrl }}" class="sidebar-alt-link">{{ t.sidebar.altText }}</a>
+                    </div>
+
+                    <!-- At a Glance -->
                     <div class="sidebar-card">
                         <h4>At a Glance</h4>
-                        <div class="quick-stats">
+                        <div class="at-a-glance">
                             {% for stat in t.sidebar.atAGlance %}
-                            <div class="stat">
-                                <span class="label">{{ stat.label }}</span>
-                                <span class="value">{{ stat.value }}</span>
+                            <div class="at-a-glance-row">
+                                <span class="at-a-glance-label">{{ stat.label }}</span>
+                                <span class="at-a-glance-value">{{ stat.value }}</span>
                             </div>
                             {% endfor %}
                         </div>
-                        <a href="{{ t.sidebar.ctaUrl }}" class="btn btn-primary btn-block" target="_blank" rel="nofollow sponsored">Visit Site &#8599;</a>
                     </div>
 
+                    <!-- Compare Links -->
                     {% if t.sidebar.comparisons.length %}
                     <div class="sidebar-card">
-                        <h4>Comparisons</h4>
-                        <ul class="related-links">
+                        <h4>Compare {{ t.hero.breadcrumbName }}</h4>
+                        <ul class="compare-links">
                             {% for link in t.sidebar.comparisons %}
                             <li><a href="{{ link.url }}">{{ link.text }}</a></li>
                             {% endfor %}
@@ -522,10 +531,11 @@ extraCss:
                     </div>
                     {% endif %}
 
+                    <!-- External Reviews -->
                     {% if t.sidebar.externalReviews.length %}
                     <div class="sidebar-card">
                         <h4>External Reviews</h4>
-                        <ul class="related-links">
+                        <ul class="compare-links">
                             {% for link in t.sidebar.externalReviews %}
                             <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.text }} &#8599;</a></li>
                             {% endfor %}
@@ -533,10 +543,11 @@ extraCss:
                     </div>
                     {% endif %}
 
+                    <!-- Related Guides -->
                     {% if t.sidebar.relatedGuides.length %}
                     <div class="sidebar-card">
                         <h4>Related Guides</h4>
-                        <ul class="related-links">
+                        <ul class="compare-links">
                             {% for link in t.sidebar.relatedGuides %}
                             <li><a href="{{ link.url }}">{{ link.text }}</a></li>
                             {% endfor %}
@@ -544,6 +555,7 @@ extraCss:
                     </div>
                     {% endif %}
 
+                    <!-- Newsletter -->
                     <div class="sidebar-card sidebar-email-card">
                         <h4>{{ t.sidebar.emailCard.heading }}</h4>
                         <p>{{ t.sidebar.emailCard.description }}</p>

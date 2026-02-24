@@ -379,6 +379,11 @@
     }
   },
   "sidebar": {
+    "startingPrice": "Custom",
+    "pricingLabel": "Enterprise pricing",
+    "ctaText": "Visit Outreach",
+    "altText": "See Alternatives",
+    "altUrl": "/compare/index.html",
     "atAGlance": [
       { "label": "G2 Rating", "value": "4.4/5" },
       { "label": "G2 Reviews", "value": "3,527" },

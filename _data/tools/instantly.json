@@ -484,6 +484,11 @@
     }
   },
   "sidebar": {
+    "startingPrice": "$37",
+    "pricingLabel": "/month (Growth)",
+    "ctaText": "Visit Instantly",
+    "altText": "See Alternatives",
+    "altUrl": "/compare/index.html",
     "atAGlance": [
       { "label": "G2 Rating", "value": "4.8/5" },
       { "label": "G2 Reviews", "value": "~3,200" },

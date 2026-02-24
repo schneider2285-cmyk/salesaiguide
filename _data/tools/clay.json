@@ -485,6 +485,11 @@
     }
   },
   "sidebar": {
+    "startingPrice": "$149",
+    "pricingLabel": "/month (Starter)",
+    "ctaText": "Visit Clay",
+    "altText": "See Alternatives",
+    "altUrl": "/compare/index.html",
     "atAGlance": [
       { "label": "G2 Rating", "value": "4.9/5" },
       { "label": "G2 Reviews", "value": "156" },

@@ -371,6 +371,11 @@
     }
   },
   "sidebar": {
+    "startingPrice": "$29",
+    "pricingLabel": "/month (Starter)",
+    "ctaText": "Visit Lavender",
+    "altText": "See Alternatives",
+    "altUrl": "/compare/index.html",
     "atAGlance": [
       { "label": "G2 Rating", "value": "4.8/5" },
       { "label": "G2 Reviews", "value": "62" },
