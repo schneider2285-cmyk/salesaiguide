@@ -155,6 +155,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    // ─── Reader Selector (compare pages) ────────────────────────────────
+    const readerBtns = document.querySelectorAll('.reader-btn');
+    if (readerBtns.length) {
+        readerBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                readerBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                document.body.classList.toggle('reader-rep', btn.dataset.reader === 'rep');
+            });
+        });
+    }
+
 });
 
 // Mobile menu toggle

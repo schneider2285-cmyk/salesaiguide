@@ -1,0 +1,101 @@
+---
+layout: base.njk
+extraCss:
+  - /css/review.css
+---
+<article class="compare-page">
+
+  {# Hero — two tools head to head #}
+  <div class="compare-hero">
+    <div class="compare-hero-inner container">
+      <div class="compare-breadcrumb">
+        <a href="/">Home</a> <span style="color:var(--accent);margin:0 0.25rem">&#8250;</span> <a href="/compare/">Compare</a> <span style="color:var(--accent);margin:0 0.25rem">&#8250;</span> {{ title }}
+      </div>
+
+      {# Dual score display #}
+      <div class="compare-vs-header">
+        <div class="compare-tool-block">
+          <h1 class="compare-tool-name">{{ toolA.name }}</h1>
+          <div class="compare-scores">
+            <div class="compare-score-card org">
+              <span class="score-label">ORG</span>
+              <span class="score-value">{{ toolA.orgScore }}</span>
+            </div>
+            <div class="compare-score-card rep">
+              <span class="score-label">REP</span>
+              <span class="score-value">{{ toolA.repScore }}</span>
+            </div>
+          </div>
+          <p class="compare-verdict">{{ toolA.verdict }}</p>
+        </div>
+
+        <div class="compare-vs-badge">VS</div>
+
+        <div class="compare-tool-block">
+          <h1 class="compare-tool-name">{{ toolB.name }}</h1>
+          <div class="compare-scores">
+            <div class="compare-score-card org">
+              <span class="score-label">ORG</span>
+              <span class="score-value">{{ toolB.orgScore }}</span>
+            </div>
+            <div class="compare-score-card rep">
+              <span class="score-label">REP</span>
+              <span class="score-value">{{ toolB.repScore }}</span>
+            </div>
+          </div>
+          <p class="compare-verdict">{{ toolB.verdict }}</p>
+        </div>
+      </div>
+
+      {# Reader selector #}
+      <div class="reader-selector">
+        <span class="reader-selector-label">I am a:</span>
+        <button class="reader-btn active" data-reader="org">Org Buyer / Manager</button>
+        <button class="reader-btn" data-reader="rep">Individual Rep</button>
+      </div>
+    </div>
+  </div>
+
+  {# Main content + sidebar #}
+  <div class="container">
+    <div class="compare-layout">
+      <div class="compare-main">
+        {{ content | safe }}
+      </div>
+      <aside class="compare-sidebar">
+        {# Tool A CTA #}
+        <div class="sidebar-cta-block">
+          <div class="sidebar-tool-name">{{ toolA.name }}</div>
+          <div class="sidebar-price">{{ toolA.startingPrice }}</div>
+          <a href="{{ toolA.ctaUrl }}" class="btn btn-primary btn-block" target="_blank" rel="nofollow sponsored">Visit {{ toolA.name }} &#8599;</a>
+        </div>
+        {# Tool B CTA #}
+        <div class="sidebar-cta-block sidebar-cta-secondary">
+          <div class="sidebar-tool-name">{{ toolB.name }}</div>
+          <div class="sidebar-price">{{ toolB.startingPrice }}</div>
+          <a href="{{ toolB.ctaUrl }}" class="btn btn-outline btn-block" target="_blank" rel="nofollow sponsored">Visit {{ toolB.name }} &#8599;</a>
+        </div>
+        {# Full reviews #}
+        <div class="sidebar-card">
+          <h4>Full Reviews</h4>
+          <ul class="related-links">
+            {% if toolA.reviewUrl %}<li><a href="{{ toolA.reviewUrl }}">{{ toolA.name }} Decision Snapshot</a></li>{% endif %}
+            {% if toolB.reviewUrl %}<li><a href="{{ toolB.reviewUrl }}">{{ toolB.name }} Decision Snapshot</a></li>{% endif %}
+          </ul>
+        </div>
+        {# Related comparisons #}
+        {% if relatedComparisons %}
+        <div class="sidebar-card">
+          <h4>Related Comparisons</h4>
+          <ul class="related-links">
+            {% for comp in relatedComparisons %}
+            <li><a href="{{ comp.url }}">{{ comp.label }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </aside>
+    </div>
+  </div>
+
+</article>
