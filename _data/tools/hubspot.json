@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "title": "HubSpot Sales Hub Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "description": "HubSpot Sales Hub product profile with G2 ratings, pricing tiers, key features, and competitor comparison table. Data aggregated from G2 and vendor documentation.",
+    "ogTitle": "HubSpot Sales Hub Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "ogDescription": "HubSpot Sales Hub product profile with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources.",
+    "ogUrl": "https://salesaiguide.com/tools/hubspot-review.html",
+    "canonicalUrl": "https://salesaiguide.com/tools/hubspot-review.html",
+    "twitterTitle": "HubSpot Sales Hub Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "twitterDescription": "HubSpot Sales Hub product profile with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources."
+  },
+  "jsonLd": {
+    "softwareApplication": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "HubSpot Sales Hub",
+      "applicationCategory": "Sales Software",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "bestRating": "5",
+        "ratingCount": "13499",
+        "reviewCount": "13499"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "20",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31"
+      }
+    },
+    "faqPage": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the limitations of HubSpot's free CRM?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HubSpot's free CRM includes contact management, deal tracking, email tracking (200 notifications/month), meeting scheduling, and basic reporting. Limitations include HubSpot branding on forms and emails, limited email templates (5), no sequences or automation, no custom reporting, and a 1M contact limit with no custom properties beyond defaults."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does HubSpot compare to Salesforce?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HubSpot is easier to set up and use, with better onboarding and lower costs for small-to-mid teams. Salesforce is more powerful for complex enterprise needs with deeper customization, advanced CPQ, and multi-product sales motions. Most teams under 200 reps are well-served by HubSpot; larger organizations with complex requirements typically need Salesforce."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is HubSpot Professional worth the upgrade from Starter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Professional unlocks sequences (automated email + task cadences), custom reporting, forecasting, and workflow automation. If your team actively does outbound sales with email sequences, Professional is worth the upgrade. If you mainly need a CRM with basic email tracking, Starter is sufficient."
+          }
+        }
+      ]
+    }
+  },
+  "hero": {
+    "breadcrumbName": "HubSpot Sales Hub",
+    "logoSrc": "/img/logos/hubspot.png",
+    "logoAlt": "HubSpot logo",
+    "h1": "HubSpot Sales Hub: CRM & Sales Engagement Platform",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+    "score": "4.4/5 on G2",
+    "updated": "Updated February 2026",
+    "dataSource": "Data from G2 & hubspot.com",
+    "personaTags": [
+      { "class": "personal-friendly", "text": "Personal-Friendly" },
+      { "class": "enterprise-grade", "text": "Enterprise Grade" }
+    ]
+  },
+  "quickSummary": {
+    "whatItDoes": "CRM with built-in email sequences, meeting scheduler, pipeline management, and reporting for growing teams.",
+    "bestFor": "SMBs and mid-market teams wanting CRM + sales tools in one platform.",
+    "pricing": "Free ($0), Starter ($20/seat/mo), Professional ($100/seat/mo + $1,500 onboarding), Enterprise ($150/seat/mo + $3,500 onboarding). Pro & Enterprise require annual contracts.",
+    "ctaUrl": "/go/hubspot",
+    "ctaText": "Visit HubSpot"
+  },
+  "whatIs": {
+    "paragraphs": [
+      "HubSpot Sales Hub is an all-in-one CRM bundling contact management, email sequences, meeting scheduling, pipeline management, and reporting. Free tier is among the most generous available; paid tiers unlock sequences, automation, and predictive lead scoring."
+    ],
+    "noteHtml": "Note: Based on vendor documentation and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/hubspot-sales-hub/reviews\" target=\"_blank\" rel=\"noopener\">HubSpot Sales Hub on G2</a>."
+  },
+  "features": [
+    { "title": "Free CRM", "description": "Contact management, deal tracking, and email tracking free up to 1M contacts." },
+    { "title": "Email Sequences & Templates", "description": "Automated email + task cadences with personalization and A/B testing." },
+    { "title": "Meeting Scheduler", "description": "Built-in scheduling with round-robin routing and calendar integration." },
+    { "title": "Pipeline Management", "description": "Visual deal boards with drag-and-drop stages and forecast dashboards." },
+    { "title": "Reporting Dashboards", "description": "Pre-built and custom reports for pipeline, activity, and revenue metrics." },
+    { "title": "Predictive Lead Scoring", "description": "AI lead scoring (Professional+) ranking contacts by conversion likelihood." }
+  ],
+  "decisionModule": {
+    "verdict": {
+      "bestFor": "SMBs and mid-market teams (5-100 reps) wanting CRM + sales engagement in one platform with best-in-class onboarding.",
+      "avoidIf": "You're an enterprise org with complex multi-product sales motions, need advanced CPQ, or have 500+ reps.",
+      "bottomLine": "HubSpot is the easiest CRM to adopt and the best all-in-one for growing teams. Free tier is genuinely useful, but contact-tier pricing means costs can surprise at scale.",
+      "ctaUrl": "/go/hubspot",
+      "ctaText": "Visit HubSpot"
+    },
+    "dualScore": {
+      "org": {
+        "score": 74,
+        "explain": "Best-in-class integrations and ease of deployment make it the default CRM for scaling teams."
+      },
+      "individual": {
+        "score": 72,
+        "explain": "Free CRM, intuitive UI, and massive app marketplace make it the most accessible for reps."
+      }
+    },
+    "subScores": [
+      { "label": "Enterprise Fit", "score": "7/10" },
+      { "label": "Ease of Adoption", "score": "9/10" },
+      { "label": "AI Depth", "score": "5/10" },
+      { "label": "Integration Depth", "score": "10/10" },
+      { "label": "Pricing Transparency", "score": "7/10" },
+      { "label": "Scalability", "score": "7/10" }
+    ],
+    "decisionSnapshot": {
+      "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
+      "rows": [
+        {
+          "dimension": "Enterprise Fit",
+          "score": 7,
+          "notes": "Enterprise tier exists with SSO, RBAC, custom objects; but historically SMB-focused with customization ceiling",
+          "evidence": [
+            { "source": "G2", "text": "Enterprise users note SAML SSO and custom objects added in recent releases" },
+            { "source": "Vendor", "text": "Enterprise tier ($150/mo) includes SSO, RBAC, and custom objects per pricing page" },
+            { "source": "Reddit", "text": "r/hubspot threads confirm customization ceiling vs Salesforce for complex orgs" },
+            { "source": "Gartner PI", "text": "Enterprise buyers rate HubSpot governance controls 4.2/5; SOC 2 Type II confirmed; ISO 27001 via AWS infrastructure (not HubSpot-held)" }
+          ]
+        },
+        {
+          "dimension": "Ease of Adoption",
+          "score": 9,
+          "notes": "Best-in-class onboarding, intuitive UI, HubSpot Academy free training; lowest learning curve of any CRM",
+          "evidence": [
+            { "source": "G2", "text": "Ease of use rated 8.7/10; highest in CRM category across 13,499 reviews" },
+            { "source": "Capterra", "text": "HubSpot Academy and free certifications cited as industry-leading onboarding" },
+            { "source": "YouTube", "text": "25+ demo walkthroughs confirm intuitive pipeline and sequence setup" },
+            { "source": "TrustRadius", "text": "88% of reviewers rate onboarding as \"easy\"; consistently praised as CRM with lowest learning curve" }
+          ]
+        },
+        {
+          "dimension": "AI Depth",
+          "score": 5,
+          "notes": "AI features exist (email writing, lead scoring, content assistant) but not a core differentiator vs. dedicated AI tools",
+          "evidence": [
+            { "source": "G2", "text": "AI features mentioned in <10% of reviews; not a primary purchase driver" },
+            { "source": "Vendor", "text": "Content assistant, predictive lead scoring, and AI email writing documented" },
+            { "source": "Reddit", "text": "Practitioners note AI features lag behind Gong, Clay, and other purpose-built tools" }
+          ]
+        },
+        {
+          "dimension": "Integration Depth",
+          "score": 10,
+          "notes": "1,400+ app marketplace integrations, robust API, native connections to virtually every sales tool",
+          "evidence": [
+            { "source": "Vendor", "text": "HubSpot Marketplace lists 1,400+ verified integrations with native connectors" },
+            { "source": "G2", "text": "Integration ecosystem rated highest in CRM category; API reliability praised" },
+            { "source": "Capterra", "text": "Users confirm seamless connections to virtually every major sales and marketing tool" },
+            { "source": "TrustRadius", "text": "Marketplace ecosystem rated 4.5/5 with 1,600+ integrations; native apps praised over Zapier workarounds" }
+          ]
+        },
+        {
+          "dimension": "Pricing Transparency",
+          "score": 7,
+          "notes": "Starter and Professional pricing is public; Enterprise requires sales; contact-tier pricing adds complexity",
+          "evidence": [
+            { "source": "Vendor", "text": "Public pricing page with Starter ($20/seat/mo) and Professional ($100/seat/mo) tiers listed" },
+            { "source": "Reddit", "text": "Contact-tier pricing generates frequent complaints about unexpected cost escalation" },
+            { "source": "G2", "text": "Pricing transparency rated 4.0/5; contact-based pricing model is main confusion point" }
+          ]
+        },
+        {
+          "dimension": "Scalability",
+          "score": 7,
+          "notes": "Scales well to mid-market; enterprise users with 500+ reps find limitations vs Salesforce",
+          "evidence": [
+            { "source": "G2", "text": "Mid-market users report strong scaling; enterprise users cite data model limitations" },
+            { "source": "Reddit", "text": "Teams past 200 reps frequently evaluate Salesforce migration for advanced needs" },
+            { "source": "Capterra", "text": "Custom objects and workflow limits create ceiling for complex enterprise deployments" }
+          ]
+        }
+      ]
+    },
+    "evidenceSignals": {
+      "confidence": "high",
+      "confidenceNote": "Based on multi-platform review synthesis, extensive community discussion, demo-verified CRM workflows, and current vendor documentation. Strong signal across 18,929+ public reviews.",
+      "sourcePills": [
+        "G2: 4.4/5 (13,499 reviews)",
+        "Capterra: 4.5/5 (4,414 reviews)",
+        "TrustRadius: 8.8/10 (564 reviews)",
+        "Gartner PI: 4.4/5 (452 reviews)",
+        "YouTube: 25+ demos",
+        "Trust center ✓"
+      ],
+      "freshness": [
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 18,929+ total reviews across 4 platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
+      ],
+      "evidenceGrid": [
+        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: free CRM genuinely useful. Complaint: costs escalate quickly on paid tiers" },
+        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> CRM + sequences + marketing in one unified workflow" },
+        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Free CRM, sequence builder, pipeline management" },
+        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Freemium pricing, 1,400+ integrations, API documentation" }
+      ],
+      "strengthThemes": [
+        "Free CRM genuinely useful for small teams",
+        "Unified CRM + marketing + sales reduces tool sprawl",
+        "1,400+ ecosystem integrations"
+      ],
+      "limitationThemes": [
+        "Costs escalate sharply on paid tiers",
+        "Sequences limited vs dedicated engagement platforms",
+        "Enterprise features require expensive tiers"
+      ],
+      "disagreeNote": "&#9888;&#65039; Where sources disagree: Vendor positions as all-in-one; community notes dedicated point solutions outperform HubSpot equivalents. Free tier praised universally but upgrade pricing generates frequent complaints.",
+      "lastVerified": "February 2026"
+    },
+    "userVoiceThemes": [
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Free CRM tier is the best onramp in the industry",
+        "synthesis": "HubSpot's free CRM is universally praised as the most functional free tier available. Teams start with contact management, deal tracking, and basic email tools at zero cost, then naturally scale into paid tiers as needs grow. This land-and-expand model means most teams adopt HubSpot bottom-up without a formal procurement process.",
+        "sources": ["G2: 3,200+ mentions", "Reddit: 25 threads", "Capterra: 1,800+ mentions"],
+        "quote": "\"We started on the free CRM with three reps and never looked back. Six months later we upgraded to Starter — no formal procurement needed, just a credit card. That frictionless onramp is why HubSpot wins SMBs.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      },
+      {
+        "sentiment": "negative",
+        "sentimentIcon": "&#9660;",
+        "heading": "Cost escalates dramatically as contact volume grows",
+        "synthesis": "The most common pricing complaint: contact-tier pricing creates unexpected cost jumps. Teams that grow past 2K, 5K, and 10K marketing contacts face significant monthly increases. The so-called \"HubSpot tax\" is a recurring theme where teams feel locked into escalating costs because migration is painful once workflows are built on the platform.",
+        "sources": ["G2: 2,100+ mentions", "Reddit: 20 threads", "Capterra: 980 mentions"],
+        "quote": "\"Our marketing contact list crossed 10K and the bill jumped $600/month overnight. The free tier is amazing, but plan your budget carefully — the contact-tier pricing creates real sticker shock as you scale.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      },
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "All-in-one marketing + sales + service hub eliminates integration headaches",
+        "synthesis": "Teams running marketing, sales, and service on HubSpot consistently praise the unified data model. Having contacts, deals, tickets, and content in one platform eliminates sync issues and provides a single source of truth. The 1,400+ marketplace integrations extend this further, connecting virtually any tool in the sales stack.",
+        "sources": ["G2: 2,800+ mentions", "Reddit: 18 threads", "Capterra: 1,500+ mentions"],
+        "quote": "\"We consolidated from Salesforce plus Outreach plus Drift into HubSpot Sales Hub and our tech stack cost dropped 40%. The native integration between marketing and sales is what keeps everything in sync.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      },
+      {
+        "sentiment": "mixed",
+        "sentimentIcon": "&#9644;",
+        "heading": "AI features are improving but lag behind purpose-built tools",
+        "synthesis": "HubSpot's AI content assistant, predictive lead scoring, and email writing tools are functional but don't match dedicated solutions. Teams using Gong for conversation intelligence or Clay for data enrichment find HubSpot's equivalents are a generation behind. The AI roadmap is promising, but today it's a convenience feature rather than a competitive advantage.",
+        "sources": ["G2: 680 mentions", "Reddit: 8 threads", "Capterra: 320 mentions"],
+        "quote": "\"HubSpot's AI email writer and lead scoring are fine for basics, but they don't come close to what Gong or Clay deliver. Think of the AI as a convenience layer, not a reason to buy.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      },
+      {
+        "sentiment": "mixed",
+        "sentimentIcon": "&#9654;",
+        "heading": "Free CRM is the gateway but enterprise pricing creates sticker shock",
+        "synthesis": "TrustRadius and Gartner Peer Insights reviewers consistently praise the free CRM as the best entry point in the market, but enterprise users report total cost of ownership escalating rapidly when adding Sales Hub Professional or Enterprise seats. Multiple reviewers across platforms note that the jump from Starter to Professional feels disproportionate to the features unlocked.",
+        "sources": ["TrustRadius: 520 mentions", "Gartner PI: 280 mentions", "G2: 1,400+ mentions"],
+        "quote": "\"The free CRM got us hooked, but jumping from Starter to Professional felt like a completely different price tier for features that should be standard. Plan your upgrade budget before you build workflows you can't easily migrate.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      }
+    ],
+    "pricingBreakdown": {
+      "tldr": "Free ($0), Starter ($20/seat/mo), Professional ($100/seat/mo + $1,500 onboarding), Enterprise ($150/seat/mo + $3,500 onboarding). Pro & Enterprise require annual contracts.",
+      "gotchas": [
+        "Contact-tier pricing jumps past 2K, 5K, and 10K marketing contacts",
+        "Marketing Hub bundle adds significant cost",
+        "Onboarding fees: $1,500 Professional, $3,500 Enterprise",
+        "Per-seat + contact tiers = two cost dimensions",
+        "Aggressive feature gating &mdash; sequences and reporting require Professional+"
+      ]
+    },
+    "greatAt": [
+      "<strong>Lowest barrier to entry:</strong> Free CRM with contact management, deals, and basic email tools",
+      "<strong>Best onboarding:</strong> HubSpot Academy free certifications and massive knowledge base",
+      "<strong>All-in-one platform:</strong> CRM + sequences + meetings + reporting reduces tool sprawl",
+      "<strong>1,400+ integrations:</strong> Connects to virtually every sales tool",
+      "<strong>Clean pipeline UI:</strong> Intuitive deal boards and visual dashboards"
+    ],
+    "breaksAtScale": [
+      "<strong>Contact-tier pricing escalates:</strong> Past 10K contacts can add $500&ndash;2,000/month unexpectedly",
+      "<strong>Reporting limitations:</strong> Less powerful than Salesforce for complex organizations",
+      "<strong>Customization ceiling:</strong> Enterprise needs outgrow HubSpot's data model",
+      "<strong>Automation limits:</strong> RevOps teams find workflows limited vs Salesforce Flow",
+      "<strong>Data model inflexibility:</strong> Custom objects less flexible than Salesforce"
+    ],
+    "whoShouldNotBuy": [
+      "<strong>Enterprise orgs with complex sales motions:</strong> Need Salesforce for multi-product, multi-currency, CPQ",
+      "<strong>Teams needing advanced CPQ:</strong> HubSpot quoting is basic vs Salesforce CPQ or DealHub",
+      "<strong>Organizations with 500+ reps:</strong> Granular permissions and territory planning limited",
+      "<strong>Companies embedded in Salesforce:</strong> CRM migration is painful and rarely worth it",
+      "<strong>Teams needing advanced forecasting:</strong> Clari or Gong Forecast are far more powerful"
+    ],
+    "implementationReality": {
+      "stats": [
+        { "number": "1&ndash;3 days", "label": "Time to Value" },
+        { "number": "Low", "label": "Setup Complexity" },
+        { "number": "Low", "label": "RevOps Lift" },
+        { "number": "Low", "label": "Training Required" },
+        { "number": "Light", "label": "Data Migration" }
+      ],
+      "note": "Most teams import contacts, set up pipelines, and start sequences within 1-3 days."
+    },
+    "enterpriseReadiness": [
+      { "label": "SSO / SAML", "value": "SAML SSO on Enterprise only", "class": "dm-available" },
+      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
+      { "label": "ISO 27001", "value": "Via AWS infrastructure; not HubSpot-held", "class": "dm-partial" },
+      { "label": "GDPR", "value": "GDPR compliant", "class": "dm-available" },
+      { "label": "HIPAA", "value": "HIPAA attestation", "class": "dm-available" },
+      { "label": "CCPA", "value": "CCPA compliant", "class": "dm-available" },
+      { "label": "RBAC", "value": "Full RBAC on Professional+", "class": "dm-available" },
+      { "label": "Data Residency", "value": "US and EU", "class": "dm-available" },
+      { "label": "SLA", "value": "99.99% uptime SLA on Enterprise", "class": "dm-available" },
+      { "label": "Audit Logs", "value": "Full audit logs on Enterprise", "class": "dm-available" }
+    ],
+    "whoThisIsFor": {
+      "org": {
+        "heading": "Best for Sales Teams & RevOps",
+        "items": [
+          "Growing teams needing CRM + marketing + service unified",
+          "RevOps wanting broadest integration ecosystem (1,500+ apps)",
+          "Orgs scaling from startup to mid-market"
+        ]
+      },
+      "individual": {
+        "heading": "Best for Individual Reps",
+        "items": [
+          "Reps needing a free CRM for pipeline management",
+          "Solo sellers wanting built-in email tracking and scheduling",
+          "ICs valuing intuitive UI over advanced customization"
+        ]
+      }
+    },
+    "stackPairings": {
+      "cards": [
+        { "title": "Apollo.io", "titleLink": "apollo-review.html", "description": "Prospecting data and outbound feeding into HubSpot CRM." },
+        { "title": "Instantly.ai", "titleLink": "instantly-review.html", "description": "High-volume cold email beyond HubSpot's sending limits." },
+        { "title": "Gong", "titleLink": null, "description": "Call recording and deal analytics atop HubSpot pipeline." },
+        { "title": "Clay", "titleLink": "clay-review.html", "description": "Multi-source enrichment pushing contacts into HubSpot." },
+        { "title": "Calendly", "titleLink": null, "description": "Scheduling integration if HubSpot's built-in scheduler falls short." }
+      ],
+      "exampleStack": "Apollo (prospect) &#8594; HubSpot (CRM + sequences) &#8594; Gong (calls) &#8594; Clay (enrich)"
+    },
+    "alternatives": {
+      "rows": [
+        { "tool": "Salesforce Sales Cloud", "toolLink": null, "bestFor": "Enterprise standard CRM", "g2": "4.3/5", "price": "From $25/mo" },
+        { "tool": "Pipedrive", "toolLink": null, "bestFor": "Sales-focused simplicity", "g2": "4.2/5", "price": "From $14/mo" },
+        { "tool": "monday CRM", "toolLink": null, "bestFor": "No-code flexibility", "g2": "4.6/5", "price": "From $12/mo" },
+        { "tool": "Freshsales", "toolLink": null, "bestFor": "Budget CRM with AI", "g2": "4.5/5", "price": "From $9/mo" },
+        { "tool": "Close CRM", "toolLink": null, "bestFor": "Inside sales focused", "g2": "4.7/5", "price": "From $29/mo" }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What are the limitations of HubSpot's free CRM?",
+        "answer": "Free tier includes contacts, deals, and email tracking (200 notifications/month). Limits: branding, 5 templates, no sequences or custom reporting."
+      },
+      {
+        "question": "How does HubSpot compare to Salesforce?",
+        "answer": "HubSpot is easier with lower costs for teams under 200 reps. Salesforce is stronger for complex enterprise needs and advanced CPQ."
+      },
+      {
+        "question": "Is HubSpot Professional worth the upgrade from Starter?",
+        "answer": "Yes if your team does outbound — Professional unlocks sequences, custom reporting, and automation. Starter suffices for basic CRM."
+      }
+    ],
+    "meta": {
+      "lastVerified": "February 2026",
+      "methodologyLink": "/methodology/",
+      "disclosureLink": "/disclosure.html"
+    }
+  },
+  "sidebar": {
+    "atAGlance": [
+      { "label": "G2 Rating", "value": "4.4/5" },
+      { "label": "G2 Reviews", "value": "13,499" },
+      { "label": "Starting Price", "value": "$20/mo" },
+      { "label": "Category", "value": "CRM & Pipeline" },
+      { "label": "Free Tier", "value": "Yes" }
+    ],
+    "ctaUrl": "/go/hubspot",
+    "comparisons": [
+      { "text": "HubSpot vs Pipedrive", "url": "/compare/hubspot-vs-pipedrive.html" },
+      { "text": "HubSpot vs monday CRM", "url": "/compare/hubspot-vs-monday-crm.html" }
+    ],
+    "externalReviews": [
+      { "text": "G2 Reviews", "url": "https://www.g2.com/products/hubspot-sales-hub/reviews" }
+    ],
+    "relatedGuides": [
+      { "text": "Best AI Prospecting Tools", "url": "/guides/best-ai-outbound-prospecting-tools.html" },
+      { "text": "Best AI Email Outreach Tools", "url": "/guides/best-ai-email-outreach-tools.html" }
+    ],
+    "emailCard": {
+      "heading": "Weekly Tool Intel",
+      "description": "Get honest tool comparisons and decision frameworks in your inbox."
+    }
+  },
+  "finalCta": {
+    "heading": "Learn More About HubSpot Sales Hub",
+    "description": "Visit their site for current pricing, a free CRM signup, and product demos.",
+    "primaryUrl": "/go/hubspot",
+    "primaryText": "Visit HubSpot",
+    "secondaryUrl": "https://www.g2.com/products/hubspot-sales-hub/reviews",
+    "secondaryText": "Read G2 Reviews",
+    "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  }
+}

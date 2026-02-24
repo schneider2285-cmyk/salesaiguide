@@ -21,8 +21,8 @@ module.exports = function(eleventyConfig) {
   // All root-level HTML files (index, about, 404, disclosure, editorial, logo-prototypes)
   eleventyConfig.addPassthroughCopy("*.html");
 
-  // All tool review HTML files EXCEPT clay (which is now a .njk template)
-  eleventyConfig.addPassthroughCopy("tools/*.html");
+  // Tool listing page (all reviews are now .njk templates)
+  eleventyConfig.addPassthroughCopy("tools/index.html");
 
   return {
     dir: {

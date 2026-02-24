@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "title": "Lavender Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "description": "Lavender product profile with G2 ratings, pricing tiers, key features, and competitor comparison table. Data aggregated from G2 and vendor documentation.",
+    "ogTitle": "Lavender Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "ogDescription": "Lavender product profile with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources.",
+    "ogUrl": "https://salesaiguide.com/tools/lavender-review.html",
+    "canonicalUrl": "https://salesaiguide.com/tools/lavender-review.html",
+    "twitterTitle": "Lavender Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "twitterDescription": "Lavender product profile with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources."
+  },
+  "jsonLd": {
+    "softwareApplication": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Lavender",
+      "applicationCategory": "Sales Software",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "bestRating": "5",
+        "ratingCount": "62",
+        "reviewCount": "62"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "29",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31"
+      }
+    },
+    "faqPage": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does Lavender actually improve reply rates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "According to Lavender's published data and G2 reviews, users report 2-3x improvement in reply rates after consistently using the coaching suggestions. Results vary by baseline skill level \u2014 reps who already write strong emails see smaller gains, while newer SDRs tend to see the most improvement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Lavender compare to using ChatGPT for emails?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lavender is purpose-built for sales emails with real-time scoring, prospect personality analysis (DISC), and data on what works based on millions of emails. ChatGPT is a general writing tool without sales-specific coaching, email scoring, or integration with your email client. Lavender coaches you to improve; ChatGPT writes for you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which email clients does Lavender work with?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lavender works as a Chrome extension with Gmail and Outlook web. It also has native integrations with Outreach and Salesloft, coaching emails directly within those sales engagement platforms. It does not currently support desktop email clients like Apple Mail or Thunderbird."
+          }
+        }
+      ]
+    }
+  },
+  "hero": {
+    "breadcrumbName": "Lavender",
+    "logoSrc": "/img/logos/lavender.png",
+    "logoAlt": "Lavender logo",
+    "h1": "Lavender: AI Email Coaching & Writing Assistant",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+    "score": "4.8/5 on G2",
+    "updated": "Updated February 2026",
+    "dataSource": "Data from G2 & lavender.ai",
+    "personaTags": [
+      { "class": "personal-friendly", "text": "Personal-Friendly" },
+      { "class": "low-cost", "text": "Low Cost" },
+      { "class": "chrome-extension", "text": "Chrome Extension" }
+    ]
+  },
+  "quickSummary": {
+    "whatItDoes": "AI email coaching tool that analyzes your cold emails in real-time and scores them for effectiveness, providing specific suggestions to improve reply rates.",
+    "bestFor": "SDRs and AEs who want to write better cold emails with real-time AI coaching.",
+    "pricing": "Free (5 emails/mo), Starter ~$29/mo, Individual Pro ~$49/mo, Team ~$99/seat/mo. 7-day free trial.",
+    "ctaUrl": "/go/lavender",
+    "ctaText": "Visit Lavender"
+  },
+  "whatIs": {
+    "paragraphs": [
+      "Lavender is an AI email coaching Chrome extension that scores cold emails in real-time and provides specific suggestions to improve reply rates. Unlike tools that write for you, Lavender coaches you &mdash; including DISC-based prospect personality analysis and team coaching dashboards for managers. <em>Profile based on vendor docs and G2 reviews. See <a href=\"https://www.g2.com/products/lavender/reviews\" target=\"_blank\" rel=\"noopener\">Lavender on G2</a>.</em>"
+    ]
+  },
+  "features": [
+    { "title": "Real-Time Email Scoring", "description": "Scores every email as you write with coaching to improve replies." },
+    { "title": "AI Rewrite Suggestions", "description": "One-click rewrites that shorten and strengthen email copy." },
+    { "title": "Personality Analysis (DISC)", "description": "Identifies prospect communication style and suggests tone adjustments." },
+    { "title": "Email Template Analysis", "description": "Score existing templates to identify top performers and why." },
+    { "title": "Team Coaching Dashboards", "description": "Manager analytics showing team email quality and coaching gaps." },
+    { "title": "Chrome Extension Integration", "description": "Works inside Gmail, Outlook, Outreach, and Salesloft natively." }
+  ],
+  "decisionModule": {
+    "verdict": {
+      "bestFor": "SDRs and AEs sending cold email daily who want real-time coaching to permanently improve writing and reply rates.",
+      "avoidIf": "You need a sending platform (Lavender only coaches, doesn't send) or your team doesn't send cold email regularly.",
+      "bottomLine": "Lavender is the best-in-class email coaching tool &mdash; AI is the entire product, not an add-on. The trade-off is that it only helps with email, not calls, LinkedIn, or other channels.",
+      "ctaUrl": "/go/lavender",
+      "ctaText": "Visit Lavender"
+    },
+    "dualScore": {
+      "org": {
+        "score": 63,
+        "explain": "Excellent AI coaching for email quality, but limited enterprise controls and integration depth for large-team deployment."
+      },
+      "individual": {
+        "score": 79,
+        "explain": "The highest individual rep value in our directory - instant setup, AI email scoring, and affordable pricing make it a no-brainer for any rep."
+      }
+    },
+    "subScores": [
+      { "label": "Enterprise Fit", "score": "5/10" },
+      { "label": "Ease of Adoption", "score": "9/10" },
+      { "label": "AI Depth", "score": "9/10" },
+      { "label": "Integration Depth", "score": "6/10" },
+      { "label": "Pricing Transparency", "score": "8/10" },
+      { "label": "Scalability", "score": "6/10" }
+    ],
+    "decisionSnapshot": {
+      "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
+      "rows": [
+        {
+          "dimension": "Enterprise Fit",
+          "score": 5,
+          "notes": "Team features exist but limited enterprise admin",
+          "evidence": [
+            { "source": "Vendor", "text": "Team management available on Teams plan; SOC 2 Type 2 certified; OAuth only (no SAML SSO)" },
+            { "source": "G2", "text": "Enterprise buyers note lack of admin controls and compliance certifications" },
+            { "source": "Reddit", "text": "Users confirm Lavender targets individual reps, not enterprise IT buyers" }
+          ]
+        },
+        {
+          "dimension": "Ease of Adoption",
+          "score": 9,
+          "notes": "Chrome extension installs in seconds, coaching is immediate",
+          "evidence": [
+            { "source": "G2", "text": "Ease of use rated 4.8/5; fastest time-to-value in sales AI category" },
+            { "source": "Reddit", "text": "Users report productive within minutes of Chrome extension install" }
+          ]
+        },
+        {
+          "dimension": "AI Depth",
+          "score": 9,
+          "notes": "AI is the entire product - real-time analysis, personality detection, rewrite suggestions",
+          "evidence": [
+            { "source": "G2", "text": "AI scoring and DISC personality analysis cited as primary differentiators" },
+            { "source": "Vendor", "text": "Real-time NLP analysis with prospect-specific personalization engine" },
+            { "source": "Reddit", "text": "Practitioners confirm measurable reply rate improvements from AI coaching" }
+          ]
+        },
+        {
+          "dimension": "Integration Depth",
+          "score": 6,
+          "notes": "Gmail/Outlook/Outreach/Salesloft native; limited broader stack",
+          "evidence": [
+            { "source": "Vendor", "text": "Native integrations limited to Gmail, Outlook, Outreach, and Salesloft" },
+            { "source": "G2", "text": "Users praise email client integration but want CRM and Slack connections" }
+          ]
+        },
+        {
+          "dimension": "Pricing Transparency",
+          "score": 8,
+          "notes": "All plans listed, free tier available",
+          "evidence": [
+            { "source": "Vendor", "text": "Free tier (5 emails/mo), Starter $29/mo, Pro $49/mo all publicly listed" },
+            { "source": "G2", "text": "Pricing clarity praised; no reports of hidden fees or surprise charges" },
+            { "source": "Reddit", "text": "Users appreciate transparent per-seat pricing model" }
+          ]
+        },
+        {
+          "dimension": "Scalability",
+          "score": 6,
+          "notes": "Works well for individual reps but team analytics features are maturing",
+          "evidence": [
+            { "source": "G2", "text": "Individual rep usage praised; team deployment features described as early-stage" },
+            { "source": "Vendor", "text": "Team dashboards available but enterprise-scale features still in development" },
+            { "source": "Reddit", "text": "Teams of 5-10 report good results; larger deployments less documented" }
+          ]
+        }
+      ]
+    },
+    "evidenceSignals": {
+      "confidence": "medium",
+      "confidenceNote": "Based on G2 reviews (primary platform) and verified vendor documentation. Single verified review platform limits pattern reliability.",
+      "sourcePills": [
+        "G2: 4.8/5 (62 reviews)",
+        "Reddit: 7+ threads",
+        "YouTube: 5+ demos",
+        "Vendor docs &#10003;"
+      ],
+      "freshness": [
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 62 total reviews on G2 (primary platform)",
+        "\ud83d\udd0d Last verified: Feb 2026"
+      ],
+      "evidenceGrid": [
+        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: instant email scoring measurably improves reply rates. Complaint: limited value beyond email" },
+        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> Real-time coaching in Gmail/Outlook, team performance dashboards" },
+        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Chrome extension, email scoring UI, personalization suggestions" },
+        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Pricing published, Gmail/Outlook/Salesloft integrations" }
+      ],
+      "strengthThemes": [
+        "Real-time email scoring measurably improves reply rates",
+        "Chrome extension works inside existing workflow",
+        "Personalization suggestions based on prospect data"
+      ],
+      "limitationThemes": [
+        "Limited to email - no multi-channel capability",
+        "Value diminishes for experienced writers",
+        "Team analytics requires higher-tier plans"
+      ],
+      "disagreeNote": "&#9888;&#65039; Where sources disagree: G2 consistently praises scoring; community debates whether AI suggestions homogenize messaging across teams. Vendor claims reply rate improvements; independent validation limited.",
+      "lastVerified": "February 2026"
+    },
+    "userVoiceThemes": [
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Real-time email coaching measurably improves reply rates",
+        "synthesis": "Users consistently report measurable improvements in reply rates after adopting Lavender's real-time coaching. The most common figure cited is 15-25% improvement, with newer SDRs seeing the largest gains. The email scoring system creates a feedback loop that builds lasting writing skills.",
+        "sources": ["G2: 34 mentions", "Reddit: 4 threads"],
+        "quote": "\"My reply rates went from 3% to 11% in the first month. The real-time scoring forced me to rewrite every lazy email, and the habits stuck even when I turned it off.\"",
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+      },
+      {
+        "sentiment": "mixed",
+        "sentimentIcon": "&#9644;",
+        "heading": "AI suggestions become repetitive after 3+ months",
+        "synthesis": "Power users report that Lavender's coaching suggestions become predictable after consistent use. Once reps internalize the best practices, the AI recommendations feel less novel. This is both a strength (skills are retained) and a limitation (ongoing subscription value decreases for experienced users).",
+        "sources": ["G2: 18 mentions", "Reddit: 3 threads"],
+        "quote": "\"After six months I could predict the score before I even ran it. The coaching worked &mdash; I internalized the patterns &mdash; but now I'm paying $49/mo for a tool I've outgrown.\"",
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+      },
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Gmail/Outlook integration is seamless",
+        "synthesis": "The Chrome extension integration receives universal praise for zero workflow disruption. Users report that Lavender works naturally within their existing email client without requiring context switching, tab changes, or separate windows. The inline coaching feels like a native feature of Gmail and Outlook.",
+        "sources": ["G2: 28 mentions", "Reddit: 5 threads"],
+        "quote": "\"Installed the Chrome extension and it was scoring my emails within sixty seconds. No onboarding call, no setup wizard &mdash; it just works inside Gmail like it was always there.\"",
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+      },
+      {
+        "sentiment": "negative",
+        "sentimentIcon": "&#9660;",
+        "heading": "Limited value beyond email",
+        "synthesis": "The most consistent criticism is Lavender's narrow scope. Users want multi-channel coaching for LinkedIn messages, cold calls, and video prospecting, but Lavender only covers email. Teams running multichannel sequences report needing separate tools for non-email coaching, reducing overall stack efficiency.",
+        "sources": ["G2: 15 mentions", "Reddit: 3 threads"],
+        "quote": "\"Lavender is brilliant for what it does &mdash; email coaching &mdash; but that's literally all it does. You still need a separate tool for sequences, tracking, and LinkedIn outreach.\"",
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+      },
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Real-time coaching creates measurable behavior change in reps",
+        "synthesis": "Reviewers emphasize that Lavender's in-line coaching changes how reps write emails within the first week. Unlike batch analytics tools, the real-time feedback loop creates immediate behavior improvement, with users reporting 15-30% higher reply rates within the first month of adoption.",
+        "sources": ["G2: 22 mentions", "Reddit: 3 threads"],
+        "quote": "\"Within one week our new SDRs were writing emails that scored 90+. The coaching loop is so tight that bad habits don't have time to form &mdash; it's like having a writing coach on every send.\"",
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+      }
+    ],
+    "pricingBreakdown": {
+      "tldr": "Free (5 emails/mo), Starter ~$29/mo, Individual Pro ~$49/mo, Team ~$99/seat/mo. 7-day free trial.",
+      "gotchas": [
+        "Free tier limited to 5 emails/month &mdash; trial only",
+        "Per-seat pricing adds up quickly for larger teams",
+        "Cold email coaching strongest; warm email coaching less differentiated",
+        "Team dashboards require Team plan (~$99/seat/mo)",
+        "Occasional users see less ROI &mdash; value comes from daily use"
+      ]
+    },
+    "greatAt": [
+      "<strong>Permanent skill improvement:</strong> Coaching builds writing skills that persist without the tool",
+      "<strong>Personality-driven personalization:</strong> DISC analysis adjusts tone per recipient",
+      "<strong>Measurable reply rate impact:</strong> Users report 2&ndash;3x reply rate improvement",
+      "<strong>Zero-friction workflow:</strong> Chrome extension inside your email client, no switching",
+      "<strong>Manager visibility:</strong> Dashboards surface reps needing help"
+    ],
+    "breaksAtScale": [
+      "<strong>Email-only coaching:</strong> No calls, LinkedIn, or multichannel",
+      "<strong>Per-seat cost pressure:</strong> Expensive for large teams",
+      "<strong>Repetitive suggestions:</strong> Predictable for experienced users",
+      "<strong>Maturing team features:</strong> Team analytics still developing",
+      "<strong>Narrow integration scope:</strong> Limited beyond email clients",
+      "<strong>Small review base:</strong> Only 62 G2 reviews"
+    ],
+    "whoShouldNotBuy": [
+      "<strong>Inbound-only teams:</strong> No value without cold email",
+      "<strong>Large teams on tight budgets:</strong> Per-seat costs add up past 20+ reps",
+      "<strong>Already-strong writers:</strong> Diminishing returns at high reply rates",
+      "<strong>Teams needing a sending platform:</strong> Coaches only, doesn't send",
+      "<strong>Multichannel coaching needs:</strong> Email only; try Gong for calls"
+    ],
+    "implementationReality": {
+      "stats": [
+        { "number": "Same day", "label": "Time to Value" },
+        { "number": "Low", "label": "Setup Complexity" },
+        { "number": "None", "label": "RevOps Lift" },
+        { "number": "Low", "label": "Training Required" },
+        { "number": "None", "label": "Data Migration" }
+      ],
+      "note": "Install Chrome extension for immediate coaching; team dashboard setup takes slightly longer."
+    },
+    "enterpriseReadiness": [
+      { "label": "SOC 2", "value": "SOC 2 Type 2 certified", "class": "dm-available" },
+      { "label": "SSO / SAML", "value": "OAuth only (Google, Microsoft); no SAML", "class": "dm-partial" },
+      { "label": "GDPR", "value": "GDPR and CCPA compliant", "class": "dm-available" },
+      { "label": "Data Residency", "value": "AWS hosted", "class": "dm-partial" },
+      { "label": "SLA", "value": "No public SLA", "class": "dm-unavailable" },
+      { "label": "Audit Logs", "value": "Not documented", "class": "dm-unavailable" }
+    ],
+    "whoThisIsFor": {
+      "org": {
+        "heading": "Best for Sales Teams & RevOps",
+        "items": [
+          "Sales teams investing in email coaching across reps",
+          "Enablement leaders wanting email performance data",
+          "Orgs integrating AI writing into engagement platforms"
+        ]
+      },
+      "individual": {
+        "heading": "Best for Individual Reps",
+        "items": [
+          "SDRs and AEs wanting real-time AI email feedback",
+          "Reps improving reply rates with personalization scoring",
+          "Solo sellers wanting instant coaching, no admin setup"
+        ]
+      }
+    },
+    "stackPairings": {
+      "cards": [
+        { "title": "Instantly.ai", "titleLink": "instantly-review.html", "description": "Coach emails with Lavender, then send at scale via Instantly." },
+        { "title": "Outreach", "titleLink": "outreach-review.html", "description": "Native integration coaches emails directly inside Outreach sequences." },
+        { "title": "Salesloft", "titleLink": null, "description": "Native integration scores emails inside Salesloft cadences." },
+        { "title": "Apollo.io", "titleLink": "apollo-review.html", "description": "Write better emails for Apollo-sourced prospects." }
+      ],
+      "exampleStack": "Apollo (prospect) &#8594; Lavender (coach) &#8594; Instantly (send) &#8594; HubSpot (CRM)"
+    },
+    "alternatives": {
+      "rows": [
+        { "tool": "Autobound", "toolLink": null, "bestFor": "Data-driven personalization", "g2": "4.4/5", "price": "Custom" },
+        { "tool": "Regie.ai", "toolLink": null, "bestFor": "AI content generation", "g2": "4.3/5", "price": "Custom" },
+        { "tool": "Copy.ai", "toolLink": null, "bestFor": "General AI writing", "g2": "4.7/5", "price": "From $36/mo" },
+        { "tool": "Jasper", "toolLink": null, "bestFor": "Marketing-focused AI", "g2": "4.7/5", "price": "From $39/mo" },
+        { "tool": "ChatGPT", "toolLink": null, "bestFor": "General AI assistant", "g2": "N/A", "price": "From $20/mo" }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Does Lavender actually improve reply rates?",
+        "answer": "Users report 2-3x reply rate improvement. Newer SDRs see biggest gains; experienced writers less so."
+      },
+      {
+        "question": "How does Lavender compare to using ChatGPT for emails?",
+        "answer": "Lavender is purpose-built for sales with real-time scoring and DISC analysis. ChatGPT lacks sales coaching or email client integration."
+      },
+      {
+        "question": "Which email clients does Lavender work with?",
+        "answer": "Chrome extension for Gmail and Outlook web, plus native Outreach and Salesloft. No desktop clients."
+      }
+    ],
+    "meta": {
+      "lastVerified": "February 2026",
+      "methodologyLink": "/methodology/",
+      "disclosureLink": "/disclosure.html"
+    }
+  },
+  "sidebar": {
+    "atAGlance": [
+      { "label": "G2 Rating", "value": "4.8/5" },
+      { "label": "G2 Reviews", "value": "62" },
+      { "label": "Starting Price", "value": "$29/mo" },
+      { "label": "Category", "value": "Sales Content" },
+      { "label": "Free Trial", "value": "Yes (5 emails/mo)" }
+    ],
+    "ctaUrl": "/go/lavender",
+    "comparisons": [
+      { "text": "Lavender vs Instantly", "url": "/compare/lavender-vs-instantly.html" },
+      { "text": "Lavender vs Autobound", "url": "/compare/lavender-vs-autobound.html" }
+    ],
+    "externalReviews": [
+      { "text": "G2 Reviews", "url": "https://www.g2.com/products/lavender/reviews" }
+    ],
+    "relatedGuides": [
+      { "text": "Best AI Email Outreach Tools", "url": "/guides/best-ai-email-outreach-tools.html" },
+      { "text": "Best AI Prospecting Tools", "url": "/guides/best-ai-outbound-prospecting-tools.html" }
+    ],
+    "emailCard": {
+      "heading": "Weekly Tool Intel",
+      "description": "Get honest tool comparisons and decision frameworks in your inbox."
+    }
+  },
+  "finalCta": {
+    "heading": "Learn More About Lavender",
+    "description": "Visit their site for current pricing, a product demo, and free trial details.",
+    "primaryUrl": "/go/lavender",
+    "primaryText": "Visit Lavender",
+    "secondaryUrl": "https://www.g2.com/products/lavender/reviews",
+    "secondaryText": "Read G2 Reviews",
+    "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  }
+}

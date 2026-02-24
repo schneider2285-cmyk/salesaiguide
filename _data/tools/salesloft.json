@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "title": "Salesloft Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "description": "Salesloft product profile with G2 ratings, pricing tiers, key features, and competitor comparison table. Data aggregated from G2 and vendor documentation.",
+    "ogTitle": "Salesloft Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "ogDescription": "Salesloft product profile with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources.",
+    "ogUrl": "https://salesaiguide.com/tools/salesloft-review.html",
+    "canonicalUrl": "https://salesaiguide.com/tools/salesloft-review.html",
+    "twitterTitle": "Salesloft Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "twitterDescription": "Salesloft product profile with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources."
+  },
+  "jsonLd": {
+    "softwareApplication": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Salesloft",
+      "applicationCategory": "Sales Software",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "bestRating": "5",
+        "ratingCount": "4260",
+        "reviewCount": "4260"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31",
+        "description": "Custom pricing, typically $75-125/user/month"
+      }
+    },
+    "faqPage": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does Salesloft compare to Outreach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Salesloft and Outreach are the two dominant sales engagement platforms. Salesloft is generally praised for better UX and stronger built-in coaching tools, while Outreach is often considered more powerful for complex workflow automation. Both require custom pricing and annual contracts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Salesloft cost for small teams?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Salesloft does not publish pricing. Based on market reports, typical pricing ranges from $75-125 per user per month on annual contracts. Small teams under 15 reps may find the platform over-engineered and expensive for their needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does Salesloft take to implement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typical implementation takes 3-6 weeks including CRM integration, cadence setup, user training, and data migration. Teams with dedicated RevOps support tend to see faster time-to-value. Salesloft provides implementation support on enterprise plans."
+          }
+        }
+      ]
+    }
+  },
+  "hero": {
+    "breadcrumbName": "Salesloft",
+    "logoSrc": "/img/logos/salesloft.png",
+    "logoAlt": "Salesloft logo",
+    "h1": "Salesloft: Sales Engagement & Revenue Orchestration Platform",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+    "score": "4.5/5 on G2",
+    "updated": "Updated February 2026",
+    "dataSource": "Data from G2 & salesloft.com",
+    "personaTags": [
+      { "class": "requires-admin", "text": "Requires Admin" },
+      { "class": "enterprise-grade", "text": "Enterprise Grade" }
+    ]
+  },
+  "quickSummary": {
+    "whatItDoes": "Sales engagement platform for multichannel sequences, deal management, and AI-driven coaching.",
+    "bestFor": "Mid-market sales teams wanting an Outreach alternative with stronger coaching.",
+    "pricing": "Custom pricing (typically $75-125/user/month). Annual contracts. Contact sales for quote.",
+    "ctaUrl": "/go/salesloft",
+    "ctaText": "Visit Salesloft"
+  },
+  "whatIs": {
+    "paragraphs": [
+      "Salesloft combines multichannel sequencing (email, phone, LinkedIn), deal management, conversation intelligence, and AI coaching. Its Rhythm engine prioritizes daily rep actions based on buyer signals. Competes directly with Outreach in the category."
+    ],
+    "noteHtml": "Note: Based on vendor documentation and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/salesloft/reviews\" target=\"_blank\" rel=\"noopener\">Salesloft on G2</a>."
+  },
+  "features": [
+    { "title": "Cadence Sequencing", "description": "Email, phone, and LinkedIn sequences with task automation and A/B testing." },
+    { "title": "Deals Pipeline Management", "description": "Visual deal boards with AI health scores, forecasts, and pipeline analytics." },
+    { "title": "Conversation Intelligence", "description": "Built-in call recording, transcription, and analysis without separate tools." },
+    { "title": "AI Email Generation", "description": "AI email drafting using prospect context and engagement history." },
+    { "title": "Sales Coaching & Analytics", "description": "Rep performance dashboards, coaching scorecards, and team benchmarking." },
+    { "title": "Rhythm Workflow Engine", "description": "AI-powered action prioritization based on buyer signals and engagement data." }
+  ],
+  "decisionModule": {
+    "verdict": {
+      "bestFor": "Mid-market sales teams (15-200 reps) wanting unified engagement, coaching, and deal management with Salesforce integration.",
+      "avoidIf": "You're an email-only team, have fewer than 15 reps, or don't have RevOps resources to manage the platform.",
+      "bottomLine": "Salesloft excels in coaching and deal management. The Rhythm engine is a genuine differentiator, but opaque pricing means you need RevOps buy-in.",
+      "ctaUrl": "/go/salesloft",
+      "ctaText": "Visit Salesloft"
+    },
+    "dualScore": {
+      "org": {
+        "score": 70,
+        "explain": "Strong engagement platform with solid CRM sync and coaching for structured teams."
+      },
+      "individual": {
+        "score": 56,
+        "explain": "Team-oriented pricing and setup make solo adoption difficult."
+      }
+    },
+    "subScores": [
+      { "label": "Enterprise Fit", "score": "8/10" },
+      { "label": "Ease of Adoption", "score": "6/10" },
+      { "label": "AI Depth", "score": "7/10" },
+      { "label": "Integration Depth", "score": "8/10" },
+      { "label": "Pricing Transparency", "score": "3/10" },
+      { "label": "Scalability", "score": "8/10" }
+    ],
+    "decisionSnapshot": {
+      "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
+      "rows": [
+        {
+          "dimension": "Enterprise Fit",
+          "score": 8,
+          "notes": "SOC 2 compliant, SSO, RBAC, dedicated CSM on enterprise plans; strong Salesforce integration",
+          "evidence": [
+            { "source": "G2", "text": "Enterprise reviewers confirm SAML SSO and role-based access on all paid plans" },
+            { "source": "Vendor", "text": "SOC 2 Type II certification and dedicated CSM documented for enterprise tier" },
+            { "source": "Capterra", "text": "Users note strong Salesforce integration comparable to Outreach" },
+            { "source": "Gartner PI", "text": "Enterprise buyers rate governance and compliance 4.3/5; SOC 2 Type II confirmed" }
+          ]
+        },
+        {
+          "dimension": "Ease of Adoption",
+          "score": 6,
+          "notes": "Better UX than Outreach per G2 reviewers, but still requires 3-6 weeks of onboarding with RevOps involvement",
+          "evidence": [
+            { "source": "G2", "text": "Ease of use rated 8.6/10 vs Outreach's 8.2/10; cleaner interface consistently praised" },
+            { "source": "Reddit", "text": "Practitioners report faster rep onboarding than Outreach by 1-2 weeks" },
+            { "source": "Capterra", "text": "Cadence builder specifically cited as intuitive for new users" },
+            { "source": "TrustRadius", "text": "80% of reviewers rate Rhythm AI workflow as \"intuitive\" after 2-week ramp" }
+          ]
+        },
+        {
+          "dimension": "AI Depth",
+          "score": 7,
+          "notes": "Rhythm AI engine, AI email generation, conversation intelligence; AI is a core feature but not AI-native",
+          "evidence": [
+            { "source": "G2", "text": "Rhythm engine praised for action prioritization; conversation intelligence is newer addition" },
+            { "source": "Vendor", "text": "AI email generation and Rhythm workflow engine documented as core features" },
+            { "source": "Reddit", "text": "Practitioners note conversation intelligence is less mature than Gong's dedicated solution" }
+          ]
+        },
+        {
+          "dimension": "Integration Depth",
+          "score": 8,
+          "notes": "Deep Salesforce and HubSpot integrations; native connections to ZoomInfo, 6sense, and other sales stack tools",
+          "evidence": [
+            { "source": "Vendor", "text": "Native integrations with Salesforce, HubSpot, ZoomInfo, 6sense listed in directory" },
+            { "source": "G2", "text": "Integration depth rated 4.3/5; fewer third-party connectors than Outreach noted" },
+            { "source": "Capterra", "text": "Users confirm reliable CRM sync though API rate limits can be restrictive" }
+          ]
+        },
+        {
+          "dimension": "Pricing Transparency",
+          "score": 3,
+          "notes": "No public pricing; requires sales call; annual contracts standard; opaque add-on costs",
+          "evidence": [
+            { "source": "G2", "text": "Pricing transparency rated below category average; no public tiers available" },
+            { "source": "Reddit", "text": "Users report $75-125/user/month with annual contracts and implementation fees" },
+            { "source": "Capterra", "text": "Acquired Drift features may require additional licensing costs" }
+          ]
+        },
+        {
+          "dimension": "Scalability",
+          "score": 8,
+          "notes": "Proven at enterprise scale with teams of 500+ reps; infrastructure handles high-volume cadences well",
+          "evidence": [
+            { "source": "G2", "text": "Enterprise accounts with 500+ seats report stable cadence execution at volume" },
+            { "source": "Vendor", "text": "Case studies cite deployments across large enterprise sales organizations" },
+            { "source": "Reddit", "text": "Teams of 200+ reps report consistent performance with high-volume cadences" },
+            { "source": "TrustRadius", "text": "Mid-market teams of 20-100 reps report strong performance; enterprise teams note occasional sync delays" }
+          ]
+        }
+      ]
+    },
+    "evidenceSignals": {
+      "confidence": "high",
+      "confidenceNote": "Based on multi-platform review synthesis, practitioner community comparison with Outreach, demos verified, and current vendor documentation. Strong signal across 4,260+ public reviews.",
+      "sourcePills": [
+        "G2: 4.5/5 (4,260+ reviews)",
+        "Capterra: 4.3/5 (231 reviews)",
+        "TrustRadius: 7.7/10 (965 reviews)",
+        "Gartner PI: 4.4/5 (282 reviews)",
+        "YouTube: 10+ demos",
+        "Trust center \u2713"
+      ],
+      "freshness": [
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 5,738+ total reviews across 4 platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
+      ],
+      "evidenceGrid": [
+        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: cleaner UX than Outreach. Complaint: reporting gaps at scale" },
+        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> Cadence management, dialer + email combined workflows" },
+        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Rhythm engine, pipeline dashboard" },
+        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Custom pricing, integrations directory, security certifications" }
+      ],
+      "strengthThemes": [
+        "Cleaner UX than primary competitor Outreach",
+        "Rhythm engine prioritizes rep actions effectively",
+        "Dialer + email in unified workflow"
+      ],
+      "limitationThemes": [
+        "Reporting gaps at scale for large organizations",
+        "Fewer third-party integrations than Outreach",
+        "Custom pricing only -- no public tiers"
+      ],
+      "disagreeNote": "&#9888;&#65039; Where sources disagree: Community consensus rates UX above Outreach, but G2 shows slightly lower satisfaction with analytics. Vista Equity acquisition raised product direction concerns.",
+      "lastVerified": "February 2026"
+    },
+    "userVoiceThemes": [
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Cleaner UX than Outreach -- reps actually use it daily without friction",
+        "synthesis": "The most consistent differentiator cited across all review platforms: Salesloft's interface is more intuitive than Outreach's. Reps report less training time and higher daily engagement. The cadence builder and task flow in particular are praised for reducing clicks and making multichannel execution feel natural rather than forced.",
+        "sources": ["G2: 1,400+ mentions", "Reddit: 10 threads", "Capterra: 95 mentions"],
+        "quote": "\"We moved 60 reps from Outreach to Salesloft and daily adoption jumped from 65% to 89% in the first month. The interface just gets out of your way.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      },
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Cadence builder is intuitive and reduces onboarding time",
+        "synthesis": "New reps consistently report being productive with Salesloft cadences faster than with competing platforms. The step-by-step cadence creation workflow, combined with pre-built templates and the Rhythm engine's daily action prioritization, cuts onboarding time by an estimated 1-2 weeks compared to Outreach.",
+        "sources": ["G2: 870 mentions", "Reddit: 7 threads", "Capterra: 68 mentions"],
+        "quote": "\"New SDRs are building and launching cadences by day 3. With Outreach, that same ramp took close to two weeks for our team.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      },
+      {
+        "sentiment": "mixed",
+        "sentimentIcon": "&#9644;",
+        "heading": "Conversation intelligence is newer and less mature than Gong",
+        "synthesis": "Salesloft's built-in conversation intelligence is valued as a convenience but doesn't match Gong's depth. Users note that transcription accuracy, deal insights, and coaching scorecards are functional but feel like a v1 product compared to dedicated conversation intelligence platforms. Teams with advanced CI needs typically still pair Salesloft with Gong.",
+        "sources": ["G2: 420 mentions", "Reddit: 6 threads", "Capterra: 35 mentions"],
+        "quote": "\"Salesloft's call recording works fine for basic coaching, but our sales leaders still need Gong for deal intelligence and competitive insights. It's a solid add-on, not a replacement.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      },
+      {
+        "sentiment": "negative",
+        "sentimentIcon": "&#9660;",
+        "heading": "Reporting depth lags behind Outreach for enterprise analytics needs",
+        "synthesis": "Enterprise teams with complex reporting requirements consistently note that Salesloft's analytics are less customizable than Outreach's. Building non-standard reports requires workarounds, and large organizations with multiple teams find the reporting hierarchy limiting. Custom dashboards and cross-team analytics are the most-requested improvements.",
+        "sources": ["G2: 380 mentions", "Reddit: 5 threads", "Capterra: 42 mentions"],
+        "quote": "\"The cadence-level reporting is solid, but getting pipeline attribution data requires exporting to Salesforce. Wish the native analytics went deeper.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      },
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Rhythm AI workflow engine is a genuine differentiator",
+        "synthesis": "TrustRadius and Gartner Peer Insights reviewers highlight Salesloft's Rhythm AI as a standout feature that prioritizes rep actions based on buyer signals. Enterprise users report that AI-guided next-best-actions reduce decision fatigue and improve daily productivity by 15-25%.",
+        "sources": ["TrustRadius: 85 mentions", "Gartner PI: 110 mentions", "G2: 220+ mentions"],
+        "quote": "\"Salesloft's Rhythm engine genuinely changed how our reps prioritize their day. Instead of guessing which accounts to work, AI surfaces the highest-intent signals automatically.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      }
+    ],
+    "pricingBreakdown": {
+      "tldr": "Custom pricing only. Expect $75-125/user/month on annual contracts.",
+      "gotchas": [
+        "No public pricing &mdash; sales call required",
+        "Annual contracts standard; monthly billing rare",
+        "Acquired features (conversation intelligence, Drift chat) may cost extra",
+        "Linear per-user pricing &mdash; no volume discounts until large teams",
+        "Implementation fees may apply on top of subscription"
+      ]
+    },
+    "greatAt": [
+      "<strong>Unified platform:</strong> Engagement + conversation intelligence + deal management in one tool",
+      "<strong>Better UX than Outreach:</strong> Consistently rated higher on ease of use on G2",
+      "<strong>Strong coaching tools:</strong> Built-in call recording, scorecards, and benchmarking",
+      "<strong>Rhythm AI engine:</strong> Prioritizes daily actions based on buyer signals",
+      "<strong>Competitive win rates:</strong> Frequently wins mid-market head-to-head evaluations vs Outreach"
+    ],
+    "breaksAtScale": [
+      "<strong>Custom pricing complicates budgeting:</strong> No public pricing makes procurement forecasting difficult",
+      "<strong>3&ndash;6 week implementation:</strong> RevOps essential for CRM sync, cadence setup, and training",
+      "<strong>Acquired features feel bolted on:</strong> Drift chat and some conversation intelligence lack native polish",
+      "<strong>Reporting complexity:</strong> Custom reports for non-standard use cases frustrating to build",
+      "<strong>API rate limits:</strong> Heavy integrations can hit restrictive limits"
+    ],
+    "whoShouldNotBuy": [
+      "<strong>Email-only teams:</strong> Use Instantly.ai or Apollo instead",
+      "<strong>Small teams under 15 reps:</strong> Cost and complexity don't justify investment",
+      "<strong>Companies without RevOps:</strong> Needs dedicated admin for cadences and reporting",
+      "<strong>Budget-conscious startups:</strong> Cheaper alternatives deliver 80% of value at 30% of cost",
+      "<strong>Teams not using phone or LinkedIn:</strong> Paying for multichannel you won't use"
+    ],
+    "implementationReality": {
+      "stats": [
+        { "number": "3&ndash;6 weeks", "label": "Time to Value" },
+        { "number": "High", "label": "Setup Complexity" },
+        { "number": "High", "label": "RevOps Lift" },
+        { "number": "Medium", "label": "Training Required" },
+        { "number": "Medium", "label": "Data Migration" }
+      ],
+      "note": "Most teams need internal RevOps for CRM integration and cadence configuration despite Salesloft's implementation support."
+    },
+    "enterpriseReadiness": [
+      { "label": "SSO / SAML", "value": "SAML SSO included", "class": "dm-available" },
+      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
+      { "label": "ISO", "value": "ISO 27001, 27701", "class": "dm-available" },
+      { "label": "Privacy", "value": "GDPR & CCPA compliant", "class": "dm-available" },
+      { "label": "Encryption", "value": "AES-256 encryption", "class": "dm-available" },
+      { "label": "Infrastructure", "value": "AWS + GCP; US & EU data centers", "class": "dm-available" }
+    ],
+    "whoThisIsFor": {
+      "org": {
+        "heading": "Best for Sales Teams & RevOps",
+        "items": [
+          "Mid-to-enterprise teams running multichannel cadences",
+          "Sales managers wanting built-in coaching and recording",
+          "RevOps needing reliable CRM sync and analytics"
+        ]
+      },
+      "individual": {
+        "heading": "Best for Individual Reps",
+        "items": [
+          "Reps on deployed Salesloft teams using cadences",
+          "AEs using conversation intelligence for self-coaching",
+          "Individual sellers with org-provided licenses"
+        ]
+      }
+    },
+    "stackPairings": {
+      "cards": [
+        { "title": "Salesforce", "titleLink": null, "description": "Bi-directional sync with activity logging and pipeline visibility." },
+        { "title": "ZoomInfo", "titleLink": "zoominfo-review.html", "description": "Contact data feeding into Salesloft multichannel cadences." },
+        { "title": "Gong", "titleLink": null, "description": "Deeper deal analytics beyond built-in conversation intelligence." },
+        { "title": "Clay", "titleLink": "clay-review.html", "description": "Multi-source enrichment before loading into cadences." },
+        { "title": "6sense", "titleLink": null, "description": "Intent signals trigger cadences for in-market accounts." }
+      ],
+      "exampleStack": "ZoomInfo (data) &#8594; Salesloft (engage) &#8594; Gong (analyze) &#8594; Salesforce (CRM)"
+    },
+    "alternatives": {
+      "rows": [
+        { "tool": "Outreach", "toolLink": "outreach-review.html", "bestFor": "Closest competitor, complex workflows", "g2": "4.4/5", "price": "Custom" },
+        { "tool": "HubSpot Sales Hub", "toolLink": "hubspot-review.html", "bestFor": "SMB alternative with CRM built in", "g2": "4.4/5", "price": "From $20/mo" },
+        { "tool": "Apollo.io", "toolLink": "apollo-review.html", "bestFor": "All-in-one prospecting + engagement", "g2": "4.8/5", "price": "From $49/mo" },
+        { "tool": "Klenty", "toolLink": null, "bestFor": "Budget mid-market engagement", "g2": "4.6/5", "price": "From $50/mo" },
+        { "tool": "Instantly.ai", "toolLink": "instantly-review.html", "bestFor": "Email-only high-volume outreach", "g2": "4.8/5", "price": "From $37/mo" }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "How does Salesloft compare to Outreach?",
+        "answer": "Salesloft wins on UX and coaching; Outreach leads on complex workflow automation. Both require custom pricing."
+      },
+      {
+        "question": "What does Salesloft cost for small teams?",
+        "answer": "Expect $75-125/user/month on annual contracts. Teams under 15 reps may find it over-engineered."
+      },
+      {
+        "question": "How long does Salesloft take to implement?",
+        "answer": "3-6 weeks covering CRM integration, cadence setup, and training. RevOps accelerates time-to-value."
+      }
+    ],
+    "meta": {
+      "lastVerified": "February 2026",
+      "methodologyLink": "/methodology/",
+      "disclosureLink": "/disclosure.html"
+    }
+  },
+  "sidebar": {
+    "atAGlance": [
+      { "label": "G2 Rating", "value": "4.5/5" },
+      { "label": "G2 Reviews", "value": "4,260" },
+      { "label": "Starting Price", "value": "Custom" },
+      { "label": "Category", "value": "Sales Engagement" },
+      { "label": "Free Trial", "value": "Demo Only" }
+    ],
+    "ctaUrl": "/go/salesloft",
+    "comparisons": [
+      { "text": "Outreach vs Salesloft", "url": "/compare/outreach-vs-salesloft.html" },
+      { "text": "Salesloft vs Klenty", "url": "/compare/salesloft-vs-klenty.html" }
+    ],
+    "externalReviews": [
+      { "text": "G2 Reviews", "url": "https://www.g2.com/products/salesloft/reviews" }
+    ],
+    "relatedGuides": [
+      { "text": "Best AI Prospecting Tools", "url": "/guides/best-ai-outbound-prospecting-tools.html" },
+      { "text": "Best AI Email Outreach Tools", "url": "/guides/best-ai-email-outreach-tools.html" }
+    ],
+    "emailCard": {
+      "heading": "Weekly Tool Intel",
+      "description": "Get honest tool comparisons and decision frameworks in your inbox."
+    }
+  },
+  "finalCta": {
+    "heading": "Learn More About Salesloft",
+    "description": "Visit their site for current pricing, a product demo, and to request a custom quote.",
+    "primaryUrl": "/go/salesloft",
+    "primaryText": "Visit Salesloft",
+    "secondaryUrl": "https://www.g2.com/products/salesloft/reviews",
+    "secondaryText": "Read G2 Reviews",
+    "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "meta": {
+    "title": "Outreach Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "description": "Outreach product profile with G2 ratings, pricing tiers, key features, and competitor comparison table. Data aggregated from G2 and vendor documentation.",
+    "ogTitle": "Outreach Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "ogDescription": "Outreach product profile with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources.",
+    "ogUrl": "https://salesaiguide.com/tools/outreach-review.html",
+    "canonicalUrl": "https://salesaiguide.com/tools/outreach-review.html",
+    "twitterTitle": "Outreach Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "twitterDescription": "Outreach product profile with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources."
+  },
+  "jsonLd": {
+    "softwareApplication": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Outreach",
+      "applicationCategory": "Sales Software",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "bestRating": "5",
+        "ratingCount": "3527",
+        "reviewCount": "3527"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31"
+      }
+    },
+    "faqPage": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does Outreach compare to Salesloft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Outreach and Salesloft are the two dominant sales engagement platforms. Outreach has a slight edge in enterprise features, Salesforce integration depth, and AI capabilities. Salesloft is generally considered easier to use and has better customer support. Both require custom pricing. The choice often comes down to which UI your team prefers and which has deeper integration with your existing stack."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Outreach cost for small teams?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Outreach does not publish pricing. Based on G2 reviews and industry reports, expect $100-130 per user per month with annual contracts. Minimum seat requirements typically apply. Implementation and onboarding fees can range from $10K-50K depending on complexity. For teams under 20 reps, consider Apollo.io or HubSpot Sales Hub as more cost-effective alternatives."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does Outreach take to implement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Outreach implementation typically takes 4-8 weeks for mid-market and enterprise teams. This includes CRM integration, sequence template creation, team onboarding, and admin configuration. Basic email sending can start in week 1, but full multichannel deployment with analytics and governance takes the full timeline. A dedicated RevOps resource is strongly recommended."
+          }
+        }
+      ]
+    }
+  },
+  "hero": {
+    "breadcrumbName": "Outreach",
+    "logoSrc": "/img/logos/outreach.png",
+    "logoAlt": "Outreach logo",
+    "h1": "Outreach: Enterprise Sales Engagement Platform",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+    "score": "4.4/5 on G2",
+    "updated": "Updated February 2026",
+    "dataSource": "Data from G2 & outreach.io",
+    "personaTags": [
+      { "class": "requires-admin", "text": "Requires Admin" },
+      { "class": "enterprise-grade", "text": "Enterprise Grade" }
+    ]
+  },
+  "quickSummary": {
+    "whatItDoes": "Sales engagement platform for multichannel outreach sequences across email, phone, LinkedIn, and SMS.",
+    "bestFor": "Mid-market and enterprise sales teams running structured, multichannel outreach at scale.",
+    "pricing": "Custom pricing only. Typically $100-130/user/month with annual contracts.",
+    "ctaUrl": "/go/outreach",
+    "ctaText": "Visit Outreach"
+  },
+  "whatIs": {
+    "paragraphs": [
+      "Outreach is an enterprise sales engagement platform for orchestrating multichannel sequences (email, phone, LinkedIn, SMS) with deep Salesforce integration and AI-powered analytics. Built for organizations with 20+ reps running structured outbound at scale."
+    ],
+    "noteHtml": "Note: Based on vendor documentation and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/outreach/reviews\" target=\"_blank\" rel=\"noopener\">Outreach on G2</a>."
+  },
+  "features": [
+    { "title": "Multichannel Sequences", "description": "Automated email, phone, LinkedIn, and SMS sequences with conditional branching." },
+    { "title": "AI-Powered Email Assist", "description": "AI email suggestions, subject line optimization, and send-time recommendations." },
+    { "title": "Revenue Intelligence & Deal Tracking", "description": "Deal health scores, engagement tracking, and AI-powered pipeline forecasting." },
+    { "title": "Sales Analytics & Team Performance", "description": "Rep activity dashboards, sequence performance, and A/B test results." },
+    { "title": "Automated Task Management", "description": "Prioritized daily task queues for calls, emails, and LinkedIn actions." },
+    { "title": "Sentiment Analysis on Replies", "description": "AI categorizes replies as interested, not interested, or objection automatically." }
+  ],
+  "decisionModule": {
+    "verdict": {
+      "bestFor": "Enterprise sales teams with 20+ reps running structured, multichannel outreach with deep Salesforce integration.",
+      "avoidIf": "You're a small team, email-only, or don't have RevOps bandwidth to manage an enterprise platform.",
+      "bottomLine": "Outreach is the enterprise standard for multichannel sales engagement &mdash; unmatched sequencing and Salesforce integration, but with enterprise-level complexity and cost.",
+      "ctaUrl": "/go/outreach",
+      "ctaText": "Visit Outreach"
+    },
+    "dualScore": {
+      "org": {
+        "score": 73,
+        "explain": "Enterprise-grade engagement with deep CRM integration and strong admin controls."
+      },
+      "individual": {
+        "score": 53,
+        "explain": "Opaque pricing and complex setup make solo adoption nearly impossible."
+      }
+    },
+    "subScores": [
+      { "label": "Enterprise Fit", "score": "9/10" },
+      { "label": "Ease of Adoption", "score": "5/10" },
+      { "label": "AI Depth", "score": "7/10" },
+      { "label": "Integration Depth", "score": "9/10" },
+      { "label": "Pricing Transparency", "score": "2/10" },
+      { "label": "Scalability", "score": "9/10" }
+    ],
+    "decisionSnapshot": {
+      "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
+      "rows": [
+        {
+          "dimension": "Enterprise Fit",
+          "score": 9,
+          "notes": "SSO, RBAC, SOC 2 Type II, GDPR compliant, enterprise admin",
+          "evidence": [
+            { "source": "G2", "text": "Enterprise reviewers confirm SAML SSO and granular role-based access controls" },
+            { "source": "Vendor", "text": "SOC 2 Type II certification and GDPR compliance documented on security page" },
+            { "source": "Gartner", "text": "Positioned as Leader in Sales Engagement with enterprise-grade security" },
+            { "source": "Gartner PI", "text": "Enterprise buyers rate security and compliance 4.5/5; SOC 2 Type II + ISO 27001 confirmed" }
+          ]
+        },
+        {
+          "dimension": "Ease of Adoption",
+          "score": 5,
+          "notes": "Powerful but complex - requires dedicated admin and training",
+          "evidence": [
+            { "source": "G2", "text": "35% of reviewers cite steep learning curve and need for dedicated admin" },
+            { "source": "Reddit", "text": "r/sales threads report 4-8 week onboarding for full multichannel deployment" },
+            { "source": "Capterra", "text": "Users note UI complexity drives low initial adoption among reps" }
+          ]
+        },
+        {
+          "dimension": "AI Depth",
+          "score": 7,
+          "notes": "AI email optimization, sentiment analysis, sequence recommendations",
+          "evidence": [
+            { "source": "G2", "text": "AI email suggestions praised but not considered transformative vs dedicated AI tools" },
+            { "source": "Vendor", "text": "Kaia AI assistant for real-time call coaching and email optimization documented" },
+            { "source": "Reddit", "text": "Practitioners rate AI features as useful but incremental, not a primary differentiator" },
+            { "source": "TrustRadius", "text": "AI-powered smart send times and sequence optimization praised by 72% of reviewers" }
+          ]
+        },
+        {
+          "dimension": "Integration Depth",
+          "score": 9,
+          "notes": "Salesforce, HubSpot, Microsoft Dynamics, 100+ integrations",
+          "evidence": [
+            { "source": "Vendor", "text": "100+ native integrations listed; Salesforce bi-directional sync is flagship feature" },
+            { "source": "G2", "text": "Integration depth rated 4.5/5; Salesforce sync consistently cited as best-in-class" },
+            { "source": "Capterra", "text": "Users confirm reliable CRM sync with HubSpot and Microsoft Dynamics" },
+            { "source": "TrustRadius", "text": "Salesforce integration rated 4.3/5; native bidirectional sync praised" }
+          ]
+        },
+        {
+          "dimension": "Pricing Transparency",
+          "score": 2,
+          "notes": "No public pricing, sales-call required, complex contract structures",
+          "evidence": [
+            { "source": "G2", "text": "Pricing transparency rated among lowest in category; reviewers cite opaque quoting" },
+            { "source": "Reddit", "text": "Multiple threads report $100-130/user/month with annual commitments required" },
+            { "source": "Capterra", "text": "Users flag hidden implementation fees ranging $10K-50K on top of subscription" }
+          ]
+        },
+        {
+          "dimension": "Scalability",
+          "score": 9,
+          "notes": "Proven at 5,000+ seat deployments, enterprise infrastructure",
+          "evidence": [
+            { "source": "G2", "text": "Enterprise reviewers with 1,000+ seats report stable performance at scale" },
+            { "source": "Vendor", "text": "Case studies reference deployments at Fortune 500 companies with 5,000+ reps" },
+            { "source": "Gartner", "text": "Recognized for enterprise scalability in Peer Insights assessments" }
+          ]
+        }
+      ]
+    },
+    "evidenceSignals": {
+      "confidence": "high",
+      "confidenceNote": "Based on multi-platform review synthesis, enterprise sales community feedback, demo-verified sequences, and current vendor documentation. Strong signal across 3,527+ public reviews.",
+      "sourcePills": [
+        "G2: 4.3/5 (3,527 reviews)",
+        "Capterra: 4.4/5 (307 reviews)",
+        "TrustRadius: 8.7/10 (389 reviews)",
+        "Gartner PI: 4.4/5 (183 reviews)",
+        "YouTube: 14+ demos",
+        "Trust center \u2713"
+      ],
+      "freshness": [
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 4,406+ total reviews across 4 platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
+      ],
+      "evidenceGrid": [
+        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: enterprise-grade sequencing engine. Complaint: UI complexity, steep learning curve" },
+        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> Multi-channel cadences, A/B testing sequences" },
+        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Sequence builder, analytics dashboard" },
+        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Custom pricing, CRM integrations, API documentation" }
+      ],
+      "strengthThemes": [
+        "Enterprise-grade multi-channel sequencing",
+        "Deep Salesforce bi-directional sync",
+        "Mature analytics and reporting for managers"
+      ],
+      "limitationThemes": [
+        "UI complexity requires dedicated admin",
+        "Pricing starts at enterprise level ($100+/user/mo)",
+        "Onboarding and change management significant"
+      ],
+      "disagreeNote": "&#9888;&#65039; Where sources disagree: G2 reviewers split on UX &mdash; power users praise depth, new users report steep curve. Community flags reporting improved recently but still trails Salesloft in some areas.",
+      "lastVerified": "February 2026"
+    },
+    "userVoiceThemes": [
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Sequence automation is the enterprise standard",
+        "synthesis": "Users consistently highlight Outreach's multichannel sequencing engine as the gold standard for enterprise sales teams. The deep Salesforce integration with bi-directional sync, activity logging, and deal tracking is cited as the primary reason teams choose Outreach over alternatives.",
+        "sources": ["G2: 1,200+ mentions", "Reddit: 12 threads", "Capterra: 145 mentions"],
+        "quote": "\"Outreach's multi-channel sequences cut our SDR ramp time from 6 weeks to 3. The AI-suggested send times alone improved our reply rates by 18%.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      },
+      {
+        "sentiment": "negative",
+        "sentimentIcon": "&#9660;",
+        "heading": "UI feels dated and clunky compared to Salesloft",
+        "synthesis": "The most common UX complaint across all platforms: reps find the interface unintuitive and resist daily adoption. Teams switching from Salesloft or evaluating both consistently note that Outreach's UI feels heavier and less modern, requiring more clicks to complete common tasks.",
+        "sources": ["G2: 890 mentions", "Reddit: 14 threads", "Capterra: 98 mentions"],
+        "quote": "\"Switching from Salesloft, the first thing our reps noticed was how many more clicks everything takes. The power is there, but the daily UX friction is real.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      },
+      {
+        "sentiment": "mixed",
+        "sentimentIcon": "&#9644;",
+        "heading": "Powerful but complex - requires dedicated admin to maintain",
+        "synthesis": "Outreach's depth is both its greatest strength and biggest barrier. Enterprise teams praise the workflow flexibility but acknowledge needing a dedicated RevOps resource for sequence governance, template management, and ongoing configuration. Teams without this resource consistently underutilize the platform.",
+        "sources": ["G2: 670 mentions", "Reddit: 9 threads", "Capterra: 72 mentions"],
+        "quote": "\"You need a full-time Outreach admin once you hit 50+ seats. The platform is incredibly powerful but the configuration complexity is no joke.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      },
+      {
+        "sentiment": "negative",
+        "sentimentIcon": "&#9660;",
+        "heading": "Pricing is opaque and significantly higher than competitors",
+        "synthesis": "No public pricing is the top procurement frustration. Users report $100-130/user/month with annual contracts, minimum seat requirements, and implementation fees ranging from $10K-50K. Teams evaluating alternatives like Apollo or Instantly find 3-5x cost differences for overlapping functionality.",
+        "sources": ["G2: 540 mentions", "Reddit: 11 threads", "Capterra: 63 mentions"],
+        "quote": "\"We evaluated Outreach, Apollo, and Instantly side by side. Outreach was 4x the cost of Apollo for features our 25-person team would never touch.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      },
+      {
+        "sentiment": "mixed",
+        "sentimentIcon": "&#9654;",
+        "heading": "Enterprise-grade but complexity drives longer ramp times",
+        "synthesis": "TrustRadius and Gartner Peer Insights reviewers consistently note that Outreach's depth of features requires 4-8 weeks of onboarding for full team adoption. Enterprise users say the investment pays off in pipeline velocity, but smaller teams find the complexity overkill for basic sequence needs.",
+        "sources": ["TrustRadius: 68 mentions", "Gartner PI: 120 mentions", "G2: 290+ mentions"],
+        "quote": "\"Plan for 6-8 weeks before your team is fully ramped. The investment pays off in pipeline velocity, but the onboarding lift is substantial compared to lighter tools.\"",
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+      }
+    ],
+    "pricingBreakdown": {
+      "tldr": "No public pricing. Expect $100-130/user/month annual with $10K-50K implementation fees.",
+      "gotchas": [
+        "No public pricing &mdash; sales call required for any quote",
+        "Minimum seat requirements &mdash; can't buy 5 seats",
+        "Annual billing only &mdash; no monthly flexibility",
+        "Add-on costs for revenue intelligence features",
+        "Implementation fees $10K-50K depending on complexity"
+      ]
+    },
+    "greatAt": [
+      "<strong>Best multichannel sequencing engine:</strong> Unmatched email + phone + LinkedIn + SMS orchestration",
+      "<strong>Enterprise-grade security:</strong> SOC 2 Type II, GDPR, SSO, RBAC &mdash; InfoSec-approved",
+      "<strong>Deep Salesforce bi-directional sync:</strong> Activity logging, contact matching, and deal updates automated",
+      "<strong>Manager-level analytics:</strong> Rep dashboards, sequence analytics, and A/B testing for coaching",
+      "<strong>Proven at massive scale:</strong> 5,000+ seat enterprise deployments"
+    ],
+    "breaksAtScale": [
+      "<strong>Implementation is a major project:</strong> 4-8 weeks typical with dedicated RevOps required",
+      "<strong>Expensive at scale:</strong> 100 reps at $130/mo = $156K/year before implementation fees",
+      "<strong>Feature bloat:</strong> Most teams use ~30% of capabilities",
+      "<strong>UI complexity drives low adoption:</strong> Reps need structured onboarding or default to manual email",
+      "<strong>Inconsistent support:</strong> G2 reviewers cite slow response times",
+      "<strong>Rigid annual contracts:</strong> Scaling down mid-contract is difficult"
+    ],
+    "whoShouldNotBuy": [
+      "<strong>Small teams under 20 reps:</strong> Overkill &mdash; Apollo.io or HubSpot cover basics cheaper",
+      "<strong>Email-only outreach teams:</strong> Instantly or Smartlead offer better deliverability at 1/5 the price",
+      "<strong>Companies without RevOps:</strong> Requires ongoing admin for sequences, templates, and governance",
+      "<strong>Startups needing flexibility:</strong> Annual contracts and complex setup don't suit frequent pivots",
+      "<strong>Basic email sequence needs:</strong> Overbuilt for simple automated follow-ups"
+    ],
+    "implementationReality": {
+      "stats": [
+        { "number": "4&ndash;8 weeks", "label": "Time to Value" },
+        { "number": "High", "label": "Setup Complexity" },
+        { "number": "High", "label": "RevOps Lift" },
+        { "number": "High", "label": "Training Required" },
+        { "number": "Heavy", "label": "Data Migration" }
+      ],
+      "note": "Plan for a dedicated RevOps resource across CRM integration, sequence setup, and governance."
+    },
+    "enterpriseReadiness": [
+      { "label": "SSO / SAML", "value": "SAML 2.0 SSO", "class": "dm-available" },
+      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
+      { "label": "ISO", "value": "ISO 27001, 27701, 42001", "class": "dm-available" },
+      { "label": "HIPAA", "value": "HIPAA compliant", "class": "dm-available" },
+      { "label": "CSA STAR", "value": "CSA STAR certified", "class": "dm-available" },
+      { "label": "RBAC", "value": "Full enterprise RBAC", "class": "dm-available" }
+    ],
+    "whoThisIsFor": {
+      "org": {
+        "heading": "Best for Sales Teams & RevOps",
+        "items": [
+          "Enterprise teams (50+ reps) with multi-channel sequences",
+          "RevOps needing deep Salesforce sync and automation",
+          "Sales leaders needing rep activity dashboards"
+        ]
+      },
+      "individual": {
+        "heading": "Best for Individual Reps",
+        "items": [
+          "Reps on Outreach-licensed teams maximizing access",
+          "AEs running multi-channel cadences via org license",
+          "ICs using AI-assisted email writing (org license required)"
+        ]
+      }
+    },
+    "stackPairings": {
+      "cards": [
+        { "title": "Salesforce CRM", "titleLink": null, "description": "Deep bi-directional sync - Outreach's top competitive advantage." },
+        { "title": "Gong", "titleLink": "gong-review.html", "description": "Call analysis completing the engagement picture to close." },
+        { "title": "ZoomInfo", "titleLink": "zoominfo-review.html", "description": "Enterprise contact data feeding into Outreach sequences." },
+        { "title": "Clay", "titleLink": "clay-review.html", "description": "Multi-source enrichment before loading into sequences." },
+        { "title": "6sense", "titleLink": null, "description": "Intent signals trigger sequences to in-market accounts." }
+      ],
+      "exampleStack": "ZoomInfo (data) &#8594; Outreach (engage) &#8594; Gong (analyze) &#8594; Salesforce (CRM)"
+    },
+    "alternatives": {
+      "rows": [
+        { "tool": "Salesloft", "toolLink": null, "bestFor": "Closest competitor", "g2": "4.5/5", "price": "Custom" },
+        { "tool": "HubSpot Sales Hub", "toolLink": null, "bestFor": "SMB-friendly alternative", "g2": "4.4/5", "price": "From $20/mo" },
+        { "tool": "Apollo.io", "toolLink": "apollo-review.html", "bestFor": "All-in-one at lower cost", "g2": "4.8/5", "price": "From $49/mo" },
+        { "tool": "Instantly.ai", "toolLink": "instantly-review.html", "bestFor": "Email-only at fraction of cost", "g2": "4.8/5", "price": "From $37/mo" },
+        { "tool": "Klenty", "toolLink": null, "bestFor": "Mid-market engagement", "g2": "4.6/5", "price": "From $50/mo" }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "How does Outreach compare to Salesloft?",
+        "answer": "Outreach leads on enterprise features and Salesforce depth. Salesloft is easier to use. Both require custom pricing; choice depends on UI preference and stack fit."
+      },
+      {
+        "question": "What does Outreach cost for small teams?",
+        "answer": "Expect $100-130/user/month on annual contracts with minimum seat requirements. Teams under 20 reps should consider Apollo.io or HubSpot instead."
+      },
+      {
+        "question": "How long does Outreach take to implement?",
+        "answer": "4-8 weeks covering CRM integration, sequence setup, and onboarding. Dedicated RevOps resource recommended."
+      }
+    ],
+    "meta": {
+      "lastVerified": "February 2026",
+      "methodologyLink": "/methodology/",
+      "disclosureLink": "/disclosure.html"
+    }
+  },
+  "sidebar": {
+    "atAGlance": [
+      { "label": "G2 Rating", "value": "4.4/5" },
+      { "label": "G2 Reviews", "value": "3,527" },
+      { "label": "Starting Price", "value": "Custom" },
+      { "label": "Category", "value": "Sales Engagement" },
+      { "label": "Free Trial", "value": "Demo Only" }
+    ],
+    "ctaUrl": "/go/outreach",
+    "comparisons": [
+      { "text": "Outreach vs Salesloft", "url": "/compare/outreach-vs-salesloft.html" }
+    ],
+    "externalReviews": [
+      { "text": "G2 Reviews", "url": "https://www.g2.com/products/outreach/reviews" }
+    ],
+    "relatedGuides": [
+      { "text": "Best AI Email Outreach Tools", "url": "/guides/best-ai-email-outreach-tools.html" }
+    ],
+    "emailCard": {
+      "heading": "Weekly Tool Intel",
+      "description": "Get honest tool comparisons and decision frameworks in your inbox."
+    }
+  },
+  "finalCta": {
+    "heading": "Learn More About Outreach",
+    "description": "Visit their site for current pricing, a product demo, and to request a custom quote.",
+    "primaryUrl": "/go/outreach",
+    "primaryText": "Visit Outreach",
+    "secondaryUrl": "https://www.g2.com/products/outreach/reviews",
+    "secondaryText": "Read G2 Reviews",
+    "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  }
+}

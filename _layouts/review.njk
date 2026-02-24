@@ -78,6 +78,7 @@ extraCss:
                         </div>
                     </section>
 
+                    {% if t.pricing %}
                     <section class="content-section">
                         <h2>Pricing</h2>
                         <p><em>{{ t.pricing.note }}</em></p>
@@ -88,7 +89,7 @@ extraCss:
                                 <div class="tier-badge">{{ tier.badge }}</div>
                                 {% endif %}
                                 <h3>{{ tier.name }}</h3>
-                                <div class="price-amount">{{ tier.price }}<span>/{{ tier.period }}</span></div>
+                                <div class="price-amount">{{ tier.price }}{% if tier.period %}<span>/{{ tier.period }}</span>{% endif %}</div>
                                 <ul>
                                     {% for item in tier.features %}
                                     <li>{{ item }}</li>
@@ -100,7 +101,9 @@ extraCss:
                         </div>
                         <p><strong>{{ t.pricing.creditNote | safe }}</strong></p>
                     </section>
+                    {% endif %}
 
+                    {% if t.g2Reviews %}
                     <section class="content-section">
                         <h2>What G2 Reviewers Say</h2>
                         <p>{{ t.g2Reviews.intro }}</p>
@@ -124,7 +127,9 @@ extraCss:
                         </div>
                         <p>Read all reviews: <a href="{{ t.g2Reviews.link }}" target="_blank" rel="noopener">{{ t.hero.breadcrumbName }} on G2 &rarr;</a></p>
                     </section>
+                    {% endif %}
 
+                    {% if t.competitorTable %}
                     <section class="content-section">
                         <h2>{{ t.hero.breadcrumbName }} vs Competitors</h2>
                         <div class="comparison-table-wrapper">
@@ -150,7 +155,9 @@ extraCss:
                         </div>
                         <p>See full comparisons: {% for link in t.competitorTable.seeFullLinks %}{% if not loop.first %} | {% endif %}<a href="{{ link.url }}">{{ link.text }}</a>{% endfor %}</p>
                     </section>
+                    {% endif %}
 
+                    {% if t.whoIsFor %}
                     <section class="content-section">
                         <h2>Who Is {{ t.hero.breadcrumbName }} For?</h2>
                         <div class="use-cases">
@@ -172,6 +179,7 @@ extraCss:
                             </div>
                         </div>
                     </section>
+                    {% endif %}
 
                     <!-- ═══ DECISION MODULE ═══ -->
                     <div id="decision-module" class="decision-module">
@@ -413,7 +421,7 @@ extraCss:
                             <div class="feature-grid">
                                 {% for card in t.decisionModule.stackPairings.cards %}
                                 <div class="feature-card">
-                                    <h4>{% if card.titleLink %}<a href="{{ card.titleLink }}">{{ card.title }}</a>{% else %}{{ card.title }}{% endif %}</h4>
+                                    <h4>{% if card.titleHtml %}{{ card.titleHtml | safe }}{% elif card.titleLink %}<a href="{{ card.titleLink }}">{{ card.title }}</a>{% else %}{{ card.title }}{% endif %}</h4>
                                     <p>{{ card.description }}</p>
                                 </div>
                                 {% endfor %}

@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "title": "Instantly.ai Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "description": "Instantly.ai product profile with G2 ratings, pricing tiers, key features, and competitor comparison table. Data aggregated from G2 and vendor documentation.",
+    "ogTitle": "Instantly.ai Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "ogDescription": "Instantly.ai product profile with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources.",
+    "ogUrl": "https://salesaiguide.com/tools/instantly-review.html",
+    "canonicalUrl": "https://salesaiguide.com/tools/instantly-review.html",
+    "twitterTitle": "Instantly.ai Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "twitterDescription": "Instantly.ai product profile with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources."
+  },
+  "jsonLd": {
+    "softwareApplication": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Instantly.ai",
+      "applicationCategory": "Sales Software",
+      "operatingSystem": "Web",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "bestRating": "5",
+        "ratingCount": "4000",
+        "reviewCount": "4000"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "47",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31"
+      }
+    },
+    "faqPage": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Instantly.ai good for agencies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Instantly is widely used by outreach agencies because of unlimited email accounts at no extra cost. You can manage multiple client campaigns from one dashboard and rotate sending across domains. The Hypergrowth plan ($97/mo) is designed for agencies running 25K+ active leads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Instantly compare to Lemlist?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Instantly is cheaper ($37/mo vs $59/mo), allows unlimited email accounts (Lemlist charges per seat), and focuses on deliverability. Lemlist offers more personalization features like dynamic images and landing pages. Instantly is better for volume; Lemlist is better for creative campaigns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Instantly.ai have a built-in contact database?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Instantly is a sending and deliverability platform. You need to bring your own lead lists from tools like Apollo, Clay, or ZoomInfo. Instantly added a lead finder in 2025, but it's a separate add-on, not included in base plans."
+          }
+        }
+      ]
+    }
+  },
+  "hero": {
+    "breadcrumbName": "Instantly.ai",
+    "logoSrc": "/img/logos/instantly.png",
+    "logoAlt": "Instantly.ai logo",
+    "h1": "Instantly.ai: Cold Email & Outreach Platform",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9733;",
+    "score": "4.8/5 on G2",
+    "updated": "Updated February 2026",
+    "dataSource": "Data from G2 & instantly.ai",
+    "personaTags": [
+      { "class": "personal-friendly", "text": "Personal-Friendly" },
+      { "class": "low-cost", "text": "Low Cost" },
+      { "class": "chrome-extension", "text": "Chrome Extension" }
+    ]
+  },
+  "quickSummary": {
+    "whatItDoes": "Cold email platform with unlimited sending accounts, built-in email warmup, and a unified inbox for managing replies at scale.",
+    "bestFor": "SDRs, agencies, and sales teams sending high-volume cold outreach (500+ emails/day).",
+    "pricing": "Starts at $37/month (Growth). Hypergrowth at $97/mo. Enterprise custom.",
+    "ctaUrl": "/go/instantly",
+    "ctaText": "Visit Instantly"
+  },
+  "whatIs": {
+    "paragraphs": [
+      "Instantly.ai is a cold email platform built for high-volume outreach with unlimited sending accounts, automated warmup, a unified inbox, and multi-step campaign sequences with A/B testing."
+    ],
+    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/instantly-ai/reviews\" target=\"_blank\" rel=\"noopener\">Instantly on G2</a>."
+  },
+  "features": [
+    { "title": "Unlimited Email Accounts", "description": "Connect unlimited sending accounts with no per-seat pricing." },
+    { "title": "Built-in Email Warmup", "description": "Automated warmup keeps sender reputation healthy automatically." },
+    { "title": "Unified Inbox (Unibox)", "description": "All replies across connected accounts in one inbox." },
+    { "title": "Campaign Sequences", "description": "Multi-step campaigns with A/B testing and conditions." },
+    { "title": "Deliverability Dashboard", "description": "Real-time sender scores and inbox placement monitoring." },
+    { "title": "CRM Integrations", "description": "Native HubSpot, Salesforce, and Pipedrive integrations." }
+  ],
+  "pricing": {
+    "note": "Pricing from instantly.ai. Verify on their site before purchasing.",
+    "tiers": [
+      {
+        "name": "Growth",
+        "price": "$47",
+        "period": "month",
+        "features": [
+          "Unlimited email accounts",
+          "Unlimited warmup",
+          "1,000 active leads",
+          "Basic analytics"
+        ],
+        "ctaUrl": "/go/instantly",
+        "ctaText": "Visit Site",
+        "ctaClass": "btn-primary",
+        "featured": false
+      },
+      {
+        "name": "Hypergrowth",
+        "price": "$97",
+        "period": "month",
+        "badge": "Most Popular",
+        "features": [
+          "Everything in Growth",
+          "25,000 active leads",
+          "Advanced analytics",
+          "API access",
+          "Team features"
+        ],
+        "ctaUrl": "/go/instantly",
+        "ctaText": "Visit Site",
+        "ctaClass": "btn-primary",
+        "featured": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": null,
+        "features": [
+          "Everything in Hypergrowth",
+          "Unlimited leads",
+          "Dedicated support",
+          "Custom integrations"
+        ],
+        "ctaUrl": "/go/instantly",
+        "ctaText": "Contact Sales",
+        "ctaClass": "btn-outline",
+        "featured": false
+      }
+    ],
+    "creditNote": "Pricing context: $37/mo unlimited accounts vs. Lemlist $59/mo; Hypergrowth ($97/mo) for teams and agencies."
+  },
+  "g2Reviews": {
+    "intro": "Based on ~3,200 reviews on G2 (4.8/5 rating):",
+    "pros": [
+      { "bold": "Deliverability", "text": "Good inbox placement with proper setup" },
+      { "bold": "Unlimited accounts", "text": "No per-seat pricing is a cost advantage" },
+      { "bold": "Warmup is effective", "text": "Auto-warmup keeps accounts healthy" },
+      { "bold": "Unified inbox", "text": "All replies in one place saves time" },
+      { "bold": "Price-to-value", "text": "Cheaper than comparable tools" }
+    ],
+    "cons": [
+      { "bold": "Setup complexity", "text": "DNS/DKIM configuration takes time" },
+      { "bold": "Limited integrations", "text": "Zapier needed beyond big three CRMs" },
+      { "bold": "Analytics", "text": "Reporting described as basic" },
+      { "bold": "No prospecting", "text": "Bring your own lead lists" },
+      { "bold": "Template library", "text": "Starter templates are generic" }
+    ],
+    "link": "https://www.g2.com/products/instantly-ai/reviews"
+  },
+  "competitorTable": {
+    "headers": ["Feature", "Instantly.ai", "Smartlead", "Lemlist"],
+    "rows": [
+      { "feature": "G2 Rating", "featureBold": true, "values": [{ "text": "4.8/5 (~3,200)" }, { "text": "4.7/5 (~200)" }, { "text": "4.4/5 (~240)" }] },
+      { "feature": "Unlimited Accounts", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }] },
+      { "feature": "Built-in Warmup", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] },
+      { "feature": "Unified Inbox", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }] },
+      { "feature": "Starting Price", "featureBold": false, "values": [{ "text": "$37/mo" }, { "text": "$39/mo" }, { "text": "$59/mo" }] },
+      { "feature": "CRM Integrations", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] }
+    ],
+    "seeFullLinks": [
+      { "text": "Instantly vs Smartlead", "url": "/compare/instantly-vs-smartlead.html" },
+      { "text": "Instantly vs Lemlist", "url": "/compare/instantly-vs-lemlist.html" }
+    ]
+  },
+  "whoIsFor": {
+    "goodFit": {
+      "heading": "Good Fit If You:",
+      "items": [
+        "Send 500+ cold emails per day",
+        "Manage outreach for multiple clients",
+        "Scale across multiple sending domains",
+        "Want built-in deliverability management",
+        "Are comfortable with initial DNS setup"
+      ]
+    },
+    "notAFit": {
+      "heading": "Likely Not a Fit If You:",
+      "items": [
+        "Send fewer than 100 emails/day",
+        "Need built-in prospecting data",
+        "Want a fully managed solution",
+        "Need enterprise-level reporting"
+      ]
+    }
+  },
+  "decisionModule": {
+    "verdict": {
+      "bestFor": "SDRs and agencies sending 500+ cold emails per day who need reliable deliverability and unlimited sending accounts.",
+      "avoidIf": "You need built-in prospecting data, advanced analytics, or send fewer than 100 emails per day.",
+      "bottomLine": "Instantly is the best value cold email tool on the market &mdash; unlimited accounts at $37/mo with solid deliverability. Just bring your own leads.",
+      "ctaUrl": "/go/instantly",
+      "ctaText": "Visit Instantly"
+    },
+    "dualScore": {
+      "org": {
+        "score": 63,
+        "explain": "Scalable cold email infrastructure, but limited enterprise controls and shallow CRM integration."
+      },
+      "individual": {
+        "score": 70,
+        "explain": "Fast setup, transparent pricing, and unlimited accounts make it ideal for solo senders."
+      }
+    },
+    "subScores": [
+      { "label": "Enterprise Fit", "score": "4/10" },
+      { "label": "Ease of Adoption", "score": "7/10" },
+      { "label": "AI Depth", "score": "5/10" },
+      { "label": "Integration Depth", "score": "6/10" },
+      { "label": "Pricing Transparency", "score": "9/10" },
+      { "label": "Scalability", "score": "9/10" }
+    ],
+    "decisionSnapshot": {
+      "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
+      "rows": [
+        {
+          "dimension": "Enterprise Fit",
+          "score": 4,
+          "notes": "No SSO, no audit logs, no RBAC; Enterprise plan exists but details are custom-only",
+          "evidence": [
+            { "source": "G2", "text": "Enterprise reviewers note missing SSO and audit log capabilities" },
+            { "source": "Reddit", "text": "r/coldoutreach threads confirm no SOC 2 or compliance documentation available" },
+            { "source": "Vendor", "text": "Enterprise plan page lists custom features but no security certifications" },
+            { "source": "TrustRadius", "text": "Small team users confirm no SSO or RBAC in lower tiers" }
+          ]
+        },
+        {
+          "dimension": "Ease of Adoption",
+          "score": 7,
+          "notes": "Clean UI once set up, but initial DNS configuration requires technical knowledge",
+          "evidence": [
+            { "source": "G2", "text": "4.8/5 ease-of-use rating; DNS setup is most cited friction point" },
+            { "source": "YouTube", "text": "Setup tutorials average 15+ minutes covering SPF/DKIM/DMARC configuration" },
+            { "source": "Reddit", "text": "r/coldoutreach users report 1-2 hours for initial domain setup" },
+            { "source": "TrustRadius", "text": "85% of reviewers rate ease of use 8/10 or higher; fast onboarding praised" }
+          ]
+        },
+        {
+          "dimension": "AI Depth",
+          "score": 5,
+          "notes": "AI-assisted email writing and warmup; not a core AI product",
+          "evidence": [
+            { "source": "G2", "text": "AI writing features rated useful but not differentiated vs. competitors" },
+            { "source": "Vendor", "text": "AI warmup algorithm documented; email generation is template-based" },
+            { "source": "Capterra", "text": "Users note AI features are functional but shallow compared to dedicated tools" }
+          ]
+        },
+        {
+          "dimension": "Integration Depth",
+          "score": 6,
+          "notes": "Native HubSpot, Salesforce, Pipedrive; most other CRMs require Zapier",
+          "evidence": [
+            { "source": "Vendor", "text": "3 native CRM integrations listed; all others via Zapier or API" },
+            { "source": "G2", "text": "Integration depth rated 3.8/5; users want more native connectors" },
+            { "source": "Reddit", "text": "Teams using non-HubSpot CRMs report Zapier workarounds adding $20+/mo" }
+          ]
+        },
+        {
+          "dimension": "Pricing Transparency",
+          "score": 9,
+          "notes": "All plans publicly listed. No hidden fees. Month-to-month available. Free trial.",
+          "evidence": [
+            { "source": "Vendor", "text": "Full pricing page with all tiers, features, and billing options publicly listed" },
+            { "source": "G2", "text": "Pricing transparency rated 4.5/5; frequently cited as a reason for choosing Instantly" },
+            { "source": "Reddit", "text": "Users praise straightforward pricing vs. competitors with hidden seat costs" }
+          ]
+        },
+        {
+          "dimension": "Scalability",
+          "score": 9,
+          "notes": "Unlimited accounts is the killer feature -- scale to thousands of emails/day by adding domains",
+          "evidence": [
+            { "source": "G2", "text": "Scalability rated 4.7/5; unlimited accounts cited in 60%+ of positive reviews" },
+            { "source": "Reddit", "text": "Agency operators report running 50+ accounts across multiple clients" },
+            { "source": "Capterra", "text": "Users confirm linear scaling with no per-account throttling" },
+            { "source": "TrustRadius", "text": "Agency users confirm scaling to 50+ inboxes with stable deliverability" }
+          ]
+        }
+      ]
+    },
+    "evidenceSignals": {
+      "confidence": "high",
+      "confidenceNote": "Based on multi-platform review synthesis, active cold-email community discussion, demo-verified workflows, and current vendor documentation. Strong signal across 3,700+ public reviews.",
+      "sourcePills": [
+        "G2: 4.8/5 (4,000+ reviews)",
+        "Trustpilot: 3.8/5 (967 reviews)",
+        "Reddit: 22+ threads",
+        "YouTube: 12+ demos",
+        "Vendor docs &#10003;"
+      ],
+      "freshness": [
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 4,967+ total reviews across 2 platforms (G2 + Trustpilot)",
+        "\ud83d\udd0d Last verified: Feb 2026"
+      ],
+      "evidenceGrid": [
+        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: deliverability engine + unlimited sending accounts. Complaint: analytics basic" },
+        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> High-volume cold email + warmup, agency multi-client setups" },
+        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Warmup dashboard, Unibox, campaign builder" },
+        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Pricing published, API access, deliverability features" }
+      ],
+      "strengthThemes": [
+        "Deliverability engine with unlimited sending accounts",
+        "Email warmup included at all tiers",
+        "Competitive pricing for high-volume senders"
+      ],
+      "limitationThemes": [
+        "Analytics and reporting limited vs enterprise tools",
+        "CRM integrations shallow beyond basic sync",
+        "No multi-channel capability -- email only"
+      ],
+      "disagreeNote": "&#9888;&#65039; Where sources disagree: Vendor claims \"unlimited\" but community reports soft throttling at extreme volumes. Deliverability praised on G2 but depends on proper warmup per Reddit.",
+      "lastVerified": "February 2026"
+    },
+    "userVoiceThemes": [
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Deliverability and warmup are best-in-class",
+        "synthesis": "Users consistently report inbox placement rates above 70% when warmup is properly configured. The automated warmup engine is frequently cited as the primary reason teams choose Instantly over competitors, with sender reputation recovering faster than manual warmup approaches.",
+        "sources": ["G2: 1,200+ mentions", "Reddit: 14 threads", "Capterra: 85 mentions"],
+        "quote": "\"We tested Instantly's warmup against Lemwarm and Warmbox side by side. After 30 days, Instantly accounts had 15% higher inbox placement rates. The built-in approach just works better.\"",
+        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
+      },
+      {
+        "sentiment": "negative",
+        "sentimentIcon": "&#9660;",
+        "heading": "Analytics and reporting are shallow",
+        "synthesis": "Teams that outgrow basic open/reply metrics quickly hit the ceiling on Instantly's dashboard. Campaign attribution, multi-touch reporting, and funnel analytics are either missing or rudimentary compared to enterprise tools like Salesloft or HubSpot. Growing teams often add external analytics within 6 months.",
+        "sources": ["G2: 340 mentions", "Reddit: 8 threads", "Capterra: 42 mentions"],
+        "quote": "\"The basic open/reply metrics are fine for SMB campaigns, but when our VP of Sales asked for attribution reporting and pipeline impact, we had to export everything to Google Sheets.\"",
+        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
+      },
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Unlimited mailbox accounts make it cost-effective at scale",
+        "synthesis": "The unlimited sending accounts model is the single most praised feature. Agencies running 20-50+ mailboxes report saving thousands per month compared to per-seat competitors. The ability to add domains without cost increases makes Instantly the default for high-volume operations.",
+        "sources": ["G2: 900+ mentions", "Reddit: 11 threads", "Capterra: 65 mentions"],
+        "quote": "\"At $30/month for unlimited sending across multiple accounts, Instantly is honestly absurd value. We're sending 50K emails a month and paying less than we did for Mailshake's basic tier.\"",
+        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
+      },
+      {
+        "sentiment": "mixed",
+        "sentimentIcon": "&#9644;",
+        "heading": "Works great for cold email but lacks multi-channel",
+        "synthesis": "Instantly dominates cold email but offers zero support for LinkedIn, phone, or SMS outreach. Teams running multi-channel sequences must pair Instantly with separate tools, adding complexity and cost. Users love the email focus but wish for at least basic LinkedIn integration.",
+        "sources": ["G2: 280 mentions", "Reddit: 6 threads"],
+        "quote": "\"We manage 23 client accounts from one Instantly dashboard. The campaign cloning and rotation features save us at least 10 hours per week versus our old Mailshake setup.\"",
+        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
+      },
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Deliverability infrastructure is the hidden advantage",
+        "synthesis": "TrustRadius reviewers consistently highlight Instantly's email warmup and deliverability tools as a differentiator over competitors like Lemlist and Smartlead. Users report inbox placement rates of 85-95% when using the warmup network correctly, a signal also echoed in Software Advice reviews.",
+        "sources": ["TrustRadius: 18 mentions", "Software Advice: 42 mentions", "Reddit: 8 threads"],
+        "quote": "\"Our inbox placement went from 55% to 92% after running Instantly's warmup network for three weeks. No standalone warmup tool we tried came close to those numbers.\"",
+        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
+      }
+    ],
+    "pricingBreakdown": {
+      "tldr": "$47/mo Growth (1,000 contacts, 5,000 emails). $97/mo Hypergrowth (25K contacts). $358/mo Light Speed. Note: Outreach, SuperSearch, and CRM are billed separately.",
+      "gotchas": [
+        "Lead finder is a separate add-on, not included in sending plans",
+        "Growth plan's 1K active lead limit is restrictive beyond solo SDRs",
+        "Separate email domains/mailboxes ($2-5/mo each) on top of price",
+        "CRM beyond HubSpot/Salesforce/Pipedrive needs Zapier ($20+/mo)"
+      ]
+    },
+    "greatAt": [
+      "<strong>Unlimited sending accounts:</strong> Zero per-seat charges &mdash; #1 reason agencies choose Instantly",
+      "<strong>Deliverability management:</strong> Auto-warmup, sender rotation, and real-time dashboard",
+      "<strong>Price-to-value ratio:</strong> $37/mo with unlimited accounts &mdash; 40-60% cheaper than competitors",
+      "<strong>Unified inbox (Unibox):</strong> All replies from dozens of accounts in one view",
+      "<strong>Simple campaign builder:</strong> Easy multi-step sequences with A/B testing"
+    ],
+    "breaksAtScale": [
+      "<strong>No built-in data:</strong> Must source leads externally, adding cost",
+      "<strong>Basic analytics:</strong> Limited campaign analytics and attribution",
+      "<strong>Limited CRM integrations:</strong> Only 3 native connectors; rest needs Zapier",
+      "<strong>Email-only channel:</strong> No LinkedIn or phone capability",
+      "<strong>DNS setup burden:</strong> SPF/DKIM/DMARC across many domains is tedious"
+    ],
+    "whoShouldNotBuy": [
+      "<strong>Low-volume senders:</strong> Under 100 emails/day makes this overkill",
+      "<strong>Enterprise security teams:</strong> No SSO, audit logs, or SOC 2",
+      "<strong>Multichannel sellers:</strong> Email only &mdash; no LinkedIn or phone",
+      "<strong>Teams wanting analytics depth:</strong> Reporting is basic vs. Salesloft or HubSpot"
+    ],
+    "implementationReality": {
+      "stats": [
+        { "number": "2&ndash;3 weeks", "label": "Time to Value" },
+        { "number": "Medium", "label": "Setup Complexity" },
+        { "number": "Low", "label": "RevOps Lift" },
+        { "number": "Low", "label": "Training Required" },
+        { "number": "None", "label": "Data Migration" }
+      ],
+      "note": "Main bottleneck is warmup: new accounts need 2-3 weeks before full-volume sending."
+    },
+    "enterpriseReadiness": [
+      { "label": "SSO / SAML", "value": "Google, Microsoft, Okta SSO supported", "class": "dm-available" },
+      { "label": "SOC 2", "value": "Claimed via third-party assessment; no public report", "class": "dm-partial" },
+      { "label": "RBAC", "value": "Basic workspace roles", "class": "dm-partial" },
+      { "label": "Data Residency", "value": "US-hosted", "class": "dm-partial" },
+      { "label": "SLA", "value": "No public SLA", "class": "dm-unavailable" },
+      { "label": "Audit Logs", "value": "Not available", "class": "dm-unavailable" }
+    ],
+    "whoThisIsFor": {
+      "org": {
+        "heading": "Best for Sales Teams & RevOps",
+        "items": [
+          "Outbound teams scaling cold email across multiple domains",
+          "Agencies managing campaigns for multiple clients",
+          "Sales orgs needing warmup and deliverability at scale"
+        ]
+      },
+      "individual": {
+        "heading": "Best for Individual Reps",
+        "items": [
+          "SDRs running independent cold email campaigns",
+          "Freelancers doing outbound lead gen on a budget",
+          "Reps wanting plug-and-play cold email without IT"
+        ]
+      }
+    },
+    "stackPairings": {
+      "cards": [
+        { "title": "Clay", "titleLink": "clay-review.html", "description": "Clay enriches; Instantly sends at scale." },
+        { "title": "Apollo.io", "titleLink": "apollo-review.html", "description": "Apollo builds lists; Instantly sends them." },
+        { "title": "Smartlead", "titleLink": "smartlead-review.html", "description": "Split-test deliverability across platforms." },
+        { "title": "HubSpot CRM", "titleLink": null, "description": "Pushes replies and meetings into HubSpot deals." },
+        { "title": "Lavender", "titleLink": "lavender-review.html", "description": "AI email coach for better cold emails." }
+      ],
+      "exampleStack": "Apollo (leads) &#8594; Clay (enrich) &#8594; Instantly (send) &#8594; HubSpot (CRM)"
+    },
+    "alternatives": {
+      "rows": [
+        { "tool": "Smartlead", "toolLink": "smartlead-review.html", "bestFor": "Similar feature set, slightly higher price", "g2": "4.7/5", "price": "From $39/mo" },
+        { "tool": "Lemlist", "toolLink": null, "bestFor": "Creative personalization (images, landing pages)", "g2": "4.4/5", "price": "From $59/mo" },
+        { "tool": "Mailshake", "toolLink": null, "bestFor": "Simpler UI for SMBs", "g2": "4.7/5", "price": "From $29/mo" },
+        { "tool": "Woodpecker", "toolLink": null, "bestFor": "Agency-focused with client management", "g2": "4.3/5", "price": "From $29/mo" },
+        { "tool": "Saleshandy", "toolLink": null, "bestFor": "Budget-friendly with built-in lead finder", "g2": "4.6/5", "price": "From $25/mo" }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is Instantly.ai good for agencies?",
+        "answer": "Yes, widely used by agencies for unlimited accounts at no extra cost. Manage multiple client campaigns from one dashboard. Hypergrowth ($97/mo) supports 25K+ active leads."
+      },
+      {
+        "question": "How does Instantly compare to Lemlist?",
+        "answer": "Instantly is cheaper ($37 vs $59/mo), offers unlimited accounts (Lemlist charges per seat), and focuses on deliverability. Lemlist has stronger personalization (dynamic images, landing pages). Instantly wins on volume; Lemlist on creative campaigns."
+      },
+      {
+        "question": "Does Instantly.ai have a built-in contact database?",
+        "answer": "No. Instantly is a sending platform; bring your own leads from Apollo, Clay, or ZoomInfo. A lead finder add-on exists but is not included in base plans."
+      }
+    ],
+    "meta": {
+      "lastVerified": "February 2026",
+      "methodologyLink": "/methodology/",
+      "disclosureLink": "/disclosure.html"
+    }
+  },
+  "sidebar": {
+    "atAGlance": [
+      { "label": "G2 Rating", "value": "4.8/5" },
+      { "label": "G2 Reviews", "value": "~3,200" },
+      { "label": "Starting Price", "value": "$37/mo" },
+      { "label": "Category", "value": "Cold Outreach" },
+      { "label": "Free Trial", "value": "14 days" }
+    ],
+    "ctaUrl": "/go/instantly",
+    "comparisons": [
+      { "text": "Instantly vs Smartlead", "url": "/compare/instantly-vs-smartlead.html" },
+      { "text": "Instantly vs Lemlist", "url": "/compare/instantly-vs-lemlist.html" },
+      { "text": "Lavender vs Instantly", "url": "/compare/lavender-vs-instantly.html" }
+    ],
+    "externalReviews": [
+      { "text": "G2 Reviews", "url": "https://www.g2.com/products/instantly-ai/reviews" }
+    ],
+    "relatedGuides": [
+      { "text": "Best AI Email Outreach Tools", "url": "/guides/best-ai-email-outreach-tools.html" },
+      { "text": "Best AI Prospecting Tools", "url": "/guides/best-ai-outbound-prospecting-tools.html" }
+    ],
+    "emailCard": {
+      "heading": "Weekly Tool Intel",
+      "description": "Get honest tool comparisons and decision frameworks in your inbox."
+    }
+  },
+  "finalCta": {
+    "heading": "Learn More About Instantly.ai",
+    "description": "Visit their site for current pricing, product demo, and free trial (14 days, no credit card).",
+    "primaryUrl": "/go/instantly",
+    "primaryText": "Visit Instantly",
+    "secondaryUrl": "https://www.g2.com/products/instantly-ai/reviews",
+    "secondaryText": "Read G2 Reviews",
+    "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  }
+}
