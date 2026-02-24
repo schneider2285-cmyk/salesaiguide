@@ -2018,3 +2018,202 @@ body.reader-rep .rep-content { display: block; }
         opacity: 1;
     }
 }
+
+/* ============================================
+   GUIDE / LISTICLE PAGES
+   ============================================ */
+.guide-hero {
+  background: linear-gradient(135deg, #0f1923 0%, #1a2d3d 100%);
+  padding: 3rem 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.guide-hero-inner {
+  max-width: 860px;
+  margin: 0 auto;
+}
+.guide-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.guide-badge {
+  background: rgba(0, 212, 170, 0.15);
+  color: #00d4aa;
+  border: 1px solid rgba(0, 212, 170, 0.3);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.guide-updated {
+  color: rgba(255,255,255,0.45);
+  font-size: 0.85rem;
+}
+.guide-hero h1 {
+  color: #fff;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+  line-height: 1.2;
+}
+.guide-subtitle {
+  color: rgba(255,255,255,0.7);
+  font-size: 1.1rem;
+  margin: 0;
+  max-width: 640px;
+  line-height: 1.6;
+}
+.guide-layout {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 2.5rem;
+  align-items: start;
+}
+.guide-main {
+  min-width: 0;
+}
+.guide-sidebar {
+  position: sticky;
+  top: 110px;
+}
+.sidebar-tool-card {
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  background: rgba(255,255,255,0.02);
+}
+.sidebar-tool-name {
+  font-weight: 700;
+  color: #e8edf2;
+  margin-bottom: 0.25rem;
+}
+.sidebar-tool-best {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 0.75rem;
+}
+
+/* Tool card within guide content */
+.guide-tool-card {
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 1.75rem;
+  margin-bottom: 1.5rem;
+  background: rgba(255,255,255,0.02);
+  position: relative;
+}
+.guide-tool-card:hover {
+  border-color: rgba(0, 212, 170, 0.3);
+  background: rgba(0, 212, 170, 0.03);
+}
+.guide-tool-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+.guide-tool-rank {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.25rem;
+}
+.guide-tool-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #e8edf2;
+  margin: 0;
+}
+.guide-tool-tagline {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.55);
+  margin: 0.25rem 0 0;
+}
+.guide-tool-cta {
+  flex-shrink: 0;
+}
+.guide-tool-body {
+  color: rgba(255,255,255,0.75);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+.guide-tool-meta {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+.guide-tool-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.guide-tool-meta-label {
+  color: rgba(255,255,255,0.35);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.guide-tool-meta-value {
+  color: #e8edf2;
+  font-weight: 600;
+}
+.guide-tool-best-for {
+  display: inline-block;
+  background: rgba(0, 212, 170, 0.1);
+  color: #00d4aa;
+  border: 1px solid rgba(0, 212, 170, 0.2);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+/* Comparison table in guides */
+.guide-comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+.guide-comparison-table th {
+  background: rgba(255,255,255,0.05);
+  color: rgba(255,255,255,0.6);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.guide-comparison-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  color: rgba(255,255,255,0.75);
+  vertical-align: top;
+}
+.guide-comparison-table tr:hover td {
+  background: rgba(255,255,255,0.02);
+}
+
+@media (max-width: 768px) {
+  .guide-layout {
+    grid-template-columns: 1fr;
+  }
+  .guide-sidebar {
+    position: static;
+    order: -1;
+  }
+}

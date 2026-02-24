@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VRBZ6Z6885"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-VRBZ6Z6885');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} | SalesAIGuide</title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ title }} | SalesAIGuide">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:site_name" content="Sales AI Guide">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title }} | SalesAIGuide">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="description" content="{{ description }}">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/review.css">
+    {% if extraHead %}{{ extraHead | safe }}{% endif %}
+</head>
+<body>
+  {% include "navbar.njk" %}
+
+  <div class="guide-hero">
+    <div class="guide-hero-inner">
+      <div class="guide-meta">
+        <span class="guide-badge">{{ toolCount }} Tools Reviewed</span>
+        <span class="guide-updated">Updated {{ lastUpdated }}</span>
+      </div>
+      <h1>{{ title }}</h1>
+      <p class="guide-subtitle">{{ description }}</p>
+    </div>
+  </div>
+
+  <div class="guide-layout">
+    <main class="guide-main">
+      {{ content | safe }}
+    </main>
+    <aside class="guide-sidebar">
+      <div class="sidebar-section">
+        <h3>Top Picks</h3>
+        {% for tool in sidebarTools %}
+        <div class="sidebar-tool-card">
+          <div class="sidebar-tool-name">{{ tool.name }}</div>
+          <div class="sidebar-tool-best">{{ tool.bestFor }}</div>
+          <a href="{{ tool.ctaUrl }}" class="btn btn-primary btn-sm btn-block" target="_blank" rel="nofollow">
+            Visit {{ tool.name }} &#8599;
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="sidebar-section sidebar-newsletter">
+        <h3>Get the Weekly Brief</h3>
+        <p>New tool reviews, comparison updates, and deals — every Monday.</p>
+        <form name="newsletter-guide" method="POST" data-netlify="true">
+          <input type="email" name="email" placeholder="your@email.com" required>
+          <button type="submit" class="btn btn-primary btn-block">Subscribe</button>
+        </form>
+      </div>
+    </aside>
+  </div>
+
+  {% include "footer.njk" %}
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -344,13 +344,15 @@
     <priority>0.5</priority>
   </url>
 
-  <!-- Guide Pages -->
+  <!-- Guide Pages (Index) -->
   <url>
     <loc>https://salesaiguide.com/guides/</loc>
-    <lastmod>2026-02-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+
+  <!-- Guide Pages (Static HTML — pre-existing) -->
   <url>
     <loc>https://salesaiguide.com/guides/best-ai-outbound-prospecting-tools.html</loc>
     <lastmod>2026-02-21</lastmod>
@@ -375,6 +377,45 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Guide Pages (Phase 3 — new .njk guide pages) -->
+  <url>
+    <loc>https://salesaiguide.com/guides/best-cold-email-tools.html</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/guides/best-sales-engagement-platforms.html</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/guides/best-data-enrichment-tools.html</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/guides/best-ai-sdr-tools.html</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/guides/best-sales-intelligence-tools.html</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/tools/clay-alternatives.html</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <url>
     <loc>https://salesaiguide.com/editorial.html</loc>
     <lastmod>2026-02-21</lastmod>
