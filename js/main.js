@@ -102,6 +102,25 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // ─── Journey Bar Active State ───────────────────────────────────────
+    const journeyBar = document.getElementById('journey-bar');
+    if (journeyBar) {
+        const sectionIds = ['pricing-reality', 'who-should-use', 'decision-snapshot', 'where-it-breaks', 'stack-fit'];
+        const journeyObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    document.querySelectorAll('.journey-tab').forEach(t => t.classList.remove('active'));
+                    const tab = document.querySelector('.journey-tab[data-section="' + entry.target.id + '"]');
+                    if (tab) tab.classList.add('active');
+                }
+            });
+        }, { rootMargin: '-20% 0px -70% 0px' });
+        sectionIds.forEach(function(id) {
+            var el = document.getElementById(id);
+            if (el) journeyObserver.observe(el);
+        });
+    }
+
     // ─── Scroll Depth Tracking ────────────────────────────────────────────
     let scrollDepth = 0;
     window.addEventListener('scroll', function() {

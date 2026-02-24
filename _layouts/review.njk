@@ -51,6 +51,18 @@ extraCss:
         </div>
     </div>
 
+    <nav class="journey-bar" id="journey-bar">
+      <div class="container">
+        <div class="journey-tabs">
+          <a href="#pricing-reality" class="journey-tab active" data-section="pricing-reality">Pricing Reality</a>
+          <a href="#who-should-use" class="journey-tab" data-section="who-should-use">Who Should Use</a>
+          <a href="#decision-snapshot" class="journey-tab" data-section="decision-snapshot">Decision Snapshot</a>
+          <a href="#where-it-breaks" class="journey-tab" data-section="where-it-breaks">Where It Breaks</a>
+          <a href="#stack-fit" class="journey-tab" data-section="stack-fit">Stack Fit</a>
+        </div>
+      </div>
+    </nav>
+
     <article class="review-content">
         <div class="container">
             <div class="content-wrapper">
@@ -79,7 +91,7 @@ extraCss:
                     </section>
 
                     {% if t.pricing %}
-                    <section class="content-section">
+                    <section class="content-section" id="pricing-reality">
                         <h2>Pricing</h2>
                         <p><em>{{ t.pricing.note }}</em></p>
                         <div class="pricing-table">
@@ -158,7 +170,7 @@ extraCss:
                     {% endif %}
 
                     {% if t.whoIsFor %}
-                    <section class="content-section">
+                    <section class="content-section" id="who-should-use">
                         <h2>Who Is {{ t.hero.breadcrumbName }} For?</h2>
                         <div class="use-cases">
                             <div class="use-case good">
@@ -228,7 +240,7 @@ extraCss:
                             <p style="font-size:0.875rem;color:var(--text-light);">Composite scores derived from our <a href="/methodology/">6-dimension scoring methodology</a>.</p>
                         </section>
 
-                        <section class="content-section">
+                        <section class="content-section" id="decision-snapshot">
                             <h2>Decision Snapshot</h2>
                             <p>{{ t.decisionModule.decisionSnapshot.intro | safe }}</p>
                             <div class="comparison-table-wrapper">
@@ -347,7 +359,7 @@ extraCss:
                             </div>
                         </section>
 
-                        <section class="content-section">
+                        <section class="content-section" id="where-it-breaks">
                             <h2>Where {{ t.hero.breadcrumbName }} Breaks at Scale</h2>
                             <div class="cons">
                                 <ul>
@@ -416,7 +428,7 @@ extraCss:
                             </div>
                         </section>
 
-                        <section class="content-section">
+                        <section class="content-section" id="stack-fit">
                             <h2>Common Stack Pairings</h2>
                             <div class="feature-grid">
                                 {% for card in t.decisionModule.stackPairings.cards %}
