@@ -1410,6 +1410,128 @@ a {
     color: #9d174d;
 }
 
+/* ─── Featured Reviews Section ─────────────────────────────────────── */
+.featured-reviews {
+    padding: 4rem 0;
+    background: var(--warm-bg);
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.25rem;
+}
+
+.review-link-card {
+    background: var(--warm-card);
+    border: 1px solid var(--warm-border);
+    border-radius: var(--radius-md);
+    padding: 1.5rem 1.25rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    transition: all 0.35s var(--ease-out);
+}
+
+.review-link-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+}
+
+.review-link-card .review-tool-name {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    font-weight: 400;
+}
+
+.review-link-card .review-category {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--accent-dark);
+}
+
+.review-link-card .review-cta {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent-dark);
+    margin-top: auto;
+}
+
+.review-link-card:hover .review-cta {
+    color: var(--accent);
+}
+
+/* ─── Top Comparisons Callout ──────────────────────────────────────── */
+.top-comparisons {
+    padding: 3rem 0;
+    background: var(--navy-dark);
+    color: var(--white);
+}
+
+.top-comparisons .section-header h2 {
+    color: var(--white);
+}
+
+.top-comparisons .section-header p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.top-compare-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.25rem;
+}
+
+.top-compare-item {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-md);
+    padding: 1.5rem 1.25rem;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.35s var(--ease-out);
+}
+
+.top-compare-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--accent);
+    transform: translateY(-3px);
+}
+
+.top-compare-item .compare-label {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: 1rem;
+    color: var(--white);
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.top-compare-item .compare-vs-label {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin: 0.25rem 0;
+}
+
+.top-compare-item .compare-cta {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 0.5rem;
+    display: block;
+}
+
+.top-compare-item:hover .compare-cta {
+    color: var(--accent);
+}
+
 /* ─── SEO Component Responsive ────────────────────────────────────── */
 @media (max-width: 768px) {
     .author-bio {
@@ -1493,6 +1615,18 @@ a {
 
     .pathway-grid {
         grid-template-columns: 1fr;
+    }
+
+    .reviews-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .top-compare-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .top-compare-list .top-compare-item:last-child {
+        grid-column: 1 / -1;
     }
 
     .compare-grid {
