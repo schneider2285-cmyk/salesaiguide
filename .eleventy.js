@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("img");
   // compare/ and categories/ are now .njk templates — no passthrough needed
-  eleventyConfig.addPassthroughCopy("guides");
+  eleventyConfig.addPassthroughCopy("guides/**/*.html");
   eleventyConfig.addPassthroughCopy("blog");
   eleventyConfig.addPassthroughCopy("editorial-policy");
   eleventyConfig.addPassthroughCopy("how-we-score");
