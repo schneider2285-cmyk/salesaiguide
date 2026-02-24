@@ -1,41 +1,67 @@
 {
   "_description": "Currently active tasks. Move to completed_work.json when done.",
-  "_updated": "2026-02-21",
+  "_updated": "2026-02-24",
+  "_managed_by": "Manus AI — read MANUS_CONTEXT.md for full context",
   "tasks": [
+    {
+      "id": "PHASE0-STEP0-S1",
+      "title": "Eleventy Migration — Session 1: Proof of Concept",
+      "agent": "claude-code",
+      "status": "ready",
+      "priority": "critical",
+      "brief": "docs/briefs/brief-STEP0-eleventy-migration.md",
+      "session_goal": "Install Eleventy, create _layouts/_templates/_includes/_data directory structure, migrate tools/clay-review.html to use a template + JSON data file. Output must be visually identical to current page. Do not migrate any other pages.",
+      "validation": "Run eleventy --serve and confirm Clay page renders correctly. List all files created/changed.",
+      "next_session": "PHASE0-STEP0-S2 — but only after Matt approves the proof of concept",
+      "created": "2026-02-24"
+    },
+    {
+      "id": "MATT-AFFILIATE-APPS",
+      "title": "Apply to 4 affiliate programs",
+      "agent": "manual-matt",
+      "status": "pending",
+      "priority": "critical",
+      "notes": "Apply to: Clay (clay.com/affiliates), Apollo (apollo.io/partners), Instantly (instantly.ai/affiliates), HubSpot (hubspot.com/partners/affiliates). Approval takes 1-3 days. Nothing earns until this is done.",
+      "created": "2026-02-24"
+    },
+    {
+      "id": "MATT-SEARCH-CONSOLE",
+      "title": "Connect Google Search Console + request indexing",
+      "agent": "manual-matt",
+      "status": "pending",
+      "priority": "high",
+      "notes": "Connect Search Console to salesaiguide.com. Then manually request indexing for 9 priority URLs listed in docs/briefs/MASTER-PLAN-AND-CHECKLIST.md",
+      "created": "2026-02-24"
+    }
+  ],
+  "superseded_tasks": [
     {
       "id": "TASK-001",
       "title": "Push publish.yml workflow to GitHub",
-      "agent": "deployment-agent",
-      "status": "blocked",
-      "blocker": "GitHub PAT needs 'workflow' scope — create Classic token with repo+workflow",
-      "created": "2026-02-21",
-      "files": [".github/workflows/publish.yml"]
+      "status": "cancelled",
+      "reason": "Make.com/Airtable pipeline will not be used. Replaced by Eleventy + JSON data files approach.",
+      "cancelled": "2026-02-24"
     },
     {
       "id": "TASK-002",
       "title": "Add AIRTABLE_TOKEN GitHub secret",
-      "agent": "manual",
-      "status": "pending",
-      "notes": "Matt must add Airtable Personal Access Token as repo secret. Go to: github.com/schneider2285-cmyk/salesaiguide/settings/secrets/actions",
-      "created": "2026-02-21"
+      "status": "cancelled",
+      "reason": "Airtable pipeline cancelled. See TASK-001.",
+      "cancelled": "2026-02-24"
     },
     {
       "id": "TASK-003",
       "title": "Replace placeholder affiliate URLs in _redirects",
-      "agent": "manual",
       "status": "pending",
-      "notes": "30 tools have placeholder ?ref=salesaiguide URLs. Replace with real affiliate links as programs are approved. Current applications: Instantly, Reply.io, Smartlead.",
-      "created": "2026-02-21",
-      "files": ["_redirects"]
+      "notes": "Moved to MATT-AFFILIATE-APPS. Will update _redirects when programs approve.",
+      "moved": "2026-02-24"
     },
     {
       "id": "TASK-004",
       "title": "Add Google Analytics GA4 snippet to all pages",
-      "agent": "site-builder",
-      "status": "pending",
-      "notes": "Waiting for GA4 measurement ID from Matt. Google had internal error during initial setup attempt.",
-      "created": "2026-02-21",
-      "files": ["index.html", "about.html", "disclosure.html", "404.html", "compare/*.html", "categories/*.html", "tools/*.html", "blog/*.html"]
+      "status": "completed",
+      "notes": "GA4 ID G-VRBZ6Z6885 confirmed live across all pages as of Feb 24.",
+      "completed": "2026-02-24"
     }
   ]
 }
