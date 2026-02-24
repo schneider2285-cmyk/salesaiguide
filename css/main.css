@@ -739,9 +739,120 @@ a {
     font-size: 1rem;
 }
 
+.newsletter-form button[type="submit"] {
+    font-family: 'DM Sans', sans-serif;
+    padding: 1rem 2rem;
+    background: var(--accent);
+    color: var(--navy-dark);
+    border: none;
+    border-radius: var(--radius-sm);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    white-space: nowrap;
+}
+
+.newsletter-form button[type="submit"]:hover {
+    background: var(--accent-dark);
+    transform: translateY(-1px);
+}
+
+.newsletter-form button[type="submit"]:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.form-message {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    min-height: 1.25rem;
+}
+
+.form-success {
+    color: var(--accent);
+}
+
+.form-error {
+    color: #f87171;
+}
+
 .newsletter-privacy {
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* Sidebar email capture card */
+.sidebar-email-card {
+    background: var(--navy-dark);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    color: var(--white);
+}
+
+.sidebar-email-card h4 {
+    color: var(--white);
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.sidebar-email-card p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.sidebar-email-card input[type="email"] {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-sm);
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+    box-sizing: border-box;
+}
+
+.sidebar-email-card input[type="email"]::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.sidebar-email-card button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: var(--accent);
+    color: var(--navy-dark);
+    border: none;
+    border-radius: var(--radius-sm);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.sidebar-email-card button[type="submit"]:hover {
+    background: var(--accent-dark);
+}
+
+.sidebar-email-card button[type="submit"]:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.sidebar-email-card .form-message {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.sidebar-email-card .newsletter-privacy {
+    font-size: 0.75rem;
+    margin-top: 0.75rem;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 /* ─── Trust / How-It-Works Section ─────────────────────────────────────── */

@@ -43,18 +43,48 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // ─── Newsletter Form Handling ─────────────────────────────────────────
-    const newsletterForms = document.querySelectorAll('#newsletter-form');
+    // ─── Newsletter Form Handling (Netlify Forms) ─────────────────────────
+    const newsletterForms = document.querySelectorAll('.netlify-newsletter');
     newsletterForms.forEach(form => {
         form.addEventListener('submit', function(e) {
             e.preventDefault();
+            const btn = this.querySelector('button[type="submit"]');
+            const msgEl = this.querySelector('.form-message');
             const email = this.querySelector('input[type="email"]').value;
-            console.log('Newsletter signup:', email);
-            if (typeof gtag !== 'undefined') {
-                gtag('event', 'newsletter_signup', { 'email': email });
-            }
-            alert('Thanks for subscribing! Check your email to confirm.');
-            this.reset();
+
+            btn.disabled = true;
+            btn.textContent = 'Sending...';
+
+            const body = new URLSearchParams(new FormData(this)).toString();
+
+            fetch('/', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: body
+            })
+            .then(function(res) {
+                if (!res.ok) throw new Error('Network response was not ok');
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'newsletter_signup', {
+                        'email': email,
+                        'form_location': window.location.pathname
+                    });
+                }
+                form.reset();
+                btn.textContent = 'Subscribed!';
+                if (msgEl) {
+                    msgEl.textContent = 'You\'re in! We\'ll send you the best tool insights.';
+                    msgEl.className = 'form-message form-success';
+                }
+            })
+            .catch(function() {
+                btn.disabled = false;
+                btn.textContent = 'Subscribe';
+                if (msgEl) {
+                    msgEl.textContent = 'Something went wrong. Please try again.';
+                    msgEl.className = 'form-message form-error';
+                }
+            });
         });
     });
 
