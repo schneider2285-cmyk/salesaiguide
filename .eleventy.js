@@ -10,7 +10,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("editorial-policy");
   eleventyConfig.addPassthroughCopy("how-we-score");
   eleventyConfig.addPassthroughCopy("progress");
+  eleventyConfig.addPassthroughCopy("dashboard");
   // scripts/, docs/, coordination/, context/, _private/ are intentionally excluded — never published to live site
+  // dashboard-server/ is excluded via .eleventyignore — it's the API backend, not static content
 
   // Root files
   eleventyConfig.addPassthroughCopy("_redirects");

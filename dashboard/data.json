@@ -1,0 +1,1209 @@
+{
+  "last_updated": "2026-02-25",
+  "site_metrics": {
+    "total_pages": 101,
+    "tool_reviews": 20,
+    "comparison_pages": 52,
+    "category_pages": 14,
+    "persona_pages": 3,
+    "guide_pages": 2,
+    "active_affiliates": 1
+  },
+  "build_progress": {
+    "tasks_done": 136,
+    "tasks_total": 144,
+    "percent": 94,
+    "phases": [
+      {
+        "id": "p0",
+        "label": "Phase 0 \u2014 Foundation & Migration",
+        "done": 18,
+        "total": 21,
+        "tasks": [
+          {
+            "id": "p0-s1",
+            "text": "Session 1: Install Eleventy, migrate Clay page as proof of concept",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p0-s2",
+            "text": "Session 2: Migrate all 9 remaining tool pages to Eleventy templates",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p0-s3",
+            "text": "Session 3: Migrate comparison + category pages + homepage",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p0-s4",
+            "text": "Session 4: Set up branch strategy, disable Airtable workflow, verify live site",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p0-c1",
+            "text": "Brief 0.1: Create /how-we-score.html credibility page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p0-c2",
+            "text": "Brief 0.2: Build Journey Bar tab navigation component",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p0-c3",
+            "text": "Brief 0.3: Build Evidence Drawer component",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p0-c4",
+            "text": "Brief 0.4: Build Score Strip component (dual scores above fold)",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p0-c5",
+            "text": "Brief 0.5: Create JSON schema + populate clay.json + instantly.json",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p0-c6",
+            "text": "Brief 0.6: Update global nav (add How We Score, fix Guides placeholder)",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p0-m1",
+            "text": "Apply to Clay affiliate program (clay.com/affiliates)",
+            "who": "matt",
+            "done": true
+          },
+          {
+            "id": "p0-m2",
+            "text": "Apply to Apollo affiliate program (apollo.io/partners)",
+            "who": "matt",
+            "done": false
+          },
+          {
+            "id": "p0-m3",
+            "text": "Apply to Instantly affiliate program (instantly.ai/affiliates)",
+            "who": "matt",
+            "done": false
+          },
+          {
+            "id": "p0-m4",
+            "text": "Apply to HubSpot affiliate program (hubspot.com/partners/affiliates)",
+            "who": "matt",
+            "done": false
+          },
+          {
+            "id": "p0-m5",
+            "text": "Connect Google Search Console to salesaiguide.com",
+            "who": "matt",
+            "done": true
+          },
+          {
+            "id": "p0-m6",
+            "text": "Request manual indexing for 9 priority URLs in Search Console",
+            "who": "matt",
+            "done": true
+          },
+          {
+            "id": "p0-d1",
+            "text": "GA4 tracking (G-VRBZ6Z6885) live across all pages",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p0-d2",
+            "text": "Netlify Forms email capture live",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p0-d3",
+            "text": "Internal linking: homepage links to all 10 tool pages",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p0-d4",
+            "text": "Manus GitHub write access established",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "p0-d5",
+            "text": "MANUS_CONTEXT.md + all strategic briefs committed to repo",
+            "who": "manus",
+            "done": true
+          }
+        ]
+      },
+      {
+        "id": "p1",
+        "label": "Phase 1 \u2014 v4 Layout & Score System",
+        "done": 16,
+        "total": 16,
+        "tasks": [
+          {
+            "id": "p1-css",
+            "text": "Session 1 \u2014 Journey bar CSS, score card CSS, sidebar CSS, IntersectionObserver JS",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p1-layout",
+            "text": "Session 2 \u2014 Two-column layout, sticky sidebar, v4 sidebar HTML, all 10 JSON files updated",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p1-scores",
+            "text": "Session 3 \u2014 Hero dual-score cards, scores data in all 10 JSONs, mobile verified, PR #1 opened",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p1-merge",
+            "text": "PR #1 reviewed and merged to main \u2014 Phase 1 live on salesaiguide.com",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "p1-clay",
+            "text": "Clay review page \u2014 v4 layout (sticky sidebar, 5-tab nav, score strip)",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p1-instantly",
+            "text": "Instantly review page \u2014 v4 layout",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p1-apollo",
+            "text": "Apollo review page \u2014 v4 layout",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p1-gong",
+            "text": "Gong review page \u2014 v4 layout",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p1-hubspot",
+            "text": "HubSpot review page \u2014 v4 layout",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p1-salesloft",
+            "text": "Salesloft review page \u2014 v4 layout",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p1-outreach",
+            "text": "Outreach review page \u2014 v4 layout",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p1-lavender",
+            "text": "Lavender review page \u2014 v4 layout",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p1-smartlead",
+            "text": "Smartlead review page \u2014 v4 layout",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p1-zoominfo",
+            "text": "ZoomInfo review page \u2014 v4 layout",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p1-v1",
+            "text": "Validate all 10 tool pages match v4 spec (sticky sidebar, tabs, scores)",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "p1-v2",
+            "text": "Verify affiliate CTAs present on all 10 pages",
+            "who": "manus",
+            "done": true
+          }
+        ]
+      },
+      {
+        "id": "p2",
+        "label": "Phase 2 \u2014 Decision Module & Evidence",
+        "done": 11,
+        "total": 14,
+        "tasks": [
+          {
+            "id": "p2-c1",
+            "text": "clay-vs-apollo \u2014 v4 (dual scores, evidence bar, reader selector)",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p2-c2",
+            "text": "clay-vs-clearbit \u2014 v4",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p2-c3",
+            "text": "instantly-vs-lemlist \u2014 v4",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p2-c4",
+            "text": "instantly-vs-smartlead \u2014 v4",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p2-c5",
+            "text": "apollo-vs-zoominfo \u2014 v4",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p2-c6",
+            "text": "outreach-vs-salesloft \u2014 v4",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p2-c7",
+            "text": "gong-vs-chorus \u2014 v4",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p2-c8",
+            "text": "hubspot-vs-pipedrive \u2014 v4",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p2-c9",
+            "text": "lavender-vs-instantly \u2014 v4",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p2-c10",
+            "text": "cognism-vs-zoominfo \u2014 v4",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p2-a1",
+            "text": "Update _redirects with real Clay affiliate URL",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "p2-a2",
+            "text": "Update _redirects with real Apollo affiliate URL",
+            "who": "manus",
+            "done": false
+          },
+          {
+            "id": "p2-a3",
+            "text": "Update _redirects with real Instantly affiliate URL",
+            "who": "manus",
+            "done": false
+          },
+          {
+            "id": "p2-a4",
+            "text": "Update _redirects with real HubSpot affiliate URL",
+            "who": "manus",
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": "p3",
+        "label": "Phase 3 \u2014 Category & Guide Pages",
+        "done": 17,
+        "total": 17,
+        "tasks": [
+          {
+            "id": "p3-l1",
+            "text": "Best AI SDR Tools 2026 (target: 2,900/mo searches)",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-l2",
+            "text": "Best Cold Email Software 2026 (target: 3,600/mo)",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-l3",
+            "text": "Best Sales Intelligence Tools 2026 (target: 1,200/mo)",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-l4",
+            "text": "Best Conversation Intelligence Software 2026 (target: 880/mo)",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-l5",
+            "text": "Best Revenue Intelligence Platforms 2026 (target: 720/mo)",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-a1",
+            "text": "7 Best Clay Alternatives 2026 (target: 2,400/mo)",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-a2",
+            "text": "6 Best Instantly Alternatives 2026 (target: 1,100/mo)",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-t1",
+            "text": "Cognism review page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-t2",
+            "text": "Lusha review page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-t3",
+            "text": "LeadIQ review page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-t4",
+            "text": "Warmly review page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-t5",
+            "text": "Vidyard review page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-t6",
+            "text": "Chili Piper review page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-t7",
+            "text": "Clari review page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-t8",
+            "text": "Seismic review page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-t9",
+            "text": "Highspot review page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p3-t10",
+            "text": "MindTickle review page",
+            "who": "cc",
+            "done": true
+          }
+        ]
+      },
+      {
+        "id": "p4",
+        "label": "Phase 4 \u2014 Comparison Pages",
+        "done": 17,
+        "total": 17,
+        "tasks": [
+          {
+            "id": "p4-cat1",
+            "text": "AI SDRs category page \u2014 upgrade with decision guidance",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-cat2",
+            "text": "Cold Outreach category page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-cat3",
+            "text": "Data Enrichment category page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-cat4",
+            "text": "Conversation Intelligence category page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-cat5",
+            "text": "Sales Engagement category page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-cat6",
+            "text": "Revenue Intelligence category page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-cat7",
+            "text": "Sales Coaching category page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-cat8",
+            "text": "Sales Enablement category page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-cat9",
+            "text": "Lead Prospecting category page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-cat10",
+            "text": "Intent Data category page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-cat11",
+            "text": "CRM & Pipeline category page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-cat12",
+            "text": "Dialers & Calling category page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-cat13",
+            "text": "Meeting Schedulers category page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-cat14",
+            "text": "Sales Content category page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-comp1",
+            "text": "Migrate 21 remaining comparison pages to compare.njk layout (PR #4)",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p4-comp2",
+            "text": "Validate PR #4 \u2014 check dual scores, reader selector, sidebar CTAs on all 21 pages",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "p4-comp3",
+            "text": "Merge PR #4 to main \u2014 Phase 4 complete",
+            "who": "manus",
+            "done": true
+          }
+        ]
+      },
+      {
+        "id": "p5",
+        "label": "Phase 5 \u2014 Persona Hubs & Homepage v4",
+        "done": 13,
+        "total": 13,
+        "tasks": [
+          {
+            "id": "p5-p1",
+            "text": "Build /for-sales-reps/ persona hub",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p5-p2",
+            "text": "Build /for-sales-managers/ persona hub",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p5-p3",
+            "text": "Build /for-revenue-ops/ persona hub",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p5-h1",
+            "text": "Write brief-PHASE5-homepage-redesign.md",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "p5-h2",
+            "text": "Asymmetric hero layout with live stats bar",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p5-h3",
+            "text": "Featured tools section with \"Read Review\" CTAs",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p5-h4",
+            "text": "Methodology trust bar",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p5-h5",
+            "text": "Curated comparisons section",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p5-h6",
+            "text": "PR #5 reviewed and merged to main",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "p5-m1",
+            "text": "Fix missing disclosure notes on Lavender, Smartlead, ZoomInfo",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "p5-m2",
+            "text": "Write brief-PHASE3-tier2-tool-pages.md (10 tool pages + nav + 2 guides)",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "p5-m3",
+            "text": "Write brief-AGENTS-activation.md (all 8 agents + Monday brief workflow)",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "p5-m4",
+            "text": "Write brief-PHASE6-tier2-comparisons.md (21 comparison pages)",
+            "who": "manus",
+            "done": true
+          }
+        ]
+      },
+      {
+        "id": "p6",
+        "label": "Phase 6 \u2014 Tier 2 Comparison Pages",
+        "done": 24,
+        "total": 24,
+        "tasks": [
+          {
+            "id": "p6-c1",
+            "text": "apollo-vs-hubspot comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c2",
+            "text": "cognism-vs-apollo comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c3",
+            "text": "lusha-vs-zoominfo comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c4",
+            "text": "leadiq-vs-apollo comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c5",
+            "text": "clay-vs-zoominfo comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c6",
+            "text": "cognism-vs-lusha comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c7",
+            "text": "warmly-vs-apollo comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c8",
+            "text": "outreach-vs-hubspot comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c9",
+            "text": "salesloft-vs-hubspot comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c10",
+            "text": "instantly-vs-apollo comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c11",
+            "text": "vidyard-vs-loom comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c12",
+            "text": "lavender-vs-apollo comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c13",
+            "text": "gong-vs-salesloft comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c14",
+            "text": "gong-vs-clari comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c15",
+            "text": "seismic-vs-showpad comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c16",
+            "text": "highspot-vs-mindtickle comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c17",
+            "text": "chili-piper-vs-hubspot comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c18",
+            "text": "gong-vs-outreach comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c19",
+            "text": "seismic-vs-mindtickle comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c20",
+            "text": "clari-vs-hubspot comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-c21",
+            "text": "gong-vs-hubspot comparison page",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-val1",
+            "text": "Build passes 0 errors (~101 files)",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-val2",
+            "text": "All 21 pages in _site/compare/",
+            "who": "cc",
+            "done": true
+          },
+          {
+            "id": "p6-val3",
+            "text": "PR #7 reviewed and merged to main",
+            "who": "manus",
+            "done": true
+          }
+        ]
+      },
+      {
+        "id": "ops",
+        "label": "Operations & Monitoring",
+        "done": 12,
+        "total": 14,
+        "tasks": [
+          {
+            "id": "ops-m1",
+            "text": "Write brief-AGENTS-activation.md",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "ops-m2",
+            "text": "Agent 1: Site Validator \u2014 baseline run (77/77 pages pass)",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "ops-m3",
+            "text": "Agent 2: Evidence Refresher \u2014 baseline run",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "ops-m4",
+            "text": "Agent 3: Affiliate Health Monitor \u2014 baseline run",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "ops-m5",
+            "text": "Agent 4: SEO Performance Monitor \u2014 baseline run",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "ops-m6",
+            "text": "Agent 5: Competitor Intelligence \u2014 baseline run",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "ops-m7",
+            "text": "Agent 6: New Tool Scout \u2014 baseline run",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "ops-m8",
+            "text": "Agent 7: Revenue Optimization \u2014 baseline run",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "ops-m9",
+            "text": "Agent 8: Growth Strategy \u2014 first monthly brief",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "ops-m10",
+            "text": "Commit all baseline reports to coordination/ in repo",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "ops-w1",
+            "text": "Brief Claude Code: Update Gong rating 4.8\u21924.7 in gong.json",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "ops-w2",
+            "text": "Brief Claude Code: Add lastVerified field to all 10 original tool JSONs",
+            "who": "manus",
+            "done": true
+          },
+          {
+            "id": "ops-w3",
+            "text": "Check Search Console for first impressions data (March 3)",
+            "who": "manus",
+            "done": false
+          },
+          {
+            "id": "ops-w4",
+            "text": "First Monday Brief \u2014 compile weekly agent report (March 2)",
+            "who": "manus",
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": "dp",
+        "label": "Design Polish Pass",
+        "done": 8,
+        "total": 8,
+        "tasks": [
+          {
+            "id": "dp-1",
+            "text": "Fix persona hub pages \u2014 Markdown rendering as raw symbols",
+            "who": "claude",
+            "done": true
+          },
+          {
+            "id": "dp-2",
+            "text": "Logo redesign \u2014 SVG bar-chart icon + improved wordmark typography",
+            "who": "claude",
+            "done": true
+          },
+          {
+            "id": "dp-3",
+            "text": "Persona entry cards \u2014 replace emoji icons with SVGs, solid teal borders",
+            "who": "claude",
+            "done": true
+          },
+          {
+            "id": "dp-4",
+            "text": "Tool cards \u2014 show real category names instead of literal Category",
+            "who": "claude",
+            "done": true
+          },
+          {
+            "id": "dp-5",
+            "text": "Homepage tool count \u2014 Browse All Tools",
+            "who": "claude",
+            "done": true
+          },
+          {
+            "id": "dp-6",
+            "text": "Comparison hero \u2014 dark navy gradient background with white text",
+            "who": "claude",
+            "done": true
+          },
+          {
+            "id": "dp-7",
+            "text": "Category hero \u2014 dark navy gradient background with white text",
+            "who": "claude",
+            "done": true
+          },
+          {
+            "id": "dp-8",
+            "text": "404 page navbar \u2014 add How We Score link + SVG logo",
+            "who": "claude",
+            "done": true
+          }
+        ]
+      }
+    ]
+  },
+  "agents": [
+    {
+      "id": "site-validator",
+      "name": "Site Validator",
+      "schedule": "Daily @ 8:00 AM",
+      "domain": "Quality Assurance",
+      "status": "active",
+      "last_run": "2026-02-24",
+      "summary": "101/101 pages passing HTTP 200. All 20 tool pages have journey bar, dual scores, and evidence drawers.",
+      "findings": [],
+      "actions_required": []
+    },
+    {
+      "id": "evidence-refresher",
+      "name": "Evidence Refresher",
+      "schedule": "Monday @ 9:00 AM",
+      "domain": "Data Quality",
+      "status": "active",
+      "last_run": "2026-02-24",
+      "summary": "Gong rating 4.8 to 4.7 on G2. Review count grew 5,800 to 6,470. Minor count drifts on Apollo and Clay.",
+      "findings": [
+        "Gong G2 rating: 4.8 to 4.7",
+        "Gong review count: 5,800 to 6,470",
+        "Apollo review count: +73",
+        "Clay review count: +17"
+      ],
+      "actions_required": []
+    },
+    {
+      "id": "affiliate-health",
+      "name": "Affiliate Health Monitor",
+      "schedule": "Daily @ 10:00 AM",
+      "domain": "Revenue Infrastructure",
+      "status": "active",
+      "last_run": "2026-02-24",
+      "summary": "Clay redirect active with via=matthew-schneider. All 11 redirects resolve. 0 broken links.",
+      "findings": [
+        "Clay: ACTIVE \u2014 affiliate tracking confirmed",
+        "10 redirects: placeholder (no affiliate param)"
+      ],
+      "actions_required": [
+        "Apply to Apollo affiliate program",
+        "Apply to Instantly affiliate program"
+      ]
+    },
+    {
+      "id": "seo-monitor",
+      "name": "SEO Performance Monitor",
+      "schedule": "Friday @ 9:00 AM",
+      "domain": "Search Performance",
+      "status": "active",
+      "last_run": "2026-02-24",
+      "summary": "Search Console connected Feb 24. 9 priority URLs submitted for indexing. First impression data expected March 3.",
+      "findings": [
+        "Search Console connected",
+        "9 priority URLs indexed Feb 24"
+      ],
+      "actions_required": [
+        "Check Search Console March 3 for first impression data"
+      ]
+    },
+    {
+      "id": "competitor-intel",
+      "name": "Competitor Intelligence",
+      "schedule": "Friday @ 10:00 AM",
+      "domain": "Market Intelligence",
+      "status": "active",
+      "last_run": "2026-02-24",
+      "summary": "marketbetter.ai published 4 tool reviews in last 2 weeks targeting same keywords. lagrowthmachine.com active on clay/apollo keywords.",
+      "findings": [
+        "marketbetter.ai: 4 new reviews targeting our keywords",
+        "lagrowthmachine.com: active on clay/apollo content"
+      ],
+      "actions_required": []
+    },
+    {
+      "id": "new-tool-scout",
+      "name": "New Tool Scout",
+      "schedule": "Wednesday @ 9:00 AM",
+      "domain": "Content Expansion",
+      "status": "active",
+      "last_run": "2026-02-24",
+      "summary": "Saleshandy and Lemlist flagged as highest-value additions \u2014 both appear in 3-5 competitor roundups.",
+      "findings": [
+        "Saleshandy: appears in 5 competitor roundups",
+        "Lemlist: appears in 4 competitor roundups"
+      ],
+      "actions_required": [
+        "Add Saleshandy + Lemlist to Phase 7 backlog"
+      ]
+    },
+    {
+      "id": "revenue-optimization",
+      "name": "Revenue Optimization",
+      "schedule": "Monday @ 10:00 AM",
+      "domain": "Revenue Infrastructure",
+      "status": "active",
+      "last_run": "2026-02-24",
+      "summary": "No traffic data yet. Clay is the only active affiliate. Apollo and Instantly are highest-priority pending applications.",
+      "findings": [
+        "Clay: only active affiliate",
+        "Apollo + Instantly: highest-priority pending"
+      ],
+      "actions_required": [
+        "Matt: Apply to Apollo affiliate program",
+        "Matt: Apply to Instantly affiliate program"
+      ]
+    },
+    {
+      "id": "growth-strategy",
+      "name": "Growth Strategy",
+      "schedule": "1st Monday/month",
+      "domain": "Strategic Planning",
+      "status": "active",
+      "last_run": "2026-02-24",
+      "summary": "90-day forecast: first organic traffic expected March-April. First affiliate conversion (Clay) expected April-May.",
+      "findings": [
+        "First organic traffic: March-April 2026",
+        "First Clay conversion: April-May 2026"
+      ],
+      "actions_required": []
+    }
+  ],
+  "affiliates": [
+    {
+      "tool": "Clay",
+      "go_url": "/go/clay",
+      "destination": "clay.earth/?via=matthew-schneider",
+      "status": "active",
+      "commission": "~30% recurring"
+    },
+    {
+      "tool": "Apollo",
+      "go_url": "/go/apollo",
+      "destination": "apollo.io",
+      "status": "pending",
+      "commission": "~20% recurring"
+    },
+    {
+      "tool": "Instantly",
+      "go_url": "/go/instantly",
+      "destination": "instantly.ai",
+      "status": "pending",
+      "commission": "~25% recurring"
+    },
+    {
+      "tool": "HubSpot",
+      "go_url": "/go/hubspot",
+      "destination": "hubspot.com",
+      "status": "pending",
+      "commission": "~30% recurring"
+    },
+    {
+      "tool": "Gong",
+      "go_url": "/go/gong",
+      "destination": "gong.io",
+      "status": "no-program",
+      "commission": "none"
+    },
+    {
+      "tool": "Outreach",
+      "go_url": "/go/outreach",
+      "destination": "outreach.io",
+      "status": "no-program",
+      "commission": "none"
+    },
+    {
+      "tool": "Salesloft",
+      "go_url": "/go/salesloft",
+      "destination": "salesloft.com",
+      "status": "no-program",
+      "commission": "none"
+    },
+    {
+      "tool": "ZoomInfo",
+      "go_url": "/go/zoominfo",
+      "destination": "zoominfo.com",
+      "status": "no-program",
+      "commission": "none"
+    },
+    {
+      "tool": "Lavender",
+      "go_url": "/go/lavender",
+      "destination": "lavender.ai",
+      "status": "check",
+      "commission": "TBD"
+    },
+    {
+      "tool": "Smartlead",
+      "go_url": "/go/smartlead",
+      "destination": "smartlead.ai",
+      "status": "check",
+      "commission": "TBD"
+    },
+    {
+      "tool": "Loom",
+      "go_url": "/go/loom",
+      "destination": "loom.com",
+      "status": "no-program",
+      "commission": "none"
+    }
+  ],
+  "activity_feed": [
+    {
+      "date": "2026-02-25",
+      "type": "merge",
+      "description": "PR #9 merged \u2014 Design fixes: persona Markdown bug, dark heroes, logo, homepage cleanup"
+    },
+    {
+      "date": "2026-02-25",
+      "type": "merge",
+      "description": "PR #8 merged \u2014 Agent 2 baseline: Gong G2 rating 4.8 to 4.7, lastVerified on 10 tool JSONs"
+    },
+    {
+      "date": "2026-02-24",
+      "type": "agent",
+      "description": "All 8 agents ran first baseline pass \u2014 reports committed to coordination/"
+    },
+    {
+      "date": "2026-02-24",
+      "type": "merge",
+      "description": "PR #7 merged \u2014 Phase 6: 21 Tier 2 comparison pages (31 to 52 total)"
+    },
+    {
+      "date": "2026-02-24",
+      "type": "merge",
+      "description": "PR #6 merged \u2014 Phase 3 Tier 2: 10 new tool reviews + nav fix + 2 guide pages (10 to 20 tools)"
+    },
+    {
+      "date": "2026-02-24",
+      "type": "merge",
+      "description": "PR #5 merged \u2014 Phase 5: 3 persona hub pages + homepage v4 redesign"
+    },
+    {
+      "date": "2026-02-24",
+      "type": "merge",
+      "description": "PR #4 merged \u2014 Phase 4: 21 comparison pages migrated to compare.njk"
+    },
+    {
+      "date": "2026-02-24",
+      "type": "ops",
+      "description": "Google Search Console connected \u2014 9 priority URLs submitted for indexing"
+    },
+    {
+      "date": "2026-02-24",
+      "type": "ops",
+      "description": "Clay affiliate signed up \u2014 /go/clay live with via=matthew-schneider"
+    },
+    {
+      "date": "2026-02-24",
+      "type": "merge",
+      "description": "PR #3 merged \u2014 Phase 3: 14 category pages + comparison page upgrades"
+    }
+  ]
+}
