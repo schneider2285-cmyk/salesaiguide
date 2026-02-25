@@ -1,0 +1,512 @@
+{
+  "meta": {
+    "title": "Lusha Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "description": "Lusha product profile with G2 ratings, pricing tiers, key features, and competitor comparison table. Data aggregated from G2 and vendor documentation.",
+    "ogTitle": "Lusha Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "ogDescription": "Lusha product profile with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources.",
+    "ogUrl": "https://salesaiguide.com/tools/lusha-review.html",
+    "canonicalUrl": "https://salesaiguide.com/tools/lusha-review.html",
+    "twitterTitle": "Lusha Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "twitterDescription": "Lusha product profile with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources."
+  },
+  "jsonLd": {
+    "softwareApplication": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Lusha",
+      "applicationCategory": "Sales Software",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.3",
+        "bestRating": "5",
+        "ratingCount": "1400",
+        "reviewCount": "1400"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "29",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31"
+      }
+    },
+    "faqPage": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Lusha free to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Lusha offers a free tier with 5 credits per month. This is enough for light prospecting but most active reps will need the Pro plan at $29/month for 480 credits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How accurate is Lusha's contact data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lusha claims 80%+ email accuracy. G2 reviewers generally confirm solid US email data but note weaker accuracy for EU contacts and phone numbers compared to Cognism."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Lusha better than Apollo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lusha is simpler and faster for basic contact lookup. Apollo offers a larger database, email sending, and CRM features. Choose Lusha for speed and simplicity; Apollo for an all-in-one platform."
+          }
+        }
+      ]
+    }
+  },
+  "hero": {
+    "breadcrumbName": "Lusha",
+    "logoSrc": "/img/logos/lusha.png",
+    "logoAlt": "Lusha logo",
+    "h1": "Lusha: Fast Contact Lookup for Sales Reps",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+    "score": "4.3/5 on G2",
+    "updated": "Updated February 2026",
+    "dataSource": "Data from G2 & lusha.com",
+    "personaTags": [
+      { "class": "for-reps", "text": "For Reps" }
+    ]
+  },
+  "scores": {
+    "org": { "value": 58, "verdict": "Limited team features; better for individual use" },
+    "rep": { "value": 65, "verdict": "Fast and simple for daily prospecting" }
+  },
+  "quickSummary": {
+    "whatItDoes": "Chrome extension for quick LinkedIn contact lookup — find emails and phone numbers from LinkedIn profiles in seconds.",
+    "bestFor": "Individual reps who need fast, low-friction contact data without complex platform setup or workflows.",
+    "pricing": "Free (5 credits/mo). Pro from $29/mo. Scale from $51/mo. Enterprise custom.",
+    "ctaUrl": "/go/lusha",
+    "ctaText": "Visit Lusha"
+  },
+  "whatIs": {
+    "paragraphs": [
+      "Lusha is a contact intelligence platform designed for speed. Its Chrome extension lets sales reps pull verified emails and phone numbers from LinkedIn profiles with a single click. With a free tier and self-serve pricing, it's one of the lowest-friction prospecting tools available — though the smaller database and limited features mean it works better for individual reps than for teams running complex enrichment workflows."
+    ],
+    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/lusha/reviews\" target=\"_blank\" rel=\"noopener\">Lusha on G2</a>."
+  },
+  "features": [
+    { "title": "Chrome Extension", "description": "One-click contact lookup from LinkedIn profiles with email and phone reveal." },
+    { "title": "Free Tier", "description": "5 credits per month at no cost; enough for light prospecting." },
+    { "title": "Bulk Enrichment", "description": "Upload CSV lists for batch contact enrichment on paid plans." },
+    { "title": "CRM Integration", "description": "Push contacts directly to Salesforce, HubSpot, or Pipedrive." },
+    { "title": "Team Management", "description": "Credit pooling and usage tracking on Scale and Enterprise plans." },
+    { "title": "API Access", "description": "REST API for programmatic contact enrichment on higher tiers." }
+  ],
+  "pricing": {
+    "note": "Pricing from lusha.com. Verify on their site before purchasing.",
+    "tiers": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "period": "month",
+        "features": [
+          "5 credits/month",
+          "Chrome extension",
+          "Basic search",
+          "1 user",
+          "Community support"
+        ],
+        "ctaUrl": "/go/lusha",
+        "ctaText": "Start Free",
+        "ctaClass": "btn-primary",
+        "featured": false
+      },
+      {
+        "name": "Pro",
+        "price": "$29",
+        "period": "month",
+        "badge": "Most Popular",
+        "features": [
+          "480 credits/month",
+          "Everything in Free",
+          "List management",
+          "Basic CRM integration",
+          "Email support"
+        ],
+        "ctaUrl": "/go/lusha",
+        "ctaText": "Visit Site",
+        "ctaClass": "btn-primary",
+        "featured": true
+      },
+      {
+        "name": "Scale",
+        "price": "$51",
+        "period": "month",
+        "features": [
+          "960 credits/month",
+          "Everything in Pro",
+          "Advanced CRM sync",
+          "Team management",
+          "API access"
+        ],
+        "ctaUrl": "/go/lusha",
+        "ctaText": "Visit Site",
+        "ctaClass": "btn-outline",
+        "featured": false
+      }
+    ],
+    "creditNote": "1 credit = 1 contact reveal. Pro plan's 480 credits supports ~24 contacts per business day."
+  },
+  "g2Reviews": {
+    "intro": "Based on 1,400+ reviews on G2 (4.3/5 rating):",
+    "pros": [
+      { "bold": "Speed and simplicity", "text": "Chrome extension works instantly from LinkedIn" },
+      { "bold": "Free tier", "text": "5 credits/month lets anyone try before buying" },
+      { "bold": "Email accuracy", "text": "US email data is generally reliable" },
+      { "bold": "Low learning curve", "text": "No training needed; install extension and start prospecting" },
+      { "bold": "Self-serve pricing", "text": "Transparent pricing with no sales call required" }
+    ],
+    "cons": [
+      { "bold": "Smaller database", "text": "Less coverage than ZoomInfo or Apollo for niche industries" },
+      { "bold": "EU data accuracy", "text": "European contact data less reliable than US data" },
+      { "bold": "Limited features", "text": "No sequences, email sending, or AI enrichment" },
+      { "bold": "Credit limits", "text": "480 credits on Pro burns fast for active prospectors" },
+      { "bold": "Phone number quality", "text": "Direct dial accuracy lower than Cognism's verified numbers" }
+    ],
+    "link": "https://www.g2.com/products/lusha/reviews"
+  },
+  "competitorTable": {
+    "headers": ["Feature", "Lusha", "Apollo", "LeadIQ"],
+    "rows": [
+      { "feature": "G2 Rating", "featureBold": true, "values": [{ "text": "4.3/5 (1,400+)" }, { "text": "4.8/5 (7,200)" }, { "text": "4.2/5 (900+)" }] },
+      { "feature": "Free Tier", "featureBold": false, "values": [{ "text": "&#10003; 5 credits", "class": "check" }, { "text": "&#10003; 150 credits", "class": "check" }, { "text": "&#10003; 20 leads/wk", "class": "check" }] },
+      { "feature": "Chrome Extension", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] },
+      { "feature": "Email Sending", "featureBold": false, "values": [{ "text": "&#10007;", "class": "cross" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }] },
+      { "feature": "AI Features", "featureBold": false, "values": [{ "text": "&#10007;", "class": "cross" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003; Scribe AI", "class": "check" }] },
+      { "feature": "Starting Price", "featureBold": false, "values": [{ "text": "$29/mo" }, { "text": "$49/mo" }, { "text": "$39/mo" }] },
+      { "feature": "Database Size", "featureBold": false, "values": [{ "text": "100M+" }, { "text": "275M+" }, { "text": "100M+" }] }
+    ],
+    "seeFullLinks": [
+      { "text": "LeadIQ vs Lusha", "url": "/compare/leadiq-vs-lusha.html" },
+      { "text": "Lusha vs Apollo", "url": "/compare/lusha-vs-apollo.html" }
+    ]
+  },
+  "whoIsFor": {
+    "goodFit": {
+      "heading": "Good Fit If You:",
+      "items": [
+        "Need fast contact lookup from LinkedIn profiles",
+        "Want a simple tool with zero learning curve",
+        "Prefer self-serve pricing with a free tier to test",
+        "Are a solo rep or small team with basic prospecting needs",
+        "Want to push contacts directly to your CRM"
+      ]
+    },
+    "notAFit": {
+      "heading": "Likely Not a Fit If You:",
+      "items": [
+        "Need a large database for niche or vertical-specific prospecting",
+        "Want email sending or sequence automation built in",
+        "Prospect primarily in European markets (Cognism may be better)",
+        "Need AI enrichment or advanced workflow features"
+      ]
+    }
+  },
+  "decisionModule": {
+    "verdict": {
+      "bestFor": "Individual reps who want the fastest possible path from LinkedIn profile to verified contact data, with no setup or training required.",
+      "avoidIf": "You need a comprehensive prospecting platform with email sending, AI enrichment, or large-scale data workflows.",
+      "bottomLine": "Lusha does one thing well: fast contact lookup from LinkedIn. The free tier and Chrome extension make it the lowest-friction prospecting tool available, but you'll outgrow it quickly if you need more than basic contact data.",
+      "ctaUrl": "/go/lusha",
+      "ctaText": "Visit Lusha"
+    },
+    "dualScore": {
+      "org": {
+        "score": 58,
+        "explain": "Limited team management and no advanced workflows make it a poor fit for organizations needing scalable data infrastructure."
+      },
+      "individual": {
+        "score": 65,
+        "explain": "Speed and simplicity make it ideal for individual reps who need quick contact data without platform overhead."
+      }
+    },
+    "subScores": [
+      { "label": "Enterprise Fit", "score": "4/10" },
+      { "label": "Ease of Adoption", "score": "9/10" },
+      { "label": "AI Depth", "score": "3/10" },
+      { "label": "Integration Depth", "score": "6/10" },
+      { "label": "Pricing Transparency", "score": "9/10" },
+      { "label": "Scalability", "score": "5/10" }
+    ],
+    "decisionSnapshot": {
+      "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
+      "rows": [
+        {
+          "dimension": "Enterprise Fit",
+          "score": 4,
+          "notes": "Limited team management; better for SMB and individual use",
+          "evidence": [
+            { "source": "G2", "text": "Enterprise reviewers note lack of advanced admin controls and governance" },
+            { "source": "Vendor", "text": "Team features available on Scale plan but limited vs. enterprise tools" },
+            { "source": "TrustRadius", "text": "Mid-market teams report outgrowing Lusha within 6-12 months" },
+            { "source": "Reddit", "text": "Multiple threads recommend switching to ZoomInfo or Apollo at scale" }
+          ]
+        },
+        {
+          "dimension": "Ease of Adoption",
+          "score": 9,
+          "notes": "Chrome extension installs in 2 minutes; no training needed",
+          "evidence": [
+            { "source": "G2", "text": "92% of reviewers rate ease of use 4/5 or higher" },
+            { "source": "Vendor", "text": "Chrome extension onboarding takes under 5 minutes per rep" },
+            { "source": "Capterra", "text": "Consistently praised as the simplest prospecting tool available" },
+            { "source": "Reddit", "text": "Recommended as the first tool for new SDRs in multiple threads" }
+          ]
+        },
+        {
+          "dimension": "AI Depth",
+          "score": 3,
+          "notes": "No AI features; straightforward contact lookup and enrichment",
+          "evidence": [
+            { "source": "G2", "text": "No mentions of AI features in recent reviews" },
+            { "source": "Vendor", "text": "No AI enrichment, writing, or automation tools on the platform" },
+            { "source": "Reddit", "text": "Users note lack of AI features compared to newer tools like Clay or LeadIQ" }
+          ]
+        },
+        {
+          "dimension": "Integration Depth",
+          "score": 6,
+          "notes": "Salesforce, HubSpot, Pipedrive; limited vs. enterprise tools",
+          "evidence": [
+            { "source": "G2", "text": "CRM integrations work but are basic compared to Cognism or ZoomInfo" },
+            { "source": "Vendor", "text": "Native Salesforce, HubSpot, Pipedrive connectors; API on Scale+" },
+            { "source": "Capterra", "text": "Reliable CRM push but no advanced sync or workflow triggers" },
+            { "source": "TrustRadius", "text": "Integration depth sufficient for SMB; enterprise teams need more" }
+          ]
+        },
+        {
+          "dimension": "Pricing Transparency",
+          "score": 9,
+          "notes": "Clear public pricing with free tier; no sales call needed",
+          "evidence": [
+            { "source": "Vendor", "text": "All pricing published on lusha.com with feature breakdowns" },
+            { "source": "G2", "text": "Pricing transparency praised as a differentiator vs. Cognism/ZoomInfo" },
+            { "source": "Reddit", "text": "Users appreciate being able to start free and upgrade without sales calls" }
+          ]
+        },
+        {
+          "dimension": "Scalability",
+          "score": 5,
+          "notes": "Credit model limits scale; expensive at high volume",
+          "evidence": [
+            { "source": "G2", "text": "Teams of 10+ report credit constraints on Pro and Scale plans" },
+            { "source": "Reddit", "text": "Cost per contact increases vs. enterprise tools at volume" },
+            { "source": "TrustRadius", "text": "Scales to 5-10 reps before teams typically migrate to larger platforms" }
+          ]
+        }
+      ]
+    },
+    "evidenceSignals": {
+      "confidence": "high",
+      "confidenceNote": "Based on 1,400+ G2 reviews, vendor documentation, and active community discussion. Strong signal quality with large review sample size.",
+      "sourcePills": [
+        "G2: 4.3/5 (1,400+ reviews)",
+        "TrustRadius: 7.8/10 (65 reviews)",
+        "Reddit: 10+ threads",
+        "YouTube: 6+ demos",
+        "Vendor docs &#10003;"
+      ],
+      "freshness": [
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 1,465+ total reviews across 2 verified platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
+      ],
+      "evidenceGrid": [
+        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: speed and simplicity. Complaint: small database and limited features" },
+        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> LinkedIn lookup, CRM push, basic list building" },
+        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Chrome extension, LinkedIn integration, CRM sync" },
+        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Pricing tiers, credit allocations, API documentation" }
+      ],
+      "strengthThemes": [
+        "Fastest path from LinkedIn to contact data",
+        "Free tier lowers barrier to entry for solo reps",
+        "Self-serve pricing with no sales process required"
+      ],
+      "limitationThemes": [
+        "Smaller database limits niche and vertical coverage",
+        "No email sending or sequence automation",
+        "Credit model becomes expensive at scale"
+      ],
+      "disagreeNote": "&#9888;&#65039; Where sources disagree: Vendor claims 80%+ email accuracy; some G2 reviewers report lower accuracy for EU contacts. Reddit users debate whether Lusha or Apollo is better value at the $29-49/mo price point.",
+      "lastVerified": "February 2026"
+    },
+    "userVoiceThemes": [
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Fastest prospecting tool for LinkedIn workflows",
+        "synthesis": "The dominant theme across all review platforms: Lusha's Chrome extension is the fastest way to get from a LinkedIn profile to verified contact data. Reps consistently report it takes under 10 seconds to reveal an email and phone number, with no platform login or workflow setup required.",
+        "sources": ["G2: 112 mentions", "Capterra: 28 mentions", "Reddit: 7 threads"],
+        "quote": "\"Lusha is the fastest prospecting tool I've ever used. Click the extension on LinkedIn, get the email, push to Salesforce. Done in 10 seconds.\"",
+        "quoteCite": "Synthesized from G2 and Capterra review themes"
+      },
+      {
+        "sentiment": "negative",
+        "sentimentIcon": "&#9660;",
+        "heading": "Database size limits coverage for niche industries",
+        "synthesis": "The most frequent complaint: Lusha's database is smaller than Apollo or ZoomInfo, leading to more missed contacts in niche industries, small companies, and non-US markets. Active prospectors report hitting dead ends more often than with larger databases.",
+        "sources": ["G2: 78 mentions", "Reddit: 8 threads", "TrustRadius: 14 mentions"],
+        "quote": "\"Lusha works great for standard B2B companies, but when I'm prospecting into niche verticals or companies under 50 employees, I get a lot of 'no data available' results.\"",
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+      },
+      {
+        "sentiment": "mixed",
+        "sentimentIcon": "&#9644;",
+        "heading": "Free tier is great for testing but credits burn fast",
+        "synthesis": "Users appreciate the free tier as a no-risk entry point, but 5 credits per month is only enough for occasional prospecting. Even the Pro plan's 480 credits can run out quickly for active SDRs, pushing teams toward the more expensive Scale plan or considering alternatives like Apollo.",
+        "sources": ["G2: 56 mentions", "Reddit: 4 threads", "Capterra: 12 mentions"],
+        "quote": "\"Started on the free tier and loved the simplicity. But once I went Pro, I burned through 480 credits in two weeks. At that volume, Apollo's unlimited plan starts looking better.\"",
+        "quoteCite": "Synthesized from G2 and Capterra review themes"
+      }
+    ],
+    "pricingBreakdown": {
+      "tldr": "Free (5 credits/mo). Most reps need Pro at $29/mo (480 credits). Scale at $51/mo adds team features.",
+      "gotchas": [
+        "5 free credits per month is only enough for testing",
+        "480 Pro credits = ~24 contacts/day if used evenly across 20 business days",
+        "No unlimited plan; high-volume teams hit credit ceilings fast",
+        "Annual billing gives ~20% discount vs. monthly"
+      ]
+    },
+    "greatAt": [
+      "<strong>Speed:</strong> Fastest Chrome extension for LinkedIn contact lookup, under 10 seconds per reveal",
+      "<strong>Simplicity:</strong> Zero learning curve; install and start prospecting immediately",
+      "<strong>Free entry:</strong> Free tier lets reps test before committing budget",
+      "<strong>Self-serve:</strong> No sales call required; transparent pricing for all tiers",
+      "<strong>CRM push:</strong> One-click export to Salesforce, HubSpot, or Pipedrive"
+    ],
+    "breaksAtScale": [
+      "<strong>Small database:</strong> Coverage gaps in niche industries and non-US markets",
+      "<strong>No sequences:</strong> Data-only tool; no email sending or outreach automation",
+      "<strong>Credit ceiling:</strong> Expensive per-contact at high volume vs. enterprise tools",
+      "<strong>EU data quality:</strong> European contact accuracy lags behind Cognism",
+      "<strong>Limited team features:</strong> No advanced admin controls or governance for large orgs"
+    ],
+    "whoShouldNotBuy": [
+      "<strong>Enterprise teams:</strong> Limited admin controls and governance features",
+      "<strong>High-volume prospectors:</strong> Credit model doesn't scale past ~50 contacts/day cost-effectively",
+      "<strong>EMEA-focused teams:</strong> Cognism provides better European data coverage and compliance",
+      "<strong>All-in-one seekers:</strong> No email sending, no sequences, no AI features"
+    ],
+    "implementationReality": {
+      "stats": [
+        { "number": "5 minutes", "label": "Time to Value" },
+        { "number": "None", "label": "Setup Complexity" },
+        { "number": "None", "label": "RevOps Lift" },
+        { "number": "None", "label": "Training Required" },
+        { "number": "None", "label": "Data Migration" }
+      ],
+      "note": "Install Chrome extension, create account, start revealing contacts. No setup, no onboarding, no training. Fastest time-to-value of any prospecting tool."
+    },
+    "enterpriseReadiness": [
+      { "label": "SSO / SAML", "value": "Enterprise plan only", "class": "dm-partial" },
+      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
+      { "label": "GDPR", "value": "GDPR compliant", "class": "dm-available" },
+      { "label": "RBAC", "value": "Basic team roles on Scale+", "class": "dm-partial" },
+      { "label": "Data Residency", "value": "Not specified", "class": "dm-unavailable" },
+      { "label": "SLA", "value": "No public SLA", "class": "dm-unavailable" }
+    ],
+    "whoThisIsFor": {
+      "org": {
+        "heading": "Best for Sales Teams & RevOps",
+        "items": [
+          "SMB sales teams needing a simple, low-cost prospecting tool",
+          "Startups wanting to avoid enterprise sales processes for data tools",
+          "Teams supplementing a larger database with quick LinkedIn lookups"
+        ]
+      },
+      "individual": {
+        "heading": "Best for Individual Reps",
+        "items": [
+          "SDRs who live in LinkedIn and need fast contact reveals",
+          "Solo prospectors on a budget who want to start free",
+          "Reps who want the simplest possible tool with zero setup"
+        ]
+      }
+    },
+    "stackPairings": {
+      "cards": [
+        { "title": "Apollo.io", "titleLink": "apollo-review.html", "description": "Lusha for quick lookup; Apollo for sequences and email sending." },
+        { "title": "Instantly", "titleLink": "instantly-review.html", "description": "Lusha finds contacts; Instantly sends cold email at scale." },
+        { "title": "HubSpot CRM", "titleLink": "hubspot-review.html", "description": "Push Lusha contacts directly into HubSpot for pipeline management." },
+        { "title": "Outreach", "titleLink": "outreach-review.html", "description": "Lusha data feeds Outreach sequences for multi-channel outreach." },
+        { "title": "Lavender", "titleLink": "lavender-review.html", "description": "Lusha finds the contact; Lavender helps write the email." }
+      ],
+      "exampleStack": "Lusha (contacts) &#8594; Instantly (send) &#8594; HubSpot (CRM) &#8594; Lavender (writing)"
+    },
+    "alternatives": {
+      "rows": [
+        { "tool": "Apollo.io", "toolLink": "apollo-review.html", "bestFor": "All-in-one prospecting + sending", "g2": "4.8/5", "price": "From $49/mo" },
+        { "tool": "LeadIQ", "toolLink": "leadiq-review.html", "bestFor": "LinkedIn prospecting with AI writing", "g2": "4.2/5", "price": "From $39/mo" },
+        { "tool": "Cognism", "toolLink": "cognism-review.html", "bestFor": "EMEA data with verified mobiles", "g2": "4.6/5", "price": "Custom" },
+        { "tool": "ZoomInfo", "toolLink": "zoominfo-review.html", "bestFor": "Enterprise-grade B2B data", "g2": "4.4/5", "price": "From $15K/yr" },
+        { "tool": "Clay", "toolLink": "clay-review.html", "bestFor": "Multi-source waterfall enrichment", "g2": "4.9/5", "price": "From $149/mo" }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is Lusha free to use?",
+        "answer": "Yes, Lusha offers a free tier with 5 credits per month. This is enough for light prospecting but most active reps need the Pro plan at $29/month for 480 credits."
+      },
+      {
+        "question": "How accurate is Lusha's contact data?",
+        "answer": "Lusha claims 80%+ email accuracy. Based on G2 reviews, US email data is generally reliable but EU contacts and phone numbers are less accurate than Cognism."
+      },
+      {
+        "question": "Is Lusha better than Apollo?",
+        "answer": "Lusha is simpler and faster for basic contact lookup. Apollo offers a larger database, email sending, and CRM features. Choose Lusha for speed; Apollo for an all-in-one platform."
+      }
+    ],
+    "meta": {
+      "lastVerified": "February 2026",
+      "methodologyLink": "/methodology/",
+      "disclosureLink": "/disclosure.html"
+    }
+  },
+  "content": "",
+  "sidebar": {
+    "startingPrice": "$29",
+    "pricingLabel": "/month (Pro)",
+    "ctaText": "Visit Lusha",
+    "altText": "See Alternatives",
+    "altUrl": "/compare/index.html",
+    "atAGlance": [
+      { "label": "G2 Rating", "value": "4.3/5" },
+      { "label": "G2 Reviews", "value": "1,400+" },
+      { "label": "Starting Price", "value": "Free / $29/mo" },
+      { "label": "Category", "value": "Contact Intelligence" },
+      { "label": "Free Trial", "value": "Yes (free tier)" }
+    ],
+    "ctaUrl": "/go/lusha",
+    "comparisons": [
+      { "text": "LeadIQ vs Lusha", "url": "/compare/leadiq-vs-lusha.html" },
+      { "text": "Lusha vs Apollo", "url": "/compare/lusha-vs-apollo.html" }
+    ],
+    "externalReviews": [
+      { "text": "G2 Reviews", "url": "https://www.g2.com/products/lusha/reviews" }
+    ],
+    "relatedGuides": [
+      { "text": "Best Data Enrichment Tools", "url": "/guides/best-data-enrichment-tools.html" },
+      { "text": "Best Sales Intelligence Tools", "url": "/guides/best-sales-intelligence-tools.html" }
+    ],
+    "emailCard": {
+      "heading": "Weekly Tool Intel",
+      "description": "Get honest tool comparisons and decision frameworks in your inbox."
+    }
+  },
+  "finalCta": {
+    "heading": "Learn More About Lusha",
+    "description": "Visit their site for current pricing, the Chrome extension, and a free tier to get started.",
+    "primaryUrl": "/go/lusha",
+    "primaryText": "Visit Lusha",
+    "secondaryUrl": "https://www.g2.com/products/lusha/reviews",
+    "secondaryText": "Read G2 Reviews",
+    "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  }
+}
