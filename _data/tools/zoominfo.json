@@ -71,18 +71,30 @@
     "updated": "Updated February 2026",
     "dataSource": "Data from G2 & zoominfo.com",
     "personaTags": [
-      { "class": "requires-admin", "text": "Requires Admin" },
-      { "class": "enterprise-grade", "text": "Enterprise Grade" }
+      {
+        "class": "requires-admin",
+        "text": "Requires Admin"
+      },
+      {
+        "class": "enterprise-grade",
+        "text": "Enterprise Grade"
+      }
     ]
   },
   "scores": {
-    "org": { "value": 77, "verdict": "Enterprise data standard, unmatched depth" },
-    "rep": { "value": 51, "verdict": "Enterprise pricing, reps rarely use it" }
+    "org": {
+      "value": 77,
+      "verdict": "Enterprise data standard, unmatched depth"
+    },
+    "rep": {
+      "value": 51,
+      "verdict": "Enterprise pricing, reps rarely use it"
+    }
   },
   "quickSummary": {
     "whatItDoes": "Enterprise B2B data platform with 100M+ business profiles, intent data, website visitor tracking, and sales automation workflows.",
     "bestFor": "Enterprise sales and marketing teams needing premium-quality B2B contact and company data at scale.",
-    "pricing": "Custom pricing (typically $15K\u201340K+/year). Annual contracts only. Credit-based access model.",
+    "pricing": "Custom pricing (typically $15K–40K+/year). Annual contracts only. Credit-based access model.",
     "ctaUrl": "/go/zoominfo",
     "ctaText": "Visit ZoomInfo"
   },
@@ -90,15 +102,33 @@
     "paragraphs": [
       "ZoomInfo is the dominant enterprise B2B data platform, providing 100M+ business profiles with verified emails, direct dials, org charts, intent data, and website visitor identification. It has expanded through acquisitions (Chorus, RingLead) into a comprehensive revenue operations platform with enrichment APIs and workflow automation. <em>Profile based on vendor docs and G2 reviews. See <a href=\"https://www.g2.com/products/zoominfo/reviews\" target=\"_blank\" rel=\"noopener\">ZoomInfo on G2</a>.</em>"
     ],
-    "noteHtml": null
+    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/zoominfo/reviews\" target=\"_blank\" rel=\"noopener\">ZoomInfo on G2</a>."
   },
   "features": [
-    { "title": "100M+ B2B Contact Profiles", "description": "Verified emails, direct dials, and company data for 100M+ professionals." },
-    { "title": "Intent Data & Buyer Signals", "description": "Identify companies researching your product via web activity signals." },
-    { "title": "Website Visitor Identification", "description": "De-anonymize site visitors and match them to buying committees." },
-    { "title": "Org Chart & Buying Committees", "description": "Map org hierarchies and identify decision-makers in target accounts." },
-    { "title": "Data Enrichment API", "description": "Real-time API to enrich CRM records and leads from ZoomInfo's database." },
-    { "title": "Workflow Automation", "description": "Trigger CRM updates, sequences, and routing based on data signals." }
+    {
+      "title": "100M+ B2B Contact Profiles",
+      "description": "Verified emails, direct dials, and company data for 100M+ professionals."
+    },
+    {
+      "title": "Intent Data & Buyer Signals",
+      "description": "Identify companies researching your product via web activity signals."
+    },
+    {
+      "title": "Website Visitor Identification",
+      "description": "De-anonymize site visitors and match them to buying committees."
+    },
+    {
+      "title": "Org Chart & Buying Committees",
+      "description": "Map org hierarchies and identify decision-makers in target accounts."
+    },
+    {
+      "title": "Data Enrichment API",
+      "description": "Real-time API to enrich CRM records and leads from ZoomInfo's database."
+    },
+    {
+      "title": "Workflow Automation",
+      "description": "Trigger CRM updates, sequences, and routing based on data signals."
+    }
   ],
   "decisionModule": {
     "verdict": {
@@ -111,7 +141,7 @@
     "dualScore": {
       "org": {
         "score": 77,
-        "explain": "The enterprise data standard \u2014 unmatched database depth, compliance, and scalability for large sales organizations."
+        "explain": "The enterprise data standard — unmatched database depth, compliance, and scalability for large sales organizations."
       },
       "individual": {
         "score": 51,
@@ -119,12 +149,30 @@
       }
     },
     "subScores": [
-      { "label": "Enterprise Fit", "score": "10/10" },
-      { "label": "Ease of Adoption", "score": "6/10" },
-      { "label": "AI Depth", "score": "6/10" },
-      { "label": "Integration Depth", "score": "9/10" },
-      { "label": "Pricing Transparency", "score": "1/10" },
-      { "label": "Scalability", "score": "10/10" }
+      {
+        "label": "Enterprise Fit",
+        "score": "10/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "6/10"
+      },
+      {
+        "label": "AI Depth",
+        "score": "6/10"
+      },
+      {
+        "label": "Integration Depth",
+        "score": "9/10"
+      },
+      {
+        "label": "Pricing Transparency",
+        "score": "1/10"
+      },
+      {
+        "label": "Scalability",
+        "score": "10/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
@@ -134,10 +182,22 @@
           "score": 10,
           "notes": "SOC 2 Type II, SSO, RBAC, GDPR/CCPA compliant, dedicated CSM, enterprise SLAs",
           "evidence": [
-            { "source": "Vendor", "text": "SOC 2 Type II and GDPR/CCPA compliance documented on trust center page" },
-            { "source": "G2", "text": "Enterprise reviewers confirm SAML SSO and full RBAC on all paid plans" },
-            { "source": "Gartner", "text": "Peer Insights verified enterprise deployment at Fortune 500 accounts" },
-            { "source": "Gartner PI", "text": "Enterprise buyers rate security and compliance 4.6/5; SOC 2 Type II + ISO 27001 confirmed" }
+            {
+              "source": "Vendor",
+              "text": "SOC 2 Type II and GDPR/CCPA compliance documented on trust center page"
+            },
+            {
+              "source": "G2",
+              "text": "Enterprise reviewers confirm SAML SSO and full RBAC on all paid plans"
+            },
+            {
+              "source": "Gartner",
+              "text": "Peer Insights verified enterprise deployment at Fortune 500 accounts"
+            },
+            {
+              "source": "Gartner PI",
+              "text": "Enterprise buyers rate security and compliance 4.6/5; SOC 2 Type II + ISO 27001 confirmed"
+            }
           ]
         },
         {
@@ -145,9 +205,18 @@
           "score": 6,
           "notes": "Platform UI is intuitive but data model complexity and module structure require training",
           "evidence": [
-            { "source": "G2", "text": "35% of reviewers mention onboarding complexity with multiple product modules" },
-            { "source": "Reddit", "text": "r/sales users report 2-4 week ramp time for full platform proficiency" },
-            { "source": "Capterra", "text": "Ease of use rated 3.8/5 across 315 reviews" }
+            {
+              "source": "G2",
+              "text": "35% of reviewers mention onboarding complexity with multiple product modules"
+            },
+            {
+              "source": "Reddit",
+              "text": "r/sales users report 2-4 week ramp time for full platform proficiency"
+            },
+            {
+              "source": "Capterra",
+              "text": "Ease of use rated 3.8/5 across 315 reviews"
+            }
           ]
         },
         {
@@ -155,9 +224,18 @@
           "score": 6,
           "notes": "AI-assisted recommendations and data matching; helpful but not AI-native or groundbreaking",
           "evidence": [
-            { "source": "Vendor", "text": "AI features focused on data matching and recommendation algorithms" },
-            { "source": "G2", "text": "AI capabilities rarely mentioned as a primary differentiator in reviews" },
-            { "source": "Reddit", "text": "Community considers ZoomInfo a data platform, not an AI product" }
+            {
+              "source": "Vendor",
+              "text": "AI features focused on data matching and recommendation algorithms"
+            },
+            {
+              "source": "G2",
+              "text": "AI capabilities rarely mentioned as a primary differentiator in reviews"
+            },
+            {
+              "source": "Reddit",
+              "text": "Community considers ZoomInfo a data platform, not an AI product"
+            }
           ]
         },
         {
@@ -165,9 +243,18 @@
           "score": 9,
           "notes": "Salesforce, HubSpot, Outreach, Salesloft, 50+ native integrations; deep CRM sync",
           "evidence": [
-            { "source": "Vendor", "text": "50+ native integrations listed on marketplace including Salesforce and HubSpot" },
-            { "source": "G2", "text": "Integration quality rated 4.5/5 across enterprise reviewers" },
-            { "source": "Capterra", "text": "CRM sync reliability praised as best-in-class for B2B data tools" }
+            {
+              "source": "Vendor",
+              "text": "50+ native integrations listed on marketplace including Salesforce and HubSpot"
+            },
+            {
+              "source": "G2",
+              "text": "Integration quality rated 4.5/5 across enterprise reviewers"
+            },
+            {
+              "source": "Capterra",
+              "text": "CRM sync reliability praised as best-in-class for B2B data tools"
+            }
           ]
         },
         {
@@ -175,10 +262,22 @@
           "score": 1,
           "notes": "No public pricing, complex contract structures, credit-based models, add-on modules, multi-year lock-ins",
           "evidence": [
-            { "source": "G2", "text": "Pricing transparency rated 2.1/5; most common negative theme across all reviews" },
-            { "source": "Reddit", "text": "12+ threads dedicated to contract disputes and billing complaints" },
-            { "source": "Capterra", "text": "Value for money rated 3.5/5 with frequent mentions of hidden costs" },
-            { "source": "TrustRadius", "text": "45% of reviewers mention contract lock-in concerns; annual minimums create friction for mid-market" }
+            {
+              "source": "G2",
+              "text": "Pricing transparency rated 2.1/5; most common negative theme across all reviews"
+            },
+            {
+              "source": "Reddit",
+              "text": "12+ threads dedicated to contract disputes and billing complaints"
+            },
+            {
+              "source": "Capterra",
+              "text": "Value for money rated 3.5/5 with frequent mentions of hidden costs"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "45% of reviewers mention contract lock-in concerns; annual minimums create friction for mid-market"
+            }
           ]
         },
         {
@@ -186,10 +285,22 @@
           "score": 10,
           "notes": "Proven at Fortune 500 scale with dedicated infrastructure and enterprise-grade reliability",
           "evidence": [
-            { "source": "Vendor", "text": "Published case studies with 500+ seat deployments at Fortune 500 companies" },
-            { "source": "G2", "text": "Enterprise segment reviewers confirm reliable performance at scale" },
-            { "source": "Gartner", "text": "Recognized as market leader in B2B data intelligence category" },
-            { "source": "Gartner PI", "text": "Teams of 1,000+ seats report strong performance; API rate limits are the main scaling constraint" }
+            {
+              "source": "Vendor",
+              "text": "Published case studies with 500+ seat deployments at Fortune 500 companies"
+            },
+            {
+              "source": "G2",
+              "text": "Enterprise segment reviewers confirm reliable performance at scale"
+            },
+            {
+              "source": "Gartner",
+              "text": "Recognized as market leader in B2B data intelligence category"
+            },
+            {
+              "source": "Gartner PI",
+              "text": "Teams of 1,000+ seats report strong performance; API rate limits are the main scaling constraint"
+            }
           ]
         }
       ]
@@ -203,18 +314,30 @@
         "TrustRadius: 8.2/10 (820+ reviews)",
         "Gartner PI: 4.7/5 (421+ reviews)",
         "YouTube: 18+ demos",
-        "Trust center \u2713"
+        "Trust center ✓"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 10,561+ total reviews across 4 platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 10,561+ total reviews across 4 platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
-        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: largest B2B database, unmatched coverage. Complaint: pricing opaque, aggressive contract terms" },
-        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> Intent data + org charts for ABM targeting" },
-        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Contact search, intent signals, org chart navigation" },
-        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Custom pricing only, SOC 2/GDPR compliance, API documentation" }
+        {
+          "icon": "&#x1F4CA;",
+          "text": "<strong>Review sentiment:</strong> Praise: largest B2B database, unmatched coverage. Complaint: pricing opaque, aggressive contract terms"
+        },
+        {
+          "icon": "&#x1F4AC;",
+          "text": "<strong>Community workflows:</strong> Intent data + org charts for ABM targeting"
+        },
+        {
+          "icon": "&#x1F3A5;",
+          "text": "<strong>Demo-verified:</strong> Contact search, intent signals, org chart navigation"
+        },
+        {
+          "icon": "&#x1F4C4;",
+          "text": "<strong>Docs verified:</strong> Custom pricing only, SOC 2/GDPR compliance, API documentation"
+        }
       ],
       "strengthThemes": [
         "Largest B2B contact and company database",
@@ -235,7 +358,11 @@
         "sentimentIcon": "&#9650;",
         "heading": "Database coverage is unmatched for US B2B contacts",
         "synthesis": "Users consistently praise ZoomInfo as having the largest and most accurate B2B contact database for North American companies. Intent data is frequently cited as the real differentiator over competitors, enabling teams to identify in-market accounts before competitors reach them.",
-        "sources": ["G2: 4,200+ mentions", "Reddit: 14 threads", "Capterra: 120+ mentions"],
+        "sources": [
+          "G2: 4,200+ mentions",
+          "Reddit: 14 threads",
+          "Capterra: 120+ mentions"
+        ],
         "quote": "\"ZoomInfo's contact accuracy is the best in class for the US market. We run enrichment on 10K leads monthly and consistently see 85%+ valid email rates.\"",
         "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
       },
@@ -244,7 +371,11 @@
         "sentimentIcon": "&#9660;",
         "heading": "Aggressive contract terms and auto-renewals are the #1 complaint",
         "synthesis": "The most common complaint across all platforms is ZoomInfo's contract structure. Auto-renewals, multi-year lock-ins, and difficult cancellation processes are cited repeatedly. Users report aggressive sales tactics during renewal cycles and limited flexibility to adjust contracts mid-term.",
-        "sources": ["G2: 2,800+ mentions", "Reddit: 18 threads", "Capterra: 95+ mentions"],
+        "sources": [
+          "G2: 2,800+ mentions",
+          "Reddit: 18 threads",
+          "Capterra: 95+ mentions"
+        ],
         "quote": "\"The auto-renewal clause caught us completely off guard. We had to fight for three months to get out of a contract we'd flagged for cancellation well before the deadline.\"",
         "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
       },
@@ -253,7 +384,11 @@
         "sentimentIcon": "&#9644;",
         "heading": "Data quality strong for US but EMEA/APAC coverage is inconsistent",
         "synthesis": "Data quality reviews are polarized by geography. North American data accuracy is praised as best-in-class, but European and APAC coverage receives consistent criticism. Teams with global requirements report needing supplemental data sources like Cognism for international markets.",
-        "sources": ["G2: 1,600+ mentions", "Reddit: 8 threads", "Capterra: 55+ mentions"],
+        "sources": [
+          "G2: 1,600+ mentions",
+          "Reddit: 8 threads",
+          "Capterra: 55+ mentions"
+        ],
         "quote": "\"For our US accounts, ZoomInfo is unbeatable. But when we expanded into EMEA, we had to layer Cognism on top because the European contact data was too thin to rely on.\"",
         "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
       },
@@ -262,7 +397,10 @@
         "sentimentIcon": "&#9660;",
         "heading": "Pricing is prohibitively expensive for SMBs",
         "synthesis": "With minimum contracts often starting at $15K+/year, ZoomInfo is consistently described as out of reach for small and mid-size businesses. Users report that comparable tools like Apollo deliver 80% of the value at a fraction of the cost, making ZoomInfo hard to justify without enterprise budgets.",
-        "sources": ["G2: 3,100+ mentions", "Reddit: 15 threads"],
+        "sources": [
+          "G2: 3,100+ mentions",
+          "Reddit: 15 threads"
+        ],
         "quote": "\"The annual contract with aggressive auto-renewal caught us by surprise. Budget $50K+ for a mid-market team and make sure you negotiate credits upfront.\"",
         "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
       },
@@ -270,14 +408,18 @@
         "sentiment": "negative",
         "sentimentIcon": "&#9660;",
         "heading": "Contract terms and renewal friction are the biggest pain points",
-        "synthesis": "TrustRadius and Gartner Peer Insights reviewers surface a consistent theme around aggressive renewal practices and contract inflexibility. Enterprise buyers report auto-renewal clauses, multi-year lock-ins, and difficulty downsizing seats \u2014 concerns that are less visible in G2 but heavily discussed on TrustRadius and Reddit.",
-        "sources": ["TrustRadius: 180 mentions", "Gartner PI: 220 mentions", "Reddit: 12 threads"],
+        "synthesis": "TrustRadius and Gartner Peer Insights reviewers surface a consistent theme around aggressive renewal practices and contract inflexibility. Enterprise buyers report auto-renewal clauses, multi-year lock-ins, and difficulty downsizing seats — concerns that are less visible in G2 but heavily discussed on TrustRadius and Reddit.",
+        "sources": [
+          "TrustRadius: 180 mentions",
+          "Gartner PI: 220 mentions",
+          "Reddit: 12 threads"
+        ],
         "quote": "\"We tried to downsize from 30 to 15 seats at renewal and were told the minimum contract floor wouldn't allow it. Ended up paying for seats we didn't need for another full year.\"",
         "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
       }
     ],
     "pricingBreakdown": {
-      "tldr": "No public pricing; starts ~$15K/year, mid-size $50K\u2013100K, enterprise $200K+.",
+      "tldr": "No public pricing; starts ~$15K/year, mid-size $50K–100K, enterprise $200K+.",
       "gotchas": [
         "Annual contracts only, $15K+ minimum &mdash; no monthly billing",
         "Credit-based system &mdash; different actions burn credits at different rates",
@@ -310,27 +452,90 @@
     ],
     "implementationReality": {
       "stats": [
-        { "number": "2&ndash;4 weeks", "label": "Time to Value" },
-        { "number": "Medium", "label": "Setup Complexity" },
-        { "number": "Medium", "label": "RevOps Lift" },
-        { "number": "Medium", "label": "Training Required" },
-        { "number": "Light", "label": "Data Migration" }
+        {
+          "number": "2&ndash;4 weeks",
+          "label": "Time to Value"
+        },
+        {
+          "number": "Medium",
+          "label": "Setup Complexity"
+        },
+        {
+          "number": "Medium",
+          "label": "RevOps Lift"
+        },
+        {
+          "number": "Medium",
+          "label": "Training Required"
+        },
+        {
+          "number": "Light",
+          "label": "Data Migration"
+        }
       ],
-      "note": "Most teams are productive in 2\u20134 weeks; enterprise plans include a dedicated CSM."
+      "note": "Most teams are productive in 2–4 weeks; enterprise plans include a dedicated CSM."
     },
     "enterpriseReadiness": [
-      { "label": "SSO / SAML", "value": "SAML SSO included", "class": "dm-available" },
-      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
-      { "label": "ISO 27001", "value": "ISO 27001 certified", "class": "dm-available" },
-      { "label": "ISO 27701", "value": "ISO 27701 certified", "class": "dm-available" },
-      { "label": "ISO 27017", "value": "ISO 27017 certified", "class": "dm-available" },
-      { "label": "GDPR", "value": "GDPR compliant (TRUSTe validated)", "class": "dm-available" },
-      { "label": "CCPA", "value": "CCPA compliant (TRUSTe validated)", "class": "dm-available" },
-      { "label": "TRUSTe", "value": "TRUSTe Enterprise Privacy certified", "class": "dm-available" },
-      { "label": "RBAC", "value": "Full enterprise RBAC", "class": "dm-available" },
-      { "label": "Data Residency", "value": "US and EU", "class": "dm-partial" },
-      { "label": "SLA", "value": "Enterprise SLA with 99.9% uptime", "class": "dm-available" },
-      { "label": "Audit Logs", "value": "Full audit trail", "class": "dm-available" }
+      {
+        "label": "SSO / SAML",
+        "value": "SAML SSO included",
+        "class": "dm-available"
+      },
+      {
+        "label": "SOC 2",
+        "value": "SOC 2 Type II certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "ISO 27001",
+        "value": "ISO 27001 certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "ISO 27701",
+        "value": "ISO 27701 certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "ISO 27017",
+        "value": "ISO 27017 certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "GDPR",
+        "value": "GDPR compliant (TRUSTe validated)",
+        "class": "dm-available"
+      },
+      {
+        "label": "CCPA",
+        "value": "CCPA compliant (TRUSTe validated)",
+        "class": "dm-available"
+      },
+      {
+        "label": "TRUSTe",
+        "value": "TRUSTe Enterprise Privacy certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "RBAC",
+        "value": "Full enterprise RBAC",
+        "class": "dm-available"
+      },
+      {
+        "label": "Data Residency",
+        "value": "US and EU",
+        "class": "dm-partial"
+      },
+      {
+        "label": "SLA",
+        "value": "Enterprise SLA with 99.9% uptime",
+        "class": "dm-available"
+      },
+      {
+        "label": "Audit Logs",
+        "value": "Full audit trail",
+        "class": "dm-available"
+      }
     ],
     "whoThisIsFor": {
       "org": {
@@ -352,27 +557,77 @@
     },
     "stackPairings": {
       "cards": [
-        { "title": "Salesforce", "titleLink": null, "description": "Enriches CRM records with verified contacts and intent signals." },
-        { "title": "Outreach / Salesloft", "titleHtml": "<a href=\"outreach-review.html\">Outreach</a> / <a href=\"salesloft-review.html\">Salesloft</a>", "description": "ZoomInfo supplies data; Outreach/Salesloft handles multichannel sequences." },
-        { "title": "Gong", "titleLink": null, "description": "ZoomInfo targets accounts; Gong adds conversation intelligence." },
-        { "title": "Clay", "titleLink": "clay-review.html", "description": "Use ZoomInfo as one of Clay's 50+ waterfall enrichment data sources." },
-        { "title": "6sense", "titleLink": null, "description": "Combine contact data with 6sense account-level intent for ABM." }
+        {
+          "title": "Salesforce",
+          "titleLink": null,
+          "description": "Enriches CRM records with verified contacts and intent signals."
+        },
+        {
+          "title": "Outreach / Salesloft",
+          "titleHtml": "<a href=\"outreach-review.html\">Outreach</a> / <a href=\"salesloft-review.html\">Salesloft</a>",
+          "description": "ZoomInfo supplies data; Outreach/Salesloft handles multichannel sequences."
+        },
+        {
+          "title": "Gong",
+          "titleLink": null,
+          "description": "ZoomInfo targets accounts; Gong adds conversation intelligence."
+        },
+        {
+          "title": "Clay",
+          "titleLink": "clay-review.html",
+          "description": "Use ZoomInfo as one of Clay's 50+ waterfall enrichment data sources."
+        },
+        {
+          "title": "6sense",
+          "titleLink": null,
+          "description": "Combine contact data with 6sense account-level intent for ABM."
+        }
       ],
       "exampleStack": "ZoomInfo (data) &#8594; Outreach (engage) &#8594; Gong (analyze) &#8594; Salesforce (CRM)"
     },
     "alternatives": {
       "rows": [
-        { "tool": "Apollo.io", "toolLink": "apollo-review.html", "bestFor": "All-in-one at lower cost", "g2": "4.8/5", "price": "From $49/mo" },
-        { "tool": "Cognism", "toolLink": null, "bestFor": "Best for European data", "g2": "4.6/5", "price": "Custom" },
-        { "tool": "Lusha", "toolLink": null, "bestFor": "Quick contact lookup", "g2": "4.3/5", "price": "From $29/mo" },
-        { "tool": "Clay", "toolLink": "clay-review.html", "bestFor": "Multi-source enrichment", "g2": "4.9/5", "price": "From $149/mo" },
-        { "tool": "LeadIQ", "toolLink": null, "bestFor": "LinkedIn prospecting", "g2": "4.2/5", "price": "From $36/mo" }
+        {
+          "tool": "Apollo.io",
+          "toolLink": "apollo-review.html",
+          "bestFor": "All-in-one at lower cost",
+          "g2": "4.8/5",
+          "price": "From $49/mo"
+        },
+        {
+          "tool": "Cognism",
+          "toolLink": null,
+          "bestFor": "Best for European data",
+          "g2": "4.6/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "Lusha",
+          "toolLink": null,
+          "bestFor": "Quick contact lookup",
+          "g2": "4.3/5",
+          "price": "From $29/mo"
+        },
+        {
+          "tool": "Clay",
+          "toolLink": "clay-review.html",
+          "bestFor": "Multi-source enrichment",
+          "g2": "4.9/5",
+          "price": "From $149/mo"
+        },
+        {
+          "tool": "LeadIQ",
+          "toolLink": null,
+          "bestFor": "LinkedIn prospecting",
+          "g2": "4.2/5",
+          "price": "From $36/mo"
+        }
       ]
     },
     "faqs": [
       {
         "question": "How much does ZoomInfo cost for small companies?",
-        "answer": "Annual contracts start at $15K\u201325K/year. For startups, Apollo.io offers comparable data from $49/month."
+        "answer": "Annual contracts start at $15K–25K/year. For startups, Apollo.io offers comparable data from $49/month."
       },
       {
         "question": "How does ZoomInfo compare to Apollo.io?",
@@ -380,7 +635,7 @@
       },
       {
         "question": "How accurate is ZoomInfo data?",
-        "answer": "Most accurate B2B data for North American contacts (85\u201395% email, 70\u201385% direct dial). Quality drops internationally."
+        "answer": "Most accurate B2B data for North American contacts (85–95% email, 70–85% direct dial). Quality drops internationally."
       }
     ],
     "meta": {
@@ -396,23 +651,53 @@
     "altText": "See Alternatives",
     "altUrl": "/compare/index.html",
     "atAGlance": [
-      { "label": "G2 Rating", "value": "4.5/5" },
-      { "label": "G2 Reviews", "value": "9,005" },
-      { "label": "Starting Price", "value": "~$15K/yr" },
-      { "label": "Category", "value": "Data Enrichment" },
-      { "label": "Free Trial", "value": "Demo Only" }
+      {
+        "label": "G2 Rating",
+        "value": "4.5/5"
+      },
+      {
+        "label": "G2 Reviews",
+        "value": "9,005"
+      },
+      {
+        "label": "Starting Price",
+        "value": "~$15K/yr"
+      },
+      {
+        "label": "Category",
+        "value": "Data Enrichment"
+      },
+      {
+        "label": "Free Trial",
+        "value": "Demo Only"
+      }
     ],
     "ctaUrl": "/go/zoominfo",
     "comparisons": [
-      { "text": "Apollo vs ZoomInfo", "url": "/compare/apollo-vs-zoominfo.html" },
-      { "text": "Cognism vs ZoomInfo", "url": "/compare/cognism-vs-zoominfo.html" }
+      {
+        "text": "Apollo vs ZoomInfo",
+        "url": "/compare/apollo-vs-zoominfo.html"
+      },
+      {
+        "text": "Cognism vs ZoomInfo",
+        "url": "/compare/cognism-vs-zoominfo.html"
+      }
     ],
     "externalReviews": [
-      { "text": "G2 Reviews", "url": "https://www.g2.com/products/zoominfo/reviews" }
+      {
+        "text": "G2 Reviews",
+        "url": "https://www.g2.com/products/zoominfo/reviews"
+      }
     ],
     "relatedGuides": [
-      { "text": "Best AI Prospecting Tools", "url": "/guides/best-ai-outbound-prospecting-tools.html" },
-      { "text": "Best AI Email Outreach Tools", "url": "/guides/best-ai-email-outreach-tools.html" }
+      {
+        "text": "Best AI Prospecting Tools",
+        "url": "/guides/best-ai-outbound-prospecting-tools.html"
+      },
+      {
+        "text": "Best AI Email Outreach Tools",
+        "url": "/guides/best-ai-email-outreach-tools.html"
+      }
     ],
     "emailCard": {
       "heading": "Weekly Tool Intel",

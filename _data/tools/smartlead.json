@@ -70,13 +70,25 @@
     "updated": "Updated February 2026",
     "dataSource": "Data from G2 & smartlead.ai",
     "personaTags": [
-      { "class": "personal-friendly", "text": "Personal-Friendly" },
-      { "class": "low-cost", "text": "Low Cost" }
+      {
+        "class": "personal-friendly",
+        "text": "Personal-Friendly"
+      },
+      {
+        "class": "low-cost",
+        "text": "Low Cost"
+      }
     ]
   },
   "scores": {
-    "org": { "value": 54, "verdict": "Budget sending, lacks enterprise depth" },
-    "rep": { "value": 64, "verdict": "Affordable, straightforward for reps" }
+    "org": {
+      "value": 54,
+      "verdict": "Budget sending, lacks enterprise depth"
+    },
+    "rep": {
+      "value": 64,
+      "verdict": "Affordable, straightforward for reps"
+    }
   },
   "quickSummary": {
     "whatItDoes": "Cold email infrastructure platform with unlimited mailboxes, auto-rotation, warmup, and a unified master inbox for managing multi-account outreach.",
@@ -89,15 +101,33 @@
     "paragraphs": [
       "Smartlead is a cold email infrastructure platform with unlimited mailbox connections, auto-rotation, built-in warmup, and a unified master inbox. Popular with agencies for its multi-client workspaces and white-label options, it also supports branching subsequence workflows based on prospect behavior. <em>Profile based on vendor docs and G2 reviews. See <a href=\"https://www.g2.com/products/smartlead/reviews\" target=\"_blank\" rel=\"noopener\">Smartlead on G2</a>.</em>"
     ],
-    "noteHtml": null
+    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/smartlead/reviews\" target=\"_blank\" rel=\"noopener\">Smartlead on G2</a>."
   },
   "features": [
-    { "title": "Unlimited Email Accounts", "description": "Unlimited accounts with auto-rotation to maximize deliverability." },
-    { "title": "Built-in Warmup Engine", "description": "Gradually increases sending volume to build sender reputation." },
-    { "title": "Master Inbox", "description": "Unified inbox aggregating replies from all accounts in one view." },
-    { "title": "Multi-Client Workspaces", "description": "Manage multiple client campaigns with separate reporting per client." },
-    { "title": "Subsequence Workflows", "description": "Branching sequences based on prospect opens, clicks, and replies." },
-    { "title": "API & Webhook Support", "description": "REST API and webhooks for custom integrations and lead handling." }
+    {
+      "title": "Unlimited Email Accounts",
+      "description": "Unlimited accounts with auto-rotation to maximize deliverability."
+    },
+    {
+      "title": "Built-in Warmup Engine",
+      "description": "Gradually increases sending volume to build sender reputation."
+    },
+    {
+      "title": "Master Inbox",
+      "description": "Unified inbox aggregating replies from all accounts in one view."
+    },
+    {
+      "title": "Multi-Client Workspaces",
+      "description": "Manage multiple client campaigns with separate reporting per client."
+    },
+    {
+      "title": "Subsequence Workflows",
+      "description": "Branching sequences based on prospect opens, clicks, and replies."
+    },
+    {
+      "title": "API & Webhook Support",
+      "description": "REST API and webhooks for custom integrations and lead handling."
+    }
   ],
   "decisionModule": {
     "verdict": {
@@ -118,12 +148,30 @@
       }
     },
     "subScores": [
-      { "label": "Enterprise Fit", "score": "3/10" },
-      { "label": "Ease of Adoption", "score": "6/10" },
-      { "label": "AI Depth", "score": "4/10" },
-      { "label": "Integration Depth", "score": "5/10" },
-      { "label": "Pricing Transparency", "score": "8/10" },
-      { "label": "Scalability", "score": "9/10" }
+      {
+        "label": "Enterprise Fit",
+        "score": "3/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "6/10"
+      },
+      {
+        "label": "AI Depth",
+        "score": "4/10"
+      },
+      {
+        "label": "Integration Depth",
+        "score": "5/10"
+      },
+      {
+        "label": "Pricing Transparency",
+        "score": "8/10"
+      },
+      {
+        "label": "Scalability",
+        "score": "9/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
@@ -133,9 +181,18 @@
           "score": 3,
           "notes": "No SSO, no SOC 2, limited team controls",
           "evidence": [
-            { "source": "Vendor", "text": "No SSO or SOC 2 mentioned on website or documentation" },
-            { "source": "G2", "text": "Enterprise reviewers note lack of admin controls and compliance certifications" },
-            { "source": "Reddit", "text": "r/coldoutreach confirms Smartlead targets SMBs and agencies, not enterprise" }
+            {
+              "source": "Vendor",
+              "text": "No SSO or SOC 2 mentioned on website or documentation"
+            },
+            {
+              "source": "G2",
+              "text": "Enterprise reviewers note lack of admin controls and compliance certifications"
+            },
+            {
+              "source": "Reddit",
+              "text": "r/coldoutreach confirms Smartlead targets SMBs and agencies, not enterprise"
+            }
           ]
         },
         {
@@ -143,9 +200,18 @@
           "score": 6,
           "notes": "More complex UI than Instantly but powerful once learned",
           "evidence": [
-            { "source": "G2", "text": "Ease of use rated 4.3/5; users note steeper learning curve than Instantly" },
-            { "source": "Reddit", "text": "Practitioners report 1-2 weeks to fully configure mailbox rotation" },
-            { "source": "Capterra", "text": "UI praised for power users but criticized for initial complexity" }
+            {
+              "source": "G2",
+              "text": "Ease of use rated 4.3/5; users note steeper learning curve than Instantly"
+            },
+            {
+              "source": "Reddit",
+              "text": "Practitioners report 1-2 weeks to fully configure mailbox rotation"
+            },
+            {
+              "source": "Capterra",
+              "text": "UI praised for power users but criticized for initial complexity"
+            }
           ]
         },
         {
@@ -153,9 +219,18 @@
           "score": 4,
           "notes": "Basic AI writing assist, not a core AI product",
           "evidence": [
-            { "source": "Vendor", "text": "AI features limited to basic email writing suggestions" },
-            { "source": "G2", "text": "AI rarely mentioned as a buying factor in reviews" },
-            { "source": "Reddit", "text": "Users pair Smartlead with external AI tools like ChatGPT for copy" }
+            {
+              "source": "Vendor",
+              "text": "AI features limited to basic email writing suggestions"
+            },
+            {
+              "source": "G2",
+              "text": "AI rarely mentioned as a buying factor in reviews"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users pair Smartlead with external AI tools like ChatGPT for copy"
+            }
           ]
         },
         {
@@ -163,9 +238,18 @@
           "score": 5,
           "notes": "API/webhooks strong but fewer native CRM integrations",
           "evidence": [
-            { "source": "Vendor", "text": "REST API and webhook documentation available; limited native CRM connectors" },
-            { "source": "G2", "text": "Integration options rated 3.9/5; Zapier dependency noted frequently" },
-            { "source": "Reddit", "text": "Users confirm heavy reliance on Zapier/Make for CRM sync workflows" }
+            {
+              "source": "Vendor",
+              "text": "REST API and webhook documentation available; limited native CRM connectors"
+            },
+            {
+              "source": "G2",
+              "text": "Integration options rated 3.9/5; Zapier dependency noted frequently"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users confirm heavy reliance on Zapier/Make for CRM sync workflows"
+            }
           ]
         },
         {
@@ -173,9 +257,18 @@
           "score": 8,
           "notes": "All plans public, no hidden fees",
           "evidence": [
-            { "source": "Vendor", "text": "All three pricing tiers listed publicly with feature breakdowns" },
-            { "source": "G2", "text": "Pricing clarity praised; value for money rated 4.5/5" },
-            { "source": "Capterra", "text": "No reports of hidden fees or surprise charges in reviews" }
+            {
+              "source": "Vendor",
+              "text": "All three pricing tiers listed publicly with feature breakdowns"
+            },
+            {
+              "source": "G2",
+              "text": "Pricing clarity praised; value for money rated 4.5/5"
+            },
+            {
+              "source": "Capterra",
+              "text": "No reports of hidden fees or surprise charges in reviews"
+            }
           ]
         },
         {
@@ -183,9 +276,18 @@
           "score": 9,
           "notes": "Unlimited accounts + auto-rotation is built for massive scale",
           "evidence": [
-            { "source": "Vendor", "text": "Unlimited mailbox connections on all plans with auto-rotation" },
-            { "source": "G2", "text": "Agencies report managing 50+ client accounts without performance issues" },
-            { "source": "Reddit", "text": "Power users confirm stable performance at 100+ mailbox scale" }
+            {
+              "source": "Vendor",
+              "text": "Unlimited mailbox connections on all plans with auto-rotation"
+            },
+            {
+              "source": "G2",
+              "text": "Agencies report managing 50+ client accounts without performance issues"
+            },
+            {
+              "source": "Reddit",
+              "text": "Power users confirm stable performance at 100+ mailbox scale"
+            }
           ]
         }
       ]
@@ -202,15 +304,27 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 373+ total reviews across 3 platforms (G2 + Capterra + Trustpilot)",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 373+ total reviews across 3 platforms (G2 + Capterra + Trustpilot)",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
-        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: unlimited sending at low cost. Complaint: limited native integrations" },
-        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> Agency white-label cold email, mailbox rotation setups" },
-        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Campaign builder, warmup dashboard" },
-        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Pricing published, limited API, webhook support" }
+        {
+          "icon": "&#x1F4CA;",
+          "text": "<strong>Review sentiment:</strong> Praise: unlimited sending at low cost. Complaint: limited native integrations"
+        },
+        {
+          "icon": "&#x1F4AC;",
+          "text": "<strong>Community workflows:</strong> Agency white-label cold email, mailbox rotation setups"
+        },
+        {
+          "icon": "&#x1F3A5;",
+          "text": "<strong>Demo-verified:</strong> Campaign builder, warmup dashboard"
+        },
+        {
+          "icon": "&#x1F4C4;",
+          "text": "<strong>Docs verified:</strong> Pricing published, limited API, webhook support"
+        }
       ],
       "strengthThemes": [
         "Unlimited sending accounts at low cost",
@@ -231,7 +345,11 @@
         "sentimentIcon": "&#9650;",
         "heading": "Unlimited mailbox accounts at $39/mo makes it the best value for cold email at scale",
         "synthesis": "Users consistently highlight unlimited mailbox connections as the standout feature. At $39/mo for the Basic plan, Smartlead offers more sending capacity per dollar than any competitor. Agencies and power users report managing 50+ mailboxes without additional per-account fees.",
-        "sources": ["G2: 85 mentions", "Reddit: 7 threads", "Capterra: 15 mentions"],
+        "sources": [
+          "G2: 85 mentions",
+          "Reddit: 7 threads",
+          "Capterra: 15 mentions"
+        ],
         "quote": "\"We're running 45 sender accounts across 12 client campaigns and Smartlead handles it without breaking a sweat. The unlimited mailbox model is a game-changer for agencies.\"",
         "quoteCite": "Synthesized from G2 reviews and community discussions"
       },
@@ -240,7 +358,11 @@
         "sentimentIcon": "&#9644;",
         "heading": "Feature velocity is high but stability can suffer",
         "synthesis": "Smartlead ships new features rapidly, which users appreciate, but the trade-off is occasional stability issues. Updates have been reported to break existing workflows, requiring users to re-configure campaigns. The development pace is a double-edged sword for teams relying on consistency.",
-        "sources": ["G2: 32 mentions", "Reddit: 5 threads", "Capterra: 8 mentions"],
+        "sources": [
+          "G2: 32 mentions",
+          "Reddit: 5 threads",
+          "Capterra: 8 mentions"
+        ],
         "quote": "\"Love the pace of new features, but last month an update broke our subsequence triggers mid-campaign. Had to rebuild three workflows on a Friday afternoon.\"",
         "quoteCite": "Synthesized from G2 reviews and community discussions"
       },
@@ -249,7 +371,10 @@
         "sentimentIcon": "&#9650;",
         "heading": "White-label client portal is unique for agencies",
         "synthesis": "Agencies consistently praise the multi-client workspace and white-label portal as a key differentiator. The ability to manage separate client campaigns with branded reporting and isolated data is a feature most cold email tools lack, making Smartlead the go-to for agency workflows.",
-        "sources": ["G2: 45 mentions", "Reddit: 4 threads"],
+        "sources": [
+          "G2: 45 mentions",
+          "Reddit: 4 threads"
+        ],
         "quote": "\"The white-label portal is why we switched from Instantly. Our clients log into a branded dashboard and never see the Smartlead name &mdash; it looks like our own platform.\"",
         "quoteCite": "Synthesized from G2 reviews and community discussions"
       },
@@ -258,7 +383,11 @@
         "sentimentIcon": "&#9660;",
         "heading": "Support response times are inconsistent",
         "synthesis": "Support quality is the most frequently cited pain point. Users report inconsistent response times, with community forums and Slack groups sometimes providing faster answers than official support tickets. Lower-tier plan users experience longer wait times compared to higher-tier plan subscribers.",
-        "sources": ["G2: 28 mentions", "Reddit: 6 threads", "Capterra: 5 mentions"],
+        "sources": [
+          "G2: 28 mentions",
+          "Reddit: 6 threads",
+          "Capterra: 5 mentions"
+        ],
         "quote": "\"Submitted a ticket about a deliverability issue on Monday and didn't hear back until Thursday. Ended up finding the fix myself in their Slack community.\"",
         "quoteCite": "Synthesized from G2 reviews and community discussions"
       },
@@ -267,7 +396,10 @@
         "sentimentIcon": "&#9650;",
         "heading": "Agency-first design makes multi-client management seamless",
         "synthesis": "Reviewers highlight Smartlead's master inbox and sub-account architecture as purpose-built for agencies. Users managing 10+ client campaigns report that the white-label dashboard and centralized sending infrastructure eliminate the need for separate tools per client.",
-        "sources": ["G2: 34 mentions", "Reddit: 6 threads"],
+        "sources": [
+          "G2: 34 mentions",
+          "Reddit: 6 threads"
+        ],
         "quote": "\"We manage 14 clients from one Smartlead dashboard. The master inbox alone saves us two hours a day versus checking replies across separate accounts.\"",
         "quoteCite": "Synthesized from G2 reviews and community discussions"
       }
@@ -305,22 +437,65 @@
     ],
     "implementationReality": {
       "stats": [
-        { "number": "2&ndash;3 weeks", "label": "Time to Value" },
-        { "number": "Medium", "label": "Setup Complexity" },
-        { "number": "Low", "label": "RevOps Lift" },
-        { "number": "Medium", "label": "Training Required" },
-        { "number": "None", "label": "Data Migration" }
+        {
+          "number": "2&ndash;3 weeks",
+          "label": "Time to Value"
+        },
+        {
+          "number": "Medium",
+          "label": "Setup Complexity"
+        },
+        {
+          "number": "Low",
+          "label": "RevOps Lift"
+        },
+        {
+          "number": "Medium",
+          "label": "Training Required"
+        },
+        {
+          "number": "None",
+          "label": "Data Migration"
+        }
       ],
       "note": "First week: mailbox connection and warmup; subsequence optimization takes 1-2 more weeks."
     },
     "enterpriseReadiness": [
-      { "label": "SOC 2", "value": "No public certification", "class": "dm-unavailable" },
-      { "label": "SSO / SAML", "value": "Not available", "class": "dm-unavailable" },
-      { "label": "RBAC", "value": "Team member roles (Full/Read-Only)", "class": "dm-partial" },
-      { "label": "Data Residency", "value": "AWS Sydney region", "class": "dm-partial" },
-      { "label": "SLA", "value": "No public SLA", "class": "dm-unavailable" },
-      { "label": "Audit Logs", "value": "Not documented", "class": "dm-unavailable" },
-      { "label": "GDPR", "value": "Via DPA; not formally certified", "class": "dm-partial" }
+      {
+        "label": "SOC 2",
+        "value": "No public certification",
+        "class": "dm-unavailable"
+      },
+      {
+        "label": "SSO / SAML",
+        "value": "Not available",
+        "class": "dm-unavailable"
+      },
+      {
+        "label": "RBAC",
+        "value": "Team member roles (Full/Read-Only)",
+        "class": "dm-partial"
+      },
+      {
+        "label": "Data Residency",
+        "value": "AWS Sydney region",
+        "class": "dm-partial"
+      },
+      {
+        "label": "SLA",
+        "value": "No public SLA",
+        "class": "dm-unavailable"
+      },
+      {
+        "label": "Audit Logs",
+        "value": "Not documented",
+        "class": "dm-unavailable"
+      },
+      {
+        "label": "GDPR",
+        "value": "Via DPA; not formally certified",
+        "class": "dm-partial"
+      }
     ],
     "whoThisIsFor": {
       "org": {
@@ -342,20 +517,66 @@
     },
     "stackPairings": {
       "cards": [
-        { "title": "Clay", "titleLink": "clay-review.html", "description": "Enrich prospect data before sending through Smartlead at scale." },
-        { "title": "Apollo.io", "titleLink": "apollo-review.html", "description": "Source leads in Apollo, export to Smartlead for cold email execution." },
-        { "title": "HubSpot CRM", "titleLink": null, "description": "Sync replies into HubSpot pipelines via Zapier for deal tracking." },
-        { "title": "Lavender", "titleLink": "lavender-review.html", "description": "Optimize email copy with Lavender before loading into Smartlead campaigns." }
+        {
+          "title": "Clay",
+          "titleLink": "clay-review.html",
+          "description": "Enrich prospect data before sending through Smartlead at scale."
+        },
+        {
+          "title": "Apollo.io",
+          "titleLink": "apollo-review.html",
+          "description": "Source leads in Apollo, export to Smartlead for cold email execution."
+        },
+        {
+          "title": "HubSpot CRM",
+          "titleLink": null,
+          "description": "Sync replies into HubSpot pipelines via Zapier for deal tracking."
+        },
+        {
+          "title": "Lavender",
+          "titleLink": "lavender-review.html",
+          "description": "Optimize email copy with Lavender before loading into Smartlead campaigns."
+        }
       ],
       "exampleStack": "Apollo (leads) &#8594; Clay (enrich) &#8594; Smartlead (send) &#8594; HubSpot (CRM)"
     },
     "alternatives": {
       "rows": [
-        { "tool": "Instantly.ai", "toolLink": "instantly-review.html", "bestFor": "Simpler UX", "g2": "4.8/5", "price": "From $37/mo" },
-        { "tool": "Lemlist", "toolLink": "lemlist-review.html", "bestFor": "Creative personalization", "g2": "4.4/5", "price": "From $59/mo" },
-        { "tool": "Mailshake", "toolLink": null, "bestFor": "SMB-friendly", "g2": "4.7/5", "price": "From $29/mo" },
-        { "tool": "Woodpecker", "toolLink": null, "bestFor": "Agency-focused", "g2": "4.3/5", "price": "From $29/mo" },
-        { "tool": "Saleshandy", "toolLink": null, "bestFor": "Budget with lead finder", "g2": "4.6/5", "price": "From $25/mo" }
+        {
+          "tool": "Instantly.ai",
+          "toolLink": "instantly-review.html",
+          "bestFor": "Simpler UX",
+          "g2": "4.8/5",
+          "price": "From $37/mo"
+        },
+        {
+          "tool": "Lemlist",
+          "toolLink": "lemlist-review.html",
+          "bestFor": "Creative personalization",
+          "g2": "4.4/5",
+          "price": "From $59/mo"
+        },
+        {
+          "tool": "Mailshake",
+          "toolLink": null,
+          "bestFor": "SMB-friendly",
+          "g2": "4.7/5",
+          "price": "From $29/mo"
+        },
+        {
+          "tool": "Woodpecker",
+          "toolLink": null,
+          "bestFor": "Agency-focused",
+          "g2": "4.3/5",
+          "price": "From $29/mo"
+        },
+        {
+          "tool": "Saleshandy",
+          "toolLink": null,
+          "bestFor": "Budget with lead finder",
+          "g2": "4.6/5",
+          "price": "From $25/mo"
+        }
       ]
     },
     "faqs": [
@@ -385,23 +606,53 @@
     "altText": "See Alternatives",
     "altUrl": "/compare/index.html",
     "atAGlance": [
-      { "label": "G2 Rating", "value": "4.6/5" },
-      { "label": "G2 Reviews", "value": "289" },
-      { "label": "Starting Price", "value": "$39/mo" },
-      { "label": "Category", "value": "Cold Outreach" },
-      { "label": "Free Trial", "value": "Yes" }
+      {
+        "label": "G2 Rating",
+        "value": "4.6/5"
+      },
+      {
+        "label": "G2 Reviews",
+        "value": "289"
+      },
+      {
+        "label": "Starting Price",
+        "value": "$39/mo"
+      },
+      {
+        "label": "Category",
+        "value": "Cold Outreach"
+      },
+      {
+        "label": "Free Trial",
+        "value": "Yes"
+      }
     ],
     "ctaUrl": "/go/smartlead",
     "comparisons": [
-      { "text": "Instantly vs Smartlead", "url": "/compare/instantly-vs-smartlead.html" },
-      { "text": "Smartlead vs Saleshandy", "url": "/compare/smartlead-vs-saleshandy.html" }
+      {
+        "text": "Instantly vs Smartlead",
+        "url": "/compare/instantly-vs-smartlead.html"
+      },
+      {
+        "text": "Smartlead vs Saleshandy",
+        "url": "/compare/smartlead-vs-saleshandy.html"
+      }
     ],
     "externalReviews": [
-      { "text": "G2 Reviews", "url": "https://www.g2.com/products/smartlead/reviews" }
+      {
+        "text": "G2 Reviews",
+        "url": "https://www.g2.com/products/smartlead/reviews"
+      }
     ],
     "relatedGuides": [
-      { "text": "Best AI Email Outreach Tools", "url": "/guides/best-ai-email-outreach-tools.html" },
-      { "text": "Best AI Prospecting Tools", "url": "/guides/best-ai-outbound-prospecting-tools.html" }
+      {
+        "text": "Best AI Email Outreach Tools",
+        "url": "/guides/best-ai-email-outreach-tools.html"
+      },
+      {
+        "text": "Best AI Prospecting Tools",
+        "url": "/guides/best-ai-outbound-prospecting-tools.html"
+      }
     ],
     "emailCard": {
       "heading": "Weekly Tool Intel",
