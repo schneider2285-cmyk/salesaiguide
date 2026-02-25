@@ -144,6 +144,7 @@
     <div class="stat"><span class="stat-num" id="total-done">0</span><span class="stat-label">Done</span></div>
     <div class="stat"><span class="stat-num" id="total-tasks">0</span><span class="stat-label">Total Tasks</span></div>
     <div class="stat"><span class="stat-num" id="overall-pct" style="color:var(--accent2)">0%</span><span class="stat-label">Complete</span></div>
+    <button onclick="resetToSource()" title="Clear saved state and reload from source data" style="margin-left:12px;padding:5px 10px;font-size:11px;font-weight:700;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);color:rgba(255,255,255,0.7);border-radius:4px;cursor:pointer;letter-spacing:0.3px;" onmouseover="this.style.background='rgba(255,255,255,0.15)'" onmouseout="this.style.background='rgba(255,255,255,0.08)'">&#8635; Sync from source</button>
   </div>
 </div>
 <div class="main">
@@ -478,12 +479,12 @@ const phases = [
       {
         label: 'Step 0 — Foundation Components',
         tasks: [
-          { id: 'p0-c1', text: 'Brief 0.1: Create /how-we-score.html credibility page', who: 'cc', done: false },
-          { id: 'p0-c2', text: 'Brief 0.2: Build Journey Bar tab navigation component', who: 'cc', done: false },
-          { id: 'p0-c3', text: 'Brief 0.3: Build Evidence Drawer component', who: 'cc', done: false },
-          { id: 'p0-c4', text: 'Brief 0.4: Build Score Strip component (dual scores above fold)', who: 'cc', done: false },
+          { id: 'p0-c1', text: 'Brief 0.1: Create /how-we-score.html credibility page', who: 'cc', done: true },
+          { id: 'p0-c2', text: 'Brief 0.2: Build Journey Bar tab navigation component', who: 'cc', done: true },
+          { id: 'p0-c3', text: 'Brief 0.3: Build Evidence Drawer component', who: 'cc', done: true },
+          { id: 'p0-c4', text: 'Brief 0.4: Build Score Strip component (dual scores above fold)', who: 'cc', done: true },
           { id: 'p0-c5', text: 'Brief 0.5: Create JSON schema + populate clay.json + instantly.json', who: 'cc', done: true, note: 'clay.json done in Session 1' },
-          { id: 'p0-c6', text: 'Brief 0.6: Update global nav (add How We Score, fix Guides placeholder)', who: 'cc', done: false }
+          { id: 'p0-c6', text: 'Brief 0.6: Update global nav (add How We Score, fix Guides placeholder)', who: 'cc', done: false, note: 'Guides link added; How We Score link still missing from nav' }
         ]
       },
       {
@@ -595,15 +596,15 @@ const phases = [
           { id: 'p3-l1', text: 'Best AI SDR Tools 2026 (target: 2,900/mo searches)', who: 'cc', done: true },
           { id: 'p3-l2', text: 'Best Cold Email Software 2026 (target: 3,600/mo)', who: 'cc', done: true },
           { id: 'p3-l3', text: 'Best Sales Intelligence Tools 2026 (target: 1,200/mo)', who: 'cc', done: true },
-          { id: 'p3-l4', text: 'Best Conversation Intelligence Software 2026 (target: 880/mo)', who: 'cc', done: false },
-          { id: 'p3-l5', text: 'Best Revenue Intelligence Platforms 2026 (target: 720/mo)', who: 'cc', done: false }
+          { id: 'p3-l4', text: 'Best Conversation Intelligence Software 2026 (target: 880/mo)', who: 'cc', done: true, note: 'top-conversation-intelligence-platforms.html' },
+          { id: 'p3-l5', text: 'Best Revenue Intelligence Platforms 2026 (target: 720/mo)', who: 'cc', done: false, note: 'Not yet built — add to Phase 3 backlog' }
         ]
       },
       {
         label: 'Alternatives Pages',
         tasks: [
           { id: 'p3-a1', text: '7 Best Clay Alternatives 2026 (target: 2,400/mo)', who: 'cc', done: true },
-          { id: 'p3-a2', text: '6 Best Instantly Alternatives 2026 (target: 1,100/mo)', who: 'cc', done: false }
+          { id: 'p3-a2', text: '6 Best Instantly Alternatives 2026 (target: 1,100/mo)', who: 'cc', done: false, note: 'Not yet built — add to Phase 3 backlog' }
         ]
       },
       {
@@ -653,8 +654,8 @@ const phases = [
         label: '21 Remaining Comparison Pages (Session 3 — complete)',
         tasks: [
           { id: 'p4-comp1', text: 'Migrate 21 remaining comparison pages to compare.njk layout (PR #4)', who: 'cc', done: true, note: 'Complete — 32 total compare pages in _site' },
-          { id: 'p4-comp2', text: 'Validate PR #4 — check dual scores, reader selector, sidebar CTAs on all 21 pages', who: 'manus', done: false },
-          { id: 'p4-comp3', text: 'Merge PR #4 to main — Phase 4 complete', who: 'manus', done: false }
+          { id: 'p4-comp2', text: 'Validate PR #4 — check dual scores, reader selector, sidebar CTAs on all 21 pages', who: 'manus', done: true, note: 'Validated Feb 24 — all 21 pages confirmed using compare.njk with dual scores' },
+          { id: 'p4-comp3', text: 'Merge PR #4 to main — Phase 4 complete', who: 'manus', done: true, note: 'Merged Feb 24 — 65 files, 0 errors, live on salesaiguide.com' }
         ]
       }
     ]
@@ -677,7 +678,7 @@ const phases = [
       {
         label: 'Homepage Redesign',
         tasks: [
-          { id: 'p5-h1', text: 'Write brief-PHASE5-homepage-redesign.md', who: 'manus', done: false },
+          { id: 'p5-h1', text: 'Write brief-PHASE5-homepage-redesign.md', who: 'manus', done: true, note: 'Written Feb 24 — 721 lines, 3 sessions, full content for all persona pages' },
           { id: 'p5-h2', text: 'Asymmetric hero layout with live stats bar', who: 'cc', done: false },
           { id: 'p5-h3', text: 'Featured tools section with "Read Review" CTAs', who: 'cc', done: false },
           { id: 'p5-h4', text: 'Methodology trust bar', who: 'cc', done: false },
@@ -716,11 +717,23 @@ function getState() {
   phases.forEach(phase => {
     phase.sessions.forEach(session => {
       session.tasks.forEach(task => {
-        merged[task.id] = task.id in state ? state[task.id] : task.done;
+        // If source marks done:true, always honour it (source is authoritative for completed tasks)
+        // Only use localStorage override if source says false (allows manual check-off)
+        if (task.done === true) {
+          merged[task.id] = true;
+        } else {
+          merged[task.id] = task.id in state ? state[task.id] : false;
+        }
       });
     });
   });
   return merged;
+}
+function resetToSource() {
+  if (!confirm('Clear your saved checkbox state and reload from source data?')) return;
+  localStorage.removeItem(STORAGE_KEY);
+  render();
+  showNotice();
 }
 function calcPhaseProgress(phase, state) {
   let total = 0, done = 0;
