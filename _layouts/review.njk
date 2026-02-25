@@ -455,15 +455,51 @@ extraCss:
                                 <h4>Example Stack</h4>
                                 <p class="dm-stack-flow">{{ t.decisionModule.stackPairings.exampleStack | safe }}</p>
                             </div>
+                            {% if t.decisionModule.stackPairings.replaces or t.decisionModule.stackPairings.avoidWith %}
+                            <div class="stack-meta-row">
+                                {% if t.decisionModule.stackPairings.replaces %}
+                                <div class="stack-meta-card stack-replaces">
+                                    <span class="stack-meta-label">&#x2714; Replaces</span>
+                                    <p>{{ t.decisionModule.stackPairings.replaces }}</p>
+                                </div>
+                                {% endif %}
+                                {% if t.decisionModule.stackPairings.avoidWith %}
+                                <div class="stack-meta-card stack-avoid">
+                                    <span class="stack-meta-label">&#x26A0; Avoid pairing with</span>
+                                    <p>{{ t.decisionModule.stackPairings.avoidWith }}</p>
+                                </div>
+                                {% endif %}
+                            </div>
+                            {% endif %}
                         </section>
 
-                        <section class="content-section" id="dm-videos" style="display:none;">
+                        {% if t.videos and t.videos.length %}
+                        <section class="content-section" id="dm-videos">
                             <h2>Real-World Reviews &amp; Walkthroughs</h2>
-                            <p style="font-size:0.9rem;color:var(--text-light);">Practitioner walkthroughs and vendor demos.</p>
+                            <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1.25rem;">Practitioner walkthroughs and vendor demos from independent creators.</p>
                             <div class="dm-video-grid">
-                                <!-- Populate with real video embeds then remove style="display:none" from section -->
+                                {% for vid in t.videos %}
+                                <div class="dm-video-card">
+                                    <div class="dm-video-embed">
+                                        <iframe
+                                            src="https://www.youtube.com/embed/{{ vid.youtubeId }}?rel=0&modestbranding=1"
+                                            title="{{ vid.title }}"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen
+                                            loading="lazy">
+                                        </iframe>
+                                    </div>
+                                    <div class="dm-video-meta">
+                                        <p class="dm-video-title">{{ vid.title }}</p>
+                                        {% if vid.channel %}<p class="dm-video-channel">{{ vid.channel }}</p>{% endif %}
+                                        {% if vid.note %}<p class="dm-video-note">{{ vid.note }}</p>{% endif %}
+                                    </div>
+                                </div>
+                                {% endfor %}
                             </div>
                         </section>
+                        {% endif %}
 
                         <section id="dm-alternatives" class="content-section">
                             <h2>Alternatives to {{ t.hero.breadcrumbName }}</h2>

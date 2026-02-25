@@ -583,7 +583,9 @@
           "description": "Combine contact data with 6sense account-level intent for ABM."
         }
       ],
-      "exampleStack": "ZoomInfo (data) &#8594; Outreach (engage) &#8594; Gong (analyze) &#8594; Salesforce (CRM)"
+      "exampleStack": "ZoomInfo (data) &#8594; Outreach/Salesloft (sequences) &#8594; Gong (calls) &#8594; Clari (forecasting) &#8594; Salesforce (CRM)",
+      "replaces": "Lusha, Cognism, Apollo (for enterprise data needs with compliance requirements)",
+      "avoidWith": "SMBs and early-stage startups — ZoomInfo's pricing and contract terms are designed for enterprise; Apollo or Cognism are better fits"
     },
     "alternatives": {
       "rows": [
