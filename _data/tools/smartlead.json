@@ -304,9 +304,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 373+ total reviews across 3 platforms (G2 + Capterra + Trustpilot)",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 373+ total reviews across 3 platforms (G2 + Capterra + Trustpilot)",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -667,5 +667,47 @@
     "secondaryUrl": "https://www.g2.com/products/smartlead/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "enterpriseReadiness": {
+    "overallScore": 4,
+    "note": "Smartlead is built for outbound agencies and growth teams. Not designed for enterprise IT governance.",
+    "dimensions": [
+      {
+        "dimension": "SSO / SAML",
+        "status": "no",
+        "statusLabel": "Not available",
+        "notes": "No SSO or SAML support documented."
+      },
+      {
+        "dimension": "API Access",
+        "status": "yes",
+        "statusLabel": "Yes",
+        "notes": "REST API available. Useful for automation workflows with Clay, n8n, and Zapier."
+      },
+      {
+        "dimension": "Security Certs",
+        "status": "partial",
+        "statusLabel": "GDPR only",
+        "notes": "GDPR compliant per privacy policy. SOC 2 certification not confirmed as of Feb 2026."
+      },
+      {
+        "dimension": "Contract Flexibility",
+        "status": "yes",
+        "statusLabel": "Monthly + Annual",
+        "notes": "Monthly billing available. Annual billing offers ~20% discount."
+      },
+      {
+        "dimension": "Admin Controls",
+        "status": "partial",
+        "statusLabel": "Basic",
+        "notes": "Sub-account management for agencies. Limited RBAC for team deployments."
+      },
+      {
+        "dimension": "Data Residency",
+        "status": "unknown",
+        "statusLabel": "Not published",
+        "notes": "No data residency options documented."
+      }
+    ]
   }
 }
