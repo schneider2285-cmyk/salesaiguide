@@ -822,10 +822,22 @@ const phases = [
       {
         label: 'Ongoing — Weekly Schedule',
         tasks: [
-          { id: 'ops-w1', text: 'Brief Claude Code: Update Gong rating 4.8→4.7 in gong.json', who: 'manus', done: false },
-          { id: 'ops-w2', text: 'Brief Claude Code: Add lastVerified field to all 10 original tool JSONs', who: 'manus', done: false },
+          { id: 'ops-w1', text: 'Brief Claude Code: Update Gong rating 4.8→4.7 in gong.json', who: 'manus', done: true, note: 'Merged PR #8 Feb 25' },
+          { id: 'ops-w2', text: 'Brief Claude Code: Add lastVerified field to all 10 original tool JSONs', who: 'manus', done: true, note: 'Merged PR #8 Feb 25' },
           { id: 'ops-w3', text: 'Check Search Console for first impressions data (March 3)', who: 'manus', done: false },
           { id: 'ops-w4', text: 'First Monday Brief — compile weekly agent report (March 2)', who: 'manus', done: false }
+      },
+      {
+        label: 'Design Polish Pass',
+        tasks: [
+          { id: 'dp-1', text: 'Fix persona hub pages — Markdown rendering as raw symbols', who: 'claude', done: true, note: 'Converted MD to HTML in 3 .njk files, PR #9 merged Feb 25' },
+          { id: 'dp-2', text: 'Logo redesign — SVG bar-chart icon + improved wordmark typography', who: 'claude', done: true, note: 'PR #9 merged Feb 25' },
+          { id: 'dp-3', text: 'Persona entry cards — replace emoji icons with SVGs, solid teal borders', who: 'claude', done: true, note: 'PR #9 merged Feb 25' },
+          { id: 'dp-4', text: 'Tool cards — show real category names instead of literal Category', who: 'claude', done: true, note: 'PR #9 merged Feb 25' },
+          { id: 'dp-5', text: 'Homepage tool count — Browse All Tools', who: 'claude', done: true, note: 'PR #9 merged Feb 25' },
+          { id: 'dp-6', text: 'Comparison hero — dark navy gradient background with white text', who: 'claude', done: true, note: 'PR #9 merged Feb 25' },
+          { id: 'dp-7', text: 'Category hero — dark navy gradient background with white text', who: 'claude', done: true, note: 'PR #9 merged Feb 25' },
+          { id: 'dp-8', text: '404 page navbar — add How We Score link + SVG logo', who: 'claude', done: true, note: 'PR #9 merged Feb 25' }
         ]
       }
     ]
