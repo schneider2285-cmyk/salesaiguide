@@ -17,10 +17,10 @@
       "applicationCategory": "Sales Software",
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.8",
+        "ratingValue": "4.7",
         "bestRating": "5",
-        "ratingCount": "5800",
-        "reviewCount": "5800"
+        "ratingCount": "6470",
+        "reviewCount": "6470"
       },
       "offers": {
         "@type": "Offer",
@@ -226,7 +226,7 @@
         "Heavy Salesforce dependency for full feature set"
       ],
       "disagreeNote": "&#9888;&#65039; Where sources disagree: Vendor positions as \"revenue intelligence\"; practitioners primarily value call recording + coaching. ROI hard to prove in first 6 months per community.",
-      "lastVerified": "February 2026"
+      "lastVerified": "2026-02-24"
     },
     "userVoiceThemes": [
       {
