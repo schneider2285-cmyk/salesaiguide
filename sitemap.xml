@@ -452,4 +452,34 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://salesaiguide.com/compare/artisan-vs-regie.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/compare/regie-vs-outreach.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/compare/regie-vs-salesloft.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/compare/orum-vs-salesloft.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://salesaiguide.com/compare/artisan-vs-clay.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
