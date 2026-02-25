@@ -9,6 +9,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("blog");
   eleventyConfig.addPassthroughCopy("editorial-policy");
   eleventyConfig.addPassthroughCopy("how-we-score");
+  eleventyConfig.addPassthroughCopy("progress");
   // scripts/, docs/, coordination/, context/, _private/ are intentionally excluded — never published to live site
 
   // Root files
