@@ -4,6 +4,10 @@ extraCss:
   - /css/review.css
 ---
 {% set t = tools[tool] %}
+{% if t.decisionModule.faqs %}
+{% set faqSchemaItems %}[{% for faq in t.decisionModule.faqs %}{"@type":"Question","name":{{ faq.question | dump | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ faq.answer | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]{% endset %}
+{% set extraHead %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":{{ faqSchemaItems | safe }}}</script>{% endset %}
+{% endif %}
 
     <div class="review-header">
         <div class="container">
@@ -72,6 +76,9 @@ extraCss:
           <a href="#decision-snapshot" class="journey-tab" data-section="decision-snapshot">Decision Snapshot</a>
           <a href="#where-it-breaks" class="journey-tab" data-section="where-it-breaks">Where It Breaks</a>
           <a href="#stack-fit" class="journey-tab" data-section="stack-fit">Stack Fit</a>
+          {% if t.sourcesChecked %}<a href="#sources-checked" class="journey-tab" data-section="sources-checked">Sources</a>{% endif %}
+          {% if t.enterpriseReadiness %}<a href="#enterprise-readiness" class="journey-tab" data-section="enterprise-readiness">Enterprise</a>{% endif %}
+          <a href="#faq" class="journey-tab" data-section="faq">FAQ</a>
         </div>
       </div>
     </nav>
@@ -316,6 +323,26 @@ extraCss:
                             </div>
                         </section>
 
+                        {% if t.sourcesChecked %}
+                        <section class="content-section sc-section" id="sources-checked">
+                            <h2>Sources Checked</h2>
+                            <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1.25rem;">Evidence for this review was synthesized from the following sources, verified {{ t.sourcesChecked.lastVerified }}.</p>
+                            <div class="sc-grid">
+                                {% for src in t.sourcesChecked.sources %}
+                                <div class="sc-card sc-type-{{ src.type }}">
+                                    <div class="sc-header">
+                                        <span class="sc-icon">{{ src.icon }}</span>
+                                        <span class="sc-name">{{ src.name }}</span>
+                                        {% if src.rating %}<span class="sc-rating">{{ src.rating }}/5</span>{% endif %}
+                                    </div>
+                                    {% if src.reviewCount %}<p class="sc-count">{{ src.reviewCount }} reviews analyzed</p>{% endif %}
+                                    <p class="sc-finding">{{ src.whatFound }}</p>
+                                    <a href="{{ src.url }}" class="sc-link" target="_blank" rel="noopener">Verify source &#8599;</a>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </section>
+                        {% endif %}
                         <section class="content-section">
                             <h2>What Users Actually Say</h2>
                             <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1rem;">Recurring themes synthesized from G2, Capterra, Reddit, and practitioner communities.</p>
@@ -481,14 +508,40 @@ extraCss:
                             </div>
                         </section>
 
-                        <section class="content-section">
-                            <h2>Frequently Asked Questions</h2>
-                            {% for faq in t.decisionModule.faqs %}
-                            <div class="content-section" style="padding:0;margin:0;">
-                                <h3>{{ faq.question }}</h3>
-                                <p>{{ faq.answer }}</p>
+                        {% if t.enterpriseReadiness %}
+                        <section class="content-section er-section" id="enterprise-readiness">
+                            <h2>Enterprise Readiness</h2>
+                            <div class="er-score-row">
+                                <span class="er-overall-label">Enterprise Score</span>
+                                <span class="er-overall-value">{{ t.enterpriseReadiness.overallScore }}/10</span>
                             </div>
-                            {% endfor %}
+                            <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1rem;">{{ t.enterpriseReadiness.note }}</p>
+                            <div class="comparison-table-wrapper">
+                                <table class="comparison-table er-table">
+                                    <thead><tr><th>Dimension</th><th>Status</th><th>Notes</th></tr></thead>
+                                    <tbody>
+                                        {% for row in t.enterpriseReadiness.dimensions %}
+                                        <tr>
+                                            <td><strong>{{ row.dimension }}</strong></td>
+                                            <td><span class="er-status er-{{ row.status | lower | replace(' ', '-') }}">{{ row.status }}</span></td>
+                                            <td>{{ row.notes }}</td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                        {% endif %}
+                        <section class="content-section faq-section" id="faq">
+                            <h2>Frequently Asked Questions</h2>
+                            <div class="faq-accordion">
+                                {% for faq in t.decisionModule.faqs %}
+                                <details class="faq-item">
+                                    <summary class="faq-question">{{ faq.question }}</summary>
+                                    <div class="faq-answer"><p>{{ faq.answer }}</p></div>
+                                </details>
+                                {% endfor %}
+                            </div>
                         </section>
 
                         <div class="dm-meta">
@@ -497,6 +550,21 @@ extraCss:
 
                     </div>
                     <!-- ═══ END DECISION MODULE ═══ -->
+
+                    {% if t.sidebar.comparisons and t.sidebar.comparisons.length %}
+                    <section class="content-section related-comparisons-section">
+                        <h2>Compare {{ t.hero.breadcrumbName }} With Alternatives</h2>
+                        <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1.25rem;">See how {{ t.hero.breadcrumbName }} stacks up in direct head-to-head comparisons.</p>
+                        <div class="rc-grid">
+                            {% for link in t.sidebar.comparisons %}
+                            <a href="{{ link.url }}" class="rc-card">
+                                <span class="rc-label">{{ link.text }}</span>
+                                <span class="rc-arrow">&#8594;</span>
+                            </a>
+                            {% endfor %}
+                        </div>
+                    </section>
+                    {% endif %}
 
                     <div class="final-cta">
                         <h3>{{ t.finalCta.heading }}</h3>

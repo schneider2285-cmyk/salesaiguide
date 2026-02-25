@@ -71,13 +71,25 @@
     "updated": "Updated February 2026",
     "dataSource": "Data from G2 & salesloft.com",
     "personaTags": [
-      { "class": "requires-admin", "text": "Requires Admin" },
-      { "class": "enterprise-grade", "text": "Enterprise Grade" }
+      {
+        "class": "requires-admin",
+        "text": "Requires Admin"
+      },
+      {
+        "class": "enterprise-grade",
+        "text": "Enterprise Grade"
+      }
     ]
   },
   "scores": {
-    "org": { "value": 70, "verdict": "Solid engagement, mid-market fit" },
-    "rep": { "value": 56, "verdict": "Team-oriented, solo adoption difficult" }
+    "org": {
+      "value": 70,
+      "verdict": "Solid engagement, mid-market fit"
+    },
+    "rep": {
+      "value": 56,
+      "verdict": "Team-oriented, solo adoption difficult"
+    }
   },
   "quickSummary": {
     "whatItDoes": "Sales engagement platform for multichannel sequences, deal management, and AI-driven coaching.",
@@ -93,12 +105,30 @@
     "noteHtml": "Note: Based on vendor documentation and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/salesloft/reviews\" target=\"_blank\" rel=\"noopener\">Salesloft on G2</a>."
   },
   "features": [
-    { "title": "Cadence Sequencing", "description": "Email, phone, and LinkedIn sequences with task automation and A/B testing." },
-    { "title": "Deals Pipeline Management", "description": "Visual deal boards with AI health scores, forecasts, and pipeline analytics." },
-    { "title": "Conversation Intelligence", "description": "Built-in call recording, transcription, and analysis without separate tools." },
-    { "title": "AI Email Generation", "description": "AI email drafting using prospect context and engagement history." },
-    { "title": "Sales Coaching & Analytics", "description": "Rep performance dashboards, coaching scorecards, and team benchmarking." },
-    { "title": "Rhythm Workflow Engine", "description": "AI-powered action prioritization based on buyer signals and engagement data." }
+    {
+      "title": "Cadence Sequencing",
+      "description": "Email, phone, and LinkedIn sequences with task automation and A/B testing."
+    },
+    {
+      "title": "Deals Pipeline Management",
+      "description": "Visual deal boards with AI health scores, forecasts, and pipeline analytics."
+    },
+    {
+      "title": "Conversation Intelligence",
+      "description": "Built-in call recording, transcription, and analysis without separate tools."
+    },
+    {
+      "title": "AI Email Generation",
+      "description": "AI email drafting using prospect context and engagement history."
+    },
+    {
+      "title": "Sales Coaching & Analytics",
+      "description": "Rep performance dashboards, coaching scorecards, and team benchmarking."
+    },
+    {
+      "title": "Rhythm Workflow Engine",
+      "description": "AI-powered action prioritization based on buyer signals and engagement data."
+    }
   ],
   "decisionModule": {
     "verdict": {
@@ -119,12 +149,30 @@
       }
     },
     "subScores": [
-      { "label": "Enterprise Fit", "score": "8/10" },
-      { "label": "Ease of Adoption", "score": "6/10" },
-      { "label": "AI Depth", "score": "7/10" },
-      { "label": "Integration Depth", "score": "8/10" },
-      { "label": "Pricing Transparency", "score": "3/10" },
-      { "label": "Scalability", "score": "8/10" }
+      {
+        "label": "Enterprise Fit",
+        "score": "8/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "6/10"
+      },
+      {
+        "label": "AI Depth",
+        "score": "7/10"
+      },
+      {
+        "label": "Integration Depth",
+        "score": "8/10"
+      },
+      {
+        "label": "Pricing Transparency",
+        "score": "3/10"
+      },
+      {
+        "label": "Scalability",
+        "score": "8/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
@@ -134,10 +182,22 @@
           "score": 8,
           "notes": "SOC 2 compliant, SSO, RBAC, dedicated CSM on enterprise plans; strong Salesforce integration",
           "evidence": [
-            { "source": "G2", "text": "Enterprise reviewers confirm SAML SSO and role-based access on all paid plans" },
-            { "source": "Vendor", "text": "SOC 2 Type II certification and dedicated CSM documented for enterprise tier" },
-            { "source": "Capterra", "text": "Users note strong Salesforce integration comparable to Outreach" },
-            { "source": "Gartner PI", "text": "Enterprise buyers rate governance and compliance 4.3/5; SOC 2 Type II confirmed" }
+            {
+              "source": "G2",
+              "text": "Enterprise reviewers confirm SAML SSO and role-based access on all paid plans"
+            },
+            {
+              "source": "Vendor",
+              "text": "SOC 2 Type II certification and dedicated CSM documented for enterprise tier"
+            },
+            {
+              "source": "Capterra",
+              "text": "Users note strong Salesforce integration comparable to Outreach"
+            },
+            {
+              "source": "Gartner PI",
+              "text": "Enterprise buyers rate governance and compliance 4.3/5; SOC 2 Type II confirmed"
+            }
           ]
         },
         {
@@ -145,10 +205,22 @@
           "score": 6,
           "notes": "Better UX than Outreach per G2 reviewers, but still requires 3-6 weeks of onboarding with RevOps involvement",
           "evidence": [
-            { "source": "G2", "text": "Ease of use rated 8.6/10 vs Outreach's 8.2/10; cleaner interface consistently praised" },
-            { "source": "Reddit", "text": "Practitioners report faster rep onboarding than Outreach by 1-2 weeks" },
-            { "source": "Capterra", "text": "Cadence builder specifically cited as intuitive for new users" },
-            { "source": "TrustRadius", "text": "80% of reviewers rate Rhythm AI workflow as \"intuitive\" after 2-week ramp" }
+            {
+              "source": "G2",
+              "text": "Ease of use rated 8.6/10 vs Outreach's 8.2/10; cleaner interface consistently praised"
+            },
+            {
+              "source": "Reddit",
+              "text": "Practitioners report faster rep onboarding than Outreach by 1-2 weeks"
+            },
+            {
+              "source": "Capterra",
+              "text": "Cadence builder specifically cited as intuitive for new users"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "80% of reviewers rate Rhythm AI workflow as \"intuitive\" after 2-week ramp"
+            }
           ]
         },
         {
@@ -156,9 +228,18 @@
           "score": 7,
           "notes": "Rhythm AI engine, AI email generation, conversation intelligence; AI is a core feature but not AI-native",
           "evidence": [
-            { "source": "G2", "text": "Rhythm engine praised for action prioritization; conversation intelligence is newer addition" },
-            { "source": "Vendor", "text": "AI email generation and Rhythm workflow engine documented as core features" },
-            { "source": "Reddit", "text": "Practitioners note conversation intelligence is less mature than Gong's dedicated solution" }
+            {
+              "source": "G2",
+              "text": "Rhythm engine praised for action prioritization; conversation intelligence is newer addition"
+            },
+            {
+              "source": "Vendor",
+              "text": "AI email generation and Rhythm workflow engine documented as core features"
+            },
+            {
+              "source": "Reddit",
+              "text": "Practitioners note conversation intelligence is less mature than Gong's dedicated solution"
+            }
           ]
         },
         {
@@ -166,9 +247,18 @@
           "score": 8,
           "notes": "Deep Salesforce and HubSpot integrations; native connections to ZoomInfo, 6sense, and other sales stack tools",
           "evidence": [
-            { "source": "Vendor", "text": "Native integrations with Salesforce, HubSpot, ZoomInfo, 6sense listed in directory" },
-            { "source": "G2", "text": "Integration depth rated 4.3/5; fewer third-party connectors than Outreach noted" },
-            { "source": "Capterra", "text": "Users confirm reliable CRM sync though API rate limits can be restrictive" }
+            {
+              "source": "Vendor",
+              "text": "Native integrations with Salesforce, HubSpot, ZoomInfo, 6sense listed in directory"
+            },
+            {
+              "source": "G2",
+              "text": "Integration depth rated 4.3/5; fewer third-party connectors than Outreach noted"
+            },
+            {
+              "source": "Capterra",
+              "text": "Users confirm reliable CRM sync though API rate limits can be restrictive"
+            }
           ]
         },
         {
@@ -176,9 +266,18 @@
           "score": 3,
           "notes": "No public pricing; requires sales call; annual contracts standard; opaque add-on costs",
           "evidence": [
-            { "source": "G2", "text": "Pricing transparency rated below category average; no public tiers available" },
-            { "source": "Reddit", "text": "Users report $75-125/user/month with annual contracts and implementation fees" },
-            { "source": "Capterra", "text": "Acquired Drift features may require additional licensing costs" }
+            {
+              "source": "G2",
+              "text": "Pricing transparency rated below category average; no public tiers available"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users report $75-125/user/month with annual contracts and implementation fees"
+            },
+            {
+              "source": "Capterra",
+              "text": "Acquired Drift features may require additional licensing costs"
+            }
           ]
         },
         {
@@ -186,10 +285,22 @@
           "score": 8,
           "notes": "Proven at enterprise scale with teams of 500+ reps; infrastructure handles high-volume cadences well",
           "evidence": [
-            { "source": "G2", "text": "Enterprise accounts with 500+ seats report stable cadence execution at volume" },
-            { "source": "Vendor", "text": "Case studies cite deployments across large enterprise sales organizations" },
-            { "source": "Reddit", "text": "Teams of 200+ reps report consistent performance with high-volume cadences" },
-            { "source": "TrustRadius", "text": "Mid-market teams of 20-100 reps report strong performance; enterprise teams note occasional sync delays" }
+            {
+              "source": "G2",
+              "text": "Enterprise accounts with 500+ seats report stable cadence execution at volume"
+            },
+            {
+              "source": "Vendor",
+              "text": "Case studies cite deployments across large enterprise sales organizations"
+            },
+            {
+              "source": "Reddit",
+              "text": "Teams of 200+ reps report consistent performance with high-volume cadences"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Mid-market teams of 20-100 reps report strong performance; enterprise teams note occasional sync delays"
+            }
           ]
         }
       ]
@@ -211,10 +322,22 @@
         "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
-        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: cleaner UX than Outreach. Complaint: reporting gaps at scale" },
-        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> Cadence management, dialer + email combined workflows" },
-        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Rhythm engine, pipeline dashboard" },
-        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Custom pricing, integrations directory, security certifications" }
+        {
+          "icon": "&#x1F4CA;",
+          "text": "<strong>Review sentiment:</strong> Praise: cleaner UX than Outreach. Complaint: reporting gaps at scale"
+        },
+        {
+          "icon": "&#x1F4AC;",
+          "text": "<strong>Community workflows:</strong> Cadence management, dialer + email combined workflows"
+        },
+        {
+          "icon": "&#x1F3A5;",
+          "text": "<strong>Demo-verified:</strong> Rhythm engine, pipeline dashboard"
+        },
+        {
+          "icon": "&#x1F4C4;",
+          "text": "<strong>Docs verified:</strong> Custom pricing, integrations directory, security certifications"
+        }
       ],
       "strengthThemes": [
         "Cleaner UX than primary competitor Outreach",
@@ -235,7 +358,11 @@
         "sentimentIcon": "&#9650;",
         "heading": "Cleaner UX than Outreach -- reps actually use it daily without friction",
         "synthesis": "The most consistent differentiator cited across all review platforms: Salesloft's interface is more intuitive than Outreach's. Reps report less training time and higher daily engagement. The cadence builder and task flow in particular are praised for reducing clicks and making multichannel execution feel natural rather than forced.",
-        "sources": ["G2: 1,400+ mentions", "Reddit: 10 threads", "Capterra: 95 mentions"],
+        "sources": [
+          "G2: 1,400+ mentions",
+          "Reddit: 10 threads",
+          "Capterra: 95 mentions"
+        ],
         "quote": "\"We moved 60 reps from Outreach to Salesloft and daily adoption jumped from 65% to 89% in the first month. The interface just gets out of your way.\"",
         "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
@@ -244,7 +371,11 @@
         "sentimentIcon": "&#9650;",
         "heading": "Cadence builder is intuitive and reduces onboarding time",
         "synthesis": "New reps consistently report being productive with Salesloft cadences faster than with competing platforms. The step-by-step cadence creation workflow, combined with pre-built templates and the Rhythm engine's daily action prioritization, cuts onboarding time by an estimated 1-2 weeks compared to Outreach.",
-        "sources": ["G2: 870 mentions", "Reddit: 7 threads", "Capterra: 68 mentions"],
+        "sources": [
+          "G2: 870 mentions",
+          "Reddit: 7 threads",
+          "Capterra: 68 mentions"
+        ],
         "quote": "\"New SDRs are building and launching cadences by day 3. With Outreach, that same ramp took close to two weeks for our team.\"",
         "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
@@ -253,7 +384,11 @@
         "sentimentIcon": "&#9644;",
         "heading": "Conversation intelligence is newer and less mature than Gong",
         "synthesis": "Salesloft's built-in conversation intelligence is valued as a convenience but doesn't match Gong's depth. Users note that transcription accuracy, deal insights, and coaching scorecards are functional but feel like a v1 product compared to dedicated conversation intelligence platforms. Teams with advanced CI needs typically still pair Salesloft with Gong.",
-        "sources": ["G2: 420 mentions", "Reddit: 6 threads", "Capterra: 35 mentions"],
+        "sources": [
+          "G2: 420 mentions",
+          "Reddit: 6 threads",
+          "Capterra: 35 mentions"
+        ],
         "quote": "\"Salesloft's call recording works fine for basic coaching, but our sales leaders still need Gong for deal intelligence and competitive insights. It's a solid add-on, not a replacement.\"",
         "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
@@ -262,7 +397,11 @@
         "sentimentIcon": "&#9660;",
         "heading": "Reporting depth lags behind Outreach for enterprise analytics needs",
         "synthesis": "Enterprise teams with complex reporting requirements consistently note that Salesloft's analytics are less customizable than Outreach's. Building non-standard reports requires workarounds, and large organizations with multiple teams find the reporting hierarchy limiting. Custom dashboards and cross-team analytics are the most-requested improvements.",
-        "sources": ["G2: 380 mentions", "Reddit: 5 threads", "Capterra: 42 mentions"],
+        "sources": [
+          "G2: 380 mentions",
+          "Reddit: 5 threads",
+          "Capterra: 42 mentions"
+        ],
         "quote": "\"The cadence-level reporting is solid, but getting pipeline attribution data requires exporting to Salesforce. Wish the native analytics went deeper.\"",
         "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
@@ -271,7 +410,11 @@
         "sentimentIcon": "&#9650;",
         "heading": "Rhythm AI workflow engine is a genuine differentiator",
         "synthesis": "TrustRadius and Gartner Peer Insights reviewers highlight Salesloft's Rhythm AI as a standout feature that prioritizes rep actions based on buyer signals. Enterprise users report that AI-guided next-best-actions reduce decision fatigue and improve daily productivity by 15-25%.",
-        "sources": ["TrustRadius: 85 mentions", "Gartner PI: 110 mentions", "G2: 220+ mentions"],
+        "sources": [
+          "TrustRadius: 85 mentions",
+          "Gartner PI: 110 mentions",
+          "G2: 220+ mentions"
+        ],
         "quote": "\"Salesloft's Rhythm engine genuinely changed how our reps prioritize their day. Instead of guessing which accounts to work, AI surfaces the highest-intent signals automatically.\"",
         "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       }
@@ -309,21 +452,60 @@
     ],
     "implementationReality": {
       "stats": [
-        { "number": "3&ndash;6 weeks", "label": "Time to Value" },
-        { "number": "High", "label": "Setup Complexity" },
-        { "number": "High", "label": "RevOps Lift" },
-        { "number": "Medium", "label": "Training Required" },
-        { "number": "Medium", "label": "Data Migration" }
+        {
+          "number": "3&ndash;6 weeks",
+          "label": "Time to Value"
+        },
+        {
+          "number": "High",
+          "label": "Setup Complexity"
+        },
+        {
+          "number": "High",
+          "label": "RevOps Lift"
+        },
+        {
+          "number": "Medium",
+          "label": "Training Required"
+        },
+        {
+          "number": "Medium",
+          "label": "Data Migration"
+        }
       ],
       "note": "Most teams need internal RevOps for CRM integration and cadence configuration despite Salesloft's implementation support."
     },
     "enterpriseReadiness": [
-      { "label": "SSO / SAML", "value": "SAML SSO included", "class": "dm-available" },
-      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
-      { "label": "ISO", "value": "ISO 27001, 27701", "class": "dm-available" },
-      { "label": "Privacy", "value": "GDPR & CCPA compliant", "class": "dm-available" },
-      { "label": "Encryption", "value": "AES-256 encryption", "class": "dm-available" },
-      { "label": "Infrastructure", "value": "AWS + GCP; US & EU data centers", "class": "dm-available" }
+      {
+        "label": "SSO / SAML",
+        "value": "SAML SSO included",
+        "class": "dm-available"
+      },
+      {
+        "label": "SOC 2",
+        "value": "SOC 2 Type II certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "ISO",
+        "value": "ISO 27001, 27701",
+        "class": "dm-available"
+      },
+      {
+        "label": "Privacy",
+        "value": "GDPR & CCPA compliant",
+        "class": "dm-available"
+      },
+      {
+        "label": "Encryption",
+        "value": "AES-256 encryption",
+        "class": "dm-available"
+      },
+      {
+        "label": "Infrastructure",
+        "value": "AWS + GCP; US & EU data centers",
+        "class": "dm-available"
+      }
     ],
     "whoThisIsFor": {
       "org": {
@@ -345,21 +527,71 @@
     },
     "stackPairings": {
       "cards": [
-        { "title": "Salesforce", "titleLink": null, "description": "Bi-directional sync with activity logging and pipeline visibility." },
-        { "title": "ZoomInfo", "titleLink": "zoominfo-review.html", "description": "Contact data feeding into Salesloft multichannel cadences." },
-        { "title": "Gong", "titleLink": null, "description": "Deeper deal analytics beyond built-in conversation intelligence." },
-        { "title": "Clay", "titleLink": "clay-review.html", "description": "Multi-source enrichment before loading into cadences." },
-        { "title": "6sense", "titleLink": null, "description": "Intent signals trigger cadences for in-market accounts." }
+        {
+          "title": "Salesforce",
+          "titleLink": null,
+          "description": "Bi-directional sync with activity logging and pipeline visibility."
+        },
+        {
+          "title": "ZoomInfo",
+          "titleLink": "zoominfo-review.html",
+          "description": "Contact data feeding into Salesloft multichannel cadences."
+        },
+        {
+          "title": "Gong",
+          "titleLink": null,
+          "description": "Deeper deal analytics beyond built-in conversation intelligence."
+        },
+        {
+          "title": "Clay",
+          "titleLink": "clay-review.html",
+          "description": "Multi-source enrichment before loading into cadences."
+        },
+        {
+          "title": "6sense",
+          "titleLink": null,
+          "description": "Intent signals trigger cadences for in-market accounts."
+        }
       ],
       "exampleStack": "ZoomInfo (data) &#8594; Salesloft (engage) &#8594; Gong (analyze) &#8594; Salesforce (CRM)"
     },
     "alternatives": {
       "rows": [
-        { "tool": "Outreach", "toolLink": "outreach-review.html", "bestFor": "Closest competitor, complex workflows", "g2": "4.4/5", "price": "Custom" },
-        { "tool": "HubSpot Sales Hub", "toolLink": "hubspot-review.html", "bestFor": "SMB alternative with CRM built in", "g2": "4.4/5", "price": "From $20/mo" },
-        { "tool": "Apollo.io", "toolLink": "apollo-review.html", "bestFor": "All-in-one prospecting + engagement", "g2": "4.8/5", "price": "From $49/mo" },
-        { "tool": "Klenty", "toolLink": null, "bestFor": "Budget mid-market engagement", "g2": "4.6/5", "price": "From $50/mo" },
-        { "tool": "Instantly.ai", "toolLink": "instantly-review.html", "bestFor": "Email-only high-volume outreach", "g2": "4.8/5", "price": "From $37/mo" }
+        {
+          "tool": "Outreach",
+          "toolLink": "outreach-review.html",
+          "bestFor": "Closest competitor, complex workflows",
+          "g2": "4.4/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "HubSpot Sales Hub",
+          "toolLink": "hubspot-review.html",
+          "bestFor": "SMB alternative with CRM built in",
+          "g2": "4.4/5",
+          "price": "From $20/mo"
+        },
+        {
+          "tool": "Apollo.io",
+          "toolLink": "apollo-review.html",
+          "bestFor": "All-in-one prospecting + engagement",
+          "g2": "4.8/5",
+          "price": "From $49/mo"
+        },
+        {
+          "tool": "Klenty",
+          "toolLink": null,
+          "bestFor": "Budget mid-market engagement",
+          "g2": "4.6/5",
+          "price": "From $50/mo"
+        },
+        {
+          "tool": "Instantly.ai",
+          "toolLink": "instantly-review.html",
+          "bestFor": "Email-only high-volume outreach",
+          "g2": "4.8/5",
+          "price": "From $37/mo"
+        }
       ]
     },
     "faqs": [
@@ -389,23 +621,53 @@
     "altText": "See Alternatives",
     "altUrl": "/compare/index.html",
     "atAGlance": [
-      { "label": "G2 Rating", "value": "4.5/5" },
-      { "label": "G2 Reviews", "value": "4,260" },
-      { "label": "Starting Price", "value": "Custom" },
-      { "label": "Category", "value": "Sales Engagement" },
-      { "label": "Free Trial", "value": "Demo Only" }
+      {
+        "label": "G2 Rating",
+        "value": "4.5/5"
+      },
+      {
+        "label": "G2 Reviews",
+        "value": "4,260"
+      },
+      {
+        "label": "Starting Price",
+        "value": "Custom"
+      },
+      {
+        "label": "Category",
+        "value": "Sales Engagement"
+      },
+      {
+        "label": "Free Trial",
+        "value": "Demo Only"
+      }
     ],
     "ctaUrl": "/go/salesloft",
     "comparisons": [
-      { "text": "Outreach vs Salesloft", "url": "/compare/outreach-vs-salesloft.html" },
-      { "text": "Salesloft vs Klenty", "url": "/compare/salesloft-vs-klenty.html" }
+      {
+        "text": "Outreach vs Salesloft",
+        "url": "/compare/outreach-vs-salesloft.html"
+      },
+      {
+        "text": "Salesloft vs Klenty",
+        "url": "/compare/salesloft-vs-klenty.html"
+      }
     ],
     "externalReviews": [
-      { "text": "G2 Reviews", "url": "https://www.g2.com/products/salesloft/reviews" }
+      {
+        "text": "G2 Reviews",
+        "url": "https://www.g2.com/products/salesloft/reviews"
+      }
     ],
     "relatedGuides": [
-      { "text": "Best AI Prospecting Tools", "url": "/guides/best-ai-outbound-prospecting-tools.html" },
-      { "text": "Best AI Email Outreach Tools", "url": "/guides/best-ai-email-outreach-tools.html" }
+      {
+        "text": "Best AI Prospecting Tools",
+        "url": "/guides/best-ai-outbound-prospecting-tools.html"
+      },
+      {
+        "text": "Best AI Email Outreach Tools",
+        "url": "/guides/best-ai-email-outreach-tools.html"
+      }
     ],
     "emailCard": {
       "heading": "Weekly Tool Intel",
@@ -420,5 +682,55 @@
     "secondaryUrl": "https://www.g2.com/products/salesloft/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "sourcesChecked": {
+    "lastVerified": "February 2026",
+    "sources": [
+      {
+        "name": "G2",
+        "type": "review_platform",
+        "icon": "\u2605",
+        "reviewCount": "3,800+",
+        "rating": "4.5",
+        "whatFound": "Strong praise for email sequencing, call recording, and Salesforce integration depth. Top complaints: pricing opacity, complexity for smaller teams, and the learning curve for new reps.",
+        "url": "https://www.g2.com/products/salesloft/reviews"
+      },
+      {
+        "name": "Reddit (r/salesops, r/sales)",
+        "type": "community",
+        "icon": "\ud83d\udcac",
+        "reviewCount": "200+",
+        "rating": null,
+        "whatFound": "Salesloft is frequently compared to Outreach. Common consensus: Salesloft wins on UI polish and onboarding; Outreach wins on power features and customization. Both are seen as expensive for sub-50 seat teams.",
+        "url": "https://www.reddit.com/r/salesops/search/?q=salesloft"
+      },
+      {
+        "name": "YouTube (demos & walkthroughs)",
+        "type": "video",
+        "icon": "\u25b6",
+        "reviewCount": "60+",
+        "rating": null,
+        "whatFound": "Product demos confirm Rhythm AI prioritization, cadence builder, and conversation intelligence features. Several Salesloft vs Outreach comparison videos confirm the UI advantage.",
+        "url": "https://www.youtube.com/results?search_query=salesloft+review"
+      },
+      {
+        "name": "Salesloft.com (vendor docs)",
+        "type": "vendor",
+        "icon": "\ud83d\udcc4",
+        "reviewCount": null,
+        "rating": null,
+        "whatFound": "Pricing not published. Platform includes Cadence (sequences), Conversations (call intelligence), Deals (pipeline), and Forecast modules. SOC 2 Type II and GDPR compliance confirmed.",
+        "url": "https://salesloft.com/platform/"
+      },
+      {
+        "name": "TrustRadius",
+        "type": "review_platform",
+        "icon": "\u2605",
+        "reviewCount": "480+",
+        "rating": "8.4",
+        "whatFound": "Enterprise-heavy reviewer base confirms Salesloft is primarily a 25+ seat purchase. Strong signal that smaller teams find the pricing difficult to justify without a dedicated RevOps function.",
+        "url": "https://www.trustradius.com/products/salesloft/reviews"
+      }
+    ]
   }
 }

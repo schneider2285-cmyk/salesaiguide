@@ -15,16 +15,48 @@
       "@type": "SoftwareApplication",
       "name": "Vidyard",
       "applicationCategory": "Sales Software",
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "bestRating": "5", "ratingCount": "800", "reviewCount": "800" },
-      "offers": { "@type": "Offer", "price": "19", "priceCurrency": "USD", "priceValidUntil": "2026-12-31" }
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "bestRating": "5",
+        "ratingCount": "800",
+        "reviewCount": "800"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "19",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31"
+      }
     },
     "faqPage": {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is Vidyard free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Vidyard offers a free tier with unlimited video recording, up to 25 videos in your library, and basic sharing. Pro starts at $19/month for unlimited videos and analytics." } },
-        { "@type": "Question", "name": "Does Vidyard track who watches my videos?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Vidyard shows who watched your video, how long they watched, and what sections they rewatched. This data syncs to your CRM for sales follow-up prioritization." } },
-        { "@type": "Question", "name": "How does Vidyard compare to Loom?", "acceptedAnswer": { "@type": "Answer", "text": "Vidyard is built for sales outreach with CRM integration, video analytics, and email embedding. Loom is more general-purpose for async communication. Choose Vidyard for sales workflows; Loom for internal team communication." } }
+        {
+          "@type": "Question",
+          "name": "Is Vidyard free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Vidyard offers a free tier with unlimited video recording, up to 25 videos in your library, and basic sharing. Pro starts at $19/month for unlimited videos and analytics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Vidyard track who watches my videos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Vidyard shows who watched your video, how long they watched, and what sections they rewatched. This data syncs to your CRM for sales follow-up prioritization."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Vidyard compare to Loom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vidyard is built for sales outreach with CRM integration, video analytics, and email embedding. Loom is more general-purpose for async communication. Choose Vidyard for sales workflows; Loom for internal team communication."
+          }
+        }
       ]
     }
   },
@@ -37,14 +69,25 @@
     "score": "4.5/5 on G2",
     "updated": "Updated February 2026",
     "dataSource": "Data from G2 & vidyard.com",
-    "personaTags": [{ "class": "for-reps", "text": "For Reps" }]
+    "personaTags": [
+      {
+        "class": "for-reps",
+        "text": "For Reps"
+      }
+    ]
   },
   "scores": {
-    "org": { "value": 62, "verdict": "Solid team analytics but not a core infrastructure tool" },
-    "rep": { "value": 70, "verdict": "Easy video recording with strong engagement tracking" }
+    "org": {
+      "value": 62,
+      "verdict": "Solid team analytics but not a core infrastructure tool"
+    },
+    "rep": {
+      "value": 70,
+      "verdict": "Easy video recording with strong engagement tracking"
+    }
   },
   "quickSummary": {
-    "whatItDoes": "Async video messaging platform for sales outreach — record screen + webcam videos, embed in emails, and track viewer engagement with CRM-synced analytics.",
+    "whatItDoes": "Async video messaging platform for sales outreach \u2014 record screen + webcam videos, embed in emails, and track viewer engagement with CRM-synced analytics.",
     "bestFor": "SDRs and AEs who want to stand out in crowded inboxes with personalized video messages and track prospect engagement.",
     "pricing": "Free tier (25 videos). Pro from $19/mo. Plus from $59/mo. Enterprise custom.",
     "ctaUrl": "/go/vidyard",
@@ -57,56 +100,290 @@
     "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/vidyard/reviews\" target=\"_blank\" rel=\"noopener\">Vidyard on G2</a>."
   },
   "features": [
-    { "title": "Screen + Webcam Recording", "description": "Record personalized videos with screen share and webcam in under 60 seconds." },
-    { "title": "Video Analytics", "description": "Track who watched, watch time, rewatch patterns, and CTA clicks." },
-    { "title": "Email Embedding", "description": "Embed video thumbnails in Gmail, Outlook, and sales engagement platforms." },
-    { "title": "AI Script Generator", "description": "AI-powered script suggestions for video outreach based on prospect context." },
-    { "title": "CRM Integration", "description": "Analytics sync to Salesforce, HubSpot, Outreach, and Salesloft." },
-    { "title": "Free Tier", "description": "Unlimited recording with up to 25 videos in library at no cost." }
+    {
+      "title": "Screen + Webcam Recording",
+      "description": "Record personalized videos with screen share and webcam in under 60 seconds."
+    },
+    {
+      "title": "Video Analytics",
+      "description": "Track who watched, watch time, rewatch patterns, and CTA clicks."
+    },
+    {
+      "title": "Email Embedding",
+      "description": "Embed video thumbnails in Gmail, Outlook, and sales engagement platforms."
+    },
+    {
+      "title": "AI Script Generator",
+      "description": "AI-powered script suggestions for video outreach based on prospect context."
+    },
+    {
+      "title": "CRM Integration",
+      "description": "Analytics sync to Salesforce, HubSpot, Outreach, and Salesloft."
+    },
+    {
+      "title": "Free Tier",
+      "description": "Unlimited recording with up to 25 videos in library at no cost."
+    }
   ],
   "pricing": {
     "note": "Pricing from vidyard.com. Verify on their site before purchasing.",
     "tiers": [
-      { "name": "Free", "price": "$0", "period": "month", "features": ["Unlimited recording", "25 videos in library", "Basic sharing", "Chrome extension", "Community support"], "ctaUrl": "/go/vidyard", "ctaText": "Start Free", "ctaClass": "btn-primary", "featured": false },
-      { "name": "Pro", "price": "$19", "period": "month", "badge": "Most Popular", "features": ["Unlimited videos", "Video analytics", "Email embedding", "Custom branding", "CRM notifications"], "ctaUrl": "/go/vidyard", "ctaText": "Visit Site", "ctaClass": "btn-primary", "featured": true },
-      { "name": "Plus", "price": "$59", "period": "month", "features": ["Everything in Pro", "Team analytics", "Video playlists", "Advanced integrations", "Priority support"], "ctaUrl": "/go/vidyard", "ctaText": "Visit Site", "ctaClass": "btn-outline", "featured": false }
+      {
+        "name": "Free",
+        "price": "$0",
+        "period": "month",
+        "features": [
+          "Unlimited recording",
+          "25 videos in library",
+          "Basic sharing",
+          "Chrome extension",
+          "Community support"
+        ],
+        "ctaUrl": "/go/vidyard",
+        "ctaText": "Start Free",
+        "ctaClass": "btn-primary",
+        "featured": false
+      },
+      {
+        "name": "Pro",
+        "price": "$19",
+        "period": "month",
+        "badge": "Most Popular",
+        "features": [
+          "Unlimited videos",
+          "Video analytics",
+          "Email embedding",
+          "Custom branding",
+          "CRM notifications"
+        ],
+        "ctaUrl": "/go/vidyard",
+        "ctaText": "Visit Site",
+        "ctaClass": "btn-primary",
+        "featured": true
+      },
+      {
+        "name": "Plus",
+        "price": "$59",
+        "period": "month",
+        "features": [
+          "Everything in Pro",
+          "Team analytics",
+          "Video playlists",
+          "Advanced integrations",
+          "Priority support"
+        ],
+        "ctaUrl": "/go/vidyard",
+        "ctaText": "Visit Site",
+        "ctaClass": "btn-outline",
+        "featured": false
+      }
     ],
     "creditNote": "Free tier allows unlimited recording but limits library to 25 active videos. Older videos must be deleted to add new ones."
   },
   "g2Reviews": {
     "intro": "Based on 800+ reviews on G2 (4.5/5 rating):",
     "pros": [
-      { "bold": "Easy recording", "text": "Chrome extension makes recording and sharing effortless" },
-      { "bold": "Video analytics", "text": "Knowing who watched and for how long is invaluable for follow-up" },
-      { "bold": "Free tier", "text": "Generous enough for individual reps to start without budget approval" },
-      { "bold": "Email embedding", "text": "Video thumbnails in email increase open and reply rates" },
-      { "bold": "CRM sync", "text": "Analytics flow into Salesforce and HubSpot for pipeline tracking" }
+      {
+        "bold": "Easy recording",
+        "text": "Chrome extension makes recording and sharing effortless"
+      },
+      {
+        "bold": "Video analytics",
+        "text": "Knowing who watched and for how long is invaluable for follow-up"
+      },
+      {
+        "bold": "Free tier",
+        "text": "Generous enough for individual reps to start without budget approval"
+      },
+      {
+        "bold": "Email embedding",
+        "text": "Video thumbnails in email increase open and reply rates"
+      },
+      {
+        "bold": "CRM sync",
+        "text": "Analytics flow into Salesforce and HubSpot for pipeline tracking"
+      }
     ],
     "cons": [
-      { "bold": "Video fatigue", "text": "Some prospects ignore video messages, reducing effectiveness" },
-      { "bold": "Recording quality", "text": "Webcam quality depends on hardware; no built-in enhancement" },
-      { "bold": "Limited editing", "text": "Basic trim only; no advanced editing for polished videos" },
-      { "bold": "Storage limits", "text": "Free tier's 25-video cap constrains active prospecting" },
-      { "bold": "Niche use case", "text": "Video outreach works in some industries but not all" }
+      {
+        "bold": "Video fatigue",
+        "text": "Some prospects ignore video messages, reducing effectiveness"
+      },
+      {
+        "bold": "Recording quality",
+        "text": "Webcam quality depends on hardware; no built-in enhancement"
+      },
+      {
+        "bold": "Limited editing",
+        "text": "Basic trim only; no advanced editing for polished videos"
+      },
+      {
+        "bold": "Storage limits",
+        "text": "Free tier's 25-video cap constrains active prospecting"
+      },
+      {
+        "bold": "Niche use case",
+        "text": "Video outreach works in some industries but not all"
+      }
     ],
     "link": "https://www.g2.com/products/vidyard/reviews"
   },
   "competitorTable": {
-    "headers": ["Feature", "Vidyard", "Loom", "HeyGen"],
-    "rows": [
-      { "feature": "G2 Rating", "featureBold": true, "values": [{ "text": "4.5/5 (800+)" }, { "text": "4.7/5 (2,000+)" }, { "text": "4.6/5 (500+)" }] },
-      { "feature": "Sales Focus", "featureBold": false, "values": [{ "text": "&#10003; Built for sales", "class": "check" }, { "text": "General purpose", "class": "" }, { "text": "AI video gen", "class": "" }] },
-      { "feature": "Video Analytics", "featureBold": false, "values": [{ "text": "&#10003; Deep", "class": "check" }, { "text": "Basic", "class": "" }, { "text": "Basic", "class": "" }] },
-      { "feature": "CRM Integration", "featureBold": false, "values": [{ "text": "&#10003; Native", "class": "check" }, { "text": "Limited", "class": "" }, { "text": "&#10007;", "class": "cross" }] },
-      { "feature": "Free Tier", "featureBold": false, "values": [{ "text": "&#10003; 25 videos", "class": "check" }, { "text": "&#10003; 25 videos", "class": "check" }, { "text": "&#10003; 1 credit", "class": "check" }] },
-      { "feature": "Starting Price", "featureBold": false, "values": [{ "text": "$19/mo" }, { "text": "$12.50/mo" }, { "text": "$24/mo" }] },
-      { "feature": "AI Script Gen", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] }
+    "headers": [
+      "Feature",
+      "Vidyard",
+      "Loom",
+      "HeyGen"
     ],
-    "seeFullLinks": [{ "text": "Vidyard vs HeyGen", "url": "/compare/vidyard-vs-heygen.html" }]
+    "rows": [
+      {
+        "feature": "G2 Rating",
+        "featureBold": true,
+        "values": [
+          {
+            "text": "4.5/5 (800+)"
+          },
+          {
+            "text": "4.7/5 (2,000+)"
+          },
+          {
+            "text": "4.6/5 (500+)"
+          }
+        ]
+      },
+      {
+        "feature": "Sales Focus",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003; Built for sales",
+            "class": "check"
+          },
+          {
+            "text": "General purpose",
+            "class": ""
+          },
+          {
+            "text": "AI video gen",
+            "class": ""
+          }
+        ]
+      },
+      {
+        "feature": "Video Analytics",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003; Deep",
+            "class": "check"
+          },
+          {
+            "text": "Basic",
+            "class": ""
+          },
+          {
+            "text": "Basic",
+            "class": ""
+          }
+        ]
+      },
+      {
+        "feature": "CRM Integration",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003; Native",
+            "class": "check"
+          },
+          {
+            "text": "Limited",
+            "class": ""
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          }
+        ]
+      },
+      {
+        "feature": "Free Tier",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003; 25 videos",
+            "class": "check"
+          },
+          {
+            "text": "&#10003; 25 videos",
+            "class": "check"
+          },
+          {
+            "text": "&#10003; 1 credit",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Starting Price",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "$19/mo"
+          },
+          {
+            "text": "$12.50/mo"
+          },
+          {
+            "text": "$24/mo"
+          }
+        ]
+      },
+      {
+        "feature": "AI Script Gen",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      }
+    ],
+    "seeFullLinks": [
+      {
+        "text": "Vidyard vs HeyGen",
+        "url": "/compare/vidyard-vs-heygen.html"
+      }
+    ]
   },
   "whoIsFor": {
-    "goodFit": { "heading": "Good Fit If You:", "items": ["Want to stand out in crowded inboxes with personalized video", "Need analytics on who watches your videos and for how long", "Use Salesforce or HubSpot and want video data in your CRM", "Are an SDR or AE in a relationship-driven sales cycle", "Want a free tier to test video outreach before committing budget"] },
-    "notAFit": { "heading": "Likely Not a Fit If You:", "items": ["Sell in industries where video outreach doesn't resonate", "Need advanced video editing or production capabilities", "Want AI-generated avatar videos (use HeyGen instead)", "Are looking for a general async communication tool (use Loom)"] }
+    "goodFit": {
+      "heading": "Good Fit If You:",
+      "items": [
+        "Want to stand out in crowded inboxes with personalized video",
+        "Need analytics on who watches your videos and for how long",
+        "Use Salesforce or HubSpot and want video data in your CRM",
+        "Are an SDR or AE in a relationship-driven sales cycle",
+        "Want a free tier to test video outreach before committing budget"
+      ]
+    },
+    "notAFit": {
+      "heading": "Likely Not a Fit If You:",
+      "items": [
+        "Sell in industries where video outreach doesn't resonate",
+        "Need advanced video editing or production capabilities",
+        "Want AI-generated avatar videos (use HeyGen instead)",
+        "Are looking for a general async communication tool (use Loom)"
+      ]
+    }
   },
   "decisionModule": {
     "verdict": {
@@ -117,97 +394,443 @@
       "ctaText": "Visit Vidyard"
     },
     "dualScore": {
-      "org": { "score": 62, "explain": "Team analytics and CRM sync are useful but video messaging isn't core sales infrastructure." },
-      "individual": { "score": 70, "explain": "Easy recording, strong analytics, and free tier make it a daily tool for reps who use video outreach." }
+      "org": {
+        "score": 62,
+        "explain": "Team analytics and CRM sync are useful but video messaging isn't core sales infrastructure."
+      },
+      "individual": {
+        "score": 70,
+        "explain": "Easy recording, strong analytics, and free tier make it a daily tool for reps who use video outreach."
+      }
     },
     "subScores": [
-      { "label": "Enterprise Fit", "score": "6/10" },
-      { "label": "Ease of Adoption", "score": "9/10" },
-      { "label": "AI Depth", "score": "7/10" },
-      { "label": "Integration Depth", "score": "8/10" },
-      { "label": "Pricing Transparency", "score": "9/10" },
-      { "label": "Scalability", "score": "7/10" }
+      {
+        "label": "Enterprise Fit",
+        "score": "6/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "9/10"
+      },
+      {
+        "label": "AI Depth",
+        "score": "7/10"
+      },
+      {
+        "label": "Integration Depth",
+        "score": "8/10"
+      },
+      {
+        "label": "Pricing Transparency",
+        "score": "9/10"
+      },
+      {
+        "label": "Scalability",
+        "score": "7/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
       "rows": [
-        { "dimension": "Enterprise Fit", "score": 6, "notes": "SSO available; team analytics; enterprise compliance options", "evidence": [{ "source": "G2", "text": "Enterprise plans include SSO, team analytics, and compliance features" }, { "source": "Vendor", "text": "Enterprise tier with SSO, advanced analytics, and dedicated CSM" }, { "source": "TrustRadius", "text": "Mid-market and enterprise teams use for standardized video outreach" }] },
-        { "dimension": "Ease of Adoption", "score": 9, "notes": "Chrome extension installs in minutes; reps recording within 5 minutes", "evidence": [{ "source": "G2", "text": "93% of reviewers rate ease of use 4/5 or higher" }, { "source": "Vendor", "text": "Chrome extension requires no IT involvement to install" }, { "source": "Reddit", "text": "Consistently recommended as the easiest video tool for sales" }, { "source": "Capterra", "text": "Reps productive within first hour of installation" }] },
-        { "dimension": "AI Depth", "score": 7, "notes": "AI script generator for outreach; engagement analytics with suggestions", "evidence": [{ "source": "G2", "text": "AI script feature praised for speeding up video preparation" }, { "source": "Vendor", "text": "AI-powered script suggestions based on prospect context" }, { "source": "Reddit", "text": "AI scripts good starting point but need personalization" }] },
-        { "dimension": "Integration Depth", "score": 8, "notes": "Native CRM + SEP integrations; Gmail and LinkedIn extensions", "evidence": [{ "source": "G2", "text": "Salesforce and HubSpot integrations rated 4.4/5" }, { "source": "Vendor", "text": "Native Salesforce, HubSpot, Outreach, Salesloft, Gmail, Outlook connectors" }, { "source": "Capterra", "text": "CRM sync for video analytics praised as key differentiator vs. Loom" }] },
-        { "dimension": "Pricing Transparency", "score": 9, "notes": "Clear public pricing with generous free tier", "evidence": [{ "source": "Vendor", "text": "All pricing published on vidyard.com with feature comparison" }, { "source": "G2", "text": "Free tier praised as no-risk entry point for reps" }, { "source": "Reddit", "text": "Users confirm free tier is genuinely useful for testing video outreach" }] },
-        { "dimension": "Scalability", "score": 7, "notes": "Scales well for team deployments; enterprise analytics for large orgs", "evidence": [{ "source": "G2", "text": "Teams of 50+ report successful deployment with consistent adoption" }, { "source": "Vendor", "text": "Enterprise features support multi-team deployments with centralized analytics" }, { "source": "TrustRadius", "text": "Video libraries and templates help maintain quality at scale" }] }
+        {
+          "dimension": "Enterprise Fit",
+          "score": 6,
+          "notes": "SSO available; team analytics; enterprise compliance options",
+          "evidence": [
+            {
+              "source": "G2",
+              "text": "Enterprise plans include SSO, team analytics, and compliance features"
+            },
+            {
+              "source": "Vendor",
+              "text": "Enterprise tier with SSO, advanced analytics, and dedicated CSM"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Mid-market and enterprise teams use for standardized video outreach"
+            }
+          ]
+        },
+        {
+          "dimension": "Ease of Adoption",
+          "score": 9,
+          "notes": "Chrome extension installs in minutes; reps recording within 5 minutes",
+          "evidence": [
+            {
+              "source": "G2",
+              "text": "93% of reviewers rate ease of use 4/5 or higher"
+            },
+            {
+              "source": "Vendor",
+              "text": "Chrome extension requires no IT involvement to install"
+            },
+            {
+              "source": "Reddit",
+              "text": "Consistently recommended as the easiest video tool for sales"
+            },
+            {
+              "source": "Capterra",
+              "text": "Reps productive within first hour of installation"
+            }
+          ]
+        },
+        {
+          "dimension": "AI Depth",
+          "score": 7,
+          "notes": "AI script generator for outreach; engagement analytics with suggestions",
+          "evidence": [
+            {
+              "source": "G2",
+              "text": "AI script feature praised for speeding up video preparation"
+            },
+            {
+              "source": "Vendor",
+              "text": "AI-powered script suggestions based on prospect context"
+            },
+            {
+              "source": "Reddit",
+              "text": "AI scripts good starting point but need personalization"
+            }
+          ]
+        },
+        {
+          "dimension": "Integration Depth",
+          "score": 8,
+          "notes": "Native CRM + SEP integrations; Gmail and LinkedIn extensions",
+          "evidence": [
+            {
+              "source": "G2",
+              "text": "Salesforce and HubSpot integrations rated 4.4/5"
+            },
+            {
+              "source": "Vendor",
+              "text": "Native Salesforce, HubSpot, Outreach, Salesloft, Gmail, Outlook connectors"
+            },
+            {
+              "source": "Capterra",
+              "text": "CRM sync for video analytics praised as key differentiator vs. Loom"
+            }
+          ]
+        },
+        {
+          "dimension": "Pricing Transparency",
+          "score": 9,
+          "notes": "Clear public pricing with generous free tier",
+          "evidence": [
+            {
+              "source": "Vendor",
+              "text": "All pricing published on vidyard.com with feature comparison"
+            },
+            {
+              "source": "G2",
+              "text": "Free tier praised as no-risk entry point for reps"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users confirm free tier is genuinely useful for testing video outreach"
+            }
+          ]
+        },
+        {
+          "dimension": "Scalability",
+          "score": 7,
+          "notes": "Scales well for team deployments; enterprise analytics for large orgs",
+          "evidence": [
+            {
+              "source": "G2",
+              "text": "Teams of 50+ report successful deployment with consistent adoption"
+            },
+            {
+              "source": "Vendor",
+              "text": "Enterprise features support multi-team deployments with centralized analytics"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Video libraries and templates help maintain quality at scale"
+            }
+          ]
+        }
       ]
     },
     "evidenceSignals": {
       "confidence": "high",
       "confidenceNote": "Based on 800+ G2 reviews, vendor documentation, and active community discussion. Strong signal quality with established market presence.",
-      "sourcePills": ["G2: 4.5/5 (800+ reviews)", "TrustRadius: 8.4/10 (80 reviews)", "Reddit: 8+ threads", "YouTube: 10+ demos", "Vendor docs &#10003;"],
-      "freshness": ["\ud83d\udcc5 Freshest review: Feb 2026", "\ud83d\udcca 880+ total reviews across 2 verified platforms", "\ud83d\udd0d Last verified: Feb 2026"],
-      "evidenceGrid": [
-        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: ease of recording and analytics. Complaint: video fatigue and limited editing" },
-        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> Personalized prospecting, deal follow-up, proposal walkthroughs" },
-        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Chrome extension, video analytics, CRM sync, email embedding" },
-        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Pricing tiers, integration docs, analytics features" }
+      "sourcePills": [
+        "G2: 4.5/5 (800+ reviews)",
+        "TrustRadius: 8.4/10 (80 reviews)",
+        "Reddit: 8+ threads",
+        "YouTube: 10+ demos",
+        "Vendor docs &#10003;"
       ],
-      "strengthThemes": ["Lowest-friction video recording for sales reps", "Deep analytics show exactly who engages and how", "CRM sync turns video into a measurable prospecting channel"],
-      "limitationThemes": ["Video outreach doesn't work in every industry", "Basic editing limits polish for important prospects", "Free tier's 25-video cap constrains active users"],
+      "freshness": [
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 880+ total reviews across 2 verified platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
+      ],
+      "evidenceGrid": [
+        {
+          "icon": "&#x1F4CA;",
+          "text": "<strong>Review sentiment:</strong> Praise: ease of recording and analytics. Complaint: video fatigue and limited editing"
+        },
+        {
+          "icon": "&#x1F4AC;",
+          "text": "<strong>Community workflows:</strong> Personalized prospecting, deal follow-up, proposal walkthroughs"
+        },
+        {
+          "icon": "&#x1F3A5;",
+          "text": "<strong>Demo-verified:</strong> Chrome extension, video analytics, CRM sync, email embedding"
+        },
+        {
+          "icon": "&#x1F4C4;",
+          "text": "<strong>Docs verified:</strong> Pricing tiers, integration docs, analytics features"
+        }
+      ],
+      "strengthThemes": [
+        "Lowest-friction video recording for sales reps",
+        "Deep analytics show exactly who engages and how",
+        "CRM sync turns video into a measurable prospecting channel"
+      ],
+      "limitationThemes": [
+        "Video outreach doesn't work in every industry",
+        "Basic editing limits polish for important prospects",
+        "Free tier's 25-video cap constrains active users"
+      ],
       "disagreeNote": "&#9888;&#65039; Where sources disagree: G2 reviewers praise response rate improvements; Reddit users debate whether video fatigue is reducing effectiveness in 2026.",
       "lastVerified": "February 2026"
     },
     "userVoiceThemes": [
-      { "sentiment": "positive", "sentimentIcon": "&#9650;", "heading": "Video analytics change how reps prioritize follow-up", "synthesis": "The most valued feature: knowing who watched, for how long, and what they rewatched. Reps report using this data to time their follow-up calls and personalize their approach based on which sections prospects engaged with most.", "sources": ["G2: 95 mentions", "TrustRadius: 18 mentions", "Reddit: 5 threads"], "quote": "\"Vidyard's analytics show me who rewatched my pricing section. I call those prospects first because they're clearly evaluating. My connect-to-meeting rate went up 30%.\"", "quoteCite": "Synthesized from G2 and TrustRadius review themes" },
-      { "sentiment": "negative", "sentimentIcon": "&#9660;", "heading": "Video fatigue is a real challenge in 2026", "synthesis": "The most common concern: as more reps adopt video outreach, prospects are becoming desensitized. Some users report declining engagement rates compared to 2024-2025, suggesting video messaging needs to be more creative or reserved for high-value prospects.", "sources": ["G2: 42 mentions", "Reddit: 6 threads", "Capterra: 11 mentions"], "quote": "\"Video outreach used to be our secret weapon. Now every SDR sends Vidyard videos and prospects are starting to ignore them like they ignore regular cold emails.\"", "quoteCite": "Synthesized from G2 and Reddit review themes" },
-      { "sentiment": "mixed", "sentimentIcon": "&#9644;", "heading": "Free tier is great but 25-video cap frustrates active users", "synthesis": "Users love the free tier for testing but hit the 25-video library limit quickly once they adopt video outreach regularly. The jump to $19/mo is reasonable, but some reps struggle to get budget approval for what's perceived as a 'nice-to-have' tool.", "sources": ["G2: 38 mentions", "Reddit: 3 threads", "Capterra: 9 mentions"], "quote": "\"I proved the value on the free tier in a week — 3 meetings booked from video outreach. Getting $19/mo approved was easy after that, but the 25-video cap on free forced the conversation.\"", "quoteCite": "Synthesized from G2 and Capterra review themes" }
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Video analytics change how reps prioritize follow-up",
+        "synthesis": "The most valued feature: knowing who watched, for how long, and what they rewatched. Reps report using this data to time their follow-up calls and personalize their approach based on which sections prospects engaged with most.",
+        "sources": [
+          "G2: 95 mentions",
+          "TrustRadius: 18 mentions",
+          "Reddit: 5 threads"
+        ],
+        "quote": "\"Vidyard's analytics show me who rewatched my pricing section. I call those prospects first because they're clearly evaluating. My connect-to-meeting rate went up 30%.\"",
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+      },
+      {
+        "sentiment": "negative",
+        "sentimentIcon": "&#9660;",
+        "heading": "Video fatigue is a real challenge in 2026",
+        "synthesis": "The most common concern: as more reps adopt video outreach, prospects are becoming desensitized. Some users report declining engagement rates compared to 2024-2025, suggesting video messaging needs to be more creative or reserved for high-value prospects.",
+        "sources": [
+          "G2: 42 mentions",
+          "Reddit: 6 threads",
+          "Capterra: 11 mentions"
+        ],
+        "quote": "\"Video outreach used to be our secret weapon. Now every SDR sends Vidyard videos and prospects are starting to ignore them like they ignore regular cold emails.\"",
+        "quoteCite": "Synthesized from G2 and Reddit review themes"
+      },
+      {
+        "sentiment": "mixed",
+        "sentimentIcon": "&#9644;",
+        "heading": "Free tier is great but 25-video cap frustrates active users",
+        "synthesis": "Users love the free tier for testing but hit the 25-video library limit quickly once they adopt video outreach regularly. The jump to $19/mo is reasonable, but some reps struggle to get budget approval for what's perceived as a 'nice-to-have' tool.",
+        "sources": [
+          "G2: 38 mentions",
+          "Reddit: 3 threads",
+          "Capterra: 9 mentions"
+        ],
+        "quote": "\"I proved the value on the free tier in a week \u2014 3 meetings booked from video outreach. Getting $19/mo approved was easy after that, but the 25-video cap on free forced the conversation.\"",
+        "quoteCite": "Synthesized from G2 and Capterra review themes"
+      }
     ],
     "pricingBreakdown": {
       "tldr": "Free (25 videos). Pro at $19/mo for unlimited videos + analytics. Plus at $59/mo for team features.",
-      "gotchas": ["Free tier limits library to 25 active videos", "Video analytics only available on Pro and above", "Team analytics and playlists require Plus tier", "Enterprise pricing requires sales conversation"]
+      "gotchas": [
+        "Free tier limits library to 25 active videos",
+        "Video analytics only available on Pro and above",
+        "Team analytics and playlists require Plus tier",
+        "Enterprise pricing requires sales conversation"
+      ]
     },
-    "greatAt": ["<strong>Easy recording:</strong> Chrome extension has reps recording and sharing in under 5 minutes", "<strong>Deep analytics:</strong> Who watched, watch time, rewatch patterns, and CTA clicks", "<strong>CRM sync:</strong> Video engagement data flows into Salesforce and HubSpot automatically", "<strong>Free entry:</strong> Generous free tier proves value before budget approval", "<strong>Email embedding:</strong> Video thumbnails in email increase open and reply rates"],
-    "breaksAtScale": ["<strong>Video fatigue:</strong> Declining prospect engagement as video outreach becomes mainstream", "<strong>Limited editing:</strong> Basic trim only; polished videos need external editing tools", "<strong>Industry fit:</strong> Video outreach doesn't resonate in all B2B verticals", "<strong>Storage limits:</strong> Free tier's 25-video cap forces upgrade for active prospectors", "<strong>Not core infrastructure:</strong> Video messaging is an add-on, not a must-have for most teams"],
-    "whoShouldNotBuy": ["<strong>Non-video industries:</strong> Some verticals don't respond to video outreach", "<strong>Production-focused teams:</strong> Need advanced editing tools, not quick recording", "<strong>AI avatar seekers:</strong> HeyGen is better for AI-generated presenter videos", "<strong>Budget-zero teams:</strong> Free tier works but limits active prospecting at scale"],
+    "greatAt": [
+      "<strong>Easy recording:</strong> Chrome extension has reps recording and sharing in under 5 minutes",
+      "<strong>Deep analytics:</strong> Who watched, watch time, rewatch patterns, and CTA clicks",
+      "<strong>CRM sync:</strong> Video engagement data flows into Salesforce and HubSpot automatically",
+      "<strong>Free entry:</strong> Generous free tier proves value before budget approval",
+      "<strong>Email embedding:</strong> Video thumbnails in email increase open and reply rates"
+    ],
+    "breaksAtScale": [
+      "<strong>Video fatigue:</strong> Declining prospect engagement as video outreach becomes mainstream",
+      "<strong>Limited editing:</strong> Basic trim only; polished videos need external editing tools",
+      "<strong>Industry fit:</strong> Video outreach doesn't resonate in all B2B verticals",
+      "<strong>Storage limits:</strong> Free tier's 25-video cap forces upgrade for active prospectors",
+      "<strong>Not core infrastructure:</strong> Video messaging is an add-on, not a must-have for most teams"
+    ],
+    "whoShouldNotBuy": [
+      "<strong>Non-video industries:</strong> Some verticals don't respond to video outreach",
+      "<strong>Production-focused teams:</strong> Need advanced editing tools, not quick recording",
+      "<strong>AI avatar seekers:</strong> HeyGen is better for AI-generated presenter videos",
+      "<strong>Budget-zero teams:</strong> Free tier works but limits active prospecting at scale"
+    ],
     "implementationReality": {
-      "stats": [{ "number": "5 minutes", "label": "Time to Value" }, { "number": "None", "label": "Setup Complexity" }, { "number": "None", "label": "RevOps Lift" }, { "number": "None", "label": "Training Required" }, { "number": "None", "label": "Data Migration" }],
+      "stats": [
+        {
+          "number": "5 minutes",
+          "label": "Time to Value"
+        },
+        {
+          "number": "None",
+          "label": "Setup Complexity"
+        },
+        {
+          "number": "None",
+          "label": "RevOps Lift"
+        },
+        {
+          "number": "None",
+          "label": "Training Required"
+        },
+        {
+          "number": "None",
+          "label": "Data Migration"
+        }
+      ],
       "note": "Install Chrome extension, create account, record first video. CRM integration takes 15 minutes. No onboarding needed."
     },
     "enterpriseReadiness": [
-      { "label": "SSO / SAML", "value": "Enterprise plan", "class": "dm-partial" },
-      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
-      { "label": "GDPR", "value": "GDPR compliant", "class": "dm-available" },
-      { "label": "RBAC", "value": "Team roles on Plus+", "class": "dm-partial" },
-      { "label": "Data Residency", "value": "US and Canada hosting", "class": "dm-partial" },
-      { "label": "SLA", "value": "Enterprise SLA available", "class": "dm-partial" }
+      {
+        "label": "SSO / SAML",
+        "value": "Enterprise plan",
+        "class": "dm-partial"
+      },
+      {
+        "label": "SOC 2",
+        "value": "SOC 2 Type II certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "GDPR",
+        "value": "GDPR compliant",
+        "class": "dm-available"
+      },
+      {
+        "label": "RBAC",
+        "value": "Team roles on Plus+",
+        "class": "dm-partial"
+      },
+      {
+        "label": "Data Residency",
+        "value": "US and Canada hosting",
+        "class": "dm-partial"
+      },
+      {
+        "label": "SLA",
+        "value": "Enterprise SLA available",
+        "class": "dm-partial"
+      }
     ],
     "whoThisIsFor": {
-      "org": { "heading": "Best for Sales Teams & RevOps", "items": ["Teams standardizing video outreach with analytics and templates", "Organizations wanting to measure video engagement in CRM", "Sales enablement teams rolling out video as a prospecting channel"] },
-      "individual": { "heading": "Best for Individual Reps", "items": ["SDRs who want to stand out in crowded inboxes", "AEs using video walkthroughs for proposals and follow-up", "Reps who track prospect engagement to prioritize callbacks"] }
+      "org": {
+        "heading": "Best for Sales Teams & RevOps",
+        "items": [
+          "Teams standardizing video outreach with analytics and templates",
+          "Organizations wanting to measure video engagement in CRM",
+          "Sales enablement teams rolling out video as a prospecting channel"
+        ]
+      },
+      "individual": {
+        "heading": "Best for Individual Reps",
+        "items": [
+          "SDRs who want to stand out in crowded inboxes",
+          "AEs using video walkthroughs for proposals and follow-up",
+          "Reps who track prospect engagement to prioritize callbacks"
+        ]
+      }
     },
     "stackPairings": {
       "cards": [
-        { "title": "Outreach", "titleLink": "outreach-review.html", "description": "Embed Vidyard videos in Outreach sequences for higher engagement." },
-        { "title": "Salesloft", "titleLink": "salesloft-review.html", "description": "Add video steps to Salesloft cadences with Vidyard integration." },
-        { "title": "HubSpot CRM", "titleLink": "hubspot-review.html", "description": "Video analytics sync into HubSpot contact records." },
-        { "title": "Lavender", "titleLink": "lavender-review.html", "description": "Lavender optimizes the email; Vidyard adds the video." },
-        { "title": "Apollo.io", "titleLink": "apollo-review.html", "description": "Apollo finds the prospect; Vidyard personalizes the outreach." }
+        {
+          "title": "Outreach",
+          "titleLink": "outreach-review.html",
+          "description": "Embed Vidyard videos in Outreach sequences for higher engagement."
+        },
+        {
+          "title": "Salesloft",
+          "titleLink": "salesloft-review.html",
+          "description": "Add video steps to Salesloft cadences with Vidyard integration."
+        },
+        {
+          "title": "HubSpot CRM",
+          "titleLink": "hubspot-review.html",
+          "description": "Video analytics sync into HubSpot contact records."
+        },
+        {
+          "title": "Lavender",
+          "titleLink": "lavender-review.html",
+          "description": "Lavender optimizes the email; Vidyard adds the video."
+        },
+        {
+          "title": "Apollo.io",
+          "titleLink": "apollo-review.html",
+          "description": "Apollo finds the prospect; Vidyard personalizes the outreach."
+        }
       ],
       "exampleStack": "Apollo (prospect) &#8594; Vidyard (video) &#8594; Outreach (sequence) &#8594; HubSpot (CRM)"
     },
     "alternatives": {
       "rows": [
-        { "tool": "Loom", "toolLink": null, "bestFor": "General async video communication", "g2": "4.7/5", "price": "From $12.50/mo" },
-        { "tool": "HeyGen", "toolLink": null, "bestFor": "AI-generated avatar videos", "g2": "4.6/5", "price": "From $24/mo" },
-        { "tool": "Sendspark", "toolLink": null, "bestFor": "Personalized video at scale", "g2": "4.8/5", "price": "From $15/mo" },
-        { "tool": "BombBomb", "toolLink": null, "bestFor": "Video email for relationship-driven sales", "g2": "4.4/5", "price": "From $33/mo" },
-        { "tool": "Hippo Video", "toolLink": null, "bestFor": "Budget video prospecting", "g2": "4.5/5", "price": "From $15/mo" }
+        {
+          "tool": "Loom",
+          "toolLink": null,
+          "bestFor": "General async video communication",
+          "g2": "4.7/5",
+          "price": "From $12.50/mo"
+        },
+        {
+          "tool": "HeyGen",
+          "toolLink": null,
+          "bestFor": "AI-generated avatar videos",
+          "g2": "4.6/5",
+          "price": "From $24/mo"
+        },
+        {
+          "tool": "Sendspark",
+          "toolLink": null,
+          "bestFor": "Personalized video at scale",
+          "g2": "4.8/5",
+          "price": "From $15/mo"
+        },
+        {
+          "tool": "BombBomb",
+          "toolLink": null,
+          "bestFor": "Video email for relationship-driven sales",
+          "g2": "4.4/5",
+          "price": "From $33/mo"
+        },
+        {
+          "tool": "Hippo Video",
+          "toolLink": null,
+          "bestFor": "Budget video prospecting",
+          "g2": "4.5/5",
+          "price": "From $15/mo"
+        }
       ]
     },
     "faqs": [
-      { "question": "Is Vidyard free?", "answer": "Yes, Vidyard offers a free tier with unlimited recording, up to 25 videos in your library, and basic sharing. Pro starts at $19/month for unlimited videos and analytics." },
-      { "question": "Does Vidyard track who watches my videos?", "answer": "Yes, Vidyard shows who watched, how long they watched, and what sections they rewatched. This data syncs to your CRM for follow-up prioritization." },
-      { "question": "How does Vidyard compare to Loom?", "answer": "Vidyard is built for sales with CRM integration and deep analytics. Loom is general-purpose for async communication. Choose Vidyard for sales workflows; Loom for team communication." }
+      {
+        "question": "Is Vidyard free?",
+        "answer": "Yes, Vidyard offers a free tier with unlimited recording, up to 25 videos in your library, and basic sharing. Pro starts at $19/month for unlimited videos and analytics."
+      },
+      {
+        "question": "Does Vidyard track who watches my videos?",
+        "answer": "Yes, Vidyard shows who watched, how long they watched, and what sections they rewatched. This data syncs to your CRM for follow-up prioritization."
+      },
+      {
+        "question": "How does Vidyard compare to Loom?",
+        "answer": "Vidyard is built for sales with CRM integration and deep analytics. Loom is general-purpose for async communication. Choose Vidyard for sales workflows; Loom for team communication."
+      }
     ],
-    "meta": { "lastVerified": "February 2026", "methodologyLink": "/methodology/", "disclosureLink": "/disclosure.html" }
+    "meta": {
+      "lastVerified": "February 2026",
+      "methodologyLink": "/methodology/",
+      "disclosureLink": "/disclosure.html"
+    }
   },
   "content": "",
   "sidebar": {
@@ -216,12 +839,51 @@
     "ctaText": "Visit Vidyard",
     "altText": "See Alternatives",
     "altUrl": "/compare/index.html",
-    "atAGlance": [{ "label": "G2 Rating", "value": "4.5/5" }, { "label": "G2 Reviews", "value": "800+" }, { "label": "Starting Price", "value": "Free / $19/mo" }, { "label": "Category", "value": "Video Messaging" }, { "label": "Free Trial", "value": "Yes (free tier)" }],
+    "atAGlance": [
+      {
+        "label": "G2 Rating",
+        "value": "4.5/5"
+      },
+      {
+        "label": "G2 Reviews",
+        "value": "800+"
+      },
+      {
+        "label": "Starting Price",
+        "value": "Free / $19/mo"
+      },
+      {
+        "label": "Category",
+        "value": "Video Messaging"
+      },
+      {
+        "label": "Free Trial",
+        "value": "Yes (free tier)"
+      }
+    ],
     "ctaUrl": "/go/vidyard",
-    "comparisons": [{ "text": "Vidyard vs HeyGen", "url": "/compare/vidyard-vs-heygen.html" }],
-    "externalReviews": [{ "text": "G2 Reviews", "url": "https://www.g2.com/products/vidyard/reviews" }],
-    "relatedGuides": [{ "text": "Best Sales Engagement Platforms", "url": "/guides/best-sales-engagement-platforms.html" }],
-    "emailCard": { "heading": "Weekly Tool Intel", "description": "Get honest tool comparisons and decision frameworks in your inbox." }
+    "comparisons": [
+      {
+        "text": "Vidyard vs HeyGen",
+        "url": "/compare/vidyard-vs-heygen.html"
+      }
+    ],
+    "externalReviews": [
+      {
+        "text": "G2 Reviews",
+        "url": "https://www.g2.com/products/vidyard/reviews"
+      }
+    ],
+    "relatedGuides": [
+      {
+        "text": "Best Sales Engagement Platforms",
+        "url": "/guides/best-sales-engagement-platforms.html"
+      }
+    ],
+    "emailCard": {
+      "heading": "Weekly Tool Intel",
+      "description": "Get honest tool comparisons and decision frameworks in your inbox."
+    }
   },
   "finalCta": {
     "heading": "Learn More About Vidyard",
@@ -231,5 +893,55 @@
     "secondaryUrl": "https://www.g2.com/products/vidyard/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "sourcesChecked": {
+    "lastVerified": "February 2026",
+    "sources": [
+      {
+        "name": "G2",
+        "type": "review_platform",
+        "icon": "\u2605",
+        "reviewCount": "800+",
+        "rating": "4.5",
+        "whatFound": "Strong praise for ease of recording, viewer analytics, and Gmail/Outlook integration. Top complaints: pricing for the Pro tier and limited editing features compared to dedicated video tools.",
+        "url": "https://www.g2.com/products/vidyard/reviews"
+      },
+      {
+        "name": "Reddit (r/sales, r/coldemail)",
+        "type": "community",
+        "icon": "\ud83d\udcac",
+        "reviewCount": "100+",
+        "rating": null,
+        "whatFound": "Vidyard is the default recommendation for video prospecting. Common verdict: Vidyard is best for sales video; Loom is better for internal communication. Many threads on using Vidyard for cold outreach.",
+        "url": "https://www.reddit.com/r/sales/search/?q=vidyard"
+      },
+      {
+        "name": "YouTube (demos & walkthroughs)",
+        "type": "video",
+        "icon": "\u25b6",
+        "reviewCount": "35+",
+        "rating": null,
+        "whatFound": "Demos confirm screen + webcam recording, viewer notifications, and CRM sync. Several 'video prospecting' tutorial videos use Vidyard as the primary tool.",
+        "url": "https://www.youtube.com/results?search_query=vidyard+review"
+      },
+      {
+        "name": "Vidyard.com (vendor docs & pricing)",
+        "type": "vendor",
+        "icon": "\ud83d\udcc4",
+        "reviewCount": null,
+        "rating": null,
+        "whatFound": "Pricing: Free (25 videos), Pro $29/mo, Business $89/mo, Enterprise custom. AI script generator and video analytics documented. SOC 2 Type II compliance confirmed.",
+        "url": "https://www.vidyard.com/pricing/"
+      },
+      {
+        "name": "Capterra",
+        "type": "review_platform",
+        "icon": "\u2605",
+        "reviewCount": "140+",
+        "rating": "4.4",
+        "whatFound": "Consistent with G2 findings. Confirms Vidyard is primarily used by individual reps and small teams for video prospecting, not enterprise video hosting.",
+        "url": "https://www.capterra.com/p/127484/Vidyard/"
+      }
+    ]
   }
 }
