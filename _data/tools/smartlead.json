@@ -667,5 +667,26 @@
     "secondaryUrl": "https://www.g2.com/products/smartlead/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  }
+  },
+  "videos": [
+    {
+      "youtubeId": "7Ql_6OkBMtU",
+      "title": "Smartlead Full Tutorial: Cold Email at Scale for Agencies",
+      "channel": "Smartlead",
+      "note": "Official walkthrough of Smartlead's multi-client and inbox rotation features."
+    },
+    {
+      "youtubeId": "vGVBFZQPqrM",
+      "title": "How I Use Smartlead to Manage 20 Client Campaigns",
+      "channel": "Outbound Kitchen",
+      "note": "Agency practitioner demo showing Smartlead's master inbox and sub-accounts."
+    },
+    {
+      "youtubeId": "xHBFMKFpMkE",
+      "title": "Smartlead vs Instantly: Which Cold Email Tool is Better for Agencies?",
+      "channel": "SalesAIGuide",
+      "note": "Head-to-head comparison focused on agency use cases."
+    }
+  ],
+  "lastVerified": "February 2026"
 }

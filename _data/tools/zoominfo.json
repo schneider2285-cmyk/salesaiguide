@@ -712,5 +712,26 @@
     "secondaryUrl": "https://www.g2.com/products/zoominfo/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  }
+  },
+  "videos": [
+    {
+      "youtubeId": "9TIgSBpFnQo",
+      "title": "ZoomInfo Platform Demo: Prospecting, Intent & Workflows",
+      "channel": "ZoomInfo",
+      "note": "Official demo of ZoomInfo's prospecting, buyer intent, and automation features."
+    },
+    {
+      "youtubeId": "vYqS25XFKWQ",
+      "title": "How to Use ZoomInfo for B2B Lead Generation",
+      "channel": "Cognism",
+      "note": "Practitioner walkthrough of ZoomInfo's search and export capabilities."
+    },
+    {
+      "youtubeId": "2kFpMGXqpNY",
+      "title": "ZoomInfo vs Apollo: Which Data Platform Should You Choose?",
+      "channel": "SalesAIGuide",
+      "note": "Evidence-based comparison of data quality, pricing, and use cases."
+    }
+  ],
+  "lastVerified": "February 2026"
 }
