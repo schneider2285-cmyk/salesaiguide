@@ -1,3 +1,8 @@
 node_modules/
 _site/
 .DS_Store
+
+# Dashboard server runtime data
+dashboard-server/db/*.db
+dashboard-server/db/*.db-wal
+dashboard-server/db/*.db-shm

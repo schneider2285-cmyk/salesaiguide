@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SalesAIGuide — Operations Dashboard</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+:root {
+  --bg: #0f1117;
+  --surface: #1a1d27;
+  --surface2: #222633;
+  --border: rgba(255,255,255,0.08);
+  --text: #e4e4e7;
+  --text-muted: rgba(255,255,255,0.5);
+  --accent: #00c2a8;
+  --accent2: #3b82f6;
+  --green: #22c55e;
+  --yellow: #eab308;
+  --red: #ef4444;
+  --grey: #6b7280;
+  --radius: 8px;
+  --font: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  font-size: 13px;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.pw-gate {
+  position: fixed; inset: 0; z-index: 9999;
+  background: var(--bg);
+  display: flex; align-items: center; justify-content: center;
+  flex-direction: column; gap: 16px;
+}
+.pw-gate h1 { font-size: 20px; color: var(--accent); font-weight: 700; }
+.pw-gate p { color: var(--text-muted); font-size: 12px; }
+.pw-input {
+  padding: 10px 16px; width: 280px; border-radius: var(--radius);
+  background: var(--surface); border: 1px solid var(--border);
+  color: var(--text); font-family: var(--font); font-size: 14px;
+  outline: none;
+}
+.pw-input:focus { border-color: var(--accent); }
+.pw-btn {
+  padding: 10px 32px; border-radius: var(--radius);
+  background: var(--accent); color: #000; font-weight: 700;
+  border: none; cursor: pointer; font-family: var(--font); font-size: 13px;
+}
+.pw-btn:hover { opacity: 0.9; }
+.pw-error { color: var(--red); font-size: 12px; min-height: 18px; }
+
+.dashboard { display: none; max-width: 1400px; margin: 0 auto; padding: 24px 20px; }
+.header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding-bottom: 20px; border-bottom: 1px solid var(--border); margin-bottom: 24px;
+  flex-wrap: wrap; gap: 12px;
+}
+.header-left { display: flex; align-items: center; gap: 16px; }
+.logo { font-size: 16px; font-weight: 800; letter-spacing: -0.5px; }
+.logo span { color: var(--accent); }
+.logo .sep { color: var(--text-muted); font-weight: 400; margin: 0 6px; }
+.header-meta { color: var(--text-muted); font-size: 11px; }
+.header-right { display: flex; align-items: center; gap: 12px; }
+.refresh-btn {
+  padding: 6px 14px; border-radius: var(--radius);
+  background: rgba(255,255,255,0.06); border: 1px solid var(--border);
+  color: var(--text-muted); font-family: var(--font); font-size: 11px;
+  cursor: pointer; transition: all 0.2s;
+}
+.refresh-btn:hover { background: rgba(255,255,255,0.1); color: var(--text); }
+.refresh-btn.loading { opacity: 0.5; pointer-events: none; }
+.auto-badge { font-size: 10px; color: var(--accent); opacity: 0.7; }
+
+.section-title {
+  font-size: 14px; font-weight: 700; margin-bottom: 16px;
+  display: flex; align-items: center; gap: 8px;
+}
+.section-title::before {
+  content: ''; display: block; width: 3px; height: 16px;
+  background: var(--accent); border-radius: 2px;
+}
+
+.stats-bar {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px; margin-bottom: 32px;
+}
+.stat-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 20px;
+}
+.stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+.stat-value { font-size: 28px; font-weight: 800; color: var(--accent); }
+.stat-sub { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+
+.agent-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 12px; margin-bottom: 32px;
+}
+.agent-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px; transition: border-color 0.2s;
+}
+.agent-card:hover { border-color: rgba(255,255,255,0.15); }
+.agent-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+.agent-name { font-size: 13px; font-weight: 700; }
+.agent-schedule { font-size: 10px; color: var(--text-muted); margin-top: 2px; }
+.status-badge {
+  padding: 3px 8px; border-radius: 4px; font-size: 10px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.3px; white-space: nowrap;
+}
+.status-ok { background: rgba(34,197,94,0.15); color: var(--green); }
+.status-warning { background: rgba(234,179,8,0.15); color: var(--yellow); }
+.status-action_required { background: rgba(239,68,68,0.15); color: var(--red); }
+.status-error { background: rgba(239,68,68,0.15); color: var(--red); }
+.status-not_run { background: rgba(107,114,128,0.15); color: var(--grey); }
+.agent-meta { font-size: 11px; color: var(--text-muted); margin-bottom: 8px; }
+.agent-summary { font-size: 12px; color: var(--text); line-height: 1.5; margin-bottom: 8px; }
+.agent-toggle {
+  font-size: 11px; color: var(--accent); cursor: pointer;
+  background: none; border: none; font-family: var(--font); padding: 0;
+}
+.agent-toggle:hover { text-decoration: underline; }
+.agent-details { display: none; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); }
+.agent-details.open { display: block; }
+.finding-item {
+  font-size: 11px; padding: 4px 0; color: var(--text-muted);
+  display: flex; align-items: flex-start; gap: 6px;
+}
+.finding-icon { flex-shrink: 0; }
+.finding-icon.info { color: var(--accent2); }
+.finding-icon.warning { color: var(--yellow); }
+.finding-icon.ok { color: var(--green); }
+.action-item {
+  font-size: 11px; color: var(--red); padding: 3px 0;
+  display: flex; align-items: flex-start; gap: 6px;
+}
+
+.table-wrap { overflow-x: auto; margin-bottom: 32px; }
+table {
+  width: 100%; border-collapse: collapse;
+  background: var(--surface); border-radius: var(--radius);
+  border: 1px solid var(--border); font-size: 12px;
+}
+th {
+  text-align: left; padding: 10px 14px; font-size: 11px;
+  color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.3px;
+  background: var(--surface2); border-bottom: 1px solid var(--border);
+}
+td { padding: 10px 14px; border-bottom: 1px solid var(--border); }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: rgba(255,255,255,0.02); }
+.aff-active { color: var(--green); }
+.aff-pending { color: var(--yellow); }
+.aff-no_program { color: var(--grey); }
+.aff-broken { color: var(--red); }
+
+.progress-section { margin-bottom: 32px; }
+.phase-group { margin-bottom: 8px; }
+.phase-header {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 14px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); cursor: pointer; transition: background 0.2s;
+}
+.phase-header:hover { background: var(--surface2); }
+.phase-chevron {
+  font-size: 10px; color: var(--text-muted); transition: transform 0.2s; flex-shrink: 0;
+}
+.phase-chevron.open { transform: rotate(90deg); }
+.phase-name { font-size: 12px; font-weight: 700; flex: 1; }
+.phase-bar-wrap {
+  width: 120px; height: 6px; background: rgba(255,255,255,0.08);
+  border-radius: 3px; overflow: hidden; flex-shrink: 0;
+}
+.phase-bar {
+  height: 100%; background: var(--accent); border-radius: 3px; transition: width 0.4s ease;
+}
+.phase-pct { font-size: 11px; color: var(--text-muted); width: 45px; text-align: right; flex-shrink: 0; }
+.phase-tasks { display: none; padding: 8px 14px 4px 28px; }
+.phase-tasks.open { display: block; }
+.task-item {
+  display: flex; align-items: flex-start; gap: 8px; padding: 3px 0;
+  font-size: 11px; color: var(--text-muted);
+}
+.task-item.done { opacity: 0.6; }
+.task-check { flex-shrink: 0; }
+.task-check.done { color: var(--green); }
+.task-check.pending { color: rgba(255,255,255,0.2); }
+.task-owner {
+  font-size: 9px; padding: 1px 5px; border-radius: 3px; margin-left: 4px;
+  background: rgba(255,255,255,0.06); color: var(--text-muted); flex-shrink: 0;
+}
+
+.activity-feed { margin-bottom: 32px; }
+.activity-item {
+  display: flex; align-items: flex-start; gap: 12px;
+  padding: 10px 14px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); margin-bottom: 6px; cursor: pointer;
+  transition: background 0.2s;
+}
+.activity-item:hover { background: var(--surface2); }
+.activity-date { font-size: 11px; color: var(--text-muted); white-space: nowrap; flex-shrink: 0; width: 80px; }
+.activity-agent { font-size: 11px; font-weight: 700; white-space: nowrap; flex-shrink: 0; width: 180px; }
+.activity-summary { font-size: 11px; color: var(--text-muted); flex: 1; }
+.activity-details { display: none; padding: 8px 0 0 92px; }
+.activity-details.open { display: block; }
+
+.loading-msg { text-align: center; padding: 60px 20px; color: var(--text-muted); }
+
+@media (max-width: 768px) {
+  .stats-bar { grid-template-columns: repeat(2, 1fr); }
+  .agent-grid { grid-template-columns: 1fr; }
+  .header { flex-direction: column; align-items: flex-start; }
+  .phase-bar-wrap { width: 60px; }
+  .activity-agent { width: 120px; }
+}
+@media (max-width: 480px) {
+  .stats-bar { grid-template-columns: 1fr; }
+  .stat-value { font-size: 22px; }
+}
+</style>
+</head>
+<body>
+
+<div class="pw-gate" id="pw-gate">
+  <h1>SalesAIGuide</h1>
+  <p>Operations Dashboard — Authorized Access Only</p>
+  <input class="pw-input" type="password" id="pw-input" placeholder="Enter password" autofocus>
+  <button class="pw-btn" id="pw-btn">Unlock</button>
+  <div class="pw-error" id="pw-error"></div>
+</div>
+
+<div class="dashboard" id="dashboard">
+  <div class="header">
+    <div class="header-left">
+      <div class="logo">Sales<span>AI</span>Guide<span class="sep">/</span>Operations Dashboard</div>
+      <div class="header-meta">Last updated: <span id="last-updated">—</span></div>
+    </div>
+    <div class="header-right">
+      <span class="auto-badge">Auto-refresh 60s</span>
+      <button class="refresh-btn" id="refresh-btn" title="Refresh now">&#8635; Refresh</button>
+    </div>
+  </div>
+
+  <div class="section-title">Site Health</div>
+  <div class="stats-bar" id="stats-bar">
+    <div class="stat-card"><div class="stat-label">Total Pages</div><div class="stat-value" id="stat-pages">—</div></div>
+    <div class="stat-card"><div class="stat-label">Tasks Complete</div><div class="stat-value" id="stat-tasks">—</div><div class="stat-sub" id="stat-tasks-sub"></div></div>
+    <div class="stat-card"><div class="stat-label">Active Affiliates</div><div class="stat-value" id="stat-affiliates">—</div></div>
+    <div class="stat-card"><div class="stat-label">Agent Runs (7d)</div><div class="stat-value" id="stat-runs">—</div></div>
+  </div>
+
+  <div class="section-title">Agent Status</div>
+  <div class="agent-grid" id="agent-grid"></div>
+
+  <div class="section-title">Affiliate Health</div>
+  <div class="table-wrap">
+    <table id="affiliate-table">
+      <thead><tr><th>Tool</th><th>Redirect</th><th>Status</th><th>Commission</th><th>Last Checked</th><th>Notes</th></tr></thead>
+      <tbody id="affiliate-tbody"></tbody>
+    </table>
+  </div>
+
+  <div class="section-title">Build Progress</div>
+  <div class="progress-section" id="progress-section"></div>
+
+  <div class="section-title">Recent Agent Activity</div>
+  <div class="activity-feed" id="activity-feed"></div>
+</div>
+
+<script>
+(function() {
+  var API_BASE_URL = 'http://localhost:3001';
+  var REFRESH_INTERVAL = 60000;
+  var PW_KEY = 'sag-dashboard-auth';
+  var PW_HASH = '6d1e3b714561e7b62c0317221b08ffaff8789b397402c331110fdc1b4266b82e';
+
+  var AGENT_SCHEDULES = {
+    'site-validator': 'Daily @ 8:00 AM',
+    'evidence-refresher': 'Monday @ 9:00 AM',
+    'affiliate-health': 'Daily @ 10:00 AM',
+    'seo-monitor': 'Friday @ 9:00 AM',
+    'competitor-intel': 'Friday @ 10:00 AM',
+    'new-tool-scout': 'Wednesday @ 9:00 AM',
+    'revenue-optimization': 'Monday @ 10:00 AM',
+    'growth-strategy': '1st Monday/month'
+  };
+
+  var ALL_AGENTS = [
+    'site-validator', 'evidence-refresher', 'affiliate-health', 'seo-monitor',
+    'competitor-intel', 'new-tool-scout', 'revenue-optimization', 'growth-strategy'
+  ];
+
+  // Password gate
+  async function sha256(str) {
+    var buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+    return Array.from(new Uint8Array(buf)).map(function(b) { return b.toString(16).padStart(2, '0'); }).join('');
+  }
+
+  async function checkPassword() {
+    var input = document.getElementById('pw-input');
+    var hash = await sha256(input.value);
+    if (hash === PW_HASH) {
+      sessionStorage.setItem(PW_KEY, '1');
+      document.getElementById('pw-gate').style.display = 'none';
+      document.getElementById('dashboard').style.display = 'block';
+      loadDashboard();
+    } else {
+      document.getElementById('pw-error').textContent = 'Incorrect password.';
+      input.value = '';
+      input.focus();
+    }
+  }
+
+  document.getElementById('pw-btn').addEventListener('click', checkPassword);
+  document.getElementById('pw-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') checkPassword();
+  });
+
+  if (sessionStorage.getItem(PW_KEY) === '1') {
+    document.getElementById('pw-gate').style.display = 'none';
+    document.getElementById('dashboard').style.display = 'block';
+    loadDashboard();
+  }
+
+  // Dashboard loading
+  var refreshTimer = null;
+  function loadDashboard() {
+    fetchData();
+    if (refreshTimer) clearInterval(refreshTimer);
+    refreshTimer = setInterval(fetchData, REFRESH_INTERVAL);
+  }
+
+  async function fetchData() {
+    var btn = document.getElementById('refresh-btn');
+    btn.classList.add('loading');
+    btn.textContent = 'Loading...';
+    try {
+      var resp = await fetch(API_BASE_URL + '/api/dashboard/status');
+      if (!resp.ok) throw new Error('API returned ' + resp.status);
+      var data = await resp.json();
+      renderDashboard(data);
+    } catch (err) {
+      console.error('Dashboard fetch error:', err);
+      document.getElementById('last-updated').textContent = 'Error: ' + err.message;
+    } finally {
+      btn.classList.remove('loading');
+      btn.textContent = '\u21BB Refresh';
+    }
+  }
+
+  document.getElementById('refresh-btn').addEventListener('click', fetchData);
+
+  // Render
+  function renderDashboard(data) {
+    renderHeader(data);
+    renderStats(data);
+    renderAgents(data);
+    renderAffiliates(data);
+    renderProgress(data);
+    renderActivity(data);
+  }
+
+  function renderHeader(data) {
+    var dt = new Date(data.last_updated);
+    document.getElementById('last-updated').textContent = dt.toLocaleString();
+  }
+
+  function renderStats(data) {
+    var pages = data.metrics.total_pages;
+    document.getElementById('stat-pages').textContent = pages ? pages.value : '—';
+    document.getElementById('stat-tasks').textContent = data.tasks.done + '/' + data.tasks.total;
+    document.getElementById('stat-tasks-sub').textContent = Math.round((data.tasks.done / data.tasks.total) * 100) + '% complete';
+    var activeAff = data.affiliates.filter(function(a) { return a.status === 'active'; }).length;
+    document.getElementById('stat-affiliates').textContent = activeAff;
+    document.getElementById('stat-runs').textContent = data.runs_this_week;
+  }
+
+  function renderAgents(data) {
+    var grid = document.getElementById('agent-grid');
+    var agentMap = {};
+    data.agents.forEach(function(a) { agentMap[a.agent_id] = a; });
+
+    var html = ALL_AGENTS.map(function(agentId) {
+      var agent = agentMap[agentId];
+      var schedule = AGENT_SCHEDULES[agentId] || '—';
+
+      if (!agent) {
+        return '<div class="agent-card"><div class="agent-header"><div><div class="agent-name">' + esc(formatAgentName(agentId)) + '</div><div class="agent-schedule">' + schedule + '</div></div><span class="status-badge status-not_run">Not Run</span></div><div class="agent-meta">No data yet</div></div>';
+      }
+
+      var statusClass = 'status-' + agent.status;
+      var statusText = formatStatus(agent.status);
+      var hasFindings = agent.findings && agent.findings.length > 0;
+      var hasActions = agent.actions_required && agent.actions_required.length > 0;
+
+      var findingsHtml = '';
+      if (hasFindings) {
+        findingsHtml = agent.findings.map(function(f) {
+          var icon = f.type === 'warning' ? '\u26A0' : f.type === 'ok' ? '\u2713' : '\u2139';
+          var iconClass = f.type || 'info';
+          return '<div class="finding-item"><span class="finding-icon ' + iconClass + '">' + icon + '</span>' + esc(f.message) + '</div>';
+        }).join('');
+      }
+
+      var actionsHtml = '';
+      if (hasActions) {
+        actionsHtml = '<div style="margin-top:6px;font-size:11px;font-weight:700;color:var(--red);">Actions Required:</div>';
+        actionsHtml += agent.actions_required.map(function(a) {
+          var msg = typeof a === 'string' ? a : (a.message || JSON.stringify(a));
+          return '<div class="action-item"><span>\u25B8</span>' + esc(msg) + '</div>';
+        }).join('');
+      }
+
+      var detailId = 'detail-' + agentId;
+      var toggleBtn = (hasFindings || hasActions)
+        ? '<button class="agent-toggle" onclick="toggleDetail(\'' + detailId + '\')">\u25B8 Details</button>'
+        : '';
+
+      return '<div class="agent-card"><div class="agent-header"><div><div class="agent-name">' + esc(agent.agent_name) + '</div><div class="agent-schedule">' + schedule + '</div></div><span class="status-badge ' + statusClass + '">' + statusText + '</span></div><div class="agent-meta">Last run: ' + esc(agent.run_date) + '</div><div class="agent-summary">' + esc(agent.summary) + '</div>' + toggleBtn + '<div class="agent-details" id="' + detailId + '">' + findingsHtml + actionsHtml + '</div></div>';
+    }).join('');
+
+    setContent(grid, html);
+  }
+
+  window.toggleDetail = function(id) {
+    var el = document.getElementById(id);
+    if (el) el.classList.toggle('open');
+  };
+
+  function renderAffiliates(data) {
+    var tbody = document.getElementById('affiliate-tbody');
+    var html = data.affiliates.map(function(a) {
+      var statusClass = 'aff-' + a.status;
+      var statusText = formatAffStatus(a.status);
+      return '<tr><td style="font-weight:700;text-transform:capitalize;">' + esc(a.tool) + '</td><td><a href="' + escAttr(a.redirect_url) + '" target="_blank" rel="noopener">' + esc(truncUrl(a.redirect_url)) + '</a></td><td><span class="' + statusClass + '">' + statusText + '</span></td><td>' + (a.commission ? esc(a.commission) : '\u2014') + '</td><td>' + (a.last_checked || '\u2014') + '</td><td style="color:var(--text-muted);">' + (a.notes ? esc(a.notes) : '\u2014') + '</td></tr>';
+    }).join('');
+    setContent(tbody, html);
+  }
+
+  function renderProgress(data) {
+    var section = document.getElementById('progress-section');
+    if (!data.tasks.by_phase || data.tasks.by_phase.length === 0) {
+      setContent(section, '<div class="loading-msg">No task data</div>');
+      return;
+    }
+
+    var tasksByPhase = {};
+    data.tasks.all.forEach(function(t) {
+      if (!tasksByPhase[t.phase]) tasksByPhase[t.phase] = [];
+      tasksByPhase[t.phase].push(t);
+    });
+
+    var html = data.tasks.by_phase.map(function(phase, idx) {
+      var pct = phase.total > 0 ? Math.round((phase.done / phase.total) * 100) : 0;
+      var phaseId = 'phase-' + idx;
+      var phaseTasks = tasksByPhase[phase.phase] || [];
+
+      var tasksHtml = phaseTasks.map(function(t) {
+        var check = t.done ? '<span class="task-check done">\u2713</span>' : '<span class="task-check pending">\u25CB</span>';
+        var doneClass = t.done ? ' done' : '';
+        var ownerTag = '<span class="task-owner">' + esc(t.owner) + '</span>';
+        return '<div class="task-item' + doneClass + '">' + check + '<span>' + esc(t.label) + '</span>' + ownerTag + '</div>';
+      }).join('');
+
+      return '<div class="phase-group"><div class="phase-header" onclick="togglePhase(\'' + phaseId + '\')"><span class="phase-chevron" id="chev-' + phaseId + '">\u25B8</span><span class="phase-name">' + esc(phase.phase_label) + '</span><div class="phase-bar-wrap"><div class="phase-bar" style="width:' + pct + '%"></div></div><span class="phase-pct">' + phase.done + '/' + phase.total + '</span></div><div class="phase-tasks" id="' + phaseId + '">' + tasksHtml + '</div></div>';
+    }).join('');
+
+    setContent(section, html);
+  }
+
+  window.togglePhase = function(id) {
+    var tasks = document.getElementById(id);
+    var chev = document.getElementById('chev-' + id);
+    if (tasks) {
+      tasks.classList.toggle('open');
+      if (chev) chev.classList.toggle('open');
+    }
+  };
+
+  function renderActivity(data) {
+    var feed = document.getElementById('activity-feed');
+    if (!data.recent_activity || data.recent_activity.length === 0) {
+      setContent(feed, '<div class="loading-msg">No recent activity</div>');
+      return;
+    }
+
+    var html = data.recent_activity.map(function(run, idx) {
+      var statusClass = 'status-' + run.status;
+      var statusText = formatStatus(run.status);
+      var actId = 'act-' + idx;
+
+      var detailsHtml = '';
+      if (run.findings && run.findings.length > 0) {
+        detailsHtml = run.findings.map(function(f) {
+          var icon = f.type === 'warning' ? '\u26A0' : f.type === 'ok' ? '\u2713' : '\u2139';
+          return '<div class="finding-item"><span class="finding-icon ' + (f.type || 'info') + '">' + icon + '</span>' + esc(f.message) + '</div>';
+        }).join('');
+      }
+
+      return '<div class="activity-item" onclick="toggleDetail(\'' + actId + '\')"><span class="activity-date">' + esc(run.run_date) + '</span><span class="activity-agent">' + esc(run.agent_name) + ' <span class="status-badge ' + statusClass + '" style="font-size:9px;padding:2px 5px;">' + statusText + '</span></span><span class="activity-summary">' + esc(run.summary) + '</span></div>' + (detailsHtml ? '<div class="activity-details" id="' + actId + '">' + detailsHtml + '</div>' : '');
+    }).join('');
+
+    setContent(feed, html);
+  }
+
+  // Helpers
+  function formatAgentName(id) {
+    return id.split('-').map(function(w) { return w.charAt(0).toUpperCase() + w.slice(1); }).join(' ');
+  }
+
+  function formatStatus(status) {
+    var m = { ok: 'OK', warning: 'Warning', action_required: 'Action Required', error: 'Error' };
+    return m[status] || status;
+  }
+
+  function formatAffStatus(status) {
+    var m = { active: 'Active', pending: 'Pending', no_program: 'No Program', broken: 'Broken' };
+    return m[status] || status;
+  }
+
+  function esc(str) {
+    if (!str) return '';
+    var d = document.createElement('div');
+    d.textContent = String(str);
+    return d.innerHTML;
+  }
+
+  function escAttr(str) {
+    return String(str || '').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+
+  function truncUrl(url) {
+    if (!url) return '\u2014';
+    try {
+      var u = new URL(url);
+      return u.hostname + (u.pathname !== '/' ? u.pathname : '') + (u.search ? '...' : '');
+    } catch(e) { return url.substring(0, 40); }
+  }
+
+  // Safe content setter — all data comes from our own API and is escaped via esc()
+  function setContent(el, htmlStr) {
+    while (el.firstChild) el.removeChild(el.firstChild);
+    var temp = document.createElement('template');
+    temp.innerHTML = htmlStr;
+    el.appendChild(temp.content);
+  }
+
+})();
+</script>
+</body>
+</html>
