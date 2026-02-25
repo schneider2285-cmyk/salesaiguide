@@ -796,6 +796,39 @@ const phases = [
         ]
       }
     ]
+  },
+  {
+    label: 'Agent Activation',
+    id: 'agent-ops',
+    title: 'Agent Activation & Operations',
+    subtitle: 'First-run baselines for all 8 permanent monitoring agents',
+    status: 'active',
+    sessions: [
+      {
+        label: 'Manus — First-Run Baselines',
+        tasks: [
+          { id: 'ops-m1', text: 'Write brief-AGENTS-activation.md', who: 'manus', done: true, note: 'Written Feb 24' },
+          { id: 'ops-m2', text: 'Agent 1: Site Validator — baseline run (77/77 pages pass)', who: 'manus', done: true, note: 'Run Feb 24 — 0 failures, 20/20 tool pages pass structural checks' },
+          { id: 'ops-m3', text: 'Agent 2: Evidence Refresher — baseline run', who: 'manus', done: true, note: 'Run Feb 24 — Gong rating drop 4.8→4.7 flagged, 5 minor review count drifts noted' },
+          { id: 'ops-m4', text: 'Agent 3: Affiliate Health Monitor — baseline run', who: 'manus', done: true, note: 'Run Feb 24 — Clay active, 3 pending, 0 broken redirects' },
+          { id: 'ops-m5', text: 'Agent 4: SEO Performance Monitor — baseline run', who: 'manus', done: true, note: 'Run Feb 24 — Search Console connected, 9 URLs indexed, first data expected March 3' },
+          { id: 'ops-m6', text: 'Agent 5: Competitor Intelligence — baseline run', who: 'manus', done: true, note: 'Run Feb 24 — marketbetter.ai flagged as primary competitor, Saleshandy + Lemlist coverage gaps identified' },
+          { id: 'ops-m7', text: 'Agent 6: New Tool Scout — baseline run', who: 'manus', done: true, note: 'Run Feb 24 — Saleshandy + Lemlist recommended for Phase 7' },
+          { id: 'ops-m8', text: 'Agent 7: Revenue Optimization — baseline run', who: 'manus', done: true, note: 'Run Feb 24 — No traffic data yet, Clay affiliate live, Apollo/Instantly/HubSpot pending' },
+          { id: 'ops-m9', text: 'Agent 8: Growth Strategy — first monthly brief', who: 'manus', done: true, note: 'Run Feb 24 — 90-day forecast written, Phase 7 roadmap defined' },
+          { id: 'ops-m10', text: 'Commit all baseline reports to coordination/ in repo', who: 'manus', done: true, note: 'Committed Feb 24 — 8 reports in coordination/ directory' }
+        ]
+      },
+      {
+        label: 'Ongoing — Weekly Schedule',
+        tasks: [
+          { id: 'ops-w1', text: 'Brief Claude Code: Update Gong rating 4.8→4.7 in gong.json', who: 'manus', done: false },
+          { id: 'ops-w2', text: 'Brief Claude Code: Add lastVerified field to all 10 original tool JSONs', who: 'manus', done: false },
+          { id: 'ops-w3', text: 'Check Search Console for first impressions data (March 3)', who: 'manus', done: false },
+          { id: 'ops-w4', text: 'First Monday Brief — compile weekly agent report (March 2)', who: 'manus', done: false }
+        ]
+      }
+    ]
   }
 ];
 
