@@ -31,6 +31,7 @@
 /go/recapped      https://recapped.io?ref=salesaiguide       302
 
 # New tool redirects
+/go/loom          https://loom.com?ref=salesaiguide              302
 /go/11x           https://11x.ai?ref=salesaiguide              302
 /go/artisan       https://artisan.com?ref=salesaiguide          302
 /go/aisdr         https://aisdr.com?ref=salesaiguide            302
