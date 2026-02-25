@@ -536,9 +536,16 @@
           "title": "Lavender",
           "titleLink": "lavender-review.html",
           "description": "Optimize email copy with Lavender before loading into Smartlead campaigns."
+        },
+        {
+          "title": "Gong",
+          "titleLink": "gong-review.html",
+          "description": "Gong analyses reply calls booked from Smartlead campaigns for coaching signals."
         }
       ],
-      "exampleStack": "Apollo (leads) &#8594; Clay (enrich) &#8594; Smartlead (send) &#8594; HubSpot (CRM)"
+      "exampleStack": "Apollo (leads) &#8594; Clay (enrich) &#8594; Lavender (coach) &#8594; Smartlead (send) &#8594; HubSpot (CRM)",
+      "replaces": "Instantly (for teams needing deeper inbox rotation), Mailshake, Saleshandy",
+      "avoidWith": "Salesloft or Outreach — those platforms include sending; Smartlead would be redundant"
     },
     "alternatives": {
       "rows": [

@@ -523,9 +523,16 @@
           "title": "Apollo.io",
           "titleLink": "apollo-review.html",
           "description": "Write better emails for Apollo-sourced prospects."
+        },
+        {
+          "title": "Clay",
+          "titleLink": "clay-review.html",
+          "description": "Clay personalisation tokens feed Lavender's AI suggestions for hyper-relevant openers."
         }
       ],
-      "exampleStack": "Apollo (prospect) &#8594; Lavender (coach) &#8594; Instantly (send) &#8594; HubSpot (CRM)"
+      "exampleStack": "Clay (enrich + personalise) &#8594; Lavender (coach) &#8594; Outreach (sequence) &#8594; Gong (calls) &#8594; HubSpot (CRM)",
+      "replaces": "Autobound, Regie.ai (for email coaching specifically)",
+      "avoidWith": "If your team sends fewer than 20 emails/day — the ROI on coaching tools is low at low volume"
     },
     "alternatives": {
       "rows": [

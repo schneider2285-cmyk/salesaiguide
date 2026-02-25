@@ -1651,3 +1651,98 @@
         opacity: 1;
     }
 }
+
+/* ═══════════════════════════════════════════════════
+   STACK FIT — REPLACES + AVOID WITH CARDS
+═══════════════════════════════════════════════════ */
+.stack-meta-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1.25rem;
+}
+@media (max-width: 640px) {
+    .stack-meta-row { grid-template-columns: 1fr; }
+}
+.stack-meta-card {
+    border-radius: 8px;
+    padding: 0.875rem 1rem;
+    border: 1px solid;
+}
+.stack-replaces {
+    background: #f0fdf4;
+    border-color: #bbf7d0;
+}
+.stack-avoid {
+    background: #fffbeb;
+    border-color: #fde68a;
+}
+.stack-meta-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.35rem;
+}
+.stack-replaces .stack-meta-label { color: #065f46; }
+.stack-avoid .stack-meta-label { color: #92400e; }
+.stack-meta-card p {
+    font-size: 0.875rem;
+    color: var(--text-body, #4a5568);
+    margin: 0;
+    line-height: 1.55;
+}
+
+/* ═══════════════════════════════════════════════════
+   VIDEO SECTION
+═══════════════════════════════════════════════════ */
+.dm-video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.25rem;
+    margin-top: 0.5rem;
+}
+.dm-video-card {
+    background: var(--warm-card, #fff);
+    border: 1px solid var(--warm-border, #e2e8f0);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.dm-video-embed {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    background: #000;
+}
+.dm-video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.dm-video-meta {
+    padding: 0.75rem 1rem;
+}
+.dm-video-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--navy-dark, #1a202c);
+    margin: 0 0 0.25rem;
+    line-height: 1.4;
+}
+.dm-video-channel {
+    font-size: 0.78rem;
+    color: var(--accent, #2ec4b6);
+    font-weight: 500;
+    margin: 0 0 0.25rem;
+}
+.dm-video-note {
+    font-size: 0.78rem;
+    color: var(--text-light, #718096);
+    margin: 0;
+    line-height: 1.5;
+}
