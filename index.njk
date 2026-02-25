@@ -76,52 +76,81 @@ extraHead: |
         }
         </script>
 ---
-<!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Compare <span class="highlight">AI Sales Tools</span> Side by Side</h1>
-                <p class="hero-subtitle">An operator-filtered decision engine for 75+ AI sales tools. We synthesize reviews, community signals, vendor docs, and real demos into scores, stack fit, and honest tradeoffs.</p>
-                <div class="hero-cta">
-                    <a href="/compare/index.html" class="btn btn-primary">Compare Tools</a>
-                    <a href="/tools/index.html" class="btn btn-secondary">Browse Tools</a>
-                </div>
-                <div class="hero-byline">
-                    <span>Evidence from 8+ source types &bull; Pricing from vendor sites &bull; AI-assisted analysis &bull; <a href="/methodology/" style="color: var(--accent);">Our methodology</a></span>
-                </div>
+<!-- Hero Section — v4 -->
+    <section class="hero-v4">
+      <div class="container">
+        <div class="hero-v4-inner">
+          <div class="hero-v4-left">
+            <div class="hero-eyebrow">Evidence-Based AI Sales Tool Research</div>
+            <h1 class="hero-v4-h1">The Decision Engine for <span class="hero-accent">AI Sales Tools</span></h1>
+            <p class="hero-v4-sub">We synthesize G2 ratings, Reddit threads, vendor docs, and community signals into structured Decision Snapshots — so you can choose the right tool in minutes, not weeks.</p>
+            <div class="hero-v4-ctas">
+              <a href="#featured-tools" class="btn btn-primary btn-lg">Browse Top Tools</a>
+              <a href="/categories/" class="btn btn-outline btn-lg">Browse by Category</a>
             </div>
+          </div>
+          <div class="hero-v4-right">
+            <div class="hero-stats-bar">
+              <div class="hero-stat">
+                <span class="hero-stat-num">32</span>
+                <span class="hero-stat-label">Tools Reviewed</span>
+              </div>
+              <div class="hero-stat">
+                <span class="hero-stat-num">32</span>
+                <span class="hero-stat-label">Comparisons</span>
+              </div>
+              <div class="hero-stat">
+                <span class="hero-stat-num">14</span>
+                <span class="hero-stat-label">Categories</span>
+              </div>
+              <div class="hero-stat">
+                <span class="hero-stat-num">8</span>
+                <span class="hero-stat-label">Evidence Sources</span>
+              </div>
+            </div>
+            <div class="hero-score-explainer">
+              <div class="score-pill org-pill">
+                <span class="score-pill-label">Org Score</span>
+                <span class="score-pill-desc">Value for the company buying the tool</span>
+              </div>
+              <div class="score-pill rep-pill">
+                <span class="score-pill-label">Rep Score</span>
+                <span class="score-pill-desc">Value for the individual using it daily</span>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Wave: Hero → Featured Tools -->
-    <div class="section-wave" role="presentation" aria-hidden="true">
-        <svg viewBox="0 0 1440 56" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="display:block;width:100%;height:56px;">
-            <path d="M0 0L60 4.7C120 9.3 240 18.7 360 23.3C480 28 600 28 720 23.3C840 18.7 960 9.3 1080 7C1200 4.7 1320 9.3 1380 11.7L1440 14V56H1380C1320 56 1200 56 1080 56C960 56 840 56 720 56C600 56 480 56 360 56C240 56 120 56 60 56H0V0Z" fill="#f5f1eb"/>
-        </svg>
-    </div>
-
-    <!-- Dual-Persona Pathway -->
-    <section class="persona-pathway">
-        <div class="container">
-            <div class="section-header">
-                <h2>What Kind of Buyer Are You?</h2>
-                <p>We score every tool for both organizational fit and individual rep value.</p>
-            </div>
-            <div class="pathway-grid">
-                <a href="/tools/index.html" class="pathway-card org">
-                    <div class="pathway-icon">&#x1F3E2;</div>
-                    <h3>I'm Buying for a Sales Team</h3>
-                    <p>Compare tools on enterprise fit, integration depth, scalability, and admin control &mdash; the dimensions that matter when rolling out to 10+ reps.</p>
-                    <span class="pathway-cta">Browse team-fit scores</span>
-                </a>
-                <a href="/tools/index.html" class="pathway-card individual">
-                    <div class="pathway-icon">&#x1F9D1;&#x200D;&#x1F4BB;</div>
-                    <h3>I'm an Individual Rep</h3>
-                    <p>See which tools you can adopt on your own &mdash; scored on ease of setup, AI usefulness, pricing transparency, and whether you need your manager's approval.</p>
-                    <span class="pathway-cta">Browse rep-friendly scores</span>
-                </a>
-            </div>
+    <!-- Persona Entry Points -->
+    <section class="persona-entry-section">
+      <div class="container">
+        <div class="persona-entry-header">
+          <h2>Find Tools for Your Role</h2>
+          <p>Different roles need different tools. We've curated the best picks for each.</p>
         </div>
+        <div class="persona-entry-grid">
+          <a href="/for-sales-reps/" class="persona-entry-card">
+            <div class="persona-entry-icon">&#128100;</div>
+            <div class="persona-entry-label">Sales Reps</div>
+            <div class="persona-entry-desc">Self-serve tools you can buy and use today — no IT approval needed.</div>
+            <div class="persona-entry-cta">See rep tools &#8250;</div>
+          </a>
+          <a href="/for-sales-managers/" class="persona-entry-card">
+            <div class="persona-entry-icon">&#128202;</div>
+            <div class="persona-entry-label">Sales Managers</div>
+            <div class="persona-entry-desc">Coaching, pipeline visibility, and team engagement platforms.</div>
+            <div class="persona-entry-cta">See manager tools &#8250;</div>
+          </a>
+          <a href="/for-revenue-ops/" class="persona-entry-card">
+            <div class="persona-entry-icon">&#9881;</div>
+            <div class="persona-entry-label">Revenue Ops</div>
+            <div class="persona-entry-desc">Data infrastructure, enrichment, and GTM stack architecture.</div>
+            <div class="persona-entry-cta">See RevOps tools &#8250;</div>
+          </a>
+        </div>
+      </div>
     </section>
 
     <!-- SEO Intro -->
@@ -539,6 +568,29 @@ extraHead: |
                 </a>
             </div>
         </div>
+    </section>
+
+    <!-- Methodology Trust Bar -->
+    <section class="methodology-bar">
+      <div class="container">
+        <div class="methodology-bar-inner">
+          <div class="methodology-bar-left">
+            <h2>How We Score Tools</h2>
+            <p>Every score is built from 8 categories of public evidence — not vendor claims, not sponsored content.</p>
+            <a href="/methodology/" class="methodology-link">Read our full methodology &#8250;</a>
+          </div>
+          <div class="methodology-sources">
+            <div class="source-item"><span class="source-icon">&#11088;</span><span>G2 &amp; Capterra ratings</span></div>
+            <div class="source-item"><span class="source-icon">&#128172;</span><span>Reddit &amp; community threads</span></div>
+            <div class="source-item"><span class="source-icon">&#127909;</span><span>Video walkthroughs</span></div>
+            <div class="source-item"><span class="source-icon">&#128196;</span><span>Vendor documentation</span></div>
+            <div class="source-item"><span class="source-icon">&#128293;</span><span>LinkedIn practitioner posts</span></div>
+            <div class="source-item"><span class="source-icon">&#128200;</span><span>Pricing page analysis</span></div>
+            <div class="source-item"><span class="source-icon">&#128101;</span><span>User interview signals</span></div>
+            <div class="source-item"><span class="source-icon">&#128269;</span><span>Competitor comparisons</span></div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Wave: Comparisons → Categories -->
