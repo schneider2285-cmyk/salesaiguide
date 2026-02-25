@@ -64,6 +64,34 @@ extraCss:
         </div>
     </div>
 
+    <div class="quick-verdict-bar">
+        <div class="container">
+            <div class="qv-inner">
+                <div class="qv-label">Quick Verdict</div>
+                <div class="qv-items">
+                    <div class="qv-item qv-best">
+                        <span class="qv-item-label">Best for</span>
+                        <span class="qv-item-value">{{ t.decisionModule.verdict.bestFor | truncate(90) }}</span>
+                    </div>
+                    <div class="qv-item qv-avoid">
+                        <span class="qv-item-label">Avoid if</span>
+                        <span class="qv-item-value">{% if t.decisionModule.whoShouldNotBuy | length %}{{ t.decisionModule.whoShouldNotBuy[0] | striptags | truncate(80) }}{% else %}Not the right fit for every team — see full review{% endif %}</span>
+                    </div>
+                    {% for sub in t.decisionModule.subScores %}
+                    {% if sub.label == "Enterprise Fit" or sub.label == "Ease of Adoption" or sub.label == "AI Depth" %}
+                    <div class="qv-item qv-score">
+                        <span class="qv-item-label">{{ sub.label }}</span>
+                        <span class="qv-item-value qv-score-val">
+                            <span class="qv-score-num">{{ sub.score }}</span>
+                            <span class="qv-score-bar"><span class="qv-score-fill" style="width:{{ sub.score | replace('/10','') | int * 10 }}%"></span></span>
+                        </span>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
     <nav class="journey-bar" id="journey-bar">
       <div class="container">
         <div class="journey-tabs">
