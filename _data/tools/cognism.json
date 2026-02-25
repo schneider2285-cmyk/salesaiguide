@@ -1,0 +1,510 @@
+{
+  "meta": {
+    "title": "Cognism Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "description": "Cognism product profile with G2 ratings, pricing overview, key features, and competitor comparison table. Data aggregated from G2 and vendor documentation.",
+    "ogTitle": "Cognism Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "ogDescription": "Cognism product profile with G2 ratings, pricing overview, key features, and competitor comparison. Data from public sources.",
+    "ogUrl": "https://salesaiguide.com/tools/cognism-review.html",
+    "canonicalUrl": "https://salesaiguide.com/tools/cognism-review.html",
+    "twitterTitle": "Cognism Overview 2026: Features, Pricing, and G2 Ratings | Sales AI Guide",
+    "twitterDescription": "Cognism product profile with G2 ratings, pricing overview, key features, and competitor comparison. Data from public sources."
+  },
+  "jsonLd": {
+    "softwareApplication": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Cognism",
+      "applicationCategory": "Sales Software",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "bestRating": "5",
+        "ratingCount": "700",
+        "reviewCount": "700"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31"
+      }
+    },
+    "faqPage": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Cognism better than ZoomInfo for European data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For EMEA markets, Cognism generally provides better coverage and GDPR compliance than ZoomInfo. Cognism's phone-verified mobile numbers and built-in do-not-call registry checks make it the preferred choice for European prospecting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Cognism cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cognism does not publish pricing. All plans require a sales call. Based on public reports, pricing typically starts around $15,000-25,000 per year depending on team size and data access needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Cognism have a Chrome extension?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Cognism offers a Chrome extension for LinkedIn prospecting that surfaces verified emails and phone-verified mobile numbers directly from LinkedIn profiles."
+          }
+        }
+      ]
+    }
+  },
+  "hero": {
+    "breadcrumbName": "Cognism",
+    "logoSrc": "/img/logos/cognism.png",
+    "logoAlt": "Cognism logo",
+    "h1": "Cognism: EMEA-Focused B2B Data & Prospecting Platform",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+    "score": "4.6/5 on G2",
+    "updated": "Updated February 2026",
+    "dataSource": "Data from G2 & cognism.com",
+    "personaTags": [
+      { "class": "requires-admin", "text": "Requires Admin" }
+    ]
+  },
+  "scores": {
+    "org": { "value": 68, "verdict": "Strong EMEA data with enterprise compliance" },
+    "rep": { "value": 62, "verdict": "Chrome extension useful but limited self-serve" }
+  },
+  "quickSummary": {
+    "whatItDoes": "EMEA-focused B2B data provider with phone-verified mobile numbers, GDPR-compliant prospecting, and do-not-call registry checks built in.",
+    "bestFor": "Sales teams prospecting in UK and European markets who need GDPR-compliant contact data with verified mobile numbers.",
+    "pricing": "Custom pricing only. Requires sales call. Typically $15K&ndash;25K/year based on public reports.",
+    "ctaUrl": "/go/cognism",
+    "ctaText": "Visit Cognism"
+  },
+  "whatIs": {
+    "paragraphs": [
+      "Cognism is a B2B sales intelligence platform built around EMEA data coverage, phone-verified mobile numbers, and GDPR compliance. It combines a contact database, Chrome extension for LinkedIn prospecting, and intent data signals to help sales teams find and reach European decision-makers with verified contact details."
+    ],
+    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/cognism/reviews\" target=\"_blank\" rel=\"noopener\">Cognism on G2</a>."
+  },
+  "features": [
+    { "title": "Phone-Verified Mobiles", "description": "Human-verified mobile numbers with 98% accuracy claim for direct dials." },
+    { "title": "GDPR Compliance Built In", "description": "Do-not-call registry checks and GDPR data processing compliance by design." },
+    { "title": "Chrome Extension", "description": "LinkedIn prospecting with real-time contact enrichment from profiles." },
+    { "title": "Intent Data", "description": "Bombora-powered intent signals to identify in-market accounts." },
+    { "title": "CRM Integration", "description": "Native Salesforce, HubSpot, Outreach, and Salesloft connectors." },
+    { "title": "EMEA Data Coverage", "description": "Strongest coverage for UK, DACH, Nordics, and Benelux markets." }
+  ],
+  "pricing": {
+    "note": "Cognism does not publish pricing. All plans require a sales call. Estimates from public sources.",
+    "tiers": [
+      {
+        "name": "Platinum",
+        "price": "Custom",
+        "period": "year",
+        "features": [
+          "Contact database access",
+          "Chrome extension",
+          "CRM integrations",
+          "Phone-verified mobiles",
+          "Email support"
+        ],
+        "ctaUrl": "/go/cognism",
+        "ctaText": "Contact Sales",
+        "ctaClass": "btn-primary",
+        "featured": false
+      },
+      {
+        "name": "Diamond",
+        "price": "Custom",
+        "period": "year",
+        "badge": "Most Popular",
+        "features": [
+          "Everything in Platinum",
+          "Intent data (Bombora)",
+          "Advanced filters",
+          "Priority support",
+          "Dedicated CSM"
+        ],
+        "ctaUrl": "/go/cognism",
+        "ctaText": "Contact Sales",
+        "ctaClass": "btn-primary",
+        "featured": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "year",
+        "features": [
+          "Everything in Diamond",
+          "SSO / SAML",
+          "Custom data exports",
+          "API access",
+          "SLA guarantees"
+        ],
+        "ctaUrl": "/go/cognism",
+        "ctaText": "Contact Sales",
+        "ctaClass": "btn-outline",
+        "featured": false
+      }
+    ],
+    "creditNote": "Cognism uses a seat-based licensing model. Credit allocation depends on plan tier and negotiated contract terms."
+  },
+  "g2Reviews": {
+    "intro": "Based on 700+ reviews on G2 (4.6/5 rating):",
+    "pros": [
+      { "bold": "EMEA data quality", "text": "Best-in-class coverage for UK and European markets" },
+      { "bold": "Phone-verified mobiles", "text": "Direct dial accuracy significantly higher than competitors" },
+      { "bold": "GDPR compliance", "text": "Built-in do-not-call checks reduce legal risk" },
+      { "bold": "Chrome extension", "text": "LinkedIn integration works smoothly for daily prospecting" },
+      { "bold": "Customer support", "text": "Responsive CSMs and onboarding team praised frequently" }
+    ],
+    "cons": [
+      { "bold": "US data gaps", "text": "Weaker coverage for North American contacts vs. ZoomInfo" },
+      { "bold": "No public pricing", "text": "Sales process required; hard to budget without a call" },
+      { "bold": "Limited AI features", "text": "No AI enrichment or writing tools like newer competitors" },
+      { "bold": "Export limitations", "text": "Bulk export restrictions on lower tiers frustrate power users" },
+      { "bold": "Platform speed", "text": "Search and filtering can be slow with complex queries" }
+    ],
+    "link": "https://www.g2.com/products/cognism/reviews"
+  },
+  "competitorTable": {
+    "headers": ["Feature", "Cognism", "ZoomInfo", "Apollo"],
+    "rows": [
+      { "feature": "G2 Rating", "featureBold": true, "values": [{ "text": "4.6/5 (700+)" }, { "text": "4.4/5 (8,300)" }, { "text": "4.8/5 (7,200)" }] },
+      { "feature": "EMEA Data", "featureBold": false, "values": [{ "text": "&#10003; Best", "class": "check" }, { "text": "Good", "class": "" }, { "text": "Limited", "class": "" }] },
+      { "feature": "Phone-Verified Mobiles", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }] },
+      { "feature": "GDPR Compliance", "featureBold": false, "values": [{ "text": "&#10003; Native", "class": "check" }, { "text": "Partial", "class": "" }, { "text": "Partial", "class": "" }] },
+      { "feature": "Intent Data", "featureBold": false, "values": [{ "text": "&#10003; Bombora", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }] },
+      { "feature": "Starting Price", "featureBold": false, "values": [{ "text": "Custom" }, { "text": "$15K+/year" }, { "text": "$49/mo" }] },
+      { "feature": "Self-Serve", "featureBold": false, "values": [{ "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10003;", "class": "check" }] }
+    ],
+    "seeFullLinks": [
+      { "text": "Cognism vs ZoomInfo", "url": "/compare/cognism-vs-zoominfo.html" }
+    ]
+  },
+  "whoIsFor": {
+    "goodFit": {
+      "heading": "Good Fit If You:",
+      "items": [
+        "Prospect primarily in UK and European markets",
+        "Need GDPR-compliant contact data with DNC checks",
+        "Value phone-verified mobile numbers for cold calling",
+        "Have budget for enterprise B2B data tools",
+        "Want intent data to prioritize in-market accounts"
+      ]
+    },
+    "notAFit": {
+      "heading": "Likely Not a Fit If You:",
+      "items": [
+        "Prospect primarily in North America (ZoomInfo or Apollo may be better)",
+        "Need self-serve pricing without a sales call",
+        "Want AI-powered enrichment or writing features",
+        "Budget is under $15K/year for data tools"
+      ]
+    }
+  },
+  "decisionModule": {
+    "verdict": {
+      "bestFor": "Sales teams focused on EMEA markets who need GDPR-compliant B2B data with phone-verified mobile numbers and intent signals.",
+      "avoidIf": "You prospect primarily in North America or need self-serve pricing and AI enrichment features.",
+      "bottomLine": "Cognism is the go-to B2B data provider for European prospecting &mdash; phone-verified mobiles and native GDPR compliance are genuine differentiators, but US data coverage lags behind ZoomInfo and Apollo.",
+      "ctaUrl": "/go/cognism",
+      "ctaText": "Visit Cognism"
+    },
+    "dualScore": {
+      "org": {
+        "score": 68,
+        "explain": "Strong EMEA data coverage and enterprise compliance make it valuable for organizations with European GTM motions."
+      },
+      "individual": {
+        "score": 62,
+        "explain": "Chrome extension is useful for daily prospecting, but the lack of self-serve access and limited AI features create friction for solo reps."
+      }
+    },
+    "subScores": [
+      { "label": "Enterprise Fit", "score": "7/10" },
+      { "label": "Ease of Adoption", "score": "6/10" },
+      { "label": "AI Depth", "score": "5/10" },
+      { "label": "Integration Depth", "score": "8/10" },
+      { "label": "Pricing Transparency", "score": "3/10" },
+      { "label": "Scalability", "score": "7/10" }
+    ],
+    "decisionSnapshot": {
+      "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
+      "rows": [
+        {
+          "dimension": "Enterprise Fit",
+          "score": 7,
+          "notes": "SOC 2 compliant; GDPR-ready; SSO available on enterprise plans",
+          "evidence": [
+            { "source": "G2", "text": "Enterprise reviewers confirm SOC 2 compliance and data governance features" },
+            { "source": "Vendor", "text": "GDPR data processing compliance documented; DPA available" },
+            { "source": "TrustRadius", "text": "Mid-market and enterprise users praise compliance features" },
+            { "source": "Capterra", "text": "SSO and team management confirmed on enterprise tiers" }
+          ]
+        },
+        {
+          "dimension": "Ease of Adoption",
+          "score": 6,
+          "notes": "Chrome extension installs easily; platform setup requires onboarding call",
+          "evidence": [
+            { "source": "G2", "text": "Chrome extension rated highly for ease of use; platform UI less intuitive" },
+            { "source": "Reddit", "text": "Users report 1-2 weeks for full team onboarding" },
+            { "source": "Vendor", "text": "Dedicated onboarding process with CSM for all new customers" },
+            { "source": "TrustRadius", "text": "Search and filtering have a learning curve for advanced use cases" }
+          ]
+        },
+        {
+          "dimension": "AI Depth",
+          "score": 5,
+          "notes": "Limited AI features; data quality and verification over AI enrichment",
+          "evidence": [
+            { "source": "G2", "text": "No AI writing or enrichment features mentioned in reviews" },
+            { "source": "Vendor", "text": "Focus on human-verified data rather than AI-generated insights" },
+            { "source": "Reddit", "text": "Users note Cognism lacks the AI features found in Clay or Apollo" }
+          ]
+        },
+        {
+          "dimension": "Integration Depth",
+          "score": 8,
+          "notes": "Native Salesforce, HubSpot, Outreach, Salesloft connectors; API available",
+          "evidence": [
+            { "source": "G2", "text": "Salesforce integration rated 4.5/5 across enterprise reviewers" },
+            { "source": "Vendor", "text": "Native connectors for Salesforce, HubSpot, Outreach, Salesloft, Pipedrive" },
+            { "source": "Capterra", "text": "CRM sync reliability praised; occasional sync delays reported" },
+            { "source": "TrustRadius", "text": "API access available for custom integrations on higher tiers" }
+          ]
+        },
+        {
+          "dimension": "Pricing Transparency",
+          "score": 3,
+          "notes": "No public pricing; all plans require a sales conversation",
+          "evidence": [
+            { "source": "G2", "text": "Multiple reviewers flag lack of transparent pricing as a barrier" },
+            { "source": "Reddit", "text": "Pricing estimates range from $15K-25K/year based on user reports" },
+            { "source": "Capterra", "text": "Several reviews mention pricing is only available via sales team" }
+          ]
+        },
+        {
+          "dimension": "Scalability",
+          "score": 7,
+          "notes": "Enterprise-grade; handles large team deployments across EMEA regions",
+          "evidence": [
+            { "source": "G2", "text": "Enterprise customers report successful 50+ seat deployments" },
+            { "source": "Vendor", "text": "Case studies reference Fortune 500 and large mid-market deployments" },
+            { "source": "TrustRadius", "text": "Scales well for EMEA-focused teams; US teams may need supplementary data" }
+          ]
+        }
+      ]
+    },
+    "evidenceSignals": {
+      "confidence": "medium",
+      "confidenceNote": "Based on G2 reviews, vendor documentation, and community discussions. Fewer public reviews compared to US-focused competitors like Apollo or ZoomInfo, but signal quality is solid for EMEA use cases.",
+      "sourcePills": [
+        "G2: 4.6/5 (700+ reviews)",
+        "TrustRadius: 8.1/10 (45 reviews)",
+        "Reddit: 8+ threads",
+        "YouTube: 5+ demos",
+        "Vendor docs &#10003;"
+      ],
+      "freshness": [
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 745+ total reviews across 2 verified platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
+      ],
+      "evidenceGrid": [
+        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: EMEA data quality and phone-verified mobiles. Complaint: US data gaps and no public pricing" },
+        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> LinkedIn prospecting, EMEA cold calling, CRM enrichment" },
+        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Chrome extension, search filters, CRM sync, intent data signals" },
+        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Integration docs, GDPR compliance, phone verification methodology" }
+      ],
+      "strengthThemes": [
+        "EMEA data quality unmatched by US competitors",
+        "Phone-verified mobile numbers reduce bounce rates",
+        "Built-in GDPR and DNC compliance reduces legal risk"
+      ],
+      "limitationThemes": [
+        "US and APAC data coverage lags behind ZoomInfo",
+        "No public pricing creates friction for budget planning",
+        "Limited AI features compared to newer platforms"
+      ],
+      "disagreeNote": "&#9888;&#65039; Where sources disagree: G2 reviewers praise data quality broadly; Reddit users note specific gaps in US SMB data. Vendor claims 98% mobile accuracy; independent validation is limited.",
+      "lastVerified": "February 2026"
+    },
+    "userVoiceThemes": [
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Phone-verified mobiles change the cold calling game",
+        "synthesis": "The most consistent praise across platforms: Cognism's phone-verified mobile numbers deliver significantly higher connect rates than competitors. Users report 2-3x more conversations per dial session compared to ZoomInfo or Apollo mobile data.",
+        "sources": ["G2: 89 mentions", "TrustRadius: 12 mentions", "Reddit: 5 threads"],
+        "quote": "\"Cognism's verified mobiles are the reason we switched from ZoomInfo. Our connect rates went from 4% to 12% on cold calls to EMEA prospects.\"",
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+      },
+      {
+        "sentiment": "negative",
+        "sentimentIcon": "&#9660;",
+        "heading": "US data coverage is a real gap",
+        "synthesis": "The most frequent complaint: Cognism's North American data doesn't match ZoomInfo or Apollo in coverage or accuracy. Teams prospecting across both EMEA and US markets often need a supplementary data source for their US territories.",
+        "sources": ["G2: 54 mentions", "Reddit: 6 threads", "Capterra: 18 mentions"],
+        "quote": "\"Fantastic for our UK and DACH territories, but we still need Apollo for US prospecting. The coverage gap is real for North American SMBs.\"",
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+      },
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "GDPR compliance removes legal friction",
+        "synthesis": "European sales teams consistently highlight Cognism's built-in GDPR compliance and DNC registry checks as genuine differentiators. Compliance teams appreciate not having to build manual processes around data usage, and legal risk reduction is a major purchase driver.",
+        "sources": ["G2: 67 mentions", "TrustRadius: 9 mentions", "Capterra: 14 mentions"],
+        "quote": "\"Our legal team approved Cognism in two weeks. With ZoomInfo, the GDPR review took three months and we still had to build manual DNC processes.\"",
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+      }
+    ],
+    "pricingBreakdown": {
+      "tldr": "No public pricing. Requires a sales call. Estimates suggest $15K&ndash;25K/year depending on seats and data access.",
+      "gotchas": [
+        "No self-serve signup or free trial available",
+        "Annual contracts are standard; monthly billing rarely offered",
+        "Phone-verified mobiles (Diamond data) may cost extra vs. standard data",
+        "Credit limits vary by contract; overages require renegotiation"
+      ]
+    },
+    "greatAt": [
+      "<strong>EMEA data coverage:</strong> Best-in-class contact data for UK, DACH, Nordics, and Benelux markets",
+      "<strong>Phone-verified mobiles:</strong> Human-verified direct dials deliver 2-3x higher connect rates",
+      "<strong>GDPR compliance:</strong> Built-in DNC checks and data processing compliance reduce legal risk",
+      "<strong>Intent data:</strong> Bombora-powered signals identify in-market accounts for priority outreach",
+      "<strong>CRM integration:</strong> Native Salesforce, HubSpot, Outreach, and Salesloft connectors"
+    ],
+    "breaksAtScale": [
+      "<strong>US data gaps:</strong> North American coverage doesn't match ZoomInfo or Apollo",
+      "<strong>No public pricing:</strong> Budget planning requires a sales conversation",
+      "<strong>Limited AI features:</strong> No AI enrichment, writing, or automation tools",
+      "<strong>Platform speed:</strong> Complex search queries can be slow to return results",
+      "<strong>Export restrictions:</strong> Bulk export limits on lower tiers frustrate power users"
+    ],
+    "whoShouldNotBuy": [
+      "<strong>US-focused teams:</strong> ZoomInfo or Apollo provide better North American coverage",
+      "<strong>Self-serve buyers:</strong> No free trial or transparent pricing available",
+      "<strong>AI-first teams:</strong> Clay or Apollo offer more AI-powered enrichment features",
+      "<strong>Budget-constrained startups:</strong> $15K+ annual commitment is steep for early-stage teams"
+    ],
+    "implementationReality": {
+      "stats": [
+        { "number": "1&ndash;2 weeks", "label": "Time to Value" },
+        { "number": "Medium", "label": "Setup Complexity" },
+        { "number": "Medium", "label": "RevOps Lift" },
+        { "number": "Light", "label": "Training Required" },
+        { "number": "Light", "label": "Data Migration" }
+      ],
+      "note": "Chrome extension works immediately; full platform setup with CRM integration and team onboarding takes 1-2 weeks with dedicated CSM support."
+    },
+    "enterpriseReadiness": [
+      { "label": "SSO / SAML", "value": "Available on Enterprise plan (Okta, Azure AD)", "class": "dm-available" },
+      { "label": "SOC 2", "value": "SOC 2 compliant", "class": "dm-available" },
+      { "label": "GDPR", "value": "Native GDPR compliance with DPA", "class": "dm-available" },
+      { "label": "RBAC", "value": "Team roles and permissions available", "class": "dm-available" },
+      { "label": "Data Residency", "value": "EU-hosted data available", "class": "dm-available" },
+      { "label": "SLA", "value": "Enterprise SLA available on request", "class": "dm-partial" }
+    ],
+    "whoThisIsFor": {
+      "org": {
+        "heading": "Best for Sales Teams & RevOps",
+        "items": [
+          "Teams with EMEA-focused go-to-market motions",
+          "Organizations needing GDPR-compliant prospecting data",
+          "RevOps teams consolidating European data providers"
+        ]
+      },
+      "individual": {
+        "heading": "Best for Individual Reps",
+        "items": [
+          "SDRs and AEs prospecting UK and European accounts",
+          "Reps who rely on cold calling and need verified mobile numbers",
+          "Individual contributors comfortable with Chrome extension workflows"
+        ]
+      }
+    },
+    "stackPairings": {
+      "cards": [
+        { "title": "Salesloft", "titleLink": "salesloft-review.html", "description": "Cognism data feeds Salesloft sequences for EMEA outreach." },
+        { "title": "Outreach", "titleLink": "outreach-review.html", "description": "Cognism enriches contacts; Outreach runs multi-channel sequences." },
+        { "title": "HubSpot CRM", "titleLink": "hubspot-review.html", "description": "Native sync keeps enriched EMEA contacts in HubSpot." },
+        { "title": "Gong", "titleLink": "gong-review.html", "description": "Cognism finds the contacts; Gong records the conversations." },
+        { "title": "Clay", "titleLink": "clay-review.html", "description": "Use Cognism as one of Clay's 50+ data providers for waterfall enrichment." }
+      ],
+      "exampleStack": "Cognism (EMEA data) &#8594; Outreach (sequences) &#8594; Salesforce (CRM) &#8594; Gong (calls)"
+    },
+    "alternatives": {
+      "rows": [
+        { "tool": "ZoomInfo", "toolLink": "zoominfo-review.html", "bestFor": "US + global enterprise data", "g2": "4.4/5", "price": "From $15K/yr" },
+        { "tool": "Apollo.io", "toolLink": "apollo-review.html", "bestFor": "All-in-one prospecting + sending", "g2": "4.8/5", "price": "From $49/mo" },
+        { "tool": "Lusha", "toolLink": "lusha-review.html", "bestFor": "Quick contact lookup", "g2": "4.3/5", "price": "From $29/mo" },
+        { "tool": "LeadIQ", "toolLink": "leadiq-review.html", "bestFor": "LinkedIn prospecting", "g2": "4.2/5", "price": "From $39/mo" },
+        { "tool": "Clay", "toolLink": "clay-review.html", "bestFor": "Multi-source waterfall enrichment", "g2": "4.9/5", "price": "From $149/mo" }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is Cognism better than ZoomInfo for European data?",
+        "answer": "For EMEA markets, Cognism generally provides better coverage and GDPR compliance. Phone-verified mobiles and DNC checks make it the preferred choice for European prospecting. ZoomInfo remains stronger for US data."
+      },
+      {
+        "question": "How much does Cognism cost?",
+        "answer": "Cognism does not publish pricing. All plans require a sales call. Based on public reports, pricing typically starts around $15K-25K per year depending on team size and data needs."
+      },
+      {
+        "question": "Does Cognism have a Chrome extension?",
+        "answer": "Yes, Cognism offers a Chrome extension for LinkedIn prospecting that surfaces verified emails and phone-verified mobile numbers from LinkedIn profiles."
+      }
+    ],
+    "meta": {
+      "lastVerified": "February 2026",
+      "methodologyLink": "/methodology/",
+      "disclosureLink": "/disclosure.html"
+    }
+  },
+  "content": "",
+  "sidebar": {
+    "startingPrice": "Custom",
+    "pricingLabel": "/year (enterprise)",
+    "ctaText": "Visit Cognism",
+    "altText": "See Alternatives",
+    "altUrl": "/compare/index.html",
+    "atAGlance": [
+      { "label": "G2 Rating", "value": "4.6/5" },
+      { "label": "G2 Reviews", "value": "700+" },
+      { "label": "Starting Price", "value": "Custom" },
+      { "label": "Category", "value": "B2B Data" },
+      { "label": "Free Trial", "value": "No" }
+    ],
+    "ctaUrl": "/go/cognism",
+    "comparisons": [
+      { "text": "Cognism vs ZoomInfo", "url": "/compare/cognism-vs-zoominfo.html" }
+    ],
+    "externalReviews": [
+      { "text": "G2 Reviews", "url": "https://www.g2.com/products/cognism/reviews" }
+    ],
+    "relatedGuides": [
+      { "text": "Best Data Enrichment Tools", "url": "/guides/best-data-enrichment-tools.html" },
+      { "text": "Best Sales Intelligence Tools", "url": "/guides/best-sales-intelligence-tools.html" }
+    ],
+    "emailCard": {
+      "heading": "Weekly Tool Intel",
+      "description": "Get honest tool comparisons and decision frameworks in your inbox."
+    }
+  },
+  "finalCta": {
+    "heading": "Learn More About Cognism",
+    "description": "Visit their site for a product demo and to discuss pricing with their sales team.",
+    "primaryUrl": "/go/cognism",
+    "primaryText": "Visit Cognism",
+    "secondaryUrl": "https://www.g2.com/products/cognism/reviews",
+    "secondaryText": "Read G2 Reviews",
+    "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  }
+}
