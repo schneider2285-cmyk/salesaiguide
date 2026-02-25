@@ -2333,3 +2333,49 @@ body.reader-rep .rep-content { display: block; }
     gap: 0.5rem;
   }
 }
+
+/* ============================================================
+   PERSONA PAGES — Phase 5
+   ============================================================ */
+.persona-hero {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  color: #fff;
+  padding: 64px 0 48px;
+}
+.persona-hero-inner { max-width: 700px; }
+.persona-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.12);
+  color: rgba(255,255,255,0.9);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+.persona-hero h1 { font-size: clamp(28px, 4vw, 42px); font-weight: 800; margin-bottom: 16px; line-height: 1.2; }
+.persona-lead { font-size: 18px; color: rgba(255,255,255,0.8); max-width: 600px; margin-bottom: 20px; }
+.persona-meta { display: flex; gap: 20px; font-size: 13px; color: rgba(255,255,255,0.6); flex-wrap: wrap; }
+.persona-layout { display: grid; grid-template-columns: 1fr 280px; gap: 40px; padding: 48px 0; }
+@media (max-width: 768px) { .persona-layout { grid-template-columns: 1fr; } }
+.persona-main h2 { font-size: 22px; font-weight: 700; margin: 40px 0 12px; border-bottom: 2px solid #f0ebe3; padding-bottom: 8px; }
+.persona-main h3 { font-size: 17px; font-weight: 700; margin: 28px 0 8px; }
+.persona-main p { margin-bottom: 16px; line-height: 1.7; color: #3a3a3a; }
+.persona-main table { width: 100%; border-collapse: collapse; margin: 24px 0; font-size: 14px; }
+.persona-main th { background: #f7f4ef; padding: 10px 14px; text-align: left; font-weight: 700; border-bottom: 2px solid #e8e0d5; }
+.persona-main td { padding: 10px 14px; border-bottom: 1px solid #ede8e0; }
+.persona-main tr:last-child td { border-bottom: none; }
+.persona-main a { color: #1a5276; text-decoration: underline; }
+.persona-nav-link {
+  display: block;
+  padding: 8px 12px;
+  color: #1a5276;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+.persona-nav-link:hover { background: #f0ebe3; }
