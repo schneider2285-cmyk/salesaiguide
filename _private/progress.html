@@ -15,14 +15,13 @@
       --warn: #f5a623;
       --danger: #e05252;
       --success: #3ecf8e;
+      --purple: #a78bfa;
       --text: #e8eaf0;
       --text-muted: #7c8299;
       --font: 'Inter', system-ui, sans-serif;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { background: var(--bg); color: var(--text); font-family: var(--font); font-size: 14px; line-height: 1.6; }
-
-    /* Header */
     .header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 20px 32px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
     .header-left { display: flex; align-items: center; gap: 16px; }
     .logo { font-size: 18px; font-weight: 700; color: var(--accent); letter-spacing: -0.5px; }
@@ -32,17 +31,11 @@
     .stat { text-align: center; }
     .stat-num { font-size: 22px; font-weight: 700; color: var(--accent); display: block; }
     .stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
-
-    /* Layout */
     .main { max-width: 1100px; margin: 0 auto; padding: 32px 24px; display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
     @media (max-width: 768px) { .main { grid-template-columns: 1fr; } }
-
-    /* Sidebar */
     .sidebar { display: flex; flex-direction: column; gap: 16px; }
     .sidebar-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
     .sidebar-card h3 { font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-muted); margin-bottom: 12px; }
-
-    /* Phase nav */
     .phase-nav { display: flex; flex-direction: column; gap: 4px; }
     .phase-link { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 6px; cursor: pointer; transition: background 0.15s; text-decoration: none; color: var(--text); }
     .phase-link:hover { background: var(--surface2); }
@@ -51,17 +44,14 @@
     .phase-dot.done { background: var(--success); }
     .phase-dot.active { background: var(--accent); box-shadow: 0 0 6px var(--accent); }
     .phase-dot.pending { background: var(--border); }
+    .phase-dot.agent { background: var(--purple); }
     .phase-link-label { font-size: 13px; flex: 1; }
     .phase-pct { font-size: 11px; color: var(--text-muted); }
-
-    /* Revenue tracker */
     .revenue-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--border); }
     .revenue-row:last-child { border-bottom: none; }
     .revenue-month { font-size: 12px; color: var(--text-muted); }
     .revenue-range { font-size: 13px; font-weight: 600; color: var(--text); }
     .revenue-range.current { color: var(--accent); }
-
-    /* Who does what */
     .legend { display: flex; flex-direction: column; gap: 6px; }
     .legend-item { display: flex; align-items: center; gap: 8px; font-size: 12px; }
     .badge { display: inline-flex; align-items: center; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; flex-shrink: 0; }
@@ -69,11 +59,8 @@
     .badge.cc { background: rgba(79,142,247,0.15); color: var(--accent2); }
     .badge.manus { background: rgba(0,194,168,0.15); color: var(--accent); }
     .badge.done-badge { background: rgba(62,207,142,0.15); color: var(--success); }
-
-    /* Main content */
+    .badge.agent-badge { background: rgba(167,139,250,0.15); color: var(--purple); }
     .content { display: flex; flex-direction: column; gap: 24px; }
-
-    /* Phase block */
     .phase-block { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
     .phase-header { padding: 16px 20px; display: flex; align-items: center; gap: 12px; cursor: pointer; user-select: none; }
     .phase-header:hover { background: var(--surface2); }
@@ -81,6 +68,7 @@
     .phase-number.done { background: rgba(62,207,142,0.15); color: var(--success); }
     .phase-number.active { background: rgba(0,194,168,0.15); color: var(--accent); }
     .phase-number.pending { background: var(--surface2); color: var(--text-muted); }
+    .phase-number.agent-num { background: rgba(167,139,250,0.15); color: var(--purple); }
     .phase-title { flex: 1; }
     .phase-title h2 { font-size: 15px; font-weight: 600; }
     .phase-title p { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
@@ -88,11 +76,10 @@
     .progress-bar { width: 80px; height: 5px; background: var(--border); border-radius: 3px; overflow: hidden; }
     .progress-fill { height: 100%; border-radius: 3px; background: var(--accent); transition: width 0.3s; }
     .progress-fill.done { background: var(--success); }
+    .progress-fill.agent-fill { background: var(--purple); }
     .progress-pct { font-size: 12px; color: var(--text-muted); min-width: 30px; text-align: right; }
     .phase-toggle { color: var(--text-muted); font-size: 18px; transition: transform 0.2s; }
     .phase-toggle.open { transform: rotate(90deg); }
-
-    /* Task list */
     .task-list { padding: 0 20px 16px; display: flex; flex-direction: column; gap: 2px; }
     .task-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 10px; border-radius: 6px; transition: background 0.1s; }
     .task-item:hover { background: var(--surface2); }
@@ -101,24 +88,53 @@
     .task-label.checked { text-decoration: line-through; color: var(--text-muted); }
     .task-meta { display: flex; align-items: center; gap: 6px; margin-top: 2px; }
     .task-note { font-size: 11px; color: var(--text-muted); }
-    .task-week { font-size: 10px; color: var(--text-muted); background: var(--surface2); padding: 1px 6px; border-radius: 3px; }
-
-    /* Divider */
     .session-divider { font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-muted); padding: 8px 10px 4px; }
-
-    /* Save notice */
     .save-notice { position: fixed; bottom: 20px; right: 20px; background: var(--success); color: #0f1117; padding: 8px 16px; border-radius: 6px; font-size: 13px; font-weight: 600; opacity: 0; transition: opacity 0.3s; pointer-events: none; }
     .save-notice.show { opacity: 1; }
-
-    /* Timeline */
     .timeline-strip { display: flex; gap: 0; margin-bottom: 4px; }
     .timeline-week { flex: 1; text-align: center; font-size: 10px; color: var(--text-muted); padding: 4px 2px; border-right: 1px solid var(--border); }
     .timeline-week:last-child { border-right: none; }
     .timeline-week.current { color: var(--accent); font-weight: 700; }
+    /* Agent cards */
+    .agent-grid { padding: 16px 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    @media (max-width: 900px) { .agent-grid { grid-template-columns: 1fr; } }
+    .agent-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px; }
+    .agent-card.live-agent { border-color: var(--purple); box-shadow: 0 0 0 1px rgba(167,139,250,0.2); }
+    .agent-card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+    .agent-name { font-size: 13px; font-weight: 700; color: var(--text); }
+    .agent-status { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 2px 8px; border-radius: 4px; flex-shrink: 0; }
+    .agent-status.status-pending { background: var(--surface); color: var(--text-muted); border: 1px solid var(--border); }
+    .agent-status.status-live { background: rgba(62,207,142,0.15); color: var(--success); }
+    .agent-meta { display: flex; gap: 8px; flex-wrap: wrap; }
+    .agent-tag { font-size: 10px; color: var(--text-muted); background: var(--surface); padding: 2px 7px; border-radius: 4px; border: 1px solid var(--border); }
+    .agent-tag.domain { color: var(--accent2); border-color: rgba(79,142,247,0.3); background: rgba(79,142,247,0.08); }
+    .agent-tag.schedule { color: var(--warn); border-color: rgba(245,166,35,0.3); background: rgba(245,166,35,0.08); }
+    .agent-desc { font-size: 12px; color: var(--text-muted); line-height: 1.5; }
+    .agent-output { font-size: 11px; color: var(--text-muted); padding: 6px 8px; background: var(--surface); border-radius: 4px; border-left: 2px solid var(--purple); }
+    .agent-output strong { color: var(--purple); }
+    .agent-trigger { font-size: 11px; color: var(--text-muted); padding: 6px 8px; background: var(--surface); border-radius: 4px; border-left: 2px solid var(--warn); }
+    .agent-trigger strong { color: var(--warn); }
+    .agent-checkbox-row { display: flex; align-items: center; gap: 8px; padding-top: 6px; border-top: 1px solid var(--border); }
+    .agent-checkbox-row input[type="checkbox"] { width: 14px; height: 14px; accent-color: var(--purple); cursor: pointer; }
+    .agent-checkbox-row label { font-size: 11px; color: var(--text-muted); cursor: pointer; }
+    /* Affiliate table */
+    .affiliate-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    .affiliate-table th { text-align: left; padding: 8px 12px; font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--text-muted); border-bottom: 1px solid var(--border); }
+    .affiliate-table td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+    .affiliate-table tr:last-child td { border-bottom: none; }
+    .affiliate-table tr:hover td { background: var(--surface2); }
+    .aff-status { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+    .aff-status.active { background: rgba(62,207,142,0.15); color: var(--success); }
+    .aff-status.pending { background: rgba(245,166,35,0.15); color: var(--warn); }
+    .aff-status.not-applied { background: var(--surface2); color: var(--text-muted); }
+    .affiliate-section { padding: 0 20px 16px; }
+    .monday-brief { margin: 0 20px 16px; padding: 12px 14px; background: rgba(167,139,250,0.06); border: 1px solid rgba(167,139,250,0.2); border-radius: 8px; }
+    .monday-brief-title { font-size: 12px; font-weight: 700; color: var(--purple); margin-bottom: 4px; }
+    .monday-brief-text { font-size: 12px; color: var(--text-muted); }
+    .nav-divider { margin: 8px 0; padding-top: 8px; border-top: 1px solid var(--border); }
   </style>
 </head>
 <body>
-
 <div class="header">
   <div class="header-left">
     <div class="logo">Sales<span>AI</span>Guide <span style="font-size:13px;color:var(--text-muted);margin-left:4px;">/ Progress Dashboard</span></div>
@@ -130,17 +146,23 @@
     <div class="stat"><span class="stat-num" id="overall-pct" style="color:var(--accent2)">0%</span><span class="stat-label">Complete</span></div>
   </div>
 </div>
-
 <div class="main">
-
-  <!-- Sidebar -->
   <div class="sidebar">
-
     <div class="sidebar-card">
-      <h3>Phases</h3>
+      <h3>Navigation</h3>
       <div class="phase-nav" id="phase-nav"></div>
+      <div class="nav-divider">
+        <a class="phase-link" href="#agents-section">
+          <span class="phase-dot agent"></span>
+          <span class="phase-link-label">8 Permanent Agents</span>
+          <span class="phase-pct" id="agents-nav-pct">0%</span>
+        </a>
+        <a class="phase-link" href="#affiliate-section">
+          <span class="phase-dot pending"></span>
+          <span class="phase-link-label">Affiliate Programs</span>
+        </a>
+      </div>
     </div>
-
     <div class="sidebar-card">
       <h3>Revenue Milestones</h3>
       <div class="legend">
@@ -150,16 +172,15 @@
         <div class="revenue-row"><span class="revenue-month">Month 12</span><span class="revenue-range current">$12,000–30,000</span></div>
       </div>
     </div>
-
     <div class="sidebar-card">
       <h3>Who Does What</h3>
       <div class="legend">
         <div class="legend-item"><span class="badge matt">Matt</span> Manual actions only you can do</div>
         <div class="legend-item"><span class="badge cc">Claude Code</span> Code changes &amp; builds</div>
         <div class="legend-item"><span class="badge manus">Manus</span> Strategy, briefs &amp; validation</div>
+        <div class="legend-item"><span class="badge agent-badge">Agent</span> Autonomous scheduled monitoring</div>
       </div>
     </div>
-
     <div class="sidebar-card">
       <h3>8-Week Timeline</h3>
       <div class="timeline-strip">
@@ -179,20 +200,263 @@
         <div>W4 — Phase 3: New Content Pages</div>
         <div>W5–6 — Phase 4: Categories + Remaining Comparisons</div>
         <div>W7–8 — Phase 5: Persona Hubs + Homepage</div>
+        <div style="color:var(--purple);">W8+ — Agents: Autonomous monitoring live</div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div id="phases-content"></div>
+
+    <!-- PERMANENT AGENTS SECTION -->
+    <div class="phase-block" id="agents-section">
+      <div class="phase-header" onclick="toggleSection('agents-body', 'toggle-agents')">
+        <div class="phase-number agent-num">&#9881;</div>
+        <div class="phase-title">
+          <h2>8 Permanent Monitoring Agents</h2>
+          <p>Autonomous agents that run on schedule — no manual intervention required</p>
+        </div>
+        <div class="phase-progress-wrap">
+          <div class="progress-bar"><div class="progress-fill agent-fill" id="agents-progress-fill" style="width:0%"></div></div>
+          <span class="progress-pct" id="agents-progress-pct">0%</span>
+        </div>
+        <span class="phase-toggle" id="toggle-agents">&#8250;</span>
+      </div>
+      <div id="agents-body" style="display:none;">
+        <div style="padding:8px 20px 4px;font-size:11px;color:var(--text-muted);border-bottom:1px solid var(--border);">
+          Agents 1–3 launch after Phase 1 is complete. Agents 4–8 launch after Phase 2. Check the box when each agent is scheduled and confirmed running.
+        </div>
+        <div class="agent-grid">
+          <div class="agent-card" id="agent-card-1">
+            <div class="agent-card-header">
+              <div class="agent-name">Agent 1 — Site Validator</div>
+              <span class="agent-status status-pending" id="agent-status-1">Pending</span>
+            </div>
+            <div class="agent-meta">
+              <span class="agent-tag domain">Quality Assurance</span>
+              <span class="agent-tag schedule">Daily @ 8:00 AM</span>
+            </div>
+            <div class="agent-desc">Crawls every page on salesaiguide.com. Checks: all links resolve (200 status), required components present (Journey Bar, Score Strip, Evidence Drawers), JSON data files load, no console errors, page load under 3s.</div>
+            <div class="agent-output"><strong>Output:</strong> Daily report in <code>coordination/validation-reports/[date].md</code>. Flags any page that fails a check.</div>
+            <div class="agent-trigger"><strong>Triggers brief:</strong> Any page failing 2+ checks on consecutive days gets a Fix Brief for Claude Code.</div>
+            <div class="agent-checkbox-row">
+              <input type="checkbox" id="ag1" onchange="toggleAgent('ag1', this.checked, 1)">
+              <label for="ag1">Agent scheduled and confirmed running</label>
+            </div>
+          </div>
+          <div class="agent-card" id="agent-card-2">
+            <div class="agent-card-header">
+              <div class="agent-name">Agent 2 — Evidence Refresher</div>
+              <span class="agent-status status-pending" id="agent-status-2">Pending</span>
+            </div>
+            <div class="agent-meta">
+              <span class="agent-tag domain">Data Accuracy</span>
+              <span class="agent-tag schedule">Every Monday @ 9:00 AM</span>
+            </div>
+            <div class="agent-desc">For every tool page, checks: G2 rating and review count vs live G2 page, pricing vs vendor pricing page, last_verified date vs 30-day expiry rule, Reddit thread count for major new discussions.</div>
+            <div class="agent-output"><strong>Output:</strong> Weekly "Evidence Update Report" — fields changed, fields expiring within 7 days, fields already expired. Includes exact JSON update needed.</div>
+            <div class="agent-trigger"><strong>Triggers brief:</strong> Any tool with 3+ changed/expired fields gets a Data Update Brief (pre-filled JSON diff for Claude Code). Score changes require Manus review — never auto-updated.</div>
+            <div class="agent-checkbox-row">
+              <input type="checkbox" id="ag2" onchange="toggleAgent('ag2', this.checked, 2)">
+              <label for="ag2">Agent scheduled and confirmed running</label>
+            </div>
+          </div>
+          <div class="agent-card" id="agent-card-3">
+            <div class="agent-card-header">
+              <div class="agent-name">Agent 3 — Affiliate Health Monitor</div>
+              <span class="agent-status status-pending" id="agent-status-3">Pending</span>
+            </div>
+            <div class="agent-meta">
+              <span class="agent-tag domain">Revenue Infrastructure</span>
+              <span class="agent-tag schedule">Daily @ 10:00 AM</span>
+            </div>
+            <div class="agent-desc">Tests every /go/[tool] redirect link. Verifies: redirect resolves (200/301), destination URL is correct affiliate URL (not homepage), ?ref=salesaiguide parameter present, no redirect chains longer than 2 hops.</div>
+            <div class="agent-output"><strong>Output:</strong> Daily affiliate health report. Broken redirects flagged as critical. Weekly summary: which tools get most affiliate clicks (informs content prioritization).</div>
+            <div class="agent-trigger"><strong>Triggers brief:</strong> Any broken redirect gets an immediate fix brief. Missing affiliate parameter gets a fix brief within 24 hours.</div>
+            <div class="agent-checkbox-row">
+              <input type="checkbox" id="ag3" onchange="toggleAgent('ag3', this.checked, 3)">
+              <label for="ag3">Agent scheduled and confirmed running</label>
+            </div>
+          </div>
+          <div class="agent-card" id="agent-card-4">
+            <div class="agent-card-header">
+              <div class="agent-name">Agent 4 — SEO Performance Monitor</div>
+              <span class="agent-status status-pending" id="agent-status-4">Pending</span>
+            </div>
+            <div class="agent-meta">
+              <span class="agent-tag domain">Search Visibility</span>
+              <span class="agent-tag schedule">Every Friday @ 9:00 AM</span>
+            </div>
+            <div class="agent-desc">Pulls data from Google Search Console API. Tracks: impressions, clicks, avg position per page; keywords per page; week-over-week ranking drops; new keyword opportunities (queries where site appears but does not rank top 10).</div>
+            <div class="agent-output"><strong>Output:</strong> Weekly SEO report — top 10 pages by clicks, top 10 by impressions, 5 biggest ranking drops, 5 new keyword opportunities.</div>
+            <div class="agent-trigger"><strong>Triggers brief:</strong> Any page dropping 5+ positions in a week gets a Content Refresh Brief. Keywords with 500+ monthly searches + low competition get added to content backlog.</div>
+            <div class="agent-checkbox-row">
+              <input type="checkbox" id="ag4" onchange="toggleAgent('ag4', this.checked, 4)">
+              <label for="ag4">Agent scheduled and confirmed running</label>
+            </div>
+          </div>
+          <div class="agent-card" id="agent-card-5">
+            <div class="agent-card-header">
+              <div class="agent-name">Agent 5 — Competitor Intelligence</div>
+              <span class="agent-status status-pending" id="agent-status-5">Pending</span>
+            </div>
+            <div class="agent-meta">
+              <span class="agent-tag domain">Competitive Positioning</span>
+              <span class="agent-tag schedule">Every Friday @ 10:00 AM</span>
+            </div>
+            <div class="agent-desc">Monitors top 5 competitors: ColdIQ, Lemlist Blog, Apollo Blog, G2 category pages, top-ranking page per target keyword. Checks: new pages published (past 7 days), changes to competing pages, new tools they have reviewed, ranking changes on shared keywords.</div>
+            <div class="agent-output"><strong>Output:</strong> Weekly competitor report — new competitor pages, ranking changes, coverage gaps, 3 recommended responses.</div>
+            <div class="agent-trigger"><strong>Triggers brief:</strong> Any competitor page outranking a SalesAIGuide page on a high-value keyword gets a Competitive Response Brief.</div>
+            <div class="agent-checkbox-row">
+              <input type="checkbox" id="ag5" onchange="toggleAgent('ag5', this.checked, 5)">
+              <label for="ag5">Agent scheduled and confirmed running</label>
+            </div>
+          </div>
+          <div class="agent-card" id="agent-card-6">
+            <div class="agent-card-header">
+              <div class="agent-name">Agent 6 — New Tool Scout</div>
+              <span class="agent-status status-pending" id="agent-status-6">Pending</span>
+            </div>
+            <div class="agent-meta">
+              <span class="agent-tag domain">Content Pipeline</span>
+              <span class="agent-tag schedule">Every Wednesday @ 9:00 AM</span>
+            </div>
+            <div class="agent-desc">Monitors Product Hunt (Sales/AI categories), LinkedIn (sales leaders mentioning new tools), and subreddits (r/sales, r/saleshacking, r/outbound) for newly launched or trending AI sales tools.</div>
+            <div class="agent-output"><strong>Output:</strong> Weekly "New Tool Report" — 3 to 5 relevant tools with: name, category, pricing, G2 status, estimated search volume for "[tool] review", recommendation on whether to build a page.</div>
+            <div class="agent-trigger"><strong>Triggers brief:</strong> Any tool with 100+ Product Hunt upvotes, or appearing in 3+ Reddit threads in a week, gets a full research pass and new tool page brief within 48 hours.</div>
+            <div class="agent-checkbox-row">
+              <input type="checkbox" id="ag6" onchange="toggleAgent('ag6', this.checked, 6)">
+              <label for="ag6">Agent scheduled and confirmed running</label>
+            </div>
+          </div>
+          <div class="agent-card" id="agent-card-7">
+            <div class="agent-card-header">
+              <div class="agent-name">Agent 7 — Revenue Optimization</div>
+              <span class="agent-status status-pending" id="agent-status-7">Pending</span>
+            </div>
+            <div class="agent-meta">
+              <span class="agent-tag domain">Affiliate Revenue</span>
+              <span class="agent-tag schedule">Every Monday @ 10:00 AM</span>
+            </div>
+            <div class="agent-desc">Tracks: affiliate CTR per tool page (clicks on /go/[tool] divided by page visits), pages with high traffic but low CTR, affiliate programs with highest commission rates, affiliate program status, estimated monthly revenue.</div>
+            <div class="agent-output"><strong>Output:</strong> Weekly revenue report — estimated monthly affiliate revenue, top 5 revenue-generating pages, top 5 CTR improvement opportunities, affiliate program status dashboard.</div>
+            <div class="agent-trigger"><strong>Triggers brief:</strong> Any page with 500+ monthly visits but under 3% CTR gets a CTA Optimization Brief (specific changes to placement, copy, design).</div>
+            <div class="agent-checkbox-row">
+              <input type="checkbox" id="ag7" onchange="toggleAgent('ag7', this.checked, 7)">
+              <label for="ag7">Agent scheduled and confirmed running</label>
+            </div>
+          </div>
+          <div class="agent-card" id="agent-card-8">
+            <div class="agent-card-header">
+              <div class="agent-name">Agent 8 — Growth Strategy</div>
+              <span class="agent-status status-pending" id="agent-status-8">Pending</span>
+            </div>
+            <div class="agent-meta">
+              <span class="agent-tag domain">Long-Term Growth</span>
+              <span class="agent-tag schedule">1st Monday of Every Month</span>
+            </div>
+            <div class="agent-desc">Monthly strategic review: overall traffic trend and 3-month projection, highest-ROI content opportunities (search volume x competition x commission), content roadmap reprioritization, new content formats, AI sales tools market category shifts.</div>
+            <div class="agent-output"><strong>Output:</strong> Monthly "Growth Strategy Brief" — traffic trend analysis, top 3 content investments for next month, 1 strategic recommendation, updated revenue projection.</div>
+            <div class="agent-trigger"><strong>Triggers plan update:</strong> Any month with traffic growth below 10% MoM triggers a Growth Intervention (deeper analysis and specific action plan).</div>
+            <div class="agent-checkbox-row">
+              <input type="checkbox" id="ag8" onchange="toggleAgent('ag8', this.checked, 8)">
+              <label for="ag8">Agent scheduled and confirmed running</label>
+            </div>
+          </div>
+        </div>
+        <div class="monday-brief">
+          <div class="monday-brief-title">&#128203; Monday Morning Brief</div>
+          <div class="monday-brief-text">Every Monday, Manus compiles outputs from all 8 agents into a single brief that Matt reviews in 15 minutes. Format: critical alerts &#8594; quick wins &#8594; weekly metrics &#8594; this week's priorities &#8594; next week's preview.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AFFILIATE PROGRAMS SECTION -->
+    <div class="phase-block" id="affiliate-section">
+      <div class="phase-header" onclick="toggleSection('affiliate-body', 'toggle-affiliate')">
+        <div class="phase-number pending">$</div>
+        <div class="phase-title">
+          <h2>Affiliate Programs</h2>
+          <p>Status of all affiliate program applications and active /go/ redirect links</p>
+        </div>
+        <span class="phase-toggle" id="toggle-affiliate">&#8250;</span>
+      </div>
+      <div id="affiliate-body" style="display:none;">
+        <div class="affiliate-section">
+          <table class="affiliate-table">
+            <thead>
+              <tr>
+                <th>Tool</th>
+                <th>Status</th>
+                <th>Commission</th>
+                <th>Redirect</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Clay</strong></td>
+                <td><span class="aff-status active">Active &#10003;</span></td>
+                <td>20% recurring</td>
+                <td><code>/go/clay</code></td>
+                <td style="color:var(--text-muted);font-size:11px;">clay.earth/?via=matthew-schneider — live in _redirects</td>
+              </tr>
+              <tr>
+                <td><strong>Instantly</strong></td>
+                <td><span class="aff-status pending">Pending</span></td>
+                <td>~25% recurring</td>
+                <td><code>/go/instantly</code></td>
+                <td style="color:var(--text-muted);font-size:11px;">Applied — awaiting approval</td>
+              </tr>
+              <tr>
+                <td><strong>Apollo</strong></td>
+                <td><span class="aff-status pending">Pending</span></td>
+                <td>20% recurring</td>
+                <td><code>/go/apollo</code></td>
+                <td style="color:var(--text-muted);font-size:11px;">Requires LinkedIn verification to unlock</td>
+              </tr>
+              <tr>
+                <td><strong>HubSpot</strong></td>
+                <td><span class="aff-status pending">Pending</span></td>
+                <td>30% recurring (up to 1yr)</td>
+                <td><code>/go/hubspot</code></td>
+                <td style="color:var(--text-muted);font-size:11px;">Requires LinkedIn verification to unlock</td>
+              </tr>
+              <tr>
+                <td><strong>Gong</strong></td>
+                <td><span class="aff-status not-applied">Not Applied</span></td>
+                <td>TBD</td>
+                <td><code>/go/gong</code></td>
+                <td style="color:var(--text-muted);font-size:11px;">Apply when page has traffic</td>
+              </tr>
+              <tr>
+                <td><strong>Salesloft</strong></td>
+                <td><span class="aff-status not-applied">Not Applied</span></td>
+                <td>TBD</td>
+                <td><code>/go/salesloft</code></td>
+                <td style="color:var(--text-muted);font-size:11px;">Apply when page has traffic</td>
+              </tr>
+              <tr>
+                <td><strong>ZoomInfo</strong></td>
+                <td><span class="aff-status not-applied">Not Applied</span></td>
+                <td>TBD</td>
+                <td><code>/go/zoominfo</code></td>
+                <td style="color:var(--text-muted);font-size:11px;">Apply when page has traffic</td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="margin-top:12px;padding:10px 12px;background:rgba(245,166,35,0.06);border:1px solid rgba(245,166,35,0.2);border-radius:6px;font-size:12px;color:var(--text-muted);">
+            <strong style="color:var(--warn);">Matt action required:</strong> Complete LinkedIn verification to unlock Apollo + HubSpot affiliate applications. These two programs have the highest commission rates and are the biggest revenue opportunity.
+          </div>
+        </div>
       </div>
     </div>
 
   </div>
-
-  <!-- Main content -->
-  <div class="content" id="phases-content"></div>
-
 </div>
-
-<div class="save-notice" id="save-notice">✓ Progress saved</div>
-
+<div class="save-notice" id="save-notice">&#10003; Progress saved</div>
 <script>
-const STORAGE_KEY = 'salesaiguide-progress-v1';
+const STORAGE_KEY = 'salesaiguide-progress-v2';
+const AGENT_KEY = 'salesaiguide-agents-v1';
 
 const phases = [
   {
@@ -208,7 +472,7 @@ const phases = [
           { id: 'p0-s1', text: 'Session 1: Install Eleventy, migrate Clay page as proof of concept', who: 'cc', done: true },
           { id: 'p0-s2', text: 'Session 2: Migrate all 9 remaining tool pages to Eleventy templates', who: 'cc', done: true },
           { id: 'p0-s3', text: 'Session 3: Migrate comparison + category pages + homepage', who: 'cc', done: true },
-          { id: 'p0-s4', text: 'Session 4: Set up branch strategy, disable Airtable workflow, verify live site', who: 'cc', done: true },
+          { id: 'p0-s4', text: 'Session 4: Set up branch strategy, disable Airtable workflow, verify live site', who: 'cc', done: true }
         ]
       },
       {
@@ -219,7 +483,7 @@ const phases = [
           { id: 'p0-c3', text: 'Brief 0.3: Build Evidence Drawer component', who: 'cc', done: false },
           { id: 'p0-c4', text: 'Brief 0.4: Build Score Strip component (dual scores above fold)', who: 'cc', done: false },
           { id: 'p0-c5', text: 'Brief 0.5: Create JSON schema + populate clay.json + instantly.json', who: 'cc', done: true, note: 'clay.json done in Session 1' },
-          { id: 'p0-c6', text: 'Brief 0.6: Update global nav (add How We Score, fix Guides placeholder)', who: 'cc', done: false },
+          { id: 'p0-c6', text: 'Brief 0.6: Update global nav (add How We Score, fix Guides placeholder)', who: 'cc', done: false }
         ]
       },
       {
@@ -230,17 +494,17 @@ const phases = [
           { id: 'p0-m3', text: 'Apply to Instantly affiliate program (instantly.ai/affiliates)', who: 'matt', done: false },
           { id: 'p0-m4', text: 'Apply to HubSpot affiliate program (hubspot.com/partners/affiliates)', who: 'matt', done: false },
           { id: 'p0-m5', text: 'Connect Google Search Console to salesaiguide.com', who: 'matt', done: false },
-          { id: 'p0-m6', text: 'Request manual indexing for 9 priority URLs in Search Console', who: 'matt', done: false },
+          { id: 'p0-m6', text: 'Request manual indexing for 9 priority URLs in Search Console', who: 'matt', done: false }
         ]
       },
       {
-        label: 'Already Done ✓',
+        label: 'Already Done',
         tasks: [
           { id: 'p0-d1', text: 'GA4 tracking (G-VRBZ6Z6885) live across all pages', who: 'cc', done: true },
           { id: 'p0-d2', text: 'Netlify Forms email capture live', who: 'cc', done: true },
           { id: 'p0-d3', text: 'Internal linking: homepage links to all 10 tool pages', who: 'cc', done: true },
           { id: 'p0-d4', text: 'Manus GitHub write access established', who: 'manus', done: true },
-          { id: 'p0-d5', text: 'MANUS_CONTEXT.md + all strategic briefs committed to repo', who: 'manus', done: true },
+          { id: 'p0-d5', text: 'MANUS_CONTEXT.md + all strategic briefs committed to repo', who: 'manus', done: true }
         ]
       }
     ]
@@ -258,7 +522,7 @@ const phases = [
           { id: 'p1-css', text: 'Session 1 — Journey bar CSS, score card CSS, sidebar CSS, IntersectionObserver JS', who: 'cc', done: true },
           { id: 'p1-layout', text: 'Session 2 — Two-column layout, sticky sidebar, v4 sidebar HTML, all 10 JSON files updated', who: 'cc', done: true },
           { id: 'p1-scores', text: 'Session 3 — Hero dual-score cards, scores data in all 10 JSONs, mobile verified, PR #1 opened', who: 'cc', done: true },
-          { id: 'p1-merge', text: 'PR #1 reviewed and merged to main — Phase 1 live on salesaiguide.com', who: 'manus', done: true },
+          { id: 'p1-merge', text: 'PR #1 reviewed and merged to main — Phase 1 live on salesaiguide.com', who: 'manus', done: true }
         ]
       },
       {
@@ -273,14 +537,14 @@ const phases = [
           { id: 'p1-outreach', text: 'Outreach review page — v4 layout', who: 'cc', done: true },
           { id: 'p1-lavender', text: 'Lavender review page — v4 layout', who: 'cc', done: true },
           { id: 'p1-smartlead', text: 'Smartlead review page — v4 layout', who: 'cc', done: true },
-          { id: 'p1-zoominfo', text: 'ZoomInfo review page — v4 layout', who: 'cc', done: true },
+          { id: 'p1-zoominfo', text: 'ZoomInfo review page — v4 layout', who: 'cc', done: true }
         ]
       },
       {
         label: 'Manus Validation',
         tasks: [
           { id: 'p1-v1', text: 'Validate all 10 tool pages match v4 spec (sticky sidebar, tabs, scores)', who: 'manus', done: true },
-          { id: 'p1-v2', text: 'Verify affiliate CTAs present on all 10 pages', who: 'manus', done: true },
+          { id: 'p1-v2', text: 'Verify affiliate CTAs present on all 10 pages', who: 'manus', done: true }
         ]
       }
     ]
@@ -304,7 +568,7 @@ const phases = [
           { id: 'p2-c7', text: 'gong-vs-chorus — v4', who: 'cc', done: true },
           { id: 'p2-c8', text: 'hubspot-vs-pipedrive — v4', who: 'cc', done: true },
           { id: 'p2-c9', text: 'lavender-vs-instantly — v4', who: 'cc', done: true },
-          { id: 'p2-c10', text: 'cognism-vs-zoominfo — v4', who: 'cc', done: true },
+          { id: 'p2-c10', text: 'cognism-vs-zoominfo — v4', who: 'cc', done: true }
         ]
       },
       {
@@ -313,7 +577,7 @@ const phases = [
           { id: 'p2-a1', text: 'Update _redirects with real Clay affiliate URL', who: 'manus', done: true },
           { id: 'p2-a2', text: 'Update _redirects with real Apollo affiliate URL', who: 'manus', done: false },
           { id: 'p2-a3', text: 'Update _redirects with real Instantly affiliate URL', who: 'manus', done: false },
-          { id: 'p2-a4', text: 'Update _redirects with real HubSpot affiliate URL', who: 'manus', done: false },
+          { id: 'p2-a4', text: 'Update _redirects with real HubSpot affiliate URL', who: 'manus', done: false }
         ]
       }
     ]
@@ -332,14 +596,14 @@ const phases = [
           { id: 'p3-l2', text: 'Best Cold Email Software 2026 (target: 3,600/mo)', who: 'cc', done: true },
           { id: 'p3-l3', text: 'Best Sales Intelligence Tools 2026 (target: 1,200/mo)', who: 'cc', done: true },
           { id: 'p3-l4', text: 'Best Conversation Intelligence Software 2026 (target: 880/mo)', who: 'cc', done: false },
-          { id: 'p3-l5', text: 'Best Revenue Intelligence Platforms 2026 (target: 720/mo)', who: 'cc', done: false },
+          { id: 'p3-l5', text: 'Best Revenue Intelligence Platforms 2026 (target: 720/mo)', who: 'cc', done: false }
         ]
       },
       {
         label: 'Alternatives Pages',
         tasks: [
           { id: 'p3-a1', text: '7 Best Clay Alternatives 2026 (target: 2,400/mo)', who: 'cc', done: true },
-          { id: 'p3-a2', text: '6 Best Instantly Alternatives 2026 (target: 1,100/mo)', who: 'cc', done: false },
+          { id: 'p3-a2', text: '6 Best Instantly Alternatives 2026 (target: 1,100/mo)', who: 'cc', done: false }
         ]
       },
       {
@@ -354,7 +618,7 @@ const phases = [
           { id: 'p3-t7', text: 'Clari review page', who: 'cc', done: false },
           { id: 'p3-t8', text: 'Seismic review page', who: 'cc', done: false },
           { id: 'p3-t9', text: 'Highspot review page', who: 'cc', done: false },
-          { id: 'p3-t10', text: 'MindTickle review page', who: 'cc', done: false },
+          { id: 'p3-t10', text: 'MindTickle review page', who: 'cc', done: false }
         ]
       }
     ]
@@ -363,32 +627,34 @@ const phases = [
     id: 'phase4',
     label: 'Phase 4',
     title: 'Categories + Remaining Comparisons',
-    subtitle: 'Upgrade 14 category pages + 16 remaining comparisons — Weeks 5–6',
+    subtitle: 'Upgrade 14 category pages + 21 remaining comparisons — Weeks 5–6',
     status: 'pending',
     sessions: [
       {
-        label: '14 Category Pages',
+        label: '14 Category Pages (Sessions 1–2 complete)',
         tasks: [
-          { id: 'p4-cat1', text: 'AI SDRs category page — upgrade with decision guidance', who: 'cc', done: false },
-          { id: 'p4-cat2', text: 'Cold Outreach category page', who: 'cc', done: false },
-          { id: 'p4-cat3', text: 'Data Enrichment category page', who: 'cc', done: false },
-          { id: 'p4-cat4', text: 'Conversation Intelligence category page', who: 'cc', done: false },
-          { id: 'p4-cat5', text: 'Sales Engagement category page', who: 'cc', done: false },
-          { id: 'p4-cat6', text: 'Revenue Intelligence category page', who: 'cc', done: false },
-          { id: 'p4-cat7', text: 'Sales Coaching category page', who: 'cc', done: false },
-          { id: 'p4-cat8', text: 'Sales Enablement category page', who: 'cc', done: false },
-          { id: 'p4-cat9', text: 'Lead Prospecting category page', who: 'cc', done: false },
-          { id: 'p4-cat10', text: 'Intent Data category page', who: 'cc', done: false },
-          { id: 'p4-cat11', text: 'CRM & Pipeline category page', who: 'cc', done: false },
-          { id: 'p4-cat12', text: 'Dialers & Calling category page', who: 'cc', done: false },
-          { id: 'p4-cat13', text: 'Meeting Schedulers category page', who: 'cc', done: false },
-          { id: 'p4-cat14', text: 'Sales Content category page', who: 'cc', done: false },
+          { id: 'p4-cat1', text: 'AI SDRs category page — upgrade with decision guidance', who: 'cc', done: true },
+          { id: 'p4-cat2', text: 'Cold Outreach category page', who: 'cc', done: true },
+          { id: 'p4-cat3', text: 'Data Enrichment category page', who: 'cc', done: true },
+          { id: 'p4-cat4', text: 'Conversation Intelligence category page', who: 'cc', done: true },
+          { id: 'p4-cat5', text: 'Sales Engagement category page', who: 'cc', done: true },
+          { id: 'p4-cat6', text: 'Revenue Intelligence category page', who: 'cc', done: true },
+          { id: 'p4-cat7', text: 'Sales Coaching category page', who: 'cc', done: true },
+          { id: 'p4-cat8', text: 'Sales Enablement category page', who: 'cc', done: true },
+          { id: 'p4-cat9', text: 'Lead Prospecting category page', who: 'cc', done: true },
+          { id: 'p4-cat10', text: 'Intent Data category page', who: 'cc', done: true },
+          { id: 'p4-cat11', text: 'CRM & Pipeline category page', who: 'cc', done: true },
+          { id: 'p4-cat12', text: 'Dialers & Calling category page', who: 'cc', done: true },
+          { id: 'p4-cat13', text: 'Meeting Schedulers category page', who: 'cc', done: true },
+          { id: 'p4-cat14', text: 'Sales Content category page', who: 'cc', done: true }
         ]
       },
       {
-        label: 'Remaining 16 Comparison Pages',
+        label: '21 Remaining Comparison Pages (Session 3 — in progress)',
         tasks: [
-          { id: 'p4-comp1', text: 'Upgrade remaining 16 comparison pages to v4', who: 'cc', done: false, note: 'Batch session' },
+          { id: 'p4-comp1', text: 'Migrate 21 remaining comparison pages to compare.njk layout (PR #4)', who: 'cc', done: false, note: 'Claude Code in progress' },
+          { id: 'p4-comp2', text: 'Validate PR #4 — check dual scores, reader selector, sidebar CTAs on all 21 pages', who: 'manus', done: false },
+          { id: 'p4-comp3', text: 'Merge PR #4 to main — Phase 4 complete', who: 'manus', done: false }
         ]
       }
     ]
@@ -405,53 +671,47 @@ const phases = [
         tasks: [
           { id: 'p5-p1', text: 'Build /for-sales-reps/ persona hub', who: 'cc', done: false },
           { id: 'p5-p2', text: 'Build /for-sales-managers/ persona hub', who: 'cc', done: false },
-          { id: 'p5-p3', text: 'Build /for-revenue-ops/ persona hub', who: 'cc', done: false },
+          { id: 'p5-p3', text: 'Build /for-revenue-ops/ persona hub', who: 'cc', done: false }
         ]
       },
       {
         label: 'Homepage Redesign',
         tasks: [
-          { id: 'p5-h1', text: 'Asymmetric hero layout with live stats bar', who: 'cc', done: false },
-          { id: 'p5-h2', text: 'Featured tools section with "Read Review" CTAs', who: 'cc', done: false },
-          { id: 'p5-h3', text: 'Methodology trust bar', who: 'cc', done: false },
-          { id: 'p5-h4', text: 'Curated comparisons section', who: 'cc', done: false },
-        ]
-      },
-      {
-        label: 'Permanent Agents (launch after Phase 2)',
-        tasks: [
-          { id: 'p5-ag1', text: 'Schedule Site Validator agent (daily 8am)', who: 'manus', done: false },
-          { id: 'p5-ag2', text: 'Schedule Evidence Refresher agent (Monday 9am)', who: 'manus', done: false },
-          { id: 'p5-ag3', text: 'Schedule Affiliate Health Monitor (daily 10am)', who: 'manus', done: false },
-          { id: 'p5-ag4', text: 'Schedule SEO Performance Monitor (Friday 9am)', who: 'manus', done: false },
-          { id: 'p5-ag5', text: 'Schedule Competitor Intelligence agent (Friday 10am)', who: 'manus', done: false },
-          { id: 'p5-ag6', text: 'Schedule New Tool Scout (Wednesday 9am)', who: 'manus', done: false },
-          { id: 'p5-ag7', text: 'Schedule Revenue Optimization agent (Monday 10am)', who: 'manus', done: false },
-          { id: 'p5-ag8', text: 'Schedule Growth Strategy agent (1st Monday/month)', who: 'manus', done: false },
+          { id: 'p5-h1', text: 'Write brief-PHASE5-homepage-redesign.md', who: 'manus', done: false },
+          { id: 'p5-h2', text: 'Asymmetric hero layout with live stats bar', who: 'cc', done: false },
+          { id: 'p5-h3', text: 'Featured tools section with "Read Review" CTAs', who: 'cc', done: false },
+          { id: 'p5-h4', text: 'Methodology trust bar', who: 'cc', done: false },
+          { id: 'p5-h5', text: 'Curated comparisons section', who: 'cc', done: false },
+          { id: 'p5-h6', text: 'PR #5 reviewed and merged to main', who: 'manus', done: false }
         ]
       }
     ]
   }
 ];
 
-// Load saved state
-function loadState() {
-  try {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    return saved ? JSON.parse(saved) : {};
-  } catch { return {}; }
-}
+const agentIds = ['ag1','ag2','ag3','ag4','ag5','ag6','ag7','ag8'];
 
+function loadState() {
+  try { const s = localStorage.getItem(STORAGE_KEY); return s ? JSON.parse(s) : {}; } catch { return {}; }
+}
+function loadAgentState() {
+  try { const s = localStorage.getItem(AGENT_KEY); return s ? JSON.parse(s) : {}; } catch { return {}; }
+}
 function saveState(state) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-  const notice = document.getElementById('save-notice');
-  notice.classList.add('show');
-  setTimeout(() => notice.classList.remove('show'), 1500);
+  showNotice();
 }
-
+function saveAgentState(state) {
+  localStorage.setItem(AGENT_KEY, JSON.stringify(state));
+  showNotice();
+}
+function showNotice() {
+  const n = document.getElementById('save-notice');
+  n.classList.add('show');
+  setTimeout(() => n.classList.remove('show'), 1500);
+}
 function getState() {
   const state = loadState();
-  // Merge hardcoded done:true with saved state
   const merged = {};
   phases.forEach(phase => {
     phase.sessions.forEach(session => {
@@ -462,43 +722,31 @@ function getState() {
   });
   return merged;
 }
-
 function calcPhaseProgress(phase, state) {
   let total = 0, done = 0;
-  phase.sessions.forEach(s => s.tasks.forEach(t => {
-    total++;
-    if (state[t.id]) done++;
-  }));
+  phase.sessions.forEach(s => s.tasks.forEach(t => { total++; if (state[t.id]) done++; }));
   return { total, done, pct: total ? Math.round(done / total * 100) : 0 };
 }
-
 function calcOverall(state) {
   let total = 0, done = 0;
-  phases.forEach(phase => {
-    phase.sessions.forEach(s => s.tasks.forEach(t => {
-      total++;
-      if (state[t.id]) done++;
-    }));
-  });
+  phases.forEach(phase => phase.sessions.forEach(s => s.tasks.forEach(t => { total++; if (state[t.id]) done++; })));
   return { total, done, pct: total ? Math.round(done / total * 100) : 0 };
 }
-
-function whoClass(who) {
-  return { matt: 'matt', cc: 'cc', manus: 'manus' }[who] || 'cc';
+function calcAgentProgress() {
+  const as = loadAgentState();
+  const done = agentIds.filter(id => as[id]).length;
+  return { done, total: 8, pct: Math.round(done / 8 * 100) };
 }
-function whoLabel(who) {
-  return { matt: 'Matt', cc: 'Claude Code', manus: 'Manus' }[who] || who;
-}
+function whoClass(who) { return { matt: 'matt', cc: 'cc', manus: 'manus' }[who] || 'cc'; }
+function whoLabel(who) { return { matt: 'Matt', cc: 'Claude Code', manus: 'Manus' }[who] || who; }
 
 function render() {
   const state = getState();
   const overall = calcOverall(state);
-
   document.getElementById('total-done').textContent = overall.done;
   document.getElementById('total-tasks').textContent = overall.total;
   document.getElementById('overall-pct').textContent = overall.pct + '%';
 
-  // Phase nav
   const nav = document.getElementById('phase-nav');
   nav.innerHTML = phases.map(phase => {
     const prog = calcPhaseProgress(phase, state);
@@ -510,13 +758,11 @@ function render() {
     </a>`;
   }).join('');
 
-  // Phase blocks
   const content = document.getElementById('phases-content');
   content.innerHTML = phases.map((phase, pi) => {
     const prog = calcPhaseProgress(phase, state);
     const numClass = prog.pct === 100 ? 'done' : phase.status === 'active' ? 'active' : 'pending';
     const fillClass = prog.pct === 100 ? 'done' : '';
-
     const sessionsHtml = phase.sessions.map(session => `
       <div class="session-divider">${session.label}</div>
       ${session.tasks.map(task => {
@@ -533,7 +779,6 @@ function render() {
         </div>`;
       }).join('')}
     `).join('');
-
     return `<div class="phase-block" id="${phase.id}">
       <div class="phase-header" onclick="togglePhase('${phase.id}')">
         <div class="phase-number ${numClass}">${pi}</div>
@@ -545,13 +790,41 @@ function render() {
           <div class="progress-bar"><div class="progress-fill ${fillClass}" style="width:${prog.pct}%"></div></div>
           <span class="progress-pct">${prog.pct}%</span>
         </div>
-        <span class="phase-toggle ${phase.status === 'active' ? 'open' : ''}" id="toggle-${phase.id}">›</span>
+        <span class="phase-toggle ${phase.status === 'active' ? 'open' : ''}" id="toggle-${phase.id}">&#8250;</span>
       </div>
       <div class="task-list" id="tasks-${phase.id}" style="display:${phase.status === 'active' ? 'flex' : 'none'}">
         ${sessionsHtml}
       </div>
     </div>`;
   }).join('');
+
+  renderAgentProgress();
+}
+
+function renderAgentProgress() {
+  const agentState = loadAgentState();
+  const prog = calcAgentProgress();
+  const navPct = document.getElementById('agents-nav-pct');
+  const fillEl = document.getElementById('agents-progress-fill');
+  const pctEl = document.getElementById('agents-progress-pct');
+  if (navPct) navPct.textContent = prog.pct + '%';
+  if (fillEl) fillEl.style.width = prog.pct + '%';
+  if (pctEl) pctEl.textContent = prog.pct + '%';
+  agentIds.forEach((id, i) => {
+    const num = i + 1;
+    const checkbox = document.getElementById(id);
+    const statusEl = document.getElementById('agent-status-' + num);
+    const cardEl = document.getElementById('agent-card-' + num);
+    const isLive = agentState[id] || false;
+    if (checkbox) checkbox.checked = isLive;
+    if (statusEl) {
+      statusEl.textContent = isLive ? 'Live' : 'Pending';
+      statusEl.className = 'agent-status ' + (isLive ? 'status-live' : 'status-pending');
+    }
+    if (cardEl) {
+      cardEl.className = 'agent-card' + (isLive ? ' live-agent' : '');
+    }
+  });
 }
 
 function toggleTask(id, checked) {
@@ -560,13 +833,25 @@ function toggleTask(id, checked) {
   saveState(state);
   render();
 }
-
+function toggleAgent(agentId, checked, num) {
+  const agentState = loadAgentState();
+  agentState[agentId] = checked;
+  saveAgentState(agentState);
+  renderAgentProgress();
+}
 function togglePhase(id) {
   const tasks = document.getElementById('tasks-' + id);
   const toggle = document.getElementById('toggle-' + id);
   const isOpen = tasks.style.display !== 'none';
   tasks.style.display = isOpen ? 'none' : 'flex';
   toggle.classList.toggle('open', !isOpen);
+}
+function toggleSection(bodyId, toggleId) {
+  const body = document.getElementById(bodyId);
+  const toggle = document.getElementById(toggleId);
+  const isOpen = body.style.display !== 'none';
+  body.style.display = isOpen ? 'none' : 'block';
+  if (toggle) toggle.classList.toggle('open', !isOpen);
 }
 
 render();
