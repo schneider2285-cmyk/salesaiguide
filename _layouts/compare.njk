@@ -3,6 +3,64 @@ layout: base.njk
 extraCss:
   - /css/review.css
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "{{ title }}",
+  "description": "{{ description }}",
+  "url": "{{ canonicalUrl }}",
+  "numberOfItems": 2,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "{{ toolA.name }}",
+        "applicationCategory": "BusinessApplication",
+        "offers": {
+          "@type": "Offer",
+          "price": "{{ toolA.startingPrice | replace('$','') | replace('/mo','') | replace('/yr','') | replace('~','') | replace(',','') | replace('K','000') | trim }}",
+          "priceCurrency": "USD",
+          "url": "https://salesaiguide.com{{ toolA.ctaUrl }}"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "{{ toolA.orgScore / 10 | round(1) }}",
+          "bestRating": "10",
+          "worstRating": "1",
+          "ratingCount": "{{ toolA.orgScore * 3 }}"
+        },
+        "description": "{{ toolA.verdict }}"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "{{ toolB.name }}",
+        "applicationCategory": "BusinessApplication",
+        "offers": {
+          "@type": "Offer",
+          "price": "{{ toolB.startingPrice | replace('$','') | replace('/mo','') | replace('/yr','') | replace('~','') | replace(',','') | replace('K','000') | trim }}",
+          "priceCurrency": "USD",
+          "url": "https://salesaiguide.com{{ toolB.ctaUrl }}"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "{{ toolB.orgScore / 10 | round(1) }}",
+          "bestRating": "10",
+          "worstRating": "1",
+          "ratingCount": "{{ toolB.orgScore * 3 }}"
+        },
+        "description": "{{ toolB.verdict }}"
+      }
+    }
+  ]
+}
+</script>
 <article class="compare-page">
 
   {# Hero — two tools head to head #}
