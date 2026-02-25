@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.3/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & lusha.com",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       { "class": "for-reps", "text": "For Reps" }
     ]
@@ -88,7 +88,7 @@
     "paragraphs": [
       "Lusha is a contact intelligence platform designed for speed. Its Chrome extension lets sales reps pull verified emails and phone numbers from LinkedIn profiles with a single click. With a free tier and self-serve pricing, it's one of the lowest-friction prospecting tools available — though the smaller database and limited features mean it works better for individual reps than for teams running complex enrichment workflows."
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/lusha/reviews\" target=\"_blank\" rel=\"noopener\">Lusha on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     { "title": "Chrome Extension", "description": "One-click contact lookup from LinkedIn profiles with email and phone reveal." },
@@ -344,7 +344,7 @@
         "synthesis": "The dominant theme across all review platforms: Lusha's Chrome extension is the fastest way to get from a LinkedIn profile to verified contact data. Reps consistently report it takes under 10 seconds to reveal an email and phone number, with no platform login or workflow setup required.",
         "sources": ["G2: 112 mentions", "Capterra: 28 mentions", "Reddit: 7 threads"],
         "quote": "\"Lusha is the fastest prospecting tool I've ever used. Click the extension on LinkedIn, get the email, push to Salesforce. Done in 10 seconds.\"",
-        "quoteCite": "Synthesized from G2 and Capterra review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -353,7 +353,7 @@
         "synthesis": "The most frequent complaint: Lusha's database is smaller than Apollo or ZoomInfo, leading to more missed contacts in niche industries, small companies, and non-US markets. Active prospectors report hitting dead ends more often than with larger databases.",
         "sources": ["G2: 78 mentions", "Reddit: 8 threads", "TrustRadius: 14 mentions"],
         "quote": "\"Lusha works great for standard B2B companies, but when I'm prospecting into niche verticals or companies under 50 employees, I get a lot of 'no data available' results.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -362,7 +362,7 @@
         "synthesis": "Users appreciate the free tier as a no-risk entry point, but 5 credits per month is only enough for occasional prospecting. Even the Pro plan's 480 credits can run out quickly for active SDRs, pushing teams toward the more expensive Scale plan or considering alternatives like Apollo.",
         "sources": ["G2: 56 mentions", "Reddit: 4 threads", "Capterra: 12 mentions"],
         "quote": "\"Started on the free tier and loved the simplicity. But once I went Pro, I burned through 480 credits in two weeks. At that volume, Apollo's unlimited plan starts looking better.\"",
-        "quoteCite": "Synthesized from G2 and Capterra review themes"
+        "quoteCite": "Composite insight from public sources"
       }
     ],
     "pricingBreakdown": {

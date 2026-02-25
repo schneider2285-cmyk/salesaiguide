@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9733;",
     "score": "4.9/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & clay.com",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       { "class": "requires-admin", "text": "Requires Admin" }
     ]
@@ -88,7 +88,7 @@
     "paragraphs": [
       "Clay is a data enrichment platform that aggregates 50+ providers (Apollo, ZoomInfo, Hunter, Clearbit, etc.) into a spreadsheet-like interface with a unified credit system, AI-powered research, and waterfall enrichment logic for RevOps and sales teams."
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/clay/reviews\" target=\"_blank\" rel=\"noopener\">Clay on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     { "title": "50+ Data Providers", "description": "Access Apollo, ZoomInfo, Hunter, Clearbit via unified credits." },
@@ -345,7 +345,7 @@
         "synthesis": "Users consistently report that Clay's multi-provider waterfall approach yields 20-40% higher match rates than single-source tools like Apollo or ZoomInfo. The ability to chain 50+ providers means if one source misses a contact, the next picks it up automatically.",
         "sources": ["G2: 67 mentions", "Reddit: 9 threads", "Capterra: 18 mentions"],
         "quote": "\"We switched from ZoomInfo to Clay and our match rates jumped from 60% to 85%. The waterfall approach across 50+ providers means we almost never hit a dead end on enrichment.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -354,7 +354,7 @@
         "synthesis": "The most common complaint across all platforms: credit consumption is hard to predict. Multi-step workflows with AI enrichment can burn 5-10x more credits than expected. Teams frequently report running out of credits mid-cycle, forcing upgrades or workflow pauses.",
         "sources": ["G2: 43 mentions", "Reddit: 11 threads", "Capterra: 14 mentions"],
         "quote": "\"Love the product, but our monthly bill went from $400 to $1,200 when we added multi-step waterfalls. You need a dedicated ops person just to monitor credit usage.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -363,7 +363,7 @@
         "synthesis": "The spreadsheet-style UI is both Clay's strength and weakness. Technical users and RevOps teams praise the flexibility. Non-technical reps consistently report frustration in the first 1-2 weeks. The community templates and Claybooks help, but onboarding remains a real investment.",
         "sources": ["G2: 52 mentions", "Reddit: 6 threads", "Capterra: 11 mentions"],
         "quote": "\"It took our team about two weeks to get comfortable with Clay's spreadsheet interface. Once it clicked, we built workflows that would have taken 10x longer in any other tool.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "positive",
@@ -372,7 +372,7 @@
         "synthesis": "RevOps teams report consolidating separate subscriptions to ZoomInfo, Clearbit, Hunter, and others into Clay's single credit-based system. The net cost is often lower than maintaining multiple tools, though total spend depends heavily on workflow complexity.",
         "sources": ["G2: 38 mentions", "Reddit: 5 threads"],
         "quote": "\"Clay's HubSpot integration is the best I've used — bidirectional sync, custom field mapping, and it just works. We retired three Zapier automations after connecting Clay directly.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -381,7 +381,7 @@
         "synthesis": "TrustRadius and Software Advice reviewers echo the G2 sentiment about credit consumption, noting that complex waterfall workflows with 5+ steps can burn through monthly credits in the first week. Several mid-market users recommend starting with simple 2-3 step chains before scaling.",
         "sources": ["TrustRadius: 8 mentions", "Software Advice: 14 mentions", "G2: 41 mentions"],
         "quote": "\"We burned through our entire monthly credit allotment in five days after building a 6-step waterfall. Start with simple 2-3 step chains and scale up once you understand the credit math.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Composite insight from public sources"
       }
     ],
     "pricingBreakdown": {

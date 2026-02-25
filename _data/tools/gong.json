@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9733;",
     "score": "4.8/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & gong.io",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       { "class": "requires-admin", "text": "Requires Admin" },
       { "class": "enterprise-grade", "text": "Enterprise Grade" }
@@ -89,7 +89,7 @@
     "paragraphs": [
       "Gong is a revenue intelligence platform that records, transcribes, and analyzes sales calls using AI to surface deal intelligence, coaching insights, and revenue forecasting far deeper than CRM-based pipeline reports."
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/gong/reviews\" target=\"_blank\" rel=\"noopener\">Gong on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     { "title": "AI Call Recording & Transcription", "description": "Records and transcribes Zoom, Teams, Meet calls with speaker ID." },

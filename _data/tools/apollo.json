@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9733;",
     "score": "4.7/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & apollo.io",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       { "class": "personal-friendly", "text": "Personal-Friendly" },
       { "class": "low-cost", "text": "Low Cost" },
@@ -90,7 +90,7 @@
     "paragraphs": [
       "Apollo.io is an all-in-one sales intelligence and engagement platform with 275M+ B2B contacts, email sequencing, a built-in dialer, and CRM &mdash; bundled at $49/user/mo (annual) or $59/user/mo (monthly), making it the default choice for startups and mid-market teams wanting prospecting + outreach in one tool."
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/apollo-io/reviews\" target=\"_blank\" rel=\"noopener\">Apollo.io on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     { "title": "275M+ Contact Database", "description": "B2B database with email, phone, title, and company data." },
@@ -238,7 +238,7 @@
         "synthesis": "Teams consistently praise Apollo for combining prospecting, enrichment, and sequencing in one login. The ability to find a lead, enrich it, and drop it into a sequence without switching tools is cited as the primary productivity gain, especially for startups that would otherwise need 3-4 separate subscriptions.",
         "sources": ["G2: 2,100+ mentions", "Reddit: 18 threads", "Capterra: 120 mentions"],
         "quote": "\"We replaced Outreach, ZoomInfo, and a standalone dialer with Apollo and cut our monthly tooling spend by 60%. One login for everything our SDR team needs.\"",
-        "quoteCite": "Synthesized from G2 and community review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -247,7 +247,7 @@
         "synthesis": "The most consistent criticism across all platforms is email data accuracy. Users report bounce rates of 15-20% on exported lists, particularly for niche verticals, international markets, and smaller companies. Teams targeting non-tech sectors or outside North America experience the sharpest accuracy drop-off.",
         "sources": ["G2: 890 mentions", "Reddit: 14 threads", "Capterra: 65 mentions"],
         "quote": "\"We exported 2,000 contacts targeting European manufacturing and hit a 22% bounce rate. For US tech companies the data is solid, but niche international lists need a verification layer on top.\"",
-        "quoteCite": "Synthesized from G2 and community review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "positive",
@@ -256,7 +256,7 @@
         "synthesis": "Apollo's free tier offering 10K leads per month at no cost is universally praised as the most generous in the sales intelligence space. Individual reps and early-stage startups use it as their primary prospecting tool, often for months before upgrading. No competitor matches this level of free access.",
         "sources": ["G2: 1,400+ mentions", "Reddit: 12 threads", "Capterra: 78 mentions"],
         "quote": "\"I ran Apollo's free tier for four months as a solo founder before upgrading. No other tool gives you 10K leads a month at zero cost \u2014 it's how I built my entire initial pipeline.\"",
-        "quoteCite": "Synthesized from G2 and community review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -265,7 +265,7 @@
         "synthesis": "The Chrome extension for LinkedIn prospecting is one of Apollo's most-used features, allowing reps to pull verified contact data directly from profiles. However, IT and security teams at larger organizations flag the extension's broad permissions as a concern, creating tension between rep productivity and corporate security policies.",
         "sources": ["G2: 650 mentions", "Reddit: 8 threads"],
         "quote": "\"My reps love the Chrome extension for LinkedIn prospecting \u2014 they pull verified emails in seconds. But our security team flagged the broad permissions and we had to get a formal exception from IT to keep it installed.\"",
-        "quoteCite": "Synthesized from G2 and community review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "positive",
@@ -274,7 +274,7 @@
         "synthesis": "TrustRadius and Software Advice reviewers consistently highlight that Apollo replaces 2-3 separate tools for smaller teams \u2014 combining prospecting, email sequences, and basic CRM in one platform. Mid-market users report saving $500-1,200/mo by consolidating their stack around Apollo.",
         "sources": ["TrustRadius: 28 mentions", "Software Advice: 35 mentions", "G2: 180+ mentions"],
         "quote": "\"Apollo replaced our ZoomInfo subscription, a separate sequencing tool, and a basic CRM \u2014 saving us roughly $800 per rep per month. For a 12-person team, that's a game-changer.\"",
-        "quoteCite": "Synthesized from G2 and community review themes"
+        "quoteCite": "Composite insight from public sources"
       }
     ],
     "pricingBreakdown": {

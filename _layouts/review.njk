@@ -318,7 +318,7 @@ extraCss:
 
                         <section class="content-section">
                             <h2>What Users Actually Say</h2>
-                            <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1rem;">Recurring themes synthesized from G2, Capterra, Reddit, and practitioner communities.</p>
+                            <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1rem;">Recurring themes from G2, Capterra, Reddit, and practitioner communities. Source counts shown per theme.</p>
 
                             {% for theme in t.decisionModule.userVoiceThemes %}
                             <div class="dm-user-voice-theme">
@@ -332,10 +332,9 @@ extraCss:
                                     <span class="dm-voice-count">{{ source }}</span>
                                     {% endfor %}
                                 </div>
-                                <blockquote class="dm-user-quote">
-                                    {{ theme.quote | safe }}
-                                    <cite>— {{ theme.quoteCite }}</cite>
-                                </blockquote>
+                                <div class="dm-composite-insight">
+                                    <span class="dm-composite-label">Composite insight:</span> {{ theme.quote | safe }}
+                                </div>
                             </div>
                             {% endfor %}
                         </section>

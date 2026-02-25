@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.7/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & mindtickle.com",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       { "class": "requires-admin", "text": "Requires Admin" }
     ]
@@ -88,7 +88,7 @@
     "paragraphs": [
       "MindTickle is an enterprise sales readiness platform that combines onboarding, training, coaching, and certification into a unified solution. It differentiates from enablement tools like Highspot through its training-first approach, Call AI for scoring recorded calls against custom rubrics, and Missions for AI-powered practice and feedback. MindTickle is particularly strong in financial services, technology, and healthcare verticals where structured training and compliance certification are critical."
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/mindtickle/reviews\" target=\"_blank\" rel=\"noopener\">MindTickle on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     { "title": "Call AI Scoring", "description": "Analyzes recorded sales calls and scores them against custom rubrics, surfacing coaching opportunities and tracking rep improvement over time." },

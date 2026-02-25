@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.4/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & hubspot.com",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       { "class": "personal-friendly", "text": "Personal-Friendly" },
       { "class": "enterprise-grade", "text": "Enterprise Grade" }
@@ -236,7 +236,7 @@
         "synthesis": "HubSpot's free CRM is universally praised as the most functional free tier available. Teams start with contact management, deal tracking, and basic email tools at zero cost, then naturally scale into paid tiers as needs grow. This land-and-expand model means most teams adopt HubSpot bottom-up without a formal procurement process.",
         "sources": ["G2: 3,200+ mentions", "Reddit: 25 threads", "Capterra: 1,800+ mentions"],
         "quote": "\"We started on the free CRM with three reps and never looked back. Six months later we upgraded to Starter — no formal procurement needed, just a credit card. That frictionless onramp is why HubSpot wins SMBs.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -245,7 +245,7 @@
         "synthesis": "The most common pricing complaint: contact-tier pricing creates unexpected cost jumps. Teams that grow past 2K, 5K, and 10K marketing contacts face significant monthly increases. The so-called \"HubSpot tax\" is a recurring theme where teams feel locked into escalating costs because migration is painful once workflows are built on the platform.",
         "sources": ["G2: 2,100+ mentions", "Reddit: 20 threads", "Capterra: 980 mentions"],
         "quote": "\"Our marketing contact list crossed 10K and the bill jumped $600/month overnight. The free tier is amazing, but plan your budget carefully — the contact-tier pricing creates real sticker shock as you scale.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "positive",
@@ -254,7 +254,7 @@
         "synthesis": "Teams running marketing, sales, and service on HubSpot consistently praise the unified data model. Having contacts, deals, tickets, and content in one platform eliminates sync issues and provides a single source of truth. The 1,400+ marketplace integrations extend this further, connecting virtually any tool in the sales stack.",
         "sources": ["G2: 2,800+ mentions", "Reddit: 18 threads", "Capterra: 1,500+ mentions"],
         "quote": "\"We consolidated from Salesforce plus Outreach plus Drift into HubSpot Sales Hub and our tech stack cost dropped 40%. The native integration between marketing and sales is what keeps everything in sync.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -263,7 +263,7 @@
         "synthesis": "HubSpot's AI content assistant, predictive lead scoring, and email writing tools are functional but don't match dedicated solutions. Teams using Gong for conversation intelligence or Clay for data enrichment find HubSpot's equivalents are a generation behind. The AI roadmap is promising, but today it's a convenience feature rather than a competitive advantage.",
         "sources": ["G2: 680 mentions", "Reddit: 8 threads", "Capterra: 320 mentions"],
         "quote": "\"HubSpot's AI email writer and lead scoring are fine for basics, but they don't come close to what Gong or Clay deliver. Think of the AI as a convenience layer, not a reason to buy.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -272,7 +272,7 @@
         "synthesis": "TrustRadius and Gartner Peer Insights reviewers consistently praise the free CRM as the best entry point in the market, but enterprise users report total cost of ownership escalating rapidly when adding Sales Hub Professional or Enterprise seats. Multiple reviewers across platforms note that the jump from Starter to Professional feels disproportionate to the features unlocked.",
         "sources": ["TrustRadius: 520 mentions", "Gartner PI: 280 mentions", "G2: 1,400+ mentions"],
         "quote": "\"The free CRM got us hooked, but jumping from Starter to Professional felt like a completely different price tier for features that should be standard. Plan your upgrade budget before you build workflows you can't easily migrate.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       }
     ],
     "pricingBreakdown": {

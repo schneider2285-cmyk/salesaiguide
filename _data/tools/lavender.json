@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.8/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & lavender.ai",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       {
         "class": "personal-friendly",
@@ -105,7 +105,7 @@
     "paragraphs": [
       "Lavender is an AI email coaching Chrome extension that scores cold emails in real-time and provides specific suggestions to improve reply rates. Unlike tools that write for you, Lavender coaches you &mdash; including DISC-based prospect personality analysis and team coaching dashboards for managers. <em>Profile based on vendor docs and G2 reviews. See <a href=\"https://www.g2.com/products/lavender/reviews\" target=\"_blank\" rel=\"noopener\">Lavender on G2</a>.</em>"
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/lavender/reviews\" target=\"_blank\" rel=\"noopener\">Lavender on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     {
@@ -344,7 +344,7 @@
           "Reddit: 4 threads"
         ],
         "quote": "\"My reply rates went from 3% to 11% in the first month. The real-time scoring forced me to rewrite every lazy email, and the habits stuck even when I turned it off.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -356,7 +356,7 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"After six months I could predict the score before I even ran it. The coaching worked &mdash; I internalized the patterns &mdash; but now I'm paying $49/mo for a tool I've outgrown.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "positive",
@@ -368,7 +368,7 @@
           "Reddit: 5 threads"
         ],
         "quote": "\"Installed the Chrome extension and it was scoring my emails within sixty seconds. No onboarding call, no setup wizard &mdash; it just works inside Gmail like it was always there.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -380,7 +380,7 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"Lavender is brilliant for what it does &mdash; email coaching &mdash; but that's literally all it does. You still need a separate tool for sequences, tracking, and LinkedIn outreach.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "positive",
@@ -392,7 +392,7 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"Within one week our new SDRs were writing emails that scored 90+. The coaching loop is so tight that bad habits don't have time to form &mdash; it's like having a writing coach on every send.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+        "quoteCite": "Composite insight from public sources"
       }
     ],
     "pricingBreakdown": {

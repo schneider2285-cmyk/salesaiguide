@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9733;",
     "score": "4.8/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & warmly.ai",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       { "class": "requires-admin", "text": "Requires Admin" }
     ]
@@ -88,7 +88,7 @@
     "paragraphs": [
       "Warmly is a website visitor intelligence platform that de-anonymizes web traffic using IP resolution and intent data from partners like Clearbit, 6sense, and Bombora. When target accounts visit your site, Warmly alerts your team via Slack or CRM and can deploy an AI agent (Warmly AI) to engage visitors in real time via live chat. It's primarily a RevOps and marketing tool &mdash; individual reps interact with it through alerts, not through the platform directly."
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/warmly/reviews\" target=\"_blank\" rel=\"noopener\">Warmly on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     { "title": "Visitor De-Anonymization", "description": "Identify company and individual visitors using IP intelligence and intent data." },
@@ -344,7 +344,7 @@
         "synthesis": "The standout feature: Warmly's AI agent engages high-value visitors via chat in real time, using visitor context and intent signals to start relevant conversations. Early adopters report 15-25% increases in booked meetings from website traffic that previously went unengaged.",
         "sources": ["G2: 45 mentions", "TrustRadius: 8 mentions", "Reddit: 3 threads"],
         "quote": "\"Warmly's AI agent booked 12 meetings in its first month from visitors who would have just bounced. The ROI paid for the entire annual contract in one quarter.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -353,7 +353,7 @@
         "synthesis": "The most common complaint: jumping from $0 to $700/month is a steep commitment. Teams that outgrow the free tier's 500 visitors have no mid-tier option, making it hard to justify the upgrade without proven ROI from the free plan.",
         "sources": ["G2: 34 mentions", "Reddit: 4 threads", "Capterra: 8 mentions"],
         "quote": "\"The free tier proved the value — we could see exactly who was visiting our pricing page. But $700/mo is a big jump for a startup. Wish there was a $200/mo tier for growing teams.\"",
-        "quoteCite": "Synthesized from G2 and Reddit review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -362,7 +362,7 @@
         "synthesis": "Users agree Warmly is capable, but getting the most from it requires RevOps expertise. Basic visitor ID works immediately, but the real value — targeted alerts, AI engagement rules, CRM enrichment — needs someone who understands routing logic and integration configuration.",
         "sources": ["G2: 28 mentions", "TrustRadius: 6 mentions", "Reddit: 3 threads"],
         "quote": "\"Warmly is incredibly powerful once it's configured properly, but 'properly' meant our RevOps lead spent two weeks building alert rules and enrichment workflows. Not a plug-and-play tool.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Composite insight from public sources"
       }
     ],
     "pricingBreakdown": {

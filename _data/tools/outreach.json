@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.4/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & outreach.io",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       { "class": "requires-admin", "text": "Requires Admin" },
       { "class": "enterprise-grade", "text": "Enterprise Grade" }
@@ -236,7 +236,7 @@
         "synthesis": "Users consistently highlight Outreach's multichannel sequencing engine as the gold standard for enterprise sales teams. The deep Salesforce integration with bi-directional sync, activity logging, and deal tracking is cited as the primary reason teams choose Outreach over alternatives.",
         "sources": ["G2: 1,200+ mentions", "Reddit: 12 threads", "Capterra: 145 mentions"],
         "quote": "\"Outreach's multi-channel sequences cut our SDR ramp time from 6 weeks to 3. The AI-suggested send times alone improved our reply rates by 18%.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -245,7 +245,7 @@
         "synthesis": "The most common UX complaint across all platforms: reps find the interface unintuitive and resist daily adoption. Teams switching from Salesloft or evaluating both consistently note that Outreach's UI feels heavier and less modern, requiring more clicks to complete common tasks.",
         "sources": ["G2: 890 mentions", "Reddit: 14 threads", "Capterra: 98 mentions"],
         "quote": "\"Switching from Salesloft, the first thing our reps noticed was how many more clicks everything takes. The power is there, but the daily UX friction is real.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -254,7 +254,7 @@
         "synthesis": "Outreach's depth is both its greatest strength and biggest barrier. Enterprise teams praise the workflow flexibility but acknowledge needing a dedicated RevOps resource for sequence governance, template management, and ongoing configuration. Teams without this resource consistently underutilize the platform.",
         "sources": ["G2: 670 mentions", "Reddit: 9 threads", "Capterra: 72 mentions"],
         "quote": "\"You need a full-time Outreach admin once you hit 50+ seats. The platform is incredibly powerful but the configuration complexity is no joke.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -263,7 +263,7 @@
         "synthesis": "No public pricing is the top procurement frustration. Users report $100-130/user/month with annual contracts, minimum seat requirements, and implementation fees ranging from $10K-50K. Teams evaluating alternatives like Apollo or Instantly find 3-5x cost differences for overlapping functionality.",
         "sources": ["G2: 540 mentions", "Reddit: 11 threads", "Capterra: 63 mentions"],
         "quote": "\"We evaluated Outreach, Apollo, and Instantly side by side. Outreach was 4x the cost of Apollo for features our 25-person team would never touch.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -272,7 +272,7 @@
         "synthesis": "TrustRadius and Gartner Peer Insights reviewers consistently note that Outreach's depth of features requires 4-8 weeks of onboarding for full team adoption. Enterprise users say the investment pays off in pipeline velocity, but smaller teams find the complexity overkill for basic sequence needs.",
         "sources": ["TrustRadius: 68 mentions", "Gartner PI: 120 mentions", "G2: 290+ mentions"],
         "quote": "\"Plan for 6-8 weeks before your team is fully ramped. The investment pays off in pipeline velocity, but the onboarding lift is substantial compared to lighter tools.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       }
     ],
     "pricingBreakdown": {

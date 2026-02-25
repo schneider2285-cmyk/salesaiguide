@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.7/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & seismic.com",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       { "class": "requires-admin", "text": "Requires Admin" }
     ]
@@ -88,7 +88,7 @@
     "paragraphs": [
       "Seismic is an enterprise sales enablement and content management platform that centralizes sales content, automates content recommendations using AI, and tracks how prospects engage with shared materials via LiveSend. It competes with Highspot as one of the two dominant enterprise enablement platforms, serving large global sales organizations that need governance, compliance, and multi-language support at scale."
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/seismic/reviews\" target=\"_blank\" rel=\"noopener\">Seismic on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     { "title": "Sales Content Management", "description": "Centralized content library with version control, tagging, and governance for enterprise sales teams." },

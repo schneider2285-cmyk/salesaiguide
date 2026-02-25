@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.2/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & leadiq.com",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       { "class": "for-reps", "text": "For Reps" }
     ]
@@ -88,7 +88,7 @@
     "paragraphs": [
       "LeadIQ is a LinkedIn prospecting platform that captures contact data in real time, syncs it to your CRM, and uses AI (Scribe) to generate personalized first lines for cold outreach. It sits between simple lookup tools like Lusha and full platforms like Apollo, offering a focused workflow for reps who live in LinkedIn and want AI assistance without platform complexity."
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/leadiq/reviews\" target=\"_blank\" rel=\"noopener\">LeadIQ on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     { "title": "Scribe AI", "description": "AI-generated personalized first lines based on LinkedIn activity and company news." },
@@ -344,7 +344,7 @@
         "synthesis": "The standout feature across all review platforms: Scribe AI generates personalized first lines that save reps 30-60 minutes per day. Users report it pulls from LinkedIn activity, job changes, and company news to create contextually relevant opening lines that feel human-written.",
         "sources": ["G2: 87 mentions", "TrustRadius: 14 mentions", "Reddit: 5 threads"],
         "quote": "\"Scribe AI cut my first-line writing time by 75%. It pulls from LinkedIn posts and job changes to create openers that actually reference something relevant to the prospect.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -353,7 +353,7 @@
         "synthesis": "The most consistent complaint: mobile number allocations are too low on all plans. Even the Pro plan's 70 mobile numbers per month isn't enough for reps who cold call as a primary channel. Teams that rely on phone outreach often need supplementary data sources.",
         "sources": ["G2: 62 mentions", "Reddit: 6 threads", "Capterra: 15 mentions"],
         "quote": "\"The email data is solid, but 30 mobile numbers per month on Essential? I burn through that in two days of cold calling. Had to keep my Lusha subscription just for phone numbers.\"",
-        "quoteCite": "Synthesized from G2 and Capterra review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -362,7 +362,7 @@
         "synthesis": "Users consistently praise LeadIQ for LinkedIn workflows but note it's not a standalone solution. The lack of email sending, limited database compared to Apollo, and credit-based model mean most teams pair it with other tools. It excels in its niche but doesn't try to be everything.",
         "sources": ["G2: 45 mentions", "TrustRadius: 8 mentions", "Reddit: 4 threads"],
         "quote": "\"LeadIQ is my favorite tool for LinkedIn prospecting, but it's not an all-in-one. I use it with Outreach for sequences and Apollo when I need broader database access.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Composite insight from public sources"
       }
     ],
     "pricingBreakdown": {

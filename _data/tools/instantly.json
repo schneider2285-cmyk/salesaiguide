@@ -69,7 +69,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9733;",
     "score": "4.8/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & instantly.ai",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       { "class": "personal-friendly", "text": "Personal-Friendly" },
       { "class": "low-cost", "text": "Low Cost" },
@@ -91,7 +91,7 @@
     "paragraphs": [
       "Instantly.ai is a cold email platform built for high-volume outreach with unlimited sending accounts, automated warmup, a unified inbox, and multi-step campaign sequences with A/B testing."
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/instantly-ai/reviews\" target=\"_blank\" rel=\"noopener\">Instantly on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     { "title": "Unlimited Email Accounts", "description": "Connect unlimited sending accounts with no per-seat pricing." },
@@ -344,7 +344,7 @@
         "synthesis": "Users consistently report inbox placement rates above 70% when warmup is properly configured. The automated warmup engine is frequently cited as the primary reason teams choose Instantly over competitors, with sender reputation recovering faster than manual warmup approaches.",
         "sources": ["G2: 1,200+ mentions", "Reddit: 14 threads", "Capterra: 85 mentions"],
         "quote": "\"We tested Instantly's warmup against Lemwarm and Warmbox side by side. After 30 days, Instantly accounts had 15% higher inbox placement rates. The built-in approach just works better.\"",
-        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -353,7 +353,7 @@
         "synthesis": "Teams that outgrow basic open/reply metrics quickly hit the ceiling on Instantly's dashboard. Campaign attribution, multi-touch reporting, and funnel analytics are either missing or rudimentary compared to enterprise tools like Salesloft or HubSpot. Growing teams often add external analytics within 6 months.",
         "sources": ["G2: 340 mentions", "Reddit: 8 threads", "Capterra: 42 mentions"],
         "quote": "\"The basic open/reply metrics are fine for SMB campaigns, but when our VP of Sales asked for attribution reporting and pipeline impact, we had to export everything to Google Sheets.\"",
-        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "positive",
@@ -362,7 +362,7 @@
         "synthesis": "The unlimited sending accounts model is the single most praised feature. Agencies running 20-50+ mailboxes report saving thousands per month compared to per-seat competitors. The ability to add domains without cost increases makes Instantly the default for high-volume operations.",
         "sources": ["G2: 900+ mentions", "Reddit: 11 threads", "Capterra: 65 mentions"],
         "quote": "\"At $30/month for unlimited sending across multiple accounts, Instantly is honestly absurd value. We're sending 50K emails a month and paying less than we did for Mailshake's basic tier.\"",
-        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -371,7 +371,7 @@
         "synthesis": "Instantly dominates cold email but offers zero support for LinkedIn, phone, or SMS outreach. Teams running multi-channel sequences must pair Instantly with separate tools, adding complexity and cost. Users love the email focus but wish for at least basic LinkedIn integration.",
         "sources": ["G2: 280 mentions", "Reddit: 6 threads"],
         "quote": "\"We manage 23 client accounts from one Instantly dashboard. The campaign cloning and rotation features save us at least 10 hours per week versus our old Mailshake setup.\"",
-        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "positive",
@@ -380,7 +380,7 @@
         "synthesis": "TrustRadius reviewers consistently highlight Instantly's email warmup and deliverability tools as a differentiator over competitors like Lemlist and Smartlead. Users report inbox placement rates of 85-95% when using the warmup network correctly, a signal also echoed in Software Advice reviews.",
         "sources": ["TrustRadius: 18 mentions", "Software Advice: 42 mentions", "Reddit: 8 threads"],
         "quote": "\"Our inbox placement went from 55% to 92% after running Instantly's warmup network for three weeks. No standalone warmup tool we tried came close to those numbers.\"",
-        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
+        "quoteCite": "Composite insight from public sources"
       }
     ],
     "pricingBreakdown": {
