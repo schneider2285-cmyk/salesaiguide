@@ -738,7 +738,61 @@ const phases = [
         tasks: [
           { id: 'p5-m1', text: 'Fix missing disclosure notes on Lavender, Smartlead, ZoomInfo', who: 'manus', done: true, note: 'Fixed Feb 24 — noteHtml added to all 3 JSON files, committed to main' },
           { id: 'p5-m2', text: 'Write brief-PHASE3-tier2-tool-pages.md (10 tool pages + nav + 2 guides)', who: 'manus', done: true, note: 'Written Feb 24 — 518 lines, 5 sessions, full JSON schema specs for all 10 tools' },
-          { id: 'p5-m3', text: 'Write brief-AGENTS-activation.md (all 8 agents + Monday brief workflow)', who: 'manus', done: true, note: 'Written Feb 24 — full activation protocol, first-run checklist, output formats' }
+          { id: 'p5-m3', text: 'Write brief-AGENTS-activation.md (all 8 agents + Monday brief workflow)', who: 'manus', done: true, note: 'Written Feb 24 — full activation protocol, first-run checklist, output formats' },
+          { id: 'p5-m4', text: 'Write brief-PHASE6-tier2-comparisons.md (21 comparison pages)', who: 'manus', done: true, note: 'Written Feb 24 — 935 lines, 3 sessions, full frontmatter specs for all 21 pages' }
+        ]
+      }
+    ]
+  },
+  {
+    label: 'Phase 6',
+    id: 'phase6',
+    title: '21 Tier 2 Comparison Pages',
+    subtitle: 'Expand comparison coverage across all 20 tools',
+    status: 'pending',
+    sessions: [
+      {
+        label: 'Session 1 — Data & Prospecting (7 pages)',
+        tasks: [
+          { id: 'p6-c1', text: 'apollo-vs-hubspot comparison page', who: 'cc', done: false },
+          { id: 'p6-c2', text: 'cognism-vs-apollo comparison page', who: 'cc', done: false },
+          { id: 'p6-c3', text: 'lusha-vs-zoominfo comparison page', who: 'cc', done: false },
+          { id: 'p6-c4', text: 'leadiq-vs-apollo comparison page', who: 'cc', done: false },
+          { id: 'p6-c5', text: 'clay-vs-zoominfo comparison page', who: 'cc', done: false },
+          { id: 'p6-c6', text: 'cognism-vs-lusha comparison page', who: 'cc', done: false },
+          { id: 'p6-c7', text: 'warmly-vs-apollo comparison page', who: 'cc', done: false }
+        ]
+      },
+      {
+        label: 'Session 2 — Sales Engagement & Email (7 pages)',
+        tasks: [
+          { id: 'p6-c8', text: 'outreach-vs-hubspot comparison page', who: 'cc', done: false },
+          { id: 'p6-c9', text: 'salesloft-vs-hubspot comparison page', who: 'cc', done: false },
+          { id: 'p6-c10', text: 'instantly-vs-apollo comparison page', who: 'cc', done: false },
+          { id: 'p6-c11', text: 'vidyard-vs-loom comparison page', who: 'cc', done: false },
+          { id: 'p6-c12', text: 'lavender-vs-apollo comparison page', who: 'cc', done: false },
+          { id: 'p6-c13', text: 'gong-vs-salesloft comparison page', who: 'cc', done: false },
+          { id: 'p6-c14', text: 'gong-vs-clari comparison page', who: 'cc', done: false }
+        ]
+      },
+      {
+        label: 'Session 3 — Enablement & Coaching (7 pages)',
+        tasks: [
+          { id: 'p6-c15', text: 'seismic-vs-showpad comparison page', who: 'cc', done: false },
+          { id: 'p6-c16', text: 'highspot-vs-mindtickle comparison page', who: 'cc', done: false },
+          { id: 'p6-c17', text: 'chili-piper-vs-hubspot comparison page', who: 'cc', done: false },
+          { id: 'p6-c18', text: 'gong-vs-outreach comparison page', who: 'cc', done: false },
+          { id: 'p6-c19', text: 'seismic-vs-mindtickle comparison page', who: 'cc', done: false },
+          { id: 'p6-c20', text: 'clari-vs-hubspot comparison page', who: 'cc', done: false },
+          { id: 'p6-c21', text: 'gong-vs-hubspot comparison page', who: 'cc', done: false }
+        ]
+      },
+      {
+        label: 'Session 4 — PR + Validation',
+        tasks: [
+          { id: 'p6-val1', text: 'Build passes 0 errors (~101 files)', who: 'cc', done: false },
+          { id: 'p6-val2', text: 'All 21 pages in _site/compare/', who: 'cc', done: false },
+          { id: 'p6-val3', text: 'PR #7 reviewed and merged to main', who: 'manus', done: false }
         ]
       }
     ]
