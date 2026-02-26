@@ -1652,22 +1652,180 @@
     }
 }
 
-/* Composite Insights (replaces dm-user-quote blockquotes) */
-.dm-composite-insight {
-    margin: 12px 0 0;
-    padding: 14px 18px;
-    background: var(--gray-light, #f8f9fa);
-    border-left: 3px solid var(--accent, #2ec4b6);
-    font-size: 0.9rem;
+/* ═══════════════════════════════════════════════════
+   SOURCES CHECKED SECTION
+═══════════════════════════════════════════════════ */
+.sc-section h2 { margin-bottom: 0.25rem; }
+.sc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.sc-card {
+    background: var(--warm-card, #fff);
+    border: 1px solid var(--warm-border, #e2e8f0);
+    border-radius: 10px;
+    padding: 1rem 1.125rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-left: 4px solid var(--accent, #2ec4b6);
+}
+.sc-type-community { border-left-color: #7c3aed; }
+.sc-type-video { border-left-color: #dc2626; }
+.sc-type-vendor { border-left-color: #2563eb; }
+.sc-type-job_signals { border-left-color: #059669; }
+.sc-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+.sc-icon { font-size: 1rem; }
+.sc-name { font-weight: 600; font-size: 0.9rem; color: var(--navy-dark, #1a202c); flex: 1; }
+.sc-rating {
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: var(--accent, #2ec4b6);
+    color: white;
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+}
+.sc-count { font-size: 0.78rem; color: var(--text-light, #718096); margin: 0; }
+.sc-finding { font-size: 0.875rem; color: var(--text-body, #4a5568); line-height: 1.6; margin: 0; flex: 1; }
+.sc-link {
+    font-size: 0.78rem;
+    color: var(--accent, #2ec4b6);
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: auto;
+}
+.sc-link:hover { text-decoration: underline; }
+
+/* ═══════════════════════════════════════════════════
+   ENTERPRISE READINESS SECTION
+═══════════════════════════════════════════════════ */
+.er-section h2 { margin-bottom: 0.5rem; }
+.er-score-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+.er-overall-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-light, #718096);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.er-overall-value {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--navy-dark, #1a202c);
+}
+.er-table td:nth-child(2) { white-space: nowrap; }
+.er-status {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.er-yes { background: #d1fae5; color: #065f46; }
+.er-partial { background: #fef3c7; color: #92400e; }
+.er-no { background: #fee2e2; color: #991b1b; }
+.er-unknown { background: #f1f5f9; color: #64748b; }
+
+/* ═══════════════════════════════════════════════════
+   FAQ ACCORDION
+═══════════════════════════════════════════════════ */
+.faq-accordion { display: flex; flex-direction: column; gap: 0; }
+.faq-item { border-bottom: 1px solid var(--warm-border, #e2e8f0); }
+.faq-item:first-child { border-top: 1px solid var(--warm-border, #e2e8f0); }
+.faq-question {
+    list-style: none;
+    padding: 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--navy-dark, #1a202c);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    user-select: none;
+}
+.faq-question::-webkit-details-marker { display: none; }
+.faq-question::after {
+    content: '+';
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--accent, #2ec4b6);
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+}
+.faq-item[open] .faq-question::after { transform: rotate(45deg); }
+.faq-answer {
+    padding: 0 0 1rem;
     color: var(--text-body, #4a5568);
     line-height: 1.7;
-    border-radius: 0 6px 6px 0;
+    font-size: 0.95rem;
+}
+.faq-answer p { margin: 0; }
+
+/* ═══════════════════════════════════════════════════
+   RELATED COMPARISONS GRID
+═══════════════════════════════════════════════════ */
+.rc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
+.rc-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.875rem 1rem;
+    background: var(--warm-card, #fff);
+    border: 1px solid var(--warm-border, #e2e8f0);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--navy-dark, #1a202c);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+}
+.rc-card:hover {
+    border-color: var(--accent, #2ec4b6);
+    box-shadow: 0 2px 8px rgba(46, 196, 182, 0.15);
+    transform: translateY(-1px);
+}
+.rc-arrow { color: var(--accent, #2ec4b6); font-size: 1.1rem; flex-shrink: 0; margin-left: 0.5rem; }
+
+/* ═══════════════════════════════════════════════════
+   COMPOSITE INSIGHT (replaces fake blockquote)
+═══════════════════════════════════════════════════ */
+.dm-composite-insight {
+    background: linear-gradient(135deg, rgba(46,196,182,0.06) 0%, rgba(46,196,182,0.02) 100%);
+    border-left: 3px solid var(--accent, #2ec4b6);
+    border-radius: 0 8px 8px 0;
+    padding: 0.875rem 1rem;
+    margin: 0.75rem 0 0;
+    font-size: 0.9rem;
+    color: var(--text-body, #4a5568);
+    line-height: 1.65;
 }
 .dm-composite-label {
     font-weight: 700;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
     color: var(--accent, #2ec4b6);
-    margin-right: 6px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    display: block;
+    margin-bottom: 0.25rem;
 }

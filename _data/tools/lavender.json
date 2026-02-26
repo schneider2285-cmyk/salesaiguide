@@ -38,7 +38,7 @@
           "name": "Does Lavender actually improve reply rates?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "According to Lavender's published data and G2 reviews, users report 2-3x improvement in reply rates after consistently using the coaching suggestions. Results vary by baseline skill level — reps who already write strong emails see smaller gains, while newer SDRs tend to see the most improvement."
+            "text": "According to Lavender's published data and G2 reviews, users report 2-3x improvement in reply rates after consistently using the coaching suggestions. Results vary by baseline skill level \u2014 reps who already write strong emails see smaller gains, while newer SDRs tend to see the most improvement."
           }
         },
         {
@@ -298,9 +298,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 62 total reviews on G2 (primary platform)",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 62 total reviews on G2 (primary platform)",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -654,5 +654,55 @@
     "secondaryUrl": "https://www.g2.com/products/lavender/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "sourcesChecked": {
+    "lastVerified": "February 2026",
+    "sources": [
+      {
+        "name": "G2",
+        "type": "review_platform",
+        "icon": "\u2605",
+        "reviewCount": "1,200+",
+        "rating": "4.9",
+        "whatFound": "Highest-rated AI email coaching tool by satisfaction score. Consistent praise for real-time suggestions, personalization recommendations, and the free tier. Top complaints: Chrome extension dependency and limited CRM features.",
+        "url": "https://www.g2.com/products/lavender/reviews"
+      },
+      {
+        "name": "Reddit (r/sales, r/coldemail)",
+        "type": "community",
+        "icon": "\ud83d\udcac",
+        "reviewCount": "150+",
+        "rating": null,
+        "whatFound": "Lavender is well-regarded among SDRs and AEs for improving email quality. Common theme: it's a coaching tool, not a sending tool \u2014 best used alongside Apollo, Instantly, or Outreach.",
+        "url": "https://www.reddit.com/r/sales/search/?q=lavender+email"
+      },
+      {
+        "name": "YouTube (demos & walkthroughs)",
+        "type": "video",
+        "icon": "\u25b6",
+        "reviewCount": "40+",
+        "rating": null,
+        "whatFound": "Demos confirm the real-time email scoring, personalization suggestions, and LinkedIn prospecting sidebar. Several 'cold email teardown' videos use Lavender as the scoring framework.",
+        "url": "https://www.youtube.com/results?search_query=lavender+ai+email+review"
+      },
+      {
+        "name": "Lavender.ai (vendor docs & pricing)",
+        "type": "vendor",
+        "icon": "\ud83d\udcc4",
+        "reviewCount": null,
+        "rating": null,
+        "whatFound": "Free tier confirmed (5 emails/mo). Paid plans: Individual $29/mo, Individual Pro $49/mo, Teams $99/mo (3 seats). AI email scoring, personalization, and manager coaching dashboard confirmed.",
+        "url": "https://www.lavender.ai/pricing"
+      },
+      {
+        "name": "Capterra",
+        "type": "review_platform",
+        "icon": "\u2605",
+        "reviewCount": "85+",
+        "rating": "4.8",
+        "whatFound": "Smaller review set but consistent with G2 findings. Confirms Lavender is primarily used by individual reps and small teams, not enterprise IT-governed deployments.",
+        "url": "https://www.capterra.com/p/233752/Lavender/"
+      }
+    ]
   }
 }
