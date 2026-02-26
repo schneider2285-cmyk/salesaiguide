@@ -87,7 +87,7 @@
     }
   },
   "quickSummary": {
-    "whatItDoes": "Async video messaging platform for sales outreach \u2014 record screen + webcam videos, embed in emails, and track viewer engagement with CRM-synced analytics.",
+    "whatItDoes": "Async video messaging platform for sales outreach — record screen + webcam videos, embed in emails, and track viewer engagement with CRM-synced analytics.",
     "bestFor": "SDRs and AEs who want to stand out in crowded inboxes with personalized video messages and track prospect engagement.",
     "pricing": "Free tier (25 videos). Pro from $19/mo. Plus from $59/mo. Enterprise custom.",
     "ctaUrl": "/go/vidyard",
@@ -556,16 +556,31 @@
       "confidence": "high",
       "confidenceNote": "Based on 800+ G2 reviews, vendor documentation, and active community discussion. Strong signal quality with established market presence.",
       "sourcePills": [
-        "G2: 4.5/5 (800+ reviews)",
-        "TrustRadius: 8.4/10 (80 reviews)",
-        "Reddit: 8+ threads",
-        "YouTube: 10+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.5/5 (800+ reviews)",
+          "url": "https://www.g2.com/products/vidyard/reviews"
+        },
+        {
+          "label": "TrustRadius: 8.4/10 (80 reviews)",
+          "url": "https://www.trustradius.com/products/vidyard/reviews"
+        },
+        {
+          "label": "Reddit: 8+ threads",
+          "url": "https://www.reddit.com/search/?q=vidyard+review&sort=top"
+        },
+        {
+          "label": "YouTube: 10+ demos",
+          "url": "https://www.youtube.com/results?search_query=vidyard+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "url": null
+        }
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 880+ total reviews across 2 verified platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 880+ total reviews across 2 verified platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -610,7 +625,8 @@
           "Reddit: 5 threads"
         ],
         "quote": "\"Vidyard's analytics show me who rewatched my pricing section. I call those prospects first because they're clearly evaluating. My connect-to-meeting rate went up 30%.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/vidyard/reviews"
       },
       {
         "sentiment": "negative",
@@ -623,7 +639,8 @@
           "Capterra: 11 mentions"
         ],
         "quote": "\"Video outreach used to be our secret weapon. Now every SDR sends Vidyard videos and prospects are starting to ignore them like they ignore regular cold emails.\"",
-        "quoteCite": "Synthesized from G2 and Reddit review themes"
+        "quoteCite": "Synthesized from G2 and Reddit review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/vidyard/reviews"
       },
       {
         "sentiment": "mixed",
@@ -635,8 +652,9 @@
           "Reddit: 3 threads",
           "Capterra: 9 mentions"
         ],
-        "quote": "\"I proved the value on the free tier in a week \u2014 3 meetings booked from video outreach. Getting $19/mo approved was easy after that, but the 25-video cap on free forced the conversation.\"",
-        "quoteCite": "Synthesized from G2 and Capterra review themes"
+        "quote": "\"I proved the value on the free tier in a week — 3 meetings booked from video outreach. Getting $19/mo approved was easy after that, but the 25-video cap on free forced the conversation.\"",
+        "quoteCite": "Synthesized from G2 and Capterra review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/vidyard/reviews"
       }
     ],
     "pricingBreakdown": {
@@ -893,33 +911,5 @@
     "secondaryUrl": "https://www.g2.com/products/vidyard/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "reviewSources": {
-    "sources": [
-      {
-        "platform": "G2",
-        "rating": 4.5,
-        "reviews": 800,
-        "url": "https://www.g2.com/products/vidyard/reviews",
-        "outOf": 5
-      },
-      {
-        "platform": "Capterra",
-        "rating": 4.5,
-        "reviews": 125,
-        "url": "https://www.capterra.com/p/144638/Vidyard/",
-        "outOf": 5
-      },
-      {
-        "platform": "TrustRadius",
-        "rating": 9.1,
-        "reviews": 337,
-        "url": "https://www.trustradius.com/products/vidyard/reviews",
-        "outOf": 10
-      }
-    ],
-    "consensusScore": 4.5,
-    "lastUpdated": "February 2026"
-  },
-  "lastVerified": "2026-02-25"
+  }
 }

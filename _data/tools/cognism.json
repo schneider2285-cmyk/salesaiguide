@@ -564,16 +564,31 @@
       "confidence": "medium",
       "confidenceNote": "Based on G2 reviews, vendor documentation, and community discussions. Fewer public reviews compared to US-focused competitors like Apollo or ZoomInfo, but signal quality is solid for EMEA use cases.",
       "sourcePills": [
-        "G2: 4.6/5 (700+ reviews)",
-        "TrustRadius: 8.1/10 (45 reviews)",
-        "Reddit: 8+ threads",
-        "YouTube: 5+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.6/5 (700+ reviews)",
+          "url": "https://www.g2.com/products/cognism/reviews"
+        },
+        {
+          "label": "TrustRadius: 8.1/10 (45 reviews)",
+          "url": "https://www.trustradius.com/products/cognism/reviews"
+        },
+        {
+          "label": "Reddit: 8+ threads",
+          "url": "https://www.reddit.com/search/?q=cognism+review&sort=top"
+        },
+        {
+          "label": "YouTube: 5+ demos",
+          "url": "https://www.youtube.com/results?search_query=cognism+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "url": null
+        }
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 745+ total reviews across 2 verified platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 745+ total reviews across 2 verified platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -618,7 +633,8 @@
           "Reddit: 5 threads"
         ],
         "quote": "\"Cognism's verified mobiles are the reason we switched from ZoomInfo. Our connect rates went from 4% to 12% on cold calls to EMEA prospects.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/cognism/reviews"
       },
       {
         "sentiment": "negative",
@@ -631,7 +647,8 @@
           "Capterra: 18 mentions"
         ],
         "quote": "\"Fantastic for our UK and DACH territories, but we still need Apollo for US prospecting. The coverage gap is real for North American SMBs.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/cognism/reviews"
       },
       {
         "sentiment": "positive",
@@ -644,7 +661,8 @@
           "Capterra: 14 mentions"
         ],
         "quote": "\"Our legal team approved Cognism in two weeks. With ZoomInfo, the GDPR review took three months and we still had to build manual DNC processes.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/cognism/reviews"
       }
     ],
     "pricingBreakdown": {
@@ -905,33 +923,5 @@
     "secondaryUrl": "https://www.g2.com/products/cognism/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "reviewSources": {
-    "sources": [
-      {
-        "platform": "G2",
-        "rating": 4.6,
-        "reviews": 850,
-        "url": "https://www.g2.com/products/cognism/reviews",
-        "outOf": 5
-      },
-      {
-        "platform": "Capterra",
-        "rating": 4.7,
-        "reviews": 253,
-        "url": "https://www.capterra.com/p/197088/Cognism/",
-        "outOf": 5
-      },
-      {
-        "platform": "TrustRadius",
-        "rating": 8.3,
-        "reviews": 43,
-        "url": "https://www.trustradius.com/products/cognism/reviews",
-        "outOf": 10
-      }
-    ],
-    "consensusScore": 4.6,
-    "lastUpdated": "February 2026"
-  },
-  "lastVerified": "2026-02-25"
+  }
 }

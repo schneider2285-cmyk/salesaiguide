@@ -556,17 +556,35 @@
       "confidence": "medium",
       "confidenceNote": "Based on multi-platform review synthesis and vendor documentation. Limited public pricing data reduces confidence on cost estimates. Moderate signal across 500+ public reviews.",
       "sourcePills": [
-        "G2: 4.6/5 (500+ reviews)",
-        "Capterra: 4.4/5 (120+ reviews)",
-        "TrustRadius: 8.8/10 (95+ reviews)",
-        "Gartner PI: 4.5/5 (75+ reviews)",
-        "YouTube: 10+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.6/5 (500+ reviews)",
+          "url": "https://www.g2.com/products/clari/reviews"
+        },
+        {
+          "label": "Capterra: 4.4/5 (120+ reviews)",
+          "url": "https://www.capterra.com/clari/software/1017816/"
+        },
+        {
+          "label": "TrustRadius: 8.8/10 (95+ reviews)",
+          "url": "https://www.trustradius.com/products/clari/reviews"
+        },
+        {
+          "label": "Gartner PI: 4.5/5 (75+ reviews)",
+          "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/clari/reviews"
+        },
+        {
+          "label": "YouTube: 10+ demos",
+          "url": "https://www.youtube.com/results?search_query=clari+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "url": null
+        }
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 790+ total reviews across 4 platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 790+ total reviews across 4 platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -593,8 +611,8 @@
       ],
       "limitationThemes": [
         "Setup requires dedicated RevOps resource and 2-4 weeks",
-        "Pricing opaque \u2014 typically $50-100/user/mo enterprise only",
-        "Reps interact passively \u2014 primarily a manager/leadership tool"
+        "Pricing opaque — typically $50-100/user/mo enterprise only",
+        "Reps interact passively — primarily a manager/leadership tool"
       ],
       "disagreeNote": "&#9888;&#65039; Where sources disagree: Vendor positions as full revenue platform; practitioners primarily value forecasting and pipeline analytics. Copilot call recording seen as catching up to Gong rather than leading.",
       "lastVerified": "February 2026"
@@ -611,7 +629,8 @@
           "TrustRadius: 30 mentions"
         ],
         "quote": "\"Our quarterly forecast accuracy improved from 70% to 90% in two quarters. Clari's AI catches pipeline risks that our managers consistently miss in manual reviews.\"",
-        "quoteCite": "VP Revenue Operations, 200-person SaaS org [G2 Review, Jan 2026]"
+        "quoteCite": "VP Revenue Operations, 200-person SaaS org [G2 Review, Jan 2026]",
+        "quoteCiteUrl": "https://www.g2.com/products/clari/reviews"
       },
       {
         "sentiment": "negative",
@@ -624,7 +643,8 @@
           "Capterra: 25 mentions"
         ],
         "quote": "\"My reps never log into Clari. It's a great tool for my forecast meetings, but the value flows to management, not the people actually selling. We had to mandate CRM updates to make the AI work.\"",
-        "quoteCite": "Sales Director, 80-person sales org [Reddit r/salesops, Dec 2025]"
+        "quoteCite": "Sales Director, 80-person sales org [Reddit r/salesops, Dec 2025]",
+        "quoteCiteUrl": "https://www.reddit.com/search/?q=clari+review&sort=top"
       },
       {
         "sentiment": "mixed",
@@ -637,7 +657,8 @@
           "Capterra: 18 mentions"
         ],
         "quote": "\"The revenue cadence workflow transformed our Monday forecast calls from anecdotal guessing to data-driven deal reviews. But it only works if every manager commits to using it consistently.\"",
-        "quoteCite": "CRO, 150-person SaaS company [TrustRadius Review, Jan 2026]"
+        "quoteCite": "CRO, 150-person SaaS company [TrustRadius Review, Jan 2026]",
+        "quoteCiteUrl": "https://www.trustradius.com/products/clari/reviews"
       }
     ],
     "pricingBreakdown": {
@@ -900,33 +921,5 @@
     "secondaryUrl": "https://www.g2.com/products/clari/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "reviewSources": {
-    "sources": [
-      {
-        "platform": "G2",
-        "rating": 4.6,
-        "reviews": 5574,
-        "url": "https://www.g2.com/products/clari/reviews",
-        "outOf": 5
-      },
-      {
-        "platform": "Capterra",
-        "rating": 4.5,
-        "reviews": 19,
-        "url": "https://www.capterra.com/p/130003/Clari/",
-        "outOf": 5
-      },
-      {
-        "platform": "TrustRadius",
-        "rating": 8.7,
-        "reviews": 116,
-        "url": "https://www.trustradius.com/products/clari/reviews",
-        "outOf": 10
-      }
-    ],
-    "consensusScore": 4.6,
-    "lastUpdated": "February 2026"
-  },
-  "lastVerified": "2026-02-25"
+  }
 }

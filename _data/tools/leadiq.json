@@ -565,16 +565,31 @@
       "confidence": "high",
       "confidenceNote": "Based on 900+ G2 reviews, vendor documentation, and active community discussion. Good signal quality with sufficient review volume for pattern recognition.",
       "sourcePills": [
-        "G2: 4.2/5 (900+ reviews)",
-        "TrustRadius: 8.0/10 (55 reviews)",
-        "Reddit: 9+ threads",
-        "YouTube: 6+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.2/5 (900+ reviews)",
+          "url": "https://www.g2.com/products/leadiq/reviews"
+        },
+        {
+          "label": "TrustRadius: 8.0/10 (55 reviews)",
+          "url": "https://www.trustradius.com/products/leadiq/reviews"
+        },
+        {
+          "label": "Reddit: 9+ threads",
+          "url": "https://www.reddit.com/search/?q=leadiq+review&sort=top"
+        },
+        {
+          "label": "YouTube: 6+ demos",
+          "url": "https://www.youtube.com/results?search_query=leadiq+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "url": null
+        }
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 955+ total reviews across 2 verified platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 955+ total reviews across 2 verified platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -619,7 +634,8 @@
           "Reddit: 5 threads"
         ],
         "quote": "\"Scribe AI cut my first-line writing time by 75%. It pulls from LinkedIn posts and job changes to create openers that actually reference something relevant to the prospect.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/leadiq/reviews"
       },
       {
         "sentiment": "negative",
@@ -632,7 +648,8 @@
           "Capterra: 15 mentions"
         ],
         "quote": "\"The email data is solid, but 30 mobile numbers per month on Essential? I burn through that in two days of cold calling. Had to keep my Lusha subscription just for phone numbers.\"",
-        "quoteCite": "Synthesized from G2 and Capterra review themes"
+        "quoteCite": "Synthesized from G2 and Capterra review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/leadiq/reviews"
       },
       {
         "sentiment": "mixed",
@@ -645,7 +662,8 @@
           "Reddit: 4 threads"
         ],
         "quote": "\"LeadIQ is my favorite tool for LinkedIn prospecting, but it's not an all-in-one. I use it with Outreach for sequences and Apollo when I need broader database access.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/leadiq/reviews"
       }
     ],
     "pricingBreakdown": {
@@ -906,33 +924,5 @@
     "secondaryUrl": "https://www.g2.com/products/leadiq/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "reviewSources": {
-    "sources": [
-      {
-        "platform": "G2",
-        "rating": 4.2,
-        "reviews": 1154,
-        "url": "https://www.g2.com/products/leadiq/reviews",
-        "outOf": 5
-      },
-      {
-        "platform": "Capterra",
-        "rating": 4.4,
-        "reviews": 24,
-        "url": "https://www.capterra.com/p/182394/LeadIQ/",
-        "outOf": 5
-      },
-      {
-        "platform": "TrustRadius",
-        "rating": 6.4,
-        "reviews": 76,
-        "url": "https://www.trustradius.com/products/leadiq/reviews",
-        "outOf": 10
-      }
-    ],
-    "consensusScore": 4.1,
-    "lastUpdated": "February 2026"
-  },
-  "lastVerified": "2026-02-25"
+  }
 }

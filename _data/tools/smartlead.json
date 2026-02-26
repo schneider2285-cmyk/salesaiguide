@@ -296,17 +296,35 @@
       "confidence": "medium",
       "confidenceNote": "Based on multi-platform reviews and verified vendor documentation. Community signal active but lower volume than category leaders limits pattern reliability.",
       "sourcePills": [
-        "G2: 4.6/5 (289 reviews)",
-        "Capterra: 4.3/5 (7 reviews)",
-        "Trustpilot: 3.3/5 (77 reviews)",
-        "Reddit: 10+ threads",
-        "YouTube: 6+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.6/5 (289 reviews)",
+          "url": "https://www.g2.com/products/smartlead-ai/reviews"
+        },
+        {
+          "label": "Capterra: 4.3/5 (7 reviews)",
+          "url": "https://www.capterra.com/smartlead/software/1017501/"
+        },
+        {
+          "label": "Trustpilot: 3.3/5 (77 reviews)",
+          "url": "https://www.trustpilot.com/review/smartlead.ai"
+        },
+        {
+          "label": "Reddit: 10+ threads",
+          "url": "https://www.reddit.com/search/?q=smartlead+ai+review&sort=top"
+        },
+        {
+          "label": "YouTube: 6+ demos",
+          "url": "https://www.youtube.com/results?search_query=smartlead+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "url": null
+        }
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 373+ total reviews across 3 platforms (G2 + Capterra + Trustpilot)",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 373+ total reviews across 3 platforms (G2 + Capterra + Trustpilot)",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -351,7 +369,8 @@
           "Capterra: 15 mentions"
         ],
         "quote": "\"We're running 45 sender accounts across 12 client campaigns and Smartlead handles it without breaking a sweat. The unlimited mailbox model is a game-changer for agencies.\"",
-        "quoteCite": "Synthesized from G2 reviews and community discussions"
+        "quoteCite": "Synthesized from G2 reviews and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/smartlead-ai/reviews"
       },
       {
         "sentiment": "mixed",
@@ -364,7 +383,8 @@
           "Capterra: 8 mentions"
         ],
         "quote": "\"Love the pace of new features, but last month an update broke our subsequence triggers mid-campaign. Had to rebuild three workflows on a Friday afternoon.\"",
-        "quoteCite": "Synthesized from G2 reviews and community discussions"
+        "quoteCite": "Synthesized from G2 reviews and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/smartlead-ai/reviews"
       },
       {
         "sentiment": "positive",
@@ -376,7 +396,8 @@
           "Reddit: 4 threads"
         ],
         "quote": "\"The white-label portal is why we switched from Instantly. Our clients log into a branded dashboard and never see the Smartlead name &mdash; it looks like our own platform.\"",
-        "quoteCite": "Synthesized from G2 reviews and community discussions"
+        "quoteCite": "Synthesized from G2 reviews and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/smartlead-ai/reviews"
       },
       {
         "sentiment": "negative",
@@ -389,7 +410,8 @@
           "Capterra: 5 mentions"
         ],
         "quote": "\"Submitted a ticket about a deliverability issue on Monday and didn't hear back until Thursday. Ended up finding the fix myself in their Slack community.\"",
-        "quoteCite": "Synthesized from G2 reviews and community discussions"
+        "quoteCite": "Synthesized from G2 reviews and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/smartlead-ai/reviews"
       },
       {
         "sentiment": "positive",
@@ -401,7 +423,8 @@
           "Reddit: 6 threads"
         ],
         "quote": "\"We manage 14 clients from one Smartlead dashboard. The master inbox alone saves us two hours a day versus checking replies across separate accounts.\"",
-        "quoteCite": "Synthesized from G2 reviews and community discussions"
+        "quoteCite": "Synthesized from G2 reviews and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/smartlead-ai/reviews"
       }
     ],
     "pricingBreakdown": {
@@ -668,25 +691,7 @@
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
   },
-  "reviewSources": {
-    "sources": [
-      {
-        "platform": "G2",
-        "rating": 4.6,
-        "reviews": 300,
-        "url": "https://www.g2.com/products/smartlead/reviews",
-        "outOf": 5
-      },
-      {
-        "platform": "TrustRadius",
-        "rating": 8.6,
-        "reviews": 11,
-        "url": "https://www.trustradius.com/products/smartlead/reviews",
-        "outOf": 10
-      }
-    ],
-    "consensusScore": 4.6,
-    "lastUpdated": "February 2026"
-  },
-  "lastVerified": "2026-02-25"
+  "g2Reviews": {
+    "link": "https://www.g2.com/products/smartlead-ai/reviews"
+  }
 }

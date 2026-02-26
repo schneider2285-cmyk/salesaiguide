@@ -4,10 +4,6 @@ extraCss:
   - /css/review.css
 ---
 {% set t = tools[tool] %}
-{% if t.decisionModule.faqs %}
-{% set faqSchemaItems %}[{% for faq in t.decisionModule.faqs %}{"@type":"Question","name":{{ faq.question | dump | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ faq.answer | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]{% endset %}
-{% set extraHead %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":{{ faqSchemaItems | safe }}}</script>{% endset %}
-{% endif %}
 
     <div class="review-header">
         <div class="container">
@@ -25,12 +21,6 @@ extraCss:
                 </div>
                 <div class="updated">{{ t.hero.updated }}</div>
                 <div class="tested">{{ t.hero.dataSource }}</div>
-                {% if t.lastVerified %}
-                <div class="last-verified-badge">
-                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0"><circle cx="6" cy="6" r="5.5" stroke="currentColor" stroke-opacity="0.6"/><path d="M6 3.5V6.5L7.5 8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
-                    Data last verified: <strong>{{ t.lastVerified }}</strong>
-                </div>
-                {% endif %}
             </div>
             {% if t.hero.personaTags %}
             <div class="persona-tags" style="margin-top:0.75rem;">{% for tag in t.hero.personaTags %}<span class="persona-tag {{ tag.class }}">{{ tag.text }}</span>{% endfor %}</div>
@@ -74,34 +64,6 @@ extraCss:
         </div>
     </div>
 
-    <div class="quick-verdict-bar">
-        <div class="container">
-            <div class="qv-inner">
-                <div class="qv-label">Quick Verdict</div>
-                <div class="qv-items">
-                    <div class="qv-item qv-best">
-                        <span class="qv-item-label">Best for</span>
-                        <span class="qv-item-value">{{ t.decisionModule.verdict.bestFor | truncate(90) }}</span>
-                    </div>
-                    <div class="qv-item qv-avoid">
-                        <span class="qv-item-label">Avoid if</span>
-                        <span class="qv-item-value">{% if t.decisionModule.whoShouldNotBuy | length %}{{ t.decisionModule.whoShouldNotBuy[0] | striptags | truncate(80) }}{% else %}Not the right fit for every team — see full review{% endif %}</span>
-                    </div>
-                    {% for sub in t.decisionModule.subScores %}
-                    {% if sub.label == "Enterprise Fit" or sub.label == "Ease of Adoption" or sub.label == "AI Depth" %}
-                    <div class="qv-item qv-score">
-                        <span class="qv-item-label">{{ sub.label }}</span>
-                        <span class="qv-item-value qv-score-val">
-                            <span class="qv-score-num">{{ sub.score }}</span>
-                            <span class="qv-score-bar"><span class="qv-score-fill" style="width:{{ sub.score | replace('/10','') | int * 10 }}%"></span></span>
-                        </span>
-                    </div>
-                    {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-    </div>
     <nav class="journey-bar" id="journey-bar">
       <div class="container">
         <div class="journey-tabs">
@@ -110,9 +72,6 @@ extraCss:
           <a href="#decision-snapshot" class="journey-tab" data-section="decision-snapshot">Decision Snapshot</a>
           <a href="#where-it-breaks" class="journey-tab" data-section="where-it-breaks">Where It Breaks</a>
           <a href="#stack-fit" class="journey-tab" data-section="stack-fit">Stack Fit</a>
-          {% if t.sourcesChecked %}<a href="#sources-checked" class="journey-tab" data-section="sources-checked">Sources</a>{% endif %}
-          {% if t.enterpriseReadiness %}<a href="#enterprise-readiness" class="journey-tab" data-section="enterprise-readiness">Enterprise</a>{% endif %}
-          <a href="#faq" class="journey-tab" data-section="faq">FAQ</a>
         </div>
       </div>
     </nav>
@@ -169,26 +128,6 @@ extraCss:
                     </section>
                     {% endif %}
 
-                    {% if t.reviewSources %}
-                    <section class="content-section" id="review-consensus">
-                        <h2>Review Consensus Across Platforms</h2>
-                        <p>Aggregated from {{ t.reviewSources.sources | length }} independent review platform{% if t.reviewSources.sources | length > 1 %}s{% endif %} as of {{ t.reviewSources.lastUpdated }}. Consensus score is weighted by review volume.</p>
-                        <div class="review-sources-grid">
-                            {% for src in t.reviewSources.sources %}
-                            <a href="{{ src.url }}" target="_blank" rel="noopener" class="review-source-card">
-                                <div class="review-source-platform">{{ src.platform }}</div>
-                                <div class="review-source-rating">{{ src.rating }}<span class="review-source-max">/{{ src.outOf }}</span></div>
-                                <div class="review-source-count">{{ src.reviews }} reviews</div>
-                            </a>
-                            {% endfor %}
-                            <div class="review-source-card consensus">
-                                <div class="review-source-platform">Consensus Score</div>
-                                <div class="review-source-rating">{{ t.reviewSources.consensusScore }}<span class="review-source-max">/5</span></div>
-                                <div class="review-source-count">weighted average</div>
-                            </div>
-                        </div>
-                    </section>
-                    {% endif %}
                     {% if t.g2Reviews %}
                     <section class="content-section">
                         <h2>What G2 Reviewers Say</h2>
@@ -339,7 +278,13 @@ extraCss:
                                 <p style="font-size:0.8rem;color:var(--text-light);margin:0.25rem 0 0.75rem;">{{ t.decisionModule.evidenceSignals.confidenceNote }}</p>
                                 <div class="dm-source-pills">
                                     {% for pill in t.decisionModule.evidenceSignals.sourcePills %}
+                                    {% if pill.url %}
+                                    <a class="dm-source-pill dm-source-pill-link" href="{{ pill.url }}" target="_blank" rel="noopener">{{ pill.label | safe }}</a>
+                                    {% elif pill.label %}
+                                    <span class="dm-source-pill">{{ pill.label | safe }}</span>
+                                    {% else %}
                                     <span class="dm-source-pill">{{ pill | safe }}</span>
+                                    {% endif %}
                                     {% endfor %}
                                 </div>
                                 <div class="dm-evidence-freshness">
@@ -377,29 +322,9 @@ extraCss:
                             </div>
                         </section>
 
-                        {% if t.sourcesChecked %}
-                        <section class="content-section sc-section" id="sources-checked">
-                            <h2>Sources Checked</h2>
-                            <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1.25rem;">Evidence for this review was synthesized from the following sources, verified {{ t.sourcesChecked.lastVerified }}.</p>
-                            <div class="sc-grid">
-                                {% for src in t.sourcesChecked.sources %}
-                                <div class="sc-card sc-type-{{ src.type }}">
-                                    <div class="sc-header">
-                                        <span class="sc-icon">{{ src.icon }}</span>
-                                        <span class="sc-name">{{ src.name }}</span>
-                                        {% if src.rating %}<span class="sc-rating">{{ src.rating }}/5</span>{% endif %}
-                                    </div>
-                                    {% if src.reviewCount %}<p class="sc-count">{{ src.reviewCount }} reviews analyzed</p>{% endif %}
-                                    <p class="sc-finding">{{ src.whatFound }}</p>
-                                    <a href="{{ src.url }}" class="sc-link" target="_blank" rel="noopener">Verify source &#8599;</a>
-                                </div>
-                                {% endfor %}
-                            </div>
-                        </section>
-                        {% endif %}
                         <section class="content-section">
                             <h2>What Users Actually Say</h2>
-                            <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1rem;">Recurring themes from G2, Capterra, Reddit, and practitioner communities. Source counts shown per theme.</p>
+                            <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1rem;">Recurring themes synthesized from G2, Capterra, Reddit, and practitioner communities.</p>
 
                             {% for theme in t.decisionModule.userVoiceThemes %}
                             <div class="dm-user-voice-theme">
@@ -413,9 +338,10 @@ extraCss:
                                     <span class="dm-voice-count">{{ source }}</span>
                                     {% endfor %}
                                 </div>
-                                <div class="dm-composite-insight">
-                                    <span class="dm-composite-label">Composite insight:</span> {{ theme.quote | safe }}
-                                </div>
+                                <blockquote class="dm-user-quote">
+                                    {{ theme.quote | safe }}
+                                    <cite>— {% if theme.quoteCiteUrl %}<a href="{{ theme.quoteCiteUrl }}" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">{{ theme.quoteCite }}</a>{% else %}{{ theme.quoteCite }}{% endif %}</cite>
+                                </blockquote>
                             </div>
                             {% endfor %}
                         </section>
@@ -537,33 +463,13 @@ extraCss:
                             </div>
                         </section>
 
-                        {% if t.videos and t.videos.length %}
-                        <section class="content-section" id="dm-videos">
-                            <h2>Watch It in Action</h2>
-                            <p style="font-size:0.9rem;color:var(--text-light);">Official walkthroughs, practitioner demos, and comparison videos.</p>
+                        <section class="content-section" id="dm-videos" style="display:none;">
+                            <h2>Real-World Reviews &amp; Walkthroughs</h2>
+                            <p style="font-size:0.9rem;color:var(--text-light);">Practitioner walkthroughs and vendor demos.</p>
                             <div class="dm-video-grid">
-                                {% for v in t.videos %}
-                                <div class="dm-video-card">
-                                    <div class="dm-video-embed">
-                                        <iframe
-                                            src="https://www.youtube.com/embed/{{ v.youtubeId }}?rel=0&modestbranding=1"
-                                            title="{{ v.title }}"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen
-                                            loading="lazy">
-                                        </iframe>
-                                    </div>
-                                    <div class="dm-video-meta">
-                                        <div class="dm-video-title">{{ v.title }}</div>
-                                        <div class="dm-video-channel">{{ v.channel }}</div>
-                                        {% if v.note %}<div class="dm-video-note">{{ v.note }}</div>{% endif %}
-                                    </div>
-                                </div>
-                                {% endfor %}
+                                <!-- Populate with real video embeds then remove style="display:none" from section -->
                             </div>
                         </section>
-                        {% endif %}
 
                         <section id="dm-alternatives" class="content-section">
                             <h2>Alternatives to {{ t.hero.breadcrumbName }}</h2>
@@ -581,40 +487,14 @@ extraCss:
                             </div>
                         </section>
 
-                        {% if t.enterpriseReadiness %}
-                        <section class="content-section er-section" id="enterprise-readiness">
-                            <h2>Enterprise Readiness</h2>
-                            <div class="er-score-row">
-                                <span class="er-overall-label">Enterprise Score</span>
-                                <span class="er-overall-value">{{ t.enterpriseReadiness.overallScore }}/10</span>
-                            </div>
-                            <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1rem;">{{ t.enterpriseReadiness.note }}</p>
-                            <div class="comparison-table-wrapper">
-                                <table class="comparison-table er-table">
-                                    <thead><tr><th>Dimension</th><th>Status</th><th>Notes</th></tr></thead>
-                                    <tbody>
-                                        {% for row in t.enterpriseReadiness.dimensions %}
-                                        <tr>
-                                            <td><strong>{{ row.dimension }}</strong></td>
-                                            <td><span class="er-status er-{{ row.status | lower | replace(' ', '-') }}">{{ row.status }}</span></td>
-                                            <td>{{ row.notes }}</td>
-                                        </tr>
-                                        {% endfor %}
-                                    </tbody>
-                                </table>
-                            </div>
-                        </section>
-                        {% endif %}
-                        <section class="content-section faq-section" id="faq">
+                        <section class="content-section">
                             <h2>Frequently Asked Questions</h2>
-                            <div class="faq-accordion">
-                                {% for faq in t.decisionModule.faqs %}
-                                <details class="faq-item">
-                                    <summary class="faq-question">{{ faq.question }}</summary>
-                                    <div class="faq-answer"><p>{{ faq.answer }}</p></div>
-                                </details>
-                                {% endfor %}
+                            {% for faq in t.decisionModule.faqs %}
+                            <div class="content-section" style="padding:0;margin:0;">
+                                <h3>{{ faq.question }}</h3>
+                                <p>{{ faq.answer }}</p>
                             </div>
+                            {% endfor %}
                         </section>
 
                         <div class="dm-meta">
@@ -623,21 +503,6 @@ extraCss:
 
                     </div>
                     <!-- ═══ END DECISION MODULE ═══ -->
-
-                    {% if t.sidebar.comparisons and t.sidebar.comparisons.length %}
-                    <section class="content-section related-comparisons-section">
-                        <h2>Compare {{ t.hero.breadcrumbName }} With Alternatives</h2>
-                        <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1.25rem;">See how {{ t.hero.breadcrumbName }} stacks up in direct head-to-head comparisons.</p>
-                        <div class="rc-grid">
-                            {% for link in t.sidebar.comparisons %}
-                            <a href="{{ link.url }}" class="rc-card">
-                                <span class="rc-label">{{ link.text }}</span>
-                                <span class="rc-arrow">&#8594;</span>
-                            </a>
-                            {% endfor %}
-                        </div>
-                    </section>
-                    {% endif %}
 
                     <div class="final-cta">
                         <h3>{{ t.finalCta.heading }}</h3>

@@ -309,17 +309,35 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis, practitioner community comparison with Outreach, demos verified, and current vendor documentation. Strong signal across 4,260+ public reviews.",
       "sourcePills": [
-        "G2: 4.5/5 (4,260+ reviews)",
-        "Capterra: 4.3/5 (231 reviews)",
-        "TrustRadius: 7.7/10 (965 reviews)",
-        "Gartner PI: 4.4/5 (282 reviews)",
-        "YouTube: 10+ demos",
-        "Trust center \u2713"
+        {
+          "label": "G2: 4.5/5 (4,260+ reviews)",
+          "url": "https://www.g2.com/products/salesloft/reviews"
+        },
+        {
+          "label": "Capterra: 4.3/5 (231 reviews)",
+          "url": "https://www.capterra.com/salesloft/software/1017499/"
+        },
+        {
+          "label": "TrustRadius: 7.7/10 (965 reviews)",
+          "url": "https://www.trustradius.com/products/salesloft/reviews"
+        },
+        {
+          "label": "Gartner PI: 4.4/5 (282 reviews)",
+          "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/salesloft/reviews"
+        },
+        {
+          "label": "YouTube: 10+ demos",
+          "url": "https://www.youtube.com/results?search_query=salesloft+review+demo"
+        },
+        {
+          "label": "Trust center ✓",
+          "url": null
+        }
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 5,738+ total reviews across 4 platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 5,738+ total reviews across 4 platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -364,7 +382,8 @@
           "Capterra: 95 mentions"
         ],
         "quote": "\"We moved 60 reps from Outreach to Salesloft and daily adoption jumped from 65% to 89% in the first month. The interface just gets out of your way.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/salesloft/reviews"
       },
       {
         "sentiment": "positive",
@@ -377,7 +396,8 @@
           "Capterra: 68 mentions"
         ],
         "quote": "\"New SDRs are building and launching cadences by day 3. With Outreach, that same ramp took close to two weeks for our team.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/salesloft/reviews"
       },
       {
         "sentiment": "mixed",
@@ -390,7 +410,8 @@
           "Capterra: 35 mentions"
         ],
         "quote": "\"Salesloft's call recording works fine for basic coaching, but our sales leaders still need Gong for deal intelligence and competitive insights. It's a solid add-on, not a replacement.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/salesloft/reviews"
       },
       {
         "sentiment": "negative",
@@ -403,7 +424,8 @@
           "Capterra: 42 mentions"
         ],
         "quote": "\"The cadence-level reporting is solid, but getting pipeline attribution data requires exporting to Salesforce. Wish the native analytics went deeper.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/salesloft/reviews"
       },
       {
         "sentiment": "positive",
@@ -416,7 +438,8 @@
           "G2: 220+ mentions"
         ],
         "quote": "\"Salesloft's Rhythm engine genuinely changed how our reps prioritize their day. Instead of guessing which accounts to work, AI surfaces the highest-intent signals automatically.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/salesloft/reviews"
       }
     ],
     "pricingBreakdown": {
@@ -683,32 +706,7 @@
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
   },
-  "reviewSources": {
-    "sources": [
-      {
-        "platform": "G2",
-        "rating": 4.5,
-        "reviews": 5526,
-        "url": "https://www.g2.com/products/salesloft/reviews",
-        "outOf": 5
-      },
-      {
-        "platform": "Capterra",
-        "rating": 4.3,
-        "reviews": 231,
-        "url": "https://www.capterra.com/p/153867/Salesloft/",
-        "outOf": 5
-      },
-      {
-        "platform": "TrustRadius",
-        "rating": 7.7,
-        "reviews": 965,
-        "url": "https://www.trustradius.com/products/salesloft/reviews",
-        "outOf": 10
-      }
-    ],
-    "consensusScore": 4.4,
-    "lastUpdated": "February 2026"
-  },
-  "lastVerified": "2026-02-25"
+  "g2Reviews": {
+    "link": "https://www.g2.com/products/salesloft/reviews"
+  }
 }

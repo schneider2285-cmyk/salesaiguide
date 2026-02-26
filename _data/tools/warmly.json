@@ -504,7 +504,7 @@
         {
           "dimension": "Integration Depth",
           "score": 9,
-          "notes": "Clearbit, 6sense, Bombora, Salesforce, HubSpot, Slack \u2014 multi-source stack",
+          "notes": "Clearbit, 6sense, Bombora, Salesforce, HubSpot, Slack — multi-source stack",
           "evidence": [
             {
               "source": "G2",
@@ -568,16 +568,31 @@
       "confidence": "medium",
       "confidenceNote": "Based on G2 reviews and vendor documentation. Newer tool with fewer total reviews than established alternatives, but high satisfaction scores and strong signal from early adopters.",
       "sourcePills": [
-        "G2: 4.8/5 (300+ reviews)",
-        "TrustRadius: 8.5/10 (22 reviews)",
-        "Reddit: 6+ threads",
-        "YouTube: 4+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.8/5 (300+ reviews)",
+          "url": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
+        },
+        {
+          "label": "TrustRadius: 8.5/10 (22 reviews)",
+          "url": "https://www.trustradius.com/products/warmly/reviews"
+        },
+        {
+          "label": "Reddit: 6+ threads",
+          "url": "https://www.reddit.com/search/?q=warmly+ai+review&sort=top"
+        },
+        {
+          "label": "YouTube: 4+ demos",
+          "url": "https://www.youtube.com/results?search_query=warmly+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "url": null
+        }
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 322+ total reviews across 2 verified platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 322+ total reviews across 2 verified platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -622,7 +637,8 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"Warmly's AI agent booked 12 meetings in its first month from visitors who would have just bounced. The ROI paid for the entire annual contract in one quarter.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
       },
       {
         "sentiment": "negative",
@@ -634,21 +650,23 @@
           "Reddit: 4 threads",
           "Capterra: 8 mentions"
         ],
-        "quote": "\"The free tier proved the value \u2014 we could see exactly who was visiting our pricing page. But $700/mo is a big jump for a startup. Wish there was a $200/mo tier for growing teams.\"",
-        "quoteCite": "Synthesized from G2 and Reddit review themes"
+        "quote": "\"The free tier proved the value — we could see exactly who was visiting our pricing page. But $700/mo is a big jump for a startup. Wish there was a $200/mo tier for growing teams.\"",
+        "quoteCite": "Synthesized from G2 and Reddit review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
       },
       {
         "sentiment": "mixed",
         "sentimentIcon": "&#9644;",
         "heading": "Powerful platform but needs RevOps to unlock full value",
-        "synthesis": "Users agree Warmly is capable, but getting the most from it requires RevOps expertise. Basic visitor ID works immediately, but the real value \u2014 targeted alerts, AI engagement rules, CRM enrichment \u2014 needs someone who understands routing logic and integration configuration.",
+        "synthesis": "Users agree Warmly is capable, but getting the most from it requires RevOps expertise. Basic visitor ID works immediately, but the real value — targeted alerts, AI engagement rules, CRM enrichment — needs someone who understands routing logic and integration configuration.",
         "sources": [
           "G2: 28 mentions",
           "TrustRadius: 6 mentions",
           "Reddit: 3 threads"
         ],
         "quote": "\"Warmly is incredibly powerful once it's configured properly, but 'properly' meant our RevOps lead spent two weeks building alert rules and enrichment workflows. Not a plug-and-play tool.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
       }
     ],
     "pricingBreakdown": {
@@ -905,26 +923,5 @@
     "secondaryUrl": "https://www.g2.com/products/warmly/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "reviewSources": {
-    "sources": [
-      {
-        "platform": "G2",
-        "rating": 4.6,
-        "reviews": 209,
-        "url": "https://www.g2.com/products/warmly/reviews",
-        "outOf": 5
-      },
-      {
-        "platform": "TrustRadius",
-        "rating": 7.5,
-        "reviews": 7,
-        "url": "https://www.trustradius.com/products/warmly/reviews",
-        "outOf": 10
-      }
-    ],
-    "consensusScore": 4.6,
-    "lastUpdated": "February 2026"
-  },
-  "lastVerified": "2026-02-25"
+  }
 }
