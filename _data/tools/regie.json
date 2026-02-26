@@ -34,7 +34,24 @@
     "noteHtml": "Scores synthesized from public reviews across G2, Reddit, LinkedIn communities, and vendor documentation.",
     "lastVerified": "February 2026",
     "ctaUrl": "/go/regie",
-    "ctaText": "Visit Regie.ai"
+    "ctaText": "Visit Regie.ai",
+    "breadcrumbName": "Regie.ai",
+    "h1": "Regie.ai Review 2026: AI Sales Engagement Platform",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+    "score": "4.4/5 on G2",
+    "updated": "Updated February 2026",
+    "logoSrc": "https://logo.clearbit.com/regie.ai",
+    "logoAlt": "Regie.ai logo",
+    "personaTags": [
+      {
+        "text": "SDR",
+        "class": "tag-sdr"
+      },
+      {
+        "text": "AE",
+        "class": "tag-ae"
+      }
+    ]
   },
   "scores": {
     "orgScore": 72,
