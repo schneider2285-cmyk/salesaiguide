@@ -659,6 +659,14 @@
       {
         "text": "Best AI Email Outreach Tools",
         "url": "/guides/best-ai-email-outreach-tools.html"
+      },
+      {
+        "text": "Salesloft Review",
+        "url": "/tools/salesloft-review.html"
+      },
+      {
+        "text": "Gong Review",
+        "url": "/tools/gong-review.html"
       }
     ],
     "emailCard": {
@@ -674,26 +682,5 @@
     "secondaryUrl": "https://www.g2.com/products/outreach/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "videos": [
-    {
-      "youtubeId": "tFGMPe3XBMQ",
-      "title": "Outreach.io Platform Overview: Sequences, AI & Forecasting",
-      "channel": "Outreach",
-      "note": "Official overview of Outreach's sequences, AI insights, and revenue forecasting."
-    },
-    {
-      "youtubeId": "9CRFq3X7kNI",
-      "title": "Outreach for Enterprise Sales Teams: Full Walkthrough",
-      "channel": "Jeremy Chatelaine",
-      "note": "Independent deep-dive into Outreach's enterprise features."
-    },
-    {
-      "youtubeId": "5mZjfxlJpqo",
-      "title": "Outreach vs Salesloft: Enterprise Sales Engagement Compared",
-      "channel": "Outbound OS",
-      "note": "Detailed comparison for enterprise sales teams choosing between the two."
-    }
-  ],
-  "lastVerified": "February 2026"
+  }
 }

@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9733;",
     "score": "4.9/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
+    "dataSource": "Data from G2 & clay.com",
     "personaTags": [
       {
         "class": "requires-admin",
@@ -97,7 +97,7 @@
     "paragraphs": [
       "Clay is a data enrichment platform that aggregates 50+ providers (Apollo, ZoomInfo, Hunter, Clearbit, etc.) into a spreadsheet-like interface with a unified credit system, AI-powered research, and waterfall enrichment logic for RevOps and sales teams."
     ],
-    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
+    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/clay/reviews\" target=\"_blank\" rel=\"noopener\">Clay on G2</a>."
   },
   "features": [
     {
@@ -620,7 +620,7 @@
           "Capterra: 18 mentions"
         ],
         "quote": "\"We switched from ZoomInfo to Clay and our match rates jumped from 60% to 85%. The waterfall approach across 50+ providers means we almost never hit a dead end on enrichment.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
       {
         "sentiment": "negative",
@@ -633,7 +633,7 @@
           "Capterra: 14 mentions"
         ],
         "quote": "\"Love the product, but our monthly bill went from $400 to $1,200 when we added multi-step waterfalls. You need a dedicated ops person just to monitor credit usage.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
       {
         "sentiment": "mixed",
@@ -646,7 +646,7 @@
           "Capterra: 11 mentions"
         ],
         "quote": "\"It took our team about two weeks to get comfortable with Clay's spreadsheet interface. Once it clicked, we built workflows that would have taken 10x longer in any other tool.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
       {
         "sentiment": "positive",
@@ -658,7 +658,7 @@
           "Reddit: 5 threads"
         ],
         "quote": "\"Clay's HubSpot integration is the best I've used — bidirectional sync, custom field mapping, and it just works. We retired three Zapier automations after connecting Clay directly.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
       {
         "sentiment": "mixed",
@@ -671,7 +671,7 @@
           "G2: 41 mentions"
         ],
         "quote": "\"We burned through our entire monthly credit allotment in five days after building a 6-step waterfall. Start with simple 2-3 step chains and scale up once you understand the credit math.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       }
     ],
     "pricingBreakdown": {
@@ -920,6 +920,22 @@
       {
         "text": "Best AI Email Outreach Tools",
         "url": "/guides/best-ai-email-outreach-tools.html"
+      },
+      {
+        "text": "Clay vs Apollo for SDRs",
+        "url": "/blog/clay-vs-apollo-for-sdrs.html"
+      },
+      {
+        "text": "Best AI Sales Stack for Small Teams",
+        "url": "/blog/best-ai-sales-stack-small-team.html"
+      },
+      {
+        "text": "Apollo Review",
+        "url": "/tools/apollo-review.html"
+      },
+      {
+        "text": "Cognism Review",
+        "url": "/tools/cognism-review.html"
       }
     ],
     "emailCard": {
@@ -935,26 +951,5 @@
     "secondaryUrl": "https://www.g2.com/products/clay/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "lastVerified": "February 2026",
-  "videos": [
-    {
-      "youtubeId": "9TIgSBpFnQo",
-      "title": "Clay Full Platform Walkthrough: Enrichment, Waterfalls & Workflows",
-      "channel": "Clay",
-      "note": "Official Clay demo covering table setup, enrichment waterfalls, and automated outreach workflows."
-    },
-    {
-      "youtubeId": "vYqS25XFKWQ",
-      "title": "How I Use Clay to Build Hyper-Personalized Cold Email Campaigns",
-      "channel": "Outbound Kitchen",
-      "note": "Practitioner walkthrough showing real Clay workflows for personalized prospecting at scale."
-    },
-    {
-      "youtubeId": "2kFpMGXqpNY",
-      "title": "Clay vs Apollo: Which Prospecting Tool Should You Use?",
-      "channel": "SalesAIGuide",
-      "note": "Evidence-based comparison of Clay and Apollo for different team sizes and use cases."
-    }
-  ]
+  }
 }

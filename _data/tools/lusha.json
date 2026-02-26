@@ -895,6 +895,18 @@
       {
         "text": "Best Sales Intelligence Tools",
         "url": "/guides/best-sales-intelligence-tools.html"
+      },
+      {
+        "text": "Apollo Review",
+        "url": "/tools/apollo-review.html"
+      },
+      {
+        "text": "LeadIQ Review",
+        "url": "/tools/leadiq-review.html"
+      },
+      {
+        "text": "ZoomInfo Review",
+        "url": "/tools/zoominfo-review.html"
       }
     ],
     "emailCard": {
@@ -910,26 +922,5 @@
     "secondaryUrl": "https://www.g2.com/products/lusha/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "videos": [
-    {
-      "youtubeId": "tFGMPe3XBMQ",
-      "title": "Lusha Platform Demo: Contact Data & Prospecting",
-      "channel": "Lusha",
-      "note": "Official walkthrough of Lusha's contact enrichment and prospecting features."
-    },
-    {
-      "youtubeId": "9CRFq3X7kNI",
-      "title": "How to Use Lusha for B2B Contact Data",
-      "channel": "Jeremy Chatelaine",
-      "note": "Practitioner guide to Lusha's Chrome extension and bulk export."
-    },
-    {
-      "youtubeId": "5mZjfxlJpqo",
-      "title": "Lusha vs Apollo: Contact Data Quality Compared",
-      "channel": "Outbound OS",
-      "note": "Side-by-side data quality and pricing comparison."
-    }
-  ],
-  "lastVerified": "February 2026"
+  }
 }

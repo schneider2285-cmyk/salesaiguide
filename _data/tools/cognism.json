@@ -890,6 +890,18 @@
       {
         "text": "Best Sales Intelligence Tools",
         "url": "/guides/best-sales-intelligence-tools.html"
+      },
+      {
+        "text": "ZoomInfo Review",
+        "url": "/tools/zoominfo-review.html"
+      },
+      {
+        "text": "Apollo Review",
+        "url": "/tools/apollo-review.html"
+      },
+      {
+        "text": "LeadIQ Review",
+        "url": "/tools/leadiq-review.html"
       }
     ],
     "emailCard": {
@@ -905,26 +917,5 @@
     "secondaryUrl": "https://www.g2.com/products/cognism/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "videos": [
-    {
-      "youtubeId": "Hy6z9P3XFPU",
-      "title": "Cognism Platform Demo: GDPR-Compliant B2B Data",
-      "channel": "Cognism",
-      "note": "Official demo of Cognism's data coverage, compliance features, and integrations."
-    },
-    {
-      "youtubeId": "8vQGmLJqKuI",
-      "title": "How to Use Cognism for EMEA Prospecting",
-      "channel": "Sales Hacker",
-      "note": "Practitioner walkthrough focused on Cognism's European data advantage."
-    },
-    {
-      "youtubeId": "mZqGqE3XNWQ",
-      "title": "Cognism vs ZoomInfo: Which Data Provider Wins for EMEA?",
-      "channel": "RevOps Co-op",
-      "note": "Comparison of data quality and compliance for European markets."
-    }
-  ],
-  "lastVerified": "February 2026"
+  }
 }

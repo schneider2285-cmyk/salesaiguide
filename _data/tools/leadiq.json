@@ -891,6 +891,18 @@
       {
         "text": "Best Sales Intelligence Tools",
         "url": "/guides/best-sales-intelligence-tools.html"
+      },
+      {
+        "text": "Apollo Review",
+        "url": "/tools/apollo-review.html"
+      },
+      {
+        "text": "Cognism Review",
+        "url": "/tools/cognism-review.html"
+      },
+      {
+        "text": "Lusha Review",
+        "url": "/tools/lusha-review.html"
       }
     ],
     "emailCard": {
@@ -906,26 +918,5 @@
     "secondaryUrl": "https://www.g2.com/products/leadiq/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "videos": [
-    {
-      "youtubeId": "Hy6z9P3XFPU",
-      "title": "LeadIQ Platform Demo: Prospecting & CRM Sync",
-      "channel": "LeadIQ",
-      "note": "Official demo of LeadIQ's LinkedIn prospecting and CRM integration features."
-    },
-    {
-      "youtubeId": "8vQGmLJqKuI",
-      "title": "How SDRs Use LeadIQ for LinkedIn Prospecting",
-      "channel": "Sales Hacker",
-      "note": "Practitioner walkthrough of LeadIQ's Chrome extension and data capture."
-    },
-    {
-      "youtubeId": "mZqGqE3XNWQ",
-      "title": "LeadIQ vs Lusha: LinkedIn Prospecting Tools Compared",
-      "channel": "RevOps Co-op",
-      "note": "Comparison of the two leading LinkedIn-focused prospecting tools."
-    }
-  ],
-  "lastVerified": "February 2026"
+  }
 }

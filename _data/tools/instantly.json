@@ -69,7 +69,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9733;",
     "score": "4.8/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
+    "dataSource": "Data from G2 & instantly.ai",
     "personaTags": [
       {
         "class": "personal-friendly",
@@ -106,7 +106,7 @@
     "paragraphs": [
       "Instantly.ai is a cold email platform built for high-volume outreach with unlimited sending accounts, automated warmup, a unified inbox, and multi-step campaign sequences with A/B testing."
     ],
-    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
+    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/instantly-ai/reviews\" target=\"_blank\" rel=\"noopener\">Instantly on G2</a>."
   },
   "features": [
     {
@@ -611,7 +611,7 @@
           "Capterra: 85 mentions"
         ],
         "quote": "\"We tested Instantly's warmup against Lemwarm and Warmbox side by side. After 30 days, Instantly accounts had 15% higher inbox placement rates. The built-in approach just works better.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
       },
       {
         "sentiment": "negative",
@@ -624,7 +624,7 @@
           "Capterra: 42 mentions"
         ],
         "quote": "\"The basic open/reply metrics are fine for SMB campaigns, but when our VP of Sales asked for attribution reporting and pipeline impact, we had to export everything to Google Sheets.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
       },
       {
         "sentiment": "positive",
@@ -637,7 +637,7 @@
           "Capterra: 65 mentions"
         ],
         "quote": "\"At $30/month for unlimited sending across multiple accounts, Instantly is honestly absurd value. We're sending 50K emails a month and paying less than we did for Mailshake's basic tier.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
       },
       {
         "sentiment": "mixed",
@@ -649,7 +649,7 @@
           "Reddit: 6 threads"
         ],
         "quote": "\"We manage 23 client accounts from one Instantly dashboard. The campaign cloning and rotation features save us at least 10 hours per week versus our old Mailshake setup.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
       },
       {
         "sentiment": "positive",
@@ -662,7 +662,7 @@
           "Reddit: 8 threads"
         ],
         "quote": "\"Our inbox placement went from 55% to 92% after running Instantly's warmup network for three weeks. No standalone warmup tool we tried came close to those numbers.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and Reddit community discussions"
       }
     ],
     "pricingBreakdown": {
@@ -915,6 +915,22 @@
       {
         "text": "Best AI Prospecting Tools",
         "url": "/guides/best-ai-outbound-prospecting-tools.html"
+      },
+      {
+        "text": "Best Cold Email Tool for Agencies",
+        "url": "/blog/best-cold-email-tool-for-agencies.html"
+      },
+      {
+        "text": "Best AI Sales Stack for Small Teams",
+        "url": "/blog/best-ai-sales-stack-small-team.html"
+      },
+      {
+        "text": "Smartlead Review",
+        "url": "/tools/smartlead-review.html"
+      },
+      {
+        "text": "Lavender Review",
+        "url": "/tools/lavender-review.html"
       }
     ],
     "emailCard": {
@@ -930,26 +946,5 @@
     "secondaryUrl": "https://www.g2.com/products/instantly-ai/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "lastVerified": "February 2026",
-  "videos": [
-    {
-      "youtubeId": "tFGMPe3XBMQ",
-      "title": "Instantly.ai Full Tutorial: Cold Email at Scale",
-      "channel": "Instantly",
-      "note": "Official Instantly walkthrough covering inbox rotation, warmup, and campaign setup."
-    },
-    {
-      "youtubeId": "9CRFq3X7kNI",
-      "title": "How I Send 10,000 Cold Emails/Month with Instantly.ai",
-      "channel": "Jeremy Chatelaine",
-      "note": "Practitioner guide to scaling cold email with Instantly's infrastructure."
-    },
-    {
-      "youtubeId": "5mZjfxlJpqo",
-      "title": "Instantly vs Smartlead: Best Cold Email Tool for 2025?",
-      "channel": "Outbound OS",
-      "note": "Head-to-head comparison of deliverability, pricing, and features."
-    }
-  ]
+  }
 }

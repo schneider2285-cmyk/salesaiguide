@@ -673,6 +673,26 @@
       {
         "text": "Best AI Prospecting Tools",
         "url": "/guides/best-ai-outbound-prospecting-tools.html"
+      },
+      {
+        "text": "Clay vs Apollo for SDRs",
+        "url": "/blog/clay-vs-apollo-for-sdrs.html"
+      },
+      {
+        "text": "Best AI Sales Stack for Small Teams",
+        "url": "/blog/best-ai-sales-stack-small-team.html"
+      },
+      {
+        "text": "Clay Review",
+        "url": "/tools/clay-review.html"
+      },
+      {
+        "text": "ZoomInfo Review",
+        "url": "/tools/zoominfo-review.html"
+      },
+      {
+        "text": "Lusha Review",
+        "url": "/tools/lusha-review.html"
       }
     ],
     "emailCard": {
@@ -688,26 +708,5 @@
     "secondaryUrl": "https://www.g2.com/products/apollo-io/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "lastVerified": "February 2026",
-  "videos": [
-    {
-      "youtubeId": "3cHg3TiMHBU",
-      "title": "Apollo.io Full Demo: Prospecting, Sequences & Analytics",
-      "channel": "Apollo.io",
-      "note": "Official Apollo walkthrough covering contact search, email sequences, and reporting."
-    },
-    {
-      "youtubeId": "9WJpBGFqz0k",
-      "title": "How SDRs Use Apollo.io for Cold Outreach at Scale",
-      "channel": "Cold Email Wizard",
-      "note": "Practitioner demo showing Apollo's sequence builder and deliverability settings."
-    },
-    {
-      "youtubeId": "kFvqVGYMBqI",
-      "title": "Apollo vs ZoomInfo: Which Data Platform Wins for SMB?",
-      "channel": "Outbound Kitchen",
-      "note": "Head-to-head comparison of data quality, pricing, and use cases for smaller teams."
-    }
-  ]
+  }
 }

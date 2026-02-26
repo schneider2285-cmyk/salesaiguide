@@ -667,6 +667,14 @@
       {
         "text": "Best AI Email Outreach Tools",
         "url": "/guides/best-ai-email-outreach-tools.html"
+      },
+      {
+        "text": "Gong Review",
+        "url": "/tools/gong-review.html"
+      },
+      {
+        "text": "Outreach Review",
+        "url": "/tools/outreach-review.html"
       }
     ],
     "emailCard": {
@@ -682,26 +690,5 @@
     "secondaryUrl": "https://www.g2.com/products/salesloft/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "videos": [
-    {
-      "youtubeId": "Hy6z9P3XFPU",
-      "title": "Salesloft Platform Demo: Cadences, Dialer & Analytics",
-      "channel": "Salesloft",
-      "note": "Official walkthrough of Salesloft's core cadence and analytics features."
-    },
-    {
-      "youtubeId": "8vQGmLJqKuI",
-      "title": "How Sales Teams Use Salesloft for Pipeline Management",
-      "channel": "Sales Hacker",
-      "note": "Practitioner perspective on Salesloft's workflow and reporting."
-    },
-    {
-      "youtubeId": "mZqGqE3XNWQ",
-      "title": "Salesloft vs Outreach: Which Sales Engagement Platform Wins?",
-      "channel": "RevOps Co-op",
-      "note": "Head-to-head comparison of the two leading enterprise SEPs."
-    }
-  ],
-  "lastVerified": "February 2026"
+  }
 }

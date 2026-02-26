@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9733;",
     "score": "4.8/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
+    "dataSource": "Data from G2 & gong.io",
     "personaTags": [
       {
         "class": "requires-admin",
@@ -101,7 +101,7 @@
     "paragraphs": [
       "Gong is a revenue intelligence platform that records, transcribes, and analyzes sales calls using AI to surface deal intelligence, coaching insights, and revenue forecasting far deeper than CRM-based pipeline reports."
     ],
-    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
+    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/gong/reviews\" target=\"_blank\" rel=\"noopener\">Gong on G2</a>."
   },
   "features": [
     {
@@ -662,6 +662,18 @@
       {
         "text": "Top Conversation Intelligence Platforms",
         "url": "/guides/top-conversation-intelligence-platforms.html"
+      },
+      {
+        "text": "Best AI Sales Stack for Small Teams",
+        "url": "/blog/best-ai-sales-stack-small-team.html"
+      },
+      {
+        "text": "Salesloft Review",
+        "url": "/tools/salesloft-review.html"
+      },
+      {
+        "text": "Clari Review",
+        "url": "/tools/clari-review.html"
       }
     ],
     "emailCard": {
@@ -677,26 +689,5 @@
     "secondaryUrl": "https://www.g2.com/products/gong/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "lastVerified": "February 2026",
-  "videos": [
-    {
-      "youtubeId": "7Ql_6OkBMtU",
-      "title": "Gong Revenue Intelligence Platform: Full Demo",
-      "channel": "Gong",
-      "note": "Official Gong demo covering call recording, AI insights, deal intelligence, and forecasting."
-    },
-    {
-      "youtubeId": "vGVBFZQPqrM",
-      "title": "How Sales Managers Use Gong for Coaching and Pipeline Reviews",
-      "channel": "Outbound Kitchen",
-      "note": "Practitioner walkthrough of Gong's coaching features and deal inspection tools."
-    },
-    {
-      "youtubeId": "xHBFMKFpMkE",
-      "title": "Gong vs Chorus: Revenue Intelligence Platforms Compared",
-      "channel": "SalesAIGuide",
-      "note": "Evidence-based comparison of the two leading conversation intelligence platforms."
-    }
-  ]
+  }
 }

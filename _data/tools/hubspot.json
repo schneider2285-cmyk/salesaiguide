@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.4/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
+    "dataSource": "Data from G2 & hubspot.com",
     "personaTags": [
       {
         "class": "personal-friendly",
@@ -363,7 +363,7 @@
           "Capterra: 1,800+ mentions"
         ],
         "quote": "\"We started on the free CRM with three reps and never looked back. Six months later we upgraded to Starter — no formal procurement needed, just a credit card. That frictionless onramp is why HubSpot wins SMBs.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "negative",
@@ -376,7 +376,7 @@
           "Capterra: 980 mentions"
         ],
         "quote": "\"Our marketing contact list crossed 10K and the bill jumped $600/month overnight. The free tier is amazing, but plan your budget carefully — the contact-tier pricing creates real sticker shock as you scale.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "positive",
@@ -389,7 +389,7 @@
           "Capterra: 1,500+ mentions"
         ],
         "quote": "\"We consolidated from Salesforce plus Outreach plus Drift into HubSpot Sales Hub and our tech stack cost dropped 40%. The native integration between marketing and sales is what keeps everything in sync.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "mixed",
@@ -402,7 +402,7 @@
           "Capterra: 320 mentions"
         ],
         "quote": "\"HubSpot's AI email writer and lead scoring are fine for basics, but they don't come close to what Gong or Clay deliver. Think of the AI as a convenience layer, not a reason to buy.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "mixed",
@@ -415,7 +415,7 @@
           "G2: 1,400+ mentions"
         ],
         "quote": "\"The free CRM got us hooked, but jumping from Starter to Professional felt like a completely different price tier for features that should be standard. Plan your upgrade budget before you build workflows you can't easily migrate.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       }
     ],
     "pricingBreakdown": {
@@ -686,6 +686,14 @@
       {
         "text": "Best AI Email Outreach Tools",
         "url": "/guides/best-ai-email-outreach-tools.html"
+      },
+      {
+        "text": "Salesloft Review",
+        "url": "/tools/salesloft-review.html"
+      },
+      {
+        "text": "Gong Review",
+        "url": "/tools/gong-review.html"
       }
     ],
     "emailCard": {
@@ -701,26 +709,5 @@
     "secondaryUrl": "https://www.g2.com/products/hubspot-sales-hub/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "lastVerified": "February 2026",
-  "videos": [
-    {
-      "youtubeId": "Hy6z9P3XFPU",
-      "title": "HubSpot Sales Hub Demo: CRM, Sequences & AI Features",
-      "channel": "HubSpot",
-      "note": "Official HubSpot Sales Hub walkthrough covering CRM, email sequences, and AI-powered tools."
-    },
-    {
-      "youtubeId": "8vQGmLJqKuI",
-      "title": "How Sales Teams Use HubSpot CRM for Pipeline Management",
-      "channel": "Sales Hacker",
-      "note": "Practitioner demo of HubSpot's deal pipeline, activity tracking, and reporting."
-    },
-    {
-      "youtubeId": "mZqGqE3XNWQ",
-      "title": "HubSpot vs Salesforce: Which CRM for Growing Sales Teams?",
-      "channel": "RevOps Co-op",
-      "note": "Comparison of HubSpot and Salesforce for mid-market sales teams."
-    }
-  ]
+  }
 }
