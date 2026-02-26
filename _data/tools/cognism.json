@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.6/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & cognism.com",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       { "class": "requires-admin", "text": "Requires Admin" }
     ]
@@ -88,7 +88,7 @@
     "paragraphs": [
       "Cognism is a B2B sales intelligence platform built around EMEA data coverage, phone-verified mobile numbers, and GDPR compliance. It combines a contact database, Chrome extension for LinkedIn prospecting, and intent data signals to help sales teams find and reach European decision-makers with verified contact details."
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/cognism/reviews\" target=\"_blank\" rel=\"noopener\">Cognism on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     { "title": "Phone-Verified Mobiles", "description": "Human-verified mobile numbers with 98% accuracy claim for direct dials." },
@@ -343,7 +343,7 @@
         "synthesis": "The most consistent praise across platforms: Cognism's phone-verified mobile numbers deliver significantly higher connect rates than competitors. Users report 2-3x more conversations per dial session compared to ZoomInfo or Apollo mobile data.",
         "sources": ["G2: 89 mentions", "TrustRadius: 12 mentions", "Reddit: 5 threads"],
         "quote": "\"Cognism's verified mobiles are the reason we switched from ZoomInfo. Our connect rates went from 4% to 12% on cold calls to EMEA prospects.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -352,7 +352,7 @@
         "synthesis": "The most frequent complaint: Cognism's North American data doesn't match ZoomInfo or Apollo in coverage or accuracy. Teams prospecting across both EMEA and US markets often need a supplementary data source for their US territories.",
         "sources": ["G2: 54 mentions", "Reddit: 6 threads", "Capterra: 18 mentions"],
         "quote": "\"Fantastic for our UK and DACH territories, but we still need Apollo for US prospecting. The coverage gap is real for North American SMBs.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "positive",
@@ -361,7 +361,7 @@
         "synthesis": "European sales teams consistently highlight Cognism's built-in GDPR compliance and DNC registry checks as genuine differentiators. Compliance teams appreciate not having to build manual processes around data usage, and legal risk reduction is a major purchase driver.",
         "sources": ["G2: 67 mentions", "TrustRadius: 9 mentions", "Capterra: 14 mentions"],
         "quote": "\"Our legal team approved Cognism in two weeks. With ZoomInfo, the GDPR review took three months and we still had to build manual DNC processes.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Composite insight from public sources"
       }
     ],
     "pricingBreakdown": {

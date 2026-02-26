@@ -1651,3 +1651,23 @@
         opacity: 1;
     }
 }
+
+/* Composite Insights (replaces dm-user-quote blockquotes) */
+.dm-composite-insight {
+    margin: 12px 0 0;
+    padding: 14px 18px;
+    background: var(--gray-light, #f8f9fa);
+    border-left: 3px solid var(--accent, #2ec4b6);
+    font-size: 0.9rem;
+    color: var(--text-body, #4a5568);
+    line-height: 1.7;
+    border-radius: 0 6px 6px 0;
+}
+.dm-composite-label {
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--accent, #2ec4b6);
+    margin-right: 6px;
+}

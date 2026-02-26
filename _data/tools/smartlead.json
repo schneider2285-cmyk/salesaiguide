@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.6/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & smartlead.ai",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       {
         "class": "personal-friendly",
@@ -101,7 +101,7 @@
     "paragraphs": [
       "Smartlead is a cold email infrastructure platform with unlimited mailbox connections, auto-rotation, built-in warmup, and a unified master inbox. Popular with agencies for its multi-client workspaces and white-label options, it also supports branching subsequence workflows based on prospect behavior. <em>Profile based on vendor docs and G2 reviews. See <a href=\"https://www.g2.com/products/smartlead/reviews\" target=\"_blank\" rel=\"noopener\">Smartlead on G2</a>.</em>"
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/smartlead/reviews\" target=\"_blank\" rel=\"noopener\">Smartlead on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     {
@@ -351,7 +351,7 @@
           "Capterra: 15 mentions"
         ],
         "quote": "\"We're running 45 sender accounts across 12 client campaigns and Smartlead handles it without breaking a sweat. The unlimited mailbox model is a game-changer for agencies.\"",
-        "quoteCite": "Synthesized from G2 reviews and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -364,7 +364,7 @@
           "Capterra: 8 mentions"
         ],
         "quote": "\"Love the pace of new features, but last month an update broke our subsequence triggers mid-campaign. Had to rebuild three workflows on a Friday afternoon.\"",
-        "quoteCite": "Synthesized from G2 reviews and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "positive",
@@ -376,7 +376,7 @@
           "Reddit: 4 threads"
         ],
         "quote": "\"The white-label portal is why we switched from Instantly. Our clients log into a branded dashboard and never see the Smartlead name &mdash; it looks like our own platform.\"",
-        "quoteCite": "Synthesized from G2 reviews and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -389,7 +389,7 @@
           "Capterra: 5 mentions"
         ],
         "quote": "\"Submitted a ticket about a deliverability issue on Monday and didn't hear back until Thursday. Ended up finding the fix myself in their Slack community.\"",
-        "quoteCite": "Synthesized from G2 reviews and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "positive",
@@ -401,7 +401,7 @@
           "Reddit: 6 threads"
         ],
         "quote": "\"We manage 14 clients from one Smartlead dashboard. The master inbox alone saves us two hours a day versus checking replies across separate accounts.\"",
-        "quoteCite": "Synthesized from G2 reviews and community discussions"
+        "quoteCite": "Composite insight from public sources"
       }
     ],
     "pricingBreakdown": {

@@ -69,7 +69,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.5/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & zoominfo.com",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       {
         "class": "requires-admin",
@@ -102,7 +102,7 @@
     "paragraphs": [
       "ZoomInfo is the dominant enterprise B2B data platform, providing 100M+ business profiles with verified emails, direct dials, org charts, intent data, and website visitor identification. It has expanded through acquisitions (Chorus, RingLead) into a comprehensive revenue operations platform with enrichment APIs and workflow automation. <em>Profile based on vendor docs and G2 reviews. See <a href=\"https://www.g2.com/products/zoominfo/reviews\" target=\"_blank\" rel=\"noopener\">ZoomInfo on G2</a>.</em>"
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/zoominfo/reviews\" target=\"_blank\" rel=\"noopener\">ZoomInfo on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     {
@@ -364,7 +364,7 @@
           "Capterra: 120+ mentions"
         ],
         "quote": "\"ZoomInfo's contact accuracy is the best in class for the US market. We run enrichment on 10K leads monthly and consistently see 85%+ valid email rates.\"",
-        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -377,7 +377,7 @@
           "Capterra: 95+ mentions"
         ],
         "quote": "\"The auto-renewal clause caught us completely off guard. We had to fight for three months to get out of a contract we'd flagged for cancellation well before the deadline.\"",
-        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -390,7 +390,7 @@
           "Capterra: 55+ mentions"
         ],
         "quote": "\"For our US accounts, ZoomInfo is unbeatable. But when we expanded into EMEA, we had to layer Cognism on top because the European contact data was too thin to rely on.\"",
-        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -402,7 +402,7 @@
           "Reddit: 15 threads"
         ],
         "quote": "\"The annual contract with aggressive auto-renewal caught us by surprise. Budget $50K+ for a mid-market team and make sure you negotiate credits upfront.\"",
-        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -415,7 +415,7 @@
           "Reddit: 12 threads"
         ],
         "quote": "\"We tried to downsize from 30 to 15 seats at renewal and were told the minimum contract floor wouldn't allow it. Ended up paying for seats we didn't need for another full year.\"",
-        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       }
     ],
     "pricingBreakdown": {

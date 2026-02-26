@@ -69,7 +69,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.5/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & salesloft.com",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       { "class": "requires-admin", "text": "Requires Admin" },
       { "class": "enterprise-grade", "text": "Enterprise Grade" }
@@ -237,7 +237,7 @@
         "synthesis": "The most consistent differentiator cited across all review platforms: Salesloft's interface is more intuitive than Outreach's. Reps report less training time and higher daily engagement. The cadence builder and task flow in particular are praised for reducing clicks and making multichannel execution feel natural rather than forced.",
         "sources": ["G2: 1,400+ mentions", "Reddit: 10 threads", "Capterra: 95 mentions"],
         "quote": "\"We moved 60 reps from Outreach to Salesloft and daily adoption jumped from 65% to 89% in the first month. The interface just gets out of your way.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "positive",
@@ -246,7 +246,7 @@
         "synthesis": "New reps consistently report being productive with Salesloft cadences faster than with competing platforms. The step-by-step cadence creation workflow, combined with pre-built templates and the Rhythm engine's daily action prioritization, cuts onboarding time by an estimated 1-2 weeks compared to Outreach.",
         "sources": ["G2: 870 mentions", "Reddit: 7 threads", "Capterra: 68 mentions"],
         "quote": "\"New SDRs are building and launching cadences by day 3. With Outreach, that same ramp took close to two weeks for our team.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "mixed",
@@ -255,7 +255,7 @@
         "synthesis": "Salesloft's built-in conversation intelligence is valued as a convenience but doesn't match Gong's depth. Users note that transcription accuracy, deal insights, and coaching scorecards are functional but feel like a v1 product compared to dedicated conversation intelligence platforms. Teams with advanced CI needs typically still pair Salesloft with Gong.",
         "sources": ["G2: 420 mentions", "Reddit: 6 threads", "Capterra: 35 mentions"],
         "quote": "\"Salesloft's call recording works fine for basic coaching, but our sales leaders still need Gong for deal intelligence and competitive insights. It's a solid add-on, not a replacement.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "negative",
@@ -264,7 +264,7 @@
         "synthesis": "Enterprise teams with complex reporting requirements consistently note that Salesloft's analytics are less customizable than Outreach's. Building non-standard reports requires workarounds, and large organizations with multiple teams find the reporting hierarchy limiting. Custom dashboards and cross-team analytics are the most-requested improvements.",
         "sources": ["G2: 380 mentions", "Reddit: 5 threads", "Capterra: 42 mentions"],
         "quote": "\"The cadence-level reporting is solid, but getting pipeline attribution data requires exporting to Salesforce. Wish the native analytics went deeper.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       },
       {
         "sentiment": "positive",
@@ -273,7 +273,7 @@
         "synthesis": "TrustRadius and Gartner Peer Insights reviewers highlight Salesloft's Rhythm AI as a standout feature that prioritizes rep actions based on buyer signals. Enterprise users report that AI-guided next-best-actions reduce decision fatigue and improve daily productivity by 15-25%.",
         "sources": ["TrustRadius: 85 mentions", "Gartner PI: 110 mentions", "G2: 220+ mentions"],
         "quote": "\"Salesloft's Rhythm engine genuinely changed how our reps prioritize their day. Instead of guessing which accounts to work, AI surfaces the highest-intent signals automatically.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
+        "quoteCite": "Composite insight from public sources"
       }
     ],
     "pricingBreakdown": {

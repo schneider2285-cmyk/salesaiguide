@@ -36,7 +36,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.5/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & vidyard.com",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [{ "class": "for-reps", "text": "For Reps" }]
   },
   "scores": {
@@ -54,7 +54,7 @@
     "paragraphs": [
       "Vidyard is a video messaging platform built for sales teams. Its Chrome extension lets reps record screen and webcam videos in under a minute, embed them in emails via Gmail or Outlook, and track who watches, how long, and what they rewatch. The analytics sync to Salesforce, HubSpot, and sales engagement platforms, turning video outreach into a measurable prospecting channel."
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/vidyard/reviews\" target=\"_blank\" rel=\"noopener\">Vidyard on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     { "title": "Screen + Webcam Recording", "description": "Record personalized videos with screen share and webcam in under 60 seconds." },
@@ -156,9 +156,9 @@
       "lastVerified": "February 2026"
     },
     "userVoiceThemes": [
-      { "sentiment": "positive", "sentimentIcon": "&#9650;", "heading": "Video analytics change how reps prioritize follow-up", "synthesis": "The most valued feature: knowing who watched, for how long, and what they rewatched. Reps report using this data to time their follow-up calls and personalize their approach based on which sections prospects engaged with most.", "sources": ["G2: 95 mentions", "TrustRadius: 18 mentions", "Reddit: 5 threads"], "quote": "\"Vidyard's analytics show me who rewatched my pricing section. I call those prospects first because they're clearly evaluating. My connect-to-meeting rate went up 30%.\"", "quoteCite": "Synthesized from G2 and TrustRadius review themes" },
-      { "sentiment": "negative", "sentimentIcon": "&#9660;", "heading": "Video fatigue is a real challenge in 2026", "synthesis": "The most common concern: as more reps adopt video outreach, prospects are becoming desensitized. Some users report declining engagement rates compared to 2024-2025, suggesting video messaging needs to be more creative or reserved for high-value prospects.", "sources": ["G2: 42 mentions", "Reddit: 6 threads", "Capterra: 11 mentions"], "quote": "\"Video outreach used to be our secret weapon. Now every SDR sends Vidyard videos and prospects are starting to ignore them like they ignore regular cold emails.\"", "quoteCite": "Synthesized from G2 and Reddit review themes" },
-      { "sentiment": "mixed", "sentimentIcon": "&#9644;", "heading": "Free tier is great but 25-video cap frustrates active users", "synthesis": "Users love the free tier for testing but hit the 25-video library limit quickly once they adopt video outreach regularly. The jump to $19/mo is reasonable, but some reps struggle to get budget approval for what's perceived as a 'nice-to-have' tool.", "sources": ["G2: 38 mentions", "Reddit: 3 threads", "Capterra: 9 mentions"], "quote": "\"I proved the value on the free tier in a week — 3 meetings booked from video outreach. Getting $19/mo approved was easy after that, but the 25-video cap on free forced the conversation.\"", "quoteCite": "Synthesized from G2 and Capterra review themes" }
+      { "sentiment": "positive", "sentimentIcon": "&#9650;", "heading": "Video analytics change how reps prioritize follow-up", "synthesis": "The most valued feature: knowing who watched, for how long, and what they rewatched. Reps report using this data to time their follow-up calls and personalize their approach based on which sections prospects engaged with most.", "sources": ["G2: 95 mentions", "TrustRadius: 18 mentions", "Reddit: 5 threads"], "quote": "\"Vidyard's analytics show me who rewatched my pricing section. I call those prospects first because they're clearly evaluating. My connect-to-meeting rate went up 30%.\"", "quoteCite": "Composite insight from public sources" },
+      { "sentiment": "negative", "sentimentIcon": "&#9660;", "heading": "Video fatigue is a real challenge in 2026", "synthesis": "The most common concern: as more reps adopt video outreach, prospects are becoming desensitized. Some users report declining engagement rates compared to 2024-2025, suggesting video messaging needs to be more creative or reserved for high-value prospects.", "sources": ["G2: 42 mentions", "Reddit: 6 threads", "Capterra: 11 mentions"], "quote": "\"Video outreach used to be our secret weapon. Now every SDR sends Vidyard videos and prospects are starting to ignore them like they ignore regular cold emails.\"", "quoteCite": "Composite insight from public sources" },
+      { "sentiment": "mixed", "sentimentIcon": "&#9644;", "heading": "Free tier is great but 25-video cap frustrates active users", "synthesis": "Users love the free tier for testing but hit the 25-video library limit quickly once they adopt video outreach regularly. The jump to $19/mo is reasonable, but some reps struggle to get budget approval for what's perceived as a 'nice-to-have' tool.", "sources": ["G2: 38 mentions", "Reddit: 3 threads", "Capterra: 9 mentions"], "quote": "\"I proved the value on the free tier in a week — 3 meetings booked from video outreach. Getting $19/mo approved was easy after that, but the 25-video cap on free forced the conversation.\"", "quoteCite": "Composite insight from public sources" }
     ],
     "pricingBreakdown": {
       "tldr": "Free (25 videos). Pro at $19/mo for unlimited videos + analytics. Plus at $59/mo for team features.",

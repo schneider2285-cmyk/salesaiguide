@@ -32,7 +32,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.4/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & chilipiper.com",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [{ "class": "for-reps", "text": "For Reps" }]
   },
   "scores": {
@@ -50,7 +50,7 @@
     "paragraphs": [
       "Chili Piper is an inbound lead routing and scheduling platform designed to eliminate the gap between a prospect filling out a form and booking a meeting with the right sales rep. Its Concierge product routes inbound leads in real time based on territory, account ownership, and custom rules. Distro handles round-robin distribution. Instant Booker adds one-click scheduling to any web form. The result: prospects book meetings immediately instead of waiting for an SDR follow-up."
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/chili-piper/reviews\" target=\"_blank\" rel=\"noopener\">Chili Piper on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     { "title": "Concierge", "description": "Real-time inbound lead routing from form fill to booked meeting in seconds." },
@@ -152,9 +152,9 @@
       "lastVerified": "February 2026"
     },
     "userVoiceThemes": [
-      { "sentiment": "positive", "sentimentIcon": "&#9650;", "heading": "Instant form-to-meeting conversion transforms inbound pipeline", "synthesis": "The defining feature: prospects book meetings immediately after filling out a form instead of waiting for SDR follow-up. Users consistently report 2-3x increases in inbound meeting conversion rates, with some citing speed-to-lead dropping from hours to seconds.", "sources": ["G2: 120 mentions", "TrustRadius: 22 mentions", "Reddit: 4 threads"], "quote": "\"Before Chili Piper, our average speed-to-lead was 4.2 hours. Now it's 30 seconds. Our inbound meeting conversion rate went from 12% to 35%.\"", "quoteCite": "Synthesized from G2 and TrustRadius review themes" },
-      { "sentiment": "negative", "sentimentIcon": "&#9660;", "heading": "Per-product pricing creates unexpected total cost", "synthesis": "The most consistent complaint: per-seat AND per-product pricing. Teams that need Concierge + Distro + Instant Booker find the total cost significantly higher than expected. A 10-person team can easily spend $500-700/month before enterprise features.", "sources": ["G2: 65 mentions", "Reddit: 5 threads", "Capterra: 14 mentions"], "quote": "\"We budgeted for $30/seat for Concierge, then realized we needed Distro too. Our 15-person team went from $450/mo to $800/mo. The per-product model needs a bundle option.\"", "quoteCite": "Synthesized from G2 and Reddit review themes" },
-      { "sentiment": "mixed", "sentimentIcon": "&#9644;", "heading": "Powerful routing but requires serious RevOps investment", "synthesis": "Users agree the routing capabilities are best-in-class, but getting there requires significant RevOps time. Territory rules, account matching, and fallback logic need a Salesforce admin who understands both the CRM and Chili Piper's configuration.", "sources": ["G2: 48 mentions", "TrustRadius: 10 mentions", "Reddit: 3 threads"], "quote": "\"Chili Piper's routing is incredibly powerful — we have 7 territories, 3 product lines, and weighted round-robin all working perfectly. But our RevOps lead spent three weeks getting it right.\"", "quoteCite": "Synthesized from G2 and TrustRadius review themes" }
+      { "sentiment": "positive", "sentimentIcon": "&#9650;", "heading": "Instant form-to-meeting conversion transforms inbound pipeline", "synthesis": "The defining feature: prospects book meetings immediately after filling out a form instead of waiting for SDR follow-up. Users consistently report 2-3x increases in inbound meeting conversion rates, with some citing speed-to-lead dropping from hours to seconds.", "sources": ["G2: 120 mentions", "TrustRadius: 22 mentions", "Reddit: 4 threads"], "quote": "\"Before Chili Piper, our average speed-to-lead was 4.2 hours. Now it's 30 seconds. Our inbound meeting conversion rate went from 12% to 35%.\"", "quoteCite": "Composite insight from public sources" },
+      { "sentiment": "negative", "sentimentIcon": "&#9660;", "heading": "Per-product pricing creates unexpected total cost", "synthesis": "The most consistent complaint: per-seat AND per-product pricing. Teams that need Concierge + Distro + Instant Booker find the total cost significantly higher than expected. A 10-person team can easily spend $500-700/month before enterprise features.", "sources": ["G2: 65 mentions", "Reddit: 5 threads", "Capterra: 14 mentions"], "quote": "\"We budgeted for $30/seat for Concierge, then realized we needed Distro too. Our 15-person team went from $450/mo to $800/mo. The per-product model needs a bundle option.\"", "quoteCite": "Composite insight from public sources" },
+      { "sentiment": "mixed", "sentimentIcon": "&#9644;", "heading": "Powerful routing but requires serious RevOps investment", "synthesis": "Users agree the routing capabilities are best-in-class, but getting there requires significant RevOps time. Territory rules, account matching, and fallback logic need a Salesforce admin who understands both the CRM and Chili Piper's configuration.", "sources": ["G2: 48 mentions", "TrustRadius: 10 mentions", "Reddit: 3 threads"], "quote": "\"Chili Piper's routing is incredibly powerful — we have 7 territories, 3 product lines, and weighted round-robin all working perfectly. But our RevOps lead spent three weeks getting it right.\"", "quoteCite": "Composite insight from public sources" }
     ],
     "pricingBreakdown": {
       "tldr": "Instant Booker from $22.50/seat/mo. Concierge from $30/seat/mo. Products are priced separately.",

@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.6/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Data from G2 & clari.com",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
       { "class": "requires-admin", "text": "Requires Admin" }
     ]
@@ -88,7 +88,7 @@
     "paragraphs": [
       "Clari is a revenue intelligence platform that uses AI to analyze CRM data, email activity, calendar signals, and call recordings to predict deal outcomes and improve forecast accuracy. Its core value proposition is replacing spreadsheet-based forecasting with AI-driven pipeline analytics that surface risk before deals slip."
     ],
-    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/clari/reviews\" target=\"_blank\" rel=\"noopener\">Clari on G2</a>."
+    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
   },
   "features": [
     { "title": "AI Pipeline Forecasting", "description": "Predicts deal outcomes from CRM data, email activity, and engagement signals." },
