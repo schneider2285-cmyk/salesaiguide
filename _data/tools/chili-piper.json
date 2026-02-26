@@ -400,7 +400,7 @@
       },
       "individual": {
         "score": 65,
-        "explain": "Reps benefit from instant meetings and fewer missed leads, but the platform is configured by RevOps \u2014 reps interact with it passively."
+        "explain": "Reps benefit from instant meetings and fewer missed leads, but the platform is configured by RevOps — reps interact with it passively."
       }
     },
     "subScores": [
@@ -571,9 +571,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 1,070+ total reviews across 2 verified platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 1,070+ total reviews across 2 verified platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -643,14 +643,14 @@
           "TrustRadius: 10 mentions",
           "Reddit: 3 threads"
         ],
-        "quote": "\"Chili Piper's routing is incredibly powerful \u2014 we have 7 territories, 3 product lines, and weighted round-robin all working perfectly. But our RevOps lead spent three weeks getting it right.\"",
+        "quote": "\"Chili Piper's routing is incredibly powerful — we have 7 territories, 3 product lines, and weighted round-robin all working perfectly. But our RevOps lead spent three weeks getting it right.\"",
         "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       }
     ],
     "pricingBreakdown": {
       "tldr": "Instant Booker from $22.50/seat/mo. Concierge from $30/seat/mo. Products are priced separately.",
       "gotchas": [
-        "Pricing is per seat AND per product \u2014 costs compound",
+        "Pricing is per seat AND per product — costs compound",
         "Distro (round-robin) is a separate product from Concierge",
         "Enterprise features (SSO, SLA) require custom pricing",
         "Annual commitment required for best rates"
@@ -902,54 +902,25 @@
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
   },
-  "sourcesChecked": {
-    "lastVerified": "February 2026",
-    "sources": [
-      {
-        "name": "G2",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "1,600+",
-        "rating": "4.4",
-        "whatFound": "Strong praise for inbound lead routing speed and calendar booking UX. Top complaints: pricing ($30/seat/mo + platform fee), occasional routing bugs, and complexity of advanced routing rules.",
-        "url": "https://www.g2.com/products/chili-piper/reviews"
-      },
-      {
-        "name": "Reddit (r/salesops, r/marketing)",
-        "type": "community",
-        "icon": "\ud83d\udcac",
-        "reviewCount": "100+",
-        "rating": null,
-        "whatFound": "Chili Piper is the default recommendation for inbound lead routing in RevOps communities. Common concern: the per-seat plus platform fee pricing model makes it expensive at scale.",
-        "url": "https://www.reddit.com/r/salesops/search/?q=chili+piper"
-      },
-      {
-        "name": "YouTube (demos & walkthroughs)",
-        "type": "video",
-        "icon": "\u25b6",
-        "reviewCount": "30+",
-        "rating": null,
-        "whatFound": "Demos confirm instant booking from web forms, round-robin routing, and HubSpot/Salesforce integration. The 'speed to lead' use case is consistently highlighted as the primary value driver.",
-        "url": "https://www.youtube.com/results?search_query=chili+piper+review"
-      },
-      {
-        "name": "Chilipiper.com (vendor docs & pricing)",
-        "type": "vendor",
-        "icon": "\ud83d\udcc4",
-        "reviewCount": null,
-        "rating": null,
-        "whatFound": "Pricing: Spicy ($22.50/seat/mo) and Hot Sauce ($37.50/seat/mo) plans plus a platform fee. Inbound lead routing, instant booking, and handoff features documented. SOC 2 Type II compliance confirmed.",
-        "url": "https://www.chilipiper.com/pricing"
-      },
-      {
-        "name": "Capterra",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "220+",
-        "rating": "4.3",
-        "whatFound": "Consistent with G2 findings. Confirms Chili Piper is primarily used by inbound-led B2B SaaS companies with a defined SDR/AE handoff process.",
-        "url": "https://www.capterra.com/p/157082/Chili-Piper/"
-      }
-    ]
-  }
+  "videos": [
+    {
+      "youtubeId": "tFGMPe3XBMQ",
+      "title": "Chili Piper Demo: Instant Booker & Concierge Routing",
+      "channel": "Chili Piper",
+      "note": "Official demo of Chili Piper's inbound lead routing and scheduling features."
+    },
+    {
+      "youtubeId": "9CRFq3X7kNI",
+      "title": "How to Set Up Chili Piper for Inbound Demo Booking",
+      "channel": "Jeremy Chatelaine",
+      "note": "Step-by-step setup guide for Chili Piper's Concierge product."
+    },
+    {
+      "youtubeId": "5mZjfxlJpqo",
+      "title": "Chili Piper vs Calendly: Which Scheduling Tool for Sales Teams?",
+      "channel": "Outbound OS",
+      "note": "Comparison of scheduling tools for B2B sales teams."
+    }
+  ],
+  "lastVerified": "February 2026"
 }

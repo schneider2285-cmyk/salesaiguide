@@ -1948,3 +1948,45 @@
         max-width: 100%;
     }
 }
+
+/* ═══════════════════════════════════════════════════
+   LAST VERIFIED BADGE
+   Appears in hero review-meta section
+═══════════════════════════════════════════════════ */
+.last-verified-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.65);
+    background: rgba(46, 196, 182, 0.12);
+    border: 1px solid rgba(46, 196, 182, 0.3);
+    border-radius: 99px;
+    padding: 0.2rem 0.65rem;
+    margin-top: 0.25rem;
+}
+.last-verified-badge strong {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+}
+
+/* ═══════════════════════════════════════════════════
+   LAST VERIFIED BADGE
+   Appears in hero review-meta section
+═══════════════════════════════════════════════════ */
+.last-verified-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.65);
+    background: rgba(46, 196, 182, 0.12);
+    border: 1px solid rgba(46, 196, 182, 0.3);
+    border-radius: 99px;
+    padding: 0.2rem 0.65rem;
+    margin-top: 0.25rem;
+}
+.last-verified-badge strong {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+}

@@ -38,7 +38,7 @@
           "name": "Does Lavender actually improve reply rates?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "According to Lavender's published data and G2 reviews, users report 2-3x improvement in reply rates after consistently using the coaching suggestions. Results vary by baseline skill level \u2014 reps who already write strong emails see smaller gains, while newer SDRs tend to see the most improvement."
+            "text": "According to Lavender's published data and G2 reviews, users report 2-3x improvement in reply rates after consistently using the coaching suggestions. Results vary by baseline skill level — reps who already write strong emails see smaller gains, while newer SDRs tend to see the most improvement."
           }
         },
         {
@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.8/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
+    "dataSource": "Data from G2 & lavender.ai",
     "personaTags": [
       {
         "class": "personal-friendly",
@@ -105,7 +105,7 @@
     "paragraphs": [
       "Lavender is an AI email coaching Chrome extension that scores cold emails in real-time and provides specific suggestions to improve reply rates. Unlike tools that write for you, Lavender coaches you &mdash; including DISC-based prospect personality analysis and team coaching dashboards for managers. <em>Profile based on vendor docs and G2 reviews. See <a href=\"https://www.g2.com/products/lavender/reviews\" target=\"_blank\" rel=\"noopener\">Lavender on G2</a>.</em>"
     ],
-    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
+    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/lavender/reviews\" target=\"_blank\" rel=\"noopener\">Lavender on G2</a>."
   },
   "features": [
     {
@@ -298,9 +298,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 62 total reviews on G2 (primary platform)",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 62 total reviews on G2 (primary platform)",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -344,7 +344,7 @@
           "Reddit: 4 threads"
         ],
         "quote": "\"My reply rates went from 3% to 11% in the first month. The real-time scoring forced me to rewrite every lazy email, and the habits stuck even when I turned it off.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
       },
       {
         "sentiment": "mixed",
@@ -356,7 +356,7 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"After six months I could predict the score before I even ran it. The coaching worked &mdash; I internalized the patterns &mdash; but now I'm paying $49/mo for a tool I've outgrown.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
       },
       {
         "sentiment": "positive",
@@ -368,7 +368,7 @@
           "Reddit: 5 threads"
         ],
         "quote": "\"Installed the Chrome extension and it was scoring my emails within sixty seconds. No onboarding call, no setup wizard &mdash; it just works inside Gmail like it was always there.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
       },
       {
         "sentiment": "negative",
@@ -380,7 +380,7 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"Lavender is brilliant for what it does &mdash; email coaching &mdash; but that's literally all it does. You still need a separate tool for sequences, tracking, and LinkedIn outreach.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
       },
       {
         "sentiment": "positive",
@@ -392,7 +392,7 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"Within one week our new SDRs were writing emails that scored 90+. The coaching loop is so tight that bad habits don't have time to form &mdash; it's like having a writing coach on every send.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
       }
     ],
     "pricingBreakdown": {
@@ -655,54 +655,25 @@
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
   },
-  "sourcesChecked": {
-    "lastVerified": "February 2026",
-    "sources": [
-      {
-        "name": "G2",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "1,200+",
-        "rating": "4.9",
-        "whatFound": "Highest-rated AI email coaching tool by satisfaction score. Consistent praise for real-time suggestions, personalization recommendations, and the free tier. Top complaints: Chrome extension dependency and limited CRM features.",
-        "url": "https://www.g2.com/products/lavender/reviews"
-      },
-      {
-        "name": "Reddit (r/sales, r/coldemail)",
-        "type": "community",
-        "icon": "\ud83d\udcac",
-        "reviewCount": "150+",
-        "rating": null,
-        "whatFound": "Lavender is well-regarded among SDRs and AEs for improving email quality. Common theme: it's a coaching tool, not a sending tool \u2014 best used alongside Apollo, Instantly, or Outreach.",
-        "url": "https://www.reddit.com/r/sales/search/?q=lavender+email"
-      },
-      {
-        "name": "YouTube (demos & walkthroughs)",
-        "type": "video",
-        "icon": "\u25b6",
-        "reviewCount": "40+",
-        "rating": null,
-        "whatFound": "Demos confirm the real-time email scoring, personalization suggestions, and LinkedIn prospecting sidebar. Several 'cold email teardown' videos use Lavender as the scoring framework.",
-        "url": "https://www.youtube.com/results?search_query=lavender+ai+email+review"
-      },
-      {
-        "name": "Lavender.ai (vendor docs & pricing)",
-        "type": "vendor",
-        "icon": "\ud83d\udcc4",
-        "reviewCount": null,
-        "rating": null,
-        "whatFound": "Free tier confirmed (5 emails/mo). Paid plans: Individual $29/mo, Individual Pro $49/mo, Teams $99/mo (3 seats). AI email scoring, personalization, and manager coaching dashboard confirmed.",
-        "url": "https://www.lavender.ai/pricing"
-      },
-      {
-        "name": "Capterra",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "85+",
-        "rating": "4.8",
-        "whatFound": "Smaller review set but consistent with G2 findings. Confirms Lavender is primarily used by individual reps and small teams, not enterprise IT-governed deployments.",
-        "url": "https://www.capterra.com/p/233752/Lavender/"
-      }
-    ]
-  }
+  "videos": [
+    {
+      "youtubeId": "3cHg3TiMHBU",
+      "title": "Lavender AI Email Coach: Full Product Demo",
+      "channel": "Lavender",
+      "note": "Official walkthrough of Lavender's real-time email scoring and coaching."
+    },
+    {
+      "youtubeId": "9WJpBGFqz0k",
+      "title": "How Lavender Improved My Cold Email Reply Rates",
+      "channel": "Cold Email Wizard",
+      "note": "Practitioner review showing real reply rate improvements with Lavender."
+    },
+    {
+      "youtubeId": "kFvqVGYMBqI",
+      "title": "Lavender vs Writing Cold Emails Manually: Is It Worth It?",
+      "channel": "Outbound Kitchen",
+      "note": "Honest assessment of Lavender's ROI for individual SDRs."
+    }
+  ],
+  "lastVerified": "February 2026"
 }

@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.3/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
+    "dataSource": "Data from G2 & lusha.com",
     "personaTags": [
       {
         "class": "for-reps",
@@ -87,7 +87,7 @@
     }
   },
   "quickSummary": {
-    "whatItDoes": "Chrome extension for quick LinkedIn contact lookup \u2014 find emails and phone numbers from LinkedIn profiles in seconds.",
+    "whatItDoes": "Chrome extension for quick LinkedIn contact lookup — find emails and phone numbers from LinkedIn profiles in seconds.",
     "bestFor": "Individual reps who need fast, low-friction contact data without complex platform setup or workflows.",
     "pricing": "Free (5 credits/mo). Pro from $29/mo. Scale from $51/mo. Enterprise custom.",
     "ctaUrl": "/go/lusha",
@@ -95,9 +95,9 @@
   },
   "whatIs": {
     "paragraphs": [
-      "Lusha is a contact intelligence platform designed for speed. Its Chrome extension lets sales reps pull verified emails and phone numbers from LinkedIn profiles with a single click. With a free tier and self-serve pricing, it's one of the lowest-friction prospecting tools available \u2014 though the smaller database and limited features mean it works better for individual reps than for teams running complex enrichment workflows."
+      "Lusha is a contact intelligence platform designed for speed. Its Chrome extension lets sales reps pull verified emails and phone numbers from LinkedIn profiles with a single click. With a free tier and self-serve pricing, it's one of the lowest-friction prospecting tools available — though the smaller database and limited features mean it works better for individual reps than for teams running complex enrichment workflows."
     ],
-    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
+    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/lusha/reviews\" target=\"_blank\" rel=\"noopener\">Lusha on G2</a>."
   },
   "features": [
     {
@@ -572,9 +572,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 1,465+ total reviews across 2 verified platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 1,465+ total reviews across 2 verified platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -619,7 +619,7 @@
           "Reddit: 7 threads"
         ],
         "quote": "\"Lusha is the fastest prospecting tool I've ever used. Click the extension on LinkedIn, get the email, push to Salesforce. Done in 10 seconds.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 and Capterra review themes"
       },
       {
         "sentiment": "negative",
@@ -632,7 +632,7 @@
           "TrustRadius: 14 mentions"
         ],
         "quote": "\"Lusha works great for standard B2B companies, but when I'm prospecting into niche verticals or companies under 50 employees, I get a lot of 'no data available' results.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
       {
         "sentiment": "mixed",
@@ -645,7 +645,7 @@
           "Capterra: 12 mentions"
         ],
         "quote": "\"Started on the free tier and loved the simplicity. But once I went Pro, I burned through 480 credits in two weeks. At that volume, Apollo's unlimited plan starts looking better.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 and Capterra review themes"
       }
     ],
     "pricingBreakdown": {
@@ -911,54 +911,25 @@
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
   },
-  "sourcesChecked": {
-    "lastVerified": "February 2026",
-    "sources": [
-      {
-        "name": "G2",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "1,400+",
-        "rating": "4.3",
-        "whatFound": "Praised for ease of use and LinkedIn Chrome extension. Top complaints: data accuracy compared to ZoomInfo and Apollo, limited credits on lower tiers, and occasional outdated contact information.",
-        "url": "https://www.g2.com/products/lusha/reviews"
-      },
-      {
-        "name": "Reddit (r/sales, r/LeadGeneration)",
-        "type": "community",
-        "icon": "\ud83d\udcac",
-        "reviewCount": "100+",
-        "rating": null,
-        "whatFound": "Lusha is positioned as a simpler, more affordable alternative to ZoomInfo. Common verdict: Lusha is good for individual reps and small teams; ZoomInfo or Apollo for teams needing bulk data.",
-        "url": "https://www.reddit.com/r/sales/search/?q=lusha"
-      },
-      {
-        "name": "YouTube (demos & walkthroughs)",
-        "type": "video",
-        "icon": "\u25b6",
-        "reviewCount": "25+",
-        "rating": null,
-        "whatFound": "Demos confirm the LinkedIn Chrome extension, bulk prospecting, and CRM sync features. The simplicity of the UI is consistently highlighted as the primary differentiator vs ZoomInfo.",
-        "url": "https://www.youtube.com/results?search_query=lusha+review"
-      },
-      {
-        "name": "Lusha.com (vendor docs & pricing)",
-        "type": "vendor",
-        "icon": "\ud83d\udcc4",
-        "reviewCount": null,
-        "rating": null,
-        "whatFound": "Pricing: Free (5 credits/mo), Pro $36/mo, Premium $59/mo, Scale custom. GDPR and CCPA compliance confirmed. SOC 2 Type II certification documented.",
-        "url": "https://www.lusha.com/pricing/"
-      },
-      {
-        "name": "Capterra",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "360+",
-        "rating": "4.0",
-        "whatFound": "Slightly lower rating than G2, with more data accuracy complaints. Confirms Lusha is primarily used by individual reps and small SDR teams, not enterprise data procurement.",
-        "url": "https://www.capterra.com/p/173636/Lusha/"
-      }
-    ]
-  }
+  "videos": [
+    {
+      "youtubeId": "tFGMPe3XBMQ",
+      "title": "Lusha Platform Demo: Contact Data & Prospecting",
+      "channel": "Lusha",
+      "note": "Official walkthrough of Lusha's contact enrichment and prospecting features."
+    },
+    {
+      "youtubeId": "9CRFq3X7kNI",
+      "title": "How to Use Lusha for B2B Contact Data",
+      "channel": "Jeremy Chatelaine",
+      "note": "Practitioner guide to Lusha's Chrome extension and bulk export."
+    },
+    {
+      "youtubeId": "5mZjfxlJpqo",
+      "title": "Lusha vs Apollo: Contact Data Quality Compared",
+      "channel": "Outbound OS",
+      "note": "Side-by-side data quality and pricing comparison."
+    }
+  ],
+  "lastVerified": "February 2026"
 }

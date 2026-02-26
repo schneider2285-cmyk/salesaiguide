@@ -25,6 +25,12 @@ extraCss:
                 </div>
                 <div class="updated">{{ t.hero.updated }}</div>
                 <div class="tested">{{ t.hero.dataSource }}</div>
+                {% if t.lastVerified %}
+                <div class="last-verified-badge">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0"><circle cx="6" cy="6" r="5.5" stroke="currentColor" stroke-opacity="0.6"/><path d="M6 3.5V6.5L7.5 8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+                    Data last verified: <strong>{{ t.lastVerified }}</strong>
+                </div>
+                {% endif %}
             </div>
             {% if t.hero.personaTags %}
             <div class="persona-tags" style="margin-top:0.75rem;">{% for tag in t.hero.personaTags %}<span class="persona-tag {{ tag.class }}">{{ tag.text }}</span>{% endfor %}</div>
@@ -511,13 +517,33 @@ extraCss:
                             </div>
                         </section>
 
-                        <section class="content-section" id="dm-videos" style="display:none;">
-                            <h2>Real-World Reviews &amp; Walkthroughs</h2>
-                            <p style="font-size:0.9rem;color:var(--text-light);">Practitioner walkthroughs and vendor demos.</p>
+                        {% if t.videos and t.videos.length %}
+                        <section class="content-section" id="dm-videos">
+                            <h2>Watch It in Action</h2>
+                            <p style="font-size:0.9rem;color:var(--text-light);">Official walkthroughs, practitioner demos, and comparison videos.</p>
                             <div class="dm-video-grid">
-                                <!-- Populate with real video embeds then remove style="display:none" from section -->
+                                {% for v in t.videos %}
+                                <div class="dm-video-card">
+                                    <div class="dm-video-embed">
+                                        <iframe
+                                            src="https://www.youtube.com/embed/{{ v.youtubeId }}?rel=0&modestbranding=1"
+                                            title="{{ v.title }}"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen
+                                            loading="lazy">
+                                        </iframe>
+                                    </div>
+                                    <div class="dm-video-meta">
+                                        <div class="dm-video-title">{{ v.title }}</div>
+                                        <div class="dm-video-channel">{{ v.channel }}</div>
+                                        {% if v.note %}<div class="dm-video-note">{{ v.note }}</div>{% endif %}
+                                    </div>
+                                </div>
+                                {% endfor %}
                             </div>
                         </section>
+                        {% endif %}
 
                         <section id="dm-alternatives" class="content-section">
                             <h2>Alternatives to {{ t.hero.breadcrumbName }}</h2>

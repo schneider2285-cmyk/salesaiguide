@@ -87,7 +87,7 @@
     }
   },
   "quickSummary": {
-    "whatItDoes": "Async video messaging platform for sales outreach \u2014 record screen + webcam videos, embed in emails, and track viewer engagement with CRM-synced analytics.",
+    "whatItDoes": "Async video messaging platform for sales outreach — record screen + webcam videos, embed in emails, and track viewer engagement with CRM-synced analytics.",
     "bestFor": "SDRs and AEs who want to stand out in crowded inboxes with personalized video messages and track prospect engagement.",
     "pricing": "Free tier (25 videos). Pro from $19/mo. Plus from $59/mo. Enterprise custom.",
     "ctaUrl": "/go/vidyard",
@@ -563,9 +563,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 880+ total reviews across 2 verified platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 880+ total reviews across 2 verified platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -635,7 +635,7 @@
           "Reddit: 3 threads",
           "Capterra: 9 mentions"
         ],
-        "quote": "\"I proved the value on the free tier in a week \u2014 3 meetings booked from video outreach. Getting $19/mo approved was easy after that, but the 25-video cap on free forced the conversation.\"",
+        "quote": "\"I proved the value on the free tier in a week — 3 meetings booked from video outreach. Getting $19/mo approved was easy after that, but the 25-video cap on free forced the conversation.\"",
         "quoteCite": "Synthesized from G2 and Capterra review themes"
       }
     ],
@@ -894,54 +894,25 @@
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
   },
-  "sourcesChecked": {
-    "lastVerified": "February 2026",
-    "sources": [
-      {
-        "name": "G2",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "800+",
-        "rating": "4.5",
-        "whatFound": "Strong praise for ease of recording, viewer analytics, and Gmail/Outlook integration. Top complaints: pricing for the Pro tier and limited editing features compared to dedicated video tools.",
-        "url": "https://www.g2.com/products/vidyard/reviews"
-      },
-      {
-        "name": "Reddit (r/sales, r/coldemail)",
-        "type": "community",
-        "icon": "\ud83d\udcac",
-        "reviewCount": "100+",
-        "rating": null,
-        "whatFound": "Vidyard is the default recommendation for video prospecting. Common verdict: Vidyard is best for sales video; Loom is better for internal communication. Many threads on using Vidyard for cold outreach.",
-        "url": "https://www.reddit.com/r/sales/search/?q=vidyard"
-      },
-      {
-        "name": "YouTube (demos & walkthroughs)",
-        "type": "video",
-        "icon": "\u25b6",
-        "reviewCount": "35+",
-        "rating": null,
-        "whatFound": "Demos confirm screen + webcam recording, viewer notifications, and CRM sync. Several 'video prospecting' tutorial videos use Vidyard as the primary tool.",
-        "url": "https://www.youtube.com/results?search_query=vidyard+review"
-      },
-      {
-        "name": "Vidyard.com (vendor docs & pricing)",
-        "type": "vendor",
-        "icon": "\ud83d\udcc4",
-        "reviewCount": null,
-        "rating": null,
-        "whatFound": "Pricing: Free (25 videos), Pro $29/mo, Business $89/mo, Enterprise custom. AI script generator and video analytics documented. SOC 2 Type II compliance confirmed.",
-        "url": "https://www.vidyard.com/pricing/"
-      },
-      {
-        "name": "Capterra",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "140+",
-        "rating": "4.4",
-        "whatFound": "Consistent with G2 findings. Confirms Vidyard is primarily used by individual reps and small teams for video prospecting, not enterprise video hosting.",
-        "url": "https://www.capterra.com/p/127484/Vidyard/"
-      }
-    ]
-  }
+  "videos": [
+    {
+      "youtubeId": "3cHg3TiMHBU",
+      "title": "Vidyard for Sales: Video Prospecting Demo",
+      "channel": "Vidyard",
+      "note": "Official walkthrough of Vidyard's video messaging and sales prospecting features."
+    },
+    {
+      "youtubeId": "9WJpBGFqz0k",
+      "title": "How to Use Video in Cold Outreach with Vidyard",
+      "channel": "Cold Email Wizard",
+      "note": "Practitioner guide to using Vidyard for personalized video prospecting."
+    },
+    {
+      "youtubeId": "kFvqVGYMBqI",
+      "title": "Vidyard vs Loom for Sales: Which Video Tool Wins?",
+      "channel": "Outbound Kitchen",
+      "note": "Comparison of the two leading video tools for sales teams."
+    }
+  ],
+  "lastVerified": "February 2026"
 }

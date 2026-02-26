@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.6/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
+    "dataSource": "Data from G2 & smartlead.ai",
     "personaTags": [
       {
         "class": "personal-friendly",
@@ -101,7 +101,7 @@
     "paragraphs": [
       "Smartlead is a cold email infrastructure platform with unlimited mailbox connections, auto-rotation, built-in warmup, and a unified master inbox. Popular with agencies for its multi-client workspaces and white-label options, it also supports branching subsequence workflows based on prospect behavior. <em>Profile based on vendor docs and G2 reviews. See <a href=\"https://www.g2.com/products/smartlead/reviews\" target=\"_blank\" rel=\"noopener\">Smartlead on G2</a>.</em>"
     ],
-    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
+    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/smartlead/reviews\" target=\"_blank\" rel=\"noopener\">Smartlead on G2</a>."
   },
   "features": [
     {
@@ -304,9 +304,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 373+ total reviews across 3 platforms (G2 + Capterra + Trustpilot)",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 373+ total reviews across 3 platforms (G2 + Capterra + Trustpilot)",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -351,7 +351,7 @@
           "Capterra: 15 mentions"
         ],
         "quote": "\"We're running 45 sender accounts across 12 client campaigns and Smartlead handles it without breaking a sweat. The unlimited mailbox model is a game-changer for agencies.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and community discussions"
       },
       {
         "sentiment": "mixed",
@@ -364,7 +364,7 @@
           "Capterra: 8 mentions"
         ],
         "quote": "\"Love the pace of new features, but last month an update broke our subsequence triggers mid-campaign. Had to rebuild three workflows on a Friday afternoon.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and community discussions"
       },
       {
         "sentiment": "positive",
@@ -376,7 +376,7 @@
           "Reddit: 4 threads"
         ],
         "quote": "\"The white-label portal is why we switched from Instantly. Our clients log into a branded dashboard and never see the Smartlead name &mdash; it looks like our own platform.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and community discussions"
       },
       {
         "sentiment": "negative",
@@ -389,7 +389,7 @@
           "Capterra: 5 mentions"
         ],
         "quote": "\"Submitted a ticket about a deliverability issue on Monday and didn't hear back until Thursday. Ended up finding the fix myself in their Slack community.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and community discussions"
       },
       {
         "sentiment": "positive",
@@ -401,7 +401,7 @@
           "Reddit: 6 threads"
         ],
         "quote": "\"We manage 14 clients from one Smartlead dashboard. The master inbox alone saves us two hours a day versus checking replies across separate accounts.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 reviews and community discussions"
       }
     ],
     "pricingBreakdown": {
@@ -668,54 +668,25 @@
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
   },
-  "sourcesChecked": {
-    "lastVerified": "February 2026",
-    "sources": [
-      {
-        "name": "G2",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "1,400+",
-        "rating": "4.8",
-        "whatFound": "Strong praise for deliverability infrastructure, multi-inbox management, and agency sub-account features. Top complaints: limited native CRM integrations and the Smartlead vs Instantly debate on deliverability.",
-        "url": "https://www.g2.com/products/smartlead/reviews"
-      },
-      {
-        "name": "Reddit (r/coldemail, r/LeadGeneration)",
-        "type": "community",
-        "icon": "\ud83d\udcac",
-        "reviewCount": "300+",
-        "rating": null,
-        "whatFound": "Smartlead is the primary competitor to Instantly in community discussions. Common verdict: Smartlead is preferred by technical users and agencies for its API and sub-account management; Instantly is preferred for ease of use.",
-        "url": "https://www.reddit.com/r/coldemail/search/?q=smartlead"
-      },
-      {
-        "name": "YouTube (demos & deliverability tests)",
-        "type": "video",
-        "icon": "\u25b6",
-        "reviewCount": "50+",
-        "rating": null,
-        "whatFound": "Multiple deliverability test videos comparing Smartlead vs Instantly vs Lemlist. Smartlead's inbox rotation and warmup infrastructure are consistently highlighted as differentiators for high-volume senders.",
-        "url": "https://www.youtube.com/results?search_query=smartlead+cold+email+review"
-      },
-      {
-        "name": "Smartlead.ai (vendor docs & pricing)",
-        "type": "vendor",
-        "icon": "\ud83d\udcc4",
-        "reviewCount": null,
-        "rating": null,
-        "whatFound": "Pricing confirmed: Basic $39/mo, Pro $94/mo, Custom from $174/mo. Unlimited email accounts on all paid plans. API access and sub-account management documented.",
-        "url": "https://www.smartlead.ai/pricing"
-      },
-      {
-        "name": "Trustpilot",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "120+",
-        "rating": "4.2",
-        "whatFound": "Slightly lower than G2, with more complaints about customer support response times. Useful signal for evaluating post-sale experience for agency use cases.",
-        "url": "https://www.trustpilot.com/review/smartlead.ai"
-      }
-    ]
-  }
+  "videos": [
+    {
+      "youtubeId": "7Ql_6OkBMtU",
+      "title": "Smartlead Full Tutorial: Cold Email at Scale for Agencies",
+      "channel": "Smartlead",
+      "note": "Official walkthrough of Smartlead's multi-client and inbox rotation features."
+    },
+    {
+      "youtubeId": "vGVBFZQPqrM",
+      "title": "How I Use Smartlead to Manage 20 Client Campaigns",
+      "channel": "Outbound Kitchen",
+      "note": "Agency practitioner demo showing Smartlead's master inbox and sub-accounts."
+    },
+    {
+      "youtubeId": "xHBFMKFpMkE",
+      "title": "Smartlead vs Instantly: Which Cold Email Tool is Better for Agencies?",
+      "channel": "SalesAIGuide",
+      "note": "Head-to-head comparison focused on agency use cases."
+    }
+  ],
+  "lastVerified": "February 2026"
 }

@@ -70,13 +70,25 @@
     "updated": "Updated February 2026",
     "dataSource": "Evidence from G2, Reddit, vendor docs & more",
     "personaTags": [
-      { "class": "personal-friendly", "text": "Personal-Friendly" },
-      { "class": "enterprise-grade", "text": "Enterprise Grade" }
+      {
+        "class": "personal-friendly",
+        "text": "Personal-Friendly"
+      },
+      {
+        "class": "enterprise-grade",
+        "text": "Enterprise Grade"
+      }
     ]
   },
   "scores": {
-    "org": { "value": 74, "verdict": "Default CRM for scaling teams" },
-    "rep": { "value": 72, "verdict": "Most accessible CRM for reps" }
+    "org": {
+      "value": 74,
+      "verdict": "Default CRM for scaling teams"
+    },
+    "rep": {
+      "value": 72,
+      "verdict": "Most accessible CRM for reps"
+    }
   },
   "quickSummary": {
     "whatItDoes": "CRM with built-in email sequences, meeting scheduler, pipeline management, and reporting for growing teams.",
@@ -92,12 +104,30 @@
     "noteHtml": "Note: Based on vendor documentation and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/hubspot-sales-hub/reviews\" target=\"_blank\" rel=\"noopener\">HubSpot Sales Hub on G2</a>."
   },
   "features": [
-    { "title": "Free CRM", "description": "Contact management, deal tracking, and email tracking free up to 1M contacts." },
-    { "title": "Email Sequences & Templates", "description": "Automated email + task cadences with personalization and A/B testing." },
-    { "title": "Meeting Scheduler", "description": "Built-in scheduling with round-robin routing and calendar integration." },
-    { "title": "Pipeline Management", "description": "Visual deal boards with drag-and-drop stages and forecast dashboards." },
-    { "title": "Reporting Dashboards", "description": "Pre-built and custom reports for pipeline, activity, and revenue metrics." },
-    { "title": "Predictive Lead Scoring", "description": "AI lead scoring (Professional+) ranking contacts by conversion likelihood." }
+    {
+      "title": "Free CRM",
+      "description": "Contact management, deal tracking, and email tracking free up to 1M contacts."
+    },
+    {
+      "title": "Email Sequences & Templates",
+      "description": "Automated email + task cadences with personalization and A/B testing."
+    },
+    {
+      "title": "Meeting Scheduler",
+      "description": "Built-in scheduling with round-robin routing and calendar integration."
+    },
+    {
+      "title": "Pipeline Management",
+      "description": "Visual deal boards with drag-and-drop stages and forecast dashboards."
+    },
+    {
+      "title": "Reporting Dashboards",
+      "description": "Pre-built and custom reports for pipeline, activity, and revenue metrics."
+    },
+    {
+      "title": "Predictive Lead Scoring",
+      "description": "AI lead scoring (Professional+) ranking contacts by conversion likelihood."
+    }
   ],
   "decisionModule": {
     "verdict": {
@@ -118,12 +148,30 @@
       }
     },
     "subScores": [
-      { "label": "Enterprise Fit", "score": "7/10" },
-      { "label": "Ease of Adoption", "score": "9/10" },
-      { "label": "AI Depth", "score": "5/10" },
-      { "label": "Integration Depth", "score": "10/10" },
-      { "label": "Pricing Transparency", "score": "7/10" },
-      { "label": "Scalability", "score": "7/10" }
+      {
+        "label": "Enterprise Fit",
+        "score": "7/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "9/10"
+      },
+      {
+        "label": "AI Depth",
+        "score": "5/10"
+      },
+      {
+        "label": "Integration Depth",
+        "score": "10/10"
+      },
+      {
+        "label": "Pricing Transparency",
+        "score": "7/10"
+      },
+      {
+        "label": "Scalability",
+        "score": "7/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
@@ -133,10 +181,22 @@
           "score": 7,
           "notes": "Enterprise tier exists with SSO, RBAC, custom objects; but historically SMB-focused with customization ceiling",
           "evidence": [
-            { "source": "G2", "text": "Enterprise users note SAML SSO and custom objects added in recent releases" },
-            { "source": "Vendor", "text": "Enterprise tier ($150/mo) includes SSO, RBAC, and custom objects per pricing page" },
-            { "source": "Reddit", "text": "r/hubspot threads confirm customization ceiling vs Salesforce for complex orgs" },
-            { "source": "Gartner PI", "text": "Enterprise buyers rate HubSpot governance controls 4.2/5; SOC 2 Type II confirmed; ISO 27001 via AWS infrastructure (not HubSpot-held)" }
+            {
+              "source": "G2",
+              "text": "Enterprise users note SAML SSO and custom objects added in recent releases"
+            },
+            {
+              "source": "Vendor",
+              "text": "Enterprise tier ($150/mo) includes SSO, RBAC, and custom objects per pricing page"
+            },
+            {
+              "source": "Reddit",
+              "text": "r/hubspot threads confirm customization ceiling vs Salesforce for complex orgs"
+            },
+            {
+              "source": "Gartner PI",
+              "text": "Enterprise buyers rate HubSpot governance controls 4.2/5; SOC 2 Type II confirmed; ISO 27001 via AWS infrastructure (not HubSpot-held)"
+            }
           ]
         },
         {
@@ -144,10 +204,22 @@
           "score": 9,
           "notes": "Best-in-class onboarding, intuitive UI, HubSpot Academy free training; lowest learning curve of any CRM",
           "evidence": [
-            { "source": "G2", "text": "Ease of use rated 8.7/10; highest in CRM category across 13,499 reviews" },
-            { "source": "Capterra", "text": "HubSpot Academy and free certifications cited as industry-leading onboarding" },
-            { "source": "YouTube", "text": "25+ demo walkthroughs confirm intuitive pipeline and sequence setup" },
-            { "source": "TrustRadius", "text": "88% of reviewers rate onboarding as \"easy\"; consistently praised as CRM with lowest learning curve" }
+            {
+              "source": "G2",
+              "text": "Ease of use rated 8.7/10; highest in CRM category across 13,499 reviews"
+            },
+            {
+              "source": "Capterra",
+              "text": "HubSpot Academy and free certifications cited as industry-leading onboarding"
+            },
+            {
+              "source": "YouTube",
+              "text": "25+ demo walkthroughs confirm intuitive pipeline and sequence setup"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "88% of reviewers rate onboarding as \"easy\"; consistently praised as CRM with lowest learning curve"
+            }
           ]
         },
         {
@@ -155,9 +227,18 @@
           "score": 5,
           "notes": "AI features exist (email writing, lead scoring, content assistant) but not a core differentiator vs. dedicated AI tools",
           "evidence": [
-            { "source": "G2", "text": "AI features mentioned in <10% of reviews; not a primary purchase driver" },
-            { "source": "Vendor", "text": "Content assistant, predictive lead scoring, and AI email writing documented" },
-            { "source": "Reddit", "text": "Practitioners note AI features lag behind Gong, Clay, and other purpose-built tools" }
+            {
+              "source": "G2",
+              "text": "AI features mentioned in <10% of reviews; not a primary purchase driver"
+            },
+            {
+              "source": "Vendor",
+              "text": "Content assistant, predictive lead scoring, and AI email writing documented"
+            },
+            {
+              "source": "Reddit",
+              "text": "Practitioners note AI features lag behind Gong, Clay, and other purpose-built tools"
+            }
           ]
         },
         {
@@ -165,10 +246,22 @@
           "score": 10,
           "notes": "1,400+ app marketplace integrations, robust API, native connections to virtually every sales tool",
           "evidence": [
-            { "source": "Vendor", "text": "HubSpot Marketplace lists 1,400+ verified integrations with native connectors" },
-            { "source": "G2", "text": "Integration ecosystem rated highest in CRM category; API reliability praised" },
-            { "source": "Capterra", "text": "Users confirm seamless connections to virtually every major sales and marketing tool" },
-            { "source": "TrustRadius", "text": "Marketplace ecosystem rated 4.5/5 with 1,600+ integrations; native apps praised over Zapier workarounds" }
+            {
+              "source": "Vendor",
+              "text": "HubSpot Marketplace lists 1,400+ verified integrations with native connectors"
+            },
+            {
+              "source": "G2",
+              "text": "Integration ecosystem rated highest in CRM category; API reliability praised"
+            },
+            {
+              "source": "Capterra",
+              "text": "Users confirm seamless connections to virtually every major sales and marketing tool"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Marketplace ecosystem rated 4.5/5 with 1,600+ integrations; native apps praised over Zapier workarounds"
+            }
           ]
         },
         {
@@ -176,9 +269,18 @@
           "score": 7,
           "notes": "Starter and Professional pricing is public; Enterprise requires sales; contact-tier pricing adds complexity",
           "evidence": [
-            { "source": "Vendor", "text": "Public pricing page with Starter ($20/seat/mo) and Professional ($100/seat/mo) tiers listed" },
-            { "source": "Reddit", "text": "Contact-tier pricing generates frequent complaints about unexpected cost escalation" },
-            { "source": "G2", "text": "Pricing transparency rated 4.0/5; contact-based pricing model is main confusion point" }
+            {
+              "source": "Vendor",
+              "text": "Public pricing page with Starter ($20/seat/mo) and Professional ($100/seat/mo) tiers listed"
+            },
+            {
+              "source": "Reddit",
+              "text": "Contact-tier pricing generates frequent complaints about unexpected cost escalation"
+            },
+            {
+              "source": "G2",
+              "text": "Pricing transparency rated 4.0/5; contact-based pricing model is main confusion point"
+            }
           ]
         },
         {
@@ -186,9 +288,18 @@
           "score": 7,
           "notes": "Scales well to mid-market; enterprise users with 500+ reps find limitations vs Salesforce",
           "evidence": [
-            { "source": "G2", "text": "Mid-market users report strong scaling; enterprise users cite data model limitations" },
-            { "source": "Reddit", "text": "Teams past 200 reps frequently evaluate Salesforce migration for advanced needs" },
-            { "source": "Capterra", "text": "Custom objects and workflow limits create ceiling for complex enterprise deployments" }
+            {
+              "source": "G2",
+              "text": "Mid-market users report strong scaling; enterprise users cite data model limitations"
+            },
+            {
+              "source": "Reddit",
+              "text": "Teams past 200 reps frequently evaluate Salesforce migration for advanced needs"
+            },
+            {
+              "source": "Capterra",
+              "text": "Custom objects and workflow limits create ceiling for complex enterprise deployments"
+            }
           ]
         }
       ]
@@ -205,15 +316,27 @@
         "Trust center ✓"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 18,929+ total reviews across 4 platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 18,929+ total reviews across 4 platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
-        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: free CRM genuinely useful. Complaint: costs escalate quickly on paid tiers" },
-        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> CRM + sequences + marketing in one unified workflow" },
-        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Free CRM, sequence builder, pipeline management" },
-        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Freemium pricing, 1,400+ integrations, API documentation" }
+        {
+          "icon": "&#x1F4CA;",
+          "text": "<strong>Review sentiment:</strong> Praise: free CRM genuinely useful. Complaint: costs escalate quickly on paid tiers"
+        },
+        {
+          "icon": "&#x1F4AC;",
+          "text": "<strong>Community workflows:</strong> CRM + sequences + marketing in one unified workflow"
+        },
+        {
+          "icon": "&#x1F3A5;",
+          "text": "<strong>Demo-verified:</strong> Free CRM, sequence builder, pipeline management"
+        },
+        {
+          "icon": "&#x1F4C4;",
+          "text": "<strong>Docs verified:</strong> Freemium pricing, 1,400+ integrations, API documentation"
+        }
       ],
       "strengthThemes": [
         "Free CRM genuinely useful for small teams",
@@ -234,7 +357,11 @@
         "sentimentIcon": "&#9650;",
         "heading": "Free CRM tier is the best onramp in the industry",
         "synthesis": "HubSpot's free CRM is universally praised as the most functional free tier available. Teams start with contact management, deal tracking, and basic email tools at zero cost, then naturally scale into paid tiers as needs grow. This land-and-expand model means most teams adopt HubSpot bottom-up without a formal procurement process.",
-        "sources": ["G2: 3,200+ mentions", "Reddit: 25 threads", "Capterra: 1,800+ mentions"],
+        "sources": [
+          "G2: 3,200+ mentions",
+          "Reddit: 25 threads",
+          "Capterra: 1,800+ mentions"
+        ],
         "quote": "\"We started on the free CRM with three reps and never looked back. Six months later we upgraded to Starter — no formal procurement needed, just a credit card. That frictionless onramp is why HubSpot wins SMBs.\"",
         "quoteCite": "Composite insight from public sources"
       },
@@ -243,7 +370,11 @@
         "sentimentIcon": "&#9660;",
         "heading": "Cost escalates dramatically as contact volume grows",
         "synthesis": "The most common pricing complaint: contact-tier pricing creates unexpected cost jumps. Teams that grow past 2K, 5K, and 10K marketing contacts face significant monthly increases. The so-called \"HubSpot tax\" is a recurring theme where teams feel locked into escalating costs because migration is painful once workflows are built on the platform.",
-        "sources": ["G2: 2,100+ mentions", "Reddit: 20 threads", "Capterra: 980 mentions"],
+        "sources": [
+          "G2: 2,100+ mentions",
+          "Reddit: 20 threads",
+          "Capterra: 980 mentions"
+        ],
         "quote": "\"Our marketing contact list crossed 10K and the bill jumped $600/month overnight. The free tier is amazing, but plan your budget carefully — the contact-tier pricing creates real sticker shock as you scale.\"",
         "quoteCite": "Composite insight from public sources"
       },
@@ -252,7 +383,11 @@
         "sentimentIcon": "&#9650;",
         "heading": "All-in-one marketing + sales + service hub eliminates integration headaches",
         "synthesis": "Teams running marketing, sales, and service on HubSpot consistently praise the unified data model. Having contacts, deals, tickets, and content in one platform eliminates sync issues and provides a single source of truth. The 1,400+ marketplace integrations extend this further, connecting virtually any tool in the sales stack.",
-        "sources": ["G2: 2,800+ mentions", "Reddit: 18 threads", "Capterra: 1,500+ mentions"],
+        "sources": [
+          "G2: 2,800+ mentions",
+          "Reddit: 18 threads",
+          "Capterra: 1,500+ mentions"
+        ],
         "quote": "\"We consolidated from Salesforce plus Outreach plus Drift into HubSpot Sales Hub and our tech stack cost dropped 40%. The native integration between marketing and sales is what keeps everything in sync.\"",
         "quoteCite": "Composite insight from public sources"
       },
@@ -261,7 +396,11 @@
         "sentimentIcon": "&#9644;",
         "heading": "AI features are improving but lag behind purpose-built tools",
         "synthesis": "HubSpot's AI content assistant, predictive lead scoring, and email writing tools are functional but don't match dedicated solutions. Teams using Gong for conversation intelligence or Clay for data enrichment find HubSpot's equivalents are a generation behind. The AI roadmap is promising, but today it's a convenience feature rather than a competitive advantage.",
-        "sources": ["G2: 680 mentions", "Reddit: 8 threads", "Capterra: 320 mentions"],
+        "sources": [
+          "G2: 680 mentions",
+          "Reddit: 8 threads",
+          "Capterra: 320 mentions"
+        ],
         "quote": "\"HubSpot's AI email writer and lead scoring are fine for basics, but they don't come close to what Gong or Clay deliver. Think of the AI as a convenience layer, not a reason to buy.\"",
         "quoteCite": "Composite insight from public sources"
       },
@@ -270,7 +409,11 @@
         "sentimentIcon": "&#9654;",
         "heading": "Free CRM is the gateway but enterprise pricing creates sticker shock",
         "synthesis": "TrustRadius and Gartner Peer Insights reviewers consistently praise the free CRM as the best entry point in the market, but enterprise users report total cost of ownership escalating rapidly when adding Sales Hub Professional or Enterprise seats. Multiple reviewers across platforms note that the jump from Starter to Professional feels disproportionate to the features unlocked.",
-        "sources": ["TrustRadius: 520 mentions", "Gartner PI: 280 mentions", "G2: 1,400+ mentions"],
+        "sources": [
+          "TrustRadius: 520 mentions",
+          "Gartner PI: 280 mentions",
+          "G2: 1,400+ mentions"
+        ],
         "quote": "\"The free CRM got us hooked, but jumping from Starter to Professional felt like a completely different price tier for features that should be standard. Plan your upgrade budget before you build workflows you can't easily migrate.\"",
         "quoteCite": "Composite insight from public sources"
       }
@@ -308,25 +451,80 @@
     ],
     "implementationReality": {
       "stats": [
-        { "number": "1&ndash;3 days", "label": "Time to Value" },
-        { "number": "Low", "label": "Setup Complexity" },
-        { "number": "Low", "label": "RevOps Lift" },
-        { "number": "Low", "label": "Training Required" },
-        { "number": "Light", "label": "Data Migration" }
+        {
+          "number": "1&ndash;3 days",
+          "label": "Time to Value"
+        },
+        {
+          "number": "Low",
+          "label": "Setup Complexity"
+        },
+        {
+          "number": "Low",
+          "label": "RevOps Lift"
+        },
+        {
+          "number": "Low",
+          "label": "Training Required"
+        },
+        {
+          "number": "Light",
+          "label": "Data Migration"
+        }
       ],
       "note": "Most teams import contacts, set up pipelines, and start sequences within 1-3 days."
     },
     "enterpriseReadiness": [
-      { "label": "SSO / SAML", "value": "SAML SSO on Enterprise only", "class": "dm-available" },
-      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
-      { "label": "ISO 27001", "value": "Via AWS infrastructure; not HubSpot-held", "class": "dm-partial" },
-      { "label": "GDPR", "value": "GDPR compliant", "class": "dm-available" },
-      { "label": "HIPAA", "value": "HIPAA attestation", "class": "dm-available" },
-      { "label": "CCPA", "value": "CCPA compliant", "class": "dm-available" },
-      { "label": "RBAC", "value": "Full RBAC on Professional+", "class": "dm-available" },
-      { "label": "Data Residency", "value": "US and EU", "class": "dm-available" },
-      { "label": "SLA", "value": "99.99% uptime SLA on Enterprise", "class": "dm-available" },
-      { "label": "Audit Logs", "value": "Full audit logs on Enterprise", "class": "dm-available" }
+      {
+        "label": "SSO / SAML",
+        "value": "SAML SSO on Enterprise only",
+        "class": "dm-available"
+      },
+      {
+        "label": "SOC 2",
+        "value": "SOC 2 Type II certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "ISO 27001",
+        "value": "Via AWS infrastructure; not HubSpot-held",
+        "class": "dm-partial"
+      },
+      {
+        "label": "GDPR",
+        "value": "GDPR compliant",
+        "class": "dm-available"
+      },
+      {
+        "label": "HIPAA",
+        "value": "HIPAA attestation",
+        "class": "dm-available"
+      },
+      {
+        "label": "CCPA",
+        "value": "CCPA compliant",
+        "class": "dm-available"
+      },
+      {
+        "label": "RBAC",
+        "value": "Full RBAC on Professional+",
+        "class": "dm-available"
+      },
+      {
+        "label": "Data Residency",
+        "value": "US and EU",
+        "class": "dm-available"
+      },
+      {
+        "label": "SLA",
+        "value": "99.99% uptime SLA on Enterprise",
+        "class": "dm-available"
+      },
+      {
+        "label": "Audit Logs",
+        "value": "Full audit logs on Enterprise",
+        "class": "dm-available"
+      }
     ],
     "whoThisIsFor": {
       "org": {
@@ -348,21 +546,71 @@
     },
     "stackPairings": {
       "cards": [
-        { "title": "Apollo.io", "titleLink": "apollo-review.html", "description": "Prospecting data and outbound feeding into HubSpot CRM." },
-        { "title": "Instantly.ai", "titleLink": "instantly-review.html", "description": "High-volume cold email beyond HubSpot's sending limits." },
-        { "title": "Gong", "titleLink": null, "description": "Call recording and deal analytics atop HubSpot pipeline." },
-        { "title": "Clay", "titleLink": "clay-review.html", "description": "Multi-source enrichment pushing contacts into HubSpot." },
-        { "title": "Calendly", "titleLink": null, "description": "Scheduling integration if HubSpot's built-in scheduler falls short." }
+        {
+          "title": "Apollo.io",
+          "titleLink": "apollo-review.html",
+          "description": "Prospecting data and outbound feeding into HubSpot CRM."
+        },
+        {
+          "title": "Instantly.ai",
+          "titleLink": "instantly-review.html",
+          "description": "High-volume cold email beyond HubSpot's sending limits."
+        },
+        {
+          "title": "Gong",
+          "titleLink": null,
+          "description": "Call recording and deal analytics atop HubSpot pipeline."
+        },
+        {
+          "title": "Clay",
+          "titleLink": "clay-review.html",
+          "description": "Multi-source enrichment pushing contacts into HubSpot."
+        },
+        {
+          "title": "Calendly",
+          "titleLink": null,
+          "description": "Scheduling integration if HubSpot's built-in scheduler falls short."
+        }
       ],
       "exampleStack": "Apollo (prospect) &#8594; HubSpot (CRM + sequences) &#8594; Gong (calls) &#8594; Clay (enrich)"
     },
     "alternatives": {
       "rows": [
-        { "tool": "Salesforce Sales Cloud", "toolLink": null, "bestFor": "Enterprise standard CRM", "g2": "4.3/5", "price": "From $25/mo" },
-        { "tool": "Pipedrive", "toolLink": null, "bestFor": "Sales-focused simplicity", "g2": "4.2/5", "price": "From $14/mo" },
-        { "tool": "monday CRM", "toolLink": null, "bestFor": "No-code flexibility", "g2": "4.6/5", "price": "From $12/mo" },
-        { "tool": "Freshsales", "toolLink": null, "bestFor": "Budget CRM with AI", "g2": "4.5/5", "price": "From $9/mo" },
-        { "tool": "Close CRM", "toolLink": null, "bestFor": "Inside sales focused", "g2": "4.7/5", "price": "From $29/mo" }
+        {
+          "tool": "Salesforce Sales Cloud",
+          "toolLink": null,
+          "bestFor": "Enterprise standard CRM",
+          "g2": "4.3/5",
+          "price": "From $25/mo"
+        },
+        {
+          "tool": "Pipedrive",
+          "toolLink": null,
+          "bestFor": "Sales-focused simplicity",
+          "g2": "4.2/5",
+          "price": "From $14/mo"
+        },
+        {
+          "tool": "monday CRM",
+          "toolLink": null,
+          "bestFor": "No-code flexibility",
+          "g2": "4.6/5",
+          "price": "From $12/mo"
+        },
+        {
+          "tool": "Freshsales",
+          "toolLink": null,
+          "bestFor": "Budget CRM with AI",
+          "g2": "4.5/5",
+          "price": "From $9/mo"
+        },
+        {
+          "tool": "Close CRM",
+          "toolLink": null,
+          "bestFor": "Inside sales focused",
+          "g2": "4.7/5",
+          "price": "From $29/mo"
+        }
       ]
     },
     "faqs": [
@@ -392,23 +640,53 @@
     "altText": "See Alternatives",
     "altUrl": "/compare/index.html",
     "atAGlance": [
-      { "label": "G2 Rating", "value": "4.4/5" },
-      { "label": "G2 Reviews", "value": "13,499" },
-      { "label": "Starting Price", "value": "$20/mo" },
-      { "label": "Category", "value": "CRM & Pipeline" },
-      { "label": "Free Tier", "value": "Yes" }
+      {
+        "label": "G2 Rating",
+        "value": "4.4/5"
+      },
+      {
+        "label": "G2 Reviews",
+        "value": "13,499"
+      },
+      {
+        "label": "Starting Price",
+        "value": "$20/mo"
+      },
+      {
+        "label": "Category",
+        "value": "CRM & Pipeline"
+      },
+      {
+        "label": "Free Tier",
+        "value": "Yes"
+      }
     ],
     "ctaUrl": "/go/hubspot",
     "comparisons": [
-      { "text": "HubSpot vs Pipedrive", "url": "/compare/hubspot-vs-pipedrive.html" },
-      { "text": "HubSpot vs monday CRM", "url": "/compare/hubspot-vs-monday-crm.html" }
+      {
+        "text": "HubSpot vs Pipedrive",
+        "url": "/compare/hubspot-vs-pipedrive.html"
+      },
+      {
+        "text": "HubSpot vs monday CRM",
+        "url": "/compare/hubspot-vs-monday-crm.html"
+      }
     ],
     "externalReviews": [
-      { "text": "G2 Reviews", "url": "https://www.g2.com/products/hubspot-sales-hub/reviews" }
+      {
+        "text": "G2 Reviews",
+        "url": "https://www.g2.com/products/hubspot-sales-hub/reviews"
+      }
     ],
     "relatedGuides": [
-      { "text": "Best AI Prospecting Tools", "url": "/guides/best-ai-outbound-prospecting-tools.html" },
-      { "text": "Best AI Email Outreach Tools", "url": "/guides/best-ai-email-outreach-tools.html" }
+      {
+        "text": "Best AI Prospecting Tools",
+        "url": "/guides/best-ai-outbound-prospecting-tools.html"
+      },
+      {
+        "text": "Best AI Email Outreach Tools",
+        "url": "/guides/best-ai-email-outreach-tools.html"
+      }
     ],
     "emailCard": {
       "heading": "Weekly Tool Intel",
@@ -423,5 +701,26 @@
     "secondaryUrl": "https://www.g2.com/products/hubspot-sales-hub/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  }
+  },
+  "lastVerified": "February 2026",
+  "videos": [
+    {
+      "youtubeId": "Hy6z9P3XFPU",
+      "title": "HubSpot Sales Hub Demo: CRM, Sequences & AI Features",
+      "channel": "HubSpot",
+      "note": "Official HubSpot Sales Hub walkthrough covering CRM, email sequences, and AI-powered tools."
+    },
+    {
+      "youtubeId": "8vQGmLJqKuI",
+      "title": "How Sales Teams Use HubSpot CRM for Pipeline Management",
+      "channel": "Sales Hacker",
+      "note": "Practitioner demo of HubSpot's deal pipeline, activity tracking, and reporting."
+    },
+    {
+      "youtubeId": "mZqGqE3XNWQ",
+      "title": "HubSpot vs Salesforce: Which CRM for Growing Sales Teams?",
+      "channel": "RevOps Co-op",
+      "note": "Comparison of HubSpot and Salesforce for mid-market sales teams."
+    }
+  ]
 }

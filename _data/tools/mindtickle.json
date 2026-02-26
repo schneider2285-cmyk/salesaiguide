@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.7/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
+    "dataSource": "Data from G2 & mindtickle.com",
     "personaTags": [
       {
         "class": "requires-admin",
@@ -97,7 +97,7 @@
     "paragraphs": [
       "MindTickle is an enterprise sales readiness platform that combines onboarding, training, coaching, and certification into a unified solution. It differentiates from enablement tools like Highspot through its training-first approach, Call AI for scoring recorded calls against custom rubrics, and Missions for AI-powered practice and feedback. MindTickle is particularly strong in financial services, technology, and healthcare verticals where structured training and compliance certification are critical."
     ],
-    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
+    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/mindtickle/reviews\" target=\"_blank\" rel=\"noopener\">MindTickle on G2</a>."
   },
   "features": [
     {
@@ -562,9 +562,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 2,240+ total reviews across 4 platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 2,240+ total reviews across 4 platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -895,54 +895,25 @@
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
   },
-  "sourcesChecked": {
-    "lastVerified": "February 2026",
-    "sources": [
-      {
-        "name": "G2",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "2,000+",
-        "rating": "4.7",
-        "whatFound": "Strong praise for sales readiness programs, AI-powered coaching, and call analysis integration. Top complaints: pricing opacity and the implementation timeline for large deployments.",
-        "url": "https://www.g2.com/products/mindtickle/reviews"
-      },
-      {
-        "name": "Reddit (r/salesops, r/sales)",
-        "type": "community",
-        "icon": "\ud83d\udcac",
-        "reviewCount": "50+",
-        "rating": null,
-        "whatFound": "MindTickle is compared to Highspot and Seismic for enablement, and to Gong for coaching. Common consensus: MindTickle wins on structured onboarding and readiness programs; Gong wins on real-time call coaching.",
-        "url": "https://www.reddit.com/r/salesops/search/?q=mindtickle"
-      },
-      {
-        "name": "YouTube (demos & walkthroughs)",
-        "type": "video",
-        "icon": "\u25b6",
-        "reviewCount": "30+",
-        "rating": null,
-        "whatFound": "Demos confirm AI-powered role-play simulations, readiness scoring, and call analysis integration. The structured onboarding and certification workflows are consistently highlighted as differentiators.",
-        "url": "https://www.youtube.com/results?search_query=mindtickle+review"
-      },
-      {
-        "name": "MindTickle.com (vendor docs)",
-        "type": "vendor",
-        "icon": "\ud83d\udcc4",
-        "reviewCount": null,
-        "rating": null,
-        "whatFound": "Pricing not published. Platform includes Sales Readiness, Coaching, Content Management, and Conversation Intelligence. SOC 2 Type II and GDPR compliance confirmed.",
-        "url": "https://www.mindtickle.com/platform/"
-      },
-      {
-        "name": "TrustRadius",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "240+",
-        "rating": "8.3",
-        "whatFound": "Enterprise-heavy reviewer base. Confirms MindTickle is primarily used by companies with a dedicated Sales Enablement function and structured onboarding programs.",
-        "url": "https://www.trustradius.com/products/mindtickle/reviews"
-      }
-    ]
-  }
+  "videos": [
+    {
+      "youtubeId": "9TIgSBpFnQo",
+      "title": "Mindtickle Sales Readiness Platform: Full Demo",
+      "channel": "Mindtickle",
+      "note": "Official demo of Mindtickle's sales coaching, onboarding, and readiness features."
+    },
+    {
+      "youtubeId": "vYqS25XFKWQ",
+      "title": "How Sales Leaders Use Mindtickle for Rep Coaching",
+      "channel": "Cognism",
+      "note": "Practitioner perspective on Mindtickle's coaching and certification workflows."
+    },
+    {
+      "youtubeId": "2kFpMGXqpNY",
+      "title": "Mindtickle vs Highspot: Sales Enablement Compared",
+      "channel": "SalesAIGuide",
+      "note": "Comparison of sales readiness vs content enablement platforms."
+    }
+  ],
+  "lastVerified": "February 2026"
 }

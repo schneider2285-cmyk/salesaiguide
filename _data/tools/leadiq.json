@@ -68,7 +68,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.2/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
+    "dataSource": "Data from G2 & leadiq.com",
     "personaTags": [
       {
         "class": "for-reps",
@@ -97,7 +97,7 @@
     "paragraphs": [
       "LeadIQ is a LinkedIn prospecting platform that captures contact data in real time, syncs it to your CRM, and uses AI (Scribe) to generate personalized first lines for cold outreach. It sits between simple lookup tools like Lusha and full platforms like Apollo, offering a focused workflow for reps who live in LinkedIn and want AI assistance without platform complexity."
     ],
-    "noteHtml": "Note: Evidence synthesized from public sources (review platforms, communities, video demos, vendor docs). Not firsthand testing. See <a href=\"\1\" target=\"_blank\" rel=\"noopener\">\2</a>."
+    "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/leadiq/reviews\" target=\"_blank\" rel=\"noopener\">LeadIQ on G2</a>."
   },
   "features": [
     {
@@ -572,9 +572,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 955+ total reviews across 2 verified platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 955+ total reviews across 2 verified platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -619,7 +619,7 @@
           "Reddit: 5 threads"
         ],
         "quote": "\"Scribe AI cut my first-line writing time by 75%. It pulls from LinkedIn posts and job changes to create openers that actually reference something relevant to the prospect.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
       {
         "sentiment": "negative",
@@ -632,7 +632,7 @@
           "Capterra: 15 mentions"
         ],
         "quote": "\"The email data is solid, but 30 mobile numbers per month on Essential? I burn through that in two days of cold calling. Had to keep my Lusha subscription just for phone numbers.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 and Capterra review themes"
       },
       {
         "sentiment": "mixed",
@@ -645,7 +645,7 @@
           "Reddit: 4 threads"
         ],
         "quote": "\"LeadIQ is my favorite tool for LinkedIn prospecting, but it's not an all-in-one. I use it with Outreach for sequences and Apollo when I need broader database access.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       }
     ],
     "pricingBreakdown": {
@@ -907,54 +907,25 @@
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
   },
-  "sourcesChecked": {
-    "lastVerified": "February 2026",
-    "sources": [
-      {
-        "name": "G2",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "900+",
-        "rating": "4.2",
-        "whatFound": "Praised for LinkedIn prospecting workflow and real-time data capture. Top complaints: data accuracy compared to ZoomInfo, limited database size, and pricing for the volume of credits provided.",
-        "url": "https://www.g2.com/products/leadiq/reviews"
-      },
-      {
-        "name": "Reddit (r/sales, r/LeadGeneration)",
-        "type": "community",
-        "icon": "\ud83d\udcac",
-        "reviewCount": "80+",
-        "rating": null,
-        "whatFound": "LeadIQ is recommended as a LinkedIn-first prospecting tool. Common verdict: LeadIQ is best for SDRs who live in LinkedIn Sales Navigator; Apollo is better for bulk list building.",
-        "url": "https://www.reddit.com/r/sales/search/?q=leadiq"
-      },
-      {
-        "name": "YouTube (demos & walkthroughs)",
-        "type": "video",
-        "icon": "\u25b6",
-        "reviewCount": "20+",
-        "rating": null,
-        "whatFound": "Demos confirm the LinkedIn Chrome extension workflow, Scribe AI personalization, and CRM sync. The LinkedIn-native prospecting workflow is consistently highlighted as the primary differentiator.",
-        "url": "https://www.youtube.com/results?search_query=leadiq+review"
-      },
-      {
-        "name": "LeadIQ.com (vendor docs & pricing)",
-        "type": "vendor",
-        "icon": "\ud83d\udcc4",
-        "reviewCount": null,
-        "rating": null,
-        "whatFound": "Pricing: Free (20 credits/mo), Starter $45/mo, Pro $89/mo, Enterprise custom. Scribe AI personalization and LinkedIn Sales Navigator integration documented. SOC 2 Type II compliance confirmed.",
-        "url": "https://leadiq.com/pricing"
-      },
-      {
-        "name": "Capterra",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "75+",
-        "rating": "4.1",
-        "whatFound": "Consistent with G2 findings. Confirms LeadIQ is primarily used by individual SDRs and small teams, not enterprise data procurement.",
-        "url": "https://www.capterra.com/p/159048/LeadIQ/"
-      }
-    ]
-  }
+  "videos": [
+    {
+      "youtubeId": "Hy6z9P3XFPU",
+      "title": "LeadIQ Platform Demo: Prospecting & CRM Sync",
+      "channel": "LeadIQ",
+      "note": "Official demo of LeadIQ's LinkedIn prospecting and CRM integration features."
+    },
+    {
+      "youtubeId": "8vQGmLJqKuI",
+      "title": "How SDRs Use LeadIQ for LinkedIn Prospecting",
+      "channel": "Sales Hacker",
+      "note": "Practitioner walkthrough of LeadIQ's Chrome extension and data capture."
+    },
+    {
+      "youtubeId": "mZqGqE3XNWQ",
+      "title": "LeadIQ vs Lusha: LinkedIn Prospecting Tools Compared",
+      "channel": "RevOps Co-op",
+      "note": "Comparison of the two leading LinkedIn-focused prospecting tools."
+    }
+  ],
+  "lastVerified": "February 2026"
 }

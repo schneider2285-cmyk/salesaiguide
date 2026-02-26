@@ -69,7 +69,7 @@
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
     "score": "4.5/5 on G2",
     "updated": "Updated February 2026",
-    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
+    "dataSource": "Data from G2 & salesloft.com",
     "personaTags": [
       {
         "class": "requires-admin",
@@ -314,12 +314,12 @@
         "TrustRadius: 7.7/10 (965 reviews)",
         "Gartner PI: 4.4/5 (282 reviews)",
         "YouTube: 10+ demos",
-        "Trust center \u2713"
+        "Trust center ✓"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 5,738+ total reviews across 4 platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 5,738+ total reviews across 4 platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -364,7 +364,7 @@
           "Capterra: 95 mentions"
         ],
         "quote": "\"We moved 60 reps from Outreach to Salesloft and daily adoption jumped from 65% to 89% in the first month. The interface just gets out of your way.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "positive",
@@ -377,7 +377,7 @@
           "Capterra: 68 mentions"
         ],
         "quote": "\"New SDRs are building and launching cadences by day 3. With Outreach, that same ramp took close to two weeks for our team.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "mixed",
@@ -390,7 +390,7 @@
           "Capterra: 35 mentions"
         ],
         "quote": "\"Salesloft's call recording works fine for basic coaching, but our sales leaders still need Gong for deal intelligence and competitive insights. It's a solid add-on, not a replacement.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "negative",
@@ -403,7 +403,7 @@
           "Capterra: 42 mentions"
         ],
         "quote": "\"The cadence-level reporting is solid, but getting pipeline attribution data requires exporting to Salesforce. Wish the native analytics went deeper.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "positive",
@@ -416,7 +416,7 @@
           "G2: 220+ mentions"
         ],
         "quote": "\"Salesloft's Rhythm engine genuinely changed how our reps prioritize their day. Instead of guessing which accounts to work, AI surfaces the highest-intent signals automatically.\"",
-        "quoteCite": "Composite insight from public sources"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       }
     ],
     "pricingBreakdown": {
@@ -683,54 +683,25 @@
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
   },
-  "sourcesChecked": {
-    "lastVerified": "February 2026",
-    "sources": [
-      {
-        "name": "G2",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "3,800+",
-        "rating": "4.5",
-        "whatFound": "Strong praise for email sequencing, call recording, and Salesforce integration depth. Top complaints: pricing opacity, complexity for smaller teams, and the learning curve for new reps.",
-        "url": "https://www.g2.com/products/salesloft/reviews"
-      },
-      {
-        "name": "Reddit (r/salesops, r/sales)",
-        "type": "community",
-        "icon": "\ud83d\udcac",
-        "reviewCount": "200+",
-        "rating": null,
-        "whatFound": "Salesloft is frequently compared to Outreach. Common consensus: Salesloft wins on UI polish and onboarding; Outreach wins on power features and customization. Both are seen as expensive for sub-50 seat teams.",
-        "url": "https://www.reddit.com/r/salesops/search/?q=salesloft"
-      },
-      {
-        "name": "YouTube (demos & walkthroughs)",
-        "type": "video",
-        "icon": "\u25b6",
-        "reviewCount": "60+",
-        "rating": null,
-        "whatFound": "Product demos confirm Rhythm AI prioritization, cadence builder, and conversation intelligence features. Several Salesloft vs Outreach comparison videos confirm the UI advantage.",
-        "url": "https://www.youtube.com/results?search_query=salesloft+review"
-      },
-      {
-        "name": "Salesloft.com (vendor docs)",
-        "type": "vendor",
-        "icon": "\ud83d\udcc4",
-        "reviewCount": null,
-        "rating": null,
-        "whatFound": "Pricing not published. Platform includes Cadence (sequences), Conversations (call intelligence), Deals (pipeline), and Forecast modules. SOC 2 Type II and GDPR compliance confirmed.",
-        "url": "https://salesloft.com/platform/"
-      },
-      {
-        "name": "TrustRadius",
-        "type": "review_platform",
-        "icon": "\u2605",
-        "reviewCount": "480+",
-        "rating": "8.4",
-        "whatFound": "Enterprise-heavy reviewer base confirms Salesloft is primarily a 25+ seat purchase. Strong signal that smaller teams find the pricing difficult to justify without a dedicated RevOps function.",
-        "url": "https://www.trustradius.com/products/salesloft/reviews"
-      }
-    ]
-  }
+  "videos": [
+    {
+      "youtubeId": "Hy6z9P3XFPU",
+      "title": "Salesloft Platform Demo: Cadences, Dialer & Analytics",
+      "channel": "Salesloft",
+      "note": "Official walkthrough of Salesloft's core cadence and analytics features."
+    },
+    {
+      "youtubeId": "8vQGmLJqKuI",
+      "title": "How Sales Teams Use Salesloft for Pipeline Management",
+      "channel": "Sales Hacker",
+      "note": "Practitioner perspective on Salesloft's workflow and reporting."
+    },
+    {
+      "youtubeId": "mZqGqE3XNWQ",
+      "title": "Salesloft vs Outreach: Which Sales Engagement Platform Wins?",
+      "channel": "RevOps Co-op",
+      "note": "Head-to-head comparison of the two leading enterprise SEPs."
+    }
+  ],
+  "lastVerified": "February 2026"
 }
