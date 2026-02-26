@@ -58,6 +58,11 @@
           }
         }
       ]
+    },
+    "aggregateRating": {
+      "ratingValue": "4.7",
+      "reviewCount": "6458",
+      "bestRating": "5"
     }
   },
   "hero": {
@@ -66,7 +71,7 @@
     "logoAlt": "Gong logo",
     "h1": "Gong: Revenue Intelligence & Conversation Analytics Platform",
     "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9733;",
-    "score": "4.8/5 on G2",
+    "score": "4.7/5 on G2 (6,458 reviews)",
     "updated": "Updated February 2026",
     "dataSource": "Data from G2 & gong.io",
     "personaTags": [

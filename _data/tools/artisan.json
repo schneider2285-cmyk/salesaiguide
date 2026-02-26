@@ -34,7 +34,24 @@
     "noteHtml": "Scores synthesized from public reviews across G2, Reddit, LinkedIn communities, and vendor documentation.",
     "lastVerified": "February 2026",
     "ctaUrl": "/go/artisan",
-    "ctaText": "Visit Artisan"
+    "ctaText": "Visit Artisan",
+    "breadcrumbName": "Artisan",
+    "h1": "Artisan Review 2026: Autonomous AI SDR Platform",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9734;&#9734;",
+    "score": "3.8/5 on G2 (19 reviews)",
+    "updated": "Updated February 2026",
+    "logoSrc": "https://logo.clearbit.com/artisan.co",
+    "logoAlt": "Artisan logo",
+    "personaTags": [
+      {
+        "text": "SDR",
+        "class": "tag-sdr"
+      },
+      {
+        "text": "Enterprise",
+        "class": "tag-enterprise"
+      }
+    ]
   },
   "scores": {
     "orgScore": 65,
