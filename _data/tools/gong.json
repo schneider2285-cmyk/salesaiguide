@@ -70,13 +70,27 @@
     "updated": "Updated February 2026",
     "dataSource": "Data from G2 & gong.io",
     "personaTags": [
-      { "class": "requires-admin", "text": "Requires Admin" },
-      { "class": "enterprise-grade", "text": "Enterprise Grade" }
-    ]
+      {
+        "class": "requires-admin",
+        "text": "Requires Admin"
+      },
+      {
+        "class": "enterprise-grade",
+        "text": "Enterprise Grade"
+      }
+    ],
+    "g2Rating": 4.7,
+    "g2Reviews": 6458
   },
   "scores": {
-    "org": { "value": 78, "verdict": "Best-in-class revenue intelligence" },
-    "rep": { "value": 63, "verdict": "Big Brother feel, team-only pricing" }
+    "org": {
+      "value": 78,
+      "verdict": "Best-in-class revenue intelligence"
+    },
+    "rep": {
+      "value": 63,
+      "verdict": "Big Brother feel, team-only pricing"
+    }
   },
   "quickSummary": {
     "whatItDoes": "Revenue intelligence platform that records, transcribes, and analyzes sales calls to surface deal insights, coaching opportunities, and forecast accuracy.",
@@ -92,12 +106,30 @@
     "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/gong/reviews\" target=\"_blank\" rel=\"noopener\">Gong on G2</a>."
   },
   "features": [
-    { "title": "AI Call Recording & Transcription", "description": "Records and transcribes Zoom, Teams, Meet calls with speaker ID." },
-    { "title": "Deal Intelligence & Risk Scoring", "description": "AI flags at-risk deals via engagement and sentiment tracking." },
-    { "title": "Sales Coaching with Scorecards", "description": "Call scorecards, snippet sharing, and team benchmarking." },
-    { "title": "Revenue Forecasting", "description": "AI forecasting from deal engagement, not CRM self-reports." },
-    { "title": "Market Intelligence", "description": "Competitor trends and objection patterns from call data." },
-    { "title": "CRM Integration (Auto-Logs Calls)", "description": "Bi-directional Salesforce/HubSpot sync with embedded insights." }
+    {
+      "title": "AI Call Recording & Transcription",
+      "description": "Records and transcribes Zoom, Teams, Meet calls with speaker ID."
+    },
+    {
+      "title": "Deal Intelligence & Risk Scoring",
+      "description": "AI flags at-risk deals via engagement and sentiment tracking."
+    },
+    {
+      "title": "Sales Coaching with Scorecards",
+      "description": "Call scorecards, snippet sharing, and team benchmarking."
+    },
+    {
+      "title": "Revenue Forecasting",
+      "description": "AI forecasting from deal engagement, not CRM self-reports."
+    },
+    {
+      "title": "Market Intelligence",
+      "description": "Competitor trends and objection patterns from call data."
+    },
+    {
+      "title": "CRM Integration (Auto-Logs Calls)",
+      "description": "Bi-directional Salesforce/HubSpot sync with embedded insights."
+    }
   ],
   "decisionModule": {
     "verdict": {
@@ -118,12 +150,30 @@
       }
     },
     "subScores": [
-      { "label": "Enterprise Fit", "score": "9/10" },
-      { "label": "Ease of Adoption", "score": "7/10" },
-      { "label": "AI Depth", "score": "10/10" },
-      { "label": "Integration Depth", "score": "9/10" },
-      { "label": "Pricing Transparency", "score": "2/10" },
-      { "label": "Scalability", "score": "9/10" }
+      {
+        "label": "Enterprise Fit",
+        "score": "9/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "7/10"
+      },
+      {
+        "label": "AI Depth",
+        "score": "10/10"
+      },
+      {
+        "label": "Integration Depth",
+        "score": "9/10"
+      },
+      {
+        "label": "Pricing Transparency",
+        "score": "2/10"
+      },
+      {
+        "label": "Scalability",
+        "score": "9/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
@@ -133,10 +183,22 @@
           "score": 9,
           "notes": "SSO, RBAC, SOC 2, enterprise-grade security",
           "evidence": [
-            { "source": "Gartner PI", "text": "Verified as leader in conversation intelligence with enterprise-grade compliance" },
-            { "source": "G2", "text": "Enterprise reviewers (1000+ employees) rate security and compliance 4.7/5" },
-            { "source": "Vendor", "text": "SOC 2 Type II, SAML SSO, full RBAC, and 99.9% uptime SLA documented" },
-            { "source": "Gartner PI", "text": "Enterprise buyers rate deployment support 4.5/5; SOC 2 + GDPR confirmed" }
+            {
+              "source": "Gartner PI",
+              "text": "Verified as leader in conversation intelligence with enterprise-grade compliance"
+            },
+            {
+              "source": "G2",
+              "text": "Enterprise reviewers (1000+ employees) rate security and compliance 4.7/5"
+            },
+            {
+              "source": "Vendor",
+              "text": "SOC 2 Type II, SAML SSO, full RBAC, and 99.9% uptime SLA documented"
+            },
+            {
+              "source": "Gartner PI",
+              "text": "Enterprise buyers rate deployment support 4.5/5; SOC 2 + GDPR confirmed"
+            }
           ]
         },
         {
@@ -144,20 +206,41 @@
           "score": 7,
           "notes": "Easy for reps, but full value requires manager/RevOps setup",
           "evidence": [
-            { "source": "G2", "text": "Initial recording setup rated easy; deal board and coaching configuration rated complex" },
-            { "source": "Reddit", "text": "r/sales threads report 2-4 month full enterprise rollout timelines" },
-            { "source": "Capterra", "text": "Users note reps adopt quickly but managers need dedicated training sessions" }
+            {
+              "source": "G2",
+              "text": "Initial recording setup rated easy; deal board and coaching configuration rated complex"
+            },
+            {
+              "source": "Reddit",
+              "text": "r/sales threads report 2-4 month full enterprise rollout timelines"
+            },
+            {
+              "source": "Capterra",
+              "text": "Users note reps adopt quickly but managers need dedicated training sessions"
+            }
           ]
         },
         {
           "dimension": "AI Depth",
           "score": 10,
-          "notes": "AI is the core product — real-time insights, deal prediction, topic tracking",
+          "notes": "AI is the core product \u2014 real-time insights, deal prediction, topic tracking",
           "evidence": [
-            { "source": "G2", "text": "AI capabilities rated 4.8/5; consistently cited as category-defining technology" },
-            { "source": "Gartner PI", "text": "Recognized for deepest AI-driven conversation analytics in the market" },
-            { "source": "YouTube", "text": "Demo walkthroughs showcase real-time topic detection, sentiment analysis, and deal scoring" },
-            { "source": "TrustRadius", "text": "92% of reviewers rate AI call analysis as \"excellent\" or \"very good\"" }
+            {
+              "source": "G2",
+              "text": "AI capabilities rated 4.8/5; consistently cited as category-defining technology"
+            },
+            {
+              "source": "Gartner PI",
+              "text": "Recognized for deepest AI-driven conversation analytics in the market"
+            },
+            {
+              "source": "YouTube",
+              "text": "Demo walkthroughs showcase real-time topic detection, sentiment analysis, and deal scoring"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "92% of reviewers rate AI call analysis as \"excellent\" or \"very good\""
+            }
           ]
         },
         {
@@ -165,9 +248,18 @@
           "score": 9,
           "notes": "50+ native integrations, Salesforce/HubSpot bi-directional, Zoom/Teams/Meet",
           "evidence": [
-            { "source": "Vendor", "text": "100+ integrations documented; deepest Salesforce integration in category" },
-            { "source": "G2", "text": "Integration depth rated 4.6/5 across enterprise reviewers" },
-            { "source": "Capterra", "text": "Users confirm seamless Zoom/Teams/Meet recording with no manual steps" }
+            {
+              "source": "Vendor",
+              "text": "100+ integrations documented; deepest Salesforce integration in category"
+            },
+            {
+              "source": "G2",
+              "text": "Integration depth rated 4.6/5 across enterprise reviewers"
+            },
+            {
+              "source": "Capterra",
+              "text": "Users confirm seamless Zoom/Teams/Meet recording with no manual steps"
+            }
           ]
         },
         {
@@ -175,9 +267,18 @@
           "score": 2,
           "notes": "No public pricing, requires sales call, custom quotes only",
           "evidence": [
-            { "source": "Vendor", "text": "Zero pricing information on website; \"Request Demo\" is only path to pricing" },
-            { "source": "Reddit", "text": "Users report $100-150/user/mo with annual commitments and $10K-30K implementation fees" },
-            { "source": "G2", "text": "Pricing transparency rated 2.1/5; lowest-scored dimension across all reviews" }
+            {
+              "source": "Vendor",
+              "text": "Zero pricing information on website; \"Request Demo\" is only path to pricing"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users report $100-150/user/mo with annual commitments and $10K-30K implementation fees"
+            },
+            {
+              "source": "G2",
+              "text": "Pricing transparency rated 2.1/5; lowest-scored dimension across all reviews"
+            }
           ]
         },
         {
@@ -185,10 +286,22 @@
           "score": 9,
           "notes": "Proven at 1000+ seat deployments, enterprise-grade infrastructure",
           "evidence": [
-            { "source": "Gartner PI", "text": "Verified deployments at Fortune 500 companies with 1000+ seats" },
-            { "source": "G2", "text": "Enterprise users report consistent performance at scale with no degradation" },
-            { "source": "Vendor", "text": "99.9% uptime SLA and enterprise infrastructure publicly documented" },
-            { "source": "Gartner PI", "text": "Teams of 500+ report strong performance and enterprise support SLAs" }
+            {
+              "source": "Gartner PI",
+              "text": "Verified deployments at Fortune 500 companies with 1000+ seats"
+            },
+            {
+              "source": "G2",
+              "text": "Enterprise users report consistent performance at scale with no degradation"
+            },
+            {
+              "source": "Vendor",
+              "text": "99.9% uptime SLA and enterprise infrastructure publicly documented"
+            },
+            {
+              "source": "Gartner PI",
+              "text": "Teams of 500+ report strong performance and enterprise support SLAs"
+            }
           ]
         }
       ]
@@ -210,10 +323,22 @@
         "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
-        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: call intelligence depth unmatched. Complaint: expensive, slow implementation" },
-        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> Deal boards + coaching scorecards, CRM sync automation" },
-        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Call recording UI, deal intelligence dashboard" },
-        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Custom pricing only, 100+ integrations, security certifications" }
+        {
+          "icon": "&#x1F4CA;",
+          "text": "<strong>Review sentiment:</strong> Praise: call intelligence depth unmatched. Complaint: expensive, slow implementation"
+        },
+        {
+          "icon": "&#x1F4AC;",
+          "text": "<strong>Community workflows:</strong> Deal boards + coaching scorecards, CRM sync automation"
+        },
+        {
+          "icon": "&#x1F3A5;",
+          "text": "<strong>Demo-verified:</strong> Call recording UI, deal intelligence dashboard"
+        },
+        {
+          "icon": "&#x1F4C4;",
+          "text": "<strong>Docs verified:</strong> Custom pricing only, 100+ integrations, security certifications"
+        }
       ],
       "strengthThemes": [
         "Call intelligence depth unmatched in category",
@@ -222,7 +347,7 @@
       ],
       "limitationThemes": [
         "Implementation takes 2-4 months for full value",
-        "Pricing opaque — typically $100+/user/mo",
+        "Pricing opaque \u2014 typically $100+/user/mo",
         "Heavy Salesforce dependency for full feature set"
       ],
       "disagreeNote": "&#9888;&#65039; Where sources disagree: Vendor positions as \"revenue intelligence\"; practitioners primarily value call recording + coaching. ROI hard to prove in first 6 months per community.",
@@ -234,8 +359,12 @@
         "sentimentIcon": "&#9650;",
         "heading": "Call recording and AI insights transform coaching",
         "synthesis": "Sales managers consistently cite Gong as the single most impactful coaching tool they've deployed. The ability to share specific call snippets, build scorecards, and benchmark rep performance against top performers drives measurable improvement. Managers report 20-30% reduction in new rep ramp time using call libraries and coaching workflows.",
-        "sources": ["G2: 2,400+ mentions", "Capterra: 210 mentions", "Reddit: 9 threads"],
-        "quote": "\"Gong cut our new hire ramp time nearly in half. Instead of ride-alongs, reps review our top closers' calls on day one — the coaching scorecards make feedback objective instead of anecdotal.\"",
+        "sources": [
+          "G2: 2,400+ mentions",
+          "Capterra: 210 mentions",
+          "Reddit: 9 threads"
+        ],
+        "quote": "\"Gong cut our new hire ramp time nearly in half. Instead of ride-alongs, reps review our top closers' calls on day one \u2014 the coaching scorecards make feedback objective instead of anecdotal.\"",
         "quoteCite": "Director of Sales Enablement, 150-person org [G2 Review, Jan 2026]"
       },
       {
@@ -243,8 +372,12 @@
         "sentimentIcon": "&#9660;",
         "heading": "Implementation takes 2-4 months for full enterprise rollout",
         "synthesis": "While basic call recording works immediately, realizing the full value of deal boards, coaching scorecards, and forecasting requires significant RevOps configuration. Enterprise teams report 2-4 months before the platform is fully operational, with implementation fees of $10K-30K often not disclosed during the initial sales process.",
-        "sources": ["G2: 680 mentions", "Reddit: 7 threads", "Capterra: 95 mentions"],
-        "quote": "\"Basic recording worked in a week, but getting the deal boards, scorecards, and Salesforce sync fully configured took our RevOps team three months. Budget for implementation support — the $15K setup fee was worth it.\"",
+        "sources": [
+          "G2: 680 mentions",
+          "Reddit: 7 threads",
+          "Capterra: 95 mentions"
+        ],
+        "quote": "\"Basic recording worked in a week, but getting the deal boards, scorecards, and Salesforce sync fully configured took our RevOps team three months. Budget for implementation support \u2014 the $15K setup fee was worth it.\"",
         "quoteCite": "RevOps Lead, 300-person enterprise [Reddit r/salesops, Dec 2025]"
       },
       {
@@ -252,8 +385,12 @@
         "sentimentIcon": "&#9650;",
         "heading": "Deal intelligence surfaces pipeline risks before they become losses",
         "synthesis": "Revenue leaders praise Gong's deal board for identifying at-risk opportunities based on actual buyer engagement signals rather than rep self-reporting. The AI flags deals where stakeholder engagement drops, competitor mentions increase, or next steps go stale, giving managers time to intervene before deals slip.",
-        "sources": ["G2: 1,800+ mentions", "Capterra: 160 mentions", "Gartner PI: verified"],
-        "quote": "\"Gong's deal board flagged a churn risk our AE completely missed — the AI detected declining multi-threading across three stakeholders a full month before the renewal. We saved a $180K account.\"",
+        "sources": [
+          "G2: 1,800+ mentions",
+          "Capterra: 160 mentions",
+          "Gartner PI: verified"
+        ],
+        "quote": "\"Gong's deal board flagged a churn risk our AE completely missed \u2014 the AI detected declining multi-threading across three stakeholders a full month before the renewal. We saved a $180K account.\"",
         "quoteCite": "VP Revenue Operations, 200-person org [Gartner Peer Insights, Jan 2026]"
       },
       {
@@ -261,8 +398,12 @@
         "sentimentIcon": "&#9644;",
         "heading": "Reps initially resist recording; adoption requires change management",
         "synthesis": "The most common adoption challenge is cultural resistance from sales reps who feel surveilled by call recording. Teams that succeed with Gong invest in change management, positioning it as a coaching tool rather than a monitoring tool. Without manager buy-in and a clear coaching culture, Gong becomes an expensive call recorder.",
-        "sources": ["G2: 520 mentions", "Reddit: 5 threads", "Capterra: 72 mentions"],
-        "quote": "\"We almost had a mutiny when we rolled out Gong — reps felt like Big Brother was listening. Once we repositioned it as a coaching tool and let top performers share their own highlights, adoption flipped from 30% to 85% in two months.\"",
+        "sources": [
+          "G2: 520 mentions",
+          "Reddit: 5 threads",
+          "Capterra: 72 mentions"
+        ],
+        "quote": "\"We almost had a mutiny when we rolled out Gong \u2014 reps felt like Big Brother was listening. Once we repositioned it as a coaching tool and let top performers share their own highlights, adoption flipped from 30% to 85% in two months.\"",
         "quoteCite": "Sales Manager, 60-person sales org [Capterra Review, Nov 2025]"
       },
       {
@@ -270,7 +411,11 @@
         "sentimentIcon": "&#9650;",
         "heading": "Deal intelligence transforms forecast accuracy",
         "synthesis": "Gartner Peer Insights and TrustRadius enterprise reviewers report that Gong's deal board and risk signals improved forecast accuracy by 15-30%. Revenue leaders say the AI-generated deal warnings surface pipeline risks that manual CRM reviews consistently miss.",
-        "sources": ["Gartner PI: 180 mentions", "TrustRadius: 95 mentions", "G2: 340+ mentions"],
+        "sources": [
+          "Gartner PI: 180 mentions",
+          "TrustRadius: 95 mentions",
+          "G2: 340+ mentions"
+        ],
         "quote": "\"Our quarterly forecast accuracy improved from 65% to 88% after deploying Gong's deal intelligence. The AI warnings surface pipeline risks that manual CRM scrubs consistently miss.\"",
         "quoteCite": "CRO, 180-person SaaS company [TrustRadius Review, Feb 2026]"
       }
@@ -308,21 +453,60 @@
     ],
     "implementationReality": {
       "stats": [
-        { "number": "2&ndash;4 weeks", "label": "Time to Value" },
-        { "number": "Medium", "label": "Setup Complexity" },
-        { "number": "High", "label": "RevOps Lift" },
-        { "number": "Medium", "label": "Training Required" },
-        { "number": "None", "label": "Data Migration" }
+        {
+          "number": "2&ndash;4 weeks",
+          "label": "Time to Value"
+        },
+        {
+          "number": "Medium",
+          "label": "Setup Complexity"
+        },
+        {
+          "number": "High",
+          "label": "RevOps Lift"
+        },
+        {
+          "number": "Medium",
+          "label": "Training Required"
+        },
+        {
+          "number": "None",
+          "label": "Data Migration"
+        }
       ],
       "note": "Call recording works immediately; deal boards and coaching require 2-4 weeks of RevOps configuration."
     },
     "enterpriseReadiness": [
-      { "label": "SSO / SAML", "value": "SAML SSO included", "class": "dm-available" },
-      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
-      { "label": "RBAC", "value": "Full enterprise RBAC", "class": "dm-available" },
-      { "label": "Data Residency", "value": "US and EU", "class": "dm-available" },
-      { "label": "SLA", "value": "Enterprise SLA with 99.9% uptime", "class": "dm-available" },
-      { "label": "Audit Logs", "value": "Full audit trail", "class": "dm-available" }
+      {
+        "label": "SSO / SAML",
+        "value": "SAML SSO included",
+        "class": "dm-available"
+      },
+      {
+        "label": "SOC 2",
+        "value": "SOC 2 Type II certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "RBAC",
+        "value": "Full enterprise RBAC",
+        "class": "dm-available"
+      },
+      {
+        "label": "Data Residency",
+        "value": "US and EU",
+        "class": "dm-available"
+      },
+      {
+        "label": "SLA",
+        "value": "Enterprise SLA with 99.9% uptime",
+        "class": "dm-available"
+      },
+      {
+        "label": "Audit Logs",
+        "value": "Full audit trail",
+        "class": "dm-available"
+      }
     ],
     "whoThisIsFor": {
       "org": {
@@ -344,21 +528,71 @@
     },
     "stackPairings": {
       "cards": [
-        { "title": "Salesforce CRM", "titleLink": null, "description": "Deepest integration — embedded widgets in SF records." },
-        { "title": "Outreach", "titleLink": "outreach-review.html", "description": "Sequences + Gong analytics for full engagement view." },
-        { "title": "Apollo.io", "titleLink": "apollo-review.html", "description": "Apollo prospects; Gong analyzes what converts." },
-        { "title": "HubSpot CRM", "titleLink": null, "description": "Bi-directional sync for mid-market teams." },
-        { "title": "Salesloft", "titleLink": null, "description": "Salesloft sequences + Gong conversation intelligence." }
+        {
+          "title": "Salesforce CRM",
+          "titleLink": null,
+          "description": "Deepest integration \u2014 embedded widgets in SF records."
+        },
+        {
+          "title": "Outreach",
+          "titleLink": "outreach-review.html",
+          "description": "Sequences + Gong analytics for full engagement view."
+        },
+        {
+          "title": "Apollo.io",
+          "titleLink": "apollo-review.html",
+          "description": "Apollo prospects; Gong analyzes what converts."
+        },
+        {
+          "title": "HubSpot CRM",
+          "titleLink": null,
+          "description": "Bi-directional sync for mid-market teams."
+        },
+        {
+          "title": "Salesloft",
+          "titleLink": null,
+          "description": "Salesloft sequences + Gong conversation intelligence."
+        }
       ],
       "exampleStack": "Apollo (prospect) &#8594; Outreach (sequence) &#8594; Gong (analyze) &#8594; Salesforce (CRM)"
     },
     "alternatives": {
       "rows": [
-        { "tool": "Chorus.ai", "toolLink": null, "bestFor": "Now part of ZoomInfo", "g2": "4.5/5", "price": "Custom" },
-        { "tool": "Avoma", "toolLink": null, "bestFor": "Mid-market alternative", "g2": "4.4/5", "price": "From $49/mo" },
-        { "tool": "Fireflies.ai", "toolLink": null, "bestFor": "Budget call recording", "g2": "4.5/5", "price": "Free tier" },
-        { "tool": "Revenue.io", "toolLink": null, "bestFor": "Real-time coaching", "g2": "4.4/5", "price": "Custom" },
-        { "tool": "Clari", "toolLink": null, "bestFor": "Revenue forecasting focus", "g2": "4.5/5", "price": "Custom" }
+        {
+          "tool": "Chorus.ai",
+          "toolLink": null,
+          "bestFor": "Now part of ZoomInfo",
+          "g2": "4.5/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "Avoma",
+          "toolLink": null,
+          "bestFor": "Mid-market alternative",
+          "g2": "4.4/5",
+          "price": "From $49/mo"
+        },
+        {
+          "tool": "Fireflies.ai",
+          "toolLink": null,
+          "bestFor": "Budget call recording",
+          "g2": "4.5/5",
+          "price": "Free tier"
+        },
+        {
+          "tool": "Revenue.io",
+          "toolLink": null,
+          "bestFor": "Real-time coaching",
+          "g2": "4.4/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "Clari",
+          "toolLink": null,
+          "bestFor": "Revenue forecasting focus",
+          "g2": "4.5/5",
+          "price": "Custom"
+        }
       ]
     },
     "faqs": [
@@ -388,22 +622,49 @@
     "altText": "See Alternatives",
     "altUrl": "/compare/index.html",
     "atAGlance": [
-      { "label": "G2 Rating", "value": "4.8/5" },
-      { "label": "G2 Reviews", "value": "6,455" },
-      { "label": "Starting Price", "value": "Custom" },
-      { "label": "Category", "value": "Conversation Intelligence" },
-      { "label": "Free Trial", "value": "Demo Only" }
+      {
+        "label": "G2 Rating",
+        "value": "4.8/5"
+      },
+      {
+        "label": "G2 Reviews",
+        "value": "6,455"
+      },
+      {
+        "label": "Starting Price",
+        "value": "Custom"
+      },
+      {
+        "label": "Category",
+        "value": "Conversation Intelligence"
+      },
+      {
+        "label": "Free Trial",
+        "value": "Demo Only"
+      }
     ],
     "ctaUrl": "/go/gong",
     "comparisons": [
-      { "text": "Gong vs Chorus", "url": "/compare/gong-vs-chorus.html" },
-      { "text": "Gong vs Avoma", "url": "/compare/gong-vs-avoma.html" }
+      {
+        "text": "Gong vs Chorus",
+        "url": "/compare/gong-vs-chorus.html"
+      },
+      {
+        "text": "Gong vs Avoma",
+        "url": "/compare/gong-vs-avoma.html"
+      }
     ],
     "externalReviews": [
-      { "text": "G2 Reviews", "url": "https://www.g2.com/products/gong/reviews" }
+      {
+        "text": "G2 Reviews",
+        "url": "https://www.g2.com/products/gong/reviews"
+      }
     ],
     "relatedGuides": [
-      { "text": "Top Conversation Intelligence Platforms", "url": "/guides/top-conversation-intelligence-platforms.html" }
+      {
+        "text": "Top Conversation Intelligence Platforms",
+        "url": "/guides/top-conversation-intelligence-platforms.html"
+      }
     ],
     "emailCard": {
       "heading": "Weekly Tool Intel",
@@ -418,5 +679,33 @@
     "secondaryUrl": "https://www.g2.com/products/gong/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  }
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.7,
+        "reviews": 6458,
+        "url": "https://www.g2.com/products/gong-io/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.8,
+        "reviews": 559,
+        "url": "https://www.capterra.com/p/172116/Gong/",
+        "outOf": 5
+      },
+      {
+        "platform": "TrustRadius",
+        "rating": 9.1,
+        "reviews": 1127,
+        "url": "https://www.trustradius.com/products/gong/reviews",
+        "outOf": 10
+      }
+    ],
+    "consensusScore": 4.7,
+    "lastUpdated": "February 2026"
+  },
+  "lastVerified": "2026-02-25"
 }

@@ -460,5 +460,26 @@
       "type": "review",
       "description": "Practitioner walkthrough showing real AI-generated email and call script output"
     }
-  ]
+  ],
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.4,
+        "reviews": 345,
+        "url": "https://www.g2.com/products/regie-ai/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.0,
+        "reviews": 13,
+        "url": "https://www.capterra.com/p/228048/Regie/",
+        "outOf": 5
+      }
+    ],
+    "consensusScore": 4.4,
+    "lastUpdated": "February 2026"
+  },
+  "lastVerified": "2026-02-25"
 }

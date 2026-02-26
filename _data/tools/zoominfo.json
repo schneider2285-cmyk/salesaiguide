@@ -94,7 +94,7 @@
   "quickSummary": {
     "whatItDoes": "Enterprise B2B data platform with 100M+ business profiles, intent data, website visitor tracking, and sales automation workflows.",
     "bestFor": "Enterprise sales and marketing teams needing premium-quality B2B contact and company data at scale.",
-    "pricing": "Custom pricing (typically $15K–40K+/year). Annual contracts only. Credit-based access model.",
+    "pricing": "Custom pricing (typically $15K\u201340K+/year). Annual contracts only. Credit-based access model.",
     "ctaUrl": "/go/zoominfo",
     "ctaText": "Visit ZoomInfo"
   },
@@ -141,7 +141,7 @@
     "dualScore": {
       "org": {
         "score": 77,
-        "explain": "The enterprise data standard — unmatched database depth, compliance, and scalability for large sales organizations."
+        "explain": "The enterprise data standard \u2014 unmatched database depth, compliance, and scalability for large sales organizations."
       },
       "individual": {
         "score": 51,
@@ -314,12 +314,12 @@
         "TrustRadius: 8.2/10 (820+ reviews)",
         "Gartner PI: 4.7/5 (421+ reviews)",
         "YouTube: 18+ demos",
-        "Trust center ✓"
+        "Trust center \u2713"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 10,561+ total reviews across 4 platforms",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 10,561+ total reviews across 4 platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -408,7 +408,7 @@
         "sentiment": "negative",
         "sentimentIcon": "&#9660;",
         "heading": "Contract terms and renewal friction are the biggest pain points",
-        "synthesis": "TrustRadius and Gartner Peer Insights reviewers surface a consistent theme around aggressive renewal practices and contract inflexibility. Enterprise buyers report auto-renewal clauses, multi-year lock-ins, and difficulty downsizing seats — concerns that are less visible in G2 but heavily discussed on TrustRadius and Reddit.",
+        "synthesis": "TrustRadius and Gartner Peer Insights reviewers surface a consistent theme around aggressive renewal practices and contract inflexibility. Enterprise buyers report auto-renewal clauses, multi-year lock-ins, and difficulty downsizing seats \u2014 concerns that are less visible in G2 but heavily discussed on TrustRadius and Reddit.",
         "sources": [
           "TrustRadius: 180 mentions",
           "Gartner PI: 220 mentions",
@@ -419,7 +419,7 @@
       }
     ],
     "pricingBreakdown": {
-      "tldr": "No public pricing; starts ~$15K/year, mid-size $50K–100K, enterprise $200K+.",
+      "tldr": "No public pricing; starts ~$15K/year, mid-size $50K\u2013100K, enterprise $200K+.",
       "gotchas": [
         "Annual contracts only, $15K+ minimum &mdash; no monthly billing",
         "Credit-based system &mdash; different actions burn credits at different rates",
@@ -473,7 +473,7 @@
           "label": "Data Migration"
         }
       ],
-      "note": "Most teams are productive in 2–4 weeks; enterprise plans include a dedicated CSM."
+      "note": "Most teams are productive in 2\u20134 weeks; enterprise plans include a dedicated CSM."
     },
     "enterpriseReadiness": [
       {
@@ -627,7 +627,7 @@
     "faqs": [
       {
         "question": "How much does ZoomInfo cost for small companies?",
-        "answer": "Annual contracts start at $15K–25K/year. For startups, Apollo.io offers comparable data from $49/month."
+        "answer": "Annual contracts start at $15K\u201325K/year. For startups, Apollo.io offers comparable data from $49/month."
       },
       {
         "question": "How does ZoomInfo compare to Apollo.io?",
@@ -635,7 +635,7 @@
       },
       {
         "question": "How accurate is ZoomInfo data?",
-        "answer": "Most accurate B2B data for North American contacts (85–95% email, 70–85% direct dial). Quality drops internationally."
+        "answer": "Most accurate B2B data for North American contacts (85\u201395% email, 70\u201385% direct dial). Quality drops internationally."
       }
     ],
     "meta": {
@@ -712,5 +712,33 @@
     "secondaryUrl": "https://www.g2.com/products/zoominfo/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  }
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.5,
+        "reviews": 12798,
+        "url": "https://www.g2.com/products/zoominfo/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.1,
+        "reviews": 317,
+        "url": "https://www.capterra.com/p/123755/ZoomInfo/",
+        "outOf": 5
+      },
+      {
+        "platform": "TrustRadius",
+        "rating": 8.2,
+        "reviews": 1860,
+        "url": "https://www.trustradius.com/products/zoominfo/reviews",
+        "outOf": 10
+      }
+    ],
+    "consensusScore": 4.4,
+    "lastUpdated": "February 2026"
+  },
+  "lastVerified": "2026-02-25"
 }
