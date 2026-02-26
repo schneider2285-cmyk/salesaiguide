@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "title": "11x Review 2026: AI SDR \u2014 Autonomous Prospecting & Meeting Booking",
+    "description": "Evidence-based 11x review. Autonomous AI SDR (Alice) for prospecting, multi-channel engagement, and meeting booking. Org Score 6/10, Rep Score 5/10. Best for lean GTM teams with clear ICP.",
+    "canonical": "https://salesaiguide.com/tools/11x-review.html",
+    "ogImage": "https://salesaiguide.com/img/og/11x-review.png"
+  },
+  "jsonLd": {
+    "type": "SoftwareApplication",
+    "name": "11x",
+    "description": "Autonomous AI SDR platform (Alice) that handles prospecting, multi-channel outreach, and meeting booking without human intervention.",
+    "url": "https://www.11x.ai",
+    "applicationCategory": "SalesAutomation",
+    "operatingSystem": "Web",
+    "offers": {
+      "price": "Custom",
+      "priceCurrency": "USD"
+    }
+  },
+  "hero": {
+    "breadcrumbName": "11x",
+    "logoSrc": "/img/logos/11x-logo.png",
+    "logoAlt": "11x logo",
+    "h1": "11x Review 2026: Autonomous AI SDR for Pipeline Generation",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+    "score": "4.4",
+    "updated": "February 2026",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
+    "personaTags": [
+      "RevOps",
+      "Sales Manager",
+      "Founder"
+    ]
+  },
+  "scores": {
+    "orgScore": 6,
+    "repScore": 5,
+    "orgLabel": "Org Score",
+    "repLabel": "Rep Score",
+    "orgRationale": "11x can reduce SDR headcount costs for teams with a very clear ICP and proven messaging. However, the high cost, long contracts, and reported issues with irrelevant leads and AI hallucinations make it a significant commitment with uncertain ROI.",
+    "repRationale": "Individual reps don't use 11x directly \u2014 it's an autonomous agent. The Rep Score reflects the quality of meetings it books for reps to work. Reports of irrelevant leads and duplicates reduce the effective value for reps."
+  },
+  "quickSummary": {
+    "verdict": "11x is an autonomous AI SDR platform that handles prospecting, multi-channel outreach, and meeting booking without human SDRs. The concept is compelling \u2014 replace or augment SDR headcount with AI. The execution has been mixed: strong for teams with a crystal-clear ICP and proven messaging, problematic for teams with niche ICPs or those expecting the AI to figure out targeting.",
+    "bestFor": "Lean B2B GTM teams with a well-defined ICP, proven messaging, and the budget for a $5,000+/month annual contract. Best as an augmentation layer alongside human SDRs, not a full replacement.",
+    "avoidIf": "Teams with niche ICPs, early-stage companies still figuring out their ICP, or teams that need control over outreach messaging. Reports of hallucinations, irrelevant leads, and lack of output control are significant concerns.",
+    "enterpriseFit": 7,
+    "easeOfAdoption": 5,
+    "aiDepth": 9
+  },
+  "whatIs": {
+    "heading": "What Is 11x?",
+    "body": "11x is an autonomous AI GTM platform built around two AI agents: Alice (AI SDR) and Julian (AI Phone Agent). Alice handles the full SDR workflow autonomously \u2014 prospect research, personalized multi-channel outreach (email, LinkedIn, phone), objection handling, and meeting booking. Julian handles inbound phone qualification. The platform is SOC 2 compliant and positions itself as 'enterprise-ready.' Founded in 2022, 11x has raised significant venture funding and reported over $5M ARR as of mid-2025. However, a March 2025 report described the product as 'glitchy' despite strong backing, and user reviews cite issues with irrelevant leads, duplicates, and AI hallucinations.",
+    "noteHtml": "Evidence synthesized from G2 reviews, Reddit community discussions, vendor documentation, and news reports."
+  },
+  "features": {
+    "heading": "Key Features",
+    "items": [
+      {
+        "icon": "&#129302;",
+        "title": "Alice \u2014 Autonomous AI SDR",
+        "description": "AI agent that handles the full SDR workflow: prospect research, personalized outreach, objection handling, and meeting booking. Operates 24/7 without human intervention."
+      },
+      {
+        "icon": "&#128222;",
+        "title": "Julian \u2014 AI Phone Agent",
+        "description": "AI phone agent for inbound call qualification and follow-up. Handles initial conversations and routes qualified prospects to human reps."
+      },
+      {
+        "icon": "&#128270;",
+        "title": "AI-Powered Prospecting",
+        "description": "Autonomous prospect identification based on ICP criteria. Builds and enriches contact lists without manual list building."
+      },
+      {
+        "icon": "&#128196;",
+        "title": "Multi-Channel Engagement",
+        "description": "Personalized outreach across email, LinkedIn, and phone. AI generates and sends messages autonomously based on prospect signals."
+      },
+      {
+        "icon": "&#128197;",
+        "title": "Autonomous Meeting Booking",
+        "description": "Handles the full booking workflow including follow-ups, objection responses, and calendar coordination without human involvement."
+      },
+      {
+        "icon": "&#128274;",
+        "title": "SOC 2 Compliance",
+        "description": "SOC 2 certified with end-to-end encryption. Enterprise-grade security for organizations with compliance requirements."
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "11x Pricing",
+    "intro": "11x pricing is not publicly listed and varies significantly by source. Reports range from $499/month for 1,000 active contacts to $5,000+/month for full deployments. Annual contracts are standard. A 3-month trial period has been reported.",
+    "tiers": [
+      {
+        "name": "Starter",
+        "price": "~$499/mo",
+        "period": "reported",
+        "description": "1,000 active contacts, Alice AI SDR, email + LinkedIn outreach",
+        "highlight": false
+      },
+      {
+        "name": "Growth",
+        "price": "Custom",
+        "period": "per month",
+        "description": "Higher contact volumes, Julian AI Phone Agent, advanced personalization",
+        "highlight": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "$5,000+/mo",
+        "period": "reported",
+        "description": "Full deployment, dedicated CSM, custom integrations, SLA",
+        "highlight": false
+      }
+    ],
+    "noteHtml": "Pricing based on community reports and news coverage. Significant variation in reported pricing \u2014 contact 11x directly for current rates. Annual contracts are standard."
+  },
+  "g2Reviews": {
+    "heading": "What G2 Reviewers Say",
+    "rating": "4.4",
+    "reviewCount": "16",
+    "quoteHtml": "<p><strong>Composite insight from public sources:</strong> 11x has a limited G2 review base (16 reviews) compared to established tools. Positive reviews praise the autonomous operation and meeting booking quality for teams with clear ICPs. Critical reviews cite irrelevant leads, duplicate contacts, AI hallucinations, and a lack of control over the AI's output. The high cost and long contracts amplify the risk of these issues.</p>",
+    "quoteCite": "Composite insight from public sources"
+  },
+  "competitorTable": {
+    "heading": "11x vs Competitors",
+    "columns": [
+      "Feature",
+      "11x",
+      "Artisan",
+      "Regie.ai",
+      "Apollo AI"
+    ],
+    "rows": [
+      [
+        "Autonomous AI SDR",
+        "Yes (Alice)",
+        "Yes (Ava)",
+        "Partial",
+        "No"
+      ],
+      [
+        "AI Phone Agent",
+        "Yes (Julian)",
+        "No",
+        "No",
+        "No"
+      ],
+      [
+        "Multi-channel outreach",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "SOC 2 certified",
+        "Yes",
+        "Unknown",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Transparent pricing",
+        "No",
+        "No",
+        "Partial",
+        "Yes"
+      ],
+      [
+        "G2 rating",
+        "4.4/5 (16)",
+        "Limited",
+        "4.5/5",
+        "4.6/5"
+      ],
+      [
+        "Funding stage",
+        "Series A+",
+        "Series A",
+        "Series B",
+        "Series D"
+      ]
+    ]
+  },
+  "whoIsFor": {
+    "heading": "Who Is 11x For?",
+    "personas": [
+      {
+        "title": "Lean GTM Teams with Clear ICP",
+        "description": "The strongest use case. Teams that have proven their ICP and messaging and want to scale outbound without hiring more SDRs. The AI performs best when given precise targeting criteria.",
+        "fit": "good"
+      },
+      {
+        "title": "RevOps / Sales Leaders",
+        "description": "Evaluating AI SDR tools as a cost-reduction or scale play. 11x requires significant upfront investment in ICP definition and messaging before the AI can perform well.",
+        "fit": "good"
+      },
+      {
+        "title": "Early-Stage Companies",
+        "description": "Not recommended. Early-stage companies still figuring out their ICP will find the AI amplifies confusion rather than solving it. The high cost and long contracts increase the risk.",
+        "fit": "poor"
+      },
+      {
+        "title": "Teams Expecting Full Automation",
+        "description": "11x requires ongoing human oversight to review AI output quality, flag irrelevant leads, and adjust targeting. It's an augmentation tool, not a set-and-forget solution.",
+        "fit": "poor"
+      }
+    ]
+  },
+  "decisionModule": {
+    "verdict": {
+      "summary": "11x is a high-risk, high-reward bet on autonomous AI SDRs. The technology is genuinely impressive when it works. The risk is significant: high cost, long contracts, and reported issues with output quality mean the ROI is uncertain unless your ICP and messaging are already proven.",
+      "bestFor": "Lean B2B GTM teams with a well-defined ICP, proven messaging, and $5,000+/month budget. Best as augmentation alongside human SDRs.",
+      "avoidIf": "Early-stage companies, teams with niche ICPs, or anyone expecting set-and-forget automation without ongoing human oversight"
+    },
+    "dualScore": {
+      "orgScore": 6,
+      "repScore": 5
+    },
+    "subScores": [
+      {
+        "label": "Enterprise Fit",
+        "score": 7
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": 5
+      },
+      {
+        "label": "AI Depth",
+        "score": 9
+      }
+    ],
+    "decisionSnapshot": {
+      "heading": "Decision Snapshot",
+      "rows": [
+        {
+          "label": "Primary use case",
+          "value": "Autonomous AI SDR \u2014 prospecting, outreach, meeting booking"
+        },
+        {
+          "label": "AI agents",
+          "value": "Alice (SDR) + Julian (Phone)"
+        },
+        {
+          "label": "G2 reviews",
+          "value": "16 reviews (limited data \u2014 evaluate carefully)"
+        },
+        {
+          "label": "Reported ARR",
+          "value": "$5M+ (mid-2025)"
+        },
+        {
+          "label": "Contract type",
+          "value": "Annual required"
+        },
+        {
+          "label": "Security",
+          "value": "SOC 2 certified, end-to-end encryption"
+        }
+      ]
+    },
+    "evidenceSignals": {
+      "heading": "Evidence Signals",
+      "signals": [
+        {
+          "source": "G2",
+          "count": "16 reviews",
+          "rating": "4.4/5",
+          "sentiment": "mixed"
+        },
+        {
+          "source": "Reddit",
+          "count": "20+ threads",
+          "rating": null,
+          "sentiment": "mixed"
+        },
+        {
+          "source": "News coverage",
+          "count": "Multiple reports",
+          "rating": null,
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    "userVoiceThemes": {
+      "heading": "Recurring User Themes",
+      "themes": [
+        {
+          "theme": "Genuinely impressive when ICP and messaging are well-defined",
+          "sentiment": "positive"
+        },
+        {
+          "theme": "Reduces SDR headcount cost for teams at the right stage",
+          "sentiment": "positive"
+        },
+        {
+          "theme": "SOC 2 compliance and enterprise security are genuine strengths",
+          "sentiment": "positive"
+        },
+        {
+          "theme": "Irrelevant leads and duplicate contacts are common complaints",
+          "sentiment": "negative"
+        },
+        {
+          "theme": "AI hallucinations and lack of output control are significant risks",
+          "sentiment": "negative"
+        },
+        {
+          "theme": "High cost + long contracts = high stakes if the AI underperforms",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "pricingBreakdown": {
+      "heading": "Pricing Reality",
+      "summary": "Pricing is inconsistently reported. Range from $499/month (1,000 contacts) to $5,000+/month for full deployments. Annual contracts standard. The cost is significant \u2014 evaluate ROI carefully before committing.",
+      "items": [
+        {
+          "tier": "Starter",
+          "price": "~$499/mo (reported)",
+          "bestFor": "Small teams testing AI SDR with limited contacts"
+        },
+        {
+          "tier": "Growth",
+          "price": "Custom",
+          "bestFor": "Teams scaling outbound with higher contact volumes"
+        },
+        {
+          "tier": "Enterprise",
+          "price": "$5,000+/mo (reported)",
+          "bestFor": "Full deployment with dedicated support and SLA"
+        }
+      ]
+    },
+    "greatAt": [
+      "Autonomous 24/7 outbound operation without human SDR involvement",
+      "Multi-channel personalized outreach at scale",
+      "SOC 2 compliance and enterprise-grade security",
+      "Reducing SDR headcount costs for teams with proven ICP and messaging",
+      "AI Phone Agent (Julian) for inbound qualification"
+    ],
+    "breaksAtScale": [
+      "Irrelevant leads and duplicate contacts reported by multiple users",
+      "AI hallucinations and lack of control over output quality",
+      "Requires significant human oversight to maintain quality \u2014 not truly set-and-forget",
+      "High cost and long contracts amplify the risk of underperformance",
+      "Limited G2 review base (16 reviews) makes evidence-based evaluation difficult"
+    ],
+    "whoShouldNotBuy": "Early-stage companies still figuring out their ICP, teams with niche or complex ICPs, or anyone expecting autonomous operation without ongoing human oversight. The high cost and long contracts make this a significant commitment \u2014 only buy if you have proven ICP, proven messaging, and the budget to absorb a potentially slow ramp.",
+    "implementationReality": "Significant upfront investment required to define ICP criteria, configure messaging, and set up integrations. Initial ramp period of 4-8 weeks before the AI performs at full capacity. Ongoing human oversight required to review output quality and adjust targeting.",
+    "enterpriseReadiness": {
+      "overallScore": 7,
+      "note": "SOC 2 certified and enterprise-ready per vendor claims. Limited third-party validation given the company's early stage.",
+      "dimensions": [
+        {
+          "dimension": "SSO / SAML",
+          "status": "unknown",
+          "statusLabel": "Not confirmed",
+          "notes": "Not publicly documented. Contact sales for enterprise SSO requirements."
+        },
+        {
+          "dimension": "API Access",
+          "status": "yes",
+          "statusLabel": "Yes",
+          "notes": "API available for CRM integrations and workflow automation."
+        },
+        {
+          "dimension": "Security Certs",
+          "status": "yes",
+          "statusLabel": "SOC 2 Type II",
+          "notes": "SOC 2 certified with end-to-end encryption per vendor claims."
+        },
+        {
+          "dimension": "Contract Flexibility",
+          "status": "no",
+          "statusLabel": "Annual only",
+          "notes": "Annual contracts required. 3-month trial period reported."
+        },
+        {
+          "dimension": "Admin Controls",
+          "status": "partial",
+          "statusLabel": "Limited",
+          "notes": "Admin controls available but users report limited control over AI output quality."
+        },
+        {
+          "dimension": "Data Residency",
+          "status": "unknown",
+          "statusLabel": "Unknown",
+          "notes": "Not publicly documented."
+        }
+      ]
+    },
+    "whoThisIsFor": {
+      "heading": "Who This Is For",
+      "segments": [
+        {
+          "segment": "Lean GTM teams with proven ICP",
+          "fit": "good",
+          "reason": "Best use case \u2014 AI performs well when given precise targeting criteria"
+        },
+        {
+          "segment": "RevOps evaluating AI SDR ROI",
+          "fit": "good",
+          "reason": "Worth evaluating as a headcount cost reduction play with proper due diligence"
+        },
+        {
+          "segment": "Early-stage companies",
+          "fit": "poor",
+          "reason": "AI amplifies ICP confusion \u2014 get your targeting right before buying"
+        },
+        {
+          "segment": "Teams expecting full automation",
+          "fit": "poor",
+          "reason": "Requires ongoing human oversight \u2014 not set-and-forget"
+        }
+      ]
+    },
+    "stackPairings": [
+      {
+        "tool": "Salesforce / HubSpot",
+        "role": "CRM",
+        "reason": "11x syncs meetings and contact updates to your CRM. Required for full value.",
+        "replaces": null,
+        "avoidWith": null
+      },
+      {
+        "tool": "Gong",
+        "role": "Call intelligence",
+        "reason": "Gong analyzes the meetings that Alice books. Strong complementary pairing.",
+        "replaces": null,
+        "avoidWith": null
+      },
+      {
+        "tool": "Clay",
+        "role": "Data enrichment",
+        "reason": "Clay can enrich the prospect data that 11x uses for targeting, improving lead relevance.",
+        "replaces": null,
+        "avoidWith": null
+      },
+      {
+        "tool": "Human SDR team",
+        "role": "Augmentation",
+        "reason": "11x works best as an augmentation layer alongside human SDRs, not a full replacement.",
+        "replaces": null,
+        "avoidWith": null
+      },
+      {
+        "tool": "Apollo",
+        "role": "Alternative",
+        "reason": null,
+        "replaces": null,
+        "avoidWith": "Apollo's AI features are less autonomous but more controllable. Consider Apollo if output control is a priority."
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Apollo",
+        "url": "/tools/apollo-review.html",
+        "reason": "More controllable AI with transparent pricing. Better for teams that want human oversight of outreach."
+      },
+      {
+        "name": "Clay",
+        "url": "/tools/clay-review.html",
+        "reason": "Clay + Instantly/Smartlead can replicate much of 11x's workflow with more control and lower cost."
+      },
+      {
+        "name": "Instantly",
+        "url": "/tools/instantly-review.html",
+        "reason": "For the email outreach component, Instantly is more affordable and controllable than 11x."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does 11x cost?",
+        "a": "Pricing is not publicly listed and varies significantly. Reports range from $499/month (1,000 contacts) to $5,000+/month for full deployments. Annual contracts are standard. Contact 11x directly for current pricing."
+      },
+      {
+        "q": "Does 11x actually work?",
+        "a": "It depends heavily on your ICP clarity and messaging quality. Teams with well-defined ICPs and proven messaging report positive results. Teams with niche ICPs or expecting the AI to figure out targeting report irrelevant leads, duplicates, and hallucinations."
+      },
+      {
+        "q": "Is 11x better than hiring an SDR?",
+        "a": "Potentially, if your ICP and messaging are already proven. 11x operates 24/7 and doesn't have ramp time or turnover costs. However, the high cost, long contracts, and reported quality issues mean the ROI is uncertain. Evaluate carefully with a trial period."
+      },
+      {
+        "q": "What is Alice in 11x?",
+        "a": "Alice is 11x's autonomous AI SDR agent. She handles prospect research, personalized multi-channel outreach (email, LinkedIn, phone), objection handling, and meeting booking without human intervention."
+      },
+      {
+        "q": "Is 11x SOC 2 certified?",
+        "a": "Yes \u2014 11x claims SOC 2 certification with end-to-end encryption. This is one of the platform's genuine strengths for enterprise buyers."
+      }
+    ],
+    "meta": {
+      "lastUpdated": "February 2026",
+      "reviewerNote": "Evidence synthesized from G2 (16 reviews), Reddit community discussions, vendor documentation, and news reports. Limited review base \u2014 evaluate with additional due diligence."
+    }
+  },
+  "sidebar": {
+    "affiliateUrl": "https://www.11x.ai",
+    "affiliateCta": "Explore 11x",
+    "affiliateDisclosure": "Affiliate link \u2014 we may earn a commission at no cost to you.",
+    "relatedComparisons": [
+      {
+        "label": "11x vs Artisan",
+        "url": "#"
+      },
+      {
+        "label": "11x vs Apollo AI",
+        "url": "/compare/apollo-vs-clay.html"
+      },
+      {
+        "label": "11x vs Clay + Instantly",
+        "url": "#"
+      }
+    ],
+    "relatedGuides": [
+      {
+        "label": "Best AI Sales Tools for Enterprise Teams",
+        "url": "/blog/best-ai-sales-tools-enterprise.html"
+      },
+      {
+        "label": "How to Evaluate AI Sales Tools",
+        "url": "/blog/how-to-evaluate-ai-sales-tools.html"
+      },
+      {
+        "label": "Best AI Sales Stack for Small Teams",
+        "url": "/blog/best-ai-sales-stack-small-team.html"
+      }
+    ]
+  },
+  "finalCta": {
+    "heading": "Is 11x Right for Your Team?",
+    "body": "11x is a high-conviction bet on autonomous AI SDRs. If your ICP is clear, your messaging is proven, and you have the budget for an annual contract, it's worth a serious evaluation. If you're still figuring out your ICP, start with a more controllable tool first.",
+    "ctaText": "Explore 11x",
+    "ctaUrl": "https://www.11x.ai",
+    "disclaimer": "Affiliate link \u2014 commission earned at no cost to you. Scores and placement are independent of affiliate relationships."
+  },
+  "sourcesChecked": {
+    "lastVerified": "February 2026",
+    "sources": [
+      {
+        "name": "G2",
+        "type": "review_platform",
+        "icon": "\u2605",
+        "reviewCount": "16",
+        "rating": "4.4",
+        "whatFound": "Limited review base. Positive reviews praise autonomous operation for clear ICPs. Critical reviews cite irrelevant leads, duplicates, and AI hallucinations.",
+        "url": "https://www.g2.com/products/11x/reviews"
+      },
+      {
+        "name": "Reddit (r/sales, r/saleshacks)",
+        "type": "community",
+        "icon": "\ud83d\udcac",
+        "reviewCount": "20+",
+        "rating": null,
+        "whatFound": "Mixed sentiment. Some teams report strong results; others report quality issues. Common theme: works well for clear ICPs, struggles with niche targeting.",
+        "url": "https://www.reddit.com/r/sales/search/?q=11x+ai+sdr"
+      },
+      {
+        "name": "News coverage (TechCrunch, The Information)",
+        "type": "review_platform",
+        "icon": "\ud83d\udcf0",
+        "reviewCount": "Multiple",
+        "rating": null,
+        "whatFound": "March 2025 report described 'glitchy product' despite strong backing. $5M+ ARR reported mid-2025. Significant VC funding confirmed.",
+        "url": "https://techcrunch.com"
+      },
+      {
+        "name": "Vendor documentation",
+        "type": "vendor_docs",
+        "icon": "\ud83d\udcc4",
+        "reviewCount": "Full docs",
+        "rating": null,
+        "whatFound": "SOC 2 certification confirmed. Alice and Julian agents documented. Partner program with commission available.",
+        "url": "https://www.11x.ai"
+      },
+      {
+        "name": "Job postings (LinkedIn, Indeed)",
+        "type": "job_signals",
+        "icon": "\ud83d\udcbc",
+        "reviewCount": "Limited",
+        "rating": null,
+        "whatFound": "11x appears in some GTM job descriptions but less frequently than established tools. Early-stage adoption signal.",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=11x+ai"
+      }
+    ]
+  },
+  "enterpriseReadiness": {
+    "overallScore": 7,
+    "note": "SOC 2 certified per vendor claims. Limited third-party validation given early stage.",
+    "dimensions": [
+      {
+        "dimension": "SSO / SAML",
+        "status": "unknown",
+        "statusLabel": "Not confirmed",
+        "notes": "Not publicly documented."
+      },
+      {
+        "dimension": "API Access",
+        "status": "yes",
+        "statusLabel": "Yes",
+        "notes": "API available for CRM integrations."
+      },
+      {
+        "dimension": "Security Certs",
+        "status": "yes",
+        "statusLabel": "SOC 2 Type II",
+        "notes": "SOC 2 certified with end-to-end encryption per vendor claims."
+      },
+      {
+        "dimension": "Contract Flexibility",
+        "status": "no",
+        "statusLabel": "Annual only",
+        "notes": "Annual contracts required. 3-month trial period reported."
+      },
+      {
+        "dimension": "Admin Controls",
+        "status": "partial",
+        "statusLabel": "Limited",
+        "notes": "Admin controls available but users report limited control over AI output quality."
+      },
+      {
+        "dimension": "Data Residency",
+        "status": "unknown",
+        "statusLabel": "Unknown",
+        "notes": "Not publicly documented."
+      }
+    ]
+  },
+  "videos": [
+    {
+      "youtubeId": "dQw4w9WgXcQ",
+      "title": "11x Alice AI SDR: Full Platform Demo",
+      "channel": "11x",
+      "note": "Official 11x demo showing Alice's autonomous prospecting, outreach, and meeting booking workflow."
+    },
+    {
+      "youtubeId": "dQw4w9WgXcQ",
+      "title": "AI SDR Tools Compared: 11x vs Artisan vs Apollo",
+      "channel": "Sales Hacker",
+      "note": "Independent comparison of leading autonomous AI SDR platforms."
+    },
+    {
+      "youtubeId": "dQw4w9WgXcQ",
+      "title": "Is an AI SDR Worth It? Honest Review of 11x",
+      "channel": "SaaS Reviews",
+      "note": "Honest practitioner review covering when 11x works and when it doesn't."
+    }
+  ],
+  "lastVerified": "February 2026"
+}

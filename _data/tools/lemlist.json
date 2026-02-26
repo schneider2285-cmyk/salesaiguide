@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "title": "Lemlist Review 2026: Features, Pricing, and Ratings | Sales AI Guide",
+    "description": "Lemlist review with G2 ratings, pricing tiers, key features, and competitor comparison. Best cold outreach tool for personalized multi-channel sequences.",
+    "ogTitle": "Lemlist Review 2026: Features, Pricing, and Ratings | Sales AI Guide",
+    "ogDescription": "Lemlist review with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources.",
+    "ogUrl": "https://salesaiguide.com/tools/lemlist-review.html",
+    "canonicalUrl": "https://salesaiguide.com/tools/lemlist-review.html",
+    "twitterTitle": "Lemlist Review 2026: Features, Pricing, and Ratings | Sales AI Guide",
+    "twitterDescription": "Lemlist review with G2 ratings, pricing breakdown, key features, and competitor comparison."
+  },
+  "jsonLd": {
+    "type": "SoftwareApplication",
+    "name": "Lemlist",
+    "url": "https://www.lemlist.com",
+    "applicationCategory": "Sales Engagement Platform",
+    "operatingSystem": "Web",
+    "description": "Multi-channel cold outreach platform combining email, LinkedIn, and phone with AI-powered personalization and a built-in B2B lead database.",
+    "offers": {
+      "priceCurrency": "USD",
+      "price": "55",
+      "priceValidUntil": "2026-12-31"
+    },
+    "aggregateRating": {
+      "ratingValue": "4.6",
+      "reviewCount": "1500",
+      "bestRating": "5"
+    }
+  },
+  "hero": {
+    "breadcrumbName": "Lemlist",
+    "logoSrc": "https://logo.clearbit.com/lemlist.com",
+    "logoAlt": "Lemlist logo",
+    "h1": "Lemlist Review 2026: Multi-Channel Outreach with Real Personalization",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+    "score": "4.6/5 on G2",
+    "updated": "Updated February 2026",
+    "dataSource": "Data from G2, Capterra, and vendor documentation",
+    "personaTags": [
+      { "text": "SDR", "class": "tag-sdr" },
+      { "text": "AE", "class": "tag-ae" },
+      { "text": "Agency", "class": "tag-agency" }
+    ]
+  },
+  "scores": {
+    "org": {
+      "value": 74,
+      "verdict": "Strong for SMB and mid-market multi-channel outbound"
+    },
+    "rep": {
+      "value": 76,
+      "verdict": "Best-in-class for individual reps who personalize at scale"
+    }
+  },
+  "quickSummary": {
+    "whatItDoes": "Multi-channel cold outreach platform combining email, LinkedIn automation, and phone in a single sequence — with AI-powered personalization using custom images, videos, and dynamic variables.",
+    "bestFor": "SDRs and AEs who want to stand out in crowded inboxes with personalized multi-channel outreach, not just another mass email blast.",
+    "pricing": "From $55/month per user (email only) to $99/month per user (multi-channel with LinkedIn). 14-day free trial.",
+    "ctaUrl": "https://salesaiguide.com/go/lemlist",
+    "ctaText": "Try Lemlist Free"
+  },
+  "whatIs": {
+    "paragraphs": [
+      "Lemlist is a multi-channel cold outreach platform that built its reputation on one feature: personalized images and videos in cold emails. Where most cold email tools treat personalization as inserting a first name into a template, Lemlist lets you automatically embed a prospect's name, company logo, or LinkedIn photo into a custom image — making each email look hand-crafted even when sent at scale.",
+      "Since its founding in 2018, Lemlist has expanded well beyond personalized images. The platform now covers the full multi-channel outreach workflow: email sequences, LinkedIn automation (connection requests, messages, profile visits), phone call steps, and a built-in B2B lead database with 450M+ contacts. The AI features generate personalized icebreakers, suggest optimal send times, and help write sequence copy.",
+      "Lemlist sits between pure cold email tools (Instantly, Smartlead, Saleshandy) and full sales engagement platforms (Outreach, Salesloft). It is more capable than cold email tools for multi-channel outreach but less enterprise-ready than Outreach for complex sales processes. The sweet spot is SMB and mid-market sales teams who want to run genuine multi-channel outbound without the complexity or cost of an enterprise SEP."
+    ]
+  },
+  "features": [
+    {
+      "title": "Personalized Images and Videos",
+      "description": "Automatically embed prospect-specific content (name, company, LinkedIn photo) into custom images and video thumbnails. The feature that made Lemlist famous — dramatically increases reply rates on cold email campaigns."
+    },
+    {
+      "title": "Multi-Channel Sequences",
+      "description": "Combine email, LinkedIn (connection requests, messages, profile visits), and phone call steps in a single automated sequence. Manage the entire outreach workflow from one platform without switching tools."
+    },
+    {
+      "title": "AI Personalization at Scale",
+      "description": "AI-generated icebreakers based on prospect LinkedIn profiles, company news, and job descriptions. Write one template; the AI generates unique first lines for each prospect. Reduces research time by 60–80% per G2 reviewers."
+    },
+    {
+      "title": "lemlist Lead Database",
+      "description": "Built-in access to 450M+ B2B contacts with email verification. Find prospects by job title, company size, industry, and location. Useful for SMB prospecting without a separate data tool subscription."
+    },
+    {
+      "title": "Email Warm-Up (Lemwarm)",
+      "description": "Dedicated warm-up tool (previously sold separately, now included) that gradually increases sending volume and simulates real engagement. Lemwarm has its own network of 10,000+ accounts for warm-up interactions."
+    },
+    {
+      "title": "A/B Testing and Analytics",
+      "description": "Test subject lines, email copy, and send times. Campaign analytics show open rates, reply rates, and click rates by step. Identify which sequence steps are causing drop-off and optimize accordingly."
+    }
+  ],
+  "pricing": {
+    "note": "Pricing as of February 2026. Per-user pricing. Annual billing saves ~20%.",
+    "tiers": [
+      {
+        "name": "Email Pro",
+        "price": "$55",
+        "period": "user/mo",
+        "features": [
+          "Unlimited email campaigns",
+          "Email warm-up included",
+          "AI personalization",
+          "Basic analytics",
+          "lemlist lead database"
+        ],
+        "ctaUrl": "https://salesaiguide.com/go/lemlist",
+        "ctaClass": "btn-outline",
+        "ctaText": "Start Free Trial"
+      },
+      {
+        "name": "Multi-Channel Expert",
+        "price": "$99",
+        "period": "user/mo",
+        "featured": true,
+        "badge": "Most Popular",
+        "features": [
+          "Email + LinkedIn + Phone",
+          "Personalized images and videos",
+          "AI icebreaker generation",
+          "Advanced analytics",
+          "CRM integrations"
+        ],
+        "ctaUrl": "https://salesaiguide.com/go/lemlist",
+        "ctaClass": "btn-primary",
+        "ctaText": "Start Free Trial"
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "",
+        "features": [
+          "Everything in Multi-Channel",
+          "Dedicated CSM",
+          "Custom onboarding",
+          "SSO and advanced security",
+          "Volume discounts"
+        ],
+        "ctaUrl": "https://salesaiguide.com/go/lemlist",
+        "ctaClass": "btn-outline",
+        "ctaText": "Contact Sales"
+      }
+    ],
+    "creditNote": "14-day free trial on all plans. Annual billing saves ~20%. LinkedIn automation requires a LinkedIn account (not included)."
+  },
+  "g2Reviews": {
+    "intro": "Based on 1,500+ reviews on G2 (4.6/5 rating):",
+    "pros": [
+      { "bold": "Personalization quality", "text": "Reviewers consistently cite the personalized images and AI icebreakers as the standout features — 'the only tool that makes cold email feel personal at scale'." },
+      { "bold": "Multi-channel in one platform", "text": "Users appreciate managing email, LinkedIn, and phone from a single sequence without stitching together multiple tools." },
+      { "bold": "Reply rates", "text": "Multiple reviewers report 2–4x higher reply rates compared to plain text cold email tools, attributing the improvement to personalization features." }
+    ],
+    "cons": [
+      { "bold": "Per-user pricing adds up", "text": "At $99/user/month, a team of 5 SDRs costs $495/month — significantly more than Instantly or Saleshandy for the same team size." },
+      { "bold": "LinkedIn automation risk", "text": "LinkedIn automation violates LinkedIn's Terms of Service. Several reviewers note account warnings or restrictions when using aggressive LinkedIn automation settings." },
+      { "bold": "Learning curve for advanced features", "text": "The personalized image builder and multi-channel sequence setup require more configuration time than simpler cold email tools." }
+    ],
+    "link": "https://www.g2.com/products/lemlist/reviews"
+  },
+  "competitorTable": {
+    "headers": ["Feature", "Lemlist", "Instantly", "Saleshandy"],
+    "rows": [
+      { "feature": "Multi-channel (email + LinkedIn + phone)", "featureBold": true, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }] },
+      { "feature": "Personalized images/videos", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }] },
+      { "feature": "AI icebreaker generation", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "Partial", "class": "" }, { "text": "&#10007;", "class": "cross" }] },
+      { "feature": "Starting price (per user)", "featureBold": false, "values": [{ "text": "$55/mo" }, { "text": "$37/mo (flat)" }, { "text": "$36/mo (flat)" }] },
+      { "feature": "Unlimited email accounts", "featureBold": false, "values": [{ "text": "Growth+ only" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] },
+      { "feature": "Built-in lead database", "featureBold": false, "values": [{ "text": "450M+ contacts" }, { "text": "&#10007;", "class": "cross" }, { "text": "700M+ contacts" }] }
+    ],
+    "seeFullLinks": [
+      { "url": "/compare/lemlist-vs-instantly.html", "text": "Lemlist vs Instantly" },
+      { "url": "/compare/lemlist-vs-saleshandy.html", "text": "Lemlist vs Saleshandy" }
+    ]
+  },
+  "whoIsFor": {
+    "goodFit": {
+      "heading": "Lemlist is a strong fit for:",
+      "items": [
+        "SDRs and AEs who want to stand out in crowded inboxes with genuinely personalized outreach — not just name-insertion templates",
+        "Teams running multi-channel outbound who want email, LinkedIn, and phone in a single sequence without multiple tool subscriptions",
+        "Sales teams at SMBs and mid-market companies where reply rates matter more than raw sending volume",
+        "Agencies that sell outreach services and need to demonstrate differentiated results to clients"
+      ]
+    },
+    "notAFit": {
+      "heading": "Lemlist is not the right choice if:",
+      "items": [
+        "You need to send very high volumes (100,000+ emails/month) at the lowest possible cost — Instantly or Saleshandy are cheaper at scale",
+        "You are concerned about LinkedIn automation risk — the LinkedIn features violate LinkedIn's ToS and carry account restriction risk",
+        "Your team is larger than 10 SDRs — the per-user pricing becomes expensive relative to flat-rate alternatives",
+        "You need enterprise-grade CRM integration, forecasting, or deal management — Outreach or Salesloft are better fits"
+      ]
+    }
+  },
+  "decisionModule": {
+    "verdict": {
+      "bestFor": "SDRs and AEs who want genuine personalization at scale — email, LinkedIn, and phone in one sequence",
+      "avoidIf": "You need to send very high volumes at the lowest cost, or you are concerned about LinkedIn automation risk",
+      "bottomLine": "Lemlist is the best cold outreach tool for teams that compete on quality of outreach rather than volume. The personalized images, AI icebreakers, and multi-channel sequences produce measurably higher reply rates. The trade-off is higher per-user cost and LinkedIn automation risk.",
+      "ctaUrl": "https://salesaiguide.com/go/lemlist",
+      "ctaText": "Try Lemlist Free"
+    },
+    "dualScore": {
+      "org": {
+        "score": 74,
+        "explain": "Strong for SMB and mid-market multi-channel outbound. Per-user pricing limits enterprise scalability."
+      },
+      "individual": {
+        "score": 76,
+        "explain": "Best-in-class for individual reps who want to personalize at scale. Highest reply rates in the cold email category."
+      }
+    },
+    "subScores": [
+      { "label": "AI Depth", "score": "8/10" },
+      { "label": "Ease of Adoption", "score": "7/10" },
+      { "label": "Enterprise Fit", "score": "5/10" },
+      { "label": "Personalization", "score": "10/10" },
+      { "label": "Value for Money", "score": "7/10" }
+    ],
+    "decisionSnapshot": {
+      "intro": "Six-dimension assessment based on public review data, vendor documentation, and community feedback.",
+      "rows": [
+        {
+          "dimension": "Personalization Quality",
+          "score": 10,
+          "notes": "Best-in-class. Personalized images, video thumbnails, and AI icebreakers are unmatched in the cold email category.",
+          "evidence": [
+            { "source": "G2 reviews", "text": "Reviewers consistently report 2–4x higher reply rates compared to plain text cold email tools." }
+          ]
+        },
+        {
+          "dimension": "Multi-Channel Coverage",
+          "score": 8,
+          "notes": "Email, LinkedIn, and phone in a single sequence. LinkedIn automation carries ToS risk.",
+          "evidence": [
+            { "source": "G2 reviews", "text": "Users appreciate managing all channels from one platform but note LinkedIn account risk." }
+          ]
+        },
+        {
+          "dimension": "AI Features",
+          "score": 8,
+          "notes": "AI icebreaker generation, send time optimization, and copy suggestions are genuinely useful.",
+          "evidence": [
+            { "source": "G2 reviews", "text": "AI icebreakers rated as 'actually good' by multiple reviewers — not just generic GPT output." }
+          ]
+        },
+        {
+          "dimension": "Value for Money",
+          "score": 7,
+          "notes": "More expensive than Instantly/Saleshandy per user but justified by higher reply rates for quality-focused teams.",
+          "evidence": [
+            { "source": "Capterra reviews", "text": "Reviewers split: some say ROI justifies cost, others switched to cheaper tools for volume campaigns." }
+          ]
+        },
+        {
+          "dimension": "Ease of Use",
+          "score": 7,
+          "notes": "More complex to set up than pure cold email tools. Image builder and multi-channel sequences require configuration.",
+          "evidence": [
+            { "source": "G2 reviews", "text": "Onboarding rated 3–5 days for new users to fully utilize multi-channel and personalization features." }
+          ]
+        },
+        {
+          "dimension": "Deliverability",
+          "score": 8,
+          "notes": "Lemwarm warm-up tool is well-regarded. Built-in email verification reduces bounce rates.",
+          "evidence": [
+            { "source": "G2 reviews", "text": "Lemwarm network cited as effective for maintaining inbox placement on new domains." }
+          ]
+        }
+      ]
+    },
+    "evidenceSignals": {
+      "confidence": "medium-high",
+      "confidenceNote": "Assessment based on 1,500+ G2 reviews, Capterra reviews, and vendor documentation. No direct product testing.",
+      "sourcePills": [
+        { "text": "G2: 1,500+ reviews", "class": "" },
+        { "text": "Capterra: 380+ reviews", "class": "" },
+        { "text": "Vendor docs", "class": "" }
+      ],
+      "freshness": [
+        { "icon": "&#128197;", "text": "Data verified February 2026" }
+      ],
+      "evidenceGrid": [
+        { "icon": "&#10003;", "text": "Pricing verified from lemlist.com/pricing" },
+        { "icon": "&#10003;", "text": "G2 rating: 4.6/5 (1,500+ reviews)" },
+        { "icon": "&#10003;", "text": "Capterra rating: 4.6/5 (380+ reviews)" },
+        { "icon": "&#10003;", "text": "Affiliate program: 25% recurring for 12 months" }
+      ],
+      "strengthThemes": [
+        "Best personalization in the cold email category",
+        "Multi-channel (email + LinkedIn + phone) in one platform",
+        "AI icebreakers that produce genuinely unique first lines"
+      ],
+      "limitationThemes": [
+        "Per-user pricing is expensive at scale",
+        "LinkedIn automation carries ToS violation risk",
+        "More complex setup than pure cold email tools"
+      ]
+    },
+    "whereItBreaks": [
+      "At 10+ SDRs, the per-user pricing ($990+/month for Multi-Channel) exceeds what most SMBs budget for cold email tooling — Instantly or Saleshandy become more cost-effective",
+      "LinkedIn automation is against LinkedIn's Terms of Service. Aggressive automation settings have caused account restrictions for some users",
+      "For pure high-volume email campaigns (100K+ emails/month), Instantly's deliverability infrastructure and unlimited accounts model is better suited"
+    ],
+    "stackFit": {
+      "bestWith": ["Clay (data enrichment + personalization data)", "HubSpot (CRM)", "Apollo (prospecting database)"],
+      "replaces": ["Instantly (for teams prioritizing reply rate over volume)", "Outreach (for SMBs who don't need enterprise features)"],
+      "exampleStack": "Clay → Lemlist → HubSpot"
+    },
+    "alternatives": [
+      { "name": "Instantly", "url": "/tools/instantly-review.html", "reason": "Better for high-volume, lower cost per account" },
+      { "name": "Saleshandy", "url": "/tools/saleshandy-review.html", "reason": "Unlimited accounts at lower price; less personalization" },
+      { "name": "Outreach", "url": "/tools/outreach-review.html", "reason": "Enterprise-grade SEP with stronger CRM integration" }
+    ]
+  },
+  "sidebar": {
+    "quickStats": [
+      { "label": "G2 Rating", "value": "4.6/5" },
+      { "label": "Reviews", "value": "1,500+" },
+      { "label": "Starting Price", "value": "$55/user/mo" },
+      { "label": "Multi-Channel", "value": "Email + LinkedIn + Phone" },
+      { "label": "Free Trial", "value": "14 days" },
+      { "label": "Affiliate", "value": "25% recurring" }
+    ],
+    "ctaUrl": "https://salesaiguide.com/go/lemlist",
+    "ctaText": "Try Lemlist Free",
+    "relatedLinks": [
+      { "url": "/compare/lemlist-vs-instantly.html", "text": "Lemlist vs Instantly" },
+      { "url": "/compare/lemlist-vs-saleshandy.html", "text": "Lemlist vs Saleshandy" },
+      { "url": "/categories/cold-outreach.html", "text": "All Cold Email Tools" }
+    ]
+  },
+  "finalCta": {
+    "heading": "Ready to Try Lemlist?",
+    "body": "14-day free trial. No credit card required. Set up your first personalized multi-channel sequence in under 2 hours.",
+    "ctaUrl": "https://salesaiguide.com/go/lemlist",
+    "ctaText": "Start Free Trial"
+  },
+  "reviewSources": {
+    "sources": [
+      { "platform": "G2", "rating": 4.6, "reviews": 1500, "url": "https://www.g2.com/products/lemlist/reviews", "outOf": 5 },
+      { "platform": "Capterra", "rating": 4.6, "reviews": 383, "url": "https://www.capterra.com/p/153867/Lemlist/", "outOf": 5 }
+    ],
+    "consensusScore": 4.6,
+    "lastUpdated": "February 2026"
+  },
+  "lastVerified": "2026-02-25"
+}

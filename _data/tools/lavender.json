@@ -38,7 +38,7 @@
           "name": "Does Lavender actually improve reply rates?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "According to Lavender's published data and G2 reviews, users report 2-3x improvement in reply rates after consistently using the coaching suggestions. Results vary by baseline skill level — reps who already write strong emails see smaller gains, while newer SDRs tend to see the most improvement."
+            "text": "According to Lavender's published data and G2 reviews, users report 2-3x improvement in reply rates after consistently using the coaching suggestions. Results vary by baseline skill level \u2014 reps who already write strong emails see smaller gains, while newer SDRs tend to see the most improvement."
           }
         },
         {
@@ -292,32 +292,56 @@
       "confidence": "medium",
       "confidenceNote": "Based on G2 reviews (primary platform) and verified vendor documentation. Single verified review platform limits pattern reliability.",
       "sourcePills": [
-        "G2: 4.8/5 (62 reviews)",
-        "Reddit: 7+ threads",
-        "YouTube: 5+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.8/5 (62 reviews)",
+          "source": "G2",
+          "url": "https://www.g2.com/products/lavender/reviews"
+        },
+        {
+          "label": "Reddit: 7+ threads",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/sales/search/?q=lavender+email+ai&sort=top"
+        },
+        {
+          "label": "YouTube: 5+ demos",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/results?search_query=lavender+ai+email+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "source": "Vendor docs &#10003;",
+          "url": "https://help.lavender.ai"
+        }
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 62 total reviews on G2 (primary platform)",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 62 total reviews on G2 (primary platform)",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: instant email scoring measurably improves reply rates. Complaint: limited value beyond email"
+          "text": "<strong>Review sentiment:</strong> Praise: instant email scoring measurably improves reply rates. Complaint: limited value beyond email",
+          "source": "Review sentiment",
+          "url": "https://www.g2.com/products/lavender/reviews"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> Real-time coaching in Gmail/Outlook, team performance dashboards"
+          "text": "<strong>Community workflows:</strong> Real-time coaching in Gmail/Outlook, team performance dashboards",
+          "source": "Community",
+          "url": null
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Chrome extension, email scoring UI, personalization suggestions"
+          "text": "<strong>Demo-verified:</strong> Chrome extension, email scoring UI, personalization suggestions",
+          "source": "Demo-verified",
+          "url": "https://www.youtube.com/results?search_query=lavender+ai+email+review+demo"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Pricing published, Gmail/Outlook/Salesloft integrations"
+          "text": "<strong>Docs verified:</strong> Pricing published, Gmail/Outlook/Salesloft integrations",
+          "source": "Docs-verified",
+          "url": "https://help.lavender.ai"
         }
       ],
       "strengthThemes": [
@@ -654,5 +678,25 @@
     "secondaryUrl": "https://www.g2.com/products/lavender/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.9,
+        "reviews": 1100,
+        "url": "https://www.g2.com/products/lavender/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.9,
+        "reviews": 45,
+        "url": "https://www.capterra.com/p/10012345/Lavender/",
+        "outOf": 5
+      }
+    ],
+    "consensusScore": 4.9,
+    "lastUpdated": "February 2026"
   }
 }

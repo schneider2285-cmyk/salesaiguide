@@ -70,40 +70,71 @@
     <section style="padding: 5rem 0;">
         <div class="container">
             <div class="section-header">
-                <h2>Coming Soon</h2>
-                <p>We're working on in-depth guides to help you get the most out of AI sales tools</p>
+                <h2>Guides &amp; Buyer's Guides</h2>
+                <p>Evidence-based guides to help you evaluate and choose the right AI sales tools</p>
             </div>
 
-            <div class="category-grid" style="max-width: 1000px; margin: 0 auto 3rem;">
-                <div class="category-card" style="cursor: default;">
-                    <div class="category-icon">&#128218;</div>
-                    <h3>Getting Started Guides</h3>
-                    <p>Step-by-step setup guides for the top AI sales tools. From account creation to your first campaign.</p>
-                    <span class="tool-count">Coming Soon</span>
-                </div>
-                <div class="category-card" style="cursor: default;">
-                    <div class="category-icon">&#127919;</div>
-                    <h3>Sales Playbooks</h3>
-                    <p>Proven workflows and sequences that combine multiple AI tools for maximum pipeline generation.</p>
-                    <span class="tool-count">Coming Soon</span>
-                </div>
-                <div class="category-card" style="cursor: default;">
-                    <div class="category-icon">&#128200;</div>
-                    <h3>ROI Calculators</h3>
-                    <p>Figure out which tools deliver the best return for your team size, deal size, and sales motion.</p>
-                    <span class="tool-count">Coming Soon</span>
-                </div>
-                <div class="category-card" style="cursor: default;">
-                    <div class="category-icon">&#128161;</div>
-                    <h3>Tips &amp; Tricks</h3>
-                    <p>Power user tips, hidden features, and advanced strategies based on vendor docs and community guides.</p>
-                    <span class="tool-count">Coming Soon</span>
-                </div>
-            </div>
+            <style>
+              .guide-index-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; max-width: 1100px; margin: 0 auto 3rem; }
+              .guide-index-card { display: flex; flex-direction: column; background: #fff; border: 1px solid var(--warm-border); border-radius: 12px; padding: 1.75rem; text-decoration: none; color: inherit; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: box-shadow 0.2s, transform 0.2s; }
+              .guide-index-card:hover { box-shadow: 0 6px 20px rgba(0,0,0,0.1); transform: translateY(-2px); }
+              .guide-index-eyebrow { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-dark); margin-bottom: 0.5rem; }
+              .guide-index-title { font-size: 1.1rem; font-weight: 800; margin: 0 0 0.5rem; color: var(--navy-dark); line-height: 1.3; }
+              .guide-index-desc { font-size: 0.875rem; color: var(--text-light); line-height: 1.55; flex: 1; margin: 0 0 1rem; }
+              .guide-index-meta { font-size: 0.78rem; color: var(--text-light); }
+            </style>
 
-            <div style="text-align: center;">
-                <p style="color: var(--text-light); margin-bottom: 2rem; font-size: 1.1rem;">Want to be notified when new guides drop?</p>
-                <a href="../index.html#newsletter" class="btn btn-primary btn-outline-large" style="color: var(--navy-dark);">Subscribe to Updates</a>
+            <div class="guide-index-grid">
+
+              <a href="../blog/best-cold-email-tools-2026/" class="guide-index-card">
+                <div class="guide-index-eyebrow">Buyer's Guide &middot; 11 Tools</div>
+                <h3 class="guide-index-title">Best Cold Email Tools 2026</h3>
+                <p class="guide-index-desc">Instantly vs Smartlead vs Lemlist vs Saleshandy vs Apollo &mdash; deliverability, pricing, and real-world performance compared with evidence from G2, Reddit, and Capterra.</p>
+                <div class="guide-index-meta">Updated Feb 2026 &middot; 5,000 words</div>
+              </a>
+
+              <a href="../blog/best-ai-sdr-tools-2026/" class="guide-index-card">
+                <div class="guide-index-eyebrow">Buyer's Guide &middot; 5 Tools</div>
+                <h3 class="guide-index-title">Best AI SDR Tools 2026</h3>
+                <p class="guide-index-desc">Regie.ai, Artisan, 11x.ai, Clay, and Apollo evaluated for autonomous SDR capability, pricing, and real-world performance data.</p>
+                <div class="guide-index-meta">Updated Feb 2026 &middot; 1,800 words</div>
+              </a>
+
+              <a href="../blog/best-ai-tools-enterprise-sales/" class="guide-index-card">
+                <div class="guide-index-eyebrow">Guide &middot; Enterprise</div>
+                <h3 class="guide-index-title">Best AI Sales Tools for Enterprise Teams</h3>
+                <p class="guide-index-desc">A decision framework for enterprise buyers evaluating Gong, Outreach, Salesloft, Highspot, Seismic, and Clari.</p>
+                <div class="guide-index-meta">Updated Feb 2026</div>
+              </a>
+
+              <a href="../blog/best-ai-tools-account-executives/" class="guide-index-card">
+                <div class="guide-index-eyebrow">Guide &middot; Account Executives</div>
+                <h3 class="guide-index-title">Best AI Sales Tools for Account Executives</h3>
+                <p class="guide-index-desc">Deal intelligence, meeting prep, and pipeline management tools that help AEs close more deals without more admin work.</p>
+                <div class="guide-index-meta">Updated Feb 2026</div>
+              </a>
+
+              <a href="../blog/how-to-evaluate-ai-sales-tools/" class="guide-index-card">
+                <div class="guide-index-eyebrow">Framework</div>
+                <h3 class="guide-index-title">How to Evaluate AI Sales Tools</h3>
+                <p class="guide-index-desc">A repeatable framework for evaluating any AI sales tool: what to ask in demos, what to test in trials, and what red flags to watch for.</p>
+                <div class="guide-index-meta">Updated Feb 2026</div>
+              </a>
+
+              <a href="../blog/ai-sales-stack-fit-guide/" class="guide-index-card">
+                <div class="guide-index-eyebrow">Framework &middot; RevOps</div>
+                <h3 class="guide-index-title">AI Sales Stack Fit Guide</h3>
+                <p class="guide-index-desc">How to build a coherent AI sales stack: which tools play well together, which overlap, and how to avoid buying the same capability twice.</p>
+                <div class="guide-index-meta">Updated Feb 2026</div>
+              </a>
+
+              <a href="../blog/seo-ai-sales-stack-fit/" class="guide-index-card">
+                <div class="guide-index-eyebrow">Deep Dive</div>
+                <h3 class="guide-index-title">SEO + AI Sales Stack Fit</h3>
+                <p class="guide-index-desc">How the top AI sales tools integrate with your SEO and content marketing stack &mdash; for RevOps teams building full-funnel attribution.</p>
+                <div class="guide-index-meta">Updated Feb 2026</div>
+              </a>
+
             </div>
         </div>
     </section>

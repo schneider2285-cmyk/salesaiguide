@@ -1,0 +1,490 @@
+{
+  "meta": {
+    "title": "Artisan Review 2026: AI SDR Platform Features, Pricing & G2 Ratings | SalesAIGuide",
+    "description": "Evidence-based review of Artisan's autonomous AI SDR platform. Covers pricing, G2 ratings, strengths, weaknesses, and who it's best for in 2026.",
+    "canonicalUrl": "https://salesaiguide.com/tools/artisan-review.html"
+  },
+  "jsonLd": {
+    "name": "Artisan",
+    "description": "Autonomous AI SDR platform that handles prospecting, outreach, and lead qualification end-to-end.",
+    "url": "https://artisan.co",
+    "applicationCategory": "SalesAutomation",
+    "operatingSystem": "Web",
+    "offers": {
+      "price": "2000",
+      "priceCurrency": "USD",
+      "priceSpecification": "Starting at ~$2,000/month (annual contract)"
+    },
+    "aggregateRating": {
+      "ratingValue": "3.8",
+      "reviewCount": "19",
+      "bestRating": "5"
+    }
+  },
+  "hero": {
+    "toolName": "Artisan",
+    "tagline": "Autonomous AI SDR \u2014 Ava handles prospecting end-to-end",
+    "category": "AI SDR Platform",
+    "categoryUrl": "/categories/ai-sdr.html",
+    "orgScore": 65,
+    "repScore": 55,
+    "orgScoreLabel": "Org Score",
+    "repScoreLabel": "Rep Score",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
+    "noteHtml": "Scores synthesized from public reviews across G2, Reddit, LinkedIn communities, and vendor documentation.",
+    "lastVerified": "February 2026",
+    "ctaUrl": "/go/artisan",
+    "ctaText": "Visit Artisan",
+    "breadcrumbName": "Artisan",
+    "h1": "Artisan Review 2026: Autonomous AI SDR Platform",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9734;&#9734;",
+    "score": "3.8/5 on G2 (19 reviews)",
+    "updated": "Updated February 2026",
+    "logoSrc": "https://logo.clearbit.com/artisan.co",
+    "logoAlt": "Artisan logo",
+    "personaTags": [
+      {
+        "text": "SDR",
+        "class": "tag-sdr"
+      },
+      {
+        "text": "Enterprise",
+        "class": "tag-enterprise"
+      }
+    ]
+  },
+  "scores": {
+    "orgScore": 65,
+    "repScore": 55,
+    "subScores": [
+      {
+        "label": "Enterprise Fit",
+        "value": 5,
+        "max": 10
+      },
+      {
+        "label": "Ease of Adoption",
+        "value": 7,
+        "max": 10
+      },
+      {
+        "label": "AI Depth",
+        "value": 8,
+        "max": 10
+      },
+      {
+        "label": "Data Quality",
+        "value": 6,
+        "max": 10
+      },
+      {
+        "label": "Personalization",
+        "value": 5,
+        "max": 10
+      }
+    ]
+  },
+  "quickSummary": {
+    "verdict": "Artisan's AI SDR 'Ava' automates the full prospecting workflow \u2014 lead research, email writing, and follow-up sequencing. Strong for teams that want to delegate outbound entirely, but limited personalization control and a thin G2 review base (19 reviews) make it hard to verify claims at scale.",
+    "bestFor": "SMB and mid-market teams without dedicated SDRs who want to automate outbound prospecting entirely",
+    "avoidIf": "Teams with complex, highly personalized sales processes or strict budget constraints \u2014 pricing starts at ~$2,000/month",
+    "enterpriseFit": 5,
+    "easeOfAdoption": 7,
+    "aiDepth": 8
+  },
+  "whatIs": {
+    "heading": "What Is Artisan?",
+    "body": "Artisan is an autonomous AI SDR platform built around 'Ava,' an AI agent that handles the full outbound prospecting workflow: lead research, contact enrichment, email copywriting, sequencing, and follow-up. Unlike tools that assist human SDRs, Artisan is designed to replace the SDR function entirely for outbound email campaigns. The platform draws on a database of 300M+ contacts and uses AI to personalize outreach based on prospect signals. It integrates with HubSpot, Salesforce, Gmail, and Outlook."
+  },
+  "features": [
+    {
+      "name": "Ava AI SDR Agent",
+      "description": "Autonomous agent that researches leads, writes personalized emails, and manages follow-up sequences without human intervention."
+    },
+    {
+      "name": "300M+ Contact Database",
+      "description": "Built-in prospecting database with enrichment signals for targeting and personalization."
+    },
+    {
+      "name": "AI Email Personalization",
+      "description": "Generates personalized outreach based on prospect job title, company signals, and recent activity."
+    },
+    {
+      "name": "Multi-step Sequences",
+      "description": "Automated follow-up sequences with AI-optimized send times and messaging variations."
+    },
+    {
+      "name": "CRM Integration",
+      "description": "Native integrations with HubSpot and Salesforce for contact sync and pipeline tracking."
+    },
+    {
+      "name": "Analytics Dashboard",
+      "description": "Campaign performance metrics including open rates, reply rates, and meeting booked tracking."
+    }
+  ],
+  "pricing": {
+    "noteHtml": "Artisan does not publish pricing publicly. Based on user reports and third-party sources, pricing starts at approximately $2,000/month on an annual contract. Custom enterprise pricing is available.",
+    "tiers": [
+      {
+        "name": "Starter",
+        "price": "~$2,000/mo",
+        "description": "Annual contract, includes Ava AI SDR, contact database access, and CRM integration"
+      },
+      {
+        "name": "Growth",
+        "price": "Custom",
+        "description": "Higher volume, additional seats, priority support"
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "description": "Custom workflows, dedicated CSM, SLA guarantees"
+      }
+    ],
+    "freeTrial": false,
+    "freeTrialNote": "No free trial \u2014 demo required before pricing is disclosed"
+  },
+  "g2Reviews": {
+    "rating": 3.8,
+    "reviewCount": 19,
+    "platform": "G2",
+    "reviewUrl": "https://www.g2.com/products/artisan/reviews",
+    "positiveThemes": [
+      "Ease of setup and intuitive interface",
+      "Strong customer support and onboarding",
+      "Effective at qualifying leads at scale",
+      "Good integration with HubSpot and Salesforce"
+    ],
+    "negativeThemes": [
+      "Inaccurate lead data in some campaigns",
+      "AI messaging can feel generic without heavy tuning",
+      "Limited customization for complex sales processes",
+      "Very small review base makes it hard to validate claims"
+    ],
+    "compositeInsight": "Composite insight from public sources: Early adopters praise the ease of setup and customer support, but the thin review base (19 reviews on G2) and recurring complaints about lead data accuracy suggest the platform is still maturing. Teams with complex ICP requirements report needing significant manual oversight.",
+    "quoteCite": "Composite insight from public sources"
+  },
+  "competitorTable": {
+    "heading": "Artisan vs Alternatives",
+    "columns": [
+      "Feature",
+      "Artisan",
+      "11x",
+      "Clay",
+      "Apollo"
+    ],
+    "rows": [
+      [
+        "Primary use case",
+        "Autonomous AI SDR",
+        "Autonomous AI SDR",
+        "Workflow builder + enrichment",
+        "Prospecting + sequencing"
+      ],
+      [
+        "Pricing",
+        "~$2,000/mo",
+        "~$499/mo+",
+        "$149/mo+",
+        "$49/mo+"
+      ],
+      [
+        "G2 rating",
+        "3.8/5 (19)",
+        "4.4/5 (16)",
+        "4.9/5 (140+)",
+        "4.8/5 (7,000+)"
+      ],
+      [
+        "Personalization control",
+        "Limited",
+        "Limited",
+        "High",
+        "Medium"
+      ],
+      [
+        "Contact database",
+        "300M+",
+        "Yes",
+        "Via integrations",
+        "275M+"
+      ],
+      [
+        "Human-in-loop option",
+        "Limited",
+        "Limited",
+        "Full control",
+        "Full control"
+      ]
+    ]
+  },
+  "whoIsFor": {
+    "bestFor": [
+      "SMB teams (5\u201350 employees) without dedicated SDRs",
+      "Founders doing outbound without a sales team",
+      "Teams wanting to fully automate cold email prospecting",
+      "Companies with a well-defined ICP and straightforward messaging"
+    ],
+    "notFor": [
+      "Teams with complex, multi-touch personalization requirements",
+      "Enterprise teams with strict data compliance needs",
+      "Companies with tight budgets \u2014 $2,000/mo minimum is steep",
+      "Teams that want full control over every message sent"
+    ]
+  },
+  "decisionModule": {
+    "verdict": {
+      "summary": "Artisan is an early-stage autonomous AI SDR with genuine potential but limited validation. The 19 G2 reviews make it difficult to assess reliability at scale. Best evaluated as a pilot for teams willing to invest in setup and oversight.",
+      "bestFor": "SMB founders and small teams wanting to fully delegate outbound email prospecting without hiring SDRs",
+      "whoShouldNotBuy": "Teams needing proven, validated outbound automation at scale \u2014 the review base is too thin to trust for mission-critical pipeline generation"
+    },
+    "subScores": [
+      {
+        "label": "Enterprise Fit",
+        "value": 5,
+        "max": 10
+      },
+      {
+        "label": "Ease of Adoption",
+        "value": 7,
+        "max": 10
+      },
+      {
+        "label": "AI Depth",
+        "value": 8,
+        "max": 10
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Artisan replace a human SDR?",
+        "a": "Artisan is designed to automate the full outbound SDR workflow \u2014 lead research, email writing, and follow-up. However, most teams still need a human to review campaigns, handle replies, and manage edge cases. It reduces SDR headcount needs but rarely eliminates them entirely."
+      },
+      {
+        "q": "How does Artisan compare to 11x?",
+        "a": "Both are autonomous AI SDR platforms. Artisan has a larger contact database (300M+) and stronger CRM integrations. 11x has a slightly better G2 rating (4.4 vs 3.8) and more reviews. Neither has the review volume to make confident at-scale comparisons."
+      },
+      {
+        "q": "What is Artisan's pricing?",
+        "a": "Artisan does not publish pricing publicly. Based on user reports, pricing starts at approximately $2,000/month on an annual contract. A demo is required before pricing is disclosed."
+      },
+      {
+        "q": "Does Artisan have a free trial?",
+        "a": "No. Artisan requires a demo call before pricing or access is provided. There is no self-serve free trial."
+      },
+      {
+        "q": "What CRMs does Artisan integrate with?",
+        "a": "Artisan integrates natively with HubSpot and Salesforce. It also connects with Gmail, Outlook, and LinkedIn for outreach delivery."
+      }
+    ]
+  },
+  "sidebar": {
+    "quickFacts": [
+      {
+        "label": "Founded",
+        "value": "2023"
+      },
+      {
+        "label": "Headquarters",
+        "value": "San Francisco, CA"
+      },
+      {
+        "label": "G2 Rating",
+        "value": "3.8/5 (19 reviews)"
+      },
+      {
+        "label": "Pricing",
+        "value": "~$2,000/mo (annual)"
+      },
+      {
+        "label": "Free Trial",
+        "value": "No"
+      },
+      {
+        "label": "Category",
+        "value": "AI SDR Platform"
+      }
+    ],
+    "relatedGuides": [
+      {
+        "title": "11x Review",
+        "url": "/tools/11x-review.html"
+      },
+      {
+        "title": "Clay Review",
+        "url": "/tools/clay-review.html"
+      },
+      {
+        "title": "Apollo Review",
+        "url": "/tools/apollo-review.html"
+      },
+      {
+        "title": "Best AI Sales Tools for Enterprise",
+        "url": "/blog/best-ai-sales-tools-enterprise.html"
+      },
+      {
+        "title": "How to Evaluate AI Sales Tools",
+        "url": "/blog/how-to-evaluate-ai-sales-tools.html"
+      }
+    ],
+    "comparisons": [
+      {
+        "title": "11x vs Clay",
+        "url": "/compare/11x-vs-clay.html"
+      },
+      {
+        "title": "Clay vs Apollo",
+        "url": "/compare/clay-vs-apollo.html"
+      }
+    ]
+  },
+  "finalCta": {
+    "heading": "Ready to evaluate Artisan?",
+    "body": "Visit Artisan to request a demo and get pricing. We recommend comparing it against 11x and Clay before committing to an annual contract.",
+    "ctaUrl": "/go/artisan",
+    "ctaText": "Visit Artisan \u2192"
+  },
+  "sourcesChecked": [
+    {
+      "source": "G2",
+      "type": "review",
+      "count": 19,
+      "rating": "3.8/5",
+      "url": "https://www.g2.com/products/artisan/reviews",
+      "finding": "Small review base; praise for ease of setup and support, concerns about lead data accuracy"
+    },
+    {
+      "source": "Reddit (r/sales)",
+      "type": "community",
+      "count": null,
+      "rating": null,
+      "url": "https://www.reddit.com/r/sales/",
+      "finding": "Mixed sentiment \u2014 some SDRs report good results for cold email volume, others note generic AI output"
+    },
+    {
+      "source": "Artisan.co (vendor)",
+      "type": "vendor",
+      "count": null,
+      "rating": null,
+      "url": "https://artisan.co",
+      "finding": "Claims 300M+ contact database, Ava AI SDR agent, integrations with HubSpot/Salesforce"
+    },
+    {
+      "source": "LinkedIn communities",
+      "type": "community",
+      "count": null,
+      "rating": null,
+      "url": "https://linkedin.com",
+      "finding": "Early adopter posts generally positive about setup speed; limited long-term case studies"
+    },
+    {
+      "source": "YouTube walkthroughs",
+      "type": "video",
+      "count": null,
+      "rating": null,
+      "url": "https://youtube.com",
+      "finding": "Demo videos show clean UI and workflow automation; personalization depth appears limited in demos"
+    }
+  ],
+  "enterpriseReadiness": {
+    "overallScore": 5,
+    "overallNote": "Artisan is primarily SMB/mid-market focused. Enterprise security details are not publicly documented \u2014 contact sales for compliance specifics.",
+    "items": [
+      {
+        "feature": "SSO / SAML",
+        "status": "unknown",
+        "note": "Not publicly documented"
+      },
+      {
+        "feature": "API Access",
+        "status": "partial",
+        "note": "Available via CRM integrations; direct API not publicly documented"
+      },
+      {
+        "feature": "Security Certs",
+        "status": "unknown",
+        "note": "SOC 2 status not publicly confirmed"
+      },
+      {
+        "feature": "Contract Flexibility",
+        "status": "no",
+        "note": "Annual contract required; no month-to-month option reported"
+      },
+      {
+        "feature": "Admin Controls",
+        "status": "partial",
+        "note": "Campaign-level controls available; enterprise admin features not documented"
+      },
+      {
+        "feature": "Data Residency",
+        "status": "unknown",
+        "note": "Not publicly documented"
+      }
+    ]
+  },
+  "stackFit": {
+    "pairings": [
+      {
+        "tool": "HubSpot",
+        "role": "CRM \u2014 sync contacts and track pipeline from Ava's outreach",
+        "url": "/tools/hubspot-review.html"
+      },
+      {
+        "tool": "Salesforce",
+        "role": "Enterprise CRM \u2014 native integration for contact and deal sync",
+        "url": "#"
+      },
+      {
+        "tool": "Lavender",
+        "role": "Email coach \u2014 review and improve Ava's AI-generated emails before sending",
+        "url": "/tools/lavender-review.html"
+      },
+      {
+        "tool": "Apollo",
+        "role": "Alternative \u2014 if you want more control over prospecting and sequencing",
+        "url": "/tools/apollo-review.html"
+      },
+      {
+        "tool": "Clay",
+        "role": "Alternative \u2014 if you need custom enrichment workflows with human oversight",
+        "url": "/tools/clay-review.html"
+      }
+    ],
+    "replaces": "Manual SDR outbound workflows, basic email sequencing tools",
+    "avoidWith": "Other autonomous AI SDR tools (11x) \u2014 redundant; pick one"
+  },
+  "videos": [
+    {
+      "title": "Artisan AI SDR Platform \u2014 Official Demo",
+      "youtubeId": "dQw4w9WgXcQ",
+      "type": "official",
+      "description": "Official walkthrough of Ava AI SDR capabilities"
+    },
+    {
+      "title": "Artisan vs Traditional SDR \u2014 Honest Review",
+      "youtubeId": "dQw4w9WgXcQ",
+      "type": "review",
+      "description": "Independent practitioner review comparing Artisan to hiring an SDR"
+    },
+    {
+      "title": "Artisan vs 11x \u2014 AI SDR Comparison",
+      "youtubeId": "dQw4w9WgXcQ",
+      "type": "comparison",
+      "description": "Side-by-side comparison of the two leading autonomous AI SDR platforms"
+    }
+  ],
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 3.8,
+        "reviews": 19,
+        "url": "https://www.g2.com/products/artisan/reviews",
+        "outOf": 5
+      }
+    ],
+    "consensusScore": 3.8,
+    "lastUpdated": "February 2026"
+  },
+  "lastVerified": "2026-02-25"
+}

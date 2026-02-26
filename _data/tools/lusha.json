@@ -70,15 +70,24 @@
     "updated": "Updated February 2026",
     "dataSource": "Data from G2 & lusha.com",
     "personaTags": [
-      { "class": "for-reps", "text": "For Reps" }
+      {
+        "class": "for-reps",
+        "text": "For Reps"
+      }
     ]
   },
   "scores": {
-    "org": { "value": 58, "verdict": "Limited team features; better for individual use" },
-    "rep": { "value": 65, "verdict": "Fast and simple for daily prospecting" }
+    "org": {
+      "value": 58,
+      "verdict": "Limited team features; better for individual use"
+    },
+    "rep": {
+      "value": 65,
+      "verdict": "Fast and simple for daily prospecting"
+    }
   },
   "quickSummary": {
-    "whatItDoes": "Chrome extension for quick LinkedIn contact lookup — find emails and phone numbers from LinkedIn profiles in seconds.",
+    "whatItDoes": "Chrome extension for quick LinkedIn contact lookup \u2014 find emails and phone numbers from LinkedIn profiles in seconds.",
     "bestFor": "Individual reps who need fast, low-friction contact data without complex platform setup or workflows.",
     "pricing": "Free (5 credits/mo). Pro from $29/mo. Scale from $51/mo. Enterprise custom.",
     "ctaUrl": "/go/lusha",
@@ -86,17 +95,35 @@
   },
   "whatIs": {
     "paragraphs": [
-      "Lusha is a contact intelligence platform designed for speed. Its Chrome extension lets sales reps pull verified emails and phone numbers from LinkedIn profiles with a single click. With a free tier and self-serve pricing, it's one of the lowest-friction prospecting tools available — though the smaller database and limited features mean it works better for individual reps than for teams running complex enrichment workflows."
+      "Lusha is a contact intelligence platform designed for speed. Its Chrome extension lets sales reps pull verified emails and phone numbers from LinkedIn profiles with a single click. With a free tier and self-serve pricing, it's one of the lowest-friction prospecting tools available \u2014 though the smaller database and limited features mean it works better for individual reps than for teams running complex enrichment workflows."
     ],
     "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/lusha/reviews\" target=\"_blank\" rel=\"noopener\">Lusha on G2</a>."
   },
   "features": [
-    { "title": "Chrome Extension", "description": "One-click contact lookup from LinkedIn profiles with email and phone reveal." },
-    { "title": "Free Tier", "description": "5 credits per month at no cost; enough for light prospecting." },
-    { "title": "Bulk Enrichment", "description": "Upload CSV lists for batch contact enrichment on paid plans." },
-    { "title": "CRM Integration", "description": "Push contacts directly to Salesforce, HubSpot, or Pipedrive." },
-    { "title": "Team Management", "description": "Credit pooling and usage tracking on Scale and Enterprise plans." },
-    { "title": "API Access", "description": "REST API for programmatic contact enrichment on higher tiers." }
+    {
+      "title": "Chrome Extension",
+      "description": "One-click contact lookup from LinkedIn profiles with email and phone reveal."
+    },
+    {
+      "title": "Free Tier",
+      "description": "5 credits per month at no cost; enough for light prospecting."
+    },
+    {
+      "title": "Bulk Enrichment",
+      "description": "Upload CSV lists for batch contact enrichment on paid plans."
+    },
+    {
+      "title": "CRM Integration",
+      "description": "Push contacts directly to Salesforce, HubSpot, or Pipedrive."
+    },
+    {
+      "title": "Team Management",
+      "description": "Credit pooling and usage tracking on Scale and Enterprise plans."
+    },
+    {
+      "title": "API Access",
+      "description": "REST API for programmatic contact enrichment on higher tiers."
+    }
   ],
   "pricing": {
     "note": "Pricing from lusha.com. Verify on their site before purchasing.",
@@ -156,35 +183,186 @@
   "g2Reviews": {
     "intro": "Based on 1,400+ reviews on G2 (4.3/5 rating):",
     "pros": [
-      { "bold": "Speed and simplicity", "text": "Chrome extension works instantly from LinkedIn" },
-      { "bold": "Free tier", "text": "5 credits/month lets anyone try before buying" },
-      { "bold": "Email accuracy", "text": "US email data is generally reliable" },
-      { "bold": "Low learning curve", "text": "No training needed; install extension and start prospecting" },
-      { "bold": "Self-serve pricing", "text": "Transparent pricing with no sales call required" }
+      {
+        "bold": "Speed and simplicity",
+        "text": "Chrome extension works instantly from LinkedIn"
+      },
+      {
+        "bold": "Free tier",
+        "text": "5 credits/month lets anyone try before buying"
+      },
+      {
+        "bold": "Email accuracy",
+        "text": "US email data is generally reliable"
+      },
+      {
+        "bold": "Low learning curve",
+        "text": "No training needed; install extension and start prospecting"
+      },
+      {
+        "bold": "Self-serve pricing",
+        "text": "Transparent pricing with no sales call required"
+      }
     ],
     "cons": [
-      { "bold": "Smaller database", "text": "Less coverage than ZoomInfo or Apollo for niche industries" },
-      { "bold": "EU data accuracy", "text": "European contact data less reliable than US data" },
-      { "bold": "Limited features", "text": "No sequences, email sending, or AI enrichment" },
-      { "bold": "Credit limits", "text": "480 credits on Pro burns fast for active prospectors" },
-      { "bold": "Phone number quality", "text": "Direct dial accuracy lower than Cognism's verified numbers" }
+      {
+        "bold": "Smaller database",
+        "text": "Less coverage than ZoomInfo or Apollo for niche industries"
+      },
+      {
+        "bold": "EU data accuracy",
+        "text": "European contact data less reliable than US data"
+      },
+      {
+        "bold": "Limited features",
+        "text": "No sequences, email sending, or AI enrichment"
+      },
+      {
+        "bold": "Credit limits",
+        "text": "480 credits on Pro burns fast for active prospectors"
+      },
+      {
+        "bold": "Phone number quality",
+        "text": "Direct dial accuracy lower than Cognism's verified numbers"
+      }
     ],
     "link": "https://www.g2.com/products/lusha/reviews"
   },
   "competitorTable": {
-    "headers": ["Feature", "Lusha", "Apollo", "LeadIQ"],
+    "headers": [
+      "Feature",
+      "Lusha",
+      "Apollo",
+      "LeadIQ"
+    ],
     "rows": [
-      { "feature": "G2 Rating", "featureBold": true, "values": [{ "text": "4.3/5 (1,400+)" }, { "text": "4.8/5 (7,200)" }, { "text": "4.2/5 (900+)" }] },
-      { "feature": "Free Tier", "featureBold": false, "values": [{ "text": "&#10003; 5 credits", "class": "check" }, { "text": "&#10003; 150 credits", "class": "check" }, { "text": "&#10003; 20 leads/wk", "class": "check" }] },
-      { "feature": "Chrome Extension", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "Email Sending", "featureBold": false, "values": [{ "text": "&#10007;", "class": "cross" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }] },
-      { "feature": "AI Features", "featureBold": false, "values": [{ "text": "&#10007;", "class": "cross" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003; Scribe AI", "class": "check" }] },
-      { "feature": "Starting Price", "featureBold": false, "values": [{ "text": "$29/mo" }, { "text": "$49/mo" }, { "text": "$39/mo" }] },
-      { "feature": "Database Size", "featureBold": false, "values": [{ "text": "100M+" }, { "text": "275M+" }, { "text": "100M+" }] }
+      {
+        "feature": "G2 Rating",
+        "featureBold": true,
+        "values": [
+          {
+            "text": "4.3/5 (1,400+)"
+          },
+          {
+            "text": "4.8/5 (7,200)"
+          },
+          {
+            "text": "4.2/5 (900+)"
+          }
+        ]
+      },
+      {
+        "feature": "Free Tier",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003; 5 credits",
+            "class": "check"
+          },
+          {
+            "text": "&#10003; 150 credits",
+            "class": "check"
+          },
+          {
+            "text": "&#10003; 20 leads/wk",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Chrome Extension",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Email Sending",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          }
+        ]
+      },
+      {
+        "feature": "AI Features",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003; Scribe AI",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Starting Price",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "$29/mo"
+          },
+          {
+            "text": "$49/mo"
+          },
+          {
+            "text": "$39/mo"
+          }
+        ]
+      },
+      {
+        "feature": "Database Size",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "100M+"
+          },
+          {
+            "text": "275M+"
+          },
+          {
+            "text": "100M+"
+          }
+        ]
+      }
     ],
     "seeFullLinks": [
-      { "text": "LeadIQ vs Lusha", "url": "/compare/leadiq-vs-lusha.html" },
-      { "text": "Lusha vs Apollo", "url": "/compare/lusha-vs-apollo.html" }
+      {
+        "text": "LeadIQ vs Lusha",
+        "url": "/compare/leadiq-vs-lusha.html"
+      },
+      {
+        "text": "Lusha vs Apollo",
+        "url": "/compare/lusha-vs-apollo.html"
+      }
     ]
   },
   "whoIsFor": {
@@ -227,12 +405,30 @@
       }
     },
     "subScores": [
-      { "label": "Enterprise Fit", "score": "4/10" },
-      { "label": "Ease of Adoption", "score": "9/10" },
-      { "label": "AI Depth", "score": "3/10" },
-      { "label": "Integration Depth", "score": "6/10" },
-      { "label": "Pricing Transparency", "score": "9/10" },
-      { "label": "Scalability", "score": "5/10" }
+      {
+        "label": "Enterprise Fit",
+        "score": "4/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "9/10"
+      },
+      {
+        "label": "AI Depth",
+        "score": "3/10"
+      },
+      {
+        "label": "Integration Depth",
+        "score": "6/10"
+      },
+      {
+        "label": "Pricing Transparency",
+        "score": "9/10"
+      },
+      {
+        "label": "Scalability",
+        "score": "5/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
@@ -242,10 +438,22 @@
           "score": 4,
           "notes": "Limited team management; better for SMB and individual use",
           "evidence": [
-            { "source": "G2", "text": "Enterprise reviewers note lack of advanced admin controls and governance" },
-            { "source": "Vendor", "text": "Team features available on Scale plan but limited vs. enterprise tools" },
-            { "source": "TrustRadius", "text": "Mid-market teams report outgrowing Lusha within 6-12 months" },
-            { "source": "Reddit", "text": "Multiple threads recommend switching to ZoomInfo or Apollo at scale" }
+            {
+              "source": "G2",
+              "text": "Enterprise reviewers note lack of advanced admin controls and governance"
+            },
+            {
+              "source": "Vendor",
+              "text": "Team features available on Scale plan but limited vs. enterprise tools"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Mid-market teams report outgrowing Lusha within 6-12 months"
+            },
+            {
+              "source": "Reddit",
+              "text": "Multiple threads recommend switching to ZoomInfo or Apollo at scale"
+            }
           ]
         },
         {
@@ -253,10 +461,22 @@
           "score": 9,
           "notes": "Chrome extension installs in 2 minutes; no training needed",
           "evidence": [
-            { "source": "G2", "text": "92% of reviewers rate ease of use 4/5 or higher" },
-            { "source": "Vendor", "text": "Chrome extension onboarding takes under 5 minutes per rep" },
-            { "source": "Capterra", "text": "Consistently praised as the simplest prospecting tool available" },
-            { "source": "Reddit", "text": "Recommended as the first tool for new SDRs in multiple threads" }
+            {
+              "source": "G2",
+              "text": "92% of reviewers rate ease of use 4/5 or higher"
+            },
+            {
+              "source": "Vendor",
+              "text": "Chrome extension onboarding takes under 5 minutes per rep"
+            },
+            {
+              "source": "Capterra",
+              "text": "Consistently praised as the simplest prospecting tool available"
+            },
+            {
+              "source": "Reddit",
+              "text": "Recommended as the first tool for new SDRs in multiple threads"
+            }
           ]
         },
         {
@@ -264,9 +484,18 @@
           "score": 3,
           "notes": "No AI features; straightforward contact lookup and enrichment",
           "evidence": [
-            { "source": "G2", "text": "No mentions of AI features in recent reviews" },
-            { "source": "Vendor", "text": "No AI enrichment, writing, or automation tools on the platform" },
-            { "source": "Reddit", "text": "Users note lack of AI features compared to newer tools like Clay or LeadIQ" }
+            {
+              "source": "G2",
+              "text": "No mentions of AI features in recent reviews"
+            },
+            {
+              "source": "Vendor",
+              "text": "No AI enrichment, writing, or automation tools on the platform"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users note lack of AI features compared to newer tools like Clay or LeadIQ"
+            }
           ]
         },
         {
@@ -274,10 +503,22 @@
           "score": 6,
           "notes": "Salesforce, HubSpot, Pipedrive; limited vs. enterprise tools",
           "evidence": [
-            { "source": "G2", "text": "CRM integrations work but are basic compared to Cognism or ZoomInfo" },
-            { "source": "Vendor", "text": "Native Salesforce, HubSpot, Pipedrive connectors; API on Scale+" },
-            { "source": "Capterra", "text": "Reliable CRM push but no advanced sync or workflow triggers" },
-            { "source": "TrustRadius", "text": "Integration depth sufficient for SMB; enterprise teams need more" }
+            {
+              "source": "G2",
+              "text": "CRM integrations work but are basic compared to Cognism or ZoomInfo"
+            },
+            {
+              "source": "Vendor",
+              "text": "Native Salesforce, HubSpot, Pipedrive connectors; API on Scale+"
+            },
+            {
+              "source": "Capterra",
+              "text": "Reliable CRM push but no advanced sync or workflow triggers"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Integration depth sufficient for SMB; enterprise teams need more"
+            }
           ]
         },
         {
@@ -285,9 +526,18 @@
           "score": 9,
           "notes": "Clear public pricing with free tier; no sales call needed",
           "evidence": [
-            { "source": "Vendor", "text": "All pricing published on lusha.com with feature breakdowns" },
-            { "source": "G2", "text": "Pricing transparency praised as a differentiator vs. Cognism/ZoomInfo" },
-            { "source": "Reddit", "text": "Users appreciate being able to start free and upgrade without sales calls" }
+            {
+              "source": "Vendor",
+              "text": "All pricing published on lusha.com with feature breakdowns"
+            },
+            {
+              "source": "G2",
+              "text": "Pricing transparency praised as a differentiator vs. Cognism/ZoomInfo"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users appreciate being able to start free and upgrade without sales calls"
+            }
           ]
         },
         {
@@ -295,9 +545,18 @@
           "score": 5,
           "notes": "Credit model limits scale; expensive at high volume",
           "evidence": [
-            { "source": "G2", "text": "Teams of 10+ report credit constraints on Pro and Scale plans" },
-            { "source": "Reddit", "text": "Cost per contact increases vs. enterprise tools at volume" },
-            { "source": "TrustRadius", "text": "Scales to 5-10 reps before teams typically migrate to larger platforms" }
+            {
+              "source": "G2",
+              "text": "Teams of 10+ report credit constraints on Pro and Scale plans"
+            },
+            {
+              "source": "Reddit",
+              "text": "Cost per contact increases vs. enterprise tools at volume"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Scales to 5-10 reps before teams typically migrate to larger platforms"
+            }
           ]
         }
       ]
@@ -318,10 +577,22 @@
         "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
-        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: speed and simplicity. Complaint: small database and limited features" },
-        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> LinkedIn lookup, CRM push, basic list building" },
-        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Chrome extension, LinkedIn integration, CRM sync" },
-        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Pricing tiers, credit allocations, API documentation" }
+        {
+          "icon": "&#x1F4CA;",
+          "text": "<strong>Review sentiment:</strong> Praise: speed and simplicity. Complaint: small database and limited features"
+        },
+        {
+          "icon": "&#x1F4AC;",
+          "text": "<strong>Community workflows:</strong> LinkedIn lookup, CRM push, basic list building"
+        },
+        {
+          "icon": "&#x1F3A5;",
+          "text": "<strong>Demo-verified:</strong> Chrome extension, LinkedIn integration, CRM sync"
+        },
+        {
+          "icon": "&#x1F4C4;",
+          "text": "<strong>Docs verified:</strong> Pricing tiers, credit allocations, API documentation"
+        }
       ],
       "strengthThemes": [
         "Fastest path from LinkedIn to contact data",
@@ -342,7 +613,11 @@
         "sentimentIcon": "&#9650;",
         "heading": "Fastest prospecting tool for LinkedIn workflows",
         "synthesis": "The dominant theme across all review platforms: Lusha's Chrome extension is the fastest way to get from a LinkedIn profile to verified contact data. Reps consistently report it takes under 10 seconds to reveal an email and phone number, with no platform login or workflow setup required.",
-        "sources": ["G2: 112 mentions", "Capterra: 28 mentions", "Reddit: 7 threads"],
+        "sources": [
+          "G2: 112 mentions",
+          "Capterra: 28 mentions",
+          "Reddit: 7 threads"
+        ],
         "quote": "\"Lusha is the fastest prospecting tool I've ever used. Click the extension on LinkedIn, get the email, push to Salesforce. Done in 10 seconds.\"",
         "quoteCite": "Synthesized from G2 and Capterra review themes"
       },
@@ -351,7 +626,11 @@
         "sentimentIcon": "&#9660;",
         "heading": "Database size limits coverage for niche industries",
         "synthesis": "The most frequent complaint: Lusha's database is smaller than Apollo or ZoomInfo, leading to more missed contacts in niche industries, small companies, and non-US markets. Active prospectors report hitting dead ends more often than with larger databases.",
-        "sources": ["G2: 78 mentions", "Reddit: 8 threads", "TrustRadius: 14 mentions"],
+        "sources": [
+          "G2: 78 mentions",
+          "Reddit: 8 threads",
+          "TrustRadius: 14 mentions"
+        ],
         "quote": "\"Lusha works great for standard B2B companies, but when I'm prospecting into niche verticals or companies under 50 employees, I get a lot of 'no data available' results.\"",
         "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
@@ -360,7 +639,11 @@
         "sentimentIcon": "&#9644;",
         "heading": "Free tier is great for testing but credits burn fast",
         "synthesis": "Users appreciate the free tier as a no-risk entry point, but 5 credits per month is only enough for occasional prospecting. Even the Pro plan's 480 credits can run out quickly for active SDRs, pushing teams toward the more expensive Scale plan or considering alternatives like Apollo.",
-        "sources": ["G2: 56 mentions", "Reddit: 4 threads", "Capterra: 12 mentions"],
+        "sources": [
+          "G2: 56 mentions",
+          "Reddit: 4 threads",
+          "Capterra: 12 mentions"
+        ],
         "quote": "\"Started on the free tier and loved the simplicity. But once I went Pro, I burned through 480 credits in two weeks. At that volume, Apollo's unlimited plan starts looking better.\"",
         "quoteCite": "Synthesized from G2 and Capterra review themes"
       }
@@ -396,21 +679,60 @@
     ],
     "implementationReality": {
       "stats": [
-        { "number": "5 minutes", "label": "Time to Value" },
-        { "number": "None", "label": "Setup Complexity" },
-        { "number": "None", "label": "RevOps Lift" },
-        { "number": "None", "label": "Training Required" },
-        { "number": "None", "label": "Data Migration" }
+        {
+          "number": "5 minutes",
+          "label": "Time to Value"
+        },
+        {
+          "number": "None",
+          "label": "Setup Complexity"
+        },
+        {
+          "number": "None",
+          "label": "RevOps Lift"
+        },
+        {
+          "number": "None",
+          "label": "Training Required"
+        },
+        {
+          "number": "None",
+          "label": "Data Migration"
+        }
       ],
       "note": "Install Chrome extension, create account, start revealing contacts. No setup, no onboarding, no training. Fastest time-to-value of any prospecting tool."
     },
     "enterpriseReadiness": [
-      { "label": "SSO / SAML", "value": "Enterprise plan only", "class": "dm-partial" },
-      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
-      { "label": "GDPR", "value": "GDPR compliant", "class": "dm-available" },
-      { "label": "RBAC", "value": "Basic team roles on Scale+", "class": "dm-partial" },
-      { "label": "Data Residency", "value": "Not specified", "class": "dm-unavailable" },
-      { "label": "SLA", "value": "No public SLA", "class": "dm-unavailable" }
+      {
+        "label": "SSO / SAML",
+        "value": "Enterprise plan only",
+        "class": "dm-partial"
+      },
+      {
+        "label": "SOC 2",
+        "value": "SOC 2 Type II certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "GDPR",
+        "value": "GDPR compliant",
+        "class": "dm-available"
+      },
+      {
+        "label": "RBAC",
+        "value": "Basic team roles on Scale+",
+        "class": "dm-partial"
+      },
+      {
+        "label": "Data Residency",
+        "value": "Not specified",
+        "class": "dm-unavailable"
+      },
+      {
+        "label": "SLA",
+        "value": "No public SLA",
+        "class": "dm-unavailable"
+      }
     ],
     "whoThisIsFor": {
       "org": {
@@ -432,21 +754,71 @@
     },
     "stackPairings": {
       "cards": [
-        { "title": "Apollo.io", "titleLink": "apollo-review.html", "description": "Lusha for quick lookup; Apollo for sequences and email sending." },
-        { "title": "Instantly", "titleLink": "instantly-review.html", "description": "Lusha finds contacts; Instantly sends cold email at scale." },
-        { "title": "HubSpot CRM", "titleLink": "hubspot-review.html", "description": "Push Lusha contacts directly into HubSpot for pipeline management." },
-        { "title": "Outreach", "titleLink": "outreach-review.html", "description": "Lusha data feeds Outreach sequences for multi-channel outreach." },
-        { "title": "Lavender", "titleLink": "lavender-review.html", "description": "Lusha finds the contact; Lavender helps write the email." }
+        {
+          "title": "Apollo.io",
+          "titleLink": "apollo-review.html",
+          "description": "Lusha for quick lookup; Apollo for sequences and email sending."
+        },
+        {
+          "title": "Instantly",
+          "titleLink": "instantly-review.html",
+          "description": "Lusha finds contacts; Instantly sends cold email at scale."
+        },
+        {
+          "title": "HubSpot CRM",
+          "titleLink": "hubspot-review.html",
+          "description": "Push Lusha contacts directly into HubSpot for pipeline management."
+        },
+        {
+          "title": "Outreach",
+          "titleLink": "outreach-review.html",
+          "description": "Lusha data feeds Outreach sequences for multi-channel outreach."
+        },
+        {
+          "title": "Lavender",
+          "titleLink": "lavender-review.html",
+          "description": "Lusha finds the contact; Lavender helps write the email."
+        }
       ],
       "exampleStack": "Lusha (contacts) &#8594; Instantly (send) &#8594; HubSpot (CRM) &#8594; Lavender (writing)"
     },
     "alternatives": {
       "rows": [
-        { "tool": "Apollo.io", "toolLink": "apollo-review.html", "bestFor": "All-in-one prospecting + sending", "g2": "4.8/5", "price": "From $49/mo" },
-        { "tool": "LeadIQ", "toolLink": "leadiq-review.html", "bestFor": "LinkedIn prospecting with AI writing", "g2": "4.2/5", "price": "From $39/mo" },
-        { "tool": "Cognism", "toolLink": "cognism-review.html", "bestFor": "EMEA data with verified mobiles", "g2": "4.6/5", "price": "Custom" },
-        { "tool": "ZoomInfo", "toolLink": "zoominfo-review.html", "bestFor": "Enterprise-grade B2B data", "g2": "4.4/5", "price": "From $15K/yr" },
-        { "tool": "Clay", "toolLink": "clay-review.html", "bestFor": "Multi-source waterfall enrichment", "g2": "4.9/5", "price": "From $149/mo" }
+        {
+          "tool": "Apollo.io",
+          "toolLink": "apollo-review.html",
+          "bestFor": "All-in-one prospecting + sending",
+          "g2": "4.8/5",
+          "price": "From $49/mo"
+        },
+        {
+          "tool": "LeadIQ",
+          "toolLink": "leadiq-review.html",
+          "bestFor": "LinkedIn prospecting with AI writing",
+          "g2": "4.2/5",
+          "price": "From $39/mo"
+        },
+        {
+          "tool": "Cognism",
+          "toolLink": "cognism-review.html",
+          "bestFor": "EMEA data with verified mobiles",
+          "g2": "4.6/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "ZoomInfo",
+          "toolLink": "zoominfo-review.html",
+          "bestFor": "Enterprise-grade B2B data",
+          "g2": "4.4/5",
+          "price": "From $15K/yr"
+        },
+        {
+          "tool": "Clay",
+          "toolLink": "clay-review.html",
+          "bestFor": "Multi-source waterfall enrichment",
+          "g2": "4.9/5",
+          "price": "From $149/mo"
+        }
       ]
     },
     "faqs": [
@@ -477,23 +849,53 @@
     "altText": "See Alternatives",
     "altUrl": "/compare/index.html",
     "atAGlance": [
-      { "label": "G2 Rating", "value": "4.3/5" },
-      { "label": "G2 Reviews", "value": "1,400+" },
-      { "label": "Starting Price", "value": "Free / $29/mo" },
-      { "label": "Category", "value": "Contact Intelligence" },
-      { "label": "Free Trial", "value": "Yes (free tier)" }
+      {
+        "label": "G2 Rating",
+        "value": "4.3/5"
+      },
+      {
+        "label": "G2 Reviews",
+        "value": "1,400+"
+      },
+      {
+        "label": "Starting Price",
+        "value": "Free / $29/mo"
+      },
+      {
+        "label": "Category",
+        "value": "Contact Intelligence"
+      },
+      {
+        "label": "Free Trial",
+        "value": "Yes (free tier)"
+      }
     ],
     "ctaUrl": "/go/lusha",
     "comparisons": [
-      { "text": "LeadIQ vs Lusha", "url": "/compare/leadiq-vs-lusha.html" },
-      { "text": "Lusha vs Apollo", "url": "/compare/lusha-vs-apollo.html" }
+      {
+        "text": "LeadIQ vs Lusha",
+        "url": "/compare/leadiq-vs-lusha.html"
+      },
+      {
+        "text": "Lusha vs Apollo",
+        "url": "/compare/lusha-vs-apollo.html"
+      }
     ],
     "externalReviews": [
-      { "text": "G2 Reviews", "url": "https://www.g2.com/products/lusha/reviews" }
+      {
+        "text": "G2 Reviews",
+        "url": "https://www.g2.com/products/lusha/reviews"
+      }
     ],
     "relatedGuides": [
-      { "text": "Best Data Enrichment Tools", "url": "/guides/best-data-enrichment-tools.html" },
-      { "text": "Best Sales Intelligence Tools", "url": "/guides/best-sales-intelligence-tools.html" }
+      {
+        "text": "Best Data Enrichment Tools",
+        "url": "/guides/best-data-enrichment-tools.html"
+      },
+      {
+        "text": "Best Sales Intelligence Tools",
+        "url": "/guides/best-sales-intelligence-tools.html"
+      }
     ],
     "emailCard": {
       "heading": "Weekly Tool Intel",
@@ -508,5 +910,32 @@
     "secondaryUrl": "https://www.g2.com/products/lusha/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.3,
+        "reviews": 1500,
+        "url": "https://www.g2.com/products/lusha/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.0,
+        "reviews": 360,
+        "url": "https://www.capterra.com/p/10007654/Lusha/",
+        "outOf": 5
+      },
+      {
+        "platform": "TrustRadius",
+        "rating": 7.6,
+        "reviews": 210,
+        "url": "https://www.trustradius.com/products/lusha/reviews",
+        "outOf": 10
+      }
+    ],
+    "consensusScore": 4.2,
+    "lastUpdated": "February 2026"
   }
 }

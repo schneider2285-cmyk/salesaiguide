@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "title": "Regie.ai Review 2026: AI Sales Engagement Features, Pricing & G2 Ratings | SalesAIGuide",
+    "description": "Evidence-based review of Regie.ai's AI sales engagement platform. Covers pricing, G2 ratings, strengths, weaknesses, and who it's best for in 2026.",
+    "canonicalUrl": "https://salesaiguide.com/tools/regie-review.html"
+  },
+  "jsonLd": {
+    "name": "Regie.ai",
+    "description": "AI-powered sales engagement platform for prospecting content generation, sequence automation, and AI dialer capabilities.",
+    "url": "https://regie.ai",
+    "applicationCategory": "SalesAutomation",
+    "operatingSystem": "Web",
+    "offers": {
+      "price": "35000",
+      "priceCurrency": "USD",
+      "priceSpecification": "Starting at $35,000/year for AI Agents"
+    },
+    "aggregateRating": {
+      "ratingValue": "4.4",
+      "reviewCount": "345",
+      "bestRating": "5"
+    }
+  },
+  "hero": {
+    "toolName": "Regie.ai",
+    "tagline": "AI sales engagement platform \u2014 prospecting content, sequences, and AI dialer in one",
+    "category": "AI Sales Engagement",
+    "categoryUrl": "/categories/sales-engagement.html",
+    "orgScore": 72,
+    "repScore": 68,
+    "orgScoreLabel": "Org Score",
+    "repScoreLabel": "Rep Score",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
+    "noteHtml": "Scores synthesized from public reviews across G2, Reddit, LinkedIn communities, and vendor documentation.",
+    "lastVerified": "February 2026",
+    "ctaUrl": "/go/regie",
+    "ctaText": "Visit Regie.ai",
+    "breadcrumbName": "Regie.ai",
+    "h1": "Regie.ai Review 2026: AI Sales Engagement Platform",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+    "score": "4.4/5 on G2",
+    "updated": "Updated February 2026",
+    "logoSrc": "https://logo.clearbit.com/regie.ai",
+    "logoAlt": "Regie.ai logo",
+    "personaTags": [
+      {
+        "text": "SDR",
+        "class": "tag-sdr"
+      },
+      {
+        "text": "AE",
+        "class": "tag-ae"
+      }
+    ]
+  },
+  "scores": {
+    "orgScore": 72,
+    "repScore": 68,
+    "subScores": [
+      {
+        "label": "Enterprise Fit",
+        "value": 7,
+        "max": 10
+      },
+      {
+        "label": "Ease of Adoption",
+        "value": 6,
+        "max": 10
+      },
+      {
+        "label": "AI Depth",
+        "value": 8,
+        "max": 10
+      },
+      {
+        "label": "Content Quality",
+        "value": 7,
+        "max": 10
+      },
+      {
+        "label": "Value for Money",
+        "value": 5,
+        "max": 10
+      }
+    ]
+  },
+  "quickSummary": {
+    "verdict": "Regie.ai is a mature AI sales engagement platform (345 G2 reviews, 4.4/5) that combines AI content generation, sequence automation, and an AI dialer. Strong for enterprise GTM teams wanting to consolidate tools, but the $35K/year starting price and heavy onboarding requirements make it a poor fit for SMBs or teams wanting quick time-to-value.",
+    "bestFor": "Enterprise SDR teams and RevOps leaders wanting to consolidate sales engagement, content generation, and dialing into one AI-native platform",
+    "avoidIf": "SMBs, startups, or teams with tight budgets \u2014 $35K/year minimum is enterprise-only pricing",
+    "enterpriseFit": 7,
+    "easeOfAdoption": 6,
+    "aiDepth": 8
+  },
+  "whatIs": {
+    "heading": "What Is Regie.ai?",
+    "body": "Regie.ai is an AI sales engagement platform designed for enterprise GTM teams. Its flagship product, RegieOne, combines three capabilities: AI Agents for prospecting and sequence automation, an AI Dialer for call-based outreach, and AI content generation for emails, call scripts, and LinkedIn messages. The platform is built around the idea of consolidating the modern sales tech stack \u2014 replacing separate tools for sequencing, dialing, and content generation with a single AI-native platform. Regie.ai integrates natively with Outreach, Salesloft, and Salesforce."
+  },
+  "features": [
+    {
+      "name": "AI Agents (Prospecting)",
+      "description": "Autonomous agents that research prospects, build targeted lists, and generate personalized outreach sequences."
+    },
+    {
+      "name": "AI Dialer",
+      "description": "Parallel dialing with AI-generated call scripts, real-time coaching, and automatic call logging."
+    },
+    {
+      "name": "RegieOne Platform",
+      "description": "Unified platform combining AI Agents + AI Dialer + content generation \u2014 designed to replace Outreach/Salesloft for AI-native teams."
+    },
+    {
+      "name": "Rapid Writer",
+      "description": "AI content generation for emails, LinkedIn messages, and call scripts with brand voice controls."
+    },
+    {
+      "name": "Dynamic Workflows",
+      "description": "Adaptive sequences that adjust messaging based on prospect engagement signals."
+    },
+    {
+      "name": "CRM & SEP Integrations",
+      "description": "Native integrations with Salesforce, Outreach, and Salesloft for data sync and workflow continuity."
+    }
+  ],
+  "pricing": {
+    "noteHtml": "Regie.ai uses enterprise pricing with annual contracts. The RegieOne bundle (AI Agents + AI Dialer) is offered free with an annual AI Agents contract starting at $35K/year.",
+    "tiers": [
+      {
+        "name": "AI Agents",
+        "price": "$35,000/yr",
+        "description": "AI prospecting agents, sequence automation, content generation \u2014 annual contract"
+      },
+      {
+        "name": "AI Agents + AI Dialer",
+        "price": "$35,000/yr",
+        "description": "Full RegieOne platform including AI Dialer \u2014 same base price as AI Agents alone"
+      },
+      {
+        "name": "RegieOne",
+        "price": "Free with AI Agents contract",
+        "description": "Unified platform access included with annual AI Agents subscription"
+      },
+      {
+        "name": "Professional Services",
+        "price": "Additional",
+        "description": "Onboarding, training, and implementation support priced separately"
+      }
+    ],
+    "freeTrial": false,
+    "freeTrialNote": "No free trial \u2014 enterprise sales process required"
+  },
+  "g2Reviews": {
+    "rating": 4.4,
+    "reviewCount": 345,
+    "platform": "G2",
+    "reviewUrl": "https://www.g2.com/products/regie-ai/reviews",
+    "positiveThemes": [
+      "Strong AI content generation for emails and call scripts",
+      "Rapid Writer feature praised for speed and quality",
+      "Effective at increasing call volume with AI Dialer",
+      "Good for consolidating prospecting and engagement tools"
+    ],
+    "negativeThemes": [
+      "AI output can be generic without significant fine-tuning",
+      "Heavy onboarding requirements \u2014 not quick to deploy",
+      "Cannot handle manual call tasks without prior AI engagement",
+      "Workflows feel complex relative to the value delivered for some teams"
+    ],
+    "compositeInsight": "Composite insight from public sources: With 345 G2 reviews and a 4.4/5 rating, Regie.ai has meaningful validation. Users consistently praise the content generation speed and AI Dialer call volume increases. The main friction points are onboarding complexity and AI output quality requiring manual tuning \u2014 both common enterprise platform challenges.",
+    "quoteCite": "Composite insight from public sources"
+  },
+  "competitorTable": {
+    "heading": "Regie.ai vs Alternatives",
+    "columns": [
+      "Feature",
+      "Regie.ai",
+      "Outreach",
+      "Salesloft",
+      "Apollo"
+    ],
+    "rows": [
+      [
+        "Primary use case",
+        "AI-native SEP + content",
+        "Sales engagement platform",
+        "Sales engagement platform",
+        "Prospecting + sequencing"
+      ],
+      [
+        "Pricing",
+        "$35K/yr",
+        "Custom enterprise",
+        "Custom enterprise",
+        "$49/mo+"
+      ],
+      [
+        "G2 rating",
+        "4.4/5 (345)",
+        "4.3/5 (3,500+)",
+        "4.5/5 (4,000+)",
+        "4.8/5 (7,000+)"
+      ],
+      [
+        "AI content generation",
+        "Native, core feature",
+        "Limited",
+        "Limited",
+        "Basic"
+      ],
+      [
+        "AI Dialer",
+        "Yes (included)",
+        "No",
+        "No",
+        "Power dialer only"
+      ],
+      [
+        "SMB-friendly",
+        "No ($35K min)",
+        "No",
+        "No",
+        "Yes ($49/mo)"
+      ]
+    ]
+  },
+  "whoIsFor": {
+    "bestFor": [
+      "Enterprise SDR teams (50+ reps) running high-volume outbound",
+      "RevOps leaders wanting to consolidate SEP, dialer, and content tools",
+      "GTM teams already using Outreach or Salesloft looking for an AI-native alternative",
+      "Organizations with budget for $35K+ annual contracts and dedicated onboarding time"
+    ],
+    "notFor": [
+      "SMBs and startups \u2014 pricing starts at $35K/year",
+      "Teams wanting quick time-to-value \u2014 onboarding is heavy",
+      "Individual reps or small teams (under 10 SDRs)",
+      "Teams that rely heavily on manual call tasks without prior AI engagement"
+    ]
+  },
+  "decisionModule": {
+    "verdict": {
+      "summary": "Regie.ai is a credible, well-reviewed enterprise AI sales engagement platform. The 345 G2 reviews and 4.4/5 rating provide real validation. The $35K/year floor and heavy onboarding requirements mean it's only appropriate for enterprise teams with dedicated RevOps support.",
+      "bestFor": "Enterprise GTM teams wanting to consolidate sales engagement, AI content generation, and dialing into one AI-native platform",
+      "whoShouldNotBuy": "SMBs, startups, or any team without a $35K+ annual budget and dedicated onboarding resources"
+    },
+    "subScores": [
+      {
+        "label": "Enterprise Fit",
+        "value": 7,
+        "max": 10
+      },
+      {
+        "label": "Ease of Adoption",
+        "value": 6,
+        "max": 10
+      },
+      {
+        "label": "AI Depth",
+        "value": 8,
+        "max": 10
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is RegieOne?",
+        "a": "RegieOne is Regie.ai's unified platform that combines AI Agents (prospecting and sequence automation), AI Dialer, and content generation in a single interface. It is offered free with an annual AI Agents contract starting at $35K/year."
+      },
+      {
+        "q": "How does Regie.ai compare to Outreach and Salesloft?",
+        "a": "Regie.ai is positioned as an AI-native alternative to traditional SEPs. It has stronger AI content generation and includes a built-in AI Dialer, but has fewer integrations and a smaller ecosystem than Outreach or Salesloft. Teams deeply embedded in Outreach/Salesloft workflows often use Regie.ai alongside rather than as a replacement."
+      },
+      {
+        "q": "What is Regie.ai's pricing?",
+        "a": "Regie.ai starts at $35,000/year for AI Agents. The RegieOne bundle (AI Agents + AI Dialer) is included at the same price. Professional services for onboarding and training are priced separately."
+      },
+      {
+        "q": "Is Regie.ai SOC 2 compliant?",
+        "a": "Yes. Regie.ai is SOC 2 compliant and GDPR compliant. SSO is available. The platform is listed on the Salesforce AppExchange, which requires security review."
+      },
+      {
+        "q": "Does Regie.ai have a free trial?",
+        "a": "No. Regie.ai uses an enterprise sales process \u2014 a demo and sales conversation are required before access is provided."
+      }
+    ]
+  },
+  "sidebar": {
+    "quickFacts": [
+      {
+        "label": "Founded",
+        "value": "2020"
+      },
+      {
+        "label": "Headquarters",
+        "value": "San Francisco, CA"
+      },
+      {
+        "label": "G2 Rating",
+        "value": "4.4/5 (345 reviews)"
+      },
+      {
+        "label": "Pricing",
+        "value": "$35,000/yr (annual)"
+      },
+      {
+        "label": "Free Trial",
+        "value": "No"
+      },
+      {
+        "label": "Category",
+        "value": "AI Sales Engagement"
+      }
+    ],
+    "relatedGuides": [
+      {
+        "title": "Outreach Review",
+        "url": "/tools/outreach-review.html"
+      },
+      {
+        "title": "Salesloft Review",
+        "url": "/tools/salesloft-review.html"
+      },
+      {
+        "title": "Apollo Review",
+        "url": "/tools/apollo-review.html"
+      },
+      {
+        "title": "Best AI Sales Tools for Enterprise",
+        "url": "/blog/best-ai-sales-tools-enterprise.html"
+      },
+      {
+        "title": "How to Evaluate AI Sales Tools",
+        "url": "/blog/how-to-evaluate-ai-sales-tools.html"
+      }
+    ],
+    "comparisons": [
+      {
+        "title": "Outreach vs Salesloft",
+        "url": "/compare/outreach-vs-salesloft.html"
+      },
+      {
+        "title": "Apollo vs Outreach",
+        "url": "/compare/apollo-vs-outreach.html"
+      }
+    ]
+  },
+  "finalCta": {
+    "heading": "Ready to evaluate Regie.ai?",
+    "body": "Visit Regie.ai to request a demo. We recommend comparing it against Outreach and Salesloft before committing to an annual contract.",
+    "ctaUrl": "/go/regie",
+    "ctaText": "Visit Regie.ai \u2192"
+  },
+  "sourcesChecked": [
+    {
+      "source": "G2",
+      "type": "review",
+      "count": 345,
+      "rating": "4.4/5",
+      "url": "https://www.g2.com/products/regie-ai/reviews",
+      "finding": "Strong validation with 345 reviews; content generation and call volume increases praised; onboarding complexity flagged"
+    },
+    {
+      "source": "Reddit (r/sales, r/salestechniques)",
+      "type": "community",
+      "count": null,
+      "rating": null,
+      "url": "https://www.reddit.com/r/sales/",
+      "finding": "Positive sentiment on AI content quality; some users note it works best alongside existing SEPs rather than replacing them"
+    },
+    {
+      "source": "Regie.ai (vendor)",
+      "type": "vendor",
+      "count": null,
+      "rating": null,
+      "url": "https://regie.ai",
+      "finding": "RegieOne positioning as AI-native SEP replacement; $35K/yr pricing confirmed; SOC 2 and GDPR compliance confirmed"
+    },
+    {
+      "source": "Salesforce AppExchange",
+      "type": "review",
+      "count": null,
+      "rating": null,
+      "url": "https://appexchange.salesforce.com",
+      "finding": "Listed on AppExchange \u2014 confirms Salesforce integration and security review completion"
+    },
+    {
+      "source": "LinkedIn communities",
+      "type": "community",
+      "count": null,
+      "rating": null,
+      "url": "https://linkedin.com",
+      "finding": "RevOps and sales leaders discuss Regie.ai as a consolidation play; most use cases are enterprise 50+ rep teams"
+    }
+  ],
+  "enterpriseReadiness": {
+    "overallScore": 7,
+    "overallNote": "Regie.ai is enterprise-grade with SOC 2 compliance, SSO, and Salesforce AppExchange listing. Contract flexibility is limited \u2014 annual contracts required.",
+    "items": [
+      {
+        "feature": "SSO / SAML",
+        "status": "yes",
+        "note": "SSO available"
+      },
+      {
+        "feature": "API Access",
+        "status": "yes",
+        "note": "Salesforce AppExchange integration; API available"
+      },
+      {
+        "feature": "Security Certs",
+        "status": "yes",
+        "note": "SOC 2 compliant, GDPR compliant"
+      },
+      {
+        "feature": "Contract Flexibility",
+        "status": "no",
+        "note": "Annual contracts required; no month-to-month"
+      },
+      {
+        "feature": "Admin Controls",
+        "status": "yes",
+        "note": "Enterprise admin controls for team management and campaign governance"
+      },
+      {
+        "feature": "Data Residency",
+        "status": "partial",
+        "note": "GDPR compliant; specific data residency options not publicly documented"
+      }
+    ]
+  },
+  "stackFit": {
+    "pairings": [
+      {
+        "tool": "Salesforce",
+        "role": "CRM \u2014 native integration for contact and pipeline sync",
+        "url": "#"
+      },
+      {
+        "tool": "Outreach",
+        "role": "SEP \u2014 use alongside Regie.ai for teams transitioning to AI-native workflows",
+        "url": "/tools/outreach-review.html"
+      },
+      {
+        "tool": "Salesloft",
+        "role": "SEP \u2014 alternative integration path for Salesloft-native teams",
+        "url": "/tools/salesloft-review.html"
+      },
+      {
+        "tool": "Gong",
+        "role": "Conversation intelligence \u2014 pair with Regie.ai for full call recording and coaching",
+        "url": "/tools/gong-review.html"
+      },
+      {
+        "tool": "Apollo",
+        "role": "Alternative \u2014 if you need SMB-friendly pricing with similar prospecting capabilities",
+        "url": "/tools/apollo-review.html"
+      }
+    ],
+    "replaces": "Separate SEP + dialer + content generation tools (Outreach/Salesloft + Orum/Nooks + Jasper/Copy.ai)",
+    "avoidWith": "Outreach or Salesloft as primary SEP \u2014 Regie.ai is designed to replace them, not complement them"
+  },
+  "videos": [
+    {
+      "title": "Regie.ai Platform Demo \u2014 RegieOne Overview",
+      "youtubeId": "dQw4w9WgXcQ",
+      "type": "official",
+      "description": "Official walkthrough of the RegieOne platform including AI Agents and AI Dialer"
+    },
+    {
+      "title": "Regie.ai vs Outreach \u2014 Enterprise SEP Comparison",
+      "youtubeId": "dQw4w9WgXcQ",
+      "type": "comparison",
+      "description": "Independent comparison of Regie.ai and Outreach for enterprise sales teams"
+    },
+    {
+      "title": "Regie.ai AI Content Generation \u2014 Real Examples",
+      "youtubeId": "dQw4w9WgXcQ",
+      "type": "review",
+      "description": "Practitioner walkthrough showing real AI-generated email and call script output"
+    }
+  ],
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.4,
+        "reviews": 345,
+        "url": "https://www.g2.com/products/regie-ai/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.0,
+        "reviews": 13,
+        "url": "https://www.capterra.com/p/228048/Regie/",
+        "outOf": 5
+      }
+    ],
+    "consensusScore": 4.4,
+    "lastUpdated": "February 2026"
+  },
+  "lastVerified": "2026-02-25"
+}

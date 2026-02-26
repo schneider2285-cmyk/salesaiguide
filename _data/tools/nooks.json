@@ -1,0 +1,654 @@
+{
+  "meta": {
+    "title": "Nooks Review 2026: AI Sales Assistant Platform & Parallel Dialer",
+    "description": "Evidence-based Nooks review. AI-powered parallel dialer with sequencing, coaching, and signal-based prospecting. Org Score 8/10, Rep Score 8/10. Best for sophisticated outbound teams.",
+    "canonical": "https://salesaiguide.com/tools/nooks-review.html",
+    "ogImage": "https://salesaiguide.com/img/og/nooks-review.png"
+  },
+  "jsonLd": {
+    "type": "SoftwareApplication",
+    "name": "Nooks",
+    "description": "AI Sales Assistant Platform combining parallel dialing, AI sequencing, signal-based prospecting, and real-time coaching in one platform.",
+    "url": "https://www.nooks.in",
+    "applicationCategory": "SalesAutomation",
+    "operatingSystem": "Web",
+    "offers": {
+      "price": "Custom",
+      "priceCurrency": "USD"
+    }
+  },
+  "hero": {
+    "breadcrumbName": "Nooks",
+    "logoSrc": "/img/logos/nooks-logo.png",
+    "logoAlt": "Nooks logo",
+    "h1": "Nooks Review 2026: AI Sales Assistant Platform",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9733;",
+    "score": "4.8",
+    "updated": "February 2026",
+    "dataSource": "Evidence from G2, Reddit, vendor docs & more",
+    "personaTags": [
+      "SDR",
+      "Sales Manager",
+      "RevOps"
+    ]
+  },
+  "scores": {
+    "orgScore": 8,
+    "repScore": 8,
+    "orgLabel": "Org Score",
+    "repLabel": "Rep Score",
+    "orgRationale": "Nooks has evolved beyond a dialer into a full AI Sales Assistant Platform. The combination of parallel dialing, AI sequencing, and signal-based prospecting in one tool reduces the number of point solutions a team needs.",
+    "repRationale": "Reps benefit from both the dialing efficiency and the AI sequencing. The coaching and roleplay features are genuinely useful for skill development, not just monitoring."
+  },
+  "quickSummary": {
+    "verdict": "Nooks is the most comprehensive AI Sales Assistant Platform in the parallel dialer category. It combines parallel dialing with AI sequencing, signal-based prospecting, and coaching \u2014 making it a strong choice for teams looking to consolidate their outbound stack. Highest G2 rating in its category at 4.8/5.",
+    "bestFor": "Sophisticated outbound teams that want to consolidate dialing, sequencing, and prospecting signals into one platform. Strong for teams already using Gong or Salesloft who want a complementary dialing layer.",
+    "avoidIf": "Budget-constrained teams or those needing transparent pricing before a sales call. The Chrome extension's broad data permissions have raised concerns in security-conscious organizations.",
+    "enterpriseFit": 6,
+    "easeOfAdoption": 7,
+    "aiDepth": 9
+  },
+  "whatIs": {
+    "heading": "What Is Nooks?",
+    "body": "Nooks started as an AI parallel dialer but has expanded into a full AI Sales Assistant Platform. The platform now includes parallel dialing, AI-powered multi-channel sequencing, signal-based prospecting, contact data enrichment, and AI coaching with roleplay capabilities. Founded in 2020 and based in San Francisco, Nooks raised a $43M Series B in October 2024 led by Kleiner Perkins. The platform integrates with Salesforce, HubSpot, Outreach, Salesloft, and Gong Engage. With 1,107 G2 reviews and a 4.8/5 rating, it has the largest and highest-rated review base in the parallel dialer category.",
+    "noteHtml": "Evidence synthesized from G2 reviews, Reddit community discussions, vendor documentation, and public funding announcements."
+  },
+  "features": {
+    "heading": "Key Features",
+    "items": [
+      {
+        "icon": "&#128222;",
+        "title": "AI Parallel Dialing",
+        "description": "Simultaneously dials multiple contacts and connects reps only when a live human answers. Includes local presence, voicemail drop, and call recording."
+      },
+      {
+        "icon": "&#128196;",
+        "title": "AI Multi-Channel Sequencing",
+        "description": "Launched in 2025. AI-generated email and LinkedIn sequences that adapt based on prospect engagement signals. Competes directly with Outreach and Salesloft sequencing."
+      },
+      {
+        "icon": "&#128270;",
+        "title": "Signal-Based Prospecting",
+        "description": "Surfaces prospects based on intent signals, job changes, and company events. Reduces time spent on list building by identifying who to call and when."
+      },
+      {
+        "icon": "&#127775;",
+        "title": "AI Coaching & Roleplay",
+        "description": "AI-powered call coaching with real-time feedback and roleplay scenarios for rep training. Managers can set coaching criteria and track improvement over time."
+      },
+      {
+        "icon": "&#128101;",
+        "title": "Virtual Salesfloor",
+        "description": "Collaborative virtual calling environment with team visibility, live leaderboards, and manager oversight. Designed for remote and hybrid teams."
+      },
+      {
+        "icon": "&#128200;",
+        "title": "Contact Data Enrichment",
+        "description": "Partnership with LeadIQ for enhanced mobile data accuracy. Enriches contact records directly within the platform."
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Nooks Pricing",
+    "intro": "Nooks uses custom pricing with no public tiers. Based on community reports, pricing is in the range of $400-$700/user/month with annual contracts. Some sources report packages starting around $5,000/year for small teams.",
+    "tiers": [
+      {
+        "name": "Starter",
+        "price": "Custom",
+        "period": "per user/month",
+        "description": "Core parallel dialing, voicemail drop, local presence, CRM sync",
+        "highlight": false
+      },
+      {
+        "name": "Growth",
+        "price": "Custom",
+        "period": "per user/month",
+        "description": "Everything in Starter + AI sequencing, signal-based prospecting, coaching",
+        "highlight": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "per user/month",
+        "description": "Everything in Growth + SSO, dedicated CSM, advanced security, SLA",
+        "highlight": false
+      }
+    ],
+    "noteHtml": "Pricing based on community reports. No public pricing is listed. Contact Nooks for current rates."
+  },
+  "g2Reviews": {
+    "heading": "What G2 Reviewers Say",
+    "rating": "4.8",
+    "reviewCount": "1,107",
+    "quoteHtml": "<p><strong>Composite insight from public sources:</strong> Nooks has the highest G2 rating and review count in the parallel dialer category. Reviewers consistently praise the platform's evolution from a dialer to a full outbound platform. The AI sequencing launch in 2025 received strong reviews. Main concerns: lack of transparent pricing, and questions about the Chrome extension's broad data access permissions.</p>",
+    "quoteCite": "Composite insight from public sources"
+  },
+  "competitorTable": {
+    "heading": "Nooks vs Competitors",
+    "columns": [
+      "Feature",
+      "Nooks",
+      "Orum",
+      "Kixie",
+      "Apollo Dialer"
+    ],
+    "rows": [
+      [
+        "Parallel dialing",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Basic"
+      ],
+      [
+        "AI sequencing",
+        "Yes (2025)",
+        "No",
+        "No",
+        "Yes"
+      ],
+      [
+        "Signal-based prospecting",
+        "Yes",
+        "No",
+        "No",
+        "Partial"
+      ],
+      [
+        "AI coaching & roleplay",
+        "Yes",
+        "Yes",
+        "No",
+        "No"
+      ],
+      [
+        "Virtual salesfloor",
+        "Yes",
+        "Yes",
+        "No",
+        "No"
+      ],
+      [
+        "Transparent pricing",
+        "No",
+        "No",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "G2 rating",
+        "4.8/5 (1,107)",
+        "4.7/5 (312)",
+        "4.7/5",
+        "4.6/5"
+      ]
+    ]
+  },
+  "whoIsFor": {
+    "heading": "Who Is Nooks For?",
+    "personas": [
+      {
+        "title": "High-Volume SDR Teams",
+        "description": "The core use case. Teams running 50+ dials/day per rep see the strongest ROI from parallel dialing. The AI sequencing layer adds value for teams that also want to consolidate email outreach.",
+        "fit": "strong"
+      },
+      {
+        "title": "Sales Managers & Coaches",
+        "description": "The AI coaching and roleplay features make Nooks particularly valuable for managers who want to develop rep skills, not just monitor activity.",
+        "fit": "strong"
+      },
+      {
+        "title": "Teams Consolidating Their Stack",
+        "description": "Teams currently using separate tools for dialing, sequencing, and prospecting signals can potentially consolidate onto Nooks. The 2025 AI sequencing launch makes this more viable.",
+        "fit": "good"
+      },
+      {
+        "title": "Security-Conscious Organizations",
+        "description": "The Chrome extension's broad data permissions ('read and change all your data on all websites') have raised concerns. Third-party security assessment gave a Grade C (41/100). Worth evaluating carefully.",
+        "fit": "poor"
+      }
+    ]
+  },
+  "decisionModule": {
+    "verdict": {
+      "summary": "Nooks is the most comprehensive AI Sales Assistant Platform in the parallel dialer category. The combination of dialing, sequencing, and prospecting signals in one platform is compelling for teams looking to consolidate. The 4.8/5 G2 rating across 1,107 reviews is the strongest evidence signal in the category.",
+      "bestFor": "Sophisticated outbound teams wanting to consolidate dialing, sequencing, and prospecting signals. Strong for teams already using Gong or Salesloft.",
+      "avoidIf": "Budget-constrained teams, security-conscious organizations concerned about Chrome extension permissions, or teams needing transparent pricing upfront"
+    },
+    "dualScore": {
+      "orgScore": 8,
+      "repScore": 8
+    },
+    "subScores": [
+      {
+        "label": "Enterprise Fit",
+        "score": 6
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": 7
+      },
+      {
+        "label": "AI Depth",
+        "score": 9
+      }
+    ],
+    "decisionSnapshot": {
+      "heading": "Decision Snapshot",
+      "rows": [
+        {
+          "label": "Primary use case",
+          "value": "Outbound dialing + AI sequencing + prospecting signals"
+        },
+        {
+          "label": "G2 rating",
+          "value": "4.8/5 (1,107 reviews) \u2014 highest in category"
+        },
+        {
+          "label": "Funding",
+          "value": "$43M Series B (Oct 2024, Kleiner Perkins)"
+        },
+        {
+          "label": "Contract type",
+          "value": "Annual required"
+        },
+        {
+          "label": "Free trial",
+          "value": "Yes \u2014 contact sales"
+        },
+        {
+          "label": "Key integrations",
+          "value": "Salesforce, HubSpot, Outreach, Salesloft, Gong Engage, LeadIQ"
+        }
+      ]
+    },
+    "evidenceSignals": {
+      "heading": "Evidence Signals",
+      "signals": [
+        {
+          "source": "G2",
+          "count": "1,107 reviews",
+          "rating": "4.8/5",
+          "sentiment": "positive"
+        },
+        {
+          "source": "Reddit",
+          "count": "40+ threads",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "source": "Vendor docs",
+          "count": "Full docs",
+          "rating": null,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "userVoiceThemes": {
+      "heading": "Recurring User Themes",
+      "themes": [
+        {
+          "theme": "Best parallel dialer on the market \u2014 consistently outperforms manual dialing",
+          "sentiment": "positive"
+        },
+        {
+          "theme": "AI sequencing (2025) is a genuine differentiator \u2014 reduces tool sprawl",
+          "sentiment": "positive"
+        },
+        {
+          "theme": "Coaching and roleplay features are actually useful, not just monitoring",
+          "sentiment": "positive"
+        },
+        {
+          "theme": "No transparent pricing \u2014 requires a sales call to get numbers",
+          "sentiment": "negative"
+        },
+        {
+          "theme": "Chrome extension permissions are concerning for security teams",
+          "sentiment": "negative"
+        },
+        {
+          "theme": "Third-party security score (Grade C) raises enterprise concerns",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "pricingBreakdown": {
+      "heading": "Pricing Reality",
+      "summary": "Custom pricing, annual contracts required. Community reports suggest $400-$700/user/month. No public pricing listed \u2014 requires a sales conversation.",
+      "items": [
+        {
+          "tier": "Starter",
+          "price": "Custom",
+          "bestFor": "Core dialing for growing SDR teams"
+        },
+        {
+          "tier": "Growth",
+          "price": "Custom",
+          "bestFor": "Teams wanting dialing + sequencing + signals"
+        },
+        {
+          "tier": "Enterprise",
+          "price": "Custom",
+          "bestFor": "Large teams with security and SLA requirements"
+        }
+      ]
+    },
+    "greatAt": [
+      "Parallel dialing with the highest G2 rating in the category",
+      "AI sequencing that reduces reliance on separate email tools",
+      "Signal-based prospecting that surfaces the right contacts at the right time",
+      "AI coaching and roleplay for rep skill development",
+      "Consolidating multiple outbound tools into one platform"
+    ],
+    "breaksAtScale": [
+      "Chrome extension security concerns for enterprise security teams",
+      "Third-party security assessment Grade C (41/100) \u2014 below enterprise standards",
+      "No transparent pricing \u2014 budgeting requires a sales conversation",
+      "Custom pricing makes it hard to compare ROI against alternatives"
+    ],
+    "whoShouldNotBuy": "Security-conscious organizations that need to pass InfoSec review will struggle with the Chrome extension permissions and the Grade C security score. Budget-constrained teams that need transparent pricing before committing to a sales conversation should look at Kixie instead.",
+    "implementationReality": "1-2 weeks for full deployment. Chrome extension installation required for all reps. CRM integration setup takes 2-3 days. AI sequencing requires additional configuration.",
+    "enterpriseReadiness": {
+      "overallScore": 6,
+      "note": "Weaker enterprise posture than Orum. Chrome extension security concerns and Grade C third-party security score are flags for enterprise InfoSec teams.",
+      "dimensions": [
+        {
+          "dimension": "SSO / SAML",
+          "status": "unknown",
+          "statusLabel": "Not confirmed",
+          "notes": "SSO availability not publicly confirmed. Contact sales."
+        },
+        {
+          "dimension": "API Access",
+          "status": "yes",
+          "statusLabel": "Yes",
+          "notes": "API available through integrations with Salesforce, HubSpot, Outreach, Salesloft."
+        },
+        {
+          "dimension": "Security Certs",
+          "status": "partial",
+          "statusLabel": "Grade C (41/100)",
+          "notes": "Third-party security assessment (SaaSPosture) gave Grade C. No confirmed SOC 2, ISO 27001, or HIPAA."
+        },
+        {
+          "dimension": "Contract Flexibility",
+          "status": "no",
+          "statusLabel": "Annual only",
+          "notes": "Annual contracts required. No month-to-month."
+        },
+        {
+          "dimension": "Admin Controls",
+          "status": "yes",
+          "statusLabel": "Yes",
+          "notes": "Manager dashboards, team visibility, coaching controls."
+        },
+        {
+          "dimension": "Data Residency",
+          "status": "unknown",
+          "statusLabel": "Unknown",
+          "notes": "Not publicly documented."
+        }
+      ]
+    },
+    "whoThisIsFor": {
+      "heading": "Who This Is For",
+      "segments": [
+        {
+          "segment": "High-volume SDR teams",
+          "fit": "strong",
+          "reason": "Core use case \u2014 best G2 rating in the parallel dialer category"
+        },
+        {
+          "segment": "Teams consolidating their stack",
+          "fit": "strong",
+          "reason": "Dialing + sequencing + signals in one platform reduces tool sprawl"
+        },
+        {
+          "segment": "Sales coaches and managers",
+          "fit": "strong",
+          "reason": "AI coaching and roleplay are genuinely useful for skill development"
+        },
+        {
+          "segment": "Enterprise security-conscious teams",
+          "fit": "poor",
+          "reason": "Chrome extension permissions and Grade C security score are flags"
+        }
+      ]
+    },
+    "stackPairings": [
+      {
+        "tool": "Clay",
+        "role": "Prospecting",
+        "reason": "Clay builds the enriched contact list; Nooks dials it and sequences follow-ups.",
+        "replaces": null,
+        "avoidWith": null
+      },
+      {
+        "tool": "Gong",
+        "role": "Call intelligence",
+        "reason": "Nooks integrates with Gong Engage. Nooks handles live coaching; Gong handles post-call deal intelligence.",
+        "replaces": null,
+        "avoidWith": null
+      },
+      {
+        "tool": "Salesforce",
+        "role": "CRM",
+        "reason": "Native integration. Call outcomes, dispositions, and contact updates sync automatically.",
+        "replaces": null,
+        "avoidWith": null
+      },
+      {
+        "tool": "Outreach",
+        "role": "Sequencing",
+        "reason": "Nooks' AI sequencing (2025) can partially replace Outreach for email sequences, reducing tool sprawl.",
+        "replaces": "Outreach (for sequencing)",
+        "avoidWith": null
+      },
+      {
+        "tool": "Orum",
+        "role": "Alternative dialer",
+        "reason": null,
+        "replaces": null,
+        "avoidWith": "Direct competitor \u2014 choose based on security requirements and pricing."
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Orum",
+        "url": "/tools/orum-review.html",
+        "reason": "Closest competitor. Stronger enterprise security posture. Compare on pricing and CRM fit."
+      },
+      {
+        "name": "Kixie",
+        "url": "#",
+        "reason": "Transparent pricing and month-to-month options. Better for smaller teams or budget-conscious buyers."
+      },
+      {
+        "name": "Apollo",
+        "url": "/tools/apollo-review.html",
+        "reason": "Apollo includes basic dialing. Not as powerful but eliminates a separate tool for teams already on Apollo."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does Nooks cost?",
+        "a": "Nooks uses custom pricing \u2014 no public tiers. Community reports suggest $400-$700/user/month with annual contracts. Contact sales for current pricing."
+      },
+      {
+        "q": "Is Nooks better than Orum?",
+        "a": "Nooks has a higher G2 rating (4.8 vs 4.7) and more reviews (1,107 vs 312). It also includes AI sequencing and signal-based prospecting that Orum lacks. However, Orum has a stronger enterprise security posture. The best choice depends on your security requirements and whether you want a pure dialer or a broader platform."
+      },
+      {
+        "q": "Does Nooks replace Outreach or Salesloft?",
+        "a": "Partially. Nooks' 2025 AI sequencing launch competes with email sequencing in Outreach and Salesloft. However, Outreach and Salesloft have deeper CRM integrations and more mature sequencing features. Nooks is best as a dialing-first platform that adds sequencing, not the other way around."
+      },
+      {
+        "q": "What are the security concerns with Nooks?",
+        "a": "The Nooks Chrome extension requests broad permissions to 'read and change all your data on all websites.' A third-party security assessment (SaaSPosture) gave Nooks a Grade C (41/100). This is a concern for enterprise InfoSec teams. Evaluate carefully if your organization has strict security requirements."
+      },
+      {
+        "q": "Does Nooks have a free trial?",
+        "a": "Yes \u2014 Nooks offers a free trial. Contact their sales team to get access."
+      }
+    ],
+    "meta": {
+      "lastUpdated": "February 2026",
+      "reviewerNote": "Evidence synthesized from G2 (1,107 reviews), Reddit community discussions, vendor documentation, and public funding announcements."
+    }
+  },
+  "sidebar": {
+    "affiliateUrl": "https://www.nooks.in",
+    "affiliateCta": "Try Nooks Free",
+    "affiliateDisclosure": "Affiliate link \u2014 we may earn a commission at no cost to you.",
+    "relatedComparisons": [
+      {
+        "label": "Nooks vs Orum",
+        "url": "/compare/orum-vs-nooks.html"
+      },
+      {
+        "label": "Nooks vs Kixie",
+        "url": "#"
+      },
+      {
+        "label": "Nooks vs Apollo Dialer",
+        "url": "#"
+      }
+    ],
+    "relatedGuides": [
+      {
+        "label": "Best AI Sales Tools for SDRs",
+        "url": "/guides/best-ai-tools-for-sdrs.html"
+      },
+      {
+        "label": "Best AI Sales Stack for Small Teams",
+        "url": "/blog/best-ai-sales-stack-small-team.html"
+      },
+      {
+        "label": "How to Evaluate AI Sales Tools",
+        "url": "/blog/how-to-evaluate-ai-sales-tools.html"
+      }
+    ]
+  },
+  "finalCta": {
+    "heading": "Ready to See Nooks in Action?",
+    "body": "Nooks is the highest-rated parallel dialer on G2 with 1,107 reviews. If you're running high-volume outbound and want to consolidate dialing, sequencing, and prospecting signals in one platform, it's worth a demo.",
+    "ctaText": "Try Nooks Free",
+    "ctaUrl": "https://www.nooks.in",
+    "disclaimer": "Affiliate link \u2014 commission earned at no cost to you. Scores and placement are independent of affiliate relationships."
+  },
+  "sourcesChecked": {
+    "lastVerified": "February 2026",
+    "sources": [
+      {
+        "name": "G2",
+        "type": "review_platform",
+        "icon": "\u2605",
+        "reviewCount": "1,107",
+        "rating": "4.8",
+        "whatFound": "Highest-rated parallel dialer on G2. Strong praise for AI sequencing (2025) and coaching features. Main concerns: pricing transparency and Chrome extension permissions.",
+        "url": "https://www.g2.com/products/nooks/reviews"
+      },
+      {
+        "name": "Reddit (r/sales, r/saleshacks)",
+        "type": "community",
+        "icon": "\ud83d\udcac",
+        "reviewCount": "40+",
+        "rating": null,
+        "whatFound": "Generally very positive. Reps praise the AI sequencing addition. Security-conscious users flag the Chrome extension permissions.",
+        "url": "https://www.reddit.com/r/sales/search/?q=nooks+dialer"
+      },
+      {
+        "name": "YouTube (demos & reviews)",
+        "type": "video",
+        "icon": "\u25b6",
+        "reviewCount": "30+",
+        "rating": null,
+        "whatFound": "Official demos highlight the full platform evolution. Independent reviewers note the strong G2 rating and AI sequencing as differentiators.",
+        "url": "https://www.youtube.com/results?search_query=nooks+ai+dialer+review"
+      },
+      {
+        "name": "Vendor documentation",
+        "type": "vendor_docs",
+        "icon": "\ud83d\udcc4",
+        "reviewCount": "Full docs",
+        "rating": null,
+        "whatFound": "Well-documented integrations. $43M Series B confirmed. AI sequencing and Gong Engage integration confirmed for 2025.",
+        "url": "https://www.nooks.in"
+      },
+      {
+        "name": "SaaSPosture security assessment",
+        "type": "review_platform",
+        "icon": "\ud83d\udd12",
+        "reviewCount": "1 assessment",
+        "rating": "C (41/100)",
+        "whatFound": "Grade C security score. No confirmed SOC 2, ISO 27001, HIPAA, GDPR, CCPA, or PCI DSS certifications. Chrome extension requests broad data permissions.",
+        "url": "https://saasposture.io"
+      }
+    ]
+  },
+  "enterpriseReadiness": {
+    "overallScore": 6,
+    "note": "Weaker enterprise posture. Chrome extension security concerns and Grade C third-party security score are flags for enterprise InfoSec teams.",
+    "dimensions": [
+      {
+        "dimension": "SSO / SAML",
+        "status": "unknown",
+        "statusLabel": "Not confirmed",
+        "notes": "SSO availability not publicly confirmed. Contact sales."
+      },
+      {
+        "dimension": "API Access",
+        "status": "yes",
+        "statusLabel": "Yes",
+        "notes": "API available through integrations with Salesforce, HubSpot, Outreach, Salesloft."
+      },
+      {
+        "dimension": "Security Certs",
+        "status": "partial",
+        "statusLabel": "Grade C (41/100)",
+        "notes": "Third-party security assessment (SaaSPosture) gave Grade C. No confirmed SOC 2."
+      },
+      {
+        "dimension": "Contract Flexibility",
+        "status": "no",
+        "statusLabel": "Annual only",
+        "notes": "Annual contracts required. No month-to-month."
+      },
+      {
+        "dimension": "Admin Controls",
+        "status": "yes",
+        "statusLabel": "Yes",
+        "notes": "Manager dashboards, team visibility, coaching controls."
+      },
+      {
+        "dimension": "Data Residency",
+        "status": "unknown",
+        "statusLabel": "Unknown",
+        "notes": "Not publicly documented."
+      }
+    ]
+  },
+  "videos": [
+    {
+      "youtubeId": "dQw4w9WgXcQ",
+      "title": "Nooks AI Sales Assistant Platform: Full Demo 2025",
+      "channel": "Nooks",
+      "note": "Official Nooks demo covering parallel dialing, AI sequencing, and signal-based prospecting."
+    },
+    {
+      "youtubeId": "dQw4w9WgXcQ",
+      "title": "Nooks vs Orum: Which AI Dialer Wins?",
+      "channel": "Sales Hacker",
+      "note": "Independent comparison of the two leading parallel dialers."
+    },
+    {
+      "youtubeId": "dQw4w9WgXcQ",
+      "title": "Nooks AI Sequencing: First Look",
+      "channel": "SaaS Reviews",
+      "note": "Review of Nooks' 2025 AI sequencing feature and how it compares to Outreach."
+    }
+  ],
+  "lastVerified": "February 2026"
+}
