@@ -37,9 +37,18 @@
     "updated": "Updated February 2026",
     "dataSource": "Data from G2, Capterra, and vendor documentation",
     "personaTags": [
-      { "text": "SDR", "class": "tag-sdr" },
-      { "text": "AE", "class": "tag-ae" },
-      { "text": "Agency", "class": "tag-agency" }
+      {
+        "text": "SDR",
+        "class": "tag-sdr"
+      },
+      {
+        "text": "AE",
+        "class": "tag-ae"
+      },
+      {
+        "text": "Agency",
+        "class": "tag-agency"
+      }
     ]
   },
   "scores": {
@@ -148,30 +157,159 @@
   "g2Reviews": {
     "intro": "Based on 1,500+ reviews on G2 (4.6/5 rating):",
     "pros": [
-      { "bold": "Personalization quality", "text": "Reviewers consistently cite the personalized images and AI icebreakers as the standout features — 'the only tool that makes cold email feel personal at scale'." },
-      { "bold": "Multi-channel in one platform", "text": "Users appreciate managing email, LinkedIn, and phone from a single sequence without stitching together multiple tools." },
-      { "bold": "Reply rates", "text": "Multiple reviewers report 2–4x higher reply rates compared to plain text cold email tools, attributing the improvement to personalization features." }
+      {
+        "bold": "Personalization quality",
+        "text": "Reviewers consistently cite the personalized images and AI icebreakers as the standout features — 'the only tool that makes cold email feel personal at scale'."
+      },
+      {
+        "bold": "Multi-channel in one platform",
+        "text": "Users appreciate managing email, LinkedIn, and phone from a single sequence without stitching together multiple tools."
+      },
+      {
+        "bold": "Reply rates",
+        "text": "Multiple reviewers report 2–4x higher reply rates compared to plain text cold email tools, attributing the improvement to personalization features."
+      }
     ],
     "cons": [
-      { "bold": "Per-user pricing adds up", "text": "At $99/user/month, a team of 5 SDRs costs $495/month — significantly more than Instantly or Saleshandy for the same team size." },
-      { "bold": "LinkedIn automation risk", "text": "LinkedIn automation violates LinkedIn's Terms of Service. Several reviewers note account warnings or restrictions when using aggressive LinkedIn automation settings." },
-      { "bold": "Learning curve for advanced features", "text": "The personalized image builder and multi-channel sequence setup require more configuration time than simpler cold email tools." }
+      {
+        "bold": "Per-user pricing adds up",
+        "text": "At $99/user/month, a team of 5 SDRs costs $495/month — significantly more than Instantly or Saleshandy for the same team size."
+      },
+      {
+        "bold": "LinkedIn automation risk",
+        "text": "LinkedIn automation violates LinkedIn's Terms of Service. Several reviewers note account warnings or restrictions when using aggressive LinkedIn automation settings."
+      },
+      {
+        "bold": "Learning curve for advanced features",
+        "text": "The personalized image builder and multi-channel sequence setup require more configuration time than simpler cold email tools."
+      }
     ],
     "link": "https://www.g2.com/products/lemlist/reviews"
   },
   "competitorTable": {
-    "headers": ["Feature", "Lemlist", "Instantly", "Saleshandy"],
+    "headers": [
+      "Feature",
+      "Lemlist",
+      "Instantly",
+      "Saleshandy"
+    ],
     "rows": [
-      { "feature": "Multi-channel (email + LinkedIn + phone)", "featureBold": true, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }] },
-      { "feature": "Personalized images/videos", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }] },
-      { "feature": "AI icebreaker generation", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "Partial", "class": "" }, { "text": "&#10007;", "class": "cross" }] },
-      { "feature": "Starting price (per user)", "featureBold": false, "values": [{ "text": "$55/mo" }, { "text": "$37/mo (flat)" }, { "text": "$36/mo (flat)" }] },
-      { "feature": "Unlimited email accounts", "featureBold": false, "values": [{ "text": "Growth+ only" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "Built-in lead database", "featureBold": false, "values": [{ "text": "450M+ contacts" }, { "text": "&#10007;", "class": "cross" }, { "text": "700M+ contacts" }] }
+      {
+        "feature": "Multi-channel (email + LinkedIn + phone)",
+        "featureBold": true,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          }
+        ]
+      },
+      {
+        "feature": "Personalized images/videos",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          }
+        ]
+      },
+      {
+        "feature": "AI icebreaker generation",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "Partial",
+            "class": ""
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          }
+        ]
+      },
+      {
+        "feature": "Starting price (per user)",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "$55/mo"
+          },
+          {
+            "text": "$37/mo (flat)"
+          },
+          {
+            "text": "$36/mo (flat)"
+          }
+        ]
+      },
+      {
+        "feature": "Unlimited email accounts",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "Growth+ only"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Built-in lead database",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "450M+ contacts"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "700M+ contacts"
+          }
+        ]
+      }
     ],
     "seeFullLinks": [
-      { "url": "/compare/lemlist-vs-instantly.html", "text": "Lemlist vs Instantly" },
-      { "url": "/compare/lemlist-vs-saleshandy.html", "text": "Lemlist vs Saleshandy" }
+      {
+        "url": "/compare/lemlist-vs-instantly.html",
+        "text": "Lemlist vs Instantly"
+      },
+      {
+        "url": "/compare/lemlist-vs-saleshandy.html",
+        "text": "Lemlist vs Saleshandy"
+      },
+      {
+        "url": "/compare/instantly-vs-lemlist.html",
+        "text": "Instantly vs Lemlist"
+      }
     ]
   },
   "whoIsFor": {
@@ -213,11 +351,26 @@
       }
     },
     "subScores": [
-      { "label": "AI Depth", "score": "8/10" },
-      { "label": "Ease of Adoption", "score": "7/10" },
-      { "label": "Enterprise Fit", "score": "5/10" },
-      { "label": "Personalization", "score": "10/10" },
-      { "label": "Value for Money", "score": "7/10" }
+      {
+        "label": "AI Depth",
+        "score": "8/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "7/10"
+      },
+      {
+        "label": "Enterprise Fit",
+        "score": "5/10"
+      },
+      {
+        "label": "Personalization",
+        "score": "10/10"
+      },
+      {
+        "label": "Value for Money",
+        "score": "7/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Six-dimension assessment based on public review data, vendor documentation, and community feedback.",
@@ -227,7 +380,10 @@
           "score": 10,
           "notes": "Best-in-class. Personalized images, video thumbnails, and AI icebreakers are unmatched in the cold email category.",
           "evidence": [
-            { "source": "G2 reviews", "text": "Reviewers consistently report 2–4x higher reply rates compared to plain text cold email tools." }
+            {
+              "source": "G2 reviews",
+              "text": "Reviewers consistently report 2–4x higher reply rates compared to plain text cold email tools."
+            }
           ]
         },
         {
@@ -235,7 +391,10 @@
           "score": 8,
           "notes": "Email, LinkedIn, and phone in a single sequence. LinkedIn automation carries ToS risk.",
           "evidence": [
-            { "source": "G2 reviews", "text": "Users appreciate managing all channels from one platform but note LinkedIn account risk." }
+            {
+              "source": "G2 reviews",
+              "text": "Users appreciate managing all channels from one platform but note LinkedIn account risk."
+            }
           ]
         },
         {
@@ -243,7 +402,10 @@
           "score": 8,
           "notes": "AI icebreaker generation, send time optimization, and copy suggestions are genuinely useful.",
           "evidence": [
-            { "source": "G2 reviews", "text": "AI icebreakers rated as 'actually good' by multiple reviewers — not just generic GPT output." }
+            {
+              "source": "G2 reviews",
+              "text": "AI icebreakers rated as 'actually good' by multiple reviewers — not just generic GPT output."
+            }
           ]
         },
         {
@@ -251,7 +413,10 @@
           "score": 7,
           "notes": "More expensive than Instantly/Saleshandy per user but justified by higher reply rates for quality-focused teams.",
           "evidence": [
-            { "source": "Capterra reviews", "text": "Reviewers split: some say ROI justifies cost, others switched to cheaper tools for volume campaigns." }
+            {
+              "source": "Capterra reviews",
+              "text": "Reviewers split: some say ROI justifies cost, others switched to cheaper tools for volume campaigns."
+            }
           ]
         },
         {
@@ -259,7 +424,10 @@
           "score": 7,
           "notes": "More complex to set up than pure cold email tools. Image builder and multi-channel sequences require configuration.",
           "evidence": [
-            { "source": "G2 reviews", "text": "Onboarding rated 3–5 days for new users to fully utilize multi-channel and personalization features." }
+            {
+              "source": "G2 reviews",
+              "text": "Onboarding rated 3–5 days for new users to fully utilize multi-channel and personalization features."
+            }
           ]
         },
         {
@@ -267,7 +435,10 @@
           "score": 8,
           "notes": "Lemwarm warm-up tool is well-regarded. Built-in email verification reduces bounce rates.",
           "evidence": [
-            { "source": "G2 reviews", "text": "Lemwarm network cited as effective for maintaining inbox placement on new domains." }
+            {
+              "source": "G2 reviews",
+              "text": "Lemwarm network cited as effective for maintaining inbox placement on new domains."
+            }
           ]
         }
       ]
@@ -276,18 +447,42 @@
       "confidence": "medium-high",
       "confidenceNote": "Assessment based on 1,500+ G2 reviews, Capterra reviews, and vendor documentation. No direct product testing.",
       "sourcePills": [
-        { "text": "G2: 1,500+ reviews", "class": "" },
-        { "text": "Capterra: 380+ reviews", "class": "" },
-        { "text": "Vendor docs", "class": "" }
+        {
+          "text": "G2: 1,500+ reviews",
+          "class": ""
+        },
+        {
+          "text": "Capterra: 380+ reviews",
+          "class": ""
+        },
+        {
+          "text": "Vendor docs",
+          "class": ""
+        }
       ],
       "freshness": [
-        { "icon": "&#128197;", "text": "Data verified February 2026" }
+        {
+          "icon": "&#128197;",
+          "text": "Data verified February 2026"
+        }
       ],
       "evidenceGrid": [
-        { "icon": "&#10003;", "text": "Pricing verified from lemlist.com/pricing" },
-        { "icon": "&#10003;", "text": "G2 rating: 4.6/5 (1,500+ reviews)" },
-        { "icon": "&#10003;", "text": "Capterra rating: 4.6/5 (380+ reviews)" },
-        { "icon": "&#10003;", "text": "Affiliate program: 25% recurring for 12 months" }
+        {
+          "icon": "&#10003;",
+          "text": "Pricing verified from lemlist.com/pricing"
+        },
+        {
+          "icon": "&#10003;",
+          "text": "G2 rating: 4.6/5 (1,500+ reviews)"
+        },
+        {
+          "icon": "&#10003;",
+          "text": "Capterra rating: 4.6/5 (380+ reviews)"
+        },
+        {
+          "icon": "&#10003;",
+          "text": "Affiliate program: 25% recurring for 12 months"
+        }
       ],
       "strengthThemes": [
         "Best personalization in the cold email category",
@@ -306,31 +501,77 @@
       "For pure high-volume email campaigns (100K+ emails/month), Instantly's deliverability infrastructure and unlimited accounts model is better suited"
     ],
     "stackFit": {
-      "bestWith": ["Clay (data enrichment + personalization data)", "HubSpot (CRM)", "Apollo (prospecting database)"],
-      "replaces": ["Instantly (for teams prioritizing reply rate over volume)", "Outreach (for SMBs who don't need enterprise features)"],
+      "bestWith": [
+        "Clay (data enrichment + personalization data)",
+        "HubSpot (CRM)",
+        "Apollo (prospecting database)"
+      ],
+      "replaces": [
+        "Instantly (for teams prioritizing reply rate over volume)",
+        "Outreach (for SMBs who don't need enterprise features)"
+      ],
       "exampleStack": "Clay → Lemlist → HubSpot"
     },
     "alternatives": [
-      { "name": "Instantly", "url": "/tools/instantly-review.html", "reason": "Better for high-volume, lower cost per account" },
-      { "name": "Saleshandy", "url": "/tools/saleshandy-review.html", "reason": "Unlimited accounts at lower price; less personalization" },
-      { "name": "Outreach", "url": "/tools/outreach-review.html", "reason": "Enterprise-grade SEP with stronger CRM integration" }
+      {
+        "name": "Instantly",
+        "url": "/tools/instantly-review.html",
+        "reason": "Better for high-volume, lower cost per account"
+      },
+      {
+        "name": "Saleshandy",
+        "url": "/tools/saleshandy-review.html",
+        "reason": "Unlimited accounts at lower price; less personalization"
+      },
+      {
+        "name": "Outreach",
+        "url": "/tools/outreach-review.html",
+        "reason": "Enterprise-grade SEP with stronger CRM integration"
+      }
     ]
   },
   "sidebar": {
     "quickStats": [
-      { "label": "G2 Rating", "value": "4.6/5" },
-      { "label": "Reviews", "value": "1,500+" },
-      { "label": "Starting Price", "value": "$55/user/mo" },
-      { "label": "Multi-Channel", "value": "Email + LinkedIn + Phone" },
-      { "label": "Free Trial", "value": "14 days" },
-      { "label": "Affiliate", "value": "25% recurring" }
+      {
+        "label": "G2 Rating",
+        "value": "4.6/5"
+      },
+      {
+        "label": "Reviews",
+        "value": "1,500+"
+      },
+      {
+        "label": "Starting Price",
+        "value": "$55/user/mo"
+      },
+      {
+        "label": "Multi-Channel",
+        "value": "Email + LinkedIn + Phone"
+      },
+      {
+        "label": "Free Trial",
+        "value": "14 days"
+      },
+      {
+        "label": "Affiliate",
+        "value": "25% recurring"
+      }
     ],
     "ctaUrl": "https://salesaiguide.com/go/lemlist",
     "ctaText": "Try Lemlist Free",
     "relatedLinks": [
-      { "url": "/compare/lemlist-vs-instantly.html", "text": "Lemlist vs Instantly" },
-      { "url": "/compare/lemlist-vs-saleshandy.html", "text": "Lemlist vs Saleshandy" },
-      { "url": "/categories/cold-outreach.html", "text": "All Cold Email Tools" }
+      {
+        "url": "/compare/lemlist-vs-instantly.html",
+        "text": "Lemlist vs Instantly"
+      },
+      {
+        "url": "/compare/lemlist-vs-saleshandy.html",
+        "text": "Lemlist vs Saleshandy"
+      },
+      {
+        "url": "/categories/cold-outreach.html",
+        "text": "All Cold Email Tools"
+      }
     ]
   },
   "finalCta": {
@@ -341,8 +582,20 @@
   },
   "reviewSources": {
     "sources": [
-      { "platform": "G2", "rating": 4.6, "reviews": 1500, "url": "https://www.g2.com/products/lemlist/reviews", "outOf": 5 },
-      { "platform": "Capterra", "rating": 4.6, "reviews": 383, "url": "https://www.capterra.com/p/153867/Lemlist/", "outOf": 5 }
+      {
+        "platform": "G2",
+        "rating": 4.6,
+        "reviews": 1500,
+        "url": "https://www.g2.com/products/lemlist/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.6,
+        "reviews": 383,
+        "url": "https://www.capterra.com/p/153867/Lemlist/",
+        "outOf": 5
+      }
     ],
     "consensusScore": 4.6,
     "lastUpdated": "February 2026"

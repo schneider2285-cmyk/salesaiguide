@@ -202,6 +202,13 @@ extraCss:
                     </section>
                     {% endif %}
 
+                    {% if t.compareLinks and not t.competitorTable %}
+                    <section class="content-section">
+                        <h2>{{ t.hero.breadcrumbName }} Comparisons</h2>
+                        <p>See how {{ t.hero.breadcrumbName }} stacks up against the competition: {% for link in t.compareLinks %}{% if not loop.first %} | {% endif %}<a href="{{ link.url }}">{{ link.text }}</a>{% endfor %}</p>
+                    </section>
+                    {% endif %}
+
                     {% if t.whoIsFor %}
                     <section class="content-section" id="who-should-use">
                         <h2>Who Is {{ t.hero.breadcrumbName }} For?</h2>

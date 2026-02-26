@@ -361,6 +361,10 @@
       {
         "text": "Calendly vs Chili Piper",
         "url": "/compare/calendly-vs-chili-piper.html"
+      },
+      {
+        "url": "/compare/chili-piper-vs-hubspot.html",
+        "text": "Chili Piper vs HubSpot"
       }
     ]
   },
@@ -400,7 +404,7 @@
       },
       "individual": {
         "score": 65,
-        "explain": "Reps benefit from instant meetings and fewer missed leads, but the platform is configured by RevOps \u2014 reps interact with it passively."
+        "explain": "Reps benefit from instant meetings and fewer missed leads, but the platform is configured by RevOps — reps interact with it passively."
       }
     },
     "subScores": [
@@ -571,9 +575,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 1,070+ total reviews across 2 verified platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 1,070+ total reviews across 2 verified platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -643,14 +647,14 @@
           "TrustRadius: 10 mentions",
           "Reddit: 3 threads"
         ],
-        "quote": "\"Chili Piper's routing is incredibly powerful \u2014 we have 7 territories, 3 product lines, and weighted round-robin all working perfectly. But our RevOps lead spent three weeks getting it right.\"",
+        "quote": "\"Chili Piper's routing is incredibly powerful — we have 7 territories, 3 product lines, and weighted round-robin all working perfectly. But our RevOps lead spent three weeks getting it right.\"",
         "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       }
     ],
     "pricingBreakdown": {
       "tldr": "Instant Booker from $22.50/seat/mo. Concierge from $30/seat/mo. Products are priced separately.",
       "gotchas": [
-        "Pricing is per seat AND per product \u2014 costs compound",
+        "Pricing is per seat AND per product — costs compound",
         "Distro (round-robin) is a separate product from Concierge",
         "Enterprise features (SSO, SLA) require custom pricing",
         "Annual commitment required for best rates"

@@ -362,6 +362,18 @@
       {
         "text": "Clay vs Clearbit",
         "url": "/compare/clay-vs-clearbit.html"
+      },
+      {
+        "url": "/compare/clay-vs-zoominfo.html",
+        "text": "Clay vs ZoomInfo"
+      },
+      {
+        "url": "/compare/11x-vs-clay.html",
+        "text": "11x vs Clay"
+      },
+      {
+        "url": "/compare/artisan-vs-clay.html",
+        "text": "Artisan vs Clay"
       }
     ]
   },
@@ -573,9 +585,9 @@
         "Trust center &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 318+ total reviews across 2 verified platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 318+ total reviews across 2 verified platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -657,7 +669,7 @@
           "G2: 38 mentions",
           "Reddit: 5 threads"
         ],
-        "quote": "\"Clay's HubSpot integration is the best I've used \u2014 bidirectional sync, custom field mapping, and it just works. We retired three Zapier automations after connecting Clay directly.\"",
+        "quote": "\"Clay's HubSpot integration is the best I've used — bidirectional sync, custom field mapping, and it just works. We retired three Zapier automations after connecting Clay directly.\"",
         "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
       {
@@ -845,7 +857,9 @@
           "g2": "4.5/5",
           "price": "From $29/mo"
         }
-      ]
+      ],
+      "seeAllUrl": "/alternatives/clay-alternatives.html",
+      "seeAllText": "See all Clay alternatives →"
     },
     "faqs": [
       {

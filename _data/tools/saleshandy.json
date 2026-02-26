@@ -37,9 +37,18 @@
     "updated": "Updated February 2026",
     "dataSource": "Data from G2, Capterra, and vendor documentation",
     "personaTags": [
-      { "text": "SDR", "class": "tag-sdr" },
-      { "text": "Agency", "class": "tag-agency" },
-      { "text": "Founder", "class": "tag-founder" }
+      {
+        "text": "SDR",
+        "class": "tag-sdr"
+      },
+      {
+        "text": "Agency",
+        "class": "tag-agency"
+      },
+      {
+        "text": "Founder",
+        "class": "tag-founder"
+      }
     ]
   },
   "scores": {
@@ -148,30 +157,162 @@
   "g2Reviews": {
     "intro": "Based on 650+ reviews on G2 (4.6/5 rating):",
     "pros": [
-      { "bold": "Unlimited accounts value", "text": "Reviewers consistently cite the unlimited email accounts as the primary reason for choosing Saleshandy over Instantly or Smartlead." },
-      { "bold": "Deliverability results", "text": "Users report strong inbox placement rates when following the warm-up protocol, with several noting 60–70% open rates on well-targeted campaigns." },
-      { "bold": "Pricing for agencies", "text": "Agency users highlight the cost advantage of managing 20+ client domains on a single plan without per-account fees." }
+      {
+        "bold": "Unlimited accounts value",
+        "text": "Reviewers consistently cite the unlimited email accounts as the primary reason for choosing Saleshandy over Instantly or Smartlead."
+      },
+      {
+        "bold": "Deliverability results",
+        "text": "Users report strong inbox placement rates when following the warm-up protocol, with several noting 60–70% open rates on well-targeted campaigns."
+      },
+      {
+        "bold": "Pricing for agencies",
+        "text": "Agency users highlight the cost advantage of managing 20+ client domains on a single plan without per-account fees."
+      }
     ],
     "cons": [
-      { "bold": "UI less polished than competitors", "text": "Multiple reviewers note that Instantly and Smartlead have cleaner interfaces and better UX for campaign management." },
-      { "bold": "Smaller community", "text": "Fewer public templates, YouTube tutorials, and community resources compared to Instantly's large user base." },
-      { "bold": "Lead database quality", "text": "The built-in B2B database is useful for basic prospecting but reviewers note lower accuracy compared to Apollo or ZoomInfo for enterprise contacts." }
+      {
+        "bold": "UI less polished than competitors",
+        "text": "Multiple reviewers note that Instantly and Smartlead have cleaner interfaces and better UX for campaign management."
+      },
+      {
+        "bold": "Smaller community",
+        "text": "Fewer public templates, YouTube tutorials, and community resources compared to Instantly's large user base."
+      },
+      {
+        "bold": "Lead database quality",
+        "text": "The built-in B2B database is useful for basic prospecting but reviewers note lower accuracy compared to Apollo or ZoomInfo for enterprise contacts."
+      }
     ],
     "link": "https://www.g2.com/products/saleshandy/reviews"
   },
   "competitorTable": {
-    "headers": ["Feature", "Saleshandy", "Instantly", "Smartlead"],
+    "headers": [
+      "Feature",
+      "Saleshandy",
+      "Instantly",
+      "Smartlead"
+    ],
     "rows": [
-      { "feature": "Email accounts", "featureBold": true, "values": [{ "text": "Unlimited (all plans)", "class": "check" }, { "text": "Unlimited (Growth+)", "class": "" }, { "text": "Unlimited (all plans)", "class": "check" }] },
-      { "feature": "Starting price", "featureBold": false, "values": [{ "text": "$36/mo" }, { "text": "$37/mo" }, { "text": "$39/mo" }] },
-      { "feature": "Built-in warm-up", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "B2B lead database", "featureBold": false, "values": [{ "text": "700M+ contacts" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }] },
-      { "feature": "A/B testing variants", "featureBold": false, "values": [{ "text": "26 variants (A/Z)" }, { "text": "5 variants" }, { "text": "Unlimited" }] },
-      { "feature": "Affiliate program", "featureBold": false, "values": [{ "text": "&#10003; 25% recurring", "class": "check" }, { "text": "&#10003; 40% recurring", "class": "check" }, { "text": "&#10003; 35% recurring", "class": "check" }] }
+      {
+        "feature": "Email accounts",
+        "featureBold": true,
+        "values": [
+          {
+            "text": "Unlimited (all plans)",
+            "class": "check"
+          },
+          {
+            "text": "Unlimited (Growth+)",
+            "class": ""
+          },
+          {
+            "text": "Unlimited (all plans)",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Starting price",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "$36/mo"
+          },
+          {
+            "text": "$37/mo"
+          },
+          {
+            "text": "$39/mo"
+          }
+        ]
+      },
+      {
+        "feature": "Built-in warm-up",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "B2B lead database",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "700M+ contacts"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          }
+        ]
+      },
+      {
+        "feature": "A/B testing variants",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "26 variants (A/Z)"
+          },
+          {
+            "text": "5 variants"
+          },
+          {
+            "text": "Unlimited"
+          }
+        ]
+      },
+      {
+        "feature": "Affiliate program",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003; 25% recurring",
+            "class": "check"
+          },
+          {
+            "text": "&#10003; 40% recurring",
+            "class": "check"
+          },
+          {
+            "text": "&#10003; 35% recurring",
+            "class": "check"
+          }
+        ]
+      }
     ],
     "seeFullLinks": [
-      { "url": "/compare/saleshandy-vs-instantly.html", "text": "Saleshandy vs Instantly" },
-      { "url": "/compare/saleshandy-vs-smartlead.html", "text": "Saleshandy vs Smartlead" }
+      {
+        "url": "/compare/saleshandy-vs-instantly.html",
+        "text": "Saleshandy vs Instantly"
+      },
+      {
+        "url": "/compare/saleshandy-vs-smartlead.html",
+        "text": "Saleshandy vs Smartlead"
+      },
+      {
+        "url": "/compare/smartlead-vs-saleshandy.html",
+        "text": "Smartlead vs Saleshandy"
+      },
+      {
+        "url": "/compare/lemlist-vs-saleshandy.html",
+        "text": "Lemlist vs Saleshandy"
+      }
     ]
   },
   "whoIsFor": {
@@ -213,11 +354,26 @@
       }
     },
     "subScores": [
-      { "label": "AI Depth", "score": "6/10" },
-      { "label": "Ease of Adoption", "score": "7/10" },
-      { "label": "Enterprise Fit", "score": "5/10" },
-      { "label": "Deliverability", "score": "8/10" },
-      { "label": "Value for Money", "score": "9/10" }
+      {
+        "label": "AI Depth",
+        "score": "6/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "7/10"
+      },
+      {
+        "label": "Enterprise Fit",
+        "score": "5/10"
+      },
+      {
+        "label": "Deliverability",
+        "score": "8/10"
+      },
+      {
+        "label": "Value for Money",
+        "score": "9/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Six-dimension assessment based on public review data, vendor documentation, and community feedback.",
@@ -227,7 +383,10 @@
           "score": 8,
           "notes": "Built-in warm-up and spam testing produce strong inbox placement when used correctly.",
           "evidence": [
-            { "source": "G2 reviews", "text": "Multiple users report 60–70% open rates on well-targeted campaigns after warm-up period." }
+            {
+              "source": "G2 reviews",
+              "text": "Multiple users report 60–70% open rates on well-targeted campaigns after warm-up period."
+            }
           ]
         },
         {
@@ -235,7 +394,10 @@
           "score": 7,
           "notes": "Conditional branching and A/Z testing are strong. Less intuitive to configure than Instantly.",
           "evidence": [
-            { "source": "G2 reviews", "text": "Reviewers praise the 26-variant A/Z testing but note the sequence builder has a steeper learning curve." }
+            {
+              "source": "G2 reviews",
+              "text": "Reviewers praise the 26-variant A/Z testing but note the sequence builder has a steeper learning curve."
+            }
           ]
         },
         {
@@ -243,7 +405,10 @@
           "score": 9,
           "notes": "Unlimited email accounts on all plans is the best pricing model in the cold email category for agencies.",
           "evidence": [
-            { "source": "Capterra reviews", "text": "Agency users consistently cite cost savings of 40–60% vs per-mailbox competitors." }
+            {
+              "source": "Capterra reviews",
+              "text": "Agency users consistently cite cost savings of 40–60% vs per-mailbox competitors."
+            }
           ]
         },
         {
@@ -251,7 +416,10 @@
           "score": 7,
           "notes": "Functional but less polished than Instantly. Onboarding takes 1–2 days for new users.",
           "evidence": [
-            { "source": "G2 reviews", "text": "Several reviewers note the UI is 'not as clean as Instantly' but 'gets the job done'." }
+            {
+              "source": "G2 reviews",
+              "text": "Several reviewers note the UI is 'not as clean as Instantly' but 'gets the job done'."
+            }
           ]
         },
         {
@@ -259,7 +427,10 @@
           "score": 6,
           "notes": "Native CRM integrations available but less mature. Zapier covers most gaps.",
           "evidence": [
-            { "source": "Vendor documentation", "text": "Native integrations with HubSpot, Pipedrive, Zoho. Salesforce via Zapier only." }
+            {
+              "source": "Vendor documentation",
+              "text": "Native integrations with HubSpot, Pipedrive, Zoho. Salesforce via Zapier only."
+            }
           ]
         },
         {
@@ -267,7 +438,10 @@
           "score": 7,
           "notes": "Live chat support on all plans. Response times generally under 4 hours per G2 reviewers.",
           "evidence": [
-            { "source": "G2 reviews", "text": "Support rated positively by most reviewers; occasional delays noted on complex technical issues." }
+            {
+              "source": "G2 reviews",
+              "text": "Support rated positively by most reviewers; occasional delays noted on complex technical issues."
+            }
           ]
         }
       ]
@@ -276,18 +450,42 @@
       "confidence": "medium",
       "confidenceNote": "Assessment based on 650+ G2 reviews, Capterra reviews, and vendor documentation. No direct product testing.",
       "sourcePills": [
-        { "text": "G2: 650+ reviews", "class": "" },
-        { "text": "Capterra: 180+ reviews", "class": "" },
-        { "text": "Vendor docs", "class": "" }
+        {
+          "text": "G2: 650+ reviews",
+          "class": ""
+        },
+        {
+          "text": "Capterra: 180+ reviews",
+          "class": ""
+        },
+        {
+          "text": "Vendor docs",
+          "class": ""
+        }
       ],
       "freshness": [
-        { "icon": "&#128197;", "text": "Data verified February 2026" }
+        {
+          "icon": "&#128197;",
+          "text": "Data verified February 2026"
+        }
       ],
       "evidenceGrid": [
-        { "icon": "&#10003;", "text": "Pricing verified from saleshandy.com/pricing" },
-        { "icon": "&#10003;", "text": "G2 rating: 4.6/5 (650+ reviews)" },
-        { "icon": "&#10003;", "text": "Capterra rating: 4.6/5 (180+ reviews)" },
-        { "icon": "&#10003;", "text": "Affiliate program: 25% recurring commission" }
+        {
+          "icon": "&#10003;",
+          "text": "Pricing verified from saleshandy.com/pricing"
+        },
+        {
+          "icon": "&#10003;",
+          "text": "G2 rating: 4.6/5 (650+ reviews)"
+        },
+        {
+          "icon": "&#10003;",
+          "text": "Capterra rating: 4.6/5 (180+ reviews)"
+        },
+        {
+          "icon": "&#10003;",
+          "text": "Affiliate program: 25% recurring commission"
+        }
       ],
       "strengthThemes": [
         "Unlimited email accounts on all plans",
@@ -306,31 +504,77 @@
       "The sequence builder becomes unwieldy for very complex multi-branch campaigns — Smartlead's AI branching handles this better"
     ],
     "stackFit": {
-      "bestWith": ["Clay (data enrichment)", "HubSpot (CRM)", "Apollo (prospecting database)"],
-      "replaces": ["Instantly (if you need unlimited accounts at lower cost)", "Smartlead (for agencies on tight budgets)"],
+      "bestWith": [
+        "Clay (data enrichment)",
+        "HubSpot (CRM)",
+        "Apollo (prospecting database)"
+      ],
+      "replaces": [
+        "Instantly (if you need unlimited accounts at lower cost)",
+        "Smartlead (for agencies on tight budgets)"
+      ],
       "exampleStack": "Clay → Saleshandy → HubSpot"
     },
     "alternatives": [
-      { "name": "Instantly", "url": "/tools/instantly-review.html", "reason": "Better UI and larger community; similar pricing" },
-      { "name": "Smartlead", "url": "/tools/smartlead-review.html", "reason": "Better AI branching and deliverability tools" },
-      { "name": "Lemlist", "url": "/tools/lemlist-review.html", "reason": "Better personalization and LinkedIn integration" }
+      {
+        "name": "Instantly",
+        "url": "/tools/instantly-review.html",
+        "reason": "Better UI and larger community; similar pricing"
+      },
+      {
+        "name": "Smartlead",
+        "url": "/tools/smartlead-review.html",
+        "reason": "Better AI branching and deliverability tools"
+      },
+      {
+        "name": "Lemlist",
+        "url": "/tools/lemlist-review.html",
+        "reason": "Better personalization and LinkedIn integration"
+      }
     ]
   },
   "sidebar": {
     "quickStats": [
-      { "label": "G2 Rating", "value": "4.6/5" },
-      { "label": "Reviews", "value": "650+" },
-      { "label": "Starting Price", "value": "$36/mo" },
-      { "label": "Email Accounts", "value": "Unlimited" },
-      { "label": "Free Trial", "value": "14 days" },
-      { "label": "Affiliate", "value": "25% recurring" }
+      {
+        "label": "G2 Rating",
+        "value": "4.6/5"
+      },
+      {
+        "label": "Reviews",
+        "value": "650+"
+      },
+      {
+        "label": "Starting Price",
+        "value": "$36/mo"
+      },
+      {
+        "label": "Email Accounts",
+        "value": "Unlimited"
+      },
+      {
+        "label": "Free Trial",
+        "value": "14 days"
+      },
+      {
+        "label": "Affiliate",
+        "value": "25% recurring"
+      }
     ],
     "ctaUrl": "https://salesaiguide.com/go/saleshandy",
     "ctaText": "Try Saleshandy Free",
     "relatedLinks": [
-      { "url": "/compare/saleshandy-vs-instantly.html", "text": "Saleshandy vs Instantly" },
-      { "url": "/compare/saleshandy-vs-smartlead.html", "text": "Saleshandy vs Smartlead" },
-      { "url": "/categories/cold-outreach.html", "text": "All Cold Email Tools" }
+      {
+        "url": "/compare/saleshandy-vs-instantly.html",
+        "text": "Saleshandy vs Instantly"
+      },
+      {
+        "url": "/compare/saleshandy-vs-smartlead.html",
+        "text": "Saleshandy vs Smartlead"
+      },
+      {
+        "url": "/categories/cold-outreach.html",
+        "text": "All Cold Email Tools"
+      }
     ]
   },
   "finalCta": {
@@ -341,8 +585,20 @@
   },
   "reviewSources": {
     "sources": [
-      { "platform": "G2", "rating": 4.6, "reviews": 650, "url": "https://www.g2.com/products/saleshandy/reviews", "outOf": 5 },
-      { "platform": "Capterra", "rating": 4.6, "reviews": 183, "url": "https://www.capterra.com/p/153867/Saleshandy/", "outOf": 5 }
+      {
+        "platform": "G2",
+        "rating": 4.6,
+        "reviews": 650,
+        "url": "https://www.g2.com/products/saleshandy/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.6,
+        "reviews": 183,
+        "url": "https://www.capterra.com/p/153867/Saleshandy/",
+        "outOf": 5
+      }
     ],
     "consensusScore": 4.6,
     "lastUpdated": "February 2026"

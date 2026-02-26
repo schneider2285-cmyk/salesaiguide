@@ -321,9 +321,9 @@
         "Trust center &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 10,289+ total reviews across 3 platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 10,289+ total reviews across 3 platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -393,7 +393,7 @@
           "Reddit: 12 threads",
           "Capterra: 78 mentions"
         ],
-        "quote": "\"I ran Apollo's free tier for four months as a solo founder before upgrading. No other tool gives you 10K leads a month at zero cost \u2014 it's how I built my entire initial pipeline.\"",
+        "quote": "\"I ran Apollo's free tier for four months as a solo founder before upgrading. No other tool gives you 10K leads a month at zero cost — it's how I built my entire initial pipeline.\"",
         "quoteCite": "Synthesized from G2 and community review themes"
       },
       {
@@ -405,20 +405,20 @@
           "G2: 650 mentions",
           "Reddit: 8 threads"
         ],
-        "quote": "\"My reps love the Chrome extension for LinkedIn prospecting \u2014 they pull verified emails in seconds. But our security team flagged the broad permissions and we had to get a formal exception from IT to keep it installed.\"",
+        "quote": "\"My reps love the Chrome extension for LinkedIn prospecting — they pull verified emails in seconds. But our security team flagged the broad permissions and we had to get a formal exception from IT to keep it installed.\"",
         "quoteCite": "Synthesized from G2 and community review themes"
       },
       {
         "sentiment": "positive",
         "sentimentIcon": "&#9650;",
         "heading": "All-in-one approach eliminates tool sprawl for SMBs",
-        "synthesis": "TrustRadius and Software Advice reviewers consistently highlight that Apollo replaces 2-3 separate tools for smaller teams \u2014 combining prospecting, email sequences, and basic CRM in one platform. Mid-market users report saving $500-1,200/mo by consolidating their stack around Apollo.",
+        "synthesis": "TrustRadius and Software Advice reviewers consistently highlight that Apollo replaces 2-3 separate tools for smaller teams — combining prospecting, email sequences, and basic CRM in one platform. Mid-market users report saving $500-1,200/mo by consolidating their stack around Apollo.",
         "sources": [
           "TrustRadius: 28 mentions",
           "Software Advice: 35 mentions",
           "G2: 180+ mentions"
         ],
-        "quote": "\"Apollo replaced our ZoomInfo subscription, a separate sequencing tool, and a basic CRM \u2014 saving us roughly $800 per rep per month. For a 12-person team, that's a game-changer.\"",
+        "quote": "\"Apollo replaced our ZoomInfo subscription, a separate sequencing tool, and a basic CRM — saving us roughly $800 per rep per month. For a 12-person team, that's a game-changer.\"",
         "quoteCite": "Synthesized from G2 and community review themes"
       }
     ],
@@ -598,7 +598,9 @@
           "g2": "4.2/5",
           "price": "From $36/mo"
         }
-      ]
+      ],
+      "seeAllUrl": "/alternatives/apollo-alternatives.html",
+      "seeAllText": "See all Apollo alternatives →"
     },
     "faqs": [
       {
@@ -708,5 +710,51 @@
     ],
     "consensusScore": 4.3,
     "lastUpdated": "February 2026"
-  }
+  },
+  "compareLinks": [
+    {
+      "url": "/compare/apollo-vs-zoominfo.html",
+      "text": "Apollo vs ZoomInfo"
+    },
+    {
+      "url": "/compare/clay-vs-apollo.html",
+      "text": "Clay vs Apollo"
+    },
+    {
+      "url": "/compare/lusha-vs-apollo.html",
+      "text": "Lusha vs Apollo"
+    },
+    {
+      "url": "/compare/apollo-vs-hubspot.html",
+      "text": "Apollo vs HubSpot"
+    },
+    {
+      "url": "/compare/cognism-vs-apollo.html",
+      "text": "Cognism vs Apollo"
+    },
+    {
+      "url": "/compare/instantly-vs-apollo.html",
+      "text": "Instantly vs Apollo"
+    },
+    {
+      "url": "/compare/lavender-vs-apollo.html",
+      "text": "Lavender vs Apollo"
+    },
+    {
+      "url": "/compare/leadiq-vs-apollo.html",
+      "text": "LeadIQ vs Apollo"
+    },
+    {
+      "url": "/compare/warmly-vs-apollo.html",
+      "text": "Warmly vs Apollo"
+    },
+    {
+      "url": "/compare/apollo-vs-outreach.html",
+      "text": "Apollo vs Outreach"
+    },
+    {
+      "url": "/compare/apollo-vs-salesloft.html",
+      "text": "Apollo vs Salesloft"
+    }
+  ]
 }

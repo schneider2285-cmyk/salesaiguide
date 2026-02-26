@@ -90,7 +90,7 @@
   },
   "pricing": {
     "heading": "Orum Pricing",
-    "intro": "Orum uses custom enterprise pricing \u2014 no public tiers are listed. Based on community reports and sales conversations, pricing typically runs $500-$800/user/month with annual contracts required. A free trial is available.",
+    "intro": "Orum uses custom enterprise pricing — no public tiers are listed. Based on community reports and sales conversations, pricing typically runs $500-$800/user/month with annual contracts required. A free trial is available.",
     "tiers": [
       {
         "name": "Launch",
@@ -120,7 +120,7 @@
     "heading": "What G2 Reviewers Say",
     "rating": "4.7",
     "reviewCount": "312",
-    "quoteHtml": "<p><strong>Composite insight from public sources:</strong> G2 reviewers consistently praise Orum for dramatically increasing live conversations per hour \u2014 many report 3-5x improvement over manual dialing. The virtual salesfloor and coaching features are frequently cited as differentiators. Main complaints center on cost (\"hard to justify for small teams\"), occasional call quality issues, and the learning curve for setting up CRM dispositions correctly.</p>",
+    "quoteHtml": "<p><strong>Composite insight from public sources:</strong> G2 reviewers consistently praise Orum for dramatically increasing live conversations per hour — many report 3-5x improvement over manual dialing. The virtual salesfloor and coaching features are frequently cited as differentiators. Main complaints center on cost (\"hard to justify for small teams\"), occasional call quality issues, and the learning curve for setting up CRM dispositions correctly.</p>",
     "quoteCite": "Composite insight from public sources"
   },
   "competitorTable": {
@@ -182,6 +182,16 @@
         "4.7/5",
         "4.5/5"
       ]
+    ],
+    "seeFullLinks": [
+      {
+        "url": "/compare/orum-vs-nooks.html",
+        "text": "Orum vs Nooks"
+      },
+      {
+        "url": "/compare/orum-vs-salesloft.html",
+        "text": "Orum vs Salesloft"
+      }
     ]
   },
   "whoIsFor": {
@@ -211,9 +221,9 @@
   },
   "decisionModule": {
     "verdict": {
-      "summary": "Orum is the right choice for SDR teams running high-volume outbound who need to maximize live conversations per hour. It's not a prospecting tool \u2014 it assumes you already have a list. The ROI case is strong for teams of 5+ reps doing 50+ dials/day.",
+      "summary": "Orum is the right choice for SDR teams running high-volume outbound who need to maximize live conversations per hour. It's not a prospecting tool — it assumes you already have a list. The ROI case is strong for teams of 5+ reps doing 50+ dials/day.",
       "bestFor": "SDR teams of 5+ reps running 50+ dials/day with clean contact lists in Salesforce or HubSpot",
-      "avoidIf": "Solo reps, teams under 5 SDRs, or teams with poor contact data quality \u2014 parallel dialing amplifies bad data problems"
+      "avoidIf": "Solo reps, teams under 5 SDRs, or teams with poor contact data quality — parallel dialing amplifies bad data problems"
     },
     "dualScore": {
       "orgScore": 8,
@@ -250,7 +260,7 @@
         },
         {
           "label": "Free trial",
-          "value": "Yes \u2014 contact sales"
+          "value": "Yes — contact sales"
         },
         {
           "label": "CRM requirement",
@@ -305,7 +315,7 @@
           "sentiment": "negative"
         },
         {
-          "theme": "Parallel dialing amplifies bad contact data \u2014 list quality matters more",
+          "theme": "Parallel dialing amplifies bad contact data — list quality matters more",
           "sentiment": "negative"
         },
         {
@@ -344,11 +354,11 @@
     ],
     "breaksAtScale": [
       "Economics don't work for small teams or low-volume use cases",
-      "Parallel dialing amplifies bad contact data \u2014 list hygiene is critical",
-      "No built-in prospecting \u2014 requires a separate data source",
+      "Parallel dialing amplifies bad contact data — list hygiene is critical",
+      "No built-in prospecting — requires a separate data source",
       "Custom pricing makes budgeting difficult without a sales call"
     ],
-    "whoShouldNotBuy": "Solo reps, teams under 5 SDRs, teams doing fewer than 30 dials/day per rep, or teams with poor CRM hygiene. Also not suitable as a first sales tool \u2014 requires an existing outbound process to layer onto.",
+    "whoShouldNotBuy": "Solo reps, teams under 5 SDRs, teams doing fewer than 30 dials/day per rep, or teams with poor CRM hygiene. Also not suitable as a first sales tool — requires an existing outbound process to layer onto.",
     "implementationReality": "1-2 weeks for full deployment including CRM integration, voicemail recording, and disposition setup. Reps are typically productive within 2-3 days. Manager dashboards require additional configuration.",
     "enterpriseReadiness": {
       "overallScore": 7,
@@ -398,7 +408,7 @@
         {
           "segment": "High-volume SDR teams",
           "fit": "strong",
-          "reason": "Core use case \u2014 50+ dials/day per rep sees 3-5x ROI on live conversations"
+          "reason": "Core use case — 50+ dials/day per rep sees 3-5x ROI on live conversations"
         },
         {
           "segment": "Remote sales teams",
@@ -451,7 +461,7 @@
         "role": "Alternative dialer",
         "reason": null,
         "replaces": null,
-        "avoidWith": "Direct competitor \u2014 choose one or the other based on which CRM you use and team size."
+        "avoidWith": "Direct competitor — choose one or the other based on which CRM you use and team size."
       }
     ],
     "alternatives": [
@@ -474,7 +484,7 @@
     "faqs": [
       {
         "q": "How much does Orum cost?",
-        "a": "Orum uses custom pricing \u2014 no public tiers. Community reports suggest $500-$800/user/month with annual contracts. Contact sales for current pricing."
+        "a": "Orum uses custom pricing — no public tiers. Community reports suggest $500-$800/user/month with annual contracts. Contact sales for current pricing."
       },
       {
         "q": "Does Orum work with HubSpot?",
@@ -486,7 +496,7 @@
       },
       {
         "q": "Does Orum have a free trial?",
-        "a": "Yes \u2014 Orum offers a free trial. Contact their sales team to get access."
+        "a": "Yes — Orum offers a free trial. Contact their sales team to get access."
       },
       {
         "q": "What's the minimum team size for Orum?",
@@ -501,7 +511,7 @@
   "sidebar": {
     "affiliateUrl": "https://www.orum.com",
     "affiliateCta": "Try Orum Free",
-    "affiliateDisclosure": "Affiliate link \u2014 we may earn a commission at no cost to you.",
+    "affiliateDisclosure": "Affiliate link — we may earn a commission at no cost to you.",
     "relatedComparisons": [
       {
         "label": "Orum vs Nooks",
@@ -536,7 +546,7 @@
     "body": "Orum is built for SDR teams that need more live conversations, not more dials. If your reps are spending more time on voicemails than actual conversations, Orum is worth evaluating.",
     "ctaText": "Try Orum Free",
     "ctaUrl": "https://www.orum.com",
-    "disclaimer": "Affiliate link \u2014 commission earned at no cost to you. Scores and placement are independent of affiliate relationships."
+    "disclaimer": "Affiliate link — commission earned at no cost to you. Scores and placement are independent of affiliate relationships."
   },
   "sourcesChecked": {
     "lastVerified": "February 2026",
@@ -544,7 +554,7 @@
       {
         "name": "G2",
         "type": "review_platform",
-        "icon": "\u2605",
+        "icon": "★",
         "reviewCount": "312",
         "rating": "4.7",
         "whatFound": "Strong praise for parallel dialing efficiency and virtual salesfloor. Top complaints: cost for small teams and occasional call quality issues.",
@@ -553,7 +563,7 @@
       {
         "name": "Reddit (r/sales, r/saleshacks)",
         "type": "community",
-        "icon": "\ud83d\udcac",
+        "icon": "💬",
         "reviewCount": "30+",
         "rating": null,
         "whatFound": "Generally positive. Reps report 3-5x more live conversations. Common thread: 'worth it if your team does volume.' Concerns about cost for small teams.",
@@ -562,7 +572,7 @@
       {
         "name": "YouTube (demos & reviews)",
         "type": "video",
-        "icon": "\u25b6",
+        "icon": "▶",
         "reviewCount": "20+",
         "rating": null,
         "whatFound": "Official demos show clean UI and fast connect times. Independent reviewers highlight virtual salesfloor as a standout feature.",
@@ -571,7 +581,7 @@
       {
         "name": "Vendor documentation",
         "type": "vendor_docs",
-        "icon": "\ud83d\udcc4",
+        "icon": "📄",
         "reviewCount": "Full docs",
         "rating": null,
         "whatFound": "Well-documented integrations with Salesforce, HubSpot, Outreach, and Salesloft. SOC 2 Type II certification confirmed.",
@@ -580,7 +590,7 @@
       {
         "name": "Job postings (LinkedIn, Indeed)",
         "type": "job_signals",
-        "icon": "\ud83d\udcbc",
+        "icon": "💼",
         "reviewCount": "50+",
         "rating": null,
         "whatFound": "Orum appears in SDR job requirements at mid-market and enterprise companies. Frequently listed alongside Salesforce and Outreach.",

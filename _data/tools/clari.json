@@ -345,6 +345,14 @@
       {
         "text": "Clari vs Aviso",
         "url": "/compare/clari-vs-aviso.html"
+      },
+      {
+        "url": "/compare/clari-vs-hubspot.html",
+        "text": "Clari vs HubSpot"
+      },
+      {
+        "url": "/compare/gong-vs-clari.html",
+        "text": "Gong vs Clari"
       }
     ]
   },
@@ -564,9 +572,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 790+ total reviews across 4 platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 790+ total reviews across 4 platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -593,8 +601,8 @@
       ],
       "limitationThemes": [
         "Setup requires dedicated RevOps resource and 2-4 weeks",
-        "Pricing opaque \u2014 typically $50-100/user/mo enterprise only",
-        "Reps interact passively \u2014 primarily a manager/leadership tool"
+        "Pricing opaque — typically $50-100/user/mo enterprise only",
+        "Reps interact passively — primarily a manager/leadership tool"
       ],
       "disagreeNote": "&#9888;&#65039; Where sources disagree: Vendor positions as full revenue platform; practitioners primarily value forecasting and pipeline analytics. Copilot call recording seen as catching up to Gong rather than leading.",
       "lastVerified": "February 2026"
