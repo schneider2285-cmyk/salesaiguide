@@ -292,10 +292,22 @@
       "confidence": "medium",
       "confidenceNote": "Based on G2 reviews (primary platform) and verified vendor documentation. Single verified review platform limits pattern reliability.",
       "sourcePills": [
-        "G2: 4.8/5 (62 reviews)",
-        "Reddit: 7+ threads",
-        "YouTube: 5+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.8/5 (62 reviews)",
+          "url": "https://www.g2.com/products/lavender/reviews"
+        },
+        {
+          "label": "Reddit: 7+ threads",
+          "url": "https://www.reddit.com/search/?q=lavender+ai+email+review&sort=top"
+        },
+        {
+          "label": "YouTube: 5+ demos",
+          "url": "https://www.youtube.com/results?search_query=lavender+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "url": null
+        }
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -344,7 +356,8 @@
           "Reddit: 4 threads"
         ],
         "quote": "\"My reply rates went from 3% to 11% in the first month. The real-time scoring forced me to rewrite every lazy email, and the habits stuck even when I turned it off.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/lavender/reviews"
       },
       {
         "sentiment": "mixed",
@@ -356,7 +369,8 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"After six months I could predict the score before I even ran it. The coaching worked &mdash; I internalized the patterns &mdash; but now I'm paying $49/mo for a tool I've outgrown.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/lavender/reviews"
       },
       {
         "sentiment": "positive",
@@ -368,7 +382,8 @@
           "Reddit: 5 threads"
         ],
         "quote": "\"Installed the Chrome extension and it was scoring my emails within sixty seconds. No onboarding call, no setup wizard &mdash; it just works inside Gmail like it was always there.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/lavender/reviews"
       },
       {
         "sentiment": "negative",
@@ -380,7 +395,8 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"Lavender is brilliant for what it does &mdash; email coaching &mdash; but that's literally all it does. You still need a separate tool for sequences, tracking, and LinkedIn outreach.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/lavender/reviews"
       },
       {
         "sentiment": "positive",
@@ -392,7 +408,8 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"Within one week our new SDRs were writing emails that scored 90+. The coaching loop is so tight that bad habits don't have time to form &mdash; it's like having a writing coach on every send.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/lavender/reviews"
       }
     ],
     "pricingBreakdown": {
@@ -654,5 +671,8 @@
     "secondaryUrl": "https://www.g2.com/products/lavender/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "g2Reviews": {
+    "link": "https://www.g2.com/products/lavender/reviews"
   }
 }

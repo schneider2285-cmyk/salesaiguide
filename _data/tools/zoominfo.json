@@ -309,12 +309,30 @@
       "confidence": "medium",
       "confidenceNote": "Based on multi-platform reviews and verified vendor documentation with broad review coverage. Community signal concentrated on US market; EMEA/APAC patterns less reliable.",
       "sourcePills": [
-        "G2: 4.5/5 (9,005 reviews)",
-        "Capterra: 4.1/5 (315 reviews)",
-        "TrustRadius: 8.2/10 (820+ reviews)",
-        "Gartner PI: 4.7/5 (421+ reviews)",
-        "YouTube: 18+ demos",
-        "Trust center ✓"
+        {
+          "label": "G2: 4.5/5 (9,005 reviews)",
+          "url": "https://www.g2.com/products/zoominfo-sales/reviews"
+        },
+        {
+          "label": "Capterra: 4.1/5 (315 reviews)",
+          "url": "https://www.capterra.com/zoominfo-salesos/software/1017502/"
+        },
+        {
+          "label": "TrustRadius: 8.2/10 (820+ reviews)",
+          "url": "https://www.trustradius.com/products/zoominfo-salesos/reviews"
+        },
+        {
+          "label": "Gartner PI: 4.7/5 (421+ reviews)",
+          "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/zoominfo-salesos/reviews"
+        },
+        {
+          "label": "YouTube: 18+ demos",
+          "url": "https://www.youtube.com/results?search_query=zoominfo+review+demo"
+        },
+        {
+          "label": "Trust center ✓",
+          "url": null
+        }
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -364,7 +382,8 @@
           "Capterra: 120+ mentions"
         ],
         "quote": "\"ZoomInfo's contact accuracy is the best in class for the US market. We run enrichment on 10K leads monthly and consistently see 85%+ valid email rates.\"",
-        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
+        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/zoominfo-sales/reviews"
       },
       {
         "sentiment": "negative",
@@ -377,7 +396,8 @@
           "Capterra: 95+ mentions"
         ],
         "quote": "\"The auto-renewal clause caught us completely off guard. We had to fight for three months to get out of a contract we'd flagged for cancellation well before the deadline.\"",
-        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
+        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/zoominfo-sales/reviews"
       },
       {
         "sentiment": "mixed",
@@ -390,7 +410,8 @@
           "Capterra: 55+ mentions"
         ],
         "quote": "\"For our US accounts, ZoomInfo is unbeatable. But when we expanded into EMEA, we had to layer Cognism on top because the European contact data was too thin to rely on.\"",
-        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
+        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/zoominfo-sales/reviews"
       },
       {
         "sentiment": "negative",
@@ -402,7 +423,8 @@
           "Reddit: 15 threads"
         ],
         "quote": "\"The annual contract with aggressive auto-renewal caught us by surprise. Budget $50K+ for a mid-market team and make sure you negotiate credits upfront.\"",
-        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
+        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/zoominfo-sales/reviews"
       },
       {
         "sentiment": "negative",
@@ -415,7 +437,8 @@
           "Reddit: 12 threads"
         ],
         "quote": "\"We tried to downsize from 30 to 15 seats at renewal and were told the minimum contract floor wouldn't allow it. Ended up paying for seats we didn't need for another full year.\"",
-        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions"
+        "quoteCite": "Synthesized from G2, TrustRadius, and community discussions",
+        "quoteCiteUrl": "https://www.g2.com/products/zoominfo-sales/reviews"
       }
     ],
     "pricingBreakdown": {
@@ -712,5 +735,8 @@
     "secondaryUrl": "https://www.g2.com/products/zoominfo/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "g2Reviews": {
+    "link": "https://www.g2.com/products/zoominfo-sales/reviews"
   }
 }

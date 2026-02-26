@@ -70,12 +70,21 @@
     "updated": "Updated February 2026",
     "dataSource": "Data from G2 & warmly.ai",
     "personaTags": [
-      { "class": "requires-admin", "text": "Requires Admin" }
+      {
+        "class": "requires-admin",
+        "text": "Requires Admin"
+      }
     ]
   },
   "scores": {
-    "org": { "value": 65, "verdict": "Strong intent data with AI engagement capabilities" },
-    "rep": { "value": 45, "verdict": "Primarily a RevOps tool; reps use alerts passively" }
+    "org": {
+      "value": 65,
+      "verdict": "Strong intent data with AI engagement capabilities"
+    },
+    "rep": {
+      "value": 45,
+      "verdict": "Primarily a RevOps tool; reps use alerts passively"
+    }
   },
   "quickSummary": {
     "whatItDoes": "Identifies anonymous website visitors using IP + intent data, sends real-time alerts to sales teams, and deploys an AI agent to engage high-value visitors via chat.",
@@ -91,12 +100,30 @@
     "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/warmly/reviews\" target=\"_blank\" rel=\"noopener\">Warmly on G2</a>."
   },
   "features": [
-    { "title": "Visitor De-Anonymization", "description": "Identify company and individual visitors using IP intelligence and intent data." },
-    { "title": "Warmly AI Agent", "description": "AI-powered live chat that engages high-value visitors automatically." },
-    { "title": "Slack Alerts", "description": "Real-time notifications when target accounts visit key pages." },
-    { "title": "Multi-Source Enrichment", "description": "Integration with Clearbit, 6sense, and Bombora for layered intent signals." },
-    { "title": "CRM Integration", "description": "Native Salesforce and HubSpot sync for visitor data and engagement." },
-    { "title": "Free Tier", "description": "Identify up to 500 visitors per month at no cost." }
+    {
+      "title": "Visitor De-Anonymization",
+      "description": "Identify company and individual visitors using IP intelligence and intent data."
+    },
+    {
+      "title": "Warmly AI Agent",
+      "description": "AI-powered live chat that engages high-value visitors automatically."
+    },
+    {
+      "title": "Slack Alerts",
+      "description": "Real-time notifications when target accounts visit key pages."
+    },
+    {
+      "title": "Multi-Source Enrichment",
+      "description": "Integration with Clearbit, 6sense, and Bombora for layered intent signals."
+    },
+    {
+      "title": "CRM Integration",
+      "description": "Native Salesforce and HubSpot sync for visitor data and engagement."
+    },
+    {
+      "title": "Free Tier",
+      "description": "Identify up to 500 visitors per month at no cost."
+    }
   ],
   "pricing": {
     "note": "Pricing from warmly.ai. Business tier requires demo. Verify on their site.",
@@ -156,34 +183,185 @@
   "g2Reviews": {
     "intro": "Based on 300+ reviews on G2 (4.8/5 rating):",
     "pros": [
-      { "bold": "Visitor identification accuracy", "text": "IP-to-company resolution praised for reliability on B2B traffic" },
-      { "bold": "AI chat engagement", "text": "Warmly AI agent converts visitors who would otherwise bounce" },
-      { "bold": "Slack integration", "text": "Real-time alerts in Slack drive immediate sales action" },
-      { "bold": "Easy JavaScript install", "text": "Tracking snippet deploys in minutes; no dev team needed" },
-      { "bold": "Multi-source enrichment", "text": "Clearbit + 6sense + Bombora data layers add depth" }
+      {
+        "bold": "Visitor identification accuracy",
+        "text": "IP-to-company resolution praised for reliability on B2B traffic"
+      },
+      {
+        "bold": "AI chat engagement",
+        "text": "Warmly AI agent converts visitors who would otherwise bounce"
+      },
+      {
+        "bold": "Slack integration",
+        "text": "Real-time alerts in Slack drive immediate sales action"
+      },
+      {
+        "bold": "Easy JavaScript install",
+        "text": "Tracking snippet deploys in minutes; no dev team needed"
+      },
+      {
+        "bold": "Multi-source enrichment",
+        "text": "Clearbit + 6sense + Bombora data layers add depth"
+      }
     ],
     "cons": [
-      { "bold": "Pricing jump", "text": "Free to $700/mo is a steep leap; no mid-tier option" },
-      { "bold": "RevOps setup required", "text": "Alert routing and workflows need operations expertise" },
-      { "bold": "Individual visitor ID limited", "text": "Identifies companies well; specific contacts less reliable" },
-      { "bold": "Newer platform", "text": "Fewer integrations and less mature than established tools" },
-      { "bold": "SMB traffic challenge", "text": "IP resolution less effective for remote/WFH visitors" }
+      {
+        "bold": "Pricing jump",
+        "text": "Free to $700/mo is a steep leap; no mid-tier option"
+      },
+      {
+        "bold": "RevOps setup required",
+        "text": "Alert routing and workflows need operations expertise"
+      },
+      {
+        "bold": "Individual visitor ID limited",
+        "text": "Identifies companies well; specific contacts less reliable"
+      },
+      {
+        "bold": "Newer platform",
+        "text": "Fewer integrations and less mature than established tools"
+      },
+      {
+        "bold": "SMB traffic challenge",
+        "text": "IP resolution less effective for remote/WFH visitors"
+      }
     ],
     "link": "https://www.g2.com/products/warmly/reviews"
   },
   "competitorTable": {
-    "headers": ["Feature", "Warmly", "Leadfeeder", "6sense"],
+    "headers": [
+      "Feature",
+      "Warmly",
+      "Leadfeeder",
+      "6sense"
+    ],
     "rows": [
-      { "feature": "G2 Rating", "featureBold": true, "values": [{ "text": "4.8/5 (300+)" }, { "text": "4.3/5 (800+)" }, { "text": "4.0/5 (900+)" }] },
-      { "feature": "AI Chat Agent", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }] },
-      { "feature": "Free Tier", "featureBold": false, "values": [{ "text": "&#10003; 500/mo", "class": "check" }, { "text": "&#10003; Limited", "class": "check" }, { "text": "&#10007;", "class": "cross" }] },
-      { "feature": "Multi-Source Enrichment", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "Partial", "class": "" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "Slack Alerts", "featureBold": false, "values": [{ "text": "&#10003; Native", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "Starting Price", "featureBold": false, "values": [{ "text": "Free / $700/mo" }, { "text": "From $139/mo" }, { "text": "Custom (enterprise)" }] },
-      { "feature": "Intent Data", "featureBold": false, "values": [{ "text": "&#10003; Bombora", "class": "check" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10003; Native", "class": "check" }] }
+      {
+        "feature": "G2 Rating",
+        "featureBold": true,
+        "values": [
+          {
+            "text": "4.8/5 (300+)"
+          },
+          {
+            "text": "4.3/5 (800+)"
+          },
+          {
+            "text": "4.0/5 (900+)"
+          }
+        ]
+      },
+      {
+        "feature": "AI Chat Agent",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          }
+        ]
+      },
+      {
+        "feature": "Free Tier",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003; 500/mo",
+            "class": "check"
+          },
+          {
+            "text": "&#10003; Limited",
+            "class": "check"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          }
+        ]
+      },
+      {
+        "feature": "Multi-Source Enrichment",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "Partial",
+            "class": ""
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Slack Alerts",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003; Native",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Starting Price",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "Free / $700/mo"
+          },
+          {
+            "text": "From $139/mo"
+          },
+          {
+            "text": "Custom (enterprise)"
+          }
+        ]
+      },
+      {
+        "feature": "Intent Data",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003; Bombora",
+            "class": "check"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10003; Native",
+            "class": "check"
+          }
+        ]
+      }
     ],
     "seeFullLinks": [
-      { "text": "Warmly vs Leadfeeder", "url": "/compare/warmly-vs-leadfeeder.html" }
+      {
+        "text": "Warmly vs Leadfeeder",
+        "url": "/compare/warmly-vs-leadfeeder.html"
+      }
     ]
   },
   "whoIsFor": {
@@ -226,12 +404,30 @@
       }
     },
     "subScores": [
-      { "label": "Enterprise Fit", "score": "7/10" },
-      { "label": "Ease of Adoption", "score": "5/10" },
-      { "label": "AI Depth", "score": "8/10" },
-      { "label": "Integration Depth", "score": "9/10" },
-      { "label": "Pricing Transparency", "score": "6/10" },
-      { "label": "Scalability", "score": "7/10" }
+      {
+        "label": "Enterprise Fit",
+        "score": "7/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "5/10"
+      },
+      {
+        "label": "AI Depth",
+        "score": "8/10"
+      },
+      {
+        "label": "Integration Depth",
+        "score": "9/10"
+      },
+      {
+        "label": "Pricing Transparency",
+        "score": "6/10"
+      },
+      {
+        "label": "Scalability",
+        "score": "7/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
@@ -241,10 +437,22 @@
           "score": 7,
           "notes": "SOC 2 compliant; enterprise integrations; team alerting workflows",
           "evidence": [
-            { "source": "G2", "text": "Enterprise users confirm SOC 2 compliance and data governance" },
-            { "source": "Vendor", "text": "Enterprise plan includes custom integrations and SLA guarantees" },
-            { "source": "TrustRadius", "text": "Mid-market and enterprise teams praise alerting workflow customization" },
-            { "source": "Reddit", "text": "Users report successful integration into existing ABM tech stacks" }
+            {
+              "source": "G2",
+              "text": "Enterprise users confirm SOC 2 compliance and data governance"
+            },
+            {
+              "source": "Vendor",
+              "text": "Enterprise plan includes custom integrations and SLA guarantees"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Mid-market and enterprise teams praise alerting workflow customization"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users report successful integration into existing ABM tech stacks"
+            }
           ]
         },
         {
@@ -252,10 +460,22 @@
           "score": 5,
           "notes": "JavaScript snippet installs easily; alert routing requires RevOps setup",
           "evidence": [
-            { "source": "G2", "text": "Tracking snippet deploys in under 10 minutes; workflow setup takes longer" },
-            { "source": "Vendor", "text": "Quick start guide for basic visitor ID; advanced features need configuration" },
-            { "source": "Reddit", "text": "Users note alert routing and enrichment rules require RevOps expertise" },
-            { "source": "Capterra", "text": "Initial setup is fast; optimization of alert workflows takes 1-2 weeks" }
+            {
+              "source": "G2",
+              "text": "Tracking snippet deploys in under 10 minutes; workflow setup takes longer"
+            },
+            {
+              "source": "Vendor",
+              "text": "Quick start guide for basic visitor ID; advanced features need configuration"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users note alert routing and enrichment rules require RevOps expertise"
+            },
+            {
+              "source": "Capterra",
+              "text": "Initial setup is fast; optimization of alert workflows takes 1-2 weeks"
+            }
           ]
         },
         {
@@ -263,10 +483,22 @@
           "score": 8,
           "notes": "AI agent for real-time visitor engagement is a genuine differentiator",
           "evidence": [
-            { "source": "G2", "text": "Warmly AI agent praised for converting visitors who would otherwise bounce" },
-            { "source": "Vendor", "text": "AI agent uses visitor context and intent signals for personalized engagement" },
-            { "source": "Reddit", "text": "Users report 15-25% increase in booked meetings from AI chat" },
-            { "source": "TrustRadius", "text": "AI engagement feature cited as primary reason for choosing Warmly over alternatives" }
+            {
+              "source": "G2",
+              "text": "Warmly AI agent praised for converting visitors who would otherwise bounce"
+            },
+            {
+              "source": "Vendor",
+              "text": "AI agent uses visitor context and intent signals for personalized engagement"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users report 15-25% increase in booked meetings from AI chat"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "AI engagement feature cited as primary reason for choosing Warmly over alternatives"
+            }
           ]
         },
         {
@@ -274,10 +506,22 @@
           "score": 9,
           "notes": "Clearbit, 6sense, Bombora, Salesforce, HubSpot, Slack — multi-source stack",
           "evidence": [
-            { "source": "G2", "text": "Integration ecosystem rated 4.5/5 for breadth and reliability" },
-            { "source": "Vendor", "text": "Native Clearbit, 6sense, Bombora, Salesforce, HubSpot, Slack connectors" },
-            { "source": "Capterra", "text": "Multi-source enrichment praised for layered intent signals" },
-            { "source": "TrustRadius", "text": "Slack integration cited as the most-used feature by sales teams" }
+            {
+              "source": "G2",
+              "text": "Integration ecosystem rated 4.5/5 for breadth and reliability"
+            },
+            {
+              "source": "Vendor",
+              "text": "Native Clearbit, 6sense, Bombora, Salesforce, HubSpot, Slack connectors"
+            },
+            {
+              "source": "Capterra",
+              "text": "Multi-source enrichment praised for layered intent signals"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Slack integration cited as the most-used feature by sales teams"
+            }
           ]
         },
         {
@@ -285,9 +529,18 @@
           "score": 6,
           "notes": "Free tier is clear; Business pricing requires a demo conversation",
           "evidence": [
-            { "source": "Vendor", "text": "Free tier documented; Business tier listed at $700/mo but requires demo" },
-            { "source": "G2", "text": "Pricing jump from free to $700/mo is the most common concern" },
-            { "source": "Reddit", "text": "Users wish there was a mid-tier option between free and $700/mo" }
+            {
+              "source": "Vendor",
+              "text": "Free tier documented; Business tier listed at $700/mo but requires demo"
+            },
+            {
+              "source": "G2",
+              "text": "Pricing jump from free to $700/mo is the most common concern"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users wish there was a mid-tier option between free and $700/mo"
+            }
           ]
         },
         {
@@ -295,9 +548,18 @@
           "score": 7,
           "notes": "Scales with traffic volume; pricing adjusts for enterprise traffic levels",
           "evidence": [
-            { "source": "G2", "text": "Enterprise users report handling 50K+ monthly visitors without issues" },
-            { "source": "Vendor", "text": "Enterprise plan supports unlimited visitors with custom pricing" },
-            { "source": "TrustRadius", "text": "Scales well for high-traffic B2B sites; less value for low-traffic sites" }
+            {
+              "source": "G2",
+              "text": "Enterprise users report handling 50K+ monthly visitors without issues"
+            },
+            {
+              "source": "Vendor",
+              "text": "Enterprise plan supports unlimited visitors with custom pricing"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Scales well for high-traffic B2B sites; less value for low-traffic sites"
+            }
           ]
         }
       ]
@@ -306,22 +568,49 @@
       "confidence": "medium",
       "confidenceNote": "Based on G2 reviews and vendor documentation. Newer tool with fewer total reviews than established alternatives, but high satisfaction scores and strong signal from early adopters.",
       "sourcePills": [
-        "G2: 4.8/5 (300+ reviews)",
-        "TrustRadius: 8.5/10 (22 reviews)",
-        "Reddit: 6+ threads",
-        "YouTube: 4+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.8/5 (300+ reviews)",
+          "url": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
+        },
+        {
+          "label": "TrustRadius: 8.5/10 (22 reviews)",
+          "url": "https://www.trustradius.com/products/warmly/reviews"
+        },
+        {
+          "label": "Reddit: 6+ threads",
+          "url": "https://www.reddit.com/search/?q=warmly+ai+review&sort=top"
+        },
+        {
+          "label": "YouTube: 4+ demos",
+          "url": "https://www.youtube.com/results?search_query=warmly+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "url": null
+        }
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 322+ total reviews across 2 verified platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 322+ total reviews across 2 verified platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
-        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: AI chat engagement and Slack alerts. Complaint: pricing jump and setup complexity" },
-        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> ABM alerting, AI chat engagement, CRM enrichment from web visits" },
-        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Visitor ID, Warmly AI chat, Slack alerts, CRM sync" },
-        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Integration docs, AI agent capabilities, pricing tiers" }
+        {
+          "icon": "&#x1F4CA;",
+          "text": "<strong>Review sentiment:</strong> Praise: AI chat engagement and Slack alerts. Complaint: pricing jump and setup complexity"
+        },
+        {
+          "icon": "&#x1F4AC;",
+          "text": "<strong>Community workflows:</strong> ABM alerting, AI chat engagement, CRM enrichment from web visits"
+        },
+        {
+          "icon": "&#x1F3A5;",
+          "text": "<strong>Demo-verified:</strong> Visitor ID, Warmly AI chat, Slack alerts, CRM sync"
+        },
+        {
+          "icon": "&#x1F4C4;",
+          "text": "<strong>Docs verified:</strong> Integration docs, AI agent capabilities, pricing tiers"
+        }
       ],
       "strengthThemes": [
         "AI chat agent converts visitors who would otherwise bounce",
@@ -342,27 +631,42 @@
         "sentimentIcon": "&#9650;",
         "heading": "AI chat agent books meetings from anonymous visitors",
         "synthesis": "The standout feature: Warmly's AI agent engages high-value visitors via chat in real time, using visitor context and intent signals to start relevant conversations. Early adopters report 15-25% increases in booked meetings from website traffic that previously went unengaged.",
-        "sources": ["G2: 45 mentions", "TrustRadius: 8 mentions", "Reddit: 3 threads"],
+        "sources": [
+          "G2: 45 mentions",
+          "TrustRadius: 8 mentions",
+          "Reddit: 3 threads"
+        ],
         "quote": "\"Warmly's AI agent booked 12 meetings in its first month from visitors who would have just bounced. The ROI paid for the entire annual contract in one quarter.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
       },
       {
         "sentiment": "negative",
         "sentimentIcon": "&#9660;",
         "heading": "Free-to-paid gap is too steep for smaller teams",
         "synthesis": "The most common complaint: jumping from $0 to $700/month is a steep commitment. Teams that outgrow the free tier's 500 visitors have no mid-tier option, making it hard to justify the upgrade without proven ROI from the free plan.",
-        "sources": ["G2: 34 mentions", "Reddit: 4 threads", "Capterra: 8 mentions"],
+        "sources": [
+          "G2: 34 mentions",
+          "Reddit: 4 threads",
+          "Capterra: 8 mentions"
+        ],
         "quote": "\"The free tier proved the value — we could see exactly who was visiting our pricing page. But $700/mo is a big jump for a startup. Wish there was a $200/mo tier for growing teams.\"",
-        "quoteCite": "Synthesized from G2 and Reddit review themes"
+        "quoteCite": "Synthesized from G2 and Reddit review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
       },
       {
         "sentiment": "mixed",
         "sentimentIcon": "&#9644;",
         "heading": "Powerful platform but needs RevOps to unlock full value",
         "synthesis": "Users agree Warmly is capable, but getting the most from it requires RevOps expertise. Basic visitor ID works immediately, but the real value — targeted alerts, AI engagement rules, CRM enrichment — needs someone who understands routing logic and integration configuration.",
-        "sources": ["G2: 28 mentions", "TrustRadius: 6 mentions", "Reddit: 3 threads"],
+        "sources": [
+          "G2: 28 mentions",
+          "TrustRadius: 6 mentions",
+          "Reddit: 3 threads"
+        ],
         "quote": "\"Warmly is incredibly powerful once it's configured properly, but 'properly' meant our RevOps lead spent two weeks building alert rules and enrichment workflows. Not a plug-and-play tool.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
       }
     ],
     "pricingBreakdown": {
@@ -396,21 +700,60 @@
     ],
     "implementationReality": {
       "stats": [
-        { "number": "1&ndash;2 weeks", "label": "Time to Value" },
-        { "number": "Medium", "label": "Setup Complexity" },
-        { "number": "High", "label": "RevOps Lift" },
-        { "number": "Light", "label": "Training Required" },
-        { "number": "None", "label": "Data Migration" }
+        {
+          "number": "1&ndash;2 weeks",
+          "label": "Time to Value"
+        },
+        {
+          "number": "Medium",
+          "label": "Setup Complexity"
+        },
+        {
+          "number": "High",
+          "label": "RevOps Lift"
+        },
+        {
+          "number": "Light",
+          "label": "Training Required"
+        },
+        {
+          "number": "None",
+          "label": "Data Migration"
+        }
       ],
       "note": "JavaScript snippet installs in minutes. Basic visitor ID works immediately. Full alert routing, enrichment workflows, and AI agent configuration takes 1-2 weeks with RevOps support."
     },
     "enterpriseReadiness": [
-      { "label": "SSO / SAML", "value": "Enterprise plan", "class": "dm-partial" },
-      { "label": "SOC 2", "value": "SOC 2 compliant", "class": "dm-available" },
-      { "label": "GDPR", "value": "GDPR compliant", "class": "dm-available" },
-      { "label": "RBAC", "value": "Team roles on Business+", "class": "dm-partial" },
-      { "label": "Data Residency", "value": "US-hosted", "class": "dm-partial" },
-      { "label": "SLA", "value": "Enterprise SLA available", "class": "dm-partial" }
+      {
+        "label": "SSO / SAML",
+        "value": "Enterprise plan",
+        "class": "dm-partial"
+      },
+      {
+        "label": "SOC 2",
+        "value": "SOC 2 compliant",
+        "class": "dm-available"
+      },
+      {
+        "label": "GDPR",
+        "value": "GDPR compliant",
+        "class": "dm-available"
+      },
+      {
+        "label": "RBAC",
+        "value": "Team roles on Business+",
+        "class": "dm-partial"
+      },
+      {
+        "label": "Data Residency",
+        "value": "US-hosted",
+        "class": "dm-partial"
+      },
+      {
+        "label": "SLA",
+        "value": "Enterprise SLA available",
+        "class": "dm-partial"
+      }
     ],
     "whoThisIsFor": {
       "org": {
@@ -432,21 +775,71 @@
     },
     "stackPairings": {
       "cards": [
-        { "title": "HubSpot CRM", "titleLink": "hubspot-review.html", "description": "Warmly enriches CRM with visitor intelligence and intent signals." },
-        { "title": "Outreach", "titleLink": "outreach-review.html", "description": "Warmly alerts trigger Outreach sequences for hot accounts." },
-        { "title": "Salesloft", "titleLink": "salesloft-review.html", "description": "Warmly visitor data feeds Salesloft cadences for timely outreach." },
-        { "title": "Clay", "titleLink": "clay-review.html", "description": "Warmly identifies visitors; Clay enriches further with 50+ providers." },
-        { "title": "Gong", "titleLink": "gong-review.html", "description": "Warmly drives the meeting; Gong records and analyzes the conversation." }
+        {
+          "title": "HubSpot CRM",
+          "titleLink": "hubspot-review.html",
+          "description": "Warmly enriches CRM with visitor intelligence and intent signals."
+        },
+        {
+          "title": "Outreach",
+          "titleLink": "outreach-review.html",
+          "description": "Warmly alerts trigger Outreach sequences for hot accounts."
+        },
+        {
+          "title": "Salesloft",
+          "titleLink": "salesloft-review.html",
+          "description": "Warmly visitor data feeds Salesloft cadences for timely outreach."
+        },
+        {
+          "title": "Clay",
+          "titleLink": "clay-review.html",
+          "description": "Warmly identifies visitors; Clay enriches further with 50+ providers."
+        },
+        {
+          "title": "Gong",
+          "titleLink": "gong-review.html",
+          "description": "Warmly drives the meeting; Gong records and analyzes the conversation."
+        }
       ],
       "exampleStack": "Warmly (identify + engage) &#8594; Slack (alert) &#8594; Outreach (sequence) &#8594; Salesforce (CRM)"
     },
     "alternatives": {
       "rows": [
-        { "tool": "Leadfeeder", "toolLink": null, "bestFor": "Simpler visitor ID without AI chat", "g2": "4.3/5", "price": "From $139/mo" },
-        { "tool": "6sense", "toolLink": null, "bestFor": "Enterprise ABM with native intent data", "g2": "4.0/5", "price": "Custom" },
-        { "tool": "ZoomInfo", "toolLink": "zoominfo-review.html", "bestFor": "Visitor ID + B2B data platform", "g2": "4.4/5", "price": "From $15K/yr" },
-        { "tool": "Apollo.io", "toolLink": "apollo-review.html", "bestFor": "All-in-one prospecting + visitor tracking", "g2": "4.8/5", "price": "From $49/mo" },
-        { "tool": "Clearbit", "toolLink": null, "bestFor": "Real-time enrichment API", "g2": "4.4/5", "price": "Custom" }
+        {
+          "tool": "Leadfeeder",
+          "toolLink": null,
+          "bestFor": "Simpler visitor ID without AI chat",
+          "g2": "4.3/5",
+          "price": "From $139/mo"
+        },
+        {
+          "tool": "6sense",
+          "toolLink": null,
+          "bestFor": "Enterprise ABM with native intent data",
+          "g2": "4.0/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "ZoomInfo",
+          "toolLink": "zoominfo-review.html",
+          "bestFor": "Visitor ID + B2B data platform",
+          "g2": "4.4/5",
+          "price": "From $15K/yr"
+        },
+        {
+          "tool": "Apollo.io",
+          "toolLink": "apollo-review.html",
+          "bestFor": "All-in-one prospecting + visitor tracking",
+          "g2": "4.8/5",
+          "price": "From $49/mo"
+        },
+        {
+          "tool": "Clearbit",
+          "toolLink": null,
+          "bestFor": "Real-time enrichment API",
+          "g2": "4.4/5",
+          "price": "Custom"
+        }
       ]
     },
     "faqs": [
@@ -477,21 +870,45 @@
     "altText": "See Alternatives",
     "altUrl": "/compare/index.html",
     "atAGlance": [
-      { "label": "G2 Rating", "value": "4.8/5" },
-      { "label": "G2 Reviews", "value": "300+" },
-      { "label": "Starting Price", "value": "Free / $700/mo" },
-      { "label": "Category", "value": "Visitor Intelligence" },
-      { "label": "Free Trial", "value": "Yes (free tier)" }
+      {
+        "label": "G2 Rating",
+        "value": "4.8/5"
+      },
+      {
+        "label": "G2 Reviews",
+        "value": "300+"
+      },
+      {
+        "label": "Starting Price",
+        "value": "Free / $700/mo"
+      },
+      {
+        "label": "Category",
+        "value": "Visitor Intelligence"
+      },
+      {
+        "label": "Free Trial",
+        "value": "Yes (free tier)"
+      }
     ],
     "ctaUrl": "/go/warmly",
     "comparisons": [
-      { "text": "Warmly vs Leadfeeder", "url": "/compare/warmly-vs-leadfeeder.html" }
+      {
+        "text": "Warmly vs Leadfeeder",
+        "url": "/compare/warmly-vs-leadfeeder.html"
+      }
     ],
     "externalReviews": [
-      { "text": "G2 Reviews", "url": "https://www.g2.com/products/warmly/reviews" }
+      {
+        "text": "G2 Reviews",
+        "url": "https://www.g2.com/products/warmly/reviews"
+      }
     ],
     "relatedGuides": [
-      { "text": "Best Sales Intelligence Tools", "url": "/guides/best-sales-intelligence-tools.html" }
+      {
+        "text": "Best Sales Intelligence Tools",
+        "url": "/guides/best-sales-intelligence-tools.html"
+      }
     ],
     "emailCard": {
       "heading": "Weekly Tool Intel",

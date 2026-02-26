@@ -11,16 +11,52 @@
   },
   "jsonLd": {
     "softwareApplication": {
-      "@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Chili Piper", "applicationCategory": "Sales Software",
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.4", "bestRating": "5", "ratingCount": "1000", "reviewCount": "1000" },
-      "offers": { "@type": "Offer", "price": "22.50", "priceCurrency": "USD", "priceValidUntil": "2026-12-31" }
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Chili Piper",
+      "applicationCategory": "Sales Software",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "bestRating": "5",
+        "ratingCount": "1000",
+        "reviewCount": "1000"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "22.50",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31"
+      }
     },
     "faqPage": {
-      "@context": "https://schema.org", "@type": "FAQPage",
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "What does Chili Piper do?", "acceptedAnswer": { "@type": "Answer", "text": "Chili Piper is an inbound lead routing and scheduling platform. It books meetings instantly from form fills, routes leads to the right rep in real time, and handles round-robin and territory-based distribution." } },
-        { "@type": "Question", "name": "How much does Chili Piper cost?", "acceptedAnswer": { "@type": "Answer", "text": "Instant Booker starts at $22.50/seat/month. Concierge (inbound routing) starts at $30/seat/month. Distro (round-robin) is an additional product. Pricing is per seat AND per product." } },
-        { "@type": "Question", "name": "Is Chili Piper better than Calendly?", "acceptedAnswer": { "@type": "Answer", "text": "Chili Piper is built for B2B inbound lead routing with Salesforce-native features. Calendly is simpler and better for general scheduling. Choose Chili Piper for complex inbound routing; Calendly for straightforward meeting booking." } }
+        {
+          "@type": "Question",
+          "name": "What does Chili Piper do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chili Piper is an inbound lead routing and scheduling platform. It books meetings instantly from form fills, routes leads to the right rep in real time, and handles round-robin and territory-based distribution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Chili Piper cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Instant Booker starts at $22.50/seat/month. Concierge (inbound routing) starts at $30/seat/month. Distro (round-robin) is an additional product. Pricing is per seat AND per product."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Chili Piper better than Calendly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chili Piper is built for B2B inbound lead routing with Salesforce-native features. Calendly is simpler and better for general scheduling. Choose Chili Piper for complex inbound routing; Calendly for straightforward meeting booking."
+          }
+        }
       ]
     }
   },
@@ -33,11 +69,22 @@
     "score": "4.4/5 on G2",
     "updated": "Updated February 2026",
     "dataSource": "Data from G2 & chilipiper.com",
-    "personaTags": [{ "class": "for-reps", "text": "For Reps" }]
+    "personaTags": [
+      {
+        "class": "for-reps",
+        "text": "For Reps"
+      }
+    ]
   },
   "scores": {
-    "org": { "value": 70, "verdict": "Strong inbound routing with deep Salesforce integration" },
-    "rep": { "value": 65, "verdict": "Reps benefit from instant meetings; setup requires admin" }
+    "org": {
+      "value": 70,
+      "verdict": "Strong inbound routing with deep Salesforce integration"
+    },
+    "rep": {
+      "value": 65,
+      "verdict": "Reps benefit from instant meetings; setup requires admin"
+    }
   },
   "quickSummary": {
     "whatItDoes": "Inbound lead routing and scheduling platform that books meetings instantly from form fills, routes leads to the right rep in real time, and handles round-robin distribution.",
@@ -53,56 +100,290 @@
     "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/chili-piper/reviews\" target=\"_blank\" rel=\"noopener\">Chili Piper on G2</a>."
   },
   "features": [
-    { "title": "Concierge", "description": "Real-time inbound lead routing from form fill to booked meeting in seconds." },
-    { "title": "Instant Booker", "description": "One-click scheduling overlay on any web form or email signature." },
-    { "title": "Distro", "description": "Round-robin and territory-based lead distribution for sales teams." },
-    { "title": "Salesforce-Native", "description": "Deep Salesforce integration with real-time lead/contact matching." },
-    { "title": "Handoff", "description": "Automated meeting scheduling between SDR qualification and AE demos." },
-    { "title": "Form Routing", "description": "Route form submissions based on account size, territory, or custom logic." }
+    {
+      "title": "Concierge",
+      "description": "Real-time inbound lead routing from form fill to booked meeting in seconds."
+    },
+    {
+      "title": "Instant Booker",
+      "description": "One-click scheduling overlay on any web form or email signature."
+    },
+    {
+      "title": "Distro",
+      "description": "Round-robin and territory-based lead distribution for sales teams."
+    },
+    {
+      "title": "Salesforce-Native",
+      "description": "Deep Salesforce integration with real-time lead/contact matching."
+    },
+    {
+      "title": "Handoff",
+      "description": "Automated meeting scheduling between SDR qualification and AE demos."
+    },
+    {
+      "title": "Form Routing",
+      "description": "Route form submissions based on account size, territory, or custom logic."
+    }
   ],
   "pricing": {
     "note": "Pricing from chilipiper.com. Each product is priced separately per seat.",
     "tiers": [
-      { "name": "Instant Booker", "price": "$22.50", "period": "seat/month", "features": ["One-click scheduling", "Email embed", "Calendar integrations", "Basic analytics", "Email support"], "ctaUrl": "/go/chili-piper", "ctaText": "Visit Site", "ctaClass": "btn-primary", "featured": false },
-      { "name": "Concierge", "price": "$30", "period": "seat/month", "badge": "Most Popular", "features": ["Everything in Instant Booker", "Inbound lead routing", "Salesforce matching", "Custom routing rules", "Priority support"], "ctaUrl": "/go/chili-piper", "ctaText": "Visit Site", "ctaClass": "btn-primary", "featured": true },
-      { "name": "Enterprise", "price": "Custom", "period": "year", "features": ["All products included", "Custom routing logic", "Advanced analytics", "Dedicated CSM", "SLA guarantees"], "ctaUrl": "/go/chili-piper", "ctaText": "Contact Sales", "ctaClass": "btn-outline", "featured": false }
+      {
+        "name": "Instant Booker",
+        "price": "$22.50",
+        "period": "seat/month",
+        "features": [
+          "One-click scheduling",
+          "Email embed",
+          "Calendar integrations",
+          "Basic analytics",
+          "Email support"
+        ],
+        "ctaUrl": "/go/chili-piper",
+        "ctaText": "Visit Site",
+        "ctaClass": "btn-primary",
+        "featured": false
+      },
+      {
+        "name": "Concierge",
+        "price": "$30",
+        "period": "seat/month",
+        "badge": "Most Popular",
+        "features": [
+          "Everything in Instant Booker",
+          "Inbound lead routing",
+          "Salesforce matching",
+          "Custom routing rules",
+          "Priority support"
+        ],
+        "ctaUrl": "/go/chili-piper",
+        "ctaText": "Visit Site",
+        "ctaClass": "btn-primary",
+        "featured": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "year",
+        "features": [
+          "All products included",
+          "Custom routing logic",
+          "Advanced analytics",
+          "Dedicated CSM",
+          "SLA guarantees"
+        ],
+        "ctaUrl": "/go/chili-piper",
+        "ctaText": "Contact Sales",
+        "ctaClass": "btn-outline",
+        "featured": false
+      }
     ],
     "creditNote": "Pricing is per seat AND per product. A team using Concierge + Distro pays for both. Costs add up quickly for larger teams."
   },
   "g2Reviews": {
     "intro": "Based on 1,000+ reviews on G2 (4.4/5 rating):",
     "pros": [
-      { "bold": "Instant booking", "text": "Form-to-meeting conversion eliminates speed-to-lead delays" },
-      { "bold": "Salesforce integration", "text": "Deep Salesforce-native routing with real-time matching" },
-      { "bold": "Lead routing accuracy", "text": "Territory and account-based routing works reliably" },
-      { "bold": "Conversion impact", "text": "Users report 2-3x increase in inbound meeting conversion" },
-      { "bold": "Customer support", "text": "Responsive team praised for implementation help" }
+      {
+        "bold": "Instant booking",
+        "text": "Form-to-meeting conversion eliminates speed-to-lead delays"
+      },
+      {
+        "bold": "Salesforce integration",
+        "text": "Deep Salesforce-native routing with real-time matching"
+      },
+      {
+        "bold": "Lead routing accuracy",
+        "text": "Territory and account-based routing works reliably"
+      },
+      {
+        "bold": "Conversion impact",
+        "text": "Users report 2-3x increase in inbound meeting conversion"
+      },
+      {
+        "bold": "Customer support",
+        "text": "Responsive team praised for implementation help"
+      }
     ],
     "cons": [
-      { "bold": "Pricing complexity", "text": "Multiple products per seat adds up quickly" },
-      { "bold": "Setup complexity", "text": "Routing rules require RevOps expertise to configure" },
-      { "bold": "HubSpot limitations", "text": "Salesforce integration stronger than HubSpot" },
-      { "bold": "Limited AI", "text": "Routing is rule-based; no ML-driven optimization" },
-      { "bold": "Form embedding", "text": "Some form platforms require custom integration work" }
+      {
+        "bold": "Pricing complexity",
+        "text": "Multiple products per seat adds up quickly"
+      },
+      {
+        "bold": "Setup complexity",
+        "text": "Routing rules require RevOps expertise to configure"
+      },
+      {
+        "bold": "HubSpot limitations",
+        "text": "Salesforce integration stronger than HubSpot"
+      },
+      {
+        "bold": "Limited AI",
+        "text": "Routing is rule-based; no ML-driven optimization"
+      },
+      {
+        "bold": "Form embedding",
+        "text": "Some form platforms require custom integration work"
+      }
     ],
     "link": "https://www.g2.com/products/chili-piper/reviews"
   },
   "competitorTable": {
-    "headers": ["Feature", "Chili Piper", "Calendly", "HubSpot Meetings"],
-    "rows": [
-      { "feature": "G2 Rating", "featureBold": true, "values": [{ "text": "4.4/5 (1,000+)" }, { "text": "4.7/5 (2,100+)" }, { "text": "4.4/5 (12,000+)" }] },
-      { "feature": "Inbound Routing", "featureBold": false, "values": [{ "text": "&#10003; Best-in-class", "class": "check" }, { "text": "Basic", "class": "" }, { "text": "Basic", "class": "" }] },
-      { "feature": "Salesforce-Native", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "Integration", "class": "" }, { "text": "&#10007;", "class": "cross" }] },
-      { "feature": "Round-Robin", "featureBold": false, "values": [{ "text": "&#10003; Advanced", "class": "check" }, { "text": "&#10003; Basic", "class": "check" }, { "text": "&#10003; Basic", "class": "check" }] },
-      { "feature": "Form Conversion", "featureBold": false, "values": [{ "text": "&#10003; Instant", "class": "check" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }] },
-      { "feature": "Starting Price", "featureBold": false, "values": [{ "text": "$22.50/seat/mo" }, { "text": "Free / $8/seat/mo" }, { "text": "Included in HubSpot" }] },
-      { "feature": "Free Tier", "featureBold": false, "values": [{ "text": "&#10007;", "class": "cross" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] }
+    "headers": [
+      "Feature",
+      "Chili Piper",
+      "Calendly",
+      "HubSpot Meetings"
     ],
-    "seeFullLinks": [{ "text": "Calendly vs Chili Piper", "url": "/compare/calendly-vs-chili-piper.html" }]
+    "rows": [
+      {
+        "feature": "G2 Rating",
+        "featureBold": true,
+        "values": [
+          {
+            "text": "4.4/5 (1,000+)"
+          },
+          {
+            "text": "4.7/5 (2,100+)"
+          },
+          {
+            "text": "4.4/5 (12,000+)"
+          }
+        ]
+      },
+      {
+        "feature": "Inbound Routing",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003; Best-in-class",
+            "class": "check"
+          },
+          {
+            "text": "Basic",
+            "class": ""
+          },
+          {
+            "text": "Basic",
+            "class": ""
+          }
+        ]
+      },
+      {
+        "feature": "Salesforce-Native",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "Integration",
+            "class": ""
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          }
+        ]
+      },
+      {
+        "feature": "Round-Robin",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003; Advanced",
+            "class": "check"
+          },
+          {
+            "text": "&#10003; Basic",
+            "class": "check"
+          },
+          {
+            "text": "&#10003; Basic",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Form Conversion",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003; Instant",
+            "class": "check"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          }
+        ]
+      },
+      {
+        "feature": "Starting Price",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "$22.50/seat/mo"
+          },
+          {
+            "text": "Free / $8/seat/mo"
+          },
+          {
+            "text": "Included in HubSpot"
+          }
+        ]
+      },
+      {
+        "feature": "Free Tier",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      }
+    ],
+    "seeFullLinks": [
+      {
+        "text": "Calendly vs Chili Piper",
+        "url": "/compare/calendly-vs-chili-piper.html"
+      }
+    ]
   },
   "whoIsFor": {
-    "goodFit": { "heading": "Good Fit If You:", "items": ["Generate inbound leads from web forms and want instant meeting booking", "Use Salesforce and need territory-based lead routing", "Want to eliminate speed-to-lead delays in your inbound funnel", "Have a RevOps team to configure and maintain routing rules", "Run high-volume inbound with complex distribution needs"] },
-    "notAFit": { "heading": "Likely Not a Fit If You:", "items": ["Need simple scheduling without routing (use Calendly)", "Are primarily an outbound sales team", "Use HubSpot as your primary CRM (HubSpot integration is weaker)", "Budget is tight; per-seat-per-product pricing adds up fast"] }
+    "goodFit": {
+      "heading": "Good Fit If You:",
+      "items": [
+        "Generate inbound leads from web forms and want instant meeting booking",
+        "Use Salesforce and need territory-based lead routing",
+        "Want to eliminate speed-to-lead delays in your inbound funnel",
+        "Have a RevOps team to configure and maintain routing rules",
+        "Run high-volume inbound with complex distribution needs"
+      ]
+    },
+    "notAFit": {
+      "heading": "Likely Not a Fit If You:",
+      "items": [
+        "Need simple scheduling without routing (use Calendly)",
+        "Are primarily an outbound sales team",
+        "Use HubSpot as your primary CRM (HubSpot integration is weaker)",
+        "Budget is tight; per-seat-per-product pricing adds up fast"
+      ]
+    }
   },
   "decisionModule": {
     "verdict": {
@@ -113,97 +394,469 @@
       "ctaText": "Visit Chili Piper"
     },
     "dualScore": {
-      "org": { "score": 70, "explain": "Deep Salesforce integration and advanced routing make it a core inbound infrastructure tool for organizations with high inbound volume." },
-      "individual": { "score": 65, "explain": "Reps benefit from instant meetings and fewer missed leads, but the platform is configured by RevOps — reps interact with it passively." }
+      "org": {
+        "score": 70,
+        "explain": "Deep Salesforce integration and advanced routing make it a core inbound infrastructure tool for organizations with high inbound volume."
+      },
+      "individual": {
+        "score": 65,
+        "explain": "Reps benefit from instant meetings and fewer missed leads, but the platform is configured by RevOps — reps interact with it passively."
+      }
     },
     "subScores": [
-      { "label": "Enterprise Fit", "score": "8/10" },
-      { "label": "Ease of Adoption", "score": "6/10" },
-      { "label": "AI Depth", "score": "5/10" },
-      { "label": "Integration Depth", "score": "9/10" },
-      { "label": "Pricing Transparency", "score": "6/10" },
-      { "label": "Scalability", "score": "8/10" }
+      {
+        "label": "Enterprise Fit",
+        "score": "8/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "6/10"
+      },
+      {
+        "label": "AI Depth",
+        "score": "5/10"
+      },
+      {
+        "label": "Integration Depth",
+        "score": "9/10"
+      },
+      {
+        "label": "Pricing Transparency",
+        "score": "6/10"
+      },
+      {
+        "label": "Scalability",
+        "score": "8/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
       "rows": [
-        { "dimension": "Enterprise Fit", "score": 8, "notes": "Salesforce-native; complex routing rules; enterprise compliance", "evidence": [{ "source": "G2", "text": "Enterprise reviewers confirm complex routing and territory management" }, { "source": "Vendor", "text": "SOC 2 Type II; SSO; enterprise SLA available" }, { "source": "TrustRadius", "text": "Fortune 500 companies use for global inbound routing" }, { "source": "Capterra", "text": "Enterprise deployment with multi-region routing praised" }] },
-        { "dimension": "Ease of Adoption", "score": 6, "notes": "Form embed is easy; routing logic requires RevOps configuration", "evidence": [{ "source": "G2", "text": "Instant Booker installs quickly; Concierge routing needs technical setup" }, { "source": "Reddit", "text": "Users report 2-4 weeks for full routing configuration" }, { "source": "Vendor", "text": "Implementation support included; typical setup 1-3 weeks" }, { "source": "TrustRadius", "text": "Routing rules require Salesforce admin expertise" }] },
-        { "dimension": "AI Depth", "score": 5, "notes": "Limited AI features; routing is rule-based not ML-driven", "evidence": [{ "source": "G2", "text": "No AI-powered routing or optimization mentioned in reviews" }, { "source": "Vendor", "text": "Rules-based routing; no machine learning or predictive features" }, { "source": "Reddit", "text": "Users note routing is deterministic, which some prefer for auditability" }] },
-        { "dimension": "Integration Depth", "score": 9, "notes": "Deep Salesforce, HubSpot, Marketo, Pardot integration; best-in-class", "evidence": [{ "source": "G2", "text": "Salesforce integration rated 4.7/5 across enterprise reviewers" }, { "source": "Vendor", "text": "Native Salesforce, HubSpot, Marketo, Pardot, Outreach connectors" }, { "source": "Capterra", "text": "Salesforce-native architecture praised as key differentiator" }, { "source": "TrustRadius", "text": "Integration depth cited as primary reason for choosing over Calendly" }] },
-        { "dimension": "Pricing Transparency", "score": 6, "notes": "Per-seat pricing published but multiple products add up quickly", "evidence": [{ "source": "Vendor", "text": "Instant Booker and Concierge pricing public; Distro requires inquiry" }, { "source": "G2", "text": "Users note total cost is higher than expected due to per-product pricing" }, { "source": "Reddit", "text": "Multiple threads discuss pricing complexity for teams using all products" }] },
-        { "dimension": "Scalability", "score": 8, "notes": "Handles enterprise inbound volume; proven at scale with complex routing", "evidence": [{ "source": "G2", "text": "Enterprise users report handling 10,000+ monthly form submissions" }, { "source": "Vendor", "text": "Case studies reference high-volume B2B SaaS companies" }, { "source": "TrustRadius", "text": "Scales well for multi-region, multi-product routing" }] }
+        {
+          "dimension": "Enterprise Fit",
+          "score": 8,
+          "notes": "Salesforce-native; complex routing rules; enterprise compliance",
+          "evidence": [
+            {
+              "source": "G2",
+              "text": "Enterprise reviewers confirm complex routing and territory management"
+            },
+            {
+              "source": "Vendor",
+              "text": "SOC 2 Type II; SSO; enterprise SLA available"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Fortune 500 companies use for global inbound routing"
+            },
+            {
+              "source": "Capterra",
+              "text": "Enterprise deployment with multi-region routing praised"
+            }
+          ]
+        },
+        {
+          "dimension": "Ease of Adoption",
+          "score": 6,
+          "notes": "Form embed is easy; routing logic requires RevOps configuration",
+          "evidence": [
+            {
+              "source": "G2",
+              "text": "Instant Booker installs quickly; Concierge routing needs technical setup"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users report 2-4 weeks for full routing configuration"
+            },
+            {
+              "source": "Vendor",
+              "text": "Implementation support included; typical setup 1-3 weeks"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Routing rules require Salesforce admin expertise"
+            }
+          ]
+        },
+        {
+          "dimension": "AI Depth",
+          "score": 5,
+          "notes": "Limited AI features; routing is rule-based not ML-driven",
+          "evidence": [
+            {
+              "source": "G2",
+              "text": "No AI-powered routing or optimization mentioned in reviews"
+            },
+            {
+              "source": "Vendor",
+              "text": "Rules-based routing; no machine learning or predictive features"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users note routing is deterministic, which some prefer for auditability"
+            }
+          ]
+        },
+        {
+          "dimension": "Integration Depth",
+          "score": 9,
+          "notes": "Deep Salesforce, HubSpot, Marketo, Pardot integration; best-in-class",
+          "evidence": [
+            {
+              "source": "G2",
+              "text": "Salesforce integration rated 4.7/5 across enterprise reviewers"
+            },
+            {
+              "source": "Vendor",
+              "text": "Native Salesforce, HubSpot, Marketo, Pardot, Outreach connectors"
+            },
+            {
+              "source": "Capterra",
+              "text": "Salesforce-native architecture praised as key differentiator"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Integration depth cited as primary reason for choosing over Calendly"
+            }
+          ]
+        },
+        {
+          "dimension": "Pricing Transparency",
+          "score": 6,
+          "notes": "Per-seat pricing published but multiple products add up quickly",
+          "evidence": [
+            {
+              "source": "Vendor",
+              "text": "Instant Booker and Concierge pricing public; Distro requires inquiry"
+            },
+            {
+              "source": "G2",
+              "text": "Users note total cost is higher than expected due to per-product pricing"
+            },
+            {
+              "source": "Reddit",
+              "text": "Multiple threads discuss pricing complexity for teams using all products"
+            }
+          ]
+        },
+        {
+          "dimension": "Scalability",
+          "score": 8,
+          "notes": "Handles enterprise inbound volume; proven at scale with complex routing",
+          "evidence": [
+            {
+              "source": "G2",
+              "text": "Enterprise users report handling 10,000+ monthly form submissions"
+            },
+            {
+              "source": "Vendor",
+              "text": "Case studies reference high-volume B2B SaaS companies"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Scales well for multi-region, multi-product routing"
+            }
+          ]
+        }
       ]
     },
     "evidenceSignals": {
       "confidence": "high",
       "confidenceNote": "Based on 1,000+ G2 reviews, vendor documentation, and active community discussion. Strong signal quality with large enterprise user base.",
-      "sourcePills": ["G2: 4.4/5 (1,000+ reviews)", "TrustRadius: 8.6/10 (70 reviews)", "Reddit: 7+ threads", "YouTube: 8+ demos", "Vendor docs &#10003;"],
-      "freshness": ["\ud83d\udcc5 Freshest review: Feb 2026", "\ud83d\udcca 1,070+ total reviews across 2 verified platforms", "\ud83d\udd0d Last verified: Feb 2026"],
-      "evidenceGrid": [
-        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: instant form-to-meeting conversion. Complaint: per-product pricing complexity" },
-        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> Inbound routing, form conversion, round-robin distribution" },
-        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Concierge routing, Instant Booker, Salesforce integration" },
-        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Pricing tiers, Salesforce setup, routing configuration" }
+      "sourcePills": [
+        {
+          "label": "G2: 4.4/5 (1,000+ reviews)",
+          "url": "https://www.g2.com/products/chili-piper/reviews"
+        },
+        {
+          "label": "TrustRadius: 8.6/10 (70 reviews)",
+          "url": "https://www.trustradius.com/products/chili-piper/reviews"
+        },
+        {
+          "label": "Reddit: 7+ threads",
+          "url": "https://www.reddit.com/search/?q=chili+piper+review&sort=top"
+        },
+        {
+          "label": "YouTube: 8+ demos",
+          "url": "https://www.youtube.com/results?search_query=chili+piper+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "url": null
+        }
       ],
-      "strengthThemes": ["Instant form-to-meeting conversion increases inbound pipeline 2-3x", "Salesforce-native architecture handles complex routing rules", "Proven at enterprise scale with multi-region deployments"],
-      "limitationThemes": ["Per-seat-per-product pricing creates bill shock", "Routing configuration requires RevOps/Salesforce expertise", "Rule-based routing lacks AI optimization"],
+      "freshness": [
+        "📅 Freshest review: Feb 2026",
+        "📊 1,070+ total reviews across 2 verified platforms",
+        "🔍 Last verified: Feb 2026"
+      ],
+      "evidenceGrid": [
+        {
+          "icon": "&#x1F4CA;",
+          "text": "<strong>Review sentiment:</strong> Praise: instant form-to-meeting conversion. Complaint: per-product pricing complexity"
+        },
+        {
+          "icon": "&#x1F4AC;",
+          "text": "<strong>Community workflows:</strong> Inbound routing, form conversion, round-robin distribution"
+        },
+        {
+          "icon": "&#x1F3A5;",
+          "text": "<strong>Demo-verified:</strong> Concierge routing, Instant Booker, Salesforce integration"
+        },
+        {
+          "icon": "&#x1F4C4;",
+          "text": "<strong>Docs verified:</strong> Pricing tiers, Salesforce setup, routing configuration"
+        }
+      ],
+      "strengthThemes": [
+        "Instant form-to-meeting conversion increases inbound pipeline 2-3x",
+        "Salesforce-native architecture handles complex routing rules",
+        "Proven at enterprise scale with multi-region deployments"
+      ],
+      "limitationThemes": [
+        "Per-seat-per-product pricing creates bill shock",
+        "Routing configuration requires RevOps/Salesforce expertise",
+        "Rule-based routing lacks AI optimization"
+      ],
       "disagreeNote": "&#9888;&#65039; Where sources disagree: G2 reviewers praise Salesforce integration; Reddit users note HubSpot integration is significantly weaker and sometimes unreliable.",
       "lastVerified": "February 2026"
     },
     "userVoiceThemes": [
-      { "sentiment": "positive", "sentimentIcon": "&#9650;", "heading": "Instant form-to-meeting conversion transforms inbound pipeline", "synthesis": "The defining feature: prospects book meetings immediately after filling out a form instead of waiting for SDR follow-up. Users consistently report 2-3x increases in inbound meeting conversion rates, with some citing speed-to-lead dropping from hours to seconds.", "sources": ["G2: 120 mentions", "TrustRadius: 22 mentions", "Reddit: 4 threads"], "quote": "\"Before Chili Piper, our average speed-to-lead was 4.2 hours. Now it's 30 seconds. Our inbound meeting conversion rate went from 12% to 35%.\"", "quoteCite": "Synthesized from G2 and TrustRadius review themes" },
-      { "sentiment": "negative", "sentimentIcon": "&#9660;", "heading": "Per-product pricing creates unexpected total cost", "synthesis": "The most consistent complaint: per-seat AND per-product pricing. Teams that need Concierge + Distro + Instant Booker find the total cost significantly higher than expected. A 10-person team can easily spend $500-700/month before enterprise features.", "sources": ["G2: 65 mentions", "Reddit: 5 threads", "Capterra: 14 mentions"], "quote": "\"We budgeted for $30/seat for Concierge, then realized we needed Distro too. Our 15-person team went from $450/mo to $800/mo. The per-product model needs a bundle option.\"", "quoteCite": "Synthesized from G2 and Reddit review themes" },
-      { "sentiment": "mixed", "sentimentIcon": "&#9644;", "heading": "Powerful routing but requires serious RevOps investment", "synthesis": "Users agree the routing capabilities are best-in-class, but getting there requires significant RevOps time. Territory rules, account matching, and fallback logic need a Salesforce admin who understands both the CRM and Chili Piper's configuration.", "sources": ["G2: 48 mentions", "TrustRadius: 10 mentions", "Reddit: 3 threads"], "quote": "\"Chili Piper's routing is incredibly powerful — we have 7 territories, 3 product lines, and weighted round-robin all working perfectly. But our RevOps lead spent three weeks getting it right.\"", "quoteCite": "Synthesized from G2 and TrustRadius review themes" }
+      {
+        "sentiment": "positive",
+        "sentimentIcon": "&#9650;",
+        "heading": "Instant form-to-meeting conversion transforms inbound pipeline",
+        "synthesis": "The defining feature: prospects book meetings immediately after filling out a form instead of waiting for SDR follow-up. Users consistently report 2-3x increases in inbound meeting conversion rates, with some citing speed-to-lead dropping from hours to seconds.",
+        "sources": [
+          "G2: 120 mentions",
+          "TrustRadius: 22 mentions",
+          "Reddit: 4 threads"
+        ],
+        "quote": "\"Before Chili Piper, our average speed-to-lead was 4.2 hours. Now it's 30 seconds. Our inbound meeting conversion rate went from 12% to 35%.\"",
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/chili-piper/reviews"
+      },
+      {
+        "sentiment": "negative",
+        "sentimentIcon": "&#9660;",
+        "heading": "Per-product pricing creates unexpected total cost",
+        "synthesis": "The most consistent complaint: per-seat AND per-product pricing. Teams that need Concierge + Distro + Instant Booker find the total cost significantly higher than expected. A 10-person team can easily spend $500-700/month before enterprise features.",
+        "sources": [
+          "G2: 65 mentions",
+          "Reddit: 5 threads",
+          "Capterra: 14 mentions"
+        ],
+        "quote": "\"We budgeted for $30/seat for Concierge, then realized we needed Distro too. Our 15-person team went from $450/mo to $800/mo. The per-product model needs a bundle option.\"",
+        "quoteCite": "Synthesized from G2 and Reddit review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/chili-piper/reviews"
+      },
+      {
+        "sentiment": "mixed",
+        "sentimentIcon": "&#9644;",
+        "heading": "Powerful routing but requires serious RevOps investment",
+        "synthesis": "Users agree the routing capabilities are best-in-class, but getting there requires significant RevOps time. Territory rules, account matching, and fallback logic need a Salesforce admin who understands both the CRM and Chili Piper's configuration.",
+        "sources": [
+          "G2: 48 mentions",
+          "TrustRadius: 10 mentions",
+          "Reddit: 3 threads"
+        ],
+        "quote": "\"Chili Piper's routing is incredibly powerful — we have 7 territories, 3 product lines, and weighted round-robin all working perfectly. But our RevOps lead spent three weeks getting it right.\"",
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
+        "quoteCiteUrl": "https://www.g2.com/products/chili-piper/reviews"
+      }
     ],
     "pricingBreakdown": {
       "tldr": "Instant Booker from $22.50/seat/mo. Concierge from $30/seat/mo. Products are priced separately.",
-      "gotchas": ["Pricing is per seat AND per product — costs compound", "Distro (round-robin) is a separate product from Concierge", "Enterprise features (SSO, SLA) require custom pricing", "Annual commitment required for best rates"]
+      "gotchas": [
+        "Pricing is per seat AND per product — costs compound",
+        "Distro (round-robin) is a separate product from Concierge",
+        "Enterprise features (SSO, SLA) require custom pricing",
+        "Annual commitment required for best rates"
+      ]
     },
-    "greatAt": ["<strong>Speed-to-lead:</strong> Form-to-meeting in seconds eliminates the #1 inbound conversion killer", "<strong>Salesforce-native:</strong> Deep integration with real-time lead/contact matching and routing", "<strong>Complex routing:</strong> Territory, account-based, weighted round-robin all supported", "<strong>Proven at scale:</strong> Handles 10,000+ monthly form submissions for enterprise teams", "<strong>Conversion impact:</strong> Users report 2-3x increase in inbound meeting rates"],
-    "breaksAtScale": ["<strong>Pricing complexity:</strong> Per-seat-per-product model creates unexpected total costs", "<strong>Setup complexity:</strong> Routing rules require RevOps/Salesforce expertise and 2-4 weeks", "<strong>HubSpot gaps:</strong> Salesforce integration significantly stronger than HubSpot", "<strong>No AI routing:</strong> Rule-based only; no ML optimization for routing decisions", "<strong>Form compatibility:</strong> Some form platforms require custom integration work"],
-    "whoShouldNotBuy": ["<strong>Simple scheduling needs:</strong> Calendly is cheaper and simpler for basic booking", "<strong>Outbound-first teams:</strong> Chili Piper is an inbound routing tool, not an outbound tool", "<strong>HubSpot-primary teams:</strong> Integration is weaker; consider HubSpot native meetings", "<strong>Budget-sensitive teams:</strong> Per-product pricing adds up fast for small teams"],
+    "greatAt": [
+      "<strong>Speed-to-lead:</strong> Form-to-meeting in seconds eliminates the #1 inbound conversion killer",
+      "<strong>Salesforce-native:</strong> Deep integration with real-time lead/contact matching and routing",
+      "<strong>Complex routing:</strong> Territory, account-based, weighted round-robin all supported",
+      "<strong>Proven at scale:</strong> Handles 10,000+ monthly form submissions for enterprise teams",
+      "<strong>Conversion impact:</strong> Users report 2-3x increase in inbound meeting rates"
+    ],
+    "breaksAtScale": [
+      "<strong>Pricing complexity:</strong> Per-seat-per-product model creates unexpected total costs",
+      "<strong>Setup complexity:</strong> Routing rules require RevOps/Salesforce expertise and 2-4 weeks",
+      "<strong>HubSpot gaps:</strong> Salesforce integration significantly stronger than HubSpot",
+      "<strong>No AI routing:</strong> Rule-based only; no ML optimization for routing decisions",
+      "<strong>Form compatibility:</strong> Some form platforms require custom integration work"
+    ],
+    "whoShouldNotBuy": [
+      "<strong>Simple scheduling needs:</strong> Calendly is cheaper and simpler for basic booking",
+      "<strong>Outbound-first teams:</strong> Chili Piper is an inbound routing tool, not an outbound tool",
+      "<strong>HubSpot-primary teams:</strong> Integration is weaker; consider HubSpot native meetings",
+      "<strong>Budget-sensitive teams:</strong> Per-product pricing adds up fast for small teams"
+    ],
     "implementationReality": {
-      "stats": [{ "number": "1&ndash;3 weeks", "label": "Time to Value" }, { "number": "Medium-High", "label": "Setup Complexity" }, { "number": "High", "label": "RevOps Lift" }, { "number": "Light", "label": "Training Required" }, { "number": "None", "label": "Data Migration" }],
+      "stats": [
+        {
+          "number": "1&ndash;3 weeks",
+          "label": "Time to Value"
+        },
+        {
+          "number": "Medium-High",
+          "label": "Setup Complexity"
+        },
+        {
+          "number": "High",
+          "label": "RevOps Lift"
+        },
+        {
+          "number": "Light",
+          "label": "Training Required"
+        },
+        {
+          "number": "None",
+          "label": "Data Migration"
+        }
+      ],
       "note": "Instant Booker deploys in a day. Concierge routing with territory rules takes 1-3 weeks with Salesforce admin support."
     },
     "enterpriseReadiness": [
-      { "label": "SSO / SAML", "value": "Enterprise plan", "class": "dm-available" },
-      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
-      { "label": "GDPR", "value": "GDPR compliant", "class": "dm-available" },
-      { "label": "RBAC", "value": "Team roles and permissions", "class": "dm-available" },
-      { "label": "Data Residency", "value": "US-hosted", "class": "dm-partial" },
-      { "label": "SLA", "value": "Enterprise SLA available", "class": "dm-available" }
+      {
+        "label": "SSO / SAML",
+        "value": "Enterprise plan",
+        "class": "dm-available"
+      },
+      {
+        "label": "SOC 2",
+        "value": "SOC 2 Type II certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "GDPR",
+        "value": "GDPR compliant",
+        "class": "dm-available"
+      },
+      {
+        "label": "RBAC",
+        "value": "Team roles and permissions",
+        "class": "dm-available"
+      },
+      {
+        "label": "Data Residency",
+        "value": "US-hosted",
+        "class": "dm-partial"
+      },
+      {
+        "label": "SLA",
+        "value": "Enterprise SLA available",
+        "class": "dm-available"
+      }
     ],
     "whoThisIsFor": {
-      "org": { "heading": "Best for Sales Teams & RevOps", "items": ["RevOps teams managing complex inbound lead routing with territory rules", "Marketing ops needing instant form-to-meeting conversion for pipeline", "Organizations using Salesforce with high-volume inbound demand"] },
-      "individual": { "heading": "Best for Individual Reps", "items": ["AEs receiving instantly-routed meetings from inbound forms", "SDRs using Handoff to schedule qualified demos for AEs", "Reps who want prospects to book meetings from email signatures"] }
+      "org": {
+        "heading": "Best for Sales Teams & RevOps",
+        "items": [
+          "RevOps teams managing complex inbound lead routing with territory rules",
+          "Marketing ops needing instant form-to-meeting conversion for pipeline",
+          "Organizations using Salesforce with high-volume inbound demand"
+        ]
+      },
+      "individual": {
+        "heading": "Best for Individual Reps",
+        "items": [
+          "AEs receiving instantly-routed meetings from inbound forms",
+          "SDRs using Handoff to schedule qualified demos for AEs",
+          "Reps who want prospects to book meetings from email signatures"
+        ]
+      }
     },
     "stackPairings": {
       "cards": [
-        { "title": "HubSpot CRM", "titleLink": "hubspot-review.html", "description": "Chili Piper routes inbound leads; HubSpot manages the pipeline." },
-        { "title": "Outreach", "titleLink": "outreach-review.html", "description": "Chili Piper handles inbound; Outreach runs outbound sequences." },
-        { "title": "Salesloft", "titleLink": "salesloft-review.html", "description": "Inbound routing from Chili Piper feeds Salesloft follow-up cadences." },
-        { "title": "Gong", "titleLink": "gong-review.html", "description": "Chili Piper books the meeting; Gong records and analyzes it." },
-        { "title": "Apollo.io", "titleLink": "apollo-review.html", "description": "Apollo handles outbound prospecting; Chili Piper handles inbound routing." }
+        {
+          "title": "HubSpot CRM",
+          "titleLink": "hubspot-review.html",
+          "description": "Chili Piper routes inbound leads; HubSpot manages the pipeline."
+        },
+        {
+          "title": "Outreach",
+          "titleLink": "outreach-review.html",
+          "description": "Chili Piper handles inbound; Outreach runs outbound sequences."
+        },
+        {
+          "title": "Salesloft",
+          "titleLink": "salesloft-review.html",
+          "description": "Inbound routing from Chili Piper feeds Salesloft follow-up cadences."
+        },
+        {
+          "title": "Gong",
+          "titleLink": "gong-review.html",
+          "description": "Chili Piper books the meeting; Gong records and analyzes it."
+        },
+        {
+          "title": "Apollo.io",
+          "titleLink": "apollo-review.html",
+          "description": "Apollo handles outbound prospecting; Chili Piper handles inbound routing."
+        }
       ],
       "exampleStack": "Chili Piper (route + book) &#8594; Salesforce (CRM) &#8594; Outreach (outbound) &#8594; Gong (calls)"
     },
     "alternatives": {
       "rows": [
-        { "tool": "Calendly", "toolLink": null, "bestFor": "Simple scheduling without routing", "g2": "4.7/5", "price": "Free / $8/seat/mo" },
-        { "tool": "HubSpot Meetings", "toolLink": null, "bestFor": "HubSpot-native meeting scheduling", "g2": "4.4/5", "price": "Included in HubSpot" },
-        { "tool": "LeanData", "toolLink": null, "bestFor": "Salesforce-native lead routing (no scheduling)", "g2": "4.6/5", "price": "Custom" },
-        { "tool": "RevenueHero", "toolLink": null, "bestFor": "Budget Chili Piper alternative", "g2": "4.8/5", "price": "From $15/seat/mo" },
-        { "tool": "Drift", "toolLink": null, "bestFor": "Conversational marketing + chat routing", "g2": "4.4/5", "price": "Custom" }
+        {
+          "tool": "Calendly",
+          "toolLink": null,
+          "bestFor": "Simple scheduling without routing",
+          "g2": "4.7/5",
+          "price": "Free / $8/seat/mo"
+        },
+        {
+          "tool": "HubSpot Meetings",
+          "toolLink": null,
+          "bestFor": "HubSpot-native meeting scheduling",
+          "g2": "4.4/5",
+          "price": "Included in HubSpot"
+        },
+        {
+          "tool": "LeanData",
+          "toolLink": null,
+          "bestFor": "Salesforce-native lead routing (no scheduling)",
+          "g2": "4.6/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "RevenueHero",
+          "toolLink": null,
+          "bestFor": "Budget Chili Piper alternative",
+          "g2": "4.8/5",
+          "price": "From $15/seat/mo"
+        },
+        {
+          "tool": "Drift",
+          "toolLink": null,
+          "bestFor": "Conversational marketing + chat routing",
+          "g2": "4.4/5",
+          "price": "Custom"
+        }
       ]
     },
     "faqs": [
-      { "question": "What does Chili Piper do?", "answer": "Chili Piper routes inbound leads and books meetings instantly from form fills. It handles territory-based routing, round-robin distribution, and SDR-to-AE handoff scheduling." },
-      { "question": "How much does Chili Piper cost?", "answer": "Instant Booker from $22.50/seat/month. Concierge from $30/seat/month. Pricing is per seat AND per product, so costs compound with multiple products." },
-      { "question": "Is Chili Piper better than Calendly?", "answer": "Chili Piper is built for B2B inbound routing with Salesforce-native features. Calendly is simpler for general scheduling. Choose Chili Piper for complex routing; Calendly for basic booking." }
+      {
+        "question": "What does Chili Piper do?",
+        "answer": "Chili Piper routes inbound leads and books meetings instantly from form fills. It handles territory-based routing, round-robin distribution, and SDR-to-AE handoff scheduling."
+      },
+      {
+        "question": "How much does Chili Piper cost?",
+        "answer": "Instant Booker from $22.50/seat/month. Concierge from $30/seat/month. Pricing is per seat AND per product, so costs compound with multiple products."
+      },
+      {
+        "question": "Is Chili Piper better than Calendly?",
+        "answer": "Chili Piper is built for B2B inbound routing with Salesforce-native features. Calendly is simpler for general scheduling. Choose Chili Piper for complex routing; Calendly for basic booking."
+      }
     ],
-    "meta": { "lastVerified": "February 2026", "methodologyLink": "/methodology/", "disclosureLink": "/disclosure.html" }
+    "meta": {
+      "lastVerified": "February 2026",
+      "methodologyLink": "/methodology/",
+      "disclosureLink": "/disclosure.html"
+    }
   },
   "content": "",
   "sidebar": {
@@ -212,18 +865,59 @@
     "ctaText": "Visit Chili Piper",
     "altText": "See Alternatives",
     "altUrl": "/compare/index.html",
-    "atAGlance": [{ "label": "G2 Rating", "value": "4.4/5" }, { "label": "G2 Reviews", "value": "1,000+" }, { "label": "Starting Price", "value": "$22.50/seat/mo" }, { "label": "Category", "value": "Scheduling / Routing" }, { "label": "Free Trial", "value": "Demo available" }],
+    "atAGlance": [
+      {
+        "label": "G2 Rating",
+        "value": "4.4/5"
+      },
+      {
+        "label": "G2 Reviews",
+        "value": "1,000+"
+      },
+      {
+        "label": "Starting Price",
+        "value": "$22.50/seat/mo"
+      },
+      {
+        "label": "Category",
+        "value": "Scheduling / Routing"
+      },
+      {
+        "label": "Free Trial",
+        "value": "Demo available"
+      }
+    ],
     "ctaUrl": "/go/chili-piper",
-    "comparisons": [{ "text": "Calendly vs Chili Piper", "url": "/compare/calendly-vs-chili-piper.html" }],
-    "externalReviews": [{ "text": "G2 Reviews", "url": "https://www.g2.com/products/chili-piper/reviews" }],
-    "relatedGuides": [{ "text": "Best Sales Engagement Platforms", "url": "/guides/best-sales-engagement-platforms.html" }],
-    "emailCard": { "heading": "Weekly Tool Intel", "description": "Get honest tool comparisons and decision frameworks in your inbox." }
+    "comparisons": [
+      {
+        "text": "Calendly vs Chili Piper",
+        "url": "/compare/calendly-vs-chili-piper.html"
+      }
+    ],
+    "externalReviews": [
+      {
+        "text": "G2 Reviews",
+        "url": "https://www.g2.com/products/chili-piper/reviews"
+      }
+    ],
+    "relatedGuides": [
+      {
+        "text": "Best Sales Engagement Platforms",
+        "url": "/guides/best-sales-engagement-platforms.html"
+      }
+    ],
+    "emailCard": {
+      "heading": "Weekly Tool Intel",
+      "description": "Get honest tool comparisons and decision frameworks in your inbox."
+    }
   },
   "finalCta": {
     "heading": "Learn More About Chili Piper",
     "description": "Visit their site for a demo, pricing details, and to see their inbound routing in action.",
-    "primaryUrl": "/go/chili-piper", "primaryText": "Visit Chili Piper",
-    "secondaryUrl": "https://www.g2.com/products/chili-piper/reviews", "secondaryText": "Read G2 Reviews",
+    "primaryUrl": "/go/chili-piper",
+    "primaryText": "Visit Chili Piper",
+    "secondaryUrl": "https://www.g2.com/products/chili-piper/reviews",
+    "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
   }
 }
