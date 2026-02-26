@@ -455,5 +455,19 @@
       "type": "comparison",
       "description": "Side-by-side comparison of the two leading autonomous AI SDR platforms"
     }
-  ]
+  ],
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 3.8,
+        "reviews": 19,
+        "url": "https://www.g2.com/products/artisan/reviews",
+        "outOf": 5
+      }
+    ],
+    "consensusScore": 3.8,
+    "lastUpdated": "February 2026"
+  },
+  "lastVerified": "2026-02-25"
 }

@@ -87,7 +87,7 @@
     }
   },
   "quickSummary": {
-    "whatItDoes": "Chrome extension for quick LinkedIn contact lookup — find emails and phone numbers from LinkedIn profiles in seconds.",
+    "whatItDoes": "Chrome extension for quick LinkedIn contact lookup \u2014 find emails and phone numbers from LinkedIn profiles in seconds.",
     "bestFor": "Individual reps who need fast, low-friction contact data without complex platform setup or workflows.",
     "pricing": "Free (5 credits/mo). Pro from $29/mo. Scale from $51/mo. Enterprise custom.",
     "ctaUrl": "/go/lusha",
@@ -95,7 +95,7 @@
   },
   "whatIs": {
     "paragraphs": [
-      "Lusha is a contact intelligence platform designed for speed. Its Chrome extension lets sales reps pull verified emails and phone numbers from LinkedIn profiles with a single click. With a free tier and self-serve pricing, it's one of the lowest-friction prospecting tools available — though the smaller database and limited features mean it works better for individual reps than for teams running complex enrichment workflows."
+      "Lusha is a contact intelligence platform designed for speed. Its Chrome extension lets sales reps pull verified emails and phone numbers from LinkedIn profiles with a single click. With a free tier and self-serve pricing, it's one of the lowest-friction prospecting tools available \u2014 though the smaller database and limited features mean it works better for individual reps than for teams running complex enrichment workflows."
     ],
     "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/lusha/reviews\" target=\"_blank\" rel=\"noopener\">Lusha on G2</a>."
   },
@@ -572,9 +572,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 1,465+ total reviews across 2 verified platforms",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 1,465+ total reviews across 2 verified platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -895,18 +895,6 @@
       {
         "text": "Best Sales Intelligence Tools",
         "url": "/guides/best-sales-intelligence-tools.html"
-      },
-      {
-        "text": "Apollo Review",
-        "url": "/tools/apollo-review.html"
-      },
-      {
-        "text": "LeadIQ Review",
-        "url": "/tools/leadiq-review.html"
-      },
-      {
-        "text": "ZoomInfo Review",
-        "url": "/tools/zoominfo-review.html"
       }
     ],
     "emailCard": {
@@ -922,5 +910,33 @@
     "secondaryUrl": "https://www.g2.com/products/lusha/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  }
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.3,
+        "reviews": 1613,
+        "url": "https://www.g2.com/products/lusha/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.0,
+        "reviews": 396,
+        "url": "https://www.capterra.com/p/164987/Lusha/",
+        "outOf": 5
+      },
+      {
+        "platform": "TrustRadius",
+        "rating": 8.4,
+        "reviews": 330,
+        "url": "https://www.trustradius.com/products/lusha/reviews",
+        "outOf": 10
+      }
+    ],
+    "consensusScore": 4.2,
+    "lastUpdated": "February 2026"
+  },
+  "lastVerified": "2026-02-25"
 }

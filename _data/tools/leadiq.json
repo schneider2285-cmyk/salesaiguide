@@ -572,9 +572,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 955+ total reviews across 2 verified platforms",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 955+ total reviews across 2 verified platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -891,18 +891,6 @@
       {
         "text": "Best Sales Intelligence Tools",
         "url": "/guides/best-sales-intelligence-tools.html"
-      },
-      {
-        "text": "Apollo Review",
-        "url": "/tools/apollo-review.html"
-      },
-      {
-        "text": "Cognism Review",
-        "url": "/tools/cognism-review.html"
-      },
-      {
-        "text": "Lusha Review",
-        "url": "/tools/lusha-review.html"
       }
     ],
     "emailCard": {
@@ -918,5 +906,33 @@
     "secondaryUrl": "https://www.g2.com/products/leadiq/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  }
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.2,
+        "reviews": 1154,
+        "url": "https://www.g2.com/products/leadiq/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.4,
+        "reviews": 24,
+        "url": "https://www.capterra.com/p/182394/LeadIQ/",
+        "outOf": 5
+      },
+      {
+        "platform": "TrustRadius",
+        "rating": 6.4,
+        "reviews": 76,
+        "url": "https://www.trustradius.com/products/leadiq/reviews",
+        "outOf": 10
+      }
+    ],
+    "consensusScore": 4.1,
+    "lastUpdated": "February 2026"
+  },
+  "lastVerified": "2026-02-25"
 }

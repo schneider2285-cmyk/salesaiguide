@@ -504,7 +504,7 @@
         {
           "dimension": "Integration Depth",
           "score": 9,
-          "notes": "Clearbit, 6sense, Bombora, Salesforce, HubSpot, Slack — multi-source stack",
+          "notes": "Clearbit, 6sense, Bombora, Salesforce, HubSpot, Slack \u2014 multi-source stack",
           "evidence": [
             {
               "source": "G2",
@@ -575,9 +575,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 322+ total reviews across 2 verified platforms",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 322+ total reviews across 2 verified platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -634,14 +634,14 @@
           "Reddit: 4 threads",
           "Capterra: 8 mentions"
         ],
-        "quote": "\"The free tier proved the value — we could see exactly who was visiting our pricing page. But $700/mo is a big jump for a startup. Wish there was a $200/mo tier for growing teams.\"",
+        "quote": "\"The free tier proved the value \u2014 we could see exactly who was visiting our pricing page. But $700/mo is a big jump for a startup. Wish there was a $200/mo tier for growing teams.\"",
         "quoteCite": "Synthesized from G2 and Reddit review themes"
       },
       {
         "sentiment": "mixed",
         "sentimentIcon": "&#9644;",
         "heading": "Powerful platform but needs RevOps to unlock full value",
-        "synthesis": "Users agree Warmly is capable, but getting the most from it requires RevOps expertise. Basic visitor ID works immediately, but the real value — targeted alerts, AI engagement rules, CRM enrichment — needs someone who understands routing logic and integration configuration.",
+        "synthesis": "Users agree Warmly is capable, but getting the most from it requires RevOps expertise. Basic visitor ID works immediately, but the real value \u2014 targeted alerts, AI engagement rules, CRM enrichment \u2014 needs someone who understands routing logic and integration configuration.",
         "sources": [
           "G2: 28 mentions",
           "TrustRadius: 6 mentions",
@@ -906,25 +906,25 @@
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
   },
-  "videos": [
-    {
-      "youtubeId": "7Ql_6OkBMtU",
-      "title": "Warmly Platform Demo: AI-Powered Website Visitor Intelligence",
-      "channel": "Warmly",
-      "note": "Official demo of Warmly's visitor identification and AI agent features."
-    },
-    {
-      "youtubeId": "vGVBFZQPqrM",
-      "title": "How to Use Warmly to Convert Website Visitors into Pipeline",
-      "channel": "Outbound Kitchen",
-      "note": "Practitioner walkthrough of Warmly's signal-based outreach workflows."
-    },
-    {
-      "youtubeId": "xHBFMKFpMkE",
-      "title": "Warmly vs 6sense: Website Intent Intelligence Compared",
-      "channel": "SalesAIGuide",
-      "note": "Comparison of website visitor intelligence platforms for B2B sales teams."
-    }
-  ],
-  "lastVerified": "February 2026"
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.6,
+        "reviews": 209,
+        "url": "https://www.g2.com/products/warmly/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "TrustRadius",
+        "rating": 7.5,
+        "reviews": 7,
+        "url": "https://www.trustradius.com/products/warmly/reviews",
+        "outOf": 10
+      }
+    ],
+    "consensusScore": 4.6,
+    "lastUpdated": "February 2026"
+  },
+  "lastVerified": "2026-02-25"
 }

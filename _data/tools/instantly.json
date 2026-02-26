@@ -564,9 +564,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 4,967+ total reviews across 2 platforms (G2 + Trustpilot)",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 4,967+ total reviews across 2 platforms (G2 + Trustpilot)",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -915,22 +915,6 @@
       {
         "text": "Best AI Prospecting Tools",
         "url": "/guides/best-ai-outbound-prospecting-tools.html"
-      },
-      {
-        "text": "Best Cold Email Tool for Agencies",
-        "url": "/blog/best-cold-email-tool-for-agencies.html"
-      },
-      {
-        "text": "Best AI Sales Stack for Small Teams",
-        "url": "/blog/best-ai-sales-stack-small-team.html"
-      },
-      {
-        "text": "Smartlead Review",
-        "url": "/tools/smartlead-review.html"
-      },
-      {
-        "text": "Lavender Review",
-        "url": "/tools/lavender-review.html"
       }
     ],
     "emailCard": {
@@ -946,5 +930,19 @@
     "secondaryUrl": "https://www.g2.com/products/instantly-ai/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  }
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.8,
+        "reviews": 4016,
+        "url": "https://www.g2.com/products/instantly/reviews",
+        "outOf": 5
+      }
+    ],
+    "consensusScore": 4.8,
+    "lastUpdated": "February 2026"
+  },
+  "lastVerified": "2026-02-25"
 }

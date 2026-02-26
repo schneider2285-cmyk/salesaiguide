@@ -38,7 +38,7 @@
           "name": "Does Lavender actually improve reply rates?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "According to Lavender's published data and G2 reviews, users report 2-3x improvement in reply rates after consistently using the coaching suggestions. Results vary by baseline skill level — reps who already write strong emails see smaller gains, while newer SDRs tend to see the most improvement."
+            "text": "According to Lavender's published data and G2 reviews, users report 2-3x improvement in reply rates after consistently using the coaching suggestions. Results vary by baseline skill level \u2014 reps who already write strong emails see smaller gains, while newer SDRs tend to see the most improvement."
           }
         },
         {
@@ -298,9 +298,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 62 total reviews on G2 (primary platform)",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 62 total reviews on G2 (primary platform)",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -639,18 +639,6 @@
       {
         "text": "Best AI Prospecting Tools",
         "url": "/guides/best-ai-outbound-prospecting-tools.html"
-      },
-      {
-        "text": "Best AI Sales Stack for Small Teams",
-        "url": "/blog/best-ai-sales-stack-small-team.html"
-      },
-      {
-        "text": "Instantly Review",
-        "url": "/tools/instantly-review.html"
-      },
-      {
-        "text": "Smartlead Review",
-        "url": "/tools/smartlead-review.html"
       }
     ],
     "emailCard": {
@@ -667,25 +655,18 @@
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
   },
-  "videos": [
-    {
-      "youtubeId": "3cHg3TiMHBU",
-      "title": "Lavender AI Email Coach: Full Product Demo",
-      "channel": "Lavender",
-      "note": "Official walkthrough of Lavender's real-time email scoring and coaching."
-    },
-    {
-      "youtubeId": "9WJpBGFqz0k",
-      "title": "How Lavender Improved My Cold Email Reply Rates",
-      "channel": "Cold Email Wizard",
-      "note": "Practitioner review showing real reply rate improvements with Lavender."
-    },
-    {
-      "youtubeId": "kFvqVGYMBqI",
-      "title": "Lavender vs Writing Cold Emails Manually: Is It Worth It?",
-      "channel": "Outbound Kitchen",
-      "note": "Honest assessment of Lavender's ROI for individual SDRs."
-    }
-  ],
-  "lastVerified": "February 2026"
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.9,
+        "reviews": 1300,
+        "url": "https://www.g2.com/products/lavender/reviews",
+        "outOf": 5
+      }
+    ],
+    "consensusScore": 4.9,
+    "lastUpdated": "February 2026"
+  },
+  "lastVerified": "2026-02-25"
 }

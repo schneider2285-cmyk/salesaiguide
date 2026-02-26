@@ -1652,341 +1652,138 @@
     }
 }
 
-/* ═══════════════════════════════════════════════════
-   STACK FIT — REPLACES + AVOID WITH CARDS
-═══════════════════════════════════════════════════ */
-.stack-meta-row {
+/* Composite Insights (replaces dm-user-quote blockquotes) */
+.dm-composite-insight {
+    margin: 12px 0 0;
+    padding: 14px 18px;
+    background: var(--gray-light, #f8f9fa);
+    border-left: 3px solid var(--accent, #2ec4b6);
+    font-size: 0.9rem;
+    color: var(--text-body, #4a5568);
+    line-height: 1.7;
+    border-radius: 0 6px 6px 0;
+}
+.dm-composite-label {
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--accent, #2ec4b6);
+    margin-right: 6px;
+}
+
+/* === REVIEW CONSENSUS BLOCK === */
+.review-sources-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 1rem;
     margin-top: 1.25rem;
 }
-@media (max-width: 640px) {
-    .stack-meta-row { grid-template-columns: 1fr; }
+.review-source-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem 1rem;
+    background: var(--warm-bg-alt);
+    border: 1px solid var(--warm-border);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    text-align: center;
 }
-.stack-meta-card {
-    border-radius: 8px;
-    padding: 0.875rem 1rem;
-    border: 1px solid;
+.review-source-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 2px 8px rgba(27,45,69,0.1);
 }
-.stack-replaces {
-    background: #f0fdf4;
-    border-color: #bbf7d0;
+.review-source-card.consensus {
+    background: rgba(37,99,235,0.06);
+    border-color: var(--accent);
+    cursor: default;
 }
-.stack-avoid {
-    background: #fffbeb;
-    border-color: #fde68a;
-}
-.stack-meta-label {
-    display: block;
-    font-size: 0.75rem;
+.review-source-platform {
+    font-size: 0.7rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 0.35rem;
+    letter-spacing: 0.06em;
+    color: var(--text-light);
+    margin-bottom: 0.4rem;
 }
-.stack-replaces .stack-meta-label { color: #065f46; }
-.stack-avoid .stack-meta-label { color: #92400e; }
-.stack-meta-card p {
-    font-size: 0.875rem;
-    color: var(--text-body, #4a5568);
-    margin: 0;
-    line-height: 1.55;
+.review-source-card.consensus .review-source-platform {
+    color: var(--accent-dark);
+}
+.review-source-rating {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--navy-dark);
+    line-height: 1;
+}
+.review-source-max {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--text-light);
+}
+.review-source-count {
+    font-size: 0.72rem;
+    color: var(--text-light);
+    margin-top: 0.35rem;
 }
 
-/* ═══════════════════════════════════════════════════
-   VIDEO SECTION
-═══════════════════════════════════════════════════ */
-.dm-video-grid {
+/* === REVIEW CONSENSUS BLOCK === */
+.review-sources-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.25rem;
-    margin-top: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+    margin-top: 1.25rem;
 }
-.dm-video-card {
-    background: var(--warm-card, #fff);
-    border: 1px solid var(--warm-border, #e2e8f0);
-    border-radius: 10px;
-    overflow: hidden;
-}
-.dm-video-embed {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
-    overflow: hidden;
-    background: #000;
-}
-.dm-video-embed iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-.dm-video-meta {
-    padding: 0.75rem 1rem;
-}
-.dm-video-title {
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: var(--navy-dark, #1a202c);
-    margin: 0 0 0.25rem;
-    line-height: 1.4;
-}
-.dm-video-channel {
-    font-size: 0.78rem;
-    color: var(--accent, #2ec4b6);
-    font-weight: 500;
-    margin: 0 0 0.25rem;
-}
-.dm-video-note {
-    font-size: 0.78rem;
-    color: var(--text-light, #718096);
-    margin: 0;
-    line-height: 1.5;
-}
-
-/* ═══════════════════════════════════════════════════
-   QUICK VERDICT BAR
-   Sits between quick-summary and journey-bar
-═══════════════════════════════════════════════════ */
-.quick-verdict-bar {
-    background: var(--navy-dark, #1a2744);
-    border-top: 2px solid var(--accent, #2ec4b6);
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-    padding: 1rem 0;
-}
-.qv-inner {
-    display: flex;
-    align-items: flex-start;
-    gap: 1.25rem;
-    flex-wrap: wrap;
-}
-.qv-label {
-    font-size: 0.7rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--accent, #2ec4b6);
-    white-space: nowrap;
-    padding-top: 0.15rem;
-    min-width: 80px;
-}
-.qv-items {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem 1.5rem;
-    flex: 1;
-}
-.qv-item {
+.review-source-card {
     display: flex;
     flex-direction: column;
-    gap: 0.2rem;
-    min-width: 140px;
-    max-width: 260px;
-}
-.qv-item-label {
-    font-size: 0.68rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.07em;
-    color: rgba(255,255,255,0.5);
-}
-.qv-item-value {
-    font-size: 0.85rem;
-    color: rgba(255,255,255,0.9);
-    line-height: 1.45;
-}
-.qv-best .qv-item-value {
-    color: #a7f3d0; /* soft green */
-}
-.qv-avoid .qv-item-value {
-    color: #fde68a; /* soft amber */
-}
-/* Score items */
-.qv-score-val {
-    display: flex;
     align-items: center;
-    gap: 0.5rem;
+    justify-content: center;
+    padding: 1.25rem 1rem;
+    background: var(--warm-bg-alt);
+    border: 1px solid var(--warm-border);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    text-align: center;
 }
-.qv-score-num {
-    font-size: 0.9rem;
-    font-weight: 700;
-    color: white;
-    min-width: 30px;
+.review-source-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 2px 8px rgba(27,45,69,0.1);
 }
-.qv-score-bar {
-    flex: 1;
-    height: 5px;
-    background: rgba(255,255,255,0.15);
-    border-radius: 99px;
-    overflow: hidden;
-    max-width: 80px;
+.review-source-card.consensus {
+    background: rgba(37,99,235,0.06);
+    border-color: var(--accent);
+    cursor: default;
 }
-.qv-score-fill {
-    display: block;
-    height: 100%;
-    background: var(--accent, #2ec4b6);
-    border-radius: 99px;
-    transition: width 0.4s ease;
-}
-@media (max-width: 768px) {
-    .qv-inner {
-        flex-direction: column;
-        gap: 0.75rem;
-    }
-    .qv-label {
-        min-width: unset;
-    }
-    .qv-items {
-        gap: 0.6rem 1rem;
-    }
-    .qv-item {
-        min-width: 120px;
-        max-width: 100%;
-    }
-}
-
-/* ═══════════════════════════════════════════════════
-   QUICK VERDICT BAR
-   Sits between quick-summary and journey-bar
-═══════════════════════════════════════════════════ */
-.quick-verdict-bar {
-    background: var(--navy-dark, #1a2744);
-    border-top: 2px solid var(--accent, #2ec4b6);
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-    padding: 1rem 0;
-}
-.qv-inner {
-    display: flex;
-    align-items: flex-start;
-    gap: 1.25rem;
-    flex-wrap: wrap;
-}
-.qv-label {
+.review-source-platform {
     font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-light);
+    margin-bottom: 0.4rem;
+}
+.review-source-card.consensus .review-source-platform {
+    color: var(--accent-dark);
+}
+.review-source-rating {
+    font-size: 1.75rem;
     font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--accent, #2ec4b6);
-    white-space: nowrap;
-    padding-top: 0.15rem;
-    min-width: 80px;
+    color: var(--navy-dark);
+    line-height: 1;
 }
-.qv-items {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem 1.5rem;
-    flex: 1;
-}
-.qv-item {
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
-    min-width: 140px;
-    max-width: 260px;
-}
-.qv-item-label {
-    font-size: 0.68rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.07em;
-    color: rgba(255,255,255,0.5);
-}
-.qv-item-value {
+.review-source-max {
     font-size: 0.85rem;
-    color: rgba(255,255,255,0.9);
-    line-height: 1.45;
+    font-weight: 400;
+    color: var(--text-light);
 }
-.qv-best .qv-item-value {
-    color: #a7f3d0; /* soft green */
-}
-.qv-avoid .qv-item-value {
-    color: #fde68a; /* soft amber */
-}
-/* Score items */
-.qv-score-val {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-.qv-score-num {
-    font-size: 0.9rem;
-    font-weight: 700;
-    color: white;
-    min-width: 30px;
-}
-.qv-score-bar {
-    flex: 1;
-    height: 5px;
-    background: rgba(255,255,255,0.15);
-    border-radius: 99px;
-    overflow: hidden;
-    max-width: 80px;
-}
-.qv-score-fill {
-    display: block;
-    height: 100%;
-    background: var(--accent, #2ec4b6);
-    border-radius: 99px;
-    transition: width 0.4s ease;
-}
-@media (max-width: 768px) {
-    .qv-inner {
-        flex-direction: column;
-        gap: 0.75rem;
-    }
-    .qv-label {
-        min-width: unset;
-    }
-    .qv-items {
-        gap: 0.6rem 1rem;
-    }
-    .qv-item {
-        min-width: 120px;
-        max-width: 100%;
-    }
-}
-
-/* ═══════════════════════════════════════════════════
-   LAST VERIFIED BADGE
-   Appears in hero review-meta section
-═══════════════════════════════════════════════════ */
-.last-verified-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-    font-size: 0.78rem;
-    color: rgba(255, 255, 255, 0.65);
-    background: rgba(46, 196, 182, 0.12);
-    border: 1px solid rgba(46, 196, 182, 0.3);
-    border-radius: 99px;
-    padding: 0.2rem 0.65rem;
-    margin-top: 0.25rem;
-}
-.last-verified-badge strong {
-    color: rgba(255, 255, 255, 0.9);
-    font-weight: 600;
-}
-
-/* ═══════════════════════════════════════════════════
-   LAST VERIFIED BADGE
-   Appears in hero review-meta section
-═══════════════════════════════════════════════════ */
-.last-verified-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-    font-size: 0.78rem;
-    color: rgba(255, 255, 255, 0.65);
-    background: rgba(46, 196, 182, 0.12);
-    border: 1px solid rgba(46, 196, 182, 0.3);
-    border-radius: 99px;
-    padding: 0.2rem 0.65rem;
-    margin-top: 0.25rem;
-}
-.last-verified-badge strong {
-    color: rgba(255, 255, 255, 0.9);
-    font-weight: 600;
+.review-source-count {
+    font-size: 0.72rem;
+    color: var(--text-light);
+    margin-top: 0.35rem;
 }
