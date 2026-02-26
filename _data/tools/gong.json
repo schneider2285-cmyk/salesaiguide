@@ -221,7 +221,7 @@
         {
           "dimension": "AI Depth",
           "score": 10,
-          "notes": "AI is the core product — real-time insights, deal prediction, topic tracking",
+          "notes": "AI is the core product \u2014 real-time insights, deal prediction, topic tracking",
           "evidence": [
             {
               "source": "G2",
@@ -308,66 +308,34 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis, enterprise community discussion, demo-verified features, and current vendor documentation. Strong signal across 6,455+ public reviews.",
       "sourcePills": [
-        {
-          "label": "G2: 4.7/5 (6,455 reviews)",
-          "source": "G2",
-          "url": "https://www.g2.com/products/gong-io/reviews"
-        },
-        {
-          "label": "Capterra: 4.8/5 (553 reviews)",
-          "source": "Capterra",
-          "url": "https://www.capterra.com/p/153756/Gong/"
-        },
-        {
-          "label": "TrustRadius: 9.1/10 (1,127 reviews)",
-          "source": "TrustRadius",
-          "url": "https://www.trustradius.com/products/gong/reviews"
-        },
-        {
-          "label": "Gartner PI: 4.7/5 (188 reviews)",
-          "source": "Gartner PI",
-          "url": "https://www.gartner.com/reviews/market/conversation-intelligence-sales/vendor/gong"
-        },
-        {
-          "label": "YouTube: 20+ demos",
-          "source": "YouTube",
-          "url": "https://www.youtube.com/results?search_query=gong.io+review+demo"
-        },
-        {
-          "label": "Trust center &#10003;",
-          "source": "Trust center &#10003;",
-          "url": null
-        }
+        "G2: 4.7/5 (6,455 reviews)",
+        "Capterra: 4.8/5 (553 reviews)",
+        "TrustRadius: 9.1/10 (1,127 reviews)",
+        "Gartner PI: 4.7/5 (188 reviews)",
+        "YouTube: 20+ demos",
+        "Trust center &#10003;"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 8,323+ total reviews across 4 platforms",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 8,323+ total reviews across 4 platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: call intelligence depth unmatched. Complaint: expensive, slow implementation",
-          "source": "Review sentiment",
-          "url": "https://www.g2.com/products/gong-io/reviews"
+          "text": "<strong>Review sentiment:</strong> Praise: call intelligence depth unmatched. Complaint: expensive, slow implementation"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> Deal boards + coaching scorecards, CRM sync automation",
-          "source": "Community",
-          "url": null
+          "text": "<strong>Community workflows:</strong> Deal boards + coaching scorecards, CRM sync automation"
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Call recording UI, deal intelligence dashboard",
-          "source": "Demo-verified",
-          "url": "https://www.youtube.com/results?search_query=gong.io+review+demo"
+          "text": "<strong>Demo-verified:</strong> Call recording UI, deal intelligence dashboard"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Custom pricing only, 100+ integrations, security certifications",
-          "source": "Docs-verified",
-          "url": "https://help.gong.io"
+          "text": "<strong>Docs verified:</strong> Custom pricing only, 100+ integrations, security certifications"
         }
       ],
       "strengthThemes": [
@@ -377,7 +345,7 @@
       ],
       "limitationThemes": [
         "Implementation takes 2-4 months for full value",
-        "Pricing opaque — typically $100+/user/mo",
+        "Pricing opaque \u2014 typically $100+/user/mo",
         "Heavy Salesforce dependency for full feature set"
       ],
       "disagreeNote": "&#9888;&#65039; Where sources disagree: Vendor positions as \"revenue intelligence\"; practitioners primarily value call recording + coaching. ROI hard to prove in first 6 months per community.",
@@ -394,7 +362,7 @@
           "Capterra: 210 mentions",
           "Reddit: 9 threads"
         ],
-        "quote": "\"Gong cut our new hire ramp time nearly in half. Instead of ride-alongs, reps review our top closers' calls on day one — the coaching scorecards make feedback objective instead of anecdotal.\"",
+        "quote": "\"Gong cut our new hire ramp time nearly in half. Instead of ride-alongs, reps review our top closers' calls on day one \u2014 the coaching scorecards make feedback objective instead of anecdotal.\"",
         "quoteCite": "Director of Sales Enablement, 150-person org [G2 Review, Jan 2026]"
       },
       {
@@ -407,7 +375,7 @@
           "Reddit: 7 threads",
           "Capterra: 95 mentions"
         ],
-        "quote": "\"Basic recording worked in a week, but getting the deal boards, scorecards, and Salesforce sync fully configured took our RevOps team three months. Budget for implementation support — the $15K setup fee was worth it.\"",
+        "quote": "\"Basic recording worked in a week, but getting the deal boards, scorecards, and Salesforce sync fully configured took our RevOps team three months. Budget for implementation support \u2014 the $15K setup fee was worth it.\"",
         "quoteCite": "RevOps Lead, 300-person enterprise [Reddit r/salesops, Dec 2025]"
       },
       {
@@ -420,7 +388,7 @@
           "Capterra: 160 mentions",
           "Gartner PI: verified"
         ],
-        "quote": "\"Gong's deal board flagged a churn risk our AE completely missed — the AI detected declining multi-threading across three stakeholders a full month before the renewal. We saved a $180K account.\"",
+        "quote": "\"Gong's deal board flagged a churn risk our AE completely missed \u2014 the AI detected declining multi-threading across three stakeholders a full month before the renewal. We saved a $180K account.\"",
         "quoteCite": "VP Revenue Operations, 200-person org [Gartner Peer Insights, Jan 2026]"
       },
       {
@@ -433,7 +401,7 @@
           "Reddit: 5 threads",
           "Capterra: 72 mentions"
         ],
-        "quote": "\"We almost had a mutiny when we rolled out Gong — reps felt like Big Brother was listening. Once we repositioned it as a coaching tool and let top performers share their own highlights, adoption flipped from 30% to 85% in two months.\"",
+        "quote": "\"We almost had a mutiny when we rolled out Gong \u2014 reps felt like Big Brother was listening. Once we repositioned it as a coaching tool and let top performers share their own highlights, adoption flipped from 30% to 85% in two months.\"",
         "quoteCite": "Sales Manager, 60-person sales org [Capterra Review, Nov 2025]"
       },
       {
@@ -561,7 +529,7 @@
         {
           "title": "Salesforce CRM",
           "titleLink": null,
-          "description": "Deepest integration — embedded widgets in SF records."
+          "description": "Deepest integration \u2014 embedded widgets in SF records."
         },
         {
           "title": "Outreach",
@@ -709,5 +677,32 @@
     "secondaryUrl": "https://www.g2.com/products/gong/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.7,
+        "reviews": 6458,
+        "url": "https://www.g2.com/products/gong-io/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.8,
+        "reviews": 559,
+        "url": "https://www.capterra.com/p/167531/Gong/",
+        "outOf": 5
+      },
+      {
+        "platform": "TrustRadius",
+        "rating": 9.1,
+        "reviews": 1127,
+        "url": "https://www.trustradius.com/products/gong/reviews",
+        "outOf": 10
+      }
+    ],
+    "consensusScore": 4.7,
+    "lastUpdated": "February 2026"
   }
 }

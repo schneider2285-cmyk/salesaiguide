@@ -312,71 +312,35 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis, broad practitioner discussion, Chrome extension demos verified, and current vendor documentation. Strong signal across 9,344+ public reviews.",
       "sourcePills": [
-        {
-          "label": "G2: 4.7/5 (9,344 reviews)",
-          "source": "G2",
-          "url": "https://www.g2.com/products/apollo-io/reviews"
-        },
-        {
-          "label": "Capterra: 4.5/5 (384 reviews)",
-          "source": "Capterra",
-          "url": "https://www.capterra.com/p/135028/Apollo/"
-        },
-        {
-          "label": "TrustRadius: 8.4/10 (561 reviews)",
-          "source": "TrustRadius",
-          "url": "https://www.trustradius.com/products/apollo-io/reviews"
-        },
-        {
-          "label": "Reddit: 28+ threads",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/sales/search/?q=apollo.io&sort=top"
-        },
-        {
-          "label": "YouTube: 15+ demos",
-          "source": "YouTube",
-          "url": "https://www.youtube.com/results?search_query=apollo.io+review+demo"
-        },
-        {
-          "label": "Vendor docs &#10003;",
-          "source": "Vendor docs &#10003;",
-          "url": "https://docs.apollo.io"
-        },
-        {
-          "label": "Trust center &#10003;",
-          "source": "Trust center &#10003;",
-          "url": null
-        }
+        "G2: 4.7/5 (9,344 reviews)",
+        "Capterra: 4.5/5 (384 reviews)",
+        "TrustRadius: 8.4/10 (561 reviews)",
+        "Reddit: 28+ threads",
+        "YouTube: 15+ demos",
+        "Vendor docs &#10003;",
+        "Trust center &#10003;"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 10,289+ total reviews across 3 platforms",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 10,289+ total reviews across 3 platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: all-in-one value for prospecting + outreach. Complaint: data accuracy varies by region",
-          "source": "Review sentiment",
-          "url": "https://www.g2.com/products/apollo-io/reviews"
+          "text": "<strong>Review sentiment:</strong> Praise: all-in-one value for prospecting + outreach. Complaint: data accuracy varies by region"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> Prospecting + sequencing in one platform, Chrome extension workflows",
-          "source": "Community",
-          "url": "https://community.apollo.io"
+          "text": "<strong>Community workflows:</strong> Prospecting + sequencing in one platform, Chrome extension workflows"
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Contact search, sequence builder, enrichment engine",
-          "source": "Demo-verified",
-          "url": "https://www.youtube.com/results?search_query=apollo.io+review+demo"
+          "text": "<strong>Demo-verified:</strong> Contact search, sequence builder, enrichment engine"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Pricing tiers, 275M+ contact database, API documentation",
-          "source": "Docs-verified",
-          "url": "https://docs.apollo.io"
+          "text": "<strong>Docs verified:</strong> Pricing tiers, 275M+ contact database, API documentation"
         }
       ],
       "strengthThemes": [
@@ -429,7 +393,7 @@
           "Reddit: 12 threads",
           "Capterra: 78 mentions"
         ],
-        "quote": "\"I ran Apollo's free tier for four months as a solo founder before upgrading. No other tool gives you 10K leads a month at zero cost — it's how I built my entire initial pipeline.\"",
+        "quote": "\"I ran Apollo's free tier for four months as a solo founder before upgrading. No other tool gives you 10K leads a month at zero cost \u2014 it's how I built my entire initial pipeline.\"",
         "quoteCite": "Synthesized from G2 and community review themes"
       },
       {
@@ -441,20 +405,20 @@
           "G2: 650 mentions",
           "Reddit: 8 threads"
         ],
-        "quote": "\"My reps love the Chrome extension for LinkedIn prospecting — they pull verified emails in seconds. But our security team flagged the broad permissions and we had to get a formal exception from IT to keep it installed.\"",
+        "quote": "\"My reps love the Chrome extension for LinkedIn prospecting \u2014 they pull verified emails in seconds. But our security team flagged the broad permissions and we had to get a formal exception from IT to keep it installed.\"",
         "quoteCite": "Synthesized from G2 and community review themes"
       },
       {
         "sentiment": "positive",
         "sentimentIcon": "&#9650;",
         "heading": "All-in-one approach eliminates tool sprawl for SMBs",
-        "synthesis": "TrustRadius and Software Advice reviewers consistently highlight that Apollo replaces 2-3 separate tools for smaller teams — combining prospecting, email sequences, and basic CRM in one platform. Mid-market users report saving $500-1,200/mo by consolidating their stack around Apollo.",
+        "synthesis": "TrustRadius and Software Advice reviewers consistently highlight that Apollo replaces 2-3 separate tools for smaller teams \u2014 combining prospecting, email sequences, and basic CRM in one platform. Mid-market users report saving $500-1,200/mo by consolidating their stack around Apollo.",
         "sources": [
           "TrustRadius: 28 mentions",
           "Software Advice: 35 mentions",
           "G2: 180+ mentions"
         ],
-        "quote": "\"Apollo replaced our ZoomInfo subscription, a separate sequencing tool, and a basic CRM — saving us roughly $800 per rep per month. For a 12-person team, that's a game-changer.\"",
+        "quote": "\"Apollo replaced our ZoomInfo subscription, a separate sequencing tool, and a basic CRM \u2014 saving us roughly $800 per rep per month. For a 12-person team, that's a game-changer.\"",
         "quoteCite": "Synthesized from G2 and community review themes"
       }
     ],
@@ -724,5 +688,25 @@
     "secondaryUrl": "https://www.g2.com/products/apollo-io/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "Capterra",
+        "rating": 4.5,
+        "reviews": 384,
+        "url": "https://www.capterra.com/p/135028/Apollo/",
+        "outOf": 5
+      },
+      {
+        "platform": "TrustRadius",
+        "rating": 8.4,
+        "reviews": 561,
+        "url": "https://www.trustradius.com/products/apollo/reviews",
+        "outOf": 10
+      }
+    ],
+    "consensusScore": 4.3,
+    "lastUpdated": "February 2026"
   }
 }

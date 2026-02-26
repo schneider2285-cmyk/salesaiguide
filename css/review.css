@@ -1652,32 +1652,106 @@
     }
 }
 
-/* Linked source pills (PR #34 — full source attribution) */
-a.dm-source-pill--link {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-  border-bottom: 1px solid transparent;
-  transition: background 0.15s, border-color 0.15s, color 0.15s;
-}
-a.dm-source-pill--link:hover {
-  background: var(--accent-dark, #1a4d3a);
-  color: #fff;
-  border-color: transparent;
+
+/* ===== REVIEW CONSENSUS SCORE SECTION ===== */
+.review-consensus-section {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2rem;
 }
 
-/* Evidence grid source attribution link */
-.dm-evidence-source-link {
-  display: inline-block;
-  margin-top: 0.35rem;
-  font-size: 0.72rem;
-  font-weight: 600;
-  color: var(--accent-dark, #1a4d3a);
-  text-decoration: none;
-  border-bottom: 1px solid currentColor;
-  opacity: 0.8;
-  transition: opacity 0.15s;
+.review-consensus-intro {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
 }
-.dm-evidence-source-link:hover {
-  opacity: 1;
+
+.review-sources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.review-source-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.review-source-card:hover {
+  border-color: #16a34a;
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.12);
+  transform: translateY(-2px);
+  color: inherit;
+  text-decoration: none;
+}
+
+.review-source-card.consensus-card {
+  background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+  border-color: #16a34a;
+  color: #fff;
+  cursor: default;
+}
+
+.review-source-card.consensus-card:hover {
+  transform: none;
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.25);
+}
+
+.review-source-platform {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+}
+
+.consensus-card .review-source-platform {
+  color: rgba(255,255,255,0.85);
+}
+
+.review-source-rating {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1;
+}
+
+.review-source-rating .review-source-max {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #94a3b8;
+}
+
+.review-source-rating.consensus-score {
+  color: #fff;
+}
+
+.review-source-rating.consensus-score .review-source-max {
+  color: rgba(255,255,255,0.7);
+}
+
+.review-source-count {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+.consensus-card .review-source-count {
+  color: rgba(255,255,255,0.75);
+}
+
+@media (max-width: 600px) {
+  .review-sources-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

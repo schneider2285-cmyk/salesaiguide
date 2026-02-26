@@ -128,6 +128,26 @@ extraCss:
                     </section>
                     {% endif %}
 
+                    {% if t.reviewSources %}
+                    <section class="content-section review-consensus-section" id="review-consensus">
+                        <h2>Review Consensus Across Platforms</h2>
+                        <p class="review-consensus-intro">Aggregated from {{ t.reviewSources.sources | length }} independent review platform{% if t.reviewSources.sources | length > 1 %}s{% endif %} as of {{ t.reviewSources.lastUpdated }}. Consensus score is weighted by review volume.</p>
+                        <div class="review-sources-grid">
+                            {% for src in t.reviewSources.sources %}
+                            <a href="{{ src.url }}" target="_blank" rel="noopener sponsored" class="review-source-card" title="View {{ src.platform }} reviews">
+                                <div class="review-source-platform">{{ src.platform }}</div>
+                                <div class="review-source-rating">{{ src.rating }}<span class="review-source-max">/{{ src.outOf }}</span></div>
+                                <div class="review-source-count">{{ src.reviews | int | string | replace(",", "") }} reviews</div>
+                            </a>
+                            {% endfor %}
+                            <div class="review-source-card consensus-card">
+                                <div class="review-source-platform">Consensus Score</div>
+                                <div class="review-source-rating consensus-score">{{ t.reviewSources.consensusScore }}<span class="review-source-max">/5</span></div>
+                                <div class="review-source-count">weighted by volume</div>
+                            </div>
+                        </div>
+                    </section>
+                    {% endif %}
                     {% if t.g2Reviews %}
                     <section class="content-section">
                         <h2>What G2 Reviewers Say</h2>

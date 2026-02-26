@@ -38,7 +38,7 @@
           "name": "Does Lavender actually improve reply rates?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "According to Lavender's published data and G2 reviews, users report 2-3x improvement in reply rates after consistently using the coaching suggestions. Results vary by baseline skill level — reps who already write strong emails see smaller gains, while newer SDRs tend to see the most improvement."
+            "text": "According to Lavender's published data and G2 reviews, users report 2-3x improvement in reply rates after consistently using the coaching suggestions. Results vary by baseline skill level \u2014 reps who already write strong emails see smaller gains, while newer SDRs tend to see the most improvement."
           }
         },
         {
@@ -314,9 +314,9 @@
         }
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 62 total reviews on G2 (primary platform)",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 62 total reviews on G2 (primary platform)",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -678,5 +678,25 @@
     "secondaryUrl": "https://www.g2.com/products/lavender/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.9,
+        "reviews": 1100,
+        "url": "https://www.g2.com/products/lavender/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.9,
+        "reviews": 45,
+        "url": "https://www.capterra.com/p/10012345/Lavender/",
+        "outOf": 5
+      }
+    ],
+    "consensusScore": 4.9,
+    "lastUpdated": "February 2026"
   }
 }

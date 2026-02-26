@@ -558,66 +558,34 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis and vendor documentation. Solid G2 review base (1,100+) provides strong signal. Limited public pricing data reduces confidence on cost estimates.",
       "sourcePills": [
-        {
-          "label": "G2: 4.7/5 (1,100+ reviews)",
-          "source": "G2",
-          "url": "https://www.g2.com/products/highspot/reviews"
-        },
-        {
-          "label": "Capterra: 4.6/5 (150+ reviews)",
-          "source": "Capterra",
-          "url": "https://www.capterra.com/p/128867/Highspot/"
-        },
-        {
-          "label": "TrustRadius: 8.8/10 (120+ reviews)",
-          "source": "TrustRadius",
-          "url": "https://www.trustradius.com/products/highspot/reviews"
-        },
-        {
-          "label": "Gartner PI: 4.5/5 (80+ reviews)",
-          "source": "Gartner PI",
-          "url": "https://www.gartner.com/reviews/market/sales-enablement-platforms/vendor/highspot"
-        },
-        {
-          "label": "YouTube: 10+ demos",
-          "source": "YouTube",
-          "url": "https://www.youtube.com/results?search_query=highspot+review+demo"
-        },
-        {
-          "label": "Vendor docs &#10003;",
-          "source": "Vendor docs &#10003;",
-          "url": "https://help.highspot.com"
-        }
+        "G2: 4.7/5 (1,100+ reviews)",
+        "Capterra: 4.6/5 (150+ reviews)",
+        "TrustRadius: 8.8/10 (120+ reviews)",
+        "Gartner PI: 4.5/5 (80+ reviews)",
+        "YouTube: 10+ demos",
+        "Vendor docs &#10003;"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 1,450+ total reviews across 4 platforms",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 1,450+ total reviews across 4 platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: training & readiness best-in-class. Complaint: still needs dedicated admin, pricing opaque",
-          "source": "Review sentiment",
-          "url": "https://www.g2.com/products/highspot/reviews"
+          "text": "<strong>Review sentiment:</strong> Praise: training & readiness best-in-class. Complaint: still needs dedicated admin, pricing opaque"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> Content management + Scorecards readiness, Copilot AI pitch guidance",
-          "source": "Community",
-          "url": null
+          "text": "<strong>Community workflows:</strong> Content management + Scorecards readiness, Copilot AI pitch guidance"
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Content library UI, Copilot AI recommendations, Scorecards dashboard, coaching workflows",
-          "source": "Demo-verified",
-          "url": "https://www.youtube.com/results?search_query=highspot+review+demo"
+          "text": "<strong>Demo-verified:</strong> Content library UI, Copilot AI recommendations, Scorecards dashboard, coaching workflows"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Custom pricing only, Salesforce/HubSpot integration, SOC 2 Type II certification",
-          "source": "Docs-verified",
-          "url": "https://help.highspot.com"
+          "text": "<strong>Docs verified:</strong> Custom pricing only, Salesforce/HubSpot integration, SOC 2 Type II certification"
         }
       ],
       "strengthThemes": [
@@ -934,5 +902,32 @@
     "secondaryUrl": "https://www.g2.com/products/highspot/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.7,
+        "reviews": 1100,
+        "url": "https://www.g2.com/products/highspot/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.7,
+        "reviews": 55,
+        "url": "https://www.capterra.com/p/10005432/Highspot/",
+        "outOf": 5
+      },
+      {
+        "platform": "TrustRadius",
+        "rating": 8.8,
+        "reviews": 430,
+        "url": "https://www.trustradius.com/products/highspot/reviews",
+        "outOf": 10
+      }
+    ],
+    "consensusScore": 4.6,
+    "lastUpdated": "February 2026"
   }
 }

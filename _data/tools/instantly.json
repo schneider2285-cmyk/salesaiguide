@@ -557,61 +557,33 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis, active cold-email community discussion, demo-verified workflows, and current vendor documentation. Strong signal across 3,700+ public reviews.",
       "sourcePills": [
-        {
-          "label": "G2: 4.8/5 (4,000+ reviews)",
-          "source": "G2",
-          "url": "https://www.g2.com/products/instantly/reviews"
-        },
-        {
-          "label": "Trustpilot: 3.8/5 (967 reviews)",
-          "source": "Trustpilot",
-          "url": null
-        },
-        {
-          "label": "Reddit: 22+ threads",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/sales/search/?q=instantly.ai&sort=top"
-        },
-        {
-          "label": "YouTube: 12+ demos",
-          "source": "YouTube",
-          "url": "https://www.youtube.com/results?search_query=instantly.ai+review+demo"
-        },
-        {
-          "label": "Vendor docs &#10003;",
-          "source": "Vendor docs &#10003;",
-          "url": "https://help.instantly.ai"
-        }
+        "G2: 4.8/5 (4,000+ reviews)",
+        "Trustpilot: 3.8/5 (967 reviews)",
+        "Reddit: 22+ threads",
+        "YouTube: 12+ demos",
+        "Vendor docs &#10003;"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 4,967+ total reviews across 2 platforms (G2 + Trustpilot)",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 4,967+ total reviews across 2 platforms (G2 + Trustpilot)",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: deliverability engine + unlimited sending accounts. Complaint: analytics basic",
-          "source": "Review sentiment",
-          "url": "https://www.g2.com/products/instantly/reviews"
+          "text": "<strong>Review sentiment:</strong> Praise: deliverability engine + unlimited sending accounts. Complaint: analytics basic"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> High-volume cold email + warmup, agency multi-client setups",
-          "source": "Community",
-          "url": "https://community.instantly.ai"
+          "text": "<strong>Community workflows:</strong> High-volume cold email + warmup, agency multi-client setups"
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Warmup dashboard, Unibox, campaign builder",
-          "source": "Demo-verified",
-          "url": "https://www.youtube.com/results?search_query=instantly.ai+review+demo"
+          "text": "<strong>Demo-verified:</strong> Warmup dashboard, Unibox, campaign builder"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Pricing published, API access, deliverability features",
-          "source": "Docs-verified",
-          "url": "https://help.instantly.ai"
+          "text": "<strong>Docs verified:</strong> Pricing published, API access, deliverability features"
         }
       ],
       "strengthThemes": [
@@ -958,5 +930,25 @@
     "secondaryUrl": "https://www.g2.com/products/instantly-ai/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.9,
+        "reviews": 3200,
+        "url": "https://www.g2.com/products/instantly/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.8,
+        "reviews": 180,
+        "url": "https://www.capterra.com/p/10013977/Instantly/",
+        "outOf": 5
+      }
+    ],
+    "consensusScore": 4.9,
+    "lastUpdated": "February 2026"
   }
 }

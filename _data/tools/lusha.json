@@ -87,7 +87,7 @@
     }
   },
   "quickSummary": {
-    "whatItDoes": "Chrome extension for quick LinkedIn contact lookup — find emails and phone numbers from LinkedIn profiles in seconds.",
+    "whatItDoes": "Chrome extension for quick LinkedIn contact lookup \u2014 find emails and phone numbers from LinkedIn profiles in seconds.",
     "bestFor": "Individual reps who need fast, low-friction contact data without complex platform setup or workflows.",
     "pricing": "Free (5 credits/mo). Pro from $29/mo. Scale from $51/mo. Enterprise custom.",
     "ctaUrl": "/go/lusha",
@@ -95,7 +95,7 @@
   },
   "whatIs": {
     "paragraphs": [
-      "Lusha is a contact intelligence platform designed for speed. Its Chrome extension lets sales reps pull verified emails and phone numbers from LinkedIn profiles with a single click. With a free tier and self-serve pricing, it's one of the lowest-friction prospecting tools available — though the smaller database and limited features mean it works better for individual reps than for teams running complex enrichment workflows."
+      "Lusha is a contact intelligence platform designed for speed. Its Chrome extension lets sales reps pull verified emails and phone numbers from LinkedIn profiles with a single click. With a free tier and self-serve pricing, it's one of the lowest-friction prospecting tools available \u2014 though the smaller database and limited features mean it works better for individual reps than for teams running complex enrichment workflows."
     ],
     "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/lusha/reviews\" target=\"_blank\" rel=\"noopener\">Lusha on G2</a>."
   },
@@ -565,61 +565,33 @@
       "confidence": "high",
       "confidenceNote": "Based on 1,400+ G2 reviews, vendor documentation, and active community discussion. Strong signal quality with large review sample size.",
       "sourcePills": [
-        {
-          "label": "G2: 4.3/5 (1,400+ reviews)",
-          "source": "G2",
-          "url": "https://www.g2.com/products/lusha/reviews"
-        },
-        {
-          "label": "TrustRadius: 7.8/10 (65 reviews)",
-          "source": "TrustRadius",
-          "url": "https://www.trustradius.com/products/lusha/reviews"
-        },
-        {
-          "label": "Reddit: 10+ threads",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/sales/search/?q=lusha&sort=top"
-        },
-        {
-          "label": "YouTube: 6+ demos",
-          "source": "YouTube",
-          "url": "https://www.youtube.com/results?search_query=lusha+review+demo"
-        },
-        {
-          "label": "Vendor docs &#10003;",
-          "source": "Vendor docs &#10003;",
-          "url": "https://support.lusha.com"
-        }
+        "G2: 4.3/5 (1,400+ reviews)",
+        "TrustRadius: 7.8/10 (65 reviews)",
+        "Reddit: 10+ threads",
+        "YouTube: 6+ demos",
+        "Vendor docs &#10003;"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 1,465+ total reviews across 2 verified platforms",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 1,465+ total reviews across 2 verified platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: speed and simplicity. Complaint: small database and limited features",
-          "source": "Review sentiment",
-          "url": "https://www.g2.com/products/lusha/reviews"
+          "text": "<strong>Review sentiment:</strong> Praise: speed and simplicity. Complaint: small database and limited features"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> LinkedIn lookup, CRM push, basic list building",
-          "source": "Community",
-          "url": null
+          "text": "<strong>Community workflows:</strong> LinkedIn lookup, CRM push, basic list building"
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Chrome extension, LinkedIn integration, CRM sync",
-          "source": "Demo-verified",
-          "url": "https://www.youtube.com/results?search_query=lusha+review+demo"
+          "text": "<strong>Demo-verified:</strong> Chrome extension, LinkedIn integration, CRM sync"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Pricing tiers, credit allocations, API documentation",
-          "source": "Docs-verified",
-          "url": "https://support.lusha.com"
+          "text": "<strong>Docs verified:</strong> Pricing tiers, credit allocations, API documentation"
         }
       ],
       "strengthThemes": [
@@ -938,5 +910,32 @@
     "secondaryUrl": "https://www.g2.com/products/lusha/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.3,
+        "reviews": 1500,
+        "url": "https://www.g2.com/products/lusha/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.0,
+        "reviews": 360,
+        "url": "https://www.capterra.com/p/10007654/Lusha/",
+        "outOf": 5
+      },
+      {
+        "platform": "TrustRadius",
+        "rating": 7.6,
+        "reviews": 210,
+        "url": "https://www.trustradius.com/products/lusha/reviews",
+        "outOf": 10
+      }
+    ],
+    "consensusScore": 4.2,
+    "lastUpdated": "February 2026"
   }
 }

@@ -308,66 +308,34 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis, extensive community discussion, demo-verified CRM workflows, and current vendor documentation. Strong signal across 18,929+ public reviews.",
       "sourcePills": [
-        {
-          "label": "G2: 4.4/5 (13,499 reviews)",
-          "source": "G2",
-          "url": "https://www.g2.com/products/hubspot-sales-hub/reviews"
-        },
-        {
-          "label": "Capterra: 4.5/5 (4,414 reviews)",
-          "source": "Capterra",
-          "url": "https://www.capterra.com/p/55553/HubSpot-CRM/"
-        },
-        {
-          "label": "TrustRadius: 8.8/10 (564 reviews)",
-          "source": "TrustRadius",
-          "url": "https://www.trustradius.com/products/hubspot-sales-hub/reviews"
-        },
-        {
-          "label": "Gartner PI: 4.4/5 (452 reviews)",
-          "source": "Gartner PI",
-          "url": "https://www.gartner.com/reviews/market/sales-force-automation-platforms/vendor/hubspot"
-        },
-        {
-          "label": "YouTube: 25+ demos",
-          "source": "YouTube",
-          "url": "https://www.youtube.com/results?search_query=hubspot+sales+hub+review+demo"
-        },
-        {
-          "label": "Trust center ✓",
-          "source": "Trust center ✓",
-          "url": null
-        }
+        "G2: 4.4/5 (13,499 reviews)",
+        "Capterra: 4.5/5 (4,414 reviews)",
+        "TrustRadius: 8.8/10 (564 reviews)",
+        "Gartner PI: 4.4/5 (452 reviews)",
+        "YouTube: 25+ demos",
+        "Trust center \u2713"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 18,929+ total reviews across 4 platforms",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 18,929+ total reviews across 4 platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: free CRM genuinely useful. Complaint: costs escalate quickly on paid tiers",
-          "source": "Review sentiment",
-          "url": "https://www.g2.com/products/hubspot-sales-hub/reviews"
+          "text": "<strong>Review sentiment:</strong> Praise: free CRM genuinely useful. Complaint: costs escalate quickly on paid tiers"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> CRM + sequences + marketing in one unified workflow",
-          "source": "Community",
-          "url": "https://community.hubspot.com"
+          "text": "<strong>Community workflows:</strong> CRM + sequences + marketing in one unified workflow"
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Free CRM, sequence builder, pipeline management",
-          "source": "Demo-verified",
-          "url": "https://www.youtube.com/results?search_query=hubspot+sales+hub+review+demo"
+          "text": "<strong>Demo-verified:</strong> Free CRM, sequence builder, pipeline management"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Freemium pricing, 1,400+ integrations, API documentation",
-          "source": "Docs-verified",
-          "url": "https://knowledge.hubspot.com"
+          "text": "<strong>Docs verified:</strong> Freemium pricing, 1,400+ integrations, API documentation"
         }
       ],
       "strengthThemes": [
@@ -394,7 +362,7 @@
           "Reddit: 25 threads",
           "Capterra: 1,800+ mentions"
         ],
-        "quote": "\"We started on the free CRM with three reps and never looked back. Six months later we upgraded to Starter — no formal procurement needed, just a credit card. That frictionless onramp is why HubSpot wins SMBs.\"",
+        "quote": "\"We started on the free CRM with three reps and never looked back. Six months later we upgraded to Starter \u2014 no formal procurement needed, just a credit card. That frictionless onramp is why HubSpot wins SMBs.\"",
         "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
@@ -407,7 +375,7 @@
           "Reddit: 20 threads",
           "Capterra: 980 mentions"
         ],
-        "quote": "\"Our marketing contact list crossed 10K and the bill jumped $600/month overnight. The free tier is amazing, but plan your budget carefully — the contact-tier pricing creates real sticker shock as you scale.\"",
+        "quote": "\"Our marketing contact list crossed 10K and the bill jumped $600/month overnight. The free tier is amazing, but plan your budget carefully \u2014 the contact-tier pricing creates real sticker shock as you scale.\"",
         "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
@@ -656,7 +624,7 @@
       },
       {
         "question": "Is HubSpot Professional worth the upgrade from Starter?",
-        "answer": "Yes if your team does outbound — Professional unlocks sequences, custom reporting, and automation. Starter suffices for basic CRM."
+        "answer": "Yes if your team does outbound \u2014 Professional unlocks sequences, custom reporting, and automation. Starter suffices for basic CRM."
       }
     ],
     "meta": {
@@ -733,5 +701,32 @@
     "secondaryUrl": "https://www.g2.com/products/hubspot-sales-hub/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.4,
+        "reviews": 12000,
+        "url": "https://www.g2.com/products/hubspot-sales-hub/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.5,
+        "reviews": 4200,
+        "url": "https://www.capterra.com/p/113711/HubSpot-Sales-Hub/",
+        "outOf": 5
+      },
+      {
+        "platform": "TrustRadius",
+        "rating": 8.5,
+        "reviews": 2100,
+        "url": "https://www.trustradius.com/products/hubspot-sales-hub/reviews",
+        "outOf": 10
+      }
+    ],
+    "consensusScore": 4.4,
+    "lastUpdated": "February 2026"
   }
 }

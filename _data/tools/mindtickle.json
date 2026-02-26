@@ -554,66 +554,34 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis and vendor documentation. Large G2 review base (2,000+) provides strong signal. Limited public pricing data reduces confidence on cost estimates.",
       "sourcePills": [
-        {
-          "label": "G2: 4.7/5 (2,000+ reviews)",
-          "source": "G2",
-          "url": "https://www.g2.com/products/mindtickle/reviews"
-        },
-        {
-          "label": "Capterra: 4.5/5 (100+ reviews)",
-          "source": "Capterra",
-          "url": "https://www.capterra.com/p/154561/Mindtickle/"
-        },
-        {
-          "label": "TrustRadius: 8.5/10 (80+ reviews)",
-          "source": "TrustRadius",
-          "url": "https://www.trustradius.com/products/mindtickle/reviews"
-        },
-        {
-          "label": "Gartner PI: 4.4/5 (60+ reviews)",
-          "source": "Gartner PI",
-          "url": "https://www.gartner.com/reviews/market/sales-readiness-platforms/vendor/mindtickle"
-        },
-        {
-          "label": "YouTube: 10+ demos",
-          "source": "YouTube",
-          "url": "https://www.youtube.com/results?search_query=mindtickle+review+demo"
-        },
-        {
-          "label": "Vendor docs &#10003;",
-          "source": "Vendor docs &#10003;",
-          "url": "https://help.mindtickle.com"
-        }
+        "G2: 4.7/5 (2,000+ reviews)",
+        "Capterra: 4.5/5 (100+ reviews)",
+        "TrustRadius: 8.5/10 (80+ reviews)",
+        "Gartner PI: 4.4/5 (60+ reviews)",
+        "YouTube: 10+ demos",
+        "Vendor docs &#10003;"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 2,240+ total reviews across 4 platforms",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 2,240+ total reviews across 4 platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: Call AI and training best-in-class. Complaint: admin-heavy setup, passive rep experience",
-          "source": "Review sentiment",
-          "url": "https://www.g2.com/products/mindtickle/reviews"
+          "text": "<strong>Review sentiment:</strong> Praise: Call AI and training best-in-class. Complaint: admin-heavy setup, passive rep experience"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> Onboarding programs + Call AI scoring, Missions practice + certification tracking",
-          "source": "Community",
-          "url": null
+          "text": "<strong>Community workflows:</strong> Onboarding programs + Call AI scoring, Missions practice + certification tracking"
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Call AI rubric scoring, Missions practice UI, readiness dashboards, training course builder",
-          "source": "Demo-verified",
-          "url": "https://www.youtube.com/results?search_query=mindtickle+review+demo"
+          "text": "<strong>Demo-verified:</strong> Call AI rubric scoring, Missions practice UI, readiness dashboards, training course builder"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Custom pricing only, Salesforce/HubSpot integration, SOC 2 certification",
-          "source": "Docs-verified",
-          "url": "https://help.mindtickle.com"
+          "text": "<strong>Docs verified:</strong> Custom pricing only, Salesforce/HubSpot integration, SOC 2 certification"
         }
       ],
       "strengthThemes": [
@@ -926,5 +894,32 @@
     "secondaryUrl": "https://www.g2.com/products/mindtickle/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.7,
+        "reviews": 1800,
+        "url": "https://www.g2.com/products/mindtickle/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.7,
+        "reviews": 110,
+        "url": "https://www.capterra.com/p/10004321/MindTickle/",
+        "outOf": 5
+      },
+      {
+        "platform": "TrustRadius",
+        "rating": 8.6,
+        "reviews": 290,
+        "url": "https://www.trustradius.com/products/mindtickle/reviews",
+        "outOf": 10
+      }
+    ],
+    "consensusScore": 4.6,
+    "lastUpdated": "February 2026"
   }
 }

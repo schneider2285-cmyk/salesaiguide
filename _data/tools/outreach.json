@@ -308,66 +308,34 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis, enterprise sales community feedback, demo-verified sequences, and current vendor documentation. Strong signal across 3,527+ public reviews.",
       "sourcePills": [
-        {
-          "label": "G2: 4.3/5 (3,527 reviews)",
-          "source": "G2",
-          "url": "https://www.g2.com/products/outreach/reviews"
-        },
-        {
-          "label": "Capterra: 4.4/5 (307 reviews)",
-          "source": "Capterra",
-          "url": "https://www.capterra.com/p/129832/Outreach/"
-        },
-        {
-          "label": "TrustRadius: 8.7/10 (389 reviews)",
-          "source": "TrustRadius",
-          "url": "https://www.trustradius.com/products/outreach/reviews"
-        },
-        {
-          "label": "Gartner PI: 4.4/5 (183 reviews)",
-          "source": "Gartner PI",
-          "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/outreach"
-        },
-        {
-          "label": "YouTube: 14+ demos",
-          "source": "YouTube",
-          "url": "https://www.youtube.com/results?search_query=outreach.io+review+demo"
-        },
-        {
-          "label": "Trust center ✓",
-          "source": "Trust center ✓",
-          "url": null
-        }
+        "G2: 4.3/5 (3,527 reviews)",
+        "Capterra: 4.4/5 (307 reviews)",
+        "TrustRadius: 8.7/10 (389 reviews)",
+        "Gartner PI: 4.4/5 (183 reviews)",
+        "YouTube: 14+ demos",
+        "Trust center \u2713"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 4,406+ total reviews across 4 platforms",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 4,406+ total reviews across 4 platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: enterprise-grade sequencing engine. Complaint: UI complexity, steep learning curve",
-          "source": "Review sentiment",
-          "url": "https://www.g2.com/products/outreach/reviews"
+          "text": "<strong>Review sentiment:</strong> Praise: enterprise-grade sequencing engine. Complaint: UI complexity, steep learning curve"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> Multi-channel cadences, A/B testing sequences",
-          "source": "Community",
-          "url": null
+          "text": "<strong>Community workflows:</strong> Multi-channel cadences, A/B testing sequences"
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Sequence builder, analytics dashboard",
-          "source": "Demo-verified",
-          "url": "https://www.youtube.com/results?search_query=outreach.io+review+demo"
+          "text": "<strong>Demo-verified:</strong> Sequence builder, analytics dashboard"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Custom pricing, CRM integrations, API documentation",
-          "source": "Docs-verified",
-          "url": "https://support.outreach.io"
+          "text": "<strong>Docs verified:</strong> Custom pricing, CRM integrations, API documentation"
         }
       ],
       "strengthThemes": [
@@ -706,5 +674,32 @@
     "secondaryUrl": "https://www.g2.com/products/outreach/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.3,
+        "reviews": 3400,
+        "url": "https://www.g2.com/products/outreach/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.4,
+        "reviews": 290,
+        "url": "https://www.capterra.com/p/130904/Outreach/",
+        "outOf": 5
+      },
+      {
+        "platform": "TrustRadius",
+        "rating": 8.2,
+        "reviews": 680,
+        "url": "https://www.trustradius.com/products/outreach/reviews",
+        "outOf": 10
+      }
+    ],
+    "consensusScore": 4.3,
+    "lastUpdated": "February 2026"
   }
 }

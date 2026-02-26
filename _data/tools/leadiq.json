@@ -565,61 +565,33 @@
       "confidence": "high",
       "confidenceNote": "Based on 900+ G2 reviews, vendor documentation, and active community discussion. Good signal quality with sufficient review volume for pattern recognition.",
       "sourcePills": [
-        {
-          "label": "G2: 4.2/5 (900+ reviews)",
-          "source": "G2",
-          "url": "https://www.g2.com/products/leadiq/reviews"
-        },
-        {
-          "label": "TrustRadius: 8.0/10 (55 reviews)",
-          "source": "TrustRadius",
-          "url": "https://www.trustradius.com/products/leadiq/reviews"
-        },
-        {
-          "label": "Reddit: 9+ threads",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/sales/search/?q=leadiq&sort=top"
-        },
-        {
-          "label": "YouTube: 6+ demos",
-          "source": "YouTube",
-          "url": "https://www.youtube.com/results?search_query=leadiq+review+demo"
-        },
-        {
-          "label": "Vendor docs &#10003;",
-          "source": "Vendor docs &#10003;",
-          "url": "https://help.leadiq.com"
-        }
+        "G2: 4.2/5 (900+ reviews)",
+        "TrustRadius: 8.0/10 (55 reviews)",
+        "Reddit: 9+ threads",
+        "YouTube: 6+ demos",
+        "Vendor docs &#10003;"
       ],
       "freshness": [
-        "📅 Freshest review: Feb 2026",
-        "📊 955+ total reviews across 2 verified platforms",
-        "🔍 Last verified: Feb 2026"
+        "\ud83d\udcc5 Freshest review: Feb 2026",
+        "\ud83d\udcca 955+ total reviews across 2 verified platforms",
+        "\ud83d\udd0d Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: Scribe AI and LinkedIn workflow. Complaint: database size and mobile credit limits",
-          "source": "Review sentiment",
-          "url": "https://www.g2.com/products/leadiq/reviews"
+          "text": "<strong>Review sentiment:</strong> Praise: Scribe AI and LinkedIn workflow. Complaint: database size and mobile credit limits"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> LinkedIn prospecting, Scribe AI personalization, CRM enrichment",
-          "source": "Community",
-          "url": null
+          "text": "<strong>Community workflows:</strong> LinkedIn prospecting, Scribe AI personalization, CRM enrichment"
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Chrome extension, Scribe AI, CRM sync, job change alerts",
-          "source": "Demo-verified",
-          "url": "https://www.youtube.com/results?search_query=leadiq+review+demo"
+          "text": "<strong>Demo-verified:</strong> Chrome extension, Scribe AI, CRM sync, job change alerts"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Pricing tiers, credit allocations, integration documentation",
-          "source": "Docs-verified",
-          "url": "https://help.leadiq.com"
+          "text": "<strong>Docs verified:</strong> Pricing tiers, credit allocations, integration documentation"
         }
       ],
       "strengthThemes": [
@@ -934,5 +906,32 @@
     "secondaryUrl": "https://www.g2.com/products/leadiq/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
+  },
+  "reviewSources": {
+    "sources": [
+      {
+        "platform": "G2",
+        "rating": 4.2,
+        "reviews": 550,
+        "url": "https://www.g2.com/products/leadiq/reviews",
+        "outOf": 5
+      },
+      {
+        "platform": "Capterra",
+        "rating": 4.3,
+        "reviews": 65,
+        "url": "https://www.capterra.com/p/10008765/LeadIQ/",
+        "outOf": 5
+      },
+      {
+        "platform": "TrustRadius",
+        "rating": 7.8,
+        "reviews": 80,
+        "url": "https://www.trustradius.com/products/leadiq/reviews",
+        "outOf": 10
+      }
+    ],
+    "consensusScore": 4.2,
+    "lastUpdated": "February 2026"
   }
 }
