@@ -1,0 +1,168 @@
+# Indexation Gate Report
+Generated: 2026-02-26
+
+## Summary
+| Tier | Count | Status |
+|---|---|---|
+| A | 6 | Indexable — flagship quality |
+| B | 142 | Indexable — needs polish |
+| C | 4 | Held — noindex,follow |
+| **Total** | **152** | |
+
+## Tier A Pages (flagship)
+- [https://salesaiguide.com/categories/cold-outreach.html](https://salesaiguide.com/categories/cold-outreach.html) `category-hub`
+- [https://salesaiguide.com/categories/conversation-intelligence.html](https://salesaiguide.com/categories/conversation-intelligence.html) `category-hub`
+- [https://salesaiguide.com/categories/data-enrichment.html](https://salesaiguide.com/categories/data-enrichment.html) `category-hub`
+- [https://salesaiguide.com/categories/dialers-calling.html](https://salesaiguide.com/categories/dialers-calling.html) `category-hub`
+- [https://salesaiguide.com/index.html](https://salesaiguide.com/index.html) `homepage`
+- [https://salesaiguide.com/tools/clay-review.html](https://salesaiguide.com/tools/clay-review.html) `tool-review`
+
+## Tier B Pages (indexable)
+- [https://salesaiguide.com/about.html](https://salesaiguide.com/about.html) `other`
+- [https://salesaiguide.com/alternatives/apollo-alternatives.html](https://salesaiguide.com/alternatives/apollo-alternatives.html) `alternatives`
+- [https://salesaiguide.com/alternatives/clay-alternatives.html](https://salesaiguide.com/alternatives/clay-alternatives.html) `alternatives`
+- [https://salesaiguide.com/alternatives/gong-alternatives.html](https://salesaiguide.com/alternatives/gong-alternatives.html) `alternatives`
+- [https://salesaiguide.com/alternatives/hubspot-alternatives.html](https://salesaiguide.com/alternatives/hubspot-alternatives.html) `alternatives`
+- [https://salesaiguide.com/alternatives/outreach-alternatives.html](https://salesaiguide.com/alternatives/outreach-alternatives.html) `alternatives`
+- [https://salesaiguide.com/alternatives/zoominfo-alternatives.html](https://salesaiguide.com/alternatives/zoominfo-alternatives.html) `alternatives`
+- [https://salesaiguide.com/blog/best-ai-sales-stack-small-team.html](https://salesaiguide.com/blog/best-ai-sales-stack-small-team.html) `blog-guide`
+- [https://salesaiguide.com/blog/best-ai-sales-tools-account-executives.html](https://salesaiguide.com/blog/best-ai-sales-tools-account-executives.html) `blog-guide`
+- [https://salesaiguide.com/blog/best-ai-sales-tools-enterprise.html](https://salesaiguide.com/blog/best-ai-sales-tools-enterprise.html) `blog-guide`
+- [https://salesaiguide.com/blog/best-ai-sdr-tools-2026.html](https://salesaiguide.com/blog/best-ai-sdr-tools-2026.html) `blog-guide`
+- [https://salesaiguide.com/blog/best-cold-email-tool-for-agencies.html](https://salesaiguide.com/blog/best-cold-email-tool-for-agencies.html) `blog-guide`
+- [https://salesaiguide.com/blog/best-cold-email-tools-2026/index.html](https://salesaiguide.com/blog/best-cold-email-tools-2026/index.html) `blog-guide`
+- [https://salesaiguide.com/blog/clay-vs-apollo-for-sdrs.html](https://salesaiguide.com/blog/clay-vs-apollo-for-sdrs.html) `blog-guide`
+- [https://salesaiguide.com/blog/how-to-evaluate-ai-sales-tools.html](https://salesaiguide.com/blog/how-to-evaluate-ai-sales-tools.html) `blog-guide`
+- [https://salesaiguide.com/blog/index.html](https://salesaiguide.com/blog/index.html) `blog-guide`
+- [https://salesaiguide.com/categories/ai-sdrs.html](https://salesaiguide.com/categories/ai-sdrs.html) `category-hub`
+- [https://salesaiguide.com/categories/crm-pipeline.html](https://salesaiguide.com/categories/crm-pipeline.html) `category-hub`
+- [https://salesaiguide.com/categories/index.html](https://salesaiguide.com/categories/index.html) `category-hub`
+- [https://salesaiguide.com/categories/intent-data.html](https://salesaiguide.com/categories/intent-data.html) `category-hub`
+- [https://salesaiguide.com/categories/lead-prospecting.html](https://salesaiguide.com/categories/lead-prospecting.html) `category-hub`
+- [https://salesaiguide.com/categories/meeting-schedulers.html](https://salesaiguide.com/categories/meeting-schedulers.html) `category-hub`
+- [https://salesaiguide.com/categories/revenue-intelligence.html](https://salesaiguide.com/categories/revenue-intelligence.html) `category-hub`
+- [https://salesaiguide.com/categories/sales-coaching.html](https://salesaiguide.com/categories/sales-coaching.html) `category-hub`
+- [https://salesaiguide.com/categories/sales-content.html](https://salesaiguide.com/categories/sales-content.html) `category-hub`
+- [https://salesaiguide.com/categories/sales-enablement.html](https://salesaiguide.com/categories/sales-enablement.html) `category-hub`
+- [https://salesaiguide.com/categories/sales-engagement.html](https://salesaiguide.com/categories/sales-engagement.html) `category-hub`
+- [https://salesaiguide.com/compare/11x-vs-artisan.html](https://salesaiguide.com/compare/11x-vs-artisan.html) `comparison`
+- [https://salesaiguide.com/compare/11x-vs-clay.html](https://salesaiguide.com/compare/11x-vs-clay.html) `comparison`
+- [https://salesaiguide.com/compare/6sense-vs-bombora.html](https://salesaiguide.com/compare/6sense-vs-bombora.html) `comparison`
+- [https://salesaiguide.com/compare/aisdr-vs-agent-frank.html](https://salesaiguide.com/compare/aisdr-vs-agent-frank.html) `comparison`
+- [https://salesaiguide.com/compare/apollo-vs-hubspot.html](https://salesaiguide.com/compare/apollo-vs-hubspot.html) `comparison`
+- [https://salesaiguide.com/compare/apollo-vs-outreach.html](https://salesaiguide.com/compare/apollo-vs-outreach.html) `comparison`
+- [https://salesaiguide.com/compare/apollo-vs-salesloft.html](https://salesaiguide.com/compare/apollo-vs-salesloft.html) `comparison`
+- [https://salesaiguide.com/compare/apollo-vs-zoominfo.html](https://salesaiguide.com/compare/apollo-vs-zoominfo.html) `comparison`
+- [https://salesaiguide.com/compare/artisan-vs-clay.html](https://salesaiguide.com/compare/artisan-vs-clay.html) `comparison`
+- [https://salesaiguide.com/compare/artisan-vs-regie.html](https://salesaiguide.com/compare/artisan-vs-regie.html) `comparison`
+- [https://salesaiguide.com/compare/boostup-vs-clari.html](https://salesaiguide.com/compare/boostup-vs-clari.html) `comparison`
+- [https://salesaiguide.com/compare/calendly-vs-chili-piper.html](https://salesaiguide.com/compare/calendly-vs-chili-piper.html) `comparison`
+- [https://salesaiguide.com/compare/chili-piper-vs-hubspot.html](https://salesaiguide.com/compare/chili-piper-vs-hubspot.html) `comparison`
+- [https://salesaiguide.com/compare/clari-vs-aviso.html](https://salesaiguide.com/compare/clari-vs-aviso.html) `comparison`
+- [https://salesaiguide.com/compare/clari-vs-hubspot.html](https://salesaiguide.com/compare/clari-vs-hubspot.html) `comparison`
+- [https://salesaiguide.com/compare/clay-vs-apollo.html](https://salesaiguide.com/compare/clay-vs-apollo.html) `comparison`
+- [https://salesaiguide.com/compare/clay-vs-clearbit.html](https://salesaiguide.com/compare/clay-vs-clearbit.html) `comparison`
+- [https://salesaiguide.com/compare/clay-vs-zoominfo.html](https://salesaiguide.com/compare/clay-vs-zoominfo.html) `comparison`
+- [https://salesaiguide.com/compare/cognism-vs-apollo.html](https://salesaiguide.com/compare/cognism-vs-apollo.html) `comparison`
+- [https://salesaiguide.com/compare/cognism-vs-lusha.html](https://salesaiguide.com/compare/cognism-vs-lusha.html) `comparison`
+- [https://salesaiguide.com/compare/cognism-vs-zoominfo.html](https://salesaiguide.com/compare/cognism-vs-zoominfo.html) `comparison`
+- [https://salesaiguide.com/compare/gong-vs-avoma.html](https://salesaiguide.com/compare/gong-vs-avoma.html) `comparison`
+- [https://salesaiguide.com/compare/gong-vs-chorus.html](https://salesaiguide.com/compare/gong-vs-chorus.html) `comparison`
+- [https://salesaiguide.com/compare/gong-vs-clari.html](https://salesaiguide.com/compare/gong-vs-clari.html) `comparison`
+- [https://salesaiguide.com/compare/gong-vs-hubspot.html](https://salesaiguide.com/compare/gong-vs-hubspot.html) `comparison`
+- [https://salesaiguide.com/compare/gong-vs-outreach.html](https://salesaiguide.com/compare/gong-vs-outreach.html) `comparison`
+- [https://salesaiguide.com/compare/gong-vs-salesloft.html](https://salesaiguide.com/compare/gong-vs-salesloft.html) `comparison`
+- [https://salesaiguide.com/compare/highspot-vs-mindtickle.html](https://salesaiguide.com/compare/highspot-vs-mindtickle.html) `comparison`
+- [https://salesaiguide.com/compare/highspot-vs-showpad.html](https://salesaiguide.com/compare/highspot-vs-showpad.html) `comparison`
+- [https://salesaiguide.com/compare/hubspot-vs-monday-crm.html](https://salesaiguide.com/compare/hubspot-vs-monday-crm.html) `comparison`
+- [https://salesaiguide.com/compare/hubspot-vs-pipedrive.html](https://salesaiguide.com/compare/hubspot-vs-pipedrive.html) `comparison`
+- [https://salesaiguide.com/compare/hubspot-vs-salesforce.html](https://salesaiguide.com/compare/hubspot-vs-salesforce.html) `comparison`
+- [https://salesaiguide.com/compare/index.html](https://salesaiguide.com/compare/index.html) `directory`
+- [https://salesaiguide.com/compare/instantly-vs-apollo.html](https://salesaiguide.com/compare/instantly-vs-apollo.html) `comparison`
+- [https://salesaiguide.com/compare/instantly-vs-lemlist.html](https://salesaiguide.com/compare/instantly-vs-lemlist.html) `comparison`
+- [https://salesaiguide.com/compare/instantly-vs-mailshake.html](https://salesaiguide.com/compare/instantly-vs-mailshake.html) `comparison`
+- [https://salesaiguide.com/compare/instantly-vs-smartlead.html](https://salesaiguide.com/compare/instantly-vs-smartlead.html) `comparison`
+- [https://salesaiguide.com/compare/lavender-vs-apollo.html](https://salesaiguide.com/compare/lavender-vs-apollo.html) `comparison`
+- [https://salesaiguide.com/compare/lavender-vs-autobound.html](https://salesaiguide.com/compare/lavender-vs-autobound.html) `comparison`
+- [https://salesaiguide.com/compare/lavender-vs-instantly.html](https://salesaiguide.com/compare/lavender-vs-instantly.html) `comparison`
+- [https://salesaiguide.com/compare/leadiq-vs-apollo.html](https://salesaiguide.com/compare/leadiq-vs-apollo.html) `comparison`
+- [https://salesaiguide.com/compare/leadiq-vs-lusha.html](https://salesaiguide.com/compare/leadiq-vs-lusha.html) `comparison`
+- [https://salesaiguide.com/compare/lemlist-vs-instantly.html](https://salesaiguide.com/compare/lemlist-vs-instantly.html) `comparison`
+- [https://salesaiguide.com/compare/lemlist-vs-saleshandy.html](https://salesaiguide.com/compare/lemlist-vs-saleshandy.html) `comparison`
+- [https://salesaiguide.com/compare/lusha-vs-apollo.html](https://salesaiguide.com/compare/lusha-vs-apollo.html) `comparison`
+- [https://salesaiguide.com/compare/lusha-vs-zoominfo.html](https://salesaiguide.com/compare/lusha-vs-zoominfo.html) `comparison`
+- [https://salesaiguide.com/compare/mindtickle-vs-allego.html](https://salesaiguide.com/compare/mindtickle-vs-allego.html) `comparison`
+- [https://salesaiguide.com/compare/nooks-vs-outreach.html](https://salesaiguide.com/compare/nooks-vs-outreach.html) `comparison`
+- [https://salesaiguide.com/compare/orum-vs-nooks.html](https://salesaiguide.com/compare/orum-vs-nooks.html) `comparison`
+- [https://salesaiguide.com/compare/orum-vs-salesloft.html](https://salesaiguide.com/compare/orum-vs-salesloft.html) `comparison`
+- [https://salesaiguide.com/compare/outreach-vs-hubspot.html](https://salesaiguide.com/compare/outreach-vs-hubspot.html) `comparison`
+- [https://salesaiguide.com/compare/outreach-vs-salesloft.html](https://salesaiguide.com/compare/outreach-vs-salesloft.html) `comparison`
+- [https://salesaiguide.com/compare/regie-vs-outreach.html](https://salesaiguide.com/compare/regie-vs-outreach.html) `comparison`
+- [https://salesaiguide.com/compare/regie-vs-salesloft.html](https://salesaiguide.com/compare/regie-vs-salesloft.html) `comparison`
+- [https://salesaiguide.com/compare/saleshandy-vs-instantly.html](https://salesaiguide.com/compare/saleshandy-vs-instantly.html) `comparison`
+- [https://salesaiguide.com/compare/saleshandy-vs-smartlead.html](https://salesaiguide.com/compare/saleshandy-vs-smartlead.html) `comparison`
+- [https://salesaiguide.com/compare/salesloft-vs-hubspot.html](https://salesaiguide.com/compare/salesloft-vs-hubspot.html) `comparison`
+- [https://salesaiguide.com/compare/salesloft-vs-klenty.html](https://salesaiguide.com/compare/salesloft-vs-klenty.html) `comparison`
+- [https://salesaiguide.com/compare/second-nature-vs-hyperbound.html](https://salesaiguide.com/compare/second-nature-vs-hyperbound.html) `comparison`
+- [https://salesaiguide.com/compare/seismic-vs-highspot.html](https://salesaiguide.com/compare/seismic-vs-highspot.html) `comparison`
+- [https://salesaiguide.com/compare/seismic-vs-mindtickle.html](https://salesaiguide.com/compare/seismic-vs-mindtickle.html) `comparison`
+- [https://salesaiguide.com/compare/seismic-vs-showpad.html](https://salesaiguide.com/compare/seismic-vs-showpad.html) `comparison`
+- [https://salesaiguide.com/compare/smartlead-vs-saleshandy.html](https://salesaiguide.com/compare/smartlead-vs-saleshandy.html) `comparison`
+- [https://salesaiguide.com/compare/usergems-vs-6sense.html](https://salesaiguide.com/compare/usergems-vs-6sense.html) `comparison`
+- [https://salesaiguide.com/compare/vidyard-vs-heygen.html](https://salesaiguide.com/compare/vidyard-vs-heygen.html) `comparison`
+- [https://salesaiguide.com/compare/vidyard-vs-loom.html](https://salesaiguide.com/compare/vidyard-vs-loom.html) `comparison`
+- [https://salesaiguide.com/compare/warmly-vs-apollo.html](https://salesaiguide.com/compare/warmly-vs-apollo.html) `comparison`
+- [https://salesaiguide.com/compare/warmly-vs-leadfeeder.html](https://salesaiguide.com/compare/warmly-vs-leadfeeder.html) `comparison`
+- [https://salesaiguide.com/disclosure.html](https://salesaiguide.com/disclosure.html) `other`
+- [https://salesaiguide.com/editorial-policy/index.html](https://salesaiguide.com/editorial-policy/index.html) `other`
+- [https://salesaiguide.com/editorial.html](https://salesaiguide.com/editorial.html) `other`
+- [https://salesaiguide.com/for-revenue-ops/index.html](https://salesaiguide.com/for-revenue-ops/index.html) `other`
+- [https://salesaiguide.com/for-sales-managers/index.html](https://salesaiguide.com/for-sales-managers/index.html) `other`
+- [https://salesaiguide.com/for-sales-reps/index.html](https://salesaiguide.com/for-sales-reps/index.html) `other`
+- [https://salesaiguide.com/guides/ai-sales-assistant-comparison.html](https://salesaiguide.com/guides/ai-sales-assistant-comparison.html) `blog-guide`
+- [https://salesaiguide.com/guides/best-ai-email-outreach-tools.html](https://salesaiguide.com/guides/best-ai-email-outreach-tools.html) `blog-guide`
+- [https://salesaiguide.com/guides/best-ai-outbound-prospecting-tools.html](https://salesaiguide.com/guides/best-ai-outbound-prospecting-tools.html) `blog-guide`
+- [https://salesaiguide.com/guides/best-ai-sdr-tools.html](https://salesaiguide.com/guides/best-ai-sdr-tools.html) `blog-guide`
+- [https://salesaiguide.com/guides/best-cold-email-tools.html](https://salesaiguide.com/guides/best-cold-email-tools.html) `blog-guide`
+- [https://salesaiguide.com/guides/best-data-enrichment-tools.html](https://salesaiguide.com/guides/best-data-enrichment-tools.html) `blog-guide`
+- [https://salesaiguide.com/guides/best-instantly-alternatives.html](https://salesaiguide.com/guides/best-instantly-alternatives.html) `blog-guide`
+- [https://salesaiguide.com/guides/best-revenue-intelligence-platforms.html](https://salesaiguide.com/guides/best-revenue-intelligence-platforms.html) `blog-guide`
+- [https://salesaiguide.com/guides/best-sales-engagement-platforms.html](https://salesaiguide.com/guides/best-sales-engagement-platforms.html) `blog-guide`
+- [https://salesaiguide.com/guides/best-sales-intelligence-tools.html](https://salesaiguide.com/guides/best-sales-intelligence-tools.html) `blog-guide`
+- [https://salesaiguide.com/guides/index.html](https://salesaiguide.com/guides/index.html) `blog-guide`
+- [https://salesaiguide.com/guides/top-conversation-intelligence-platforms.html](https://salesaiguide.com/guides/top-conversation-intelligence-platforms.html) `blog-guide`
+- [https://salesaiguide.com/how-we-score/index.html](https://salesaiguide.com/how-we-score/index.html) `other`
+- [https://salesaiguide.com/tools/11x-review.html](https://salesaiguide.com/tools/11x-review.html) `tool-review`
+- [https://salesaiguide.com/tools/apollo-review.html](https://salesaiguide.com/tools/apollo-review.html) `tool-review`
+- [https://salesaiguide.com/tools/artisan-review.html](https://salesaiguide.com/tools/artisan-review.html) `tool-review`
+- [https://salesaiguide.com/tools/chili-piper-review.html](https://salesaiguide.com/tools/chili-piper-review.html) `tool-review`
+- [https://salesaiguide.com/tools/clari-review.html](https://salesaiguide.com/tools/clari-review.html) `tool-review`
+- [https://salesaiguide.com/tools/clay-alternatives.html](https://salesaiguide.com/tools/clay-alternatives.html) `directory`
+- [https://salesaiguide.com/tools/cognism-review.html](https://salesaiguide.com/tools/cognism-review.html) `tool-review`
+- [https://salesaiguide.com/tools/gong-review.html](https://salesaiguide.com/tools/gong-review.html) `tool-review`
+- [https://salesaiguide.com/tools/highspot-review.html](https://salesaiguide.com/tools/highspot-review.html) `tool-review`
+- [https://salesaiguide.com/tools/hubspot-review.html](https://salesaiguide.com/tools/hubspot-review.html) `tool-review`
+- [https://salesaiguide.com/tools/index.html](https://salesaiguide.com/tools/index.html) `directory`
+- [https://salesaiguide.com/tools/instantly-review.html](https://salesaiguide.com/tools/instantly-review.html) `tool-review`
+- [https://salesaiguide.com/tools/lavender-review.html](https://salesaiguide.com/tools/lavender-review.html) `tool-review`
+- [https://salesaiguide.com/tools/leadiq-review.html](https://salesaiguide.com/tools/leadiq-review.html) `tool-review`
+- [https://salesaiguide.com/tools/lemlist-review.html](https://salesaiguide.com/tools/lemlist-review.html) `tool-review`
+- [https://salesaiguide.com/tools/lusha-review.html](https://salesaiguide.com/tools/lusha-review.html) `tool-review`
+- [https://salesaiguide.com/tools/mindtickle-review.html](https://salesaiguide.com/tools/mindtickle-review.html) `tool-review`
+- [https://salesaiguide.com/tools/nooks-review.html](https://salesaiguide.com/tools/nooks-review.html) `tool-review`
+- [https://salesaiguide.com/tools/orum-review.html](https://salesaiguide.com/tools/orum-review.html) `tool-review`
+- [https://salesaiguide.com/tools/outreach-review.html](https://salesaiguide.com/tools/outreach-review.html) `tool-review`
+- [https://salesaiguide.com/tools/regie-review.html](https://salesaiguide.com/tools/regie-review.html) `tool-review`
+- [https://salesaiguide.com/tools/saleshandy-review.html](https://salesaiguide.com/tools/saleshandy-review.html) `tool-review`
+- [https://salesaiguide.com/tools/salesloft-review.html](https://salesaiguide.com/tools/salesloft-review.html) `tool-review`
+- [https://salesaiguide.com/tools/seismic-review.html](https://salesaiguide.com/tools/seismic-review.html) `tool-review`
+- [https://salesaiguide.com/tools/smartlead-review.html](https://salesaiguide.com/tools/smartlead-review.html) `tool-review`
+- [https://salesaiguide.com/tools/vidyard-review.html](https://salesaiguide.com/tools/vidyard-review.html) `tool-review`
+- [https://salesaiguide.com/tools/warmly-review.html](https://salesaiguide.com/tools/warmly-review.html) `tool-review`
+- [https://salesaiguide.com/tools/zoominfo-review.html](https://salesaiguide.com/tools/zoominfo-review.html) `tool-review`
+
+## Tier C Pages (held — noindex)
+- [https://salesaiguide.com/404.html](https://salesaiguide.com/404.html) `other` — Path matches always-noindex pattern
+- [https://salesaiguide.com/dashboard/index.html](https://salesaiguide.com/dashboard/index.html) `other` — Missing meta description; Missing canonical tag
+- [https://salesaiguide.com/logo-prototypes.html](https://salesaiguide.com/logo-prototypes.html) `other` — Path matches always-noindex pattern; Missing meta description; Missing canonical tag
+- [https://salesaiguide.com/progress/index.html](https://salesaiguide.com/progress/index.html) `other` — Missing meta description; Missing canonical tag

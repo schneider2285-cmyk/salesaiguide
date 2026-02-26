@@ -132,7 +132,7 @@ extraCss:
                     <section class="content-section review-consensus-section" id="review-consensus">
                         <h2>Review Consensus Across Platforms</h2>
                         <p class="review-consensus-intro">Aggregated from {{ t.reviewSources.sources | length }} independent review platform{% if t.reviewSources.sources | length > 1 %}s{% endif %} as of {{ t.reviewSources.lastUpdated }}. Consensus score is weighted by review volume.</p>
-                        <div class="review-sources-grid">
+                        <div class="review-sources-grid" data-audit="sources-checked">
                             {% for src in t.reviewSources.sources %}
                             <a href="{{ src.url }}" target="_blank" rel="noopener sponsored" class="review-source-card" title="View {{ src.platform }} reviews">
                                 <div class="review-source-platform">{{ src.platform }}</div>
