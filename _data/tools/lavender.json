@@ -292,10 +292,26 @@
       "confidence": "medium",
       "confidenceNote": "Based on G2 reviews (primary platform) and verified vendor documentation. Single verified review platform limits pattern reliability.",
       "sourcePills": [
-        "G2: 4.8/5 (62 reviews)",
-        "Reddit: 7+ threads",
-        "YouTube: 5+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.8/5 (62 reviews)",
+          "source": "G2",
+          "url": "https://www.g2.com/products/lavender/reviews"
+        },
+        {
+          "label": "Reddit: 7+ threads",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/sales/search/?q=lavender+email+ai&sort=top"
+        },
+        {
+          "label": "YouTube: 5+ demos",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/results?search_query=lavender+ai+email+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "source": "Vendor docs &#10003;",
+          "url": "https://help.lavender.ai"
+        }
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -305,19 +321,27 @@
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: instant email scoring measurably improves reply rates. Complaint: limited value beyond email"
+          "text": "<strong>Review sentiment:</strong> Praise: instant email scoring measurably improves reply rates. Complaint: limited value beyond email",
+          "source": "Review sentiment",
+          "url": "https://www.g2.com/products/lavender/reviews"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> Real-time coaching in Gmail/Outlook, team performance dashboards"
+          "text": "<strong>Community workflows:</strong> Real-time coaching in Gmail/Outlook, team performance dashboards",
+          "source": "Community",
+          "url": null
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Chrome extension, email scoring UI, personalization suggestions"
+          "text": "<strong>Demo-verified:</strong> Chrome extension, email scoring UI, personalization suggestions",
+          "source": "Demo-verified",
+          "url": "https://www.youtube.com/results?search_query=lavender+ai+email+review+demo"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Pricing published, Gmail/Outlook/Salesloft integrations"
+          "text": "<strong>Docs verified:</strong> Pricing published, Gmail/Outlook/Salesloft integrations",
+          "source": "Docs-verified",
+          "url": "https://help.lavender.ai"
         }
       ],
       "strengthThemes": [

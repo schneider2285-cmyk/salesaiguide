@@ -278,7 +278,13 @@ extraCss:
                                 <p style="font-size:0.8rem;color:var(--text-light);margin:0.25rem 0 0.75rem;">{{ t.decisionModule.evidenceSignals.confidenceNote }}</p>
                                 <div class="dm-source-pills">
                                     {% for pill in t.decisionModule.evidenceSignals.sourcePills %}
+                                    {% if pill.url %}
+                                    <a href="{{ pill.url }}" target="_blank" rel="noopener noreferrer" class="dm-source-pill dm-source-pill--link" title="View {{ pill.source }} reviews">{{ pill.label | safe }} &#x2197;</a>
+                                    {% elif pill.label %}
+                                    <span class="dm-source-pill">{{ pill.label | safe }}</span>
+                                    {% else %}
                                     <span class="dm-source-pill">{{ pill | safe }}</span>
+                                    {% endif %}
                                     {% endfor %}
                                 </div>
                                 <div class="dm-evidence-freshness">
@@ -288,7 +294,11 @@ extraCss:
                                 </div>
                                 <div class="dm-evidence-grid">
                                     {% for item in t.decisionModule.evidenceSignals.evidenceGrid %}
-                                    <div class="dm-evidence-item"><span class="dm-evidence-icon">{{ item.icon | safe }}</span><span>{{ item.text | safe }}</span></div>
+                                    <div class="dm-evidence-item">
+                                        <span class="dm-evidence-icon">{{ item.icon | safe }}</span>
+                                        <span>{{ item.text | safe }}</span>
+                                        {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="dm-evidence-source-link" title="Source: {{ item.source }}">{{ item.source }} &#x2197;</a>{% endif %}
+                                    </div>
                                     {% endfor %}
                                 </div>
                                 <div class="dm-evidence-themes">

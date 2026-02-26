@@ -1651,3 +1651,33 @@
         opacity: 1;
     }
 }
+
+/* Linked source pills (PR #34 — full source attribution) */
+a.dm-source-pill--link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+a.dm-source-pill--link:hover {
+  background: var(--accent-dark, #1a4d3a);
+  color: #fff;
+  border-color: transparent;
+}
+
+/* Evidence grid source attribution link */
+.dm-evidence-source-link {
+  display: inline-block;
+  margin-top: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent-dark, #1a4d3a);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  opacity: 0.8;
+  transition: opacity 0.15s;
+}
+.dm-evidence-source-link:hover {
+  opacity: 1;
+}

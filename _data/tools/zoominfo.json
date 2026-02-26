@@ -309,12 +309,36 @@
       "confidence": "medium",
       "confidenceNote": "Based on multi-platform reviews and verified vendor documentation with broad review coverage. Community signal concentrated on US market; EMEA/APAC patterns less reliable.",
       "sourcePills": [
-        "G2: 4.5/5 (9,005 reviews)",
-        "Capterra: 4.1/5 (315 reviews)",
-        "TrustRadius: 8.2/10 (820+ reviews)",
-        "Gartner PI: 4.7/5 (421+ reviews)",
-        "YouTube: 18+ demos",
-        "Trust center ✓"
+        {
+          "label": "G2: 4.5/5 (9,005 reviews)",
+          "source": "G2",
+          "url": "https://www.g2.com/products/zoominfo-salesos/reviews"
+        },
+        {
+          "label": "Capterra: 4.1/5 (315 reviews)",
+          "source": "Capterra",
+          "url": "https://www.capterra.com/p/141026/ZoomInfo/"
+        },
+        {
+          "label": "TrustRadius: 8.2/10 (820+ reviews)",
+          "source": "TrustRadius",
+          "url": "https://www.trustradius.com/products/zoominfo/reviews"
+        },
+        {
+          "label": "Gartner PI: 4.7/5 (421+ reviews)",
+          "source": "Gartner PI",
+          "url": "https://www.gartner.com/reviews/market/data-intelligence-solutions/vendor/zoominfo"
+        },
+        {
+          "label": "YouTube: 18+ demos",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/results?search_query=zoominfo+review+demo"
+        },
+        {
+          "label": "Trust center ✓",
+          "source": "Trust center ✓",
+          "url": null
+        }
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -324,19 +348,27 @@
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: largest B2B database, unmatched coverage. Complaint: pricing opaque, aggressive contract terms"
+          "text": "<strong>Review sentiment:</strong> Praise: largest B2B database, unmatched coverage. Complaint: pricing opaque, aggressive contract terms",
+          "source": "Review sentiment",
+          "url": "https://www.g2.com/products/zoominfo-salesos/reviews"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> Intent data + org charts for ABM targeting"
+          "text": "<strong>Community workflows:</strong> Intent data + org charts for ABM targeting",
+          "source": "Community",
+          "url": null
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Contact search, intent signals, org chart navigation"
+          "text": "<strong>Demo-verified:</strong> Contact search, intent signals, org chart navigation",
+          "source": "Demo-verified",
+          "url": "https://www.youtube.com/results?search_query=zoominfo+review+demo"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Custom pricing only, SOC 2/GDPR compliance, API documentation"
+          "text": "<strong>Docs verified:</strong> Custom pricing only, SOC 2/GDPR compliance, API documentation",
+          "source": "Docs-verified",
+          "url": "https://help.zoominfo.com"
         }
       ],
       "strengthThemes": [

@@ -70,12 +70,21 @@
     "updated": "Updated February 2026",
     "dataSource": "Data from G2 & highspot.com",
     "personaTags": [
-      { "class": "requires-admin", "text": "Requires Admin" }
+      {
+        "class": "requires-admin",
+        "text": "Requires Admin"
+      }
     ]
   },
   "scores": {
-    "org": { "value": 72, "verdict": "Enterprise enablement with training & readiness" },
-    "rep": { "value": 60, "verdict": "Reps get coached; admins manage content" }
+    "org": {
+      "value": 72,
+      "verdict": "Enterprise enablement with training & readiness"
+    },
+    "rep": {
+      "value": 60,
+      "verdict": "Reps get coached; admins manage content"
+    }
   },
   "quickSummary": {
     "whatItDoes": "Sales enablement platform combining content management, training, and coaching. Copilot AI recommends content and guides pitches, while Scorecards track rep readiness and content usage across the organization.",
@@ -91,12 +100,30 @@
     "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/highspot/reviews\" target=\"_blank\" rel=\"noopener\">Highspot on G2</a>."
   },
   "features": [
-    { "title": "Sales Content Management", "description": "Centralized content library with smart organization, tagging, and version control for enterprise sales teams." },
-    { "title": "Copilot AI Recommendations", "description": "AI-powered content recommendations and pitch guidance based on deal stage, buyer context, and historical performance." },
-    { "title": "Scorecards & Rep Readiness", "description": "Tracks rep readiness across content usage, training completion, and coaching milestones with quantified scorecards." },
-    { "title": "Training & Coaching", "description": "Built-in training modules with guided learning paths, certifications, and coaching workflows for sales onboarding and ongoing development." },
-    { "title": "Content Analytics", "description": "Dashboards showing content engagement, usage patterns, and effectiveness tied to deal outcomes across the org." },
-    { "title": "Engagement Tracking", "description": "Tracks how prospects interact with shared content including views, time spent, and page-level engagement data." }
+    {
+      "title": "Sales Content Management",
+      "description": "Centralized content library with smart organization, tagging, and version control for enterprise sales teams."
+    },
+    {
+      "title": "Copilot AI Recommendations",
+      "description": "AI-powered content recommendations and pitch guidance based on deal stage, buyer context, and historical performance."
+    },
+    {
+      "title": "Scorecards & Rep Readiness",
+      "description": "Tracks rep readiness across content usage, training completion, and coaching milestones with quantified scorecards."
+    },
+    {
+      "title": "Training & Coaching",
+      "description": "Built-in training modules with guided learning paths, certifications, and coaching workflows for sales onboarding and ongoing development."
+    },
+    {
+      "title": "Content Analytics",
+      "description": "Dashboards showing content engagement, usage patterns, and effectiveness tied to deal outcomes across the org."
+    },
+    {
+      "title": "Engagement Tracking",
+      "description": "Tracks how prospects interact with shared content including views, time spent, and page-level engagement data."
+    }
   ],
   "pricing": {
     "note": "Highspot does not publish pricing. Estimates based on G2 reviews and industry reports. Verify with vendor.",
@@ -141,35 +168,186 @@
   "g2Reviews": {
     "intro": "Based on 1,100+ reviews on G2 (4.7/5 rating):",
     "pros": [
-      { "bold": "Training & readiness", "text": "Built-in coaching and Scorecards make it a standout for rep development and onboarding" },
-      { "bold": "Content organization", "text": "Smart content library with intuitive search and AI-driven recommendations for reps" },
-      { "bold": "Copilot AI", "text": "AI recommends relevant content and provides pitch guidance based on deal context" },
-      { "bold": "Easier implementation", "text": "Generally lighter to deploy than Seismic with 4-8 week typical timelines" },
-      { "bold": "CRM integration", "text": "Deep Salesforce, HubSpot, Outreach, and Salesloft integration surfaces content in seller workflows" }
+      {
+        "bold": "Training & readiness",
+        "text": "Built-in coaching and Scorecards make it a standout for rep development and onboarding"
+      },
+      {
+        "bold": "Content organization",
+        "text": "Smart content library with intuitive search and AI-driven recommendations for reps"
+      },
+      {
+        "bold": "Copilot AI",
+        "text": "AI recommends relevant content and provides pitch guidance based on deal context"
+      },
+      {
+        "bold": "Easier implementation",
+        "text": "Generally lighter to deploy than Seismic with 4-8 week typical timelines"
+      },
+      {
+        "bold": "CRM integration",
+        "text": "Deep Salesforce, HubSpot, Outreach, and Salesloft integration surfaces content in seller workflows"
+      }
     ],
     "cons": [
-      { "bold": "Still requires admin", "text": "Ongoing management needs a dedicated enablement admin for content and training" },
-      { "bold": "Pricing opacity", "text": "No public pricing; enterprise-only sales process" },
-      { "bold": "Content governance", "text": "Not as strong as Seismic for large-scale content governance and compliance" },
-      { "bold": "Analytics depth", "text": "Some users report content analytics could be more granular" },
-      { "bold": "Learning curve", "text": "Training module setup takes time to configure properly for the org" }
+      {
+        "bold": "Still requires admin",
+        "text": "Ongoing management needs a dedicated enablement admin for content and training"
+      },
+      {
+        "bold": "Pricing opacity",
+        "text": "No public pricing; enterprise-only sales process"
+      },
+      {
+        "bold": "Content governance",
+        "text": "Not as strong as Seismic for large-scale content governance and compliance"
+      },
+      {
+        "bold": "Analytics depth",
+        "text": "Some users report content analytics could be more granular"
+      },
+      {
+        "bold": "Learning curve",
+        "text": "Training module setup takes time to configure properly for the org"
+      }
     ],
     "link": "https://www.g2.com/products/highspot/reviews"
   },
   "competitorTable": {
-    "headers": ["Feature", "Highspot", "Seismic", "Showpad"],
+    "headers": [
+      "Feature",
+      "Highspot",
+      "Seismic",
+      "Showpad"
+    ],
     "rows": [
-      { "feature": "G2 Rating", "featureBold": true, "values": [{ "text": "4.7/5 (1,100+)" }, { "text": "4.7/5 (1,700+)" }, { "text": "4.6/5 (1,600+)" }] },
-      { "feature": "AI Content Recs", "featureBold": false, "values": [{ "text": "Copilot AI", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "Training & Coaching", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "Limited", "class": "" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "Rep Readiness Scoring", "featureBold": false, "values": [{ "text": "Scorecards", "class": "check" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }] },
-      { "feature": "Content Governance", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "Advanced", "class": "check" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "Starting Price", "featureBold": false, "values": [{ "text": "Custom" }, { "text": "Custom" }, { "text": "Custom" }] },
-      { "feature": "Best For", "featureBold": false, "values": [{ "text": "Enablement + training" }, { "text": "Enterprise content mgmt" }, { "text": "Mid-market enablement" }] }
+      {
+        "feature": "G2 Rating",
+        "featureBold": true,
+        "values": [
+          {
+            "text": "4.7/5 (1,100+)"
+          },
+          {
+            "text": "4.7/5 (1,700+)"
+          },
+          {
+            "text": "4.6/5 (1,600+)"
+          }
+        ]
+      },
+      {
+        "feature": "AI Content Recs",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "Copilot AI",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Training & Coaching",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "Limited",
+            "class": ""
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Rep Readiness Scoring",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "Scorecards",
+            "class": "check"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          }
+        ]
+      },
+      {
+        "feature": "Content Governance",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "Advanced",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Starting Price",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "Custom"
+          },
+          {
+            "text": "Custom"
+          },
+          {
+            "text": "Custom"
+          }
+        ]
+      },
+      {
+        "feature": "Best For",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "Enablement + training"
+          },
+          {
+            "text": "Enterprise content mgmt"
+          },
+          {
+            "text": "Mid-market enablement"
+          }
+        ]
+      }
     ],
     "seeFullLinks": [
-      { "text": "Seismic vs Highspot", "url": "/compare/seismic-vs-highspot.html" },
-      { "text": "Highspot vs Showpad", "url": "/compare/highspot-vs-showpad.html" }
+      {
+        "text": "Seismic vs Highspot",
+        "url": "/compare/seismic-vs-highspot.html"
+      },
+      {
+        "text": "Highspot vs Showpad",
+        "url": "/compare/highspot-vs-showpad.html"
+      }
     ]
   },
   "whoIsFor": {
@@ -212,12 +390,30 @@
       }
     },
     "subScores": [
-      { "label": "Enterprise Fit", "score": "9/10" },
-      { "label": "Ease of Adoption", "score": "5/10" },
-      { "label": "AI Depth", "score": "8/10" },
-      { "label": "Integration Depth", "score": "9/10" },
-      { "label": "Pricing Transparency", "score": "2/10" },
-      { "label": "Scalability", "score": "9/10" }
+      {
+        "label": "Enterprise Fit",
+        "score": "9/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "5/10"
+      },
+      {
+        "label": "AI Depth",
+        "score": "8/10"
+      },
+      {
+        "label": "Integration Depth",
+        "score": "9/10"
+      },
+      {
+        "label": "Pricing Transparency",
+        "score": "2/10"
+      },
+      {
+        "label": "Scalability",
+        "score": "9/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
@@ -227,10 +423,22 @@
           "score": 9,
           "notes": "SOC 2 Type II; SSO; enterprise security; global deployments",
           "evidence": [
-            { "source": "Vendor", "text": "SOC 2 Type II certified; SAML SSO; enterprise RBAC and security controls for global deployments" },
-            { "source": "G2", "text": "Enterprise reviewers (1000+ employees) rate security and compliance 4.6/5 across 1,100+ reviews" },
-            { "source": "Gartner PI", "text": "Recognized as a leader in sales enablement alongside Seismic for enterprise customers" },
-            { "source": "TrustRadius", "text": "Enterprise buyers confirm SOC 2 readiness and enterprise-grade security for regulated environments" }
+            {
+              "source": "Vendor",
+              "text": "SOC 2 Type II certified; SAML SSO; enterprise RBAC and security controls for global deployments"
+            },
+            {
+              "source": "G2",
+              "text": "Enterprise reviewers (1000+ employees) rate security and compliance 4.6/5 across 1,100+ reviews"
+            },
+            {
+              "source": "Gartner PI",
+              "text": "Recognized as a leader in sales enablement alongside Seismic for enterprise customers"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Enterprise buyers confirm SOC 2 readiness and enterprise-grade security for regulated environments"
+            }
           ]
         },
         {
@@ -238,10 +446,22 @@
           "score": 5,
           "notes": "Lighter implementation than Seismic; still requires 4-8 weeks",
           "evidence": [
-            { "source": "G2", "text": "Implementation rated 4.0/5; most reviews cite 4-8 week deployment timeline, lighter than Seismic" },
-            { "source": "Reddit", "text": "r/salesenablement threads report faster setup than Seismic but still need dedicated admin for content and training" },
-            { "source": "Capterra", "text": "Users note CRM integration is straightforward but training module setup takes deliberate planning" },
-            { "source": "TrustRadius", "text": "Mid-market users report 4-8 week deployment including training configuration and content migration" }
+            {
+              "source": "G2",
+              "text": "Implementation rated 4.0/5; most reviews cite 4-8 week deployment timeline, lighter than Seismic"
+            },
+            {
+              "source": "Reddit",
+              "text": "r/salesenablement threads report faster setup than Seismic but still need dedicated admin for content and training"
+            },
+            {
+              "source": "Capterra",
+              "text": "Users note CRM integration is straightforward but training module setup takes deliberate planning"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Mid-market users report 4-8 week deployment including training configuration and content migration"
+            }
           ]
         },
         {
@@ -249,10 +469,22 @@
           "score": 8,
           "notes": "Copilot AI for content recommendations; readiness scoring",
           "evidence": [
-            { "source": "G2", "text": "Copilot AI recommendations rated as effective for surfacing relevant content and guiding rep pitches" },
-            { "source": "Vendor", "text": "Copilot AI analyzes deal context, buyer persona, and rep behavior to recommend content and coach pitch delivery" },
-            { "source": "Gartner PI", "text": "Recognized for AI-driven readiness scoring and content recommendation capabilities" },
-            { "source": "YouTube", "text": "Product demos showcase Copilot AI content recommendations, Scorecards readiness tracking, and coaching workflows" }
+            {
+              "source": "G2",
+              "text": "Copilot AI recommendations rated as effective for surfacing relevant content and guiding rep pitches"
+            },
+            {
+              "source": "Vendor",
+              "text": "Copilot AI analyzes deal context, buyer persona, and rep behavior to recommend content and coach pitch delivery"
+            },
+            {
+              "source": "Gartner PI",
+              "text": "Recognized for AI-driven readiness scoring and content recommendation capabilities"
+            },
+            {
+              "source": "YouTube",
+              "text": "Product demos showcase Copilot AI content recommendations, Scorecards readiness tracking, and coaching workflows"
+            }
           ]
         },
         {
@@ -260,10 +492,22 @@
           "score": 9,
           "notes": "Salesforce, HubSpot, Outreach, Salesloft, Teams, Zoom",
           "evidence": [
-            { "source": "Vendor", "text": "Native integrations with Salesforce, HubSpot, Outreach, Salesloft, Microsoft Teams, and Zoom" },
-            { "source": "G2", "text": "Integration depth rated 4.5/5; Salesforce users praise in-CRM content surfacing and activity logging" },
-            { "source": "Capterra", "text": "Users confirm reliable CRM sync and content delivery within Outreach and Salesloft sequences" },
-            { "source": "TrustRadius", "text": "Enterprise users report strong Teams and Zoom integration for virtual selling and coaching scenarios" }
+            {
+              "source": "Vendor",
+              "text": "Native integrations with Salesforce, HubSpot, Outreach, Salesloft, Microsoft Teams, and Zoom"
+            },
+            {
+              "source": "G2",
+              "text": "Integration depth rated 4.5/5; Salesforce users praise in-CRM content surfacing and activity logging"
+            },
+            {
+              "source": "Capterra",
+              "text": "Users confirm reliable CRM sync and content delivery within Outreach and Salesloft sequences"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Enterprise users report strong Teams and Zoom integration for virtual selling and coaching scenarios"
+            }
           ]
         },
         {
@@ -271,9 +515,18 @@
           "score": 2,
           "notes": "No public pricing; enterprise-only",
           "evidence": [
-            { "source": "Vendor", "text": "Zero pricing information on website; 'Request Demo' is the only path to pricing" },
-            { "source": "Reddit", "text": "Users report pricing comparable to Seismic; enterprise-only with annual commitments required" },
-            { "source": "G2", "text": "Pricing transparency rated low; consistently among the lowest-scored dimensions across reviews" }
+            {
+              "source": "Vendor",
+              "text": "Zero pricing information on website; 'Request Demo' is the only path to pricing"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users report pricing comparable to Seismic; enterprise-only with annual commitments required"
+            },
+            {
+              "source": "G2",
+              "text": "Pricing transparency rated low; consistently among the lowest-scored dimensions across reviews"
+            }
           ]
         },
         {
@@ -281,10 +534,22 @@
           "score": 9,
           "notes": "Global enterprise deployments; multi-language support",
           "evidence": [
-            { "source": "Gartner PI", "text": "Verified deployments at Fortune 500 companies with large global sales teams" },
-            { "source": "G2", "text": "Enterprise users report consistent performance with multi-language content and global training programs" },
-            { "source": "Vendor", "text": "Architecture supports multi-language content management and training across global regions" },
-            { "source": "TrustRadius", "text": "Large deployments report strong scalability for distributed global sales organizations and training programs" }
+            {
+              "source": "Gartner PI",
+              "text": "Verified deployments at Fortune 500 companies with large global sales teams"
+            },
+            {
+              "source": "G2",
+              "text": "Enterprise users report consistent performance with multi-language content and global training programs"
+            },
+            {
+              "source": "Vendor",
+              "text": "Architecture supports multi-language content management and training across global regions"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Large deployments report strong scalability for distributed global sales organizations and training programs"
+            }
           ]
         }
       ]
@@ -293,23 +558,67 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis and vendor documentation. Solid G2 review base (1,100+) provides strong signal. Limited public pricing data reduces confidence on cost estimates.",
       "sourcePills": [
-        "G2: 4.7/5 (1,100+ reviews)",
-        "Capterra: 4.6/5 (150+ reviews)",
-        "TrustRadius: 8.8/10 (120+ reviews)",
-        "Gartner PI: 4.5/5 (80+ reviews)",
-        "YouTube: 10+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.7/5 (1,100+ reviews)",
+          "source": "G2",
+          "url": "https://www.g2.com/products/highspot/reviews"
+        },
+        {
+          "label": "Capterra: 4.6/5 (150+ reviews)",
+          "source": "Capterra",
+          "url": "https://www.capterra.com/p/128867/Highspot/"
+        },
+        {
+          "label": "TrustRadius: 8.8/10 (120+ reviews)",
+          "source": "TrustRadius",
+          "url": "https://www.trustradius.com/products/highspot/reviews"
+        },
+        {
+          "label": "Gartner PI: 4.5/5 (80+ reviews)",
+          "source": "Gartner PI",
+          "url": "https://www.gartner.com/reviews/market/sales-enablement-platforms/vendor/highspot"
+        },
+        {
+          "label": "YouTube: 10+ demos",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/results?search_query=highspot+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "source": "Vendor docs &#10003;",
+          "url": "https://help.highspot.com"
+        }
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 1,450+ total reviews across 4 platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 1,450+ total reviews across 4 platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
-        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: training & readiness best-in-class. Complaint: still needs dedicated admin, pricing opaque" },
-        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> Content management + Scorecards readiness, Copilot AI pitch guidance" },
-        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Content library UI, Copilot AI recommendations, Scorecards dashboard, coaching workflows" },
-        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Custom pricing only, Salesforce/HubSpot integration, SOC 2 Type II certification" }
+        {
+          "icon": "&#x1F4CA;",
+          "text": "<strong>Review sentiment:</strong> Praise: training & readiness best-in-class. Complaint: still needs dedicated admin, pricing opaque",
+          "source": "Review sentiment",
+          "url": "https://www.g2.com/products/highspot/reviews"
+        },
+        {
+          "icon": "&#x1F4AC;",
+          "text": "<strong>Community workflows:</strong> Content management + Scorecards readiness, Copilot AI pitch guidance",
+          "source": "Community",
+          "url": null
+        },
+        {
+          "icon": "&#x1F3A5;",
+          "text": "<strong>Demo-verified:</strong> Content library UI, Copilot AI recommendations, Scorecards dashboard, coaching workflows",
+          "source": "Demo-verified",
+          "url": "https://www.youtube.com/results?search_query=highspot+review+demo"
+        },
+        {
+          "icon": "&#x1F4C4;",
+          "text": "<strong>Docs verified:</strong> Custom pricing only, Salesforce/HubSpot integration, SOC 2 Type II certification",
+          "source": "Docs-verified",
+          "url": "https://help.highspot.com"
+        }
       ],
       "strengthThemes": [
         "Training, coaching, and Scorecards rep readiness tracking are best-in-class",
@@ -330,7 +639,11 @@
         "sentimentIcon": "&#9650;",
         "heading": "Scorecards give unique visibility into rep readiness and training completion",
         "synthesis": "Enablement leaders consistently cite Scorecards as Highspot's standout differentiator. The ability to track rep readiness across content usage, training completion, and coaching milestones in a single view gives managers actionable data on who's prepared and who needs help. Teams use Scorecards to identify skill gaps and target coaching where it matters most.",
-        "sources": ["G2: 200+ mentions", "Gartner PI: 40 mentions", "TrustRadius: 30 mentions"],
+        "sources": [
+          "G2: 200+ mentions",
+          "Gartner PI: 40 mentions",
+          "TrustRadius: 30 mentions"
+        ],
         "quote": "\"Scorecards changed how we run enablement. I can see exactly which reps have completed training, which content they're using, and where the gaps are. It turns enablement from guesswork into data.\"",
         "quoteCite": "Director of Sales Enablement, 400-person SaaS org [G2 Review, Jan 2026]"
       },
@@ -339,7 +652,11 @@
         "sentimentIcon": "&#9660;",
         "heading": "Enterprise-only pricing and admin requirements limit accessibility",
         "synthesis": "The most common complaint across review platforms: Highspot's enterprise-only pricing model and ongoing admin requirements create barriers for smaller teams or those without dedicated enablement resources. While implementation is lighter than Seismic (4-8 weeks vs 3-6 months), it still requires meaningful investment in setup, content migration, and training configuration.",
-        "sources": ["G2: 180 mentions", "Reddit: 8 threads", "Capterra: 40 mentions"],
+        "sources": [
+          "G2: 180 mentions",
+          "Reddit: 8 threads",
+          "Capterra: 40 mentions"
+        ],
         "quote": "\"Great platform, but we underestimated the admin work. You need someone dedicated to managing content, updating training modules, and keeping Scorecards relevant. It's not a set-and-forget tool.\"",
         "quoteCite": "Sales Enablement Manager, 250-person B2B org [Reddit r/salesenablement, Dec 2025]"
       },
@@ -348,7 +665,11 @@
         "sentimentIcon": "&#9644;",
         "heading": "Copilot AI is helpful but training features drive the real value",
         "synthesis": "Highspot's Copilot AI receives positive but measured reviews. Users appreciate the content recommendations and pitch guidance, but consistently say the training, coaching, and Scorecards features are what make Highspot worth choosing over alternatives. The AI enhances workflows but isn't the primary reason teams select the platform.",
-        "sources": ["G2: 120 mentions", "TrustRadius: 25 mentions", "Capterra: 20 mentions"],
+        "sources": [
+          "G2: 120 mentions",
+          "TrustRadius: 25 mentions",
+          "Capterra: 20 mentions"
+        ],
         "quote": "\"Copilot is a nice-to-have, but honestly we bought Highspot for the training and Scorecards. The AI recommendations are useful but it's the readiness tracking that our leadership actually uses to make decisions.\"",
         "quoteCite": "VP Sales Operations, 300-person tech company [TrustRadius Review, Nov 2025]"
       }
@@ -386,21 +707,60 @@
     ],
     "implementationReality": {
       "stats": [
-        { "number": "4&ndash;8 weeks", "label": "Time to Value" },
-        { "number": "Medium", "label": "Setup Complexity" },
-        { "number": "High", "label": "Admin Lift" },
-        { "number": "Medium&ndash;High", "label": "Training Required" },
-        { "number": "Moderate", "label": "Content Migration" }
+        {
+          "number": "4&ndash;8 weeks",
+          "label": "Time to Value"
+        },
+        {
+          "number": "Medium",
+          "label": "Setup Complexity"
+        },
+        {
+          "number": "High",
+          "label": "Admin Lift"
+        },
+        {
+          "number": "Medium&ndash;High",
+          "label": "Training Required"
+        },
+        {
+          "number": "Moderate",
+          "label": "Content Migration"
+        }
       ],
       "note": "Lighter implementation than Seismic. Content migration and CRM integration are the primary deployment tasks. Training module configuration adds time but delivers immediate value for rep onboarding."
     },
     "enterpriseReadiness": [
-      { "label": "SSO / SAML", "value": "SAML SSO included", "class": "dm-available" },
-      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
-      { "label": "RBAC", "value": "Enterprise RBAC", "class": "dm-available" },
-      { "label": "SLA", "value": "Enterprise SLA available", "class": "dm-available" },
-      { "label": "Audit Logs", "value": "Audit trail available", "class": "dm-available" },
-      { "label": "Multi-language", "value": "Multi-language support", "class": "dm-available" }
+      {
+        "label": "SSO / SAML",
+        "value": "SAML SSO included",
+        "class": "dm-available"
+      },
+      {
+        "label": "SOC 2",
+        "value": "SOC 2 Type II certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "RBAC",
+        "value": "Enterprise RBAC",
+        "class": "dm-available"
+      },
+      {
+        "label": "SLA",
+        "value": "Enterprise SLA available",
+        "class": "dm-available"
+      },
+      {
+        "label": "Audit Logs",
+        "value": "Audit trail available",
+        "class": "dm-available"
+      },
+      {
+        "label": "Multi-language",
+        "value": "Multi-language support",
+        "class": "dm-available"
+      }
     ],
     "whoThisIsFor": {
       "org": {
@@ -422,21 +782,71 @@
     },
     "stackPairings": {
       "cards": [
-        { "title": "Salesforce CRM", "titleLink": null, "description": "Deep native integration surfaces content and training within Salesforce workflows." },
-        { "title": "HubSpot CRM", "titleLink": "hubspot-review.html", "description": "HubSpot integration for mid-market enablement and training teams." },
-        { "title": "Outreach", "titleLink": "outreach-review.html", "description": "Outreach sequences with Highspot content and coaching delivery." },
-        { "title": "Salesloft", "titleLink": "salesloft-review.html", "description": "Salesloft engagement paired with Highspot content and readiness tracking." },
-        { "title": "Gong", "titleLink": "gong-review.html", "description": "Gong call intelligence + Highspot training for full rep development visibility." }
+        {
+          "title": "Salesforce CRM",
+          "titleLink": null,
+          "description": "Deep native integration surfaces content and training within Salesforce workflows."
+        },
+        {
+          "title": "HubSpot CRM",
+          "titleLink": "hubspot-review.html",
+          "description": "HubSpot integration for mid-market enablement and training teams."
+        },
+        {
+          "title": "Outreach",
+          "titleLink": "outreach-review.html",
+          "description": "Outreach sequences with Highspot content and coaching delivery."
+        },
+        {
+          "title": "Salesloft",
+          "titleLink": "salesloft-review.html",
+          "description": "Salesloft engagement paired with Highspot content and readiness tracking."
+        },
+        {
+          "title": "Gong",
+          "titleLink": "gong-review.html",
+          "description": "Gong call intelligence + Highspot training for full rep development visibility."
+        }
       ],
       "exampleStack": "Highspot (enablement) &#8594; Outreach (sequence) &#8594; Gong (calls) &#8594; Salesforce (CRM)"
     },
     "alternatives": {
       "rows": [
-        { "tool": "Seismic", "toolLink": "seismic-review.html", "bestFor": "Enterprise content governance", "g2": "4.7/5", "price": "Custom" },
-        { "tool": "Showpad", "toolLink": null, "bestFor": "Mid-market enablement", "g2": "4.6/5", "price": "Custom" },
-        { "tool": "Mindtickle", "toolLink": null, "bestFor": "Sales readiness & training", "g2": "4.7/5", "price": "Custom" },
-        { "tool": "Guru", "toolLink": null, "bestFor": "Knowledge management", "g2": "4.7/5", "price": "From $10/mo" },
-        { "tool": "Mediafly", "toolLink": null, "bestFor": "Revenue enablement", "g2": "4.5/5", "price": "Custom" }
+        {
+          "tool": "Seismic",
+          "toolLink": "seismic-review.html",
+          "bestFor": "Enterprise content governance",
+          "g2": "4.7/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "Showpad",
+          "toolLink": null,
+          "bestFor": "Mid-market enablement",
+          "g2": "4.6/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "Mindtickle",
+          "toolLink": null,
+          "bestFor": "Sales readiness & training",
+          "g2": "4.7/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "Guru",
+          "toolLink": null,
+          "bestFor": "Knowledge management",
+          "g2": "4.7/5",
+          "price": "From $10/mo"
+        },
+        {
+          "tool": "Mediafly",
+          "toolLink": null,
+          "bestFor": "Revenue enablement",
+          "g2": "4.5/5",
+          "price": "Custom"
+        }
       ]
     },
     "faqs": [
@@ -467,22 +877,49 @@
     "altText": "See Alternatives",
     "altUrl": "/compare/index.html",
     "atAGlance": [
-      { "label": "G2 Rating", "value": "4.7/5" },
-      { "label": "G2 Reviews", "value": "1,100+" },
-      { "label": "Starting Price", "value": "Custom" },
-      { "label": "Category", "value": "Sales Enablement" },
-      { "label": "Free Trial", "value": "Demo Only" }
+      {
+        "label": "G2 Rating",
+        "value": "4.7/5"
+      },
+      {
+        "label": "G2 Reviews",
+        "value": "1,100+"
+      },
+      {
+        "label": "Starting Price",
+        "value": "Custom"
+      },
+      {
+        "label": "Category",
+        "value": "Sales Enablement"
+      },
+      {
+        "label": "Free Trial",
+        "value": "Demo Only"
+      }
     ],
     "ctaUrl": "/go/highspot",
     "comparisons": [
-      { "text": "Seismic vs Highspot", "url": "/compare/seismic-vs-highspot.html" },
-      { "text": "Highspot vs Showpad", "url": "/compare/highspot-vs-showpad.html" }
+      {
+        "text": "Seismic vs Highspot",
+        "url": "/compare/seismic-vs-highspot.html"
+      },
+      {
+        "text": "Highspot vs Showpad",
+        "url": "/compare/highspot-vs-showpad.html"
+      }
     ],
     "externalReviews": [
-      { "text": "G2 Reviews", "url": "https://www.g2.com/products/highspot/reviews" }
+      {
+        "text": "G2 Reviews",
+        "url": "https://www.g2.com/products/highspot/reviews"
+      }
     ],
     "relatedGuides": [
-      { "text": "Best Sales Enablement Platforms", "url": "/guides/best-sales-enablement-platforms.html" }
+      {
+        "text": "Best Sales Enablement Platforms",
+        "url": "/guides/best-sales-enablement-platforms.html"
+      }
     ],
     "emailCard": {
       "heading": "Weekly Tool Intel",

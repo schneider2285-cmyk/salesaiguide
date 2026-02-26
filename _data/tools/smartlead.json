@@ -296,12 +296,36 @@
       "confidence": "medium",
       "confidenceNote": "Based on multi-platform reviews and verified vendor documentation. Community signal active but lower volume than category leaders limits pattern reliability.",
       "sourcePills": [
-        "G2: 4.6/5 (289 reviews)",
-        "Capterra: 4.3/5 (7 reviews)",
-        "Trustpilot: 3.3/5 (77 reviews)",
-        "Reddit: 10+ threads",
-        "YouTube: 6+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.6/5 (289 reviews)",
+          "source": "G2",
+          "url": "https://www.g2.com/products/smartlead/reviews"
+        },
+        {
+          "label": "Capterra: 4.3/5 (7 reviews)",
+          "source": "Capterra",
+          "url": "https://www.capterra.com/p/10013900/Smartlead/"
+        },
+        {
+          "label": "Trustpilot: 3.3/5 (77 reviews)",
+          "source": "Trustpilot",
+          "url": null
+        },
+        {
+          "label": "Reddit: 10+ threads",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/sales/search/?q=smartlead.ai&sort=top"
+        },
+        {
+          "label": "YouTube: 6+ demos",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/results?search_query=smartlead.ai+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "source": "Vendor docs &#10003;",
+          "url": "https://help.smartlead.ai"
+        }
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -311,19 +335,27 @@
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: unlimited sending at low cost. Complaint: limited native integrations"
+          "text": "<strong>Review sentiment:</strong> Praise: unlimited sending at low cost. Complaint: limited native integrations",
+          "source": "Review sentiment",
+          "url": "https://www.g2.com/products/smartlead/reviews"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> Agency white-label cold email, mailbox rotation setups"
+          "text": "<strong>Community workflows:</strong> Agency white-label cold email, mailbox rotation setups",
+          "source": "Community",
+          "url": "https://community.smartlead.ai"
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Campaign builder, warmup dashboard"
+          "text": "<strong>Demo-verified:</strong> Campaign builder, warmup dashboard",
+          "source": "Demo-verified",
+          "url": "https://www.youtube.com/results?search_query=smartlead.ai+review+demo"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Pricing published, limited API, webhook support"
+          "text": "<strong>Docs verified:</strong> Pricing published, limited API, webhook support",
+          "source": "Docs-verified",
+          "url": "https://help.smartlead.ai"
         }
       ],
       "strengthThemes": [
