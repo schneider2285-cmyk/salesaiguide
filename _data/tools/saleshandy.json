@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "title": "Saleshandy Review 2026: Features, Pricing, and Ratings | Sales AI Guide",
+    "description": "Saleshandy review with G2 ratings, pricing tiers, key features, and competitor comparison. Best cold email platform for high-volume outbound at low cost.",
+    "ogTitle": "Saleshandy Review 2026: Features, Pricing, and Ratings | Sales AI Guide",
+    "ogDescription": "Saleshandy review with G2 ratings, pricing breakdown, key features, and competitor comparison. Data from public sources.",
+    "ogUrl": "https://salesaiguide.com/tools/saleshandy-review.html",
+    "canonicalUrl": "https://salesaiguide.com/tools/saleshandy-review.html",
+    "twitterTitle": "Saleshandy Review 2026: Features, Pricing, and Ratings | Sales AI Guide",
+    "twitterDescription": "Saleshandy review with G2 ratings, pricing breakdown, key features, and competitor comparison."
+  },
+  "jsonLd": {
+    "type": "SoftwareApplication",
+    "name": "Saleshandy",
+    "url": "https://www.saleshandy.com",
+    "applicationCategory": "Sales Engagement Platform",
+    "operatingSystem": "Web",
+    "description": "Cold email outreach platform with unlimited email accounts, automated follow-up sequences, and email warm-up built in.",
+    "offers": {
+      "priceCurrency": "USD",
+      "price": "36",
+      "priceValidUntil": "2026-12-31"
+    },
+    "aggregateRating": {
+      "ratingValue": "4.6",
+      "reviewCount": "650",
+      "bestRating": "5"
+    }
+  },
+  "hero": {
+    "breadcrumbName": "Saleshandy",
+    "logoSrc": "https://logo.clearbit.com/saleshandy.com",
+    "logoAlt": "Saleshandy logo",
+    "h1": "Saleshandy Review 2026: Cold Email at Scale for a Fraction of the Cost",
+    "starsHtml": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+    "score": "4.6/5 on G2",
+    "updated": "Updated February 2026",
+    "dataSource": "Data from G2, Capterra, and vendor documentation",
+    "personaTags": [
+      { "text": "SDR", "class": "tag-sdr" },
+      { "text": "Agency", "class": "tag-agency" },
+      { "text": "Founder", "class": "tag-founder" }
+    ]
+  },
+  "scores": {
+    "org": {
+      "value": 71,
+      "verdict": "Strong for SMB and agency outbound"
+    },
+    "rep": {
+      "value": 68,
+      "verdict": "Good for high-volume cold email senders"
+    }
+  },
+  "quickSummary": {
+    "whatItDoes": "Cold email outreach platform with unlimited email accounts, automated multi-step sequences, email warm-up, and basic lead prospecting.",
+    "bestFor": "Agencies, founders, and SDRs who need to send high volumes of cold email at the lowest possible cost per seat.",
+    "pricing": "From $36/month for 6,000 prospects. Unlimited email accounts on all plans.",
+    "ctaUrl": "https://salesaiguide.com/go/saleshandy",
+    "ctaText": "Try Saleshandy Free"
+  },
+  "whatIs": {
+    "paragraphs": [
+      "Saleshandy is a cold email outreach platform built around one core value proposition: unlimited email accounts at a flat monthly price. Where Instantly and Smartlead charge per mailbox or per sending account, Saleshandy includes unlimited connected email accounts on every plan — making it the default choice for agencies managing multiple client domains and founders who want to rotate across many inboxes without a per-seat penalty.",
+      "The platform covers the full cold email workflow: lead prospecting via its built-in B2B database (200M+ contacts), multi-step email sequences with conditional branching, email warm-up to protect deliverability, and a unified inbox for managing replies across all connected accounts. It does not have a native dialer, LinkedIn automation, or advanced CRM functionality — it is a focused cold email tool, not a full sales engagement platform.",
+      "Saleshandy competes directly with Instantly.ai and Smartlead.ai in the cold email category. Its differentiation is price and the unlimited accounts model. Its weakness relative to both competitors is a less polished UI and a smaller community of power users sharing templates and best practices."
+    ]
+  },
+  "features": [
+    {
+      "title": "Unlimited Email Accounts",
+      "description": "Connect as many sending accounts as you need on every plan. No per-mailbox fees. Critical for agencies managing multiple client domains or anyone using inbox rotation to protect deliverability."
+    },
+    {
+      "title": "Multi-Step Sequences with Conditions",
+      "description": "Build automated follow-up sequences with conditional branching — send different emails based on whether a prospect opened, clicked, or replied. Supports A/Z testing across up to 26 variants."
+    },
+    {
+      "title": "Email Warm-Up (Built-In)",
+      "description": "Automated warm-up network included on all plans. Gradually increases sending volume and simulates real engagement to protect sender reputation before launching campaigns."
+    },
+    {
+      "title": "B2B Lead Database",
+      "description": "Access to 700M+ contacts (200M+ verified emails) for prospecting without a separate data tool. Included credits vary by plan; useful for SMB prospecting but not a replacement for ZoomInfo or Apollo at enterprise scale."
+    },
+    {
+      "title": "Unified Inbox",
+      "description": "Manage replies from all connected email accounts in a single interface. Tag, filter, and respond without switching between inboxes. Supports team collaboration on reply management."
+    },
+    {
+      "title": "Deliverability Tools",
+      "description": "Spam test before sending, email verification to reduce bounce rates, and sending throttles to stay within provider limits. Basic but covers the essentials for maintaining inbox placement."
+    }
+  ],
+  "pricing": {
+    "note": "Pricing as of February 2026. All plans include unlimited email accounts.",
+    "tiers": [
+      {
+        "name": "Outreach Starter",
+        "price": "$36",
+        "period": "mo",
+        "features": [
+          "2,000 prospects",
+          "Unlimited email accounts",
+          "Email warm-up included",
+          "Basic sequences",
+          "1 user"
+        ],
+        "ctaUrl": "https://salesaiguide.com/go/saleshandy",
+        "ctaClass": "btn-outline",
+        "ctaText": "Start Free Trial"
+      },
+      {
+        "name": "Outreach Pro",
+        "price": "$99",
+        "period": "mo",
+        "featured": true,
+        "badge": "Most Popular",
+        "features": [
+          "30,000 prospects",
+          "Unlimited email accounts",
+          "A/Z testing (26 variants)",
+          "Conditional sequences",
+          "5 users"
+        ],
+        "ctaUrl": "https://salesaiguide.com/go/saleshandy",
+        "ctaClass": "btn-primary",
+        "ctaText": "Start Free Trial"
+      },
+      {
+        "name": "Outreach Scale",
+        "price": "$219",
+        "period": "mo",
+        "features": [
+          "60,000 prospects",
+          "Unlimited email accounts",
+          "Team inbox management",
+          "Priority support",
+          "Unlimited users"
+        ],
+        "ctaUrl": "https://salesaiguide.com/go/saleshandy",
+        "ctaClass": "btn-outline",
+        "ctaText": "Start Free Trial"
+      }
+    ],
+    "creditNote": "All plans include a 14-day free trial. Annual billing saves ~20%. Prospect limits reset monthly."
+  },
+  "g2Reviews": {
+    "intro": "Based on 650+ reviews on G2 (4.6/5 rating):",
+    "pros": [
+      { "bold": "Unlimited accounts value", "text": "Reviewers consistently cite the unlimited email accounts as the primary reason for choosing Saleshandy over Instantly or Smartlead." },
+      { "bold": "Deliverability results", "text": "Users report strong inbox placement rates when following the warm-up protocol, with several noting 60–70% open rates on well-targeted campaigns." },
+      { "bold": "Pricing for agencies", "text": "Agency users highlight the cost advantage of managing 20+ client domains on a single plan without per-account fees." }
+    ],
+    "cons": [
+      { "bold": "UI less polished than competitors", "text": "Multiple reviewers note that Instantly and Smartlead have cleaner interfaces and better UX for campaign management." },
+      { "bold": "Smaller community", "text": "Fewer public templates, YouTube tutorials, and community resources compared to Instantly's large user base." },
+      { "bold": "Lead database quality", "text": "The built-in B2B database is useful for basic prospecting but reviewers note lower accuracy compared to Apollo or ZoomInfo for enterprise contacts." }
+    ],
+    "link": "https://www.g2.com/products/saleshandy/reviews"
+  },
+  "competitorTable": {
+    "headers": ["Feature", "Saleshandy", "Instantly", "Smartlead"],
+    "rows": [
+      { "feature": "Email accounts", "featureBold": true, "values": [{ "text": "Unlimited (all plans)", "class": "check" }, { "text": "Unlimited (Growth+)", "class": "" }, { "text": "Unlimited (all plans)", "class": "check" }] },
+      { "feature": "Starting price", "featureBold": false, "values": [{ "text": "$36/mo" }, { "text": "$37/mo" }, { "text": "$39/mo" }] },
+      { "feature": "Built-in warm-up", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] },
+      { "feature": "B2B lead database", "featureBold": false, "values": [{ "text": "700M+ contacts" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }] },
+      { "feature": "A/B testing variants", "featureBold": false, "values": [{ "text": "26 variants (A/Z)" }, { "text": "5 variants" }, { "text": "Unlimited" }] },
+      { "feature": "Affiliate program", "featureBold": false, "values": [{ "text": "&#10003; 25% recurring", "class": "check" }, { "text": "&#10003; 40% recurring", "class": "check" }, { "text": "&#10003; 35% recurring", "class": "check" }] }
+    ],
+    "seeFullLinks": [
+      { "url": "/compare/saleshandy-vs-instantly.html", "text": "Saleshandy vs Instantly" },
+      { "url": "/compare/saleshandy-vs-smartlead.html", "text": "Saleshandy vs Smartlead" }
+    ]
+  },
+  "whoIsFor": {
+    "goodFit": {
+      "heading": "Saleshandy is a strong fit for:",
+      "items": [
+        "Agencies managing cold email for multiple clients on separate domains — the unlimited accounts model eliminates per-client mailbox costs",
+        "Founders and solo operators who want a full cold email stack (warm-up, sequences, database) at the lowest possible price",
+        "SDRs at SMBs who need to run high-volume outbound without a $500+/month tool budget",
+        "Teams already using a separate CRM who just need a reliable cold email execution layer"
+      ]
+    },
+    "notAFit": {
+      "heading": "Saleshandy is not the right choice if:",
+      "items": [
+        "You need a dialer, LinkedIn automation, or full sales engagement platform — Saleshandy is cold email only",
+        "You want the best-in-class UI and community resources — Instantly has a larger ecosystem of templates and tutorials",
+        "Your prospecting requires enterprise-grade data accuracy — the built-in database is useful but not a replacement for Apollo or ZoomInfo",
+        "You need Salesforce or HubSpot native sync — integrations are available but less mature than Outreach or Salesloft"
+      ]
+    }
+  },
+  "decisionModule": {
+    "verdict": {
+      "bestFor": "Agencies and high-volume cold email senders who need unlimited accounts at the lowest cost per seat",
+      "avoidIf": "You need a dialer, LinkedIn automation, or enterprise-grade data enrichment",
+      "bottomLine": "Saleshandy wins on price-per-account for agencies and founders. If you are managing multiple client domains or rotating across 10+ inboxes, it is the most cost-effective cold email platform available. If you want the best UI or the largest community, Instantly is the better choice.",
+      "ctaUrl": "https://salesaiguide.com/go/saleshandy",
+      "ctaText": "Try Saleshandy Free"
+    },
+    "dualScore": {
+      "org": {
+        "score": 71,
+        "explain": "Strong for SMB and agency outbound. Limited CRM integration and no dialer reduces enterprise fit."
+      },
+      "individual": {
+        "score": 68,
+        "explain": "Good for high-volume cold email senders. Less polished UX than Instantly reduces individual rep productivity."
+      }
+    },
+    "subScores": [
+      { "label": "AI Depth", "score": "6/10" },
+      { "label": "Ease of Adoption", "score": "7/10" },
+      { "label": "Enterprise Fit", "score": "5/10" },
+      { "label": "Deliverability", "score": "8/10" },
+      { "label": "Value for Money", "score": "9/10" }
+    ],
+    "decisionSnapshot": {
+      "intro": "Six-dimension assessment based on public review data, vendor documentation, and community feedback.",
+      "rows": [
+        {
+          "dimension": "Email Deliverability",
+          "score": 8,
+          "notes": "Built-in warm-up and spam testing produce strong inbox placement when used correctly.",
+          "evidence": [
+            { "source": "G2 reviews", "text": "Multiple users report 60–70% open rates on well-targeted campaigns after warm-up period." }
+          ]
+        },
+        {
+          "dimension": "Sequence Automation",
+          "score": 7,
+          "notes": "Conditional branching and A/Z testing are strong. Less intuitive to configure than Instantly.",
+          "evidence": [
+            { "source": "G2 reviews", "text": "Reviewers praise the 26-variant A/Z testing but note the sequence builder has a steeper learning curve." }
+          ]
+        },
+        {
+          "dimension": "Value for Money",
+          "score": 9,
+          "notes": "Unlimited email accounts on all plans is the best pricing model in the cold email category for agencies.",
+          "evidence": [
+            { "source": "Capterra reviews", "text": "Agency users consistently cite cost savings of 40–60% vs per-mailbox competitors." }
+          ]
+        },
+        {
+          "dimension": "Ease of Use",
+          "score": 7,
+          "notes": "Functional but less polished than Instantly. Onboarding takes 1–2 days for new users.",
+          "evidence": [
+            { "source": "G2 reviews", "text": "Several reviewers note the UI is 'not as clean as Instantly' but 'gets the job done'." }
+          ]
+        },
+        {
+          "dimension": "Integrations",
+          "score": 6,
+          "notes": "Native CRM integrations available but less mature. Zapier covers most gaps.",
+          "evidence": [
+            { "source": "Vendor documentation", "text": "Native integrations with HubSpot, Pipedrive, Zoho. Salesforce via Zapier only." }
+          ]
+        },
+        {
+          "dimension": "Support Quality",
+          "score": 7,
+          "notes": "Live chat support on all plans. Response times generally under 4 hours per G2 reviewers.",
+          "evidence": [
+            { "source": "G2 reviews", "text": "Support rated positively by most reviewers; occasional delays noted on complex technical issues." }
+          ]
+        }
+      ]
+    },
+    "evidenceSignals": {
+      "confidence": "medium",
+      "confidenceNote": "Assessment based on 650+ G2 reviews, Capterra reviews, and vendor documentation. No direct product testing.",
+      "sourcePills": [
+        { "text": "G2: 650+ reviews", "class": "" },
+        { "text": "Capterra: 180+ reviews", "class": "" },
+        { "text": "Vendor docs", "class": "" }
+      ],
+      "freshness": [
+        { "icon": "&#128197;", "text": "Data verified February 2026" }
+      ],
+      "evidenceGrid": [
+        { "icon": "&#10003;", "text": "Pricing verified from saleshandy.com/pricing" },
+        { "icon": "&#10003;", "text": "G2 rating: 4.6/5 (650+ reviews)" },
+        { "icon": "&#10003;", "text": "Capterra rating: 4.6/5 (180+ reviews)" },
+        { "icon": "&#10003;", "text": "Affiliate program: 25% recurring commission" }
+      ],
+      "strengthThemes": [
+        "Unlimited email accounts on all plans",
+        "Strong deliverability with built-in warm-up",
+        "Best price-per-account for agencies"
+      ],
+      "limitationThemes": [
+        "UI less polished than Instantly",
+        "Smaller community and fewer public resources",
+        "No dialer or LinkedIn automation"
+      ]
+    },
+    "whereItBreaks": [
+      "At enterprise scale, the built-in B2B database is insufficient — you will need Apollo or ZoomInfo for accurate contact data",
+      "If your team needs a dialer or LinkedIn outreach, Saleshandy cannot replace a full sales engagement platform",
+      "The sequence builder becomes unwieldy for very complex multi-branch campaigns — Smartlead's AI branching handles this better"
+    ],
+    "stackFit": {
+      "bestWith": ["Clay (data enrichment)", "HubSpot (CRM)", "Apollo (prospecting database)"],
+      "replaces": ["Instantly (if you need unlimited accounts at lower cost)", "Smartlead (for agencies on tight budgets)"],
+      "exampleStack": "Clay → Saleshandy → HubSpot"
+    },
+    "alternatives": [
+      { "name": "Instantly", "url": "/tools/instantly-review.html", "reason": "Better UI and larger community; similar pricing" },
+      { "name": "Smartlead", "url": "/tools/smartlead-review.html", "reason": "Better AI branching and deliverability tools" },
+      { "name": "Lemlist", "url": "/tools/lemlist-review.html", "reason": "Better personalization and LinkedIn integration" }
+    ]
+  },
+  "sidebar": {
+    "quickStats": [
+      { "label": "G2 Rating", "value": "4.6/5" },
+      { "label": "Reviews", "value": "650+" },
+      { "label": "Starting Price", "value": "$36/mo" },
+      { "label": "Email Accounts", "value": "Unlimited" },
+      { "label": "Free Trial", "value": "14 days" },
+      { "label": "Affiliate", "value": "25% recurring" }
+    ],
+    "ctaUrl": "https://salesaiguide.com/go/saleshandy",
+    "ctaText": "Try Saleshandy Free",
+    "relatedLinks": [
+      { "url": "/compare/saleshandy-vs-instantly.html", "text": "Saleshandy vs Instantly" },
+      { "url": "/compare/saleshandy-vs-smartlead.html", "text": "Saleshandy vs Smartlead" },
+      { "url": "/categories/cold-outreach.html", "text": "All Cold Email Tools" }
+    ]
+  },
+  "finalCta": {
+    "heading": "Ready to Try Saleshandy?",
+    "body": "14-day free trial. No credit card required. Connect unlimited email accounts and launch your first sequence in under an hour.",
+    "ctaUrl": "https://salesaiguide.com/go/saleshandy",
+    "ctaText": "Start Free Trial"
+  },
+  "reviewSources": {
+    "sources": [
+      { "platform": "G2", "rating": 4.6, "reviews": 650, "url": "https://www.g2.com/products/saleshandy/reviews", "outOf": 5 },
+      { "platform": "Capterra", "rating": 4.6, "reviews": 183, "url": "https://www.capterra.com/p/153867/Saleshandy/", "outOf": 5 }
+    ],
+    "consensusScore": 4.6,
+    "lastUpdated": "February 2026"
+  },
+  "lastVerified": "2026-02-25"
+}
