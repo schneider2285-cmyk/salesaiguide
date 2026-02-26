@@ -423,23 +423,19 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "SOC 2 Type II certified; SAML SSO; enterprise RBAC documented on trust center",
-              "url": "https://help.clari.com"
+              "text": "SOC 2 Type II certified; SAML SSO; enterprise RBAC documented on trust center"
             },
             {
               "source": "G2",
-              "text": "Enterprise reviewers (1000+ employees) rate security and compliance 4.5/5",
-              "url": "https://www.g2.com/products/clari/reviews"
+              "text": "Enterprise reviewers (1000+ employees) rate security and compliance 4.5/5"
             },
             {
               "source": "Gartner PI",
-              "text": "Recognized as leader in revenue operations with Fortune 500 customer base",
-              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/clari/reviews"
+              "text": "Recognized as leader in revenue operations with Fortune 500 customer base"
             },
             {
               "source": "TrustRadius",
-              "text": "Enterprise buyers confirm SOC 2, GDPR readiness, and dedicated security team",
-              "url": "https://www.trustradius.com/products/clari/reviews"
+              "text": "Enterprise buyers confirm SOC 2, GDPR readiness, and dedicated security team"
             }
           ]
         },
@@ -450,23 +446,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Implementation complexity rated 3.8/5; most reviews cite 2-4 week setup period",
-              "url": "https://www.g2.com/products/clari/reviews"
+              "text": "Implementation complexity rated 3.8/5; most reviews cite 2-4 week setup period"
             },
             {
               "source": "Reddit",
-              "text": "r/salesops threads report needing dedicated RevOps resource for initial configuration",
-              "url": "https://www.reddit.com/search/?q=clari+review&sort=top"
+              "text": "r/salesops threads report needing dedicated RevOps resource for initial configuration"
             },
             {
               "source": "Capterra",
-              "text": "Users note Salesforce integration is smooth but custom pipeline views take time",
-              "url": "https://www.capterra.com/clari/software/1017816/"
+              "text": "Users note Salesforce integration is smooth but custom pipeline views take time"
             },
             {
               "source": "TrustRadius",
-              "text": "Mid-market users report 3-6 week full deployment including training",
-              "url": "https://www.trustradius.com/products/clari/reviews"
+              "text": "Mid-market users report 3-6 week full deployment including training"
             }
           ]
         },
@@ -477,23 +469,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "AI forecasting accuracy consistently rated as category-leading by enterprise reviewers",
-              "url": "https://www.g2.com/products/clari/reviews"
+              "text": "AI forecasting accuracy consistently rated as category-leading by enterprise reviewers"
             },
             {
               "source": "Vendor",
-              "text": "AI models analyze CRM data, email signals, calendar activity, and call recordings",
-              "url": "https://help.clari.com"
+              "text": "AI models analyze CRM data, email signals, calendar activity, and call recordings"
             },
             {
               "source": "Gartner PI",
-              "text": "Recognized for deepest AI-driven revenue forecasting capabilities in the market",
-              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/clari/reviews"
+              "text": "Recognized for deepest AI-driven revenue forecasting capabilities in the market"
             },
             {
               "source": "YouTube",
-              "text": "Product demos showcase real-time deal risk scoring and AI-generated forecast predictions",
-              "url": "https://www.youtube.com/results?search_query=clari+review+demo"
+              "text": "Product demos showcase real-time deal risk scoring and AI-generated forecast predictions"
             }
           ]
         },
@@ -504,23 +492,19 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Salesforce-native architecture with bi-directional sync; HubSpot, Outreach, Salesloft integrations",
-              "url": "https://help.clari.com"
+              "text": "Salesforce-native architecture with bi-directional sync; HubSpot, Outreach, Salesloft integrations"
             },
             {
               "source": "G2",
-              "text": "Integration depth rated 4.5/5; Salesforce users rate integration as seamless",
-              "url": "https://www.g2.com/products/clari/reviews"
+              "text": "Integration depth rated 4.5/5; Salesforce users rate integration as seamless"
             },
             {
               "source": "Capterra",
-              "text": "Users confirm reliable CRM sync with activity capture across email and calendar",
-              "url": "https://www.capterra.com/clari/software/1017816/"
+              "text": "Users confirm reliable CRM sync with activity capture across email and calendar"
             },
             {
               "source": "TrustRadius",
-              "text": "Enterprise users praise Gong integration for combining call data with pipeline analytics",
-              "url": "https://www.trustradius.com/products/clari/reviews"
+              "text": "Enterprise users praise Gong integration for combining call data with pipeline analytics"
             }
           ]
         },
@@ -531,18 +515,15 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Zero pricing information on website; 'Request Demo' is the only path to pricing",
-              "url": "https://help.clari.com"
+              "text": "Zero pricing information on website; 'Request Demo' is the only path to pricing"
             },
             {
               "source": "Reddit",
-              "text": "Users report $50-100/user/mo with annual commitments; pricing varies significantly by org size",
-              "url": "https://www.reddit.com/search/?q=clari+review&sort=top"
+              "text": "Users report $50-100/user/mo with annual commitments; pricing varies significantly by org size"
             },
             {
               "source": "G2",
-              "text": "Pricing transparency rated 2.3/5; lowest-scored dimension across reviews",
-              "url": "https://www.g2.com/products/clari/reviews"
+              "text": "Pricing transparency rated 2.3/5; lowest-scored dimension across reviews"
             }
           ]
         },
@@ -553,23 +534,19 @@
           "evidence": [
             {
               "source": "Gartner PI",
-              "text": "Verified deployments at Fortune 500 companies with 500+ seat teams",
-              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/clari/reviews"
+              "text": "Verified deployments at Fortune 500 companies with 500+ seat teams"
             },
             {
               "source": "G2",
-              "text": "Enterprise users report consistent performance with complex multi-region org structures",
-              "url": "https://www.g2.com/products/clari/reviews"
+              "text": "Enterprise users report consistent performance with complex multi-region org structures"
             },
             {
               "source": "Vendor",
-              "text": "Architecture designed for enterprise scale with multi-org Salesforce support",
-              "url": "https://help.clari.com"
+              "text": "Architecture designed for enterprise scale with multi-org Salesforce support"
             },
             {
               "source": "TrustRadius",
-              "text": "Large deployments report strong performance across distributed sales teams",
-              "url": "https://www.trustradius.com/products/clari/reviews"
+              "text": "Large deployments report strong performance across distributed sales teams"
             }
           ]
         }
@@ -579,12 +556,36 @@
       "confidence": "medium",
       "confidenceNote": "Based on multi-platform review synthesis and vendor documentation. Limited public pricing data reduces confidence on cost estimates. Moderate signal across 500+ public reviews.",
       "sourcePills": [
-        "G2: 4.6/5 (500+ reviews)",
-        "Capterra: 4.4/5 (120+ reviews)",
-        "TrustRadius: 8.8/10 (95+ reviews)",
-        "Gartner PI: 4.5/5 (75+ reviews)",
-        "YouTube: 10+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.6/5 (500+ reviews)",
+          "source": "G2",
+          "url": "https://www.g2.com/products/clari/reviews"
+        },
+        {
+          "label": "Capterra: 4.4/5 (120+ reviews)",
+          "source": "Capterra",
+          "url": "https://www.capterra.com/p/152803/Clari/"
+        },
+        {
+          "label": "TrustRadius: 8.8/10 (95+ reviews)",
+          "source": "TrustRadius",
+          "url": "https://www.trustradius.com/products/clari/reviews"
+        },
+        {
+          "label": "Gartner PI: 4.5/5 (75+ reviews)",
+          "source": "Gartner PI",
+          "url": "https://www.gartner.com/reviews/market/revenue-intelligence-platforms/vendor/clari"
+        },
+        {
+          "label": "YouTube: 10+ demos",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/results?search_query=clari+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "source": "Vendor docs &#10003;",
+          "url": "https://support.clari.com"
+        }
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -594,19 +595,27 @@
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: forecast accuracy unmatched. Complaint: setup complexity, rep adoption low"
+          "text": "<strong>Review sentiment:</strong> Praise: forecast accuracy unmatched. Complaint: setup complexity, rep adoption low",
+          "source": "Review sentiment",
+          "url": "https://www.g2.com/products/clari/reviews"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> Revenue cadence + deal inspection, Salesforce pipeline sync"
+          "text": "<strong>Community workflows:</strong> Revenue cadence + deal inspection, Salesforce pipeline sync",
+          "source": "Community",
+          "url": null
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Pipeline analytics UI, forecast dashboard, Copilot call recording"
+          "text": "<strong>Demo-verified:</strong> Pipeline analytics UI, forecast dashboard, Copilot call recording",
+          "source": "Demo-verified",
+          "url": "https://www.youtube.com/results?search_query=clari+review+demo"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Custom pricing only, Salesforce-native integration, SOC 2 certification"
+          "text": "<strong>Docs verified:</strong> Custom pricing only, Salesforce-native integration, SOC 2 certification",
+          "source": "Docs-verified",
+          "url": "https://support.clari.com"
         }
       ],
       "strengthThemes": [

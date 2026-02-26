@@ -436,23 +436,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Mid-market teams rate highly; enterprise reviewers note limited admin controls",
-              "url": "https://www.g2.com/products/leadiq/reviews"
+              "text": "Mid-market teams rate highly; enterprise reviewers note limited admin controls"
             },
             {
               "source": "Vendor",
-              "text": "Enterprise plan exists with custom pricing and dedicated support",
-              "url": "https://help.leadiq.com"
+              "text": "Enterprise plan exists with custom pricing and dedicated support"
             },
             {
               "source": "TrustRadius",
-              "text": "Teams of 10-30 SDRs report good fit; larger orgs may need more governance",
-              "url": "https://www.trustradius.com/products/leadiq/reviews"
+              "text": "Teams of 10-30 SDRs report good fit; larger orgs may need more governance"
             },
             {
               "source": "Reddit",
-              "text": "Recommended for startup and mid-market SDR teams in multiple threads",
-              "url": "https://www.reddit.com/search/?q=leadiq+review&sort=top"
+              "text": "Recommended for startup and mid-market SDR teams in multiple threads"
             }
           ]
         },
@@ -463,23 +459,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "85%+ of reviewers rate ease of use 4/5 or higher",
-              "url": "https://www.g2.com/products/leadiq/reviews"
+              "text": "85%+ of reviewers rate ease of use 4/5 or higher"
             },
             {
               "source": "Vendor",
-              "text": "Chrome extension onboarding designed for under 10 minutes",
-              "url": "https://help.leadiq.com"
+              "text": "Chrome extension onboarding designed for under 10 minutes"
             },
             {
               "source": "Capterra",
-              "text": "Reps report productive within first day of installation",
-              "url": "https://www.capterra.com/leadiq/software/1017504/"
+              "text": "Reps report productive within first day of installation"
             },
             {
               "source": "Reddit",
-              "text": "Praised for intuitive LinkedIn integration in r/sales threads",
-              "url": "https://www.reddit.com/search/?q=leadiq+review&sort=top"
+              "text": "Praised for intuitive LinkedIn integration in r/sales threads"
             }
           ]
         },
@@ -490,23 +482,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Scribe AI praised for saving 30-60 minutes per day on personalization",
-              "url": "https://www.g2.com/products/leadiq/reviews"
+              "text": "Scribe AI praised for saving 30-60 minutes per day on personalization"
             },
             {
               "source": "Vendor",
-              "text": "Scribe uses LinkedIn activity, job changes, and company news for context",
-              "url": "https://help.leadiq.com"
+              "text": "Scribe uses LinkedIn activity, job changes, and company news for context"
             },
             {
               "source": "Reddit",
-              "text": "Users report Scribe quality varies; works best with detailed LinkedIn profiles",
-              "url": "https://www.reddit.com/search/?q=leadiq+review&sort=top"
+              "text": "Users report Scribe quality varies; works best with detailed LinkedIn profiles"
             },
             {
               "source": "TrustRadius",
-              "text": "AI personalization cited as the main reason for choosing LeadIQ over Lusha",
-              "url": "https://www.trustradius.com/products/leadiq/reviews"
+              "text": "AI personalization cited as the main reason for choosing LeadIQ over Lusha"
             }
           ]
         },
@@ -517,23 +505,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "CRM sync reliability rated 4.3/5 across paid plan reviewers",
-              "url": "https://www.g2.com/products/leadiq/reviews"
+              "text": "CRM sync reliability rated 4.3/5 across paid plan reviewers"
             },
             {
               "source": "Vendor",
-              "text": "Native Salesforce, HubSpot, Outreach, and Salesloft integrations",
-              "url": "https://help.leadiq.com"
+              "text": "Native Salesforce, HubSpot, Outreach, and Salesloft integrations"
             },
             {
               "source": "Capterra",
-              "text": "Real-time CRM push praised; occasional sync delays reported",
-              "url": "https://www.capterra.com/leadiq/software/1017504/"
+              "text": "Real-time CRM push praised; occasional sync delays reported"
             },
             {
               "source": "TrustRadius",
-              "text": "Integration depth solid for mid-market; fewer options than enterprise tools",
-              "url": "https://www.trustradius.com/products/leadiq/reviews"
+              "text": "Integration depth solid for mid-market; fewer options than enterprise tools"
             }
           ]
         },
@@ -544,18 +528,15 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "All pricing published on leadiq.com with detailed feature breakdowns",
-              "url": "https://help.leadiq.com"
+              "text": "All pricing published on leadiq.com with detailed feature breakdowns"
             },
             {
               "source": "G2",
-              "text": "Transparent pricing appreciated vs. enterprise tools requiring sales calls",
-              "url": "https://www.g2.com/products/leadiq/reviews"
+              "text": "Transparent pricing appreciated vs. enterprise tools requiring sales calls"
             },
             {
               "source": "Reddit",
-              "text": "Users recommend starting on free tier before upgrading to Essential",
-              "url": "https://www.reddit.com/search/?q=leadiq+review&sort=top"
+              "text": "Users recommend starting on free tier before upgrading to Essential"
             }
           ]
         },
@@ -566,18 +547,15 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Teams of 20+ report hitting credit ceilings on Essential plans",
-              "url": "https://www.g2.com/products/leadiq/reviews"
+              "text": "Teams of 20+ report hitting credit ceilings on Essential plans"
             },
             {
               "source": "Reddit",
-              "text": "Cost per lead increases at scale vs. Apollo or ZoomInfo",
-              "url": "https://www.reddit.com/search/?q=leadiq+review&sort=top"
+              "text": "Cost per lead increases at scale vs. Apollo or ZoomInfo"
             },
             {
               "source": "TrustRadius",
-              "text": "Best fit for 5-25 seat SDR teams; larger teams may need supplementary tools",
-              "url": "https://www.trustradius.com/products/leadiq/reviews"
+              "text": "Best fit for 5-25 seat SDR teams; larger teams may need supplementary tools"
             }
           ]
         }
@@ -587,11 +565,31 @@
       "confidence": "high",
       "confidenceNote": "Based on 900+ G2 reviews, vendor documentation, and active community discussion. Good signal quality with sufficient review volume for pattern recognition.",
       "sourcePills": [
-        "G2: 4.2/5 (900+ reviews)",
-        "TrustRadius: 8.0/10 (55 reviews)",
-        "Reddit: 9+ threads",
-        "YouTube: 6+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.2/5 (900+ reviews)",
+          "source": "G2",
+          "url": "https://www.g2.com/products/leadiq/reviews"
+        },
+        {
+          "label": "TrustRadius: 8.0/10 (55 reviews)",
+          "source": "TrustRadius",
+          "url": "https://www.trustradius.com/products/leadiq/reviews"
+        },
+        {
+          "label": "Reddit: 9+ threads",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/sales/search/?q=leadiq&sort=top"
+        },
+        {
+          "label": "YouTube: 6+ demos",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/results?search_query=leadiq+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "source": "Vendor docs &#10003;",
+          "url": "https://help.leadiq.com"
+        }
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -601,19 +599,27 @@
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: Scribe AI and LinkedIn workflow. Complaint: database size and mobile credit limits"
+          "text": "<strong>Review sentiment:</strong> Praise: Scribe AI and LinkedIn workflow. Complaint: database size and mobile credit limits",
+          "source": "Review sentiment",
+          "url": "https://www.g2.com/products/leadiq/reviews"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> LinkedIn prospecting, Scribe AI personalization, CRM enrichment"
+          "text": "<strong>Community workflows:</strong> LinkedIn prospecting, Scribe AI personalization, CRM enrichment",
+          "source": "Community",
+          "url": null
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Chrome extension, Scribe AI, CRM sync, job change alerts"
+          "text": "<strong>Demo-verified:</strong> Chrome extension, Scribe AI, CRM sync, job change alerts",
+          "source": "Demo-verified",
+          "url": "https://www.youtube.com/results?search_query=leadiq+review+demo"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Pricing tiers, credit allocations, integration documentation"
+          "text": "<strong>Docs verified:</strong> Pricing tiers, credit allocations, integration documentation",
+          "source": "Docs-verified",
+          "url": "https://help.leadiq.com"
         }
       ],
       "strengthThemes": [

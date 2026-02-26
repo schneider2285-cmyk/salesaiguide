@@ -263,7 +263,7 @@ extraCss:
                                     </thead>
                                     <tbody>
                                         {% for row in t.decisionModule.decisionSnapshot.rows %}
-                                        <tr><td><strong>{{ row.dimension }}</strong></td><td><span class="dm-score">{{ row.score }}</span>/10</td><td>{{ row.notes }}{% if row.evidence %}<details class="dm-evidence-drawer"><summary>Evidence</summary><ul class="dm-evidence-chain">{% for e in row.evidence %}<li><strong>{% if e.url %}<a href="{{ e.url }}" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">{{ e.source }}</a>{% else %}{{ e.source }}{% endif %}:</strong> {{ e.text }}</li>{% endfor %}</ul></details>{% endif %}</td></tr>
+                                        <tr><td><strong>{{ row.dimension }}</strong></td><td><span class="dm-score">{{ row.score }}</span>/10</td><td>{{ row.notes }}{% if row.evidence %}<details class="dm-evidence-drawer"><summary>Evidence</summary><ul class="dm-evidence-chain">{% for e in row.evidence %}<li><strong>{{ e.source }}:</strong> {{ e.text }}</li>{% endfor %}</ul></details>{% endif %}</td></tr>
                                         {% endfor %}
                                     </tbody>
                                 </table>
@@ -279,7 +279,7 @@ extraCss:
                                 <div class="dm-source-pills">
                                     {% for pill in t.decisionModule.evidenceSignals.sourcePills %}
                                     {% if pill.url %}
-                                    <a class="dm-source-pill dm-source-pill-link" href="{{ pill.url }}" target="_blank" rel="noopener">{{ pill.label | safe }}</a>
+                                    <a href="{{ pill.url }}" target="_blank" rel="noopener noreferrer" class="dm-source-pill dm-source-pill--link" title="View {{ pill.source }} reviews">{{ pill.label | safe }} &#x2197;</a>
                                     {% elif pill.label %}
                                     <span class="dm-source-pill">{{ pill.label | safe }}</span>
                                     {% else %}
@@ -294,7 +294,11 @@ extraCss:
                                 </div>
                                 <div class="dm-evidence-grid">
                                     {% for item in t.decisionModule.evidenceSignals.evidenceGrid %}
-                                    <div class="dm-evidence-item"><span class="dm-evidence-icon">{{ item.icon | safe }}</span><span>{{ item.text | safe }}</span></div>
+                                    <div class="dm-evidence-item">
+                                        <span class="dm-evidence-icon">{{ item.icon | safe }}</span>
+                                        <span>{{ item.text | safe }}</span>
+                                        {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="dm-evidence-source-link" title="Source: {{ item.source }}">{{ item.source }} &#x2197;</a>{% endif %}
+                                    </div>
                                     {% endfor %}
                                 </div>
                                 <div class="dm-evidence-themes">
@@ -340,7 +344,7 @@ extraCss:
                                 </div>
                                 <blockquote class="dm-user-quote">
                                     {{ theme.quote | safe }}
-                                    <cite>— {% if theme.quoteCiteUrl %}<a href="{{ theme.quoteCiteUrl }}" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">{{ theme.quoteCite }}</a>{% else %}{{ theme.quoteCite }}{% endif %}</cite>
+                                    <cite>— {{ theme.quoteCite }}</cite>
                                 </blockquote>
                             </div>
                             {% endfor %}

@@ -440,23 +440,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise reviewers note lack of advanced admin controls and governance",
-              "url": "https://www.g2.com/products/lusha/reviews"
+              "text": "Enterprise reviewers note lack of advanced admin controls and governance"
             },
             {
               "source": "Vendor",
-              "text": "Team features available on Scale plan but limited vs. enterprise tools",
-              "url": "https://help.lusha.com"
+              "text": "Team features available on Scale plan but limited vs. enterprise tools"
             },
             {
               "source": "TrustRadius",
-              "text": "Mid-market teams report outgrowing Lusha within 6-12 months",
-              "url": "https://www.trustradius.com/products/lusha/reviews"
+              "text": "Mid-market teams report outgrowing Lusha within 6-12 months"
             },
             {
               "source": "Reddit",
-              "text": "Multiple threads recommend switching to ZoomInfo or Apollo at scale",
-              "url": "https://www.reddit.com/search/?q=lusha+review&sort=top"
+              "text": "Multiple threads recommend switching to ZoomInfo or Apollo at scale"
             }
           ]
         },
@@ -467,23 +463,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "92% of reviewers rate ease of use 4/5 or higher",
-              "url": "https://www.g2.com/products/lusha/reviews"
+              "text": "92% of reviewers rate ease of use 4/5 or higher"
             },
             {
               "source": "Vendor",
-              "text": "Chrome extension onboarding takes under 5 minutes per rep",
-              "url": "https://help.lusha.com"
+              "text": "Chrome extension onboarding takes under 5 minutes per rep"
             },
             {
               "source": "Capterra",
-              "text": "Consistently praised as the simplest prospecting tool available",
-              "url": "https://www.capterra.com/lusha/software/1017505/"
+              "text": "Consistently praised as the simplest prospecting tool available"
             },
             {
               "source": "Reddit",
-              "text": "Recommended as the first tool for new SDRs in multiple threads",
-              "url": "https://www.reddit.com/search/?q=lusha+review&sort=top"
+              "text": "Recommended as the first tool for new SDRs in multiple threads"
             }
           ]
         },
@@ -494,18 +486,15 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "No mentions of AI features in recent reviews",
-              "url": "https://www.g2.com/products/lusha/reviews"
+              "text": "No mentions of AI features in recent reviews"
             },
             {
               "source": "Vendor",
-              "text": "No AI enrichment, writing, or automation tools on the platform",
-              "url": "https://help.lusha.com"
+              "text": "No AI enrichment, writing, or automation tools on the platform"
             },
             {
               "source": "Reddit",
-              "text": "Users note lack of AI features compared to newer tools like Clay or LeadIQ",
-              "url": "https://www.reddit.com/search/?q=lusha+review&sort=top"
+              "text": "Users note lack of AI features compared to newer tools like Clay or LeadIQ"
             }
           ]
         },
@@ -516,23 +505,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "CRM integrations work but are basic compared to Cognism or ZoomInfo",
-              "url": "https://www.g2.com/products/lusha/reviews"
+              "text": "CRM integrations work but are basic compared to Cognism or ZoomInfo"
             },
             {
               "source": "Vendor",
-              "text": "Native Salesforce, HubSpot, Pipedrive connectors; API on Scale+",
-              "url": "https://help.lusha.com"
+              "text": "Native Salesforce, HubSpot, Pipedrive connectors; API on Scale+"
             },
             {
               "source": "Capterra",
-              "text": "Reliable CRM push but no advanced sync or workflow triggers",
-              "url": "https://www.capterra.com/lusha/software/1017505/"
+              "text": "Reliable CRM push but no advanced sync or workflow triggers"
             },
             {
               "source": "TrustRadius",
-              "text": "Integration depth sufficient for SMB; enterprise teams need more",
-              "url": "https://www.trustradius.com/products/lusha/reviews"
+              "text": "Integration depth sufficient for SMB; enterprise teams need more"
             }
           ]
         },
@@ -543,18 +528,15 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "All pricing published on lusha.com with feature breakdowns",
-              "url": "https://help.lusha.com"
+              "text": "All pricing published on lusha.com with feature breakdowns"
             },
             {
               "source": "G2",
-              "text": "Pricing transparency praised as a differentiator vs. Cognism/ZoomInfo",
-              "url": "https://www.g2.com/products/lusha/reviews"
+              "text": "Pricing transparency praised as a differentiator vs. Cognism/ZoomInfo"
             },
             {
               "source": "Reddit",
-              "text": "Users appreciate being able to start free and upgrade without sales calls",
-              "url": "https://www.reddit.com/search/?q=lusha+review&sort=top"
+              "text": "Users appreciate being able to start free and upgrade without sales calls"
             }
           ]
         },
@@ -565,18 +547,15 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Teams of 10+ report credit constraints on Pro and Scale plans",
-              "url": "https://www.g2.com/products/lusha/reviews"
+              "text": "Teams of 10+ report credit constraints on Pro and Scale plans"
             },
             {
               "source": "Reddit",
-              "text": "Cost per contact increases vs. enterprise tools at volume",
-              "url": "https://www.reddit.com/search/?q=lusha+review&sort=top"
+              "text": "Cost per contact increases vs. enterprise tools at volume"
             },
             {
               "source": "TrustRadius",
-              "text": "Scales to 5-10 reps before teams typically migrate to larger platforms",
-              "url": "https://www.trustradius.com/products/lusha/reviews"
+              "text": "Scales to 5-10 reps before teams typically migrate to larger platforms"
             }
           ]
         }
@@ -586,11 +565,31 @@
       "confidence": "high",
       "confidenceNote": "Based on 1,400+ G2 reviews, vendor documentation, and active community discussion. Strong signal quality with large review sample size.",
       "sourcePills": [
-        "G2: 4.3/5 (1,400+ reviews)",
-        "TrustRadius: 7.8/10 (65 reviews)",
-        "Reddit: 10+ threads",
-        "YouTube: 6+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.3/5 (1,400+ reviews)",
+          "source": "G2",
+          "url": "https://www.g2.com/products/lusha/reviews"
+        },
+        {
+          "label": "TrustRadius: 7.8/10 (65 reviews)",
+          "source": "TrustRadius",
+          "url": "https://www.trustradius.com/products/lusha/reviews"
+        },
+        {
+          "label": "Reddit: 10+ threads",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/sales/search/?q=lusha&sort=top"
+        },
+        {
+          "label": "YouTube: 6+ demos",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/results?search_query=lusha+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "source": "Vendor docs &#10003;",
+          "url": "https://support.lusha.com"
+        }
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -600,19 +599,27 @@
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: speed and simplicity. Complaint: small database and limited features"
+          "text": "<strong>Review sentiment:</strong> Praise: speed and simplicity. Complaint: small database and limited features",
+          "source": "Review sentiment",
+          "url": "https://www.g2.com/products/lusha/reviews"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> LinkedIn lookup, CRM push, basic list building"
+          "text": "<strong>Community workflows:</strong> LinkedIn lookup, CRM push, basic list building",
+          "source": "Community",
+          "url": null
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Chrome extension, LinkedIn integration, CRM sync"
+          "text": "<strong>Demo-verified:</strong> Chrome extension, LinkedIn integration, CRM sync",
+          "source": "Demo-verified",
+          "url": "https://www.youtube.com/results?search_query=lusha+review+demo"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Pricing tiers, credit allocations, API documentation"
+          "text": "<strong>Docs verified:</strong> Pricing tiers, credit allocations, API documentation",
+          "source": "Docs-verified",
+          "url": "https://support.lusha.com"
         }
       ],
       "strengthThemes": [

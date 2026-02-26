@@ -432,23 +432,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise reviewers note missing SSO and audit log capabilities",
-              "url": "https://www.g2.com/products/instantly-ai/reviews"
+              "text": "Enterprise reviewers note missing SSO and audit log capabilities"
             },
             {
               "source": "Reddit",
-              "text": "r/coldoutreach threads confirm no SOC 2 or compliance documentation available",
-              "url": "https://www.reddit.com/r/Emailmarketing/search/?q=instantly+ai&sort=top"
+              "text": "r/coldoutreach threads confirm no SOC 2 or compliance documentation available"
             },
             {
               "source": "Vendor",
-              "text": "Enterprise plan page lists custom features but no security certifications",
-              "url": "https://help.instantly.ai"
+              "text": "Enterprise plan page lists custom features but no security certifications"
             },
             {
               "source": "TrustRadius",
-              "text": "Small team users confirm no SSO or RBAC in lower tiers",
-              "url": "https://www.trustradius.com/products/instantly-ai/reviews"
+              "text": "Small team users confirm no SSO or RBAC in lower tiers"
             }
           ]
         },
@@ -459,23 +455,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "4.8/5 ease-of-use rating; DNS setup is most cited friction point",
-              "url": "https://www.g2.com/products/instantly-ai/reviews"
+              "text": "4.8/5 ease-of-use rating; DNS setup is most cited friction point"
             },
             {
               "source": "YouTube",
-              "text": "Setup tutorials average 15+ minutes covering SPF/DKIM/DMARC configuration",
-              "url": "https://www.youtube.com/results?search_query=instantly+review+demo"
+              "text": "Setup tutorials average 15+ minutes covering SPF/DKIM/DMARC configuration"
             },
             {
               "source": "Reddit",
-              "text": "r/coldoutreach users report 1-2 hours for initial domain setup",
-              "url": "https://www.reddit.com/r/Emailmarketing/search/?q=instantly+ai&sort=top"
+              "text": "r/coldoutreach users report 1-2 hours for initial domain setup"
             },
             {
               "source": "TrustRadius",
-              "text": "85% of reviewers rate ease of use 8/10 or higher; fast onboarding praised",
-              "url": "https://www.trustradius.com/products/instantly-ai/reviews"
+              "text": "85% of reviewers rate ease of use 8/10 or higher; fast onboarding praised"
             }
           ]
         },
@@ -486,13 +478,11 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "AI writing features rated useful but not differentiated vs. competitors",
-              "url": "https://www.g2.com/products/instantly-ai/reviews"
+              "text": "AI writing features rated useful but not differentiated vs. competitors"
             },
             {
               "source": "Vendor",
-              "text": "AI warmup algorithm documented; email generation is template-based",
-              "url": "https://help.instantly.ai"
+              "text": "AI warmup algorithm documented; email generation is template-based"
             },
             {
               "source": "Capterra",
@@ -507,18 +497,15 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "3 native CRM integrations listed; all others via Zapier or API",
-              "url": "https://help.instantly.ai"
+              "text": "3 native CRM integrations listed; all others via Zapier or API"
             },
             {
               "source": "G2",
-              "text": "Integration depth rated 3.8/5; users want more native connectors",
-              "url": "https://www.g2.com/products/instantly-ai/reviews"
+              "text": "Integration depth rated 3.8/5; users want more native connectors"
             },
             {
               "source": "Reddit",
-              "text": "Teams using non-HubSpot CRMs report Zapier workarounds adding $20+/mo",
-              "url": "https://www.reddit.com/r/Emailmarketing/search/?q=instantly+ai&sort=top"
+              "text": "Teams using non-HubSpot CRMs report Zapier workarounds adding $20+/mo"
             }
           ]
         },
@@ -529,18 +516,15 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Full pricing page with all tiers, features, and billing options publicly listed",
-              "url": "https://help.instantly.ai"
+              "text": "Full pricing page with all tiers, features, and billing options publicly listed"
             },
             {
               "source": "G2",
-              "text": "Pricing transparency rated 4.5/5; frequently cited as a reason for choosing Instantly",
-              "url": "https://www.g2.com/products/instantly-ai/reviews"
+              "text": "Pricing transparency rated 4.5/5; frequently cited as a reason for choosing Instantly"
             },
             {
               "source": "Reddit",
-              "text": "Users praise straightforward pricing vs. competitors with hidden seat costs",
-              "url": "https://www.reddit.com/r/Emailmarketing/search/?q=instantly+ai&sort=top"
+              "text": "Users praise straightforward pricing vs. competitors with hidden seat costs"
             }
           ]
         },
@@ -551,13 +535,11 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Scalability rated 4.7/5; unlimited accounts cited in 60%+ of positive reviews",
-              "url": "https://www.g2.com/products/instantly-ai/reviews"
+              "text": "Scalability rated 4.7/5; unlimited accounts cited in 60%+ of positive reviews"
             },
             {
               "source": "Reddit",
-              "text": "Agency operators report running 50+ accounts across multiple clients",
-              "url": "https://www.reddit.com/r/Emailmarketing/search/?q=instantly+ai&sort=top"
+              "text": "Agency operators report running 50+ accounts across multiple clients"
             },
             {
               "source": "Capterra",
@@ -565,8 +547,7 @@
             },
             {
               "source": "TrustRadius",
-              "text": "Agency users confirm scaling to 50+ inboxes with stable deliverability",
-              "url": "https://www.trustradius.com/products/instantly-ai/reviews"
+              "text": "Agency users confirm scaling to 50+ inboxes with stable deliverability"
             }
           ]
         }
@@ -576,11 +557,31 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis, active cold-email community discussion, demo-verified workflows, and current vendor documentation. Strong signal across 3,700+ public reviews.",
       "sourcePills": [
-        "G2: 4.8/5 (4,000+ reviews)",
-        "Trustpilot: 3.8/5 (967 reviews)",
-        "Reddit: 22+ threads",
-        "YouTube: 12+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.8/5 (4,000+ reviews)",
+          "source": "G2",
+          "url": "https://www.g2.com/products/instantly/reviews"
+        },
+        {
+          "label": "Trustpilot: 3.8/5 (967 reviews)",
+          "source": "Trustpilot",
+          "url": null
+        },
+        {
+          "label": "Reddit: 22+ threads",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/sales/search/?q=instantly.ai&sort=top"
+        },
+        {
+          "label": "YouTube: 12+ demos",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/results?search_query=instantly.ai+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "source": "Vendor docs &#10003;",
+          "url": "https://help.instantly.ai"
+        }
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -590,19 +591,27 @@
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: deliverability engine + unlimited sending accounts. Complaint: analytics basic"
+          "text": "<strong>Review sentiment:</strong> Praise: deliverability engine + unlimited sending accounts. Complaint: analytics basic",
+          "source": "Review sentiment",
+          "url": "https://www.g2.com/products/instantly/reviews"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> High-volume cold email + warmup, agency multi-client setups"
+          "text": "<strong>Community workflows:</strong> High-volume cold email + warmup, agency multi-client setups",
+          "source": "Community",
+          "url": "https://community.instantly.ai"
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Warmup dashboard, Unibox, campaign builder"
+          "text": "<strong>Demo-verified:</strong> Warmup dashboard, Unibox, campaign builder",
+          "source": "Demo-verified",
+          "url": "https://www.youtube.com/results?search_query=instantly.ai+review+demo"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Pricing published, API access, deliverability features"
+          "text": "<strong>Docs verified:</strong> Pricing published, API access, deliverability features",
+          "source": "Docs-verified",
+          "url": "https://help.instantly.ai"
         }
       ],
       "strengthThemes": [

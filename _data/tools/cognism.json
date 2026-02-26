@@ -439,23 +439,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise reviewers confirm SOC 2 compliance and data governance features",
-              "url": "https://www.g2.com/products/cognism/reviews"
+              "text": "Enterprise reviewers confirm SOC 2 compliance and data governance features"
             },
             {
               "source": "Vendor",
-              "text": "GDPR data processing compliance documented; DPA available",
-              "url": "https://help.cognism.com"
+              "text": "GDPR data processing compliance documented; DPA available"
             },
             {
               "source": "TrustRadius",
-              "text": "Mid-market and enterprise users praise compliance features",
-              "url": "https://www.trustradius.com/products/cognism/reviews"
+              "text": "Mid-market and enterprise users praise compliance features"
             },
             {
               "source": "Capterra",
-              "text": "SSO and team management confirmed on enterprise tiers",
-              "url": "https://www.capterra.com/cognism/software/1017503/"
+              "text": "SSO and team management confirmed on enterprise tiers"
             }
           ]
         },
@@ -466,23 +462,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Chrome extension rated highly for ease of use; platform UI less intuitive",
-              "url": "https://www.g2.com/products/cognism/reviews"
+              "text": "Chrome extension rated highly for ease of use; platform UI less intuitive"
             },
             {
               "source": "Reddit",
-              "text": "Users report 1-2 weeks for full team onboarding",
-              "url": "https://www.reddit.com/search/?q=cognism+review&sort=top"
+              "text": "Users report 1-2 weeks for full team onboarding"
             },
             {
               "source": "Vendor",
-              "text": "Dedicated onboarding process with CSM for all new customers",
-              "url": "https://help.cognism.com"
+              "text": "Dedicated onboarding process with CSM for all new customers"
             },
             {
               "source": "TrustRadius",
-              "text": "Search and filtering have a learning curve for advanced use cases",
-              "url": "https://www.trustradius.com/products/cognism/reviews"
+              "text": "Search and filtering have a learning curve for advanced use cases"
             }
           ]
         },
@@ -493,18 +485,15 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "No AI writing or enrichment features mentioned in reviews",
-              "url": "https://www.g2.com/products/cognism/reviews"
+              "text": "No AI writing or enrichment features mentioned in reviews"
             },
             {
               "source": "Vendor",
-              "text": "Focus on human-verified data rather than AI-generated insights",
-              "url": "https://help.cognism.com"
+              "text": "Focus on human-verified data rather than AI-generated insights"
             },
             {
               "source": "Reddit",
-              "text": "Users note Cognism lacks the AI features found in Clay or Apollo",
-              "url": "https://www.reddit.com/search/?q=cognism+review&sort=top"
+              "text": "Users note Cognism lacks the AI features found in Clay or Apollo"
             }
           ]
         },
@@ -515,23 +504,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Salesforce integration rated 4.5/5 across enterprise reviewers",
-              "url": "https://www.g2.com/products/cognism/reviews"
+              "text": "Salesforce integration rated 4.5/5 across enterprise reviewers"
             },
             {
               "source": "Vendor",
-              "text": "Native connectors for Salesforce, HubSpot, Outreach, Salesloft, Pipedrive",
-              "url": "https://help.cognism.com"
+              "text": "Native connectors for Salesforce, HubSpot, Outreach, Salesloft, Pipedrive"
             },
             {
               "source": "Capterra",
-              "text": "CRM sync reliability praised; occasional sync delays reported",
-              "url": "https://www.capterra.com/cognism/software/1017503/"
+              "text": "CRM sync reliability praised; occasional sync delays reported"
             },
             {
               "source": "TrustRadius",
-              "text": "API access available for custom integrations on higher tiers",
-              "url": "https://www.trustradius.com/products/cognism/reviews"
+              "text": "API access available for custom integrations on higher tiers"
             }
           ]
         },
@@ -542,18 +527,15 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Multiple reviewers flag lack of transparent pricing as a barrier",
-              "url": "https://www.g2.com/products/cognism/reviews"
+              "text": "Multiple reviewers flag lack of transparent pricing as a barrier"
             },
             {
               "source": "Reddit",
-              "text": "Pricing estimates range from $15K-25K/year based on user reports",
-              "url": "https://www.reddit.com/search/?q=cognism+review&sort=top"
+              "text": "Pricing estimates range from $15K-25K/year based on user reports"
             },
             {
               "source": "Capterra",
-              "text": "Several reviews mention pricing is only available via sales team",
-              "url": "https://www.capterra.com/cognism/software/1017503/"
+              "text": "Several reviews mention pricing is only available via sales team"
             }
           ]
         },
@@ -564,18 +546,15 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise customers report successful 50+ seat deployments",
-              "url": "https://www.g2.com/products/cognism/reviews"
+              "text": "Enterprise customers report successful 50+ seat deployments"
             },
             {
               "source": "Vendor",
-              "text": "Case studies reference Fortune 500 and large mid-market deployments",
-              "url": "https://help.cognism.com"
+              "text": "Case studies reference Fortune 500 and large mid-market deployments"
             },
             {
               "source": "TrustRadius",
-              "text": "Scales well for EMEA-focused teams; US teams may need supplementary data",
-              "url": "https://www.trustradius.com/products/cognism/reviews"
+              "text": "Scales well for EMEA-focused teams; US teams may need supplementary data"
             }
           ]
         }
@@ -585,11 +564,31 @@
       "confidence": "medium",
       "confidenceNote": "Based on G2 reviews, vendor documentation, and community discussions. Fewer public reviews compared to US-focused competitors like Apollo or ZoomInfo, but signal quality is solid for EMEA use cases.",
       "sourcePills": [
-        "G2: 4.6/5 (700+ reviews)",
-        "TrustRadius: 8.1/10 (45 reviews)",
-        "Reddit: 8+ threads",
-        "YouTube: 5+ demos",
-        "Vendor docs &#10003;"
+        {
+          "label": "G2: 4.6/5 (700+ reviews)",
+          "source": "G2",
+          "url": "https://www.g2.com/products/cognism/reviews"
+        },
+        {
+          "label": "TrustRadius: 8.1/10 (45 reviews)",
+          "source": "TrustRadius",
+          "url": "https://www.trustradius.com/products/cognism/reviews"
+        },
+        {
+          "label": "Reddit: 8+ threads",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/sales/search/?q=cognism&sort=top"
+        },
+        {
+          "label": "YouTube: 5+ demos",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/results?search_query=cognism+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "source": "Vendor docs &#10003;",
+          "url": "https://help.cognism.com"
+        }
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -599,19 +598,27 @@
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: EMEA data quality and phone-verified mobiles. Complaint: US data gaps and no public pricing"
+          "text": "<strong>Review sentiment:</strong> Praise: EMEA data quality and phone-verified mobiles. Complaint: US data gaps and no public pricing",
+          "source": "Review sentiment",
+          "url": "https://www.g2.com/products/cognism/reviews"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> LinkedIn prospecting, EMEA cold calling, CRM enrichment"
+          "text": "<strong>Community workflows:</strong> LinkedIn prospecting, EMEA cold calling, CRM enrichment",
+          "source": "Community",
+          "url": null
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Chrome extension, search filters, CRM sync, intent data signals"
+          "text": "<strong>Demo-verified:</strong> Chrome extension, search filters, CRM sync, intent data signals",
+          "source": "Demo-verified",
+          "url": "https://www.youtube.com/results?search_query=cognism+review+demo"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Integration docs, GDPR compliance, phone verification methodology"
+          "text": "<strong>Docs verified:</strong> Integration docs, GDPR compliance, phone verification methodology",
+          "source": "Docs-verified",
+          "url": "https://help.cognism.com"
         }
       ],
       "strengthThemes": [

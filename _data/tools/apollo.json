@@ -187,23 +187,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise reviewers note SOC 2 Type II certification on Organization plan",
-              "url": "https://www.g2.com/products/apollo-io/reviews"
+              "text": "Enterprise reviewers note SOC 2 Type II certification on Organization plan"
             },
             {
               "source": "Vendor",
-              "text": "SSO and RBAC available on Organization tier ($119/mo per user)",
-              "url": "https://knowledge.apollo.io"
+              "text": "SSO and RBAC available on Organization tier ($119/mo per user)"
             },
             {
               "source": "Reddit",
-              "text": "IT teams flag Chrome extension permissions as security concern in enterprise deployments",
-              "url": "https://www.reddit.com/search/?q=apollo.io+review&sort=top"
+              "text": "IT teams flag Chrome extension permissions as security concern in enterprise deployments"
             },
             {
               "source": "TrustRadius",
-              "text": "Enterprise reviewers confirm SOC 2 Type II compliance on Organization plan",
-              "url": "https://www.trustradius.com/products/apollo-io/reviews"
+              "text": "Enterprise reviewers confirm SOC 2 Type II compliance on Organization plan"
             }
           ]
         },
@@ -214,23 +210,19 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Ease of use rated 4.6/5 across 9,344+ reviews; onboarding praised consistently",
-              "url": "https://www.g2.com/products/apollo-io/reviews"
+              "text": "Ease of use rated 4.6/5 across 9,344+ reviews; onboarding praised consistently"
             },
             {
               "source": "YouTube",
-              "text": "Setup walkthroughs average under 10 minutes for core features",
-              "url": "https://www.youtube.com/results?search_query=apollo+review+demo"
+              "text": "Setup walkthroughs average under 10 minutes for core features"
             },
             {
               "source": "Capterra",
-              "text": "Users report productive within first day of signup",
-              "url": "https://www.capterra.com/apollo/software/1017493/"
+              "text": "Users report productive within first day of signup"
             },
             {
               "source": "TrustRadius",
-              "text": "78% of reviewers rate setup as \"easy\" or \"very easy\"",
-              "url": "https://www.trustradius.com/products/apollo-io/reviews"
+              "text": "78% of reviewers rate setup as \"easy\" or \"very easy\""
             }
           ]
         },
@@ -241,18 +233,15 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "AI email writing rated as helpful but generic compared to dedicated AI tools",
-              "url": "https://www.g2.com/products/apollo-io/reviews"
+              "text": "AI email writing rated as helpful but generic compared to dedicated AI tools"
             },
             {
               "source": "Vendor",
-              "text": "AI features include email generation, lead scoring, and intent signals",
-              "url": "https://knowledge.apollo.io"
+              "text": "AI features include email generation, lead scoring, and intent signals"
             },
             {
               "source": "Reddit",
-              "text": "Users report AI email drafts need significant editing for personalization",
-              "url": "https://www.reddit.com/search/?q=apollo.io+review&sort=top"
+              "text": "Users report AI email drafts need significant editing for personalization"
             }
           ]
         },
@@ -263,18 +252,15 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Native Salesforce and HubSpot bi-directional sync documented",
-              "url": "https://knowledge.apollo.io"
+              "text": "Native Salesforce and HubSpot bi-directional sync documented"
             },
             {
               "source": "G2",
-              "text": "Integration quality rated 4.2/5; CRM sync praised but webhook support limited",
-              "url": "https://www.g2.com/products/apollo-io/reviews"
+              "text": "Integration quality rated 4.2/5; CRM sync praised but webhook support limited"
             },
             {
               "source": "Capterra",
-              "text": "Users confirm reliable CRM push but note Zapier dependency for other tools",
-              "url": "https://www.capterra.com/apollo/software/1017493/"
+              "text": "Users confirm reliable CRM push but note Zapier dependency for other tools"
             }
           ]
         },
@@ -285,23 +271,19 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Full pricing page with free, Basic, Professional, and Organization tiers listed",
-              "url": "https://knowledge.apollo.io"
+              "text": "Full pricing page with free, Basic, Professional, and Organization tiers listed"
             },
             {
               "source": "Reddit",
-              "text": "Free tier (10K leads/month) praised as the best in category across 12+ threads",
-              "url": "https://www.reddit.com/search/?q=apollo.io+review&sort=top"
+              "text": "Free tier (10K leads/month) praised as the best in category across 12+ threads"
             },
             {
               "source": "G2",
-              "text": "Pricing transparency rated 4.3/5; annual billing requirement is main complaint",
-              "url": "https://www.g2.com/products/apollo-io/reviews"
+              "text": "Pricing transparency rated 4.3/5; annual billing requirement is main complaint"
             },
             {
               "source": "TrustRadius",
-              "text": "Users praise the free tier but note credit-based limits on prospecting are opaque",
-              "url": "https://www.trustradius.com/products/apollo-io/reviews"
+              "text": "Users praise the free tier but note credit-based limits on prospecting are opaque"
             }
           ]
         },
@@ -312,18 +294,15 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Mid-market users (10-50 reps) report strong ROI; enterprise reviewers cite data gaps",
-              "url": "https://www.g2.com/products/apollo-io/reviews"
+              "text": "Mid-market users (10-50 reps) report strong ROI; enterprise reviewers cite data gaps"
             },
             {
               "source": "Reddit",
-              "text": "Users report 15-20% email bounce rates on exported lists in niche verticals",
-              "url": "https://www.reddit.com/search/?q=apollo.io+review&sort=top"
+              "text": "Users report 15-20% email bounce rates on exported lists in niche verticals"
             },
             {
               "source": "Capterra",
-              "text": "Teams scaling past 50 seats note per-user costs become significant at $119/mo",
-              "url": "https://www.capterra.com/apollo/software/1017493/"
+              "text": "Teams scaling past 50 seats note per-user costs become significant at $119/mo"
             }
           ]
         }
@@ -333,13 +312,41 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis, broad practitioner discussion, Chrome extension demos verified, and current vendor documentation. Strong signal across 9,344+ public reviews.",
       "sourcePills": [
-        "G2: 4.7/5 (9,344 reviews)",
-        "Capterra: 4.5/5 (384 reviews)",
-        "TrustRadius: 8.4/10 (561 reviews)",
-        "Reddit: 28+ threads",
-        "YouTube: 15+ demos",
-        "Vendor docs &#10003;",
-        "Trust center &#10003;"
+        {
+          "label": "G2: 4.7/5 (9,344 reviews)",
+          "source": "G2",
+          "url": "https://www.g2.com/products/apollo-io/reviews"
+        },
+        {
+          "label": "Capterra: 4.5/5 (384 reviews)",
+          "source": "Capterra",
+          "url": "https://www.capterra.com/p/135028/Apollo/"
+        },
+        {
+          "label": "TrustRadius: 8.4/10 (561 reviews)",
+          "source": "TrustRadius",
+          "url": "https://www.trustradius.com/products/apollo-io/reviews"
+        },
+        {
+          "label": "Reddit: 28+ threads",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/sales/search/?q=apollo.io&sort=top"
+        },
+        {
+          "label": "YouTube: 15+ demos",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/results?search_query=apollo.io+review+demo"
+        },
+        {
+          "label": "Vendor docs &#10003;",
+          "source": "Vendor docs &#10003;",
+          "url": "https://docs.apollo.io"
+        },
+        {
+          "label": "Trust center &#10003;",
+          "source": "Trust center &#10003;",
+          "url": null
+        }
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -349,19 +356,27 @@
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: all-in-one value for prospecting + outreach. Complaint: data accuracy varies by region"
+          "text": "<strong>Review sentiment:</strong> Praise: all-in-one value for prospecting + outreach. Complaint: data accuracy varies by region",
+          "source": "Review sentiment",
+          "url": "https://www.g2.com/products/apollo-io/reviews"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> Prospecting + sequencing in one platform, Chrome extension workflows"
+          "text": "<strong>Community workflows:</strong> Prospecting + sequencing in one platform, Chrome extension workflows",
+          "source": "Community",
+          "url": "https://community.apollo.io"
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Contact search, sequence builder, enrichment engine"
+          "text": "<strong>Demo-verified:</strong> Contact search, sequence builder, enrichment engine",
+          "source": "Demo-verified",
+          "url": "https://www.youtube.com/results?search_query=apollo.io+review+demo"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Pricing tiers, 275M+ contact database, API documentation"
+          "text": "<strong>Docs verified:</strong> Pricing tiers, 275M+ contact database, API documentation",
+          "source": "Docs-verified",
+          "url": "https://docs.apollo.io"
         }
       ],
       "strengthThemes": [

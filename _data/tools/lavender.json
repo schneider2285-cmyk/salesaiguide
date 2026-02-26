@@ -187,18 +187,15 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Team management available on Teams plan; SOC 2 Type 2 certified; OAuth only (no SAML SSO)",
-              "url": "https://help.lavender.ai"
+              "text": "Team management available on Teams plan; SOC 2 Type 2 certified; OAuth only (no SAML SSO)"
             },
             {
               "source": "G2",
-              "text": "Enterprise buyers note lack of admin controls and compliance certifications",
-              "url": "https://www.g2.com/products/lavender/reviews"
+              "text": "Enterprise buyers note lack of admin controls and compliance certifications"
             },
             {
               "source": "Reddit",
-              "text": "Users confirm Lavender targets individual reps, not enterprise IT buyers",
-              "url": "https://www.reddit.com/search/?q=lavender+ai+email+review&sort=top"
+              "text": "Users confirm Lavender targets individual reps, not enterprise IT buyers"
             }
           ]
         },
@@ -209,13 +206,11 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Ease of use rated 4.8/5; fastest time-to-value in sales AI category",
-              "url": "https://www.g2.com/products/lavender/reviews"
+              "text": "Ease of use rated 4.8/5; fastest time-to-value in sales AI category"
             },
             {
               "source": "Reddit",
-              "text": "Users report productive within minutes of Chrome extension install",
-              "url": "https://www.reddit.com/search/?q=lavender+ai+email+review&sort=top"
+              "text": "Users report productive within minutes of Chrome extension install"
             }
           ]
         },
@@ -226,18 +221,15 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "AI scoring and DISC personality analysis cited as primary differentiators",
-              "url": "https://www.g2.com/products/lavender/reviews"
+              "text": "AI scoring and DISC personality analysis cited as primary differentiators"
             },
             {
               "source": "Vendor",
-              "text": "Real-time NLP analysis with prospect-specific personalization engine",
-              "url": "https://help.lavender.ai"
+              "text": "Real-time NLP analysis with prospect-specific personalization engine"
             },
             {
               "source": "Reddit",
-              "text": "Practitioners confirm measurable reply rate improvements from AI coaching",
-              "url": "https://www.reddit.com/search/?q=lavender+ai+email+review&sort=top"
+              "text": "Practitioners confirm measurable reply rate improvements from AI coaching"
             }
           ]
         },
@@ -248,13 +240,11 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Native integrations limited to Gmail, Outlook, Outreach, and Salesloft",
-              "url": "https://help.lavender.ai"
+              "text": "Native integrations limited to Gmail, Outlook, Outreach, and Salesloft"
             },
             {
               "source": "G2",
-              "text": "Users praise email client integration but want CRM and Slack connections",
-              "url": "https://www.g2.com/products/lavender/reviews"
+              "text": "Users praise email client integration but want CRM and Slack connections"
             }
           ]
         },
@@ -265,18 +255,15 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Free tier (5 emails/mo), Starter $29/mo, Pro $49/mo all publicly listed",
-              "url": "https://help.lavender.ai"
+              "text": "Free tier (5 emails/mo), Starter $29/mo, Pro $49/mo all publicly listed"
             },
             {
               "source": "G2",
-              "text": "Pricing clarity praised; no reports of hidden fees or surprise charges",
-              "url": "https://www.g2.com/products/lavender/reviews"
+              "text": "Pricing clarity praised; no reports of hidden fees or surprise charges"
             },
             {
               "source": "Reddit",
-              "text": "Users appreciate transparent per-seat pricing model",
-              "url": "https://www.reddit.com/search/?q=lavender+ai+email+review&sort=top"
+              "text": "Users appreciate transparent per-seat pricing model"
             }
           ]
         },
@@ -287,18 +274,15 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Individual rep usage praised; team deployment features described as early-stage",
-              "url": "https://www.g2.com/products/lavender/reviews"
+              "text": "Individual rep usage praised; team deployment features described as early-stage"
             },
             {
               "source": "Vendor",
-              "text": "Team dashboards available but enterprise-scale features still in development",
-              "url": "https://help.lavender.ai"
+              "text": "Team dashboards available but enterprise-scale features still in development"
             },
             {
               "source": "Reddit",
-              "text": "Teams of 5-10 report good results; larger deployments less documented",
-              "url": "https://www.reddit.com/search/?q=lavender+ai+email+review&sort=top"
+              "text": "Teams of 5-10 report good results; larger deployments less documented"
             }
           ]
         }
@@ -310,19 +294,23 @@
       "sourcePills": [
         {
           "label": "G2: 4.8/5 (62 reviews)",
+          "source": "G2",
           "url": "https://www.g2.com/products/lavender/reviews"
         },
         {
           "label": "Reddit: 7+ threads",
-          "url": "https://www.reddit.com/search/?q=lavender+ai+email+review&sort=top"
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/sales/search/?q=lavender+email+ai&sort=top"
         },
         {
           "label": "YouTube: 5+ demos",
-          "url": "https://www.youtube.com/results?search_query=lavender+review+demo"
+          "source": "YouTube",
+          "url": "https://www.youtube.com/results?search_query=lavender+ai+email+review+demo"
         },
         {
           "label": "Vendor docs &#10003;",
-          "url": null
+          "source": "Vendor docs &#10003;",
+          "url": "https://help.lavender.ai"
         }
       ],
       "freshness": [
@@ -333,19 +321,27 @@
       "evidenceGrid": [
         {
           "icon": "&#x1F4CA;",
-          "text": "<strong>Review sentiment:</strong> Praise: instant email scoring measurably improves reply rates. Complaint: limited value beyond email"
+          "text": "<strong>Review sentiment:</strong> Praise: instant email scoring measurably improves reply rates. Complaint: limited value beyond email",
+          "source": "Review sentiment",
+          "url": "https://www.g2.com/products/lavender/reviews"
         },
         {
           "icon": "&#x1F4AC;",
-          "text": "<strong>Community workflows:</strong> Real-time coaching in Gmail/Outlook, team performance dashboards"
+          "text": "<strong>Community workflows:</strong> Real-time coaching in Gmail/Outlook, team performance dashboards",
+          "source": "Community",
+          "url": null
         },
         {
           "icon": "&#x1F3A5;",
-          "text": "<strong>Demo-verified:</strong> Chrome extension, email scoring UI, personalization suggestions"
+          "text": "<strong>Demo-verified:</strong> Chrome extension, email scoring UI, personalization suggestions",
+          "source": "Demo-verified",
+          "url": "https://www.youtube.com/results?search_query=lavender+ai+email+review+demo"
         },
         {
           "icon": "&#x1F4C4;",
-          "text": "<strong>Docs verified:</strong> Pricing published, Gmail/Outlook/Salesloft integrations"
+          "text": "<strong>Docs verified:</strong> Pricing published, Gmail/Outlook/Salesloft integrations",
+          "source": "Docs-verified",
+          "url": "https://help.lavender.ai"
         }
       ],
       "strengthThemes": [
@@ -372,8 +368,7 @@
           "Reddit: 4 threads"
         ],
         "quote": "\"My reply rates went from 3% to 11% in the first month. The real-time scoring forced me to rewrite every lazy email, and the habits stuck even when I turned it off.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/lavender/reviews"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
       },
       {
         "sentiment": "mixed",
@@ -385,8 +380,7 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"After six months I could predict the score before I even ran it. The coaching worked &mdash; I internalized the patterns &mdash; but now I'm paying $49/mo for a tool I've outgrown.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/lavender/reviews"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
       },
       {
         "sentiment": "positive",
@@ -398,8 +392,7 @@
           "Reddit: 5 threads"
         ],
         "quote": "\"Installed the Chrome extension and it was scoring my emails within sixty seconds. No onboarding call, no setup wizard &mdash; it just works inside Gmail like it was always there.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/lavender/reviews"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
       },
       {
         "sentiment": "negative",
@@ -411,8 +404,7 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"Lavender is brilliant for what it does &mdash; email coaching &mdash; but that's literally all it does. You still need a separate tool for sequences, tracking, and LinkedIn outreach.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/lavender/reviews"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
       },
       {
         "sentiment": "positive",
@@ -424,8 +416,7 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"Within one week our new SDRs were writing emails that scored 90+. The coaching loop is so tight that bad habits don't have time to form &mdash; it's like having a writing coach on every send.\"",
-        "quoteCite": "Synthesized from G2 reviews and sales community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/lavender/reviews"
+        "quoteCite": "Synthesized from G2 reviews and sales community discussions"
       }
     ],
     "pricingBreakdown": {
@@ -687,8 +678,5 @@
     "secondaryUrl": "https://www.g2.com/products/lavender/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "g2Reviews": {
-    "link": "https://www.g2.com/products/lavender/reviews"
   }
 }
