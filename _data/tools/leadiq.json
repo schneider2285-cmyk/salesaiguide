@@ -70,12 +70,21 @@
     "updated": "Updated February 2026",
     "dataSource": "Data from G2 & leadiq.com",
     "personaTags": [
-      { "class": "for-reps", "text": "For Reps" }
+      {
+        "class": "for-reps",
+        "text": "For Reps"
+      }
     ]
   },
   "scores": {
-    "org": { "value": 60, "verdict": "Decent team features but not enterprise-grade" },
-    "rep": { "value": 68, "verdict": "Strong LinkedIn workflow with AI personalization" }
+    "org": {
+      "value": 60,
+      "verdict": "Decent team features but not enterprise-grade"
+    },
+    "rep": {
+      "value": 68,
+      "verdict": "Strong LinkedIn workflow with AI personalization"
+    }
   },
   "quickSummary": {
     "whatItDoes": "LinkedIn prospecting tool with real-time email and phone capture, CRM sync, and AI-powered personalized first lines via Scribe AI.",
@@ -91,12 +100,30 @@
     "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/leadiq/reviews\" target=\"_blank\" rel=\"noopener\">LeadIQ on G2</a>."
   },
   "features": [
-    { "title": "Scribe AI", "description": "AI-generated personalized first lines based on LinkedIn activity and company news." },
-    { "title": "Chrome Extension", "description": "Capture emails and phones from LinkedIn profiles with one click." },
-    { "title": "CRM Sync", "description": "Real-time push to Salesforce, HubSpot, Outreach, and Salesloft." },
-    { "title": "Job Change Alerts", "description": "Track when prospects change jobs and get notified for re-engagement." },
-    { "title": "Free Tier", "description": "20 verified work emails per week and 10 mobile numbers per month at no cost." },
-    { "title": "Contact Verification", "description": "Real-time email verification to reduce bounce rates on captured contacts." }
+    {
+      "title": "Scribe AI",
+      "description": "AI-generated personalized first lines based on LinkedIn activity and company news."
+    },
+    {
+      "title": "Chrome Extension",
+      "description": "Capture emails and phones from LinkedIn profiles with one click."
+    },
+    {
+      "title": "CRM Sync",
+      "description": "Real-time push to Salesforce, HubSpot, Outreach, and Salesloft."
+    },
+    {
+      "title": "Job Change Alerts",
+      "description": "Track when prospects change jobs and get notified for re-engagement."
+    },
+    {
+      "title": "Free Tier",
+      "description": "20 verified work emails per week and 10 mobile numbers per month at no cost."
+    },
+    {
+      "title": "Contact Verification",
+      "description": "Real-time email verification to reduce bounce rates on captured contacts."
+    }
   ],
   "pricing": {
     "note": "Pricing from leadiq.com. Verify on their site before purchasing.",
@@ -156,34 +183,182 @@
   "g2Reviews": {
     "intro": "Based on 900+ reviews on G2 (4.2/5 rating):",
     "pros": [
-      { "bold": "Scribe AI personalization", "text": "AI-generated first lines save significant time on cold outreach" },
-      { "bold": "LinkedIn integration", "text": "Chrome extension captures contacts seamlessly from LinkedIn" },
-      { "bold": "CRM sync reliability", "text": "Real-time push to Salesforce and HubSpot works well" },
-      { "bold": "Job change tracking", "text": "Alerts when prospects move companies enable warm re-engagement" },
-      { "bold": "Free tier", "text": "Generous enough for light prospecting without commitment" }
+      {
+        "bold": "Scribe AI personalization",
+        "text": "AI-generated first lines save significant time on cold outreach"
+      },
+      {
+        "bold": "LinkedIn integration",
+        "text": "Chrome extension captures contacts seamlessly from LinkedIn"
+      },
+      {
+        "bold": "CRM sync reliability",
+        "text": "Real-time push to Salesforce and HubSpot works well"
+      },
+      {
+        "bold": "Job change tracking",
+        "text": "Alerts when prospects move companies enable warm re-engagement"
+      },
+      {
+        "bold": "Free tier",
+        "text": "Generous enough for light prospecting without commitment"
+      }
     ],
     "cons": [
-      { "bold": "Smaller database", "text": "Less coverage than Apollo or ZoomInfo for niche contacts" },
-      { "bold": "Mobile number limits", "text": "Phone number credits are restrictive even on paid plans" },
-      { "bold": "Scribe quality varies", "text": "AI-generated lines sometimes feel generic or off-target" },
-      { "bold": "No email sending", "text": "Data capture only; needs separate tool for outreach" },
-      { "bold": "UI complexity", "text": "Dashboard could be more intuitive for managing lists" }
+      {
+        "bold": "Smaller database",
+        "text": "Less coverage than Apollo or ZoomInfo for niche contacts"
+      },
+      {
+        "bold": "Mobile number limits",
+        "text": "Phone number credits are restrictive even on paid plans"
+      },
+      {
+        "bold": "Scribe quality varies",
+        "text": "AI-generated lines sometimes feel generic or off-target"
+      },
+      {
+        "bold": "No email sending",
+        "text": "Data capture only; needs separate tool for outreach"
+      },
+      {
+        "bold": "UI complexity",
+        "text": "Dashboard could be more intuitive for managing lists"
+      }
     ],
     "link": "https://www.g2.com/products/leadiq/reviews"
   },
   "competitorTable": {
-    "headers": ["Feature", "LeadIQ", "Lusha", "Apollo"],
+    "headers": [
+      "Feature",
+      "LeadIQ",
+      "Lusha",
+      "Apollo"
+    ],
     "rows": [
-      { "feature": "G2 Rating", "featureBold": true, "values": [{ "text": "4.2/5 (900+)" }, { "text": "4.3/5 (1,400+)" }, { "text": "4.8/5 (7,200)" }] },
-      { "feature": "AI Writing", "featureBold": false, "values": [{ "text": "&#10003; Scribe AI", "class": "check" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "Free Tier", "featureBold": false, "values": [{ "text": "&#10003; 20 emails/wk", "class": "check" }, { "text": "&#10003; 5 credits", "class": "check" }, { "text": "&#10003; 150 credits", "class": "check" }] },
-      { "feature": "Job Change Alerts", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "Email Sending", "featureBold": false, "values": [{ "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "Starting Price", "featureBold": false, "values": [{ "text": "$39/mo" }, { "text": "$29/mo" }, { "text": "$49/mo" }] },
-      { "feature": "Database Size", "featureBold": false, "values": [{ "text": "100M+" }, { "text": "100M+" }, { "text": "275M+" }] }
+      {
+        "feature": "G2 Rating",
+        "featureBold": true,
+        "values": [
+          {
+            "text": "4.2/5 (900+)"
+          },
+          {
+            "text": "4.3/5 (1,400+)"
+          },
+          {
+            "text": "4.8/5 (7,200)"
+          }
+        ]
+      },
+      {
+        "feature": "AI Writing",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003; Scribe AI",
+            "class": "check"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Free Tier",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003; 20 emails/wk",
+            "class": "check"
+          },
+          {
+            "text": "&#10003; 5 credits",
+            "class": "check"
+          },
+          {
+            "text": "&#10003; 150 credits",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Job Change Alerts",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Email Sending",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Starting Price",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "$39/mo"
+          },
+          {
+            "text": "$29/mo"
+          },
+          {
+            "text": "$49/mo"
+          }
+        ]
+      },
+      {
+        "feature": "Database Size",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "100M+"
+          },
+          {
+            "text": "100M+"
+          },
+          {
+            "text": "275M+"
+          }
+        ]
+      }
     ],
     "seeFullLinks": [
-      { "text": "LeadIQ vs Lusha", "url": "/compare/leadiq-vs-lusha.html" }
+      {
+        "text": "LeadIQ vs Lusha",
+        "url": "/compare/leadiq-vs-lusha.html"
+      }
     ]
   },
   "whoIsFor": {
@@ -226,12 +401,30 @@
       }
     },
     "subScores": [
-      { "label": "Enterprise Fit", "score": "5/10" },
-      { "label": "Ease of Adoption", "score": "8/10" },
-      { "label": "AI Depth", "score": "7/10" },
-      { "label": "Integration Depth", "score": "7/10" },
-      { "label": "Pricing Transparency", "score": "8/10" },
-      { "label": "Scalability", "score": "6/10" }
+      {
+        "label": "Enterprise Fit",
+        "score": "5/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "8/10"
+      },
+      {
+        "label": "AI Depth",
+        "score": "7/10"
+      },
+      {
+        "label": "Integration Depth",
+        "score": "7/10"
+      },
+      {
+        "label": "Pricing Transparency",
+        "score": "8/10"
+      },
+      {
+        "label": "Scalability",
+        "score": "6/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
@@ -241,10 +434,26 @@
           "score": 5,
           "notes": "Team features exist; better suited for mid-market than enterprise",
           "evidence": [
-            { "source": "G2", "text": "Mid-market teams rate highly; enterprise reviewers note limited admin controls" },
-            { "source": "Vendor", "text": "Enterprise plan exists with custom pricing and dedicated support" },
-            { "source": "TrustRadius", "text": "Teams of 10-30 SDRs report good fit; larger orgs may need more governance" },
-            { "source": "Reddit", "text": "Recommended for startup and mid-market SDR teams in multiple threads" }
+            {
+              "source": "G2",
+              "text": "Mid-market teams rate highly; enterprise reviewers note limited admin controls",
+              "url": "https://www.g2.com/products/leadiq/reviews"
+            },
+            {
+              "source": "Vendor",
+              "text": "Enterprise plan exists with custom pricing and dedicated support",
+              "url": "https://help.leadiq.com"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Teams of 10-30 SDRs report good fit; larger orgs may need more governance",
+              "url": "https://www.trustradius.com/products/leadiq/reviews"
+            },
+            {
+              "source": "Reddit",
+              "text": "Recommended for startup and mid-market SDR teams in multiple threads",
+              "url": "https://www.reddit.com/search/?q=leadiq+review&sort=top"
+            }
           ]
         },
         {
@@ -252,10 +461,26 @@
           "score": 8,
           "notes": "Chrome extension installs quickly; LinkedIn workflow integration is natural",
           "evidence": [
-            { "source": "G2", "text": "85%+ of reviewers rate ease of use 4/5 or higher" },
-            { "source": "Vendor", "text": "Chrome extension onboarding designed for under 10 minutes" },
-            { "source": "Capterra", "text": "Reps report productive within first day of installation" },
-            { "source": "Reddit", "text": "Praised for intuitive LinkedIn integration in r/sales threads" }
+            {
+              "source": "G2",
+              "text": "85%+ of reviewers rate ease of use 4/5 or higher",
+              "url": "https://www.g2.com/products/leadiq/reviews"
+            },
+            {
+              "source": "Vendor",
+              "text": "Chrome extension onboarding designed for under 10 minutes",
+              "url": "https://help.leadiq.com"
+            },
+            {
+              "source": "Capterra",
+              "text": "Reps report productive within first day of installation",
+              "url": "https://www.capterra.com/leadiq/software/1017504/"
+            },
+            {
+              "source": "Reddit",
+              "text": "Praised for intuitive LinkedIn integration in r/sales threads",
+              "url": "https://www.reddit.com/search/?q=leadiq+review&sort=top"
+            }
           ]
         },
         {
@@ -263,10 +488,26 @@
           "score": 7,
           "notes": "Scribe AI for personalized first lines is genuinely useful; not as deep as Clay's AI",
           "evidence": [
-            { "source": "G2", "text": "Scribe AI praised for saving 30-60 minutes per day on personalization" },
-            { "source": "Vendor", "text": "Scribe uses LinkedIn activity, job changes, and company news for context" },
-            { "source": "Reddit", "text": "Users report Scribe quality varies; works best with detailed LinkedIn profiles" },
-            { "source": "TrustRadius", "text": "AI personalization cited as the main reason for choosing LeadIQ over Lusha" }
+            {
+              "source": "G2",
+              "text": "Scribe AI praised for saving 30-60 minutes per day on personalization",
+              "url": "https://www.g2.com/products/leadiq/reviews"
+            },
+            {
+              "source": "Vendor",
+              "text": "Scribe uses LinkedIn activity, job changes, and company news for context",
+              "url": "https://help.leadiq.com"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users report Scribe quality varies; works best with detailed LinkedIn profiles",
+              "url": "https://www.reddit.com/search/?q=leadiq+review&sort=top"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "AI personalization cited as the main reason for choosing LeadIQ over Lusha",
+              "url": "https://www.trustradius.com/products/leadiq/reviews"
+            }
           ]
         },
         {
@@ -274,10 +515,26 @@
           "score": 7,
           "notes": "Salesforce, HubSpot, Outreach, Salesloft native connectors; real-time sync",
           "evidence": [
-            { "source": "G2", "text": "CRM sync reliability rated 4.3/5 across paid plan reviewers" },
-            { "source": "Vendor", "text": "Native Salesforce, HubSpot, Outreach, and Salesloft integrations" },
-            { "source": "Capterra", "text": "Real-time CRM push praised; occasional sync delays reported" },
-            { "source": "TrustRadius", "text": "Integration depth solid for mid-market; fewer options than enterprise tools" }
+            {
+              "source": "G2",
+              "text": "CRM sync reliability rated 4.3/5 across paid plan reviewers",
+              "url": "https://www.g2.com/products/leadiq/reviews"
+            },
+            {
+              "source": "Vendor",
+              "text": "Native Salesforce, HubSpot, Outreach, and Salesloft integrations",
+              "url": "https://help.leadiq.com"
+            },
+            {
+              "source": "Capterra",
+              "text": "Real-time CRM push praised; occasional sync delays reported",
+              "url": "https://www.capterra.com/leadiq/software/1017504/"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Integration depth solid for mid-market; fewer options than enterprise tools",
+              "url": "https://www.trustradius.com/products/leadiq/reviews"
+            }
           ]
         },
         {
@@ -285,9 +542,21 @@
           "score": 8,
           "notes": "Public pricing with free tier; clear credit allocations per plan",
           "evidence": [
-            { "source": "Vendor", "text": "All pricing published on leadiq.com with detailed feature breakdowns" },
-            { "source": "G2", "text": "Transparent pricing appreciated vs. enterprise tools requiring sales calls" },
-            { "source": "Reddit", "text": "Users recommend starting on free tier before upgrading to Essential" }
+            {
+              "source": "Vendor",
+              "text": "All pricing published on leadiq.com with detailed feature breakdowns",
+              "url": "https://help.leadiq.com"
+            },
+            {
+              "source": "G2",
+              "text": "Transparent pricing appreciated vs. enterprise tools requiring sales calls",
+              "url": "https://www.g2.com/products/leadiq/reviews"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users recommend starting on free tier before upgrading to Essential",
+              "url": "https://www.reddit.com/search/?q=leadiq+review&sort=top"
+            }
           ]
         },
         {
@@ -295,9 +564,21 @@
           "score": 6,
           "notes": "Credit limits can constrain high-volume teams; not built for 50+ seat deployments",
           "evidence": [
-            { "source": "G2", "text": "Teams of 20+ report hitting credit ceilings on Essential plans" },
-            { "source": "Reddit", "text": "Cost per lead increases at scale vs. Apollo or ZoomInfo" },
-            { "source": "TrustRadius", "text": "Best fit for 5-25 seat SDR teams; larger teams may need supplementary tools" }
+            {
+              "source": "G2",
+              "text": "Teams of 20+ report hitting credit ceilings on Essential plans",
+              "url": "https://www.g2.com/products/leadiq/reviews"
+            },
+            {
+              "source": "Reddit",
+              "text": "Cost per lead increases at scale vs. Apollo or ZoomInfo",
+              "url": "https://www.reddit.com/search/?q=leadiq+review&sort=top"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Best fit for 5-25 seat SDR teams; larger teams may need supplementary tools",
+              "url": "https://www.trustradius.com/products/leadiq/reviews"
+            }
           ]
         }
       ]
@@ -313,15 +594,27 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 955+ total reviews across 2 verified platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 955+ total reviews across 2 verified platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
-        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: Scribe AI and LinkedIn workflow. Complaint: database size and mobile credit limits" },
-        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> LinkedIn prospecting, Scribe AI personalization, CRM enrichment" },
-        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Chrome extension, Scribe AI, CRM sync, job change alerts" },
-        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Pricing tiers, credit allocations, integration documentation" }
+        {
+          "icon": "&#x1F4CA;",
+          "text": "<strong>Review sentiment:</strong> Praise: Scribe AI and LinkedIn workflow. Complaint: database size and mobile credit limits"
+        },
+        {
+          "icon": "&#x1F4AC;",
+          "text": "<strong>Community workflows:</strong> LinkedIn prospecting, Scribe AI personalization, CRM enrichment"
+        },
+        {
+          "icon": "&#x1F3A5;",
+          "text": "<strong>Demo-verified:</strong> Chrome extension, Scribe AI, CRM sync, job change alerts"
+        },
+        {
+          "icon": "&#x1F4C4;",
+          "text": "<strong>Docs verified:</strong> Pricing tiers, credit allocations, integration documentation"
+        }
       ],
       "strengthThemes": [
         "Scribe AI saves reps 30-60 minutes per day on personalization",
@@ -342,7 +635,11 @@
         "sentimentIcon": "&#9650;",
         "heading": "Scribe AI makes personalized outreach actually scalable",
         "synthesis": "The standout feature across all review platforms: Scribe AI generates personalized first lines that save reps 30-60 minutes per day. Users report it pulls from LinkedIn activity, job changes, and company news to create contextually relevant opening lines that feel human-written.",
-        "sources": ["G2: 87 mentions", "TrustRadius: 14 mentions", "Reddit: 5 threads"],
+        "sources": [
+          "G2: 87 mentions",
+          "TrustRadius: 14 mentions",
+          "Reddit: 5 threads"
+        ],
         "quote": "\"Scribe AI cut my first-line writing time by 75%. It pulls from LinkedIn posts and job changes to create openers that actually reference something relevant to the prospect.\"",
         "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
@@ -351,7 +648,11 @@
         "sentimentIcon": "&#9660;",
         "heading": "Mobile number credits run out too fast",
         "synthesis": "The most consistent complaint: mobile number allocations are too low on all plans. Even the Pro plan's 70 mobile numbers per month isn't enough for reps who cold call as a primary channel. Teams that rely on phone outreach often need supplementary data sources.",
-        "sources": ["G2: 62 mentions", "Reddit: 6 threads", "Capterra: 15 mentions"],
+        "sources": [
+          "G2: 62 mentions",
+          "Reddit: 6 threads",
+          "Capterra: 15 mentions"
+        ],
         "quote": "\"The email data is solid, but 30 mobile numbers per month on Essential? I burn through that in two days of cold calling. Had to keep my Lusha subscription just for phone numbers.\"",
         "quoteCite": "Synthesized from G2 and Capterra review themes"
       },
@@ -360,7 +661,11 @@
         "sentimentIcon": "&#9644;",
         "heading": "Good LinkedIn tool but not a complete prospecting platform",
         "synthesis": "Users consistently praise LeadIQ for LinkedIn workflows but note it's not a standalone solution. The lack of email sending, limited database compared to Apollo, and credit-based model mean most teams pair it with other tools. It excels in its niche but doesn't try to be everything.",
-        "sources": ["G2: 45 mentions", "TrustRadius: 8 mentions", "Reddit: 4 threads"],
+        "sources": [
+          "G2: 45 mentions",
+          "TrustRadius: 8 mentions",
+          "Reddit: 4 threads"
+        ],
         "quote": "\"LeadIQ is my favorite tool for LinkedIn prospecting, but it's not an all-in-one. I use it with Outreach for sequences and Apollo when I need broader database access.\"",
         "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       }
@@ -396,21 +701,60 @@
     ],
     "implementationReality": {
       "stats": [
-        { "number": "< 1 day", "label": "Time to Value" },
-        { "number": "Low", "label": "Setup Complexity" },
-        { "number": "Light", "label": "RevOps Lift" },
-        { "number": "Light", "label": "Training Required" },
-        { "number": "None", "label": "Data Migration" }
+        {
+          "number": "< 1 day",
+          "label": "Time to Value"
+        },
+        {
+          "number": "Low",
+          "label": "Setup Complexity"
+        },
+        {
+          "number": "Light",
+          "label": "RevOps Lift"
+        },
+        {
+          "number": "Light",
+          "label": "Training Required"
+        },
+        {
+          "number": "None",
+          "label": "Data Migration"
+        }
       ],
       "note": "Chrome extension installs in minutes. CRM integration takes 15-30 minutes. Most reps are productive on day one."
     },
     "enterpriseReadiness": [
-      { "label": "SSO / SAML", "value": "Enterprise plan only", "class": "dm-partial" },
-      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
-      { "label": "GDPR", "value": "GDPR compliant", "class": "dm-available" },
-      { "label": "RBAC", "value": "Basic team roles on Pro+", "class": "dm-partial" },
-      { "label": "Data Residency", "value": "US-hosted; no EU option listed", "class": "dm-partial" },
-      { "label": "SLA", "value": "Enterprise SLA available", "class": "dm-partial" }
+      {
+        "label": "SSO / SAML",
+        "value": "Enterprise plan only",
+        "class": "dm-partial"
+      },
+      {
+        "label": "SOC 2",
+        "value": "SOC 2 Type II certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "GDPR",
+        "value": "GDPR compliant",
+        "class": "dm-available"
+      },
+      {
+        "label": "RBAC",
+        "value": "Basic team roles on Pro+",
+        "class": "dm-partial"
+      },
+      {
+        "label": "Data Residency",
+        "value": "US-hosted; no EU option listed",
+        "class": "dm-partial"
+      },
+      {
+        "label": "SLA",
+        "value": "Enterprise SLA available",
+        "class": "dm-partial"
+      }
     ],
     "whoThisIsFor": {
       "org": {
@@ -432,21 +776,71 @@
     },
     "stackPairings": {
       "cards": [
-        { "title": "Outreach", "titleLink": "outreach-review.html", "description": "LeadIQ captures contacts; Outreach runs multi-channel sequences." },
-        { "title": "Salesloft", "titleLink": "salesloft-review.html", "description": "LeadIQ feeds leads; Salesloft executes cadences." },
-        { "title": "HubSpot CRM", "titleLink": "hubspot-review.html", "description": "Real-time sync pushes LeadIQ contacts into HubSpot pipeline." },
-        { "title": "Gong", "titleLink": "gong-review.html", "description": "LeadIQ finds prospects; Gong records the conversations." },
-        { "title": "Lavender", "titleLink": "lavender-review.html", "description": "LeadIQ's Scribe AI + Lavender for end-to-end email optimization." }
+        {
+          "title": "Outreach",
+          "titleLink": "outreach-review.html",
+          "description": "LeadIQ captures contacts; Outreach runs multi-channel sequences."
+        },
+        {
+          "title": "Salesloft",
+          "titleLink": "salesloft-review.html",
+          "description": "LeadIQ feeds leads; Salesloft executes cadences."
+        },
+        {
+          "title": "HubSpot CRM",
+          "titleLink": "hubspot-review.html",
+          "description": "Real-time sync pushes LeadIQ contacts into HubSpot pipeline."
+        },
+        {
+          "title": "Gong",
+          "titleLink": "gong-review.html",
+          "description": "LeadIQ finds prospects; Gong records the conversations."
+        },
+        {
+          "title": "Lavender",
+          "titleLink": "lavender-review.html",
+          "description": "LeadIQ's Scribe AI + Lavender for end-to-end email optimization."
+        }
       ],
       "exampleStack": "LeadIQ (prospect + personalize) &#8594; Outreach (sequence) &#8594; Salesforce (CRM) &#8594; Gong (calls)"
     },
     "alternatives": {
       "rows": [
-        { "tool": "Lusha", "toolLink": "lusha-review.html", "bestFor": "Simpler and cheaper contact lookup", "g2": "4.3/5", "price": "From $29/mo" },
-        { "tool": "Apollo.io", "toolLink": "apollo-review.html", "bestFor": "All-in-one prospecting + sending", "g2": "4.8/5", "price": "From $49/mo" },
-        { "tool": "Cognism", "toolLink": "cognism-review.html", "bestFor": "EMEA data with verified mobiles", "g2": "4.6/5", "price": "Custom" },
-        { "tool": "ZoomInfo", "toolLink": "zoominfo-review.html", "bestFor": "Enterprise-grade B2B data", "g2": "4.4/5", "price": "From $15K/yr" },
-        { "tool": "Clay", "toolLink": "clay-review.html", "bestFor": "Multi-source waterfall enrichment", "g2": "4.9/5", "price": "From $149/mo" }
+        {
+          "tool": "Lusha",
+          "toolLink": "lusha-review.html",
+          "bestFor": "Simpler and cheaper contact lookup",
+          "g2": "4.3/5",
+          "price": "From $29/mo"
+        },
+        {
+          "tool": "Apollo.io",
+          "toolLink": "apollo-review.html",
+          "bestFor": "All-in-one prospecting + sending",
+          "g2": "4.8/5",
+          "price": "From $49/mo"
+        },
+        {
+          "tool": "Cognism",
+          "toolLink": "cognism-review.html",
+          "bestFor": "EMEA data with verified mobiles",
+          "g2": "4.6/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "ZoomInfo",
+          "toolLink": "zoominfo-review.html",
+          "bestFor": "Enterprise-grade B2B data",
+          "g2": "4.4/5",
+          "price": "From $15K/yr"
+        },
+        {
+          "tool": "Clay",
+          "toolLink": "clay-review.html",
+          "bestFor": "Multi-source waterfall enrichment",
+          "g2": "4.9/5",
+          "price": "From $149/mo"
+        }
       ]
     },
     "faqs": [
@@ -477,22 +871,49 @@
     "altText": "See Alternatives",
     "altUrl": "/compare/index.html",
     "atAGlance": [
-      { "label": "G2 Rating", "value": "4.2/5" },
-      { "label": "G2 Reviews", "value": "900+" },
-      { "label": "Starting Price", "value": "Free / $39/mo" },
-      { "label": "Category", "value": "Prospecting" },
-      { "label": "Free Trial", "value": "Yes (free tier)" }
+      {
+        "label": "G2 Rating",
+        "value": "4.2/5"
+      },
+      {
+        "label": "G2 Reviews",
+        "value": "900+"
+      },
+      {
+        "label": "Starting Price",
+        "value": "Free / $39/mo"
+      },
+      {
+        "label": "Category",
+        "value": "Prospecting"
+      },
+      {
+        "label": "Free Trial",
+        "value": "Yes (free tier)"
+      }
     ],
     "ctaUrl": "/go/leadiq",
     "comparisons": [
-      { "text": "LeadIQ vs Lusha", "url": "/compare/leadiq-vs-lusha.html" }
+      {
+        "text": "LeadIQ vs Lusha",
+        "url": "/compare/leadiq-vs-lusha.html"
+      }
     ],
     "externalReviews": [
-      { "text": "G2 Reviews", "url": "https://www.g2.com/products/leadiq/reviews" }
+      {
+        "text": "G2 Reviews",
+        "url": "https://www.g2.com/products/leadiq/reviews"
+      }
     ],
     "relatedGuides": [
-      { "text": "Best Data Enrichment Tools", "url": "/guides/best-data-enrichment-tools.html" },
-      { "text": "Best Sales Intelligence Tools", "url": "/guides/best-sales-intelligence-tools.html" }
+      {
+        "text": "Best Data Enrichment Tools",
+        "url": "/guides/best-data-enrichment-tools.html"
+      },
+      {
+        "text": "Best Sales Intelligence Tools",
+        "url": "/guides/best-sales-intelligence-tools.html"
+      }
     ],
     "emailCard": {
       "heading": "Weekly Tool Intel",

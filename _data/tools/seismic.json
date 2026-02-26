@@ -70,12 +70,21 @@
     "updated": "Updated February 2026",
     "dataSource": "Data from G2 & seismic.com",
     "personaTags": [
-      { "class": "requires-admin", "text": "Requires Admin" }
+      {
+        "class": "requires-admin",
+        "text": "Requires Admin"
+      }
     ]
   },
   "scores": {
-    "org": { "value": 74, "verdict": "Enterprise-grade content enablement platform" },
-    "rep": { "value": 58, "verdict": "Reps find content; admins manage it" }
+    "org": {
+      "value": 74,
+      "verdict": "Enterprise-grade content enablement platform"
+    },
+    "rep": {
+      "value": 58,
+      "verdict": "Reps find content; admins manage it"
+    }
   },
   "quickSummary": {
     "whatItDoes": "Sales content management platform that helps reps find, personalize, and share the right content at the right time. AI recommends content based on deal stage and buyer persona, and LiveSend tracks prospect engagement after sharing.",
@@ -91,12 +100,30 @@
     "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/seismic/reviews\" target=\"_blank\" rel=\"noopener\">Seismic on G2</a>."
   },
   "features": [
-    { "title": "Sales Content Management", "description": "Centralized content library with version control, tagging, and governance for enterprise sales teams." },
-    { "title": "AI Content Recommendations", "description": "AI suggests the right content based on deal stage, buyer persona, and historical engagement data." },
-    { "title": "LiveSend Engagement Tracking", "description": "Tracks what prospects view, how long they engage, and which pages they revisit after content is shared." },
-    { "title": "Content Personalization", "description": "Reps customize sales decks and documents with buyer-specific data pulled from CRM fields." },
-    { "title": "Predictive Content Scoring", "description": "AI scores content effectiveness based on usage patterns and deal outcomes across the org." },
-    { "title": "Content Analytics & Reporting", "description": "Dashboards showing content usage, effectiveness, and ROI across teams and regions." }
+    {
+      "title": "Sales Content Management",
+      "description": "Centralized content library with version control, tagging, and governance for enterprise sales teams."
+    },
+    {
+      "title": "AI Content Recommendations",
+      "description": "AI suggests the right content based on deal stage, buyer persona, and historical engagement data."
+    },
+    {
+      "title": "LiveSend Engagement Tracking",
+      "description": "Tracks what prospects view, how long they engage, and which pages they revisit after content is shared."
+    },
+    {
+      "title": "Content Personalization",
+      "description": "Reps customize sales decks and documents with buyer-specific data pulled from CRM fields."
+    },
+    {
+      "title": "Predictive Content Scoring",
+      "description": "AI scores content effectiveness based on usage patterns and deal outcomes across the org."
+    },
+    {
+      "title": "Content Analytics & Reporting",
+      "description": "Dashboards showing content usage, effectiveness, and ROI across teams and regions."
+    }
   ],
   "pricing": {
     "note": "Seismic does not publish pricing. Estimates based on G2 reviews and industry reports. Verify with vendor.",
@@ -141,34 +168,182 @@
   "g2Reviews": {
     "intro": "Based on 1,700+ reviews on G2 (4.7/5 rating):",
     "pros": [
-      { "bold": "Content organization", "text": "Centralized library makes it easy to find and manage sales materials at scale" },
-      { "bold": "LiveSend tracking", "text": "Engagement analytics show exactly what prospects view and for how long" },
-      { "bold": "AI recommendations", "text": "Content suggestions based on deal stage save reps time finding the right materials" },
-      { "bold": "Enterprise governance", "text": "Version control, approval workflows, and compliance features for regulated industries" },
-      { "bold": "CRM integration", "text": "Deep Salesforce and HubSpot integration surfaces content within seller workflows" }
+      {
+        "bold": "Content organization",
+        "text": "Centralized library makes it easy to find and manage sales materials at scale"
+      },
+      {
+        "bold": "LiveSend tracking",
+        "text": "Engagement analytics show exactly what prospects view and for how long"
+      },
+      {
+        "bold": "AI recommendations",
+        "text": "Content suggestions based on deal stage save reps time finding the right materials"
+      },
+      {
+        "bold": "Enterprise governance",
+        "text": "Version control, approval workflows, and compliance features for regulated industries"
+      },
+      {
+        "bold": "CRM integration",
+        "text": "Deep Salesforce and HubSpot integration surfaces content within seller workflows"
+      }
     ],
     "cons": [
-      { "bold": "Implementation complexity", "text": "3-6 month deployment; requires dedicated enablement team" },
-      { "bold": "Admin burden", "text": "Ongoing maintenance requires full-time admin to manage taxonomy and content" },
-      { "bold": "Pricing opacity", "text": "No public pricing; enterprise-only sales process" },
-      { "bold": "Learning curve", "text": "Platform is powerful but takes time for reps to adopt fully" },
-      { "bold": "Search limitations", "text": "Content search can be inconsistent depending on tagging quality" }
+      {
+        "bold": "Implementation complexity",
+        "text": "3-6 month deployment; requires dedicated enablement team"
+      },
+      {
+        "bold": "Admin burden",
+        "text": "Ongoing maintenance requires full-time admin to manage taxonomy and content"
+      },
+      {
+        "bold": "Pricing opacity",
+        "text": "No public pricing; enterprise-only sales process"
+      },
+      {
+        "bold": "Learning curve",
+        "text": "Platform is powerful but takes time for reps to adopt fully"
+      },
+      {
+        "bold": "Search limitations",
+        "text": "Content search can be inconsistent depending on tagging quality"
+      }
     ],
     "link": "https://www.g2.com/products/seismic/reviews"
   },
   "competitorTable": {
-    "headers": ["Feature", "Seismic", "Highspot", "Showpad"],
+    "headers": [
+      "Feature",
+      "Seismic",
+      "Highspot",
+      "Showpad"
+    ],
     "rows": [
-      { "feature": "G2 Rating", "featureBold": true, "values": [{ "text": "4.7/5 (1,700+)" }, { "text": "4.7/5 (1,100+)" }, { "text": "4.6/5 (1,600+)" }] },
-      { "feature": "AI Content Recs", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "Engagement Tracking", "featureBold": false, "values": [{ "text": "LiveSend", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "Content Personalization", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "Predictive Scoring", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }] },
-      { "feature": "Starting Price", "featureBold": false, "values": [{ "text": "Custom" }, { "text": "Custom" }, { "text": "Custom" }] },
-      { "feature": "Best For", "featureBold": false, "values": [{ "text": "Enterprise content mgmt" }, { "text": "Enablement + training" }, { "text": "Mid-market enablement" }] }
+      {
+        "feature": "G2 Rating",
+        "featureBold": true,
+        "values": [
+          {
+            "text": "4.7/5 (1,700+)"
+          },
+          {
+            "text": "4.7/5 (1,100+)"
+          },
+          {
+            "text": "4.6/5 (1,600+)"
+          }
+        ]
+      },
+      {
+        "feature": "AI Content Recs",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Engagement Tracking",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "LiveSend",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Content Personalization",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Predictive Scoring",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          }
+        ]
+      },
+      {
+        "feature": "Starting Price",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "Custom"
+          },
+          {
+            "text": "Custom"
+          },
+          {
+            "text": "Custom"
+          }
+        ]
+      },
+      {
+        "feature": "Best For",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "Enterprise content mgmt"
+          },
+          {
+            "text": "Enablement + training"
+          },
+          {
+            "text": "Mid-market enablement"
+          }
+        ]
+      }
     ],
     "seeFullLinks": [
-      { "text": "Seismic vs Highspot", "url": "/compare/seismic-vs-highspot.html" }
+      {
+        "text": "Seismic vs Highspot",
+        "url": "/compare/seismic-vs-highspot.html"
+      }
     ]
   },
   "whoIsFor": {
@@ -211,12 +386,30 @@
       }
     },
     "subScores": [
-      { "label": "Enterprise Fit", "score": "10/10" },
-      { "label": "Ease of Adoption", "score": "4/10" },
-      { "label": "AI Depth", "score": "8/10" },
-      { "label": "Integration Depth", "score": "9/10" },
-      { "label": "Pricing Transparency", "score": "2/10" },
-      { "label": "Scalability", "score": "9/10" }
+      {
+        "label": "Enterprise Fit",
+        "score": "10/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "4/10"
+      },
+      {
+        "label": "AI Depth",
+        "score": "8/10"
+      },
+      {
+        "label": "Integration Depth",
+        "score": "9/10"
+      },
+      {
+        "label": "Pricing Transparency",
+        "score": "2/10"
+      },
+      {
+        "label": "Scalability",
+        "score": "9/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
@@ -226,10 +419,26 @@
           "score": 10,
           "notes": "SOC 2; GDPR; SSO; enterprise-grade governance and compliance",
           "evidence": [
-            { "source": "Vendor", "text": "SOC 2 Type II certified; GDPR compliant; SAML SSO; enterprise RBAC and governance controls" },
-            { "source": "G2", "text": "Enterprise reviewers (1000+ employees) rate security and compliance 4.7/5 across 1,700+ reviews" },
-            { "source": "Gartner PI", "text": "Recognized as a leader in sales enablement for Fortune 500 and global enterprise customers" },
-            { "source": "TrustRadius", "text": "Enterprise buyers confirm SOC 2, GDPR, HIPAA readiness for regulated industries" }
+            {
+              "source": "Vendor",
+              "text": "SOC 2 Type II certified; GDPR compliant; SAML SSO; enterprise RBAC and governance controls",
+              "url": "https://help.seismic.com"
+            },
+            {
+              "source": "G2",
+              "text": "Enterprise reviewers (1000+ employees) rate security and compliance 4.7/5 across 1,700+ reviews",
+              "url": "https://www.g2.com/products/seismic/reviews"
+            },
+            {
+              "source": "Gartner PI",
+              "text": "Recognized as a leader in sales enablement for Fortune 500 and global enterprise customers",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/seismic/reviews"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Enterprise buyers confirm SOC 2, GDPR, HIPAA readiness for regulated industries",
+              "url": "https://www.trustradius.com/products/seismic/reviews"
+            }
           ]
         },
         {
@@ -237,10 +446,26 @@
           "score": 4,
           "notes": "Heavy implementation; requires dedicated enablement team",
           "evidence": [
-            { "source": "G2", "text": "Implementation rated 3.5/5; most reviews cite 3-6 month deployment timeline for full rollout" },
-            { "source": "Reddit", "text": "r/salesenablement threads report needing full-time admin and 3+ months for taxonomy setup and content migration" },
-            { "source": "Capterra", "text": "Users note CRM integration is solid but content organization and tagging setup is time-intensive" },
-            { "source": "TrustRadius", "text": "Mid-market users report 4-6 month full deployment including training and workflow configuration" }
+            {
+              "source": "G2",
+              "text": "Implementation rated 3.5/5; most reviews cite 3-6 month deployment timeline for full rollout",
+              "url": "https://www.g2.com/products/seismic/reviews"
+            },
+            {
+              "source": "Reddit",
+              "text": "r/salesenablement threads report needing full-time admin and 3+ months for taxonomy setup and content migration",
+              "url": "https://www.reddit.com/search/?q=seismic+sales+review&sort=top"
+            },
+            {
+              "source": "Capterra",
+              "text": "Users note CRM integration is solid but content organization and tagging setup is time-intensive",
+              "url": "https://www.capterra.com/seismic/software/1017500/"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Mid-market users report 4-6 month full deployment including training and workflow configuration",
+              "url": "https://www.trustradius.com/products/seismic/reviews"
+            }
           ]
         },
         {
@@ -248,10 +473,26 @@
           "score": 8,
           "notes": "AI content recommendations; predictive content scoring",
           "evidence": [
-            { "source": "G2", "text": "AI content recommendations rated as effective for surfacing relevant materials based on deal stage and persona" },
-            { "source": "Vendor", "text": "AI models analyze content usage, deal outcomes, and buyer engagement to recommend and score content" },
-            { "source": "Gartner PI", "text": "Recognized for AI-driven content intelligence capabilities in the enablement category" },
-            { "source": "YouTube", "text": "Product demos showcase AI content recommendations, predictive scoring, and LiveSend engagement analytics" }
+            {
+              "source": "G2",
+              "text": "AI content recommendations rated as effective for surfacing relevant materials based on deal stage and persona",
+              "url": "https://www.g2.com/products/seismic/reviews"
+            },
+            {
+              "source": "Vendor",
+              "text": "AI models analyze content usage, deal outcomes, and buyer engagement to recommend and score content",
+              "url": "https://help.seismic.com"
+            },
+            {
+              "source": "Gartner PI",
+              "text": "Recognized for AI-driven content intelligence capabilities in the enablement category",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/seismic/reviews"
+            },
+            {
+              "source": "YouTube",
+              "text": "Product demos showcase AI content recommendations, predictive scoring, and LiveSend engagement analytics",
+              "url": "https://www.youtube.com/results?search_query=seismic+review+demo"
+            }
           ]
         },
         {
@@ -259,10 +500,26 @@
           "score": 9,
           "notes": "Salesforce, HubSpot, Outreach, Salesloft, Teams, Slack",
           "evidence": [
-            { "source": "Vendor", "text": "Native integrations with Salesforce, HubSpot, Outreach, Salesloft, Microsoft Teams, and Slack" },
-            { "source": "G2", "text": "Integration depth rated 4.5/5; Salesforce users rate in-CRM content surfacing as seamless" },
-            { "source": "Capterra", "text": "Users confirm reliable CRM sync and content delivery within Outreach and Salesloft workflows" },
-            { "source": "TrustRadius", "text": "Enterprise users praise Teams and Slack integration for surfacing content in collaboration tools" }
+            {
+              "source": "Vendor",
+              "text": "Native integrations with Salesforce, HubSpot, Outreach, Salesloft, Microsoft Teams, and Slack",
+              "url": "https://help.seismic.com"
+            },
+            {
+              "source": "G2",
+              "text": "Integration depth rated 4.5/5; Salesforce users rate in-CRM content surfacing as seamless",
+              "url": "https://www.g2.com/products/seismic/reviews"
+            },
+            {
+              "source": "Capterra",
+              "text": "Users confirm reliable CRM sync and content delivery within Outreach and Salesloft workflows",
+              "url": "https://www.capterra.com/seismic/software/1017500/"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Enterprise users praise Teams and Slack integration for surfacing content in collaboration tools",
+              "url": "https://www.trustradius.com/products/seismic/reviews"
+            }
           ]
         },
         {
@@ -270,9 +527,21 @@
           "score": 2,
           "notes": "No public pricing; enterprise-only sales process",
           "evidence": [
-            { "source": "Vendor", "text": "Zero pricing information on website; 'Request Demo' is the only path to pricing" },
-            { "source": "Reddit", "text": "Users report $384-480/seat/year with annual commitments; pricing varies by org size and modules" },
-            { "source": "G2", "text": "Pricing transparency rated 2.1/5; consistently the lowest-scored dimension across reviews" }
+            {
+              "source": "Vendor",
+              "text": "Zero pricing information on website; 'Request Demo' is the only path to pricing",
+              "url": "https://help.seismic.com"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users report $384-480/seat/year with annual commitments; pricing varies by org size and modules",
+              "url": "https://www.reddit.com/search/?q=seismic+sales+review&sort=top"
+            },
+            {
+              "source": "G2",
+              "text": "Pricing transparency rated 2.1/5; consistently the lowest-scored dimension across reviews",
+              "url": "https://www.g2.com/products/seismic/reviews"
+            }
           ]
         },
         {
@@ -280,10 +549,26 @@
           "score": 9,
           "notes": "Built for global enterprise; multi-language, multi-region",
           "evidence": [
-            { "source": "Gartner PI", "text": "Verified deployments at Fortune 500 companies with 1,000+ seat global teams" },
-            { "source": "G2", "text": "Enterprise users report consistent performance with multi-language, multi-region content libraries" },
-            { "source": "Vendor", "text": "Architecture supports multi-language content management across global regions with localized workflows" },
-            { "source": "TrustRadius", "text": "Large deployments report strong scalability across distributed global sales organizations" }
+            {
+              "source": "Gartner PI",
+              "text": "Verified deployments at Fortune 500 companies with 1,000+ seat global teams",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/seismic/reviews"
+            },
+            {
+              "source": "G2",
+              "text": "Enterprise users report consistent performance with multi-language, multi-region content libraries",
+              "url": "https://www.g2.com/products/seismic/reviews"
+            },
+            {
+              "source": "Vendor",
+              "text": "Architecture supports multi-language content management across global regions with localized workflows",
+              "url": "https://help.seismic.com"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Large deployments report strong scalability across distributed global sales organizations",
+              "url": "https://www.trustradius.com/products/seismic/reviews"
+            }
           ]
         }
       ]
@@ -300,15 +585,27 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 2,150+ total reviews across 4 platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 2,150+ total reviews across 4 platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
-        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: content governance best-in-class. Complaint: implementation heavy, admin burden ongoing" },
-        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> Content management + LiveSend tracking, CRM-embedded content delivery" },
-        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Content library UI, AI recommendations, LiveSend analytics dashboard" },
-        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Custom pricing only, Salesforce/HubSpot integration, SOC 2 + GDPR certification" }
+        {
+          "icon": "&#x1F4CA;",
+          "text": "<strong>Review sentiment:</strong> Praise: content governance best-in-class. Complaint: implementation heavy, admin burden ongoing"
+        },
+        {
+          "icon": "&#x1F4AC;",
+          "text": "<strong>Community workflows:</strong> Content management + LiveSend tracking, CRM-embedded content delivery"
+        },
+        {
+          "icon": "&#x1F3A5;",
+          "text": "<strong>Demo-verified:</strong> Content library UI, AI recommendations, LiveSend analytics dashboard"
+        },
+        {
+          "icon": "&#x1F4C4;",
+          "text": "<strong>Docs verified:</strong> Custom pricing only, Salesforce/HubSpot integration, SOC 2 + GDPR certification"
+        }
       ],
       "strengthThemes": [
         "Enterprise content governance and compliance best-in-class",
@@ -329,7 +626,11 @@
         "sentimentIcon": "&#9650;",
         "heading": "LiveSend engagement tracking gives unique visibility into buyer behavior",
         "synthesis": "Sales teams consistently cite LiveSend as Seismic's standout feature. The ability to see exactly which pages prospects viewed, how long they spent, and which sections they revisited gives reps actionable intelligence for follow-up conversations. Enablement teams use aggregate engagement data to identify which content assets actually influence deals.",
-        "sources": ["G2: 320+ mentions", "Gartner PI: 60 mentions", "TrustRadius: 45 mentions"],
+        "sources": [
+          "G2: 320+ mentions",
+          "Gartner PI: 60 mentions",
+          "TrustRadius: 45 mentions"
+        ],
         "quote": "\"LiveSend changed how we follow up. I can see that the CFO spent 8 minutes on the ROI slide and skipped the technical section entirely. That tells me exactly how to frame my next call.\"",
         "quoteCite": "Enterprise AE, 500-person SaaS org [G2 Review, Jan 2026]"
       },
@@ -338,7 +639,11 @@
         "sentimentIcon": "&#9660;",
         "heading": "Implementation is heavy and requires dedicated enablement resources long-term",
         "synthesis": "The most common complaint across all review platforms: Seismic's implementation takes 3-6 months and requires a dedicated admin or enablement team for ongoing management. Content taxonomy, tagging, approval workflows, and CRM integration all require significant upfront and ongoing investment. Teams without enablement resources struggle to realize the platform's full value.",
-        "sources": ["G2: 280 mentions", "Reddit: 12 threads", "Capterra: 55 mentions"],
+        "sources": [
+          "G2: 280 mentions",
+          "Reddit: 12 threads",
+          "Capterra: 55 mentions"
+        ],
         "quote": "\"We underestimated the implementation effort. It took us 5 months to fully deploy, and we still need a full-time admin to manage content updates, permissions, and taxonomy. Budget for the people cost, not just the license.\"",
         "quoteCite": "VP Sales Enablement, 300-person B2B org [Reddit r/salesenablement, Nov 2025]"
       },
@@ -347,7 +652,11 @@
         "sentimentIcon": "&#9644;",
         "heading": "AI content recommendations are helpful but depend on content library quality",
         "synthesis": "Seismic's AI content recommendations receive mixed reviews. When the content library is well-organized with proper tagging and metadata, the AI effectively surfaces relevant materials for specific deal stages and buyer personas. However, teams with poorly organized content libraries report that recommendations are inconsistent or irrelevant. The AI is only as good as the content governance behind it.",
-        "sources": ["G2: 150 mentions", "TrustRadius: 35 mentions", "Capterra: 30 mentions"],
+        "sources": [
+          "G2: 150 mentions",
+          "TrustRadius: 35 mentions",
+          "Capterra: 30 mentions"
+        ],
         "quote": "\"The AI recommendations are great now, but it took us 3 months of cleanup to get our content tagged properly. Once we fixed the taxonomy, the recommendations became genuinely useful for our reps.\"",
         "quoteCite": "Sales Enablement Manager, 200-person tech company [TrustRadius Review, Dec 2025]"
       }
@@ -385,21 +694,60 @@
     ],
     "implementationReality": {
       "stats": [
-        { "number": "3&ndash;6 months", "label": "Time to Value" },
-        { "number": "High", "label": "Setup Complexity" },
-        { "number": "High", "label": "Admin Lift" },
-        { "number": "High", "label": "Training Required" },
-        { "number": "Significant", "label": "Content Migration" }
+        {
+          "number": "3&ndash;6 months",
+          "label": "Time to Value"
+        },
+        {
+          "number": "High",
+          "label": "Setup Complexity"
+        },
+        {
+          "number": "High",
+          "label": "Admin Lift"
+        },
+        {
+          "number": "High",
+          "label": "Training Required"
+        },
+        {
+          "number": "Significant",
+          "label": "Content Migration"
+        }
       ],
       "note": "Content migration, taxonomy setup, and CRM integration are the primary deployment tasks. AI recommendation quality improves over 2-3 months as usage data accumulates."
     },
     "enterpriseReadiness": [
-      { "label": "SSO / SAML", "value": "SAML SSO included", "class": "dm-available" },
-      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
-      { "label": "GDPR", "value": "GDPR compliant", "class": "dm-available" },
-      { "label": "RBAC", "value": "Full enterprise RBAC", "class": "dm-available" },
-      { "label": "SLA", "value": "Enterprise SLA available", "class": "dm-available" },
-      { "label": "Audit Logs", "value": "Full audit trail", "class": "dm-available" }
+      {
+        "label": "SSO / SAML",
+        "value": "SAML SSO included",
+        "class": "dm-available"
+      },
+      {
+        "label": "SOC 2",
+        "value": "SOC 2 Type II certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "GDPR",
+        "value": "GDPR compliant",
+        "class": "dm-available"
+      },
+      {
+        "label": "RBAC",
+        "value": "Full enterprise RBAC",
+        "class": "dm-available"
+      },
+      {
+        "label": "SLA",
+        "value": "Enterprise SLA available",
+        "class": "dm-available"
+      },
+      {
+        "label": "Audit Logs",
+        "value": "Full audit trail",
+        "class": "dm-available"
+      }
     ],
     "whoThisIsFor": {
       "org": {
@@ -421,21 +769,71 @@
     },
     "stackPairings": {
       "cards": [
-        { "title": "Salesforce CRM", "titleLink": null, "description": "Deep native integration surfaces content within Salesforce workflows." },
-        { "title": "HubSpot CRM", "titleLink": "hubspot-review.html", "description": "HubSpot integration for mid-market enablement teams." },
-        { "title": "Outreach", "titleLink": "outreach-review.html", "description": "Outreach sequences with Seismic content delivery." },
-        { "title": "Salesloft", "titleLink": "salesloft-review.html", "description": "Salesloft engagement paired with Seismic content tracking." },
-        { "title": "Gong", "titleLink": "gong-review.html", "description": "Gong call intelligence + Seismic content analytics for full buyer visibility." }
+        {
+          "title": "Salesforce CRM",
+          "titleLink": null,
+          "description": "Deep native integration surfaces content within Salesforce workflows."
+        },
+        {
+          "title": "HubSpot CRM",
+          "titleLink": "hubspot-review.html",
+          "description": "HubSpot integration for mid-market enablement teams."
+        },
+        {
+          "title": "Outreach",
+          "titleLink": "outreach-review.html",
+          "description": "Outreach sequences with Seismic content delivery."
+        },
+        {
+          "title": "Salesloft",
+          "titleLink": "salesloft-review.html",
+          "description": "Salesloft engagement paired with Seismic content tracking."
+        },
+        {
+          "title": "Gong",
+          "titleLink": "gong-review.html",
+          "description": "Gong call intelligence + Seismic content analytics for full buyer visibility."
+        }
       ],
       "exampleStack": "Seismic (content) &#8594; Outreach (sequence) &#8594; Gong (calls) &#8594; Salesforce (CRM)"
     },
     "alternatives": {
       "rows": [
-        { "tool": "Highspot", "toolLink": null, "bestFor": "Enablement + training", "g2": "4.7/5", "price": "Custom" },
-        { "tool": "Showpad", "toolLink": null, "bestFor": "Mid-market enablement", "g2": "4.6/5", "price": "Custom" },
-        { "tool": "Guru", "toolLink": null, "bestFor": "Knowledge management", "g2": "4.7/5", "price": "From $10/mo" },
-        { "tool": "Mindtickle", "toolLink": null, "bestFor": "Sales readiness & training", "g2": "4.7/5", "price": "Custom" },
-        { "tool": "Mediafly", "toolLink": null, "bestFor": "Revenue enablement", "g2": "4.5/5", "price": "Custom" }
+        {
+          "tool": "Highspot",
+          "toolLink": null,
+          "bestFor": "Enablement + training",
+          "g2": "4.7/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "Showpad",
+          "toolLink": null,
+          "bestFor": "Mid-market enablement",
+          "g2": "4.6/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "Guru",
+          "toolLink": null,
+          "bestFor": "Knowledge management",
+          "g2": "4.7/5",
+          "price": "From $10/mo"
+        },
+        {
+          "tool": "Mindtickle",
+          "toolLink": null,
+          "bestFor": "Sales readiness & training",
+          "g2": "4.7/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "Mediafly",
+          "toolLink": null,
+          "bestFor": "Revenue enablement",
+          "g2": "4.5/5",
+          "price": "Custom"
+        }
       ]
     },
     "faqs": [
@@ -466,21 +864,45 @@
     "altText": "See Alternatives",
     "altUrl": "/compare/index.html",
     "atAGlance": [
-      { "label": "G2 Rating", "value": "4.7/5" },
-      { "label": "G2 Reviews", "value": "1,700+" },
-      { "label": "Starting Price", "value": "Custom" },
-      { "label": "Category", "value": "Sales Enablement" },
-      { "label": "Free Trial", "value": "Demo Only" }
+      {
+        "label": "G2 Rating",
+        "value": "4.7/5"
+      },
+      {
+        "label": "G2 Reviews",
+        "value": "1,700+"
+      },
+      {
+        "label": "Starting Price",
+        "value": "Custom"
+      },
+      {
+        "label": "Category",
+        "value": "Sales Enablement"
+      },
+      {
+        "label": "Free Trial",
+        "value": "Demo Only"
+      }
     ],
     "ctaUrl": "/go/seismic",
     "comparisons": [
-      { "text": "Seismic vs Highspot", "url": "/compare/seismic-vs-highspot.html" }
+      {
+        "text": "Seismic vs Highspot",
+        "url": "/compare/seismic-vs-highspot.html"
+      }
     ],
     "externalReviews": [
-      { "text": "G2 Reviews", "url": "https://www.g2.com/products/seismic/reviews" }
+      {
+        "text": "G2 Reviews",
+        "url": "https://www.g2.com/products/seismic/reviews"
+      }
     ],
     "relatedGuides": [
-      { "text": "Best Sales Enablement Platforms", "url": "/guides/best-sales-enablement-platforms.html" }
+      {
+        "text": "Best Sales Enablement Platforms",
+        "url": "/guides/best-sales-enablement-platforms.html"
+      }
     ],
     "emailCard": {
       "heading": "Weekly Tool Intel",

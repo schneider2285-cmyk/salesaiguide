@@ -70,12 +70,21 @@
     "updated": "Updated February 2026",
     "dataSource": "Data from G2 & clari.com",
     "personaTags": [
-      { "class": "requires-admin", "text": "Requires Admin" }
+      {
+        "class": "requires-admin",
+        "text": "Requires Admin"
+      }
     ]
   },
   "scores": {
-    "org": { "value": 72, "verdict": "Strong revenue forecasting for enterprise" },
-    "rep": { "value": 55, "verdict": "Manager tool; reps use passively" }
+    "org": {
+      "value": 72,
+      "verdict": "Strong revenue forecasting for enterprise"
+    },
+    "rep": {
+      "value": 55,
+      "verdict": "Manager tool; reps use passively"
+    }
   },
   "quickSummary": {
     "whatItDoes": "AI-powered revenue intelligence platform that predicts deal outcomes from CRM and activity data, provides pipeline forecasting, and automates revenue cadence workflows for sales leadership.",
@@ -91,12 +100,30 @@
     "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/clari/reviews\" target=\"_blank\" rel=\"noopener\">Clari on G2</a>."
   },
   "features": [
-    { "title": "AI Pipeline Forecasting", "description": "Predicts deal outcomes from CRM data, email activity, and engagement signals." },
-    { "title": "Revenue Cadence Workflows", "description": "Structured weekly forecast review process for sales managers and leadership." },
-    { "title": "Clari Copilot (Call Intelligence)", "description": "Records calls, auto-updates CRM fields, and captures key deal moments." },
-    { "title": "Deal Inspection & Risk Scoring", "description": "AI flags at-risk deals based on activity gaps and engagement patterns." },
-    { "title": "CRM Auto-Sync", "description": "Automatically captures and syncs activity data to Salesforce and HubSpot." },
-    { "title": "Revenue Analytics & Dashboards", "description": "Real-time dashboards for pipeline coverage, forecast accuracy, and rep performance." }
+    {
+      "title": "AI Pipeline Forecasting",
+      "description": "Predicts deal outcomes from CRM data, email activity, and engagement signals."
+    },
+    {
+      "title": "Revenue Cadence Workflows",
+      "description": "Structured weekly forecast review process for sales managers and leadership."
+    },
+    {
+      "title": "Clari Copilot (Call Intelligence)",
+      "description": "Records calls, auto-updates CRM fields, and captures key deal moments."
+    },
+    {
+      "title": "Deal Inspection & Risk Scoring",
+      "description": "AI flags at-risk deals based on activity gaps and engagement patterns."
+    },
+    {
+      "title": "CRM Auto-Sync",
+      "description": "Automatically captures and syncs activity data to Salesforce and HubSpot."
+    },
+    {
+      "title": "Revenue Analytics & Dashboards",
+      "description": "Real-time dashboards for pipeline coverage, forecast accuracy, and rep performance."
+    }
   ],
   "pricing": {
     "note": "Clari does not publish pricing. Estimates based on G2 reviews and industry reports. Verify with vendor.",
@@ -141,35 +168,184 @@
   "g2Reviews": {
     "intro": "Based on 500+ reviews on G2 (4.6/5 rating):",
     "pros": [
-      { "bold": "Forecast accuracy", "text": "AI predictions consistently cited as more reliable than CRM self-reports" },
-      { "bold": "Pipeline visibility", "text": "Real-time deal inspection surfaces risks early" },
-      { "bold": "Revenue cadence", "text": "Weekly forecast workflow improves team accountability" },
-      { "bold": "Salesforce integration", "text": "Deep native integration with Salesforce CRM" },
-      { "bold": "Executive dashboards", "text": "Board-ready revenue analytics and reporting" }
+      {
+        "bold": "Forecast accuracy",
+        "text": "AI predictions consistently cited as more reliable than CRM self-reports"
+      },
+      {
+        "bold": "Pipeline visibility",
+        "text": "Real-time deal inspection surfaces risks early"
+      },
+      {
+        "bold": "Revenue cadence",
+        "text": "Weekly forecast workflow improves team accountability"
+      },
+      {
+        "bold": "Salesforce integration",
+        "text": "Deep native integration with Salesforce CRM"
+      },
+      {
+        "bold": "Executive dashboards",
+        "text": "Board-ready revenue analytics and reporting"
+      }
     ],
     "cons": [
-      { "bold": "Setup complexity", "text": "Requires significant CRM integration and configuration work" },
-      { "bold": "Rep experience", "text": "Primarily a manager tool; reps see limited direct value" },
-      { "bold": "Pricing opacity", "text": "No public pricing; custom quotes only" },
-      { "bold": "Learning curve", "text": "Revenue cadence workflows take time to configure properly" },
-      { "bold": "Copilot add-on", "text": "Call intelligence requires additional Copilot module" }
+      {
+        "bold": "Setup complexity",
+        "text": "Requires significant CRM integration and configuration work"
+      },
+      {
+        "bold": "Rep experience",
+        "text": "Primarily a manager tool; reps see limited direct value"
+      },
+      {
+        "bold": "Pricing opacity",
+        "text": "No public pricing; custom quotes only"
+      },
+      {
+        "bold": "Learning curve",
+        "text": "Revenue cadence workflows take time to configure properly"
+      },
+      {
+        "bold": "Copilot add-on",
+        "text": "Call intelligence requires additional Copilot module"
+      }
     ],
     "link": "https://www.g2.com/products/clari/reviews"
   },
   "competitorTable": {
-    "headers": ["Feature", "Clari", "Gong", "Salesforce Einstein"],
+    "headers": [
+      "Feature",
+      "Clari",
+      "Gong",
+      "Salesforce Einstein"
+    ],
     "rows": [
-      { "feature": "G2 Rating", "featureBold": true, "values": [{ "text": "4.6/5 (500+)" }, { "text": "4.8/5 (6,455)" }, { "text": "4.3/5 (700+)" }] },
-      { "feature": "AI Forecasting", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }] },
-      { "feature": "Call Recording", "featureBold": false, "values": [{ "text": "Copilot add-on" }, { "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }] },
-      { "feature": "Revenue Cadence", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10007;", "class": "cross" }, { "text": "&#10007;", "class": "cross" }] },
-      { "feature": "CRM Auto-Sync", "featureBold": false, "values": [{ "text": "&#10003;", "class": "check" }, { "text": "&#10003;", "class": "check" }, { "text": "Native" }] },
-      { "feature": "Starting Price", "featureBold": false, "values": [{ "text": "Custom" }, { "text": "Custom" }, { "text": "Included*" }] },
-      { "feature": "Best For", "featureBold": false, "values": [{ "text": "Forecasting" }, { "text": "Call analytics" }, { "text": "SF-native orgs" }] }
+      {
+        "feature": "G2 Rating",
+        "featureBold": true,
+        "values": [
+          {
+            "text": "4.6/5 (500+)"
+          },
+          {
+            "text": "4.8/5 (6,455)"
+          },
+          {
+            "text": "4.3/5 (700+)"
+          }
+        ]
+      },
+      {
+        "feature": "AI Forecasting",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          }
+        ]
+      },
+      {
+        "feature": "Call Recording",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "Copilot add-on"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          }
+        ]
+      },
+      {
+        "feature": "Revenue Cadence",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          },
+          {
+            "text": "&#10007;",
+            "class": "cross"
+          }
+        ]
+      },
+      {
+        "feature": "CRM Auto-Sync",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "&#10003;",
+            "class": "check"
+          },
+          {
+            "text": "Native"
+          }
+        ]
+      },
+      {
+        "feature": "Starting Price",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "Custom"
+          },
+          {
+            "text": "Custom"
+          },
+          {
+            "text": "Included*"
+          }
+        ]
+      },
+      {
+        "feature": "Best For",
+        "featureBold": false,
+        "values": [
+          {
+            "text": "Forecasting"
+          },
+          {
+            "text": "Call analytics"
+          },
+          {
+            "text": "SF-native orgs"
+          }
+        ]
+      }
     ],
     "seeFullLinks": [
-      { "text": "BoostUp vs Clari", "url": "/compare/boostup-vs-clari.html" },
-      { "text": "Clari vs Aviso", "url": "/compare/clari-vs-aviso.html" }
+      {
+        "text": "BoostUp vs Clari",
+        "url": "/compare/boostup-vs-clari.html"
+      },
+      {
+        "text": "Clari vs Aviso",
+        "url": "/compare/clari-vs-aviso.html"
+      }
     ]
   },
   "whoIsFor": {
@@ -212,12 +388,30 @@
       }
     },
     "subScores": [
-      { "label": "Enterprise Fit", "score": "9/10" },
-      { "label": "Ease of Adoption", "score": "5/10" },
-      { "label": "AI Depth", "score": "9/10" },
-      { "label": "Integration Depth", "score": "9/10" },
-      { "label": "Pricing Transparency", "score": "2/10" },
-      { "label": "Scalability", "score": "9/10" }
+      {
+        "label": "Enterprise Fit",
+        "score": "9/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "5/10"
+      },
+      {
+        "label": "AI Depth",
+        "score": "9/10"
+      },
+      {
+        "label": "Integration Depth",
+        "score": "9/10"
+      },
+      {
+        "label": "Pricing Transparency",
+        "score": "2/10"
+      },
+      {
+        "label": "Scalability",
+        "score": "9/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
@@ -227,10 +421,26 @@
           "score": 9,
           "notes": "SOC 2 Type II; SSO; enterprise security; Fortune 500 clients",
           "evidence": [
-            { "source": "Vendor", "text": "SOC 2 Type II certified; SAML SSO; enterprise RBAC documented on trust center" },
-            { "source": "G2", "text": "Enterprise reviewers (1000+ employees) rate security and compliance 4.5/5" },
-            { "source": "Gartner PI", "text": "Recognized as leader in revenue operations with Fortune 500 customer base" },
-            { "source": "TrustRadius", "text": "Enterprise buyers confirm SOC 2, GDPR readiness, and dedicated security team" }
+            {
+              "source": "Vendor",
+              "text": "SOC 2 Type II certified; SAML SSO; enterprise RBAC documented on trust center",
+              "url": "https://help.clari.com"
+            },
+            {
+              "source": "G2",
+              "text": "Enterprise reviewers (1000+ employees) rate security and compliance 4.5/5",
+              "url": "https://www.g2.com/products/clari/reviews"
+            },
+            {
+              "source": "Gartner PI",
+              "text": "Recognized as leader in revenue operations with Fortune 500 customer base",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/clari/reviews"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Enterprise buyers confirm SOC 2, GDPR readiness, and dedicated security team",
+              "url": "https://www.trustradius.com/products/clari/reviews"
+            }
           ]
         },
         {
@@ -238,10 +448,26 @@
           "score": 5,
           "notes": "Requires CRM integration setup; 2-4 week implementation",
           "evidence": [
-            { "source": "G2", "text": "Implementation complexity rated 3.8/5; most reviews cite 2-4 week setup period" },
-            { "source": "Reddit", "text": "r/salesops threads report needing dedicated RevOps resource for initial configuration" },
-            { "source": "Capterra", "text": "Users note Salesforce integration is smooth but custom pipeline views take time" },
-            { "source": "TrustRadius", "text": "Mid-market users report 3-6 week full deployment including training" }
+            {
+              "source": "G2",
+              "text": "Implementation complexity rated 3.8/5; most reviews cite 2-4 week setup period",
+              "url": "https://www.g2.com/products/clari/reviews"
+            },
+            {
+              "source": "Reddit",
+              "text": "r/salesops threads report needing dedicated RevOps resource for initial configuration",
+              "url": "https://www.reddit.com/search/?q=clari+review&sort=top"
+            },
+            {
+              "source": "Capterra",
+              "text": "Users note Salesforce integration is smooth but custom pipeline views take time",
+              "url": "https://www.capterra.com/clari/software/1017816/"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Mid-market users report 3-6 week full deployment including training",
+              "url": "https://www.trustradius.com/products/clari/reviews"
+            }
           ]
         },
         {
@@ -249,10 +475,26 @@
           "score": 9,
           "notes": "AI forecasting is core product; call intelligence via Copilot",
           "evidence": [
-            { "source": "G2", "text": "AI forecasting accuracy consistently rated as category-leading by enterprise reviewers" },
-            { "source": "Vendor", "text": "AI models analyze CRM data, email signals, calendar activity, and call recordings" },
-            { "source": "Gartner PI", "text": "Recognized for deepest AI-driven revenue forecasting capabilities in the market" },
-            { "source": "YouTube", "text": "Product demos showcase real-time deal risk scoring and AI-generated forecast predictions" }
+            {
+              "source": "G2",
+              "text": "AI forecasting accuracy consistently rated as category-leading by enterprise reviewers",
+              "url": "https://www.g2.com/products/clari/reviews"
+            },
+            {
+              "source": "Vendor",
+              "text": "AI models analyze CRM data, email signals, calendar activity, and call recordings",
+              "url": "https://help.clari.com"
+            },
+            {
+              "source": "Gartner PI",
+              "text": "Recognized for deepest AI-driven revenue forecasting capabilities in the market",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/clari/reviews"
+            },
+            {
+              "source": "YouTube",
+              "text": "Product demos showcase real-time deal risk scoring and AI-generated forecast predictions",
+              "url": "https://www.youtube.com/results?search_query=clari+review+demo"
+            }
           ]
         },
         {
@@ -260,10 +502,26 @@
           "score": 9,
           "notes": "Salesforce-native; HubSpot; Outreach; Salesloft; Gong",
           "evidence": [
-            { "source": "Vendor", "text": "Salesforce-native architecture with bi-directional sync; HubSpot, Outreach, Salesloft integrations" },
-            { "source": "G2", "text": "Integration depth rated 4.5/5; Salesforce users rate integration as seamless" },
-            { "source": "Capterra", "text": "Users confirm reliable CRM sync with activity capture across email and calendar" },
-            { "source": "TrustRadius", "text": "Enterprise users praise Gong integration for combining call data with pipeline analytics" }
+            {
+              "source": "Vendor",
+              "text": "Salesforce-native architecture with bi-directional sync; HubSpot, Outreach, Salesloft integrations",
+              "url": "https://help.clari.com"
+            },
+            {
+              "source": "G2",
+              "text": "Integration depth rated 4.5/5; Salesforce users rate integration as seamless",
+              "url": "https://www.g2.com/products/clari/reviews"
+            },
+            {
+              "source": "Capterra",
+              "text": "Users confirm reliable CRM sync with activity capture across email and calendar",
+              "url": "https://www.capterra.com/clari/software/1017816/"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Enterprise users praise Gong integration for combining call data with pipeline analytics",
+              "url": "https://www.trustradius.com/products/clari/reviews"
+            }
           ]
         },
         {
@@ -271,9 +529,21 @@
           "score": 2,
           "notes": "No public pricing; requires enterprise sales process",
           "evidence": [
-            { "source": "Vendor", "text": "Zero pricing information on website; 'Request Demo' is the only path to pricing" },
-            { "source": "Reddit", "text": "Users report $50-100/user/mo with annual commitments; pricing varies significantly by org size" },
-            { "source": "G2", "text": "Pricing transparency rated 2.3/5; lowest-scored dimension across reviews" }
+            {
+              "source": "Vendor",
+              "text": "Zero pricing information on website; 'Request Demo' is the only path to pricing",
+              "url": "https://help.clari.com"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users report $50-100/user/mo with annual commitments; pricing varies significantly by org size",
+              "url": "https://www.reddit.com/search/?q=clari+review&sort=top"
+            },
+            {
+              "source": "G2",
+              "text": "Pricing transparency rated 2.3/5; lowest-scored dimension across reviews",
+              "url": "https://www.g2.com/products/clari/reviews"
+            }
           ]
         },
         {
@@ -281,10 +551,26 @@
           "score": 9,
           "notes": "Built for enterprise; handles complex org structures",
           "evidence": [
-            { "source": "Gartner PI", "text": "Verified deployments at Fortune 500 companies with 500+ seat teams" },
-            { "source": "G2", "text": "Enterprise users report consistent performance with complex multi-region org structures" },
-            { "source": "Vendor", "text": "Architecture designed for enterprise scale with multi-org Salesforce support" },
-            { "source": "TrustRadius", "text": "Large deployments report strong performance across distributed sales teams" }
+            {
+              "source": "Gartner PI",
+              "text": "Verified deployments at Fortune 500 companies with 500+ seat teams",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/clari/reviews"
+            },
+            {
+              "source": "G2",
+              "text": "Enterprise users report consistent performance with complex multi-region org structures",
+              "url": "https://www.g2.com/products/clari/reviews"
+            },
+            {
+              "source": "Vendor",
+              "text": "Architecture designed for enterprise scale with multi-org Salesforce support",
+              "url": "https://help.clari.com"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Large deployments report strong performance across distributed sales teams",
+              "url": "https://www.trustradius.com/products/clari/reviews"
+            }
           ]
         }
       ]
@@ -301,15 +587,27 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 790+ total reviews across 4 platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 790+ total reviews across 4 platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
-        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: forecast accuracy unmatched. Complaint: setup complexity, rep adoption low" },
-        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> Revenue cadence + deal inspection, Salesforce pipeline sync" },
-        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Pipeline analytics UI, forecast dashboard, Copilot call recording" },
-        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Custom pricing only, Salesforce-native integration, SOC 2 certification" }
+        {
+          "icon": "&#x1F4CA;",
+          "text": "<strong>Review sentiment:</strong> Praise: forecast accuracy unmatched. Complaint: setup complexity, rep adoption low"
+        },
+        {
+          "icon": "&#x1F4AC;",
+          "text": "<strong>Community workflows:</strong> Revenue cadence + deal inspection, Salesforce pipeline sync"
+        },
+        {
+          "icon": "&#x1F3A5;",
+          "text": "<strong>Demo-verified:</strong> Pipeline analytics UI, forecast dashboard, Copilot call recording"
+        },
+        {
+          "icon": "&#x1F4C4;",
+          "text": "<strong>Docs verified:</strong> Custom pricing only, Salesforce-native integration, SOC 2 certification"
+        }
       ],
       "strengthThemes": [
         "AI forecast accuracy unmatched in category",
@@ -330,7 +628,11 @@
         "sentimentIcon": "&#9650;",
         "heading": "AI forecasting replaces spreadsheet guesswork with data-driven predictions",
         "synthesis": "Revenue leaders consistently cite Clari's AI forecasting as the primary reason for adoption. The platform analyzes CRM activity, email engagement, and calendar signals to predict deal outcomes with significantly higher accuracy than manual forecasting. Sales VPs report 15-25% improvement in quarterly forecast accuracy after deploying Clari.",
-        "sources": ["G2: 180+ mentions", "Gartner PI: 45 mentions", "TrustRadius: 30 mentions"],
+        "sources": [
+          "G2: 180+ mentions",
+          "Gartner PI: 45 mentions",
+          "TrustRadius: 30 mentions"
+        ],
         "quote": "\"Our quarterly forecast accuracy improved from 70% to 90% in two quarters. Clari's AI catches pipeline risks that our managers consistently miss in manual reviews.\"",
         "quoteCite": "VP Revenue Operations, 200-person SaaS org [G2 Review, Jan 2026]"
       },
@@ -339,7 +641,11 @@
         "sentimentIcon": "&#9660;",
         "heading": "Reps see limited value and interact passively with the platform",
         "synthesis": "The most common complaint: Clari is built for managers and RevOps, not individual reps. Sales reps report that the platform adds visibility for leadership but provides minimal direct value to their daily workflow. Without active rep engagement, data quality depends entirely on CRM hygiene and automated activity capture.",
-        "sources": ["G2: 95 mentions", "Reddit: 6 threads", "Capterra: 25 mentions"],
+        "sources": [
+          "G2: 95 mentions",
+          "Reddit: 6 threads",
+          "Capterra: 25 mentions"
+        ],
         "quote": "\"My reps never log into Clari. It's a great tool for my forecast meetings, but the value flows to management, not the people actually selling. We had to mandate CRM updates to make the AI work.\"",
         "quoteCite": "Sales Director, 80-person sales org [Reddit r/salesops, Dec 2025]"
       },
@@ -348,7 +654,11 @@
         "sentimentIcon": "&#9644;",
         "heading": "Revenue cadence workflow improves accountability but requires commitment",
         "synthesis": "Clari's structured weekly forecast review process is praised by revenue leaders for creating accountability across the sales org. However, teams that don't fully commit to the cadence workflow see diminishing returns. The platform works best when leadership enforces consistent usage across all levels of management.",
-        "sources": ["G2: 70 mentions", "TrustRadius: 20 mentions", "Capterra: 18 mentions"],
+        "sources": [
+          "G2: 70 mentions",
+          "TrustRadius: 20 mentions",
+          "Capterra: 18 mentions"
+        ],
         "quote": "\"The revenue cadence workflow transformed our Monday forecast calls from anecdotal guessing to data-driven deal reviews. But it only works if every manager commits to using it consistently.\"",
         "quoteCite": "CRO, 150-person SaaS company [TrustRadius Review, Jan 2026]"
       }
@@ -386,21 +696,60 @@
     ],
     "implementationReality": {
       "stats": [
-        { "number": "2&ndash;4 weeks", "label": "Time to Value" },
-        { "number": "Medium-High", "label": "Setup Complexity" },
-        { "number": "High", "label": "RevOps Lift" },
-        { "number": "Medium", "label": "Training Required" },
-        { "number": "None", "label": "Data Migration" }
+        {
+          "number": "2&ndash;4 weeks",
+          "label": "Time to Value"
+        },
+        {
+          "number": "Medium-High",
+          "label": "Setup Complexity"
+        },
+        {
+          "number": "High",
+          "label": "RevOps Lift"
+        },
+        {
+          "number": "Medium",
+          "label": "Training Required"
+        },
+        {
+          "number": "None",
+          "label": "Data Migration"
+        }
       ],
       "note": "CRM integration and pipeline mapping are the primary setup tasks. Forecast accuracy improves over 4-8 weeks as AI models learn from historical data."
     },
     "enterpriseReadiness": [
-      { "label": "SSO / SAML", "value": "SAML SSO included", "class": "dm-available" },
-      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
-      { "label": "RBAC", "value": "Full enterprise RBAC", "class": "dm-available" },
-      { "label": "Data Residency", "value": "US-hosted; EU available on request", "class": "dm-available" },
-      { "label": "SLA", "value": "Enterprise SLA available", "class": "dm-available" },
-      { "label": "Audit Logs", "value": "Full audit trail", "class": "dm-available" }
+      {
+        "label": "SSO / SAML",
+        "value": "SAML SSO included",
+        "class": "dm-available"
+      },
+      {
+        "label": "SOC 2",
+        "value": "SOC 2 Type II certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "RBAC",
+        "value": "Full enterprise RBAC",
+        "class": "dm-available"
+      },
+      {
+        "label": "Data Residency",
+        "value": "US-hosted; EU available on request",
+        "class": "dm-available"
+      },
+      {
+        "label": "SLA",
+        "value": "Enterprise SLA available",
+        "class": "dm-available"
+      },
+      {
+        "label": "Audit Logs",
+        "value": "Full audit trail",
+        "class": "dm-available"
+      }
     ],
     "whoThisIsFor": {
       "org": {
@@ -422,21 +771,71 @@
     },
     "stackPairings": {
       "cards": [
-        { "title": "Salesforce CRM", "titleLink": null, "description": "Salesforce-native architecture; deepest integration in category." },
-        { "title": "Gong", "titleLink": "gong-review.html", "description": "Gong for call analytics; Clari for pipeline forecasting." },
-        { "title": "Outreach", "titleLink": "outreach-review.html", "description": "Outreach sequences + Clari pipeline visibility." },
-        { "title": "Salesloft", "titleLink": "salesloft-review.html", "description": "Salesloft engagement data feeds Clari forecasting." },
-        { "title": "HubSpot CRM", "titleLink": null, "description": "HubSpot integration available for mid-market teams." }
+        {
+          "title": "Salesforce CRM",
+          "titleLink": null,
+          "description": "Salesforce-native architecture; deepest integration in category."
+        },
+        {
+          "title": "Gong",
+          "titleLink": "gong-review.html",
+          "description": "Gong for call analytics; Clari for pipeline forecasting."
+        },
+        {
+          "title": "Outreach",
+          "titleLink": "outreach-review.html",
+          "description": "Outreach sequences + Clari pipeline visibility."
+        },
+        {
+          "title": "Salesloft",
+          "titleLink": "salesloft-review.html",
+          "description": "Salesloft engagement data feeds Clari forecasting."
+        },
+        {
+          "title": "HubSpot CRM",
+          "titleLink": null,
+          "description": "HubSpot integration available for mid-market teams."
+        }
       ],
       "exampleStack": "Outreach (sequence) &#8594; Gong (calls) &#8594; Clari (forecast) &#8594; Salesforce (CRM)"
     },
     "alternatives": {
       "rows": [
-        { "tool": "Gong", "toolLink": "gong-review.html", "bestFor": "Conversation intelligence", "g2": "4.8/5", "price": "Custom" },
-        { "tool": "BoostUp", "toolLink": null, "bestFor": "Budget Clari alternative", "g2": "4.5/5", "price": "Custom" },
-        { "tool": "Aviso", "toolLink": null, "bestFor": "AI forecasting alternative", "g2": "4.4/5", "price": "Custom" },
-        { "tool": "Salesforce Einstein", "toolLink": null, "bestFor": "SF-native AI forecasting", "g2": "4.3/5", "price": "Included*" },
-        { "tool": "Revenue.io", "toolLink": null, "bestFor": "Real-time guided selling", "g2": "4.4/5", "price": "Custom" }
+        {
+          "tool": "Gong",
+          "toolLink": "gong-review.html",
+          "bestFor": "Conversation intelligence",
+          "g2": "4.8/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "BoostUp",
+          "toolLink": null,
+          "bestFor": "Budget Clari alternative",
+          "g2": "4.5/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "Aviso",
+          "toolLink": null,
+          "bestFor": "AI forecasting alternative",
+          "g2": "4.4/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "Salesforce Einstein",
+          "toolLink": null,
+          "bestFor": "SF-native AI forecasting",
+          "g2": "4.3/5",
+          "price": "Included*"
+        },
+        {
+          "tool": "Revenue.io",
+          "toolLink": null,
+          "bestFor": "Real-time guided selling",
+          "g2": "4.4/5",
+          "price": "Custom"
+        }
       ]
     },
     "faqs": [
@@ -467,22 +866,49 @@
     "altText": "See Alternatives",
     "altUrl": "/compare/index.html",
     "atAGlance": [
-      { "label": "G2 Rating", "value": "4.6/5" },
-      { "label": "G2 Reviews", "value": "500+" },
-      { "label": "Starting Price", "value": "Custom" },
-      { "label": "Category", "value": "Revenue Intelligence" },
-      { "label": "Free Trial", "value": "Demo Only" }
+      {
+        "label": "G2 Rating",
+        "value": "4.6/5"
+      },
+      {
+        "label": "G2 Reviews",
+        "value": "500+"
+      },
+      {
+        "label": "Starting Price",
+        "value": "Custom"
+      },
+      {
+        "label": "Category",
+        "value": "Revenue Intelligence"
+      },
+      {
+        "label": "Free Trial",
+        "value": "Demo Only"
+      }
     ],
     "ctaUrl": "/go/clari",
     "comparisons": [
-      { "text": "BoostUp vs Clari", "url": "/compare/boostup-vs-clari.html" },
-      { "text": "Clari vs Aviso", "url": "/compare/clari-vs-aviso.html" }
+      {
+        "text": "BoostUp vs Clari",
+        "url": "/compare/boostup-vs-clari.html"
+      },
+      {
+        "text": "Clari vs Aviso",
+        "url": "/compare/clari-vs-aviso.html"
+      }
     ],
     "externalReviews": [
-      { "text": "G2 Reviews", "url": "https://www.g2.com/products/clari/reviews" }
+      {
+        "text": "G2 Reviews",
+        "url": "https://www.g2.com/products/clari/reviews"
+      }
     ],
     "relatedGuides": [
-      { "text": "Best Revenue Intelligence Platforms", "url": "/guides/best-revenue-intelligence-platforms.html" }
+      {
+        "text": "Best Revenue Intelligence Platforms",
+        "url": "/guides/best-revenue-intelligence-platforms.html"
+      }
     ],
     "emailCard": {
       "heading": "Weekly Tool Intel",

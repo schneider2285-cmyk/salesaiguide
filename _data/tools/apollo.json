@@ -70,14 +70,29 @@
     "updated": "Updated February 2026",
     "dataSource": "Data from G2 & apollo.io",
     "personaTags": [
-      { "class": "personal-friendly", "text": "Personal-Friendly" },
-      { "class": "low-cost", "text": "Low Cost" },
-      { "class": "chrome-extension", "text": "Chrome Extension" }
+      {
+        "class": "personal-friendly",
+        "text": "Personal-Friendly"
+      },
+      {
+        "class": "low-cost",
+        "text": "Low Cost"
+      },
+      {
+        "class": "chrome-extension",
+        "text": "Chrome Extension"
+      }
     ]
   },
   "scores": {
-    "org": { "value": 68, "verdict": "Good all-in-one, data gaps at scale" },
-    "rep": { "value": 72, "verdict": "Easiest all-in-one for solo reps" }
+    "org": {
+      "value": 68,
+      "verdict": "Good all-in-one, data gaps at scale"
+    },
+    "rep": {
+      "value": 72,
+      "verdict": "Easiest all-in-one for solo reps"
+    }
   },
   "quickSummary": {
     "whatItDoes": "All-in-one sales intelligence and engagement platform with 275M+ B2B contacts, email sequences, dialer, and CRM.",
@@ -93,12 +108,30 @@
     "noteHtml": "Note: Based on vendor docs and G2 reviews, not firsthand testing. See <a href=\"https://www.g2.com/products/apollo-io/reviews\" target=\"_blank\" rel=\"noopener\">Apollo.io on G2</a>."
   },
   "features": [
-    { "title": "275M+ Contact Database", "description": "B2B database with email, phone, title, and company data." },
-    { "title": "Email Sequences with A/B Testing", "description": "Multi-step sequences with auto follow-ups and A/B testing." },
-    { "title": "Built-in Dialer", "description": "Click-to-call with recording, voicemail drops, and local presence." },
-    { "title": "Chrome Extension for LinkedIn", "description": "Pull contact data from LinkedIn profiles into sequences." },
-    { "title": "CRM with Pipeline Management", "description": "Deal tracking with pipeline stages and basic forecasting." },
-    { "title": "Intent Data Signals", "description": "Identify accounts actively researching relevant topics." }
+    {
+      "title": "275M+ Contact Database",
+      "description": "B2B database with email, phone, title, and company data."
+    },
+    {
+      "title": "Email Sequences with A/B Testing",
+      "description": "Multi-step sequences with auto follow-ups and A/B testing."
+    },
+    {
+      "title": "Built-in Dialer",
+      "description": "Click-to-call with recording, voicemail drops, and local presence."
+    },
+    {
+      "title": "Chrome Extension for LinkedIn",
+      "description": "Pull contact data from LinkedIn profiles into sequences."
+    },
+    {
+      "title": "CRM with Pipeline Management",
+      "description": "Deal tracking with pipeline stages and basic forecasting."
+    },
+    {
+      "title": "Intent Data Signals",
+      "description": "Identify accounts actively researching relevant topics."
+    }
   ],
   "decisionModule": {
     "verdict": {
@@ -119,12 +152,30 @@
       }
     },
     "subScores": [
-      { "label": "Enterprise Fit", "score": "6/10" },
-      { "label": "Ease of Adoption", "score": "8/10" },
-      { "label": "AI Depth", "score": "6/10" },
-      { "label": "Integration Depth", "score": "7/10" },
-      { "label": "Pricing Transparency", "score": "8/10" },
-      { "label": "Scalability", "score": "7/10" }
+      {
+        "label": "Enterprise Fit",
+        "score": "6/10"
+      },
+      {
+        "label": "Ease of Adoption",
+        "score": "8/10"
+      },
+      {
+        "label": "AI Depth",
+        "score": "6/10"
+      },
+      {
+        "label": "Integration Depth",
+        "score": "7/10"
+      },
+      {
+        "label": "Pricing Transparency",
+        "score": "8/10"
+      },
+      {
+        "label": "Scalability",
+        "score": "7/10"
+      }
     ],
     "decisionSnapshot": {
       "intro": "Scores from 0&ndash;10 based on our <a href=\"/methodology/\">scoring methodology</a>.",
@@ -134,10 +185,26 @@
           "score": 6,
           "notes": "Team management exists but limited admin controls",
           "evidence": [
-            { "source": "G2", "text": "Enterprise reviewers note SOC 2 Type II certification on Organization plan" },
-            { "source": "Vendor", "text": "SSO and RBAC available on Organization tier ($119/mo per user)" },
-            { "source": "Reddit", "text": "IT teams flag Chrome extension permissions as security concern in enterprise deployments" },
-            { "source": "TrustRadius", "text": "Enterprise reviewers confirm SOC 2 Type II compliance on Organization plan" }
+            {
+              "source": "G2",
+              "text": "Enterprise reviewers note SOC 2 Type II certification on Organization plan",
+              "url": "https://www.g2.com/products/apollo-io/reviews"
+            },
+            {
+              "source": "Vendor",
+              "text": "SSO and RBAC available on Organization tier ($119/mo per user)",
+              "url": "https://knowledge.apollo.io"
+            },
+            {
+              "source": "Reddit",
+              "text": "IT teams flag Chrome extension permissions as security concern in enterprise deployments",
+              "url": "https://www.reddit.com/search/?q=apollo.io+review&sort=top"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Enterprise reviewers confirm SOC 2 Type II compliance on Organization plan",
+              "url": "https://www.trustradius.com/products/apollo-io/reviews"
+            }
           ]
         },
         {
@@ -145,10 +212,26 @@
           "score": 8,
           "notes": "Intuitive UI, quick setup, good onboarding",
           "evidence": [
-            { "source": "G2", "text": "Ease of use rated 4.6/5 across 9,344+ reviews; onboarding praised consistently" },
-            { "source": "YouTube", "text": "Setup walkthroughs average under 10 minutes for core features" },
-            { "source": "Capterra", "text": "Users report productive within first day of signup" },
-            { "source": "TrustRadius", "text": "78% of reviewers rate setup as \"easy\" or \"very easy\"" }
+            {
+              "source": "G2",
+              "text": "Ease of use rated 4.6/5 across 9,344+ reviews; onboarding praised consistently",
+              "url": "https://www.g2.com/products/apollo-io/reviews"
+            },
+            {
+              "source": "YouTube",
+              "text": "Setup walkthroughs average under 10 minutes for core features",
+              "url": "https://www.youtube.com/results?search_query=apollo+review+demo"
+            },
+            {
+              "source": "Capterra",
+              "text": "Users report productive within first day of signup",
+              "url": "https://www.capterra.com/apollo/software/1017493/"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "78% of reviewers rate setup as \"easy\" or \"very easy\"",
+              "url": "https://www.trustradius.com/products/apollo-io/reviews"
+            }
           ]
         },
         {
@@ -156,9 +239,21 @@
           "score": 6,
           "notes": "AI-assisted email writing and lead scoring",
           "evidence": [
-            { "source": "G2", "text": "AI email writing rated as helpful but generic compared to dedicated AI tools" },
-            { "source": "Vendor", "text": "AI features include email generation, lead scoring, and intent signals" },
-            { "source": "Reddit", "text": "Users report AI email drafts need significant editing for personalization" }
+            {
+              "source": "G2",
+              "text": "AI email writing rated as helpful but generic compared to dedicated AI tools",
+              "url": "https://www.g2.com/products/apollo-io/reviews"
+            },
+            {
+              "source": "Vendor",
+              "text": "AI features include email generation, lead scoring, and intent signals",
+              "url": "https://knowledge.apollo.io"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users report AI email drafts need significant editing for personalization",
+              "url": "https://www.reddit.com/search/?q=apollo.io+review&sort=top"
+            }
           ]
         },
         {
@@ -166,9 +261,21 @@
           "score": 7,
           "notes": "Salesforce/HubSpot native, 100+ via Zapier",
           "evidence": [
-            { "source": "Vendor", "text": "Native Salesforce and HubSpot bi-directional sync documented" },
-            { "source": "G2", "text": "Integration quality rated 4.2/5; CRM sync praised but webhook support limited" },
-            { "source": "Capterra", "text": "Users confirm reliable CRM push but note Zapier dependency for other tools" }
+            {
+              "source": "Vendor",
+              "text": "Native Salesforce and HubSpot bi-directional sync documented",
+              "url": "https://knowledge.apollo.io"
+            },
+            {
+              "source": "G2",
+              "text": "Integration quality rated 4.2/5; CRM sync praised but webhook support limited",
+              "url": "https://www.g2.com/products/apollo-io/reviews"
+            },
+            {
+              "source": "Capterra",
+              "text": "Users confirm reliable CRM push but note Zapier dependency for other tools",
+              "url": "https://www.capterra.com/apollo/software/1017493/"
+            }
           ]
         },
         {
@@ -176,10 +283,26 @@
           "score": 8,
           "notes": "All tiers public, free tier available",
           "evidence": [
-            { "source": "Vendor", "text": "Full pricing page with free, Basic, Professional, and Organization tiers listed" },
-            { "source": "Reddit", "text": "Free tier (10K leads/month) praised as the best in category across 12+ threads" },
-            { "source": "G2", "text": "Pricing transparency rated 4.3/5; annual billing requirement is main complaint" },
-            { "source": "TrustRadius", "text": "Users praise the free tier but note credit-based limits on prospecting are opaque" }
+            {
+              "source": "Vendor",
+              "text": "Full pricing page with free, Basic, Professional, and Organization tiers listed",
+              "url": "https://knowledge.apollo.io"
+            },
+            {
+              "source": "Reddit",
+              "text": "Free tier (10K leads/month) praised as the best in category across 12+ threads",
+              "url": "https://www.reddit.com/search/?q=apollo.io+review&sort=top"
+            },
+            {
+              "source": "G2",
+              "text": "Pricing transparency rated 4.3/5; annual billing requirement is main complaint",
+              "url": "https://www.g2.com/products/apollo-io/reviews"
+            },
+            {
+              "source": "TrustRadius",
+              "text": "Users praise the free tier but note credit-based limits on prospecting are opaque",
+              "url": "https://www.trustradius.com/products/apollo-io/reviews"
+            }
           ]
         },
         {
@@ -187,9 +310,21 @@
           "score": 7,
           "notes": "Works well up to mid-market; enterprise users report data quality concerns at scale",
           "evidence": [
-            { "source": "G2", "text": "Mid-market users (10-50 reps) report strong ROI; enterprise reviewers cite data gaps" },
-            { "source": "Reddit", "text": "Users report 15-20% email bounce rates on exported lists in niche verticals" },
-            { "source": "Capterra", "text": "Teams scaling past 50 seats note per-user costs become significant at $119/mo" }
+            {
+              "source": "G2",
+              "text": "Mid-market users (10-50 reps) report strong ROI; enterprise reviewers cite data gaps",
+              "url": "https://www.g2.com/products/apollo-io/reviews"
+            },
+            {
+              "source": "Reddit",
+              "text": "Users report 15-20% email bounce rates on exported lists in niche verticals",
+              "url": "https://www.reddit.com/search/?q=apollo.io+review&sort=top"
+            },
+            {
+              "source": "Capterra",
+              "text": "Teams scaling past 50 seats note per-user costs become significant at $119/mo",
+              "url": "https://www.capterra.com/apollo/software/1017493/"
+            }
           ]
         }
       ]
@@ -207,15 +342,27 @@
         "Trust center &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 10,289+ total reviews across 3 platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 10,289+ total reviews across 3 platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
-        { "icon": "&#x1F4CA;", "text": "<strong>Review sentiment:</strong> Praise: all-in-one value for prospecting + outreach. Complaint: data accuracy varies by region" },
-        { "icon": "&#x1F4AC;", "text": "<strong>Community workflows:</strong> Prospecting + sequencing in one platform, Chrome extension workflows" },
-        { "icon": "&#x1F3A5;", "text": "<strong>Demo-verified:</strong> Contact search, sequence builder, enrichment engine" },
-        { "icon": "&#x1F4C4;", "text": "<strong>Docs verified:</strong> Pricing tiers, 275M+ contact database, API documentation" }
+        {
+          "icon": "&#x1F4CA;",
+          "text": "<strong>Review sentiment:</strong> Praise: all-in-one value for prospecting + outreach. Complaint: data accuracy varies by region"
+        },
+        {
+          "icon": "&#x1F4AC;",
+          "text": "<strong>Community workflows:</strong> Prospecting + sequencing in one platform, Chrome extension workflows"
+        },
+        {
+          "icon": "&#x1F3A5;",
+          "text": "<strong>Demo-verified:</strong> Contact search, sequence builder, enrichment engine"
+        },
+        {
+          "icon": "&#x1F4C4;",
+          "text": "<strong>Docs verified:</strong> Pricing tiers, 275M+ contact database, API documentation"
+        }
       ],
       "strengthThemes": [
         "All-in-one value across prospecting + outreach + enrichment",
@@ -236,7 +383,11 @@
         "sentimentIcon": "&#9650;",
         "heading": "All-in-one platform eliminates tool sprawl",
         "synthesis": "Teams consistently praise Apollo for combining prospecting, enrichment, and sequencing in one login. The ability to find a lead, enrich it, and drop it into a sequence without switching tools is cited as the primary productivity gain, especially for startups that would otherwise need 3-4 separate subscriptions.",
-        "sources": ["G2: 2,100+ mentions", "Reddit: 18 threads", "Capterra: 120 mentions"],
+        "sources": [
+          "G2: 2,100+ mentions",
+          "Reddit: 18 threads",
+          "Capterra: 120 mentions"
+        ],
         "quote": "\"We replaced Outreach, ZoomInfo, and a standalone dialer with Apollo and cut our monthly tooling spend by 60%. One login for everything our SDR team needs.\"",
         "quoteCite": "Synthesized from G2 and community review themes"
       },
@@ -245,7 +396,11 @@
         "sentimentIcon": "&#9660;",
         "heading": "Data accuracy concerns with 15-20% bounce rates",
         "synthesis": "The most consistent criticism across all platforms is email data accuracy. Users report bounce rates of 15-20% on exported lists, particularly for niche verticals, international markets, and smaller companies. Teams targeting non-tech sectors or outside North America experience the sharpest accuracy drop-off.",
-        "sources": ["G2: 890 mentions", "Reddit: 14 threads", "Capterra: 65 mentions"],
+        "sources": [
+          "G2: 890 mentions",
+          "Reddit: 14 threads",
+          "Capterra: 65 mentions"
+        ],
         "quote": "\"We exported 2,000 contacts targeting European manufacturing and hit a 22% bounce rate. For US tech companies the data is solid, but niche international lists need a verification layer on top.\"",
         "quoteCite": "Synthesized from G2 and community review themes"
       },
@@ -254,8 +409,12 @@
         "sentimentIcon": "&#9650;",
         "heading": "Free tier is the best in the category",
         "synthesis": "Apollo's free tier offering 10K leads per month at no cost is universally praised as the most generous in the sales intelligence space. Individual reps and early-stage startups use it as their primary prospecting tool, often for months before upgrading. No competitor matches this level of free access.",
-        "sources": ["G2: 1,400+ mentions", "Reddit: 12 threads", "Capterra: 78 mentions"],
-        "quote": "\"I ran Apollo's free tier for four months as a solo founder before upgrading. No other tool gives you 10K leads a month at zero cost \u2014 it's how I built my entire initial pipeline.\"",
+        "sources": [
+          "G2: 1,400+ mentions",
+          "Reddit: 12 threads",
+          "Capterra: 78 mentions"
+        ],
+        "quote": "\"I ran Apollo's free tier for four months as a solo founder before upgrading. No other tool gives you 10K leads a month at zero cost — it's how I built my entire initial pipeline.\"",
         "quoteCite": "Synthesized from G2 and community review themes"
       },
       {
@@ -263,17 +422,24 @@
         "sentimentIcon": "&#9644;",
         "heading": "Chrome extension loved by reps but flagged by IT",
         "synthesis": "The Chrome extension for LinkedIn prospecting is one of Apollo's most-used features, allowing reps to pull verified contact data directly from profiles. However, IT and security teams at larger organizations flag the extension's broad permissions as a concern, creating tension between rep productivity and corporate security policies.",
-        "sources": ["G2: 650 mentions", "Reddit: 8 threads"],
-        "quote": "\"My reps love the Chrome extension for LinkedIn prospecting \u2014 they pull verified emails in seconds. But our security team flagged the broad permissions and we had to get a formal exception from IT to keep it installed.\"",
+        "sources": [
+          "G2: 650 mentions",
+          "Reddit: 8 threads"
+        ],
+        "quote": "\"My reps love the Chrome extension for LinkedIn prospecting — they pull verified emails in seconds. But our security team flagged the broad permissions and we had to get a formal exception from IT to keep it installed.\"",
         "quoteCite": "Synthesized from G2 and community review themes"
       },
       {
         "sentiment": "positive",
         "sentimentIcon": "&#9650;",
         "heading": "All-in-one approach eliminates tool sprawl for SMBs",
-        "synthesis": "TrustRadius and Software Advice reviewers consistently highlight that Apollo replaces 2-3 separate tools for smaller teams \u2014 combining prospecting, email sequences, and basic CRM in one platform. Mid-market users report saving $500-1,200/mo by consolidating their stack around Apollo.",
-        "sources": ["TrustRadius: 28 mentions", "Software Advice: 35 mentions", "G2: 180+ mentions"],
-        "quote": "\"Apollo replaced our ZoomInfo subscription, a separate sequencing tool, and a basic CRM \u2014 saving us roughly $800 per rep per month. For a 12-person team, that's a game-changer.\"",
+        "synthesis": "TrustRadius and Software Advice reviewers consistently highlight that Apollo replaces 2-3 separate tools for smaller teams — combining prospecting, email sequences, and basic CRM in one platform. Mid-market users report saving $500-1,200/mo by consolidating their stack around Apollo.",
+        "sources": [
+          "TrustRadius: 28 mentions",
+          "Software Advice: 35 mentions",
+          "G2: 180+ mentions"
+        ],
+        "quote": "\"Apollo replaced our ZoomInfo subscription, a separate sequencing tool, and a basic CRM — saving us roughly $800 per rep per month. For a 12-person team, that's a game-changer.\"",
         "quoteCite": "Synthesized from G2 and community review themes"
       }
     ],
@@ -308,23 +474,70 @@
     ],
     "implementationReality": {
       "stats": [
-        { "number": "1&ndash;2 days", "label": "Time to Value" },
-        { "number": "Low", "label": "Setup Complexity" },
-        { "number": "Low", "label": "RevOps Lift" },
-        { "number": "Low", "label": "Training Required" },
-        { "number": "Light", "label": "Data Migration" }
+        {
+          "number": "1&ndash;2 days",
+          "label": "Time to Value"
+        },
+        {
+          "number": "Low",
+          "label": "Setup Complexity"
+        },
+        {
+          "number": "Low",
+          "label": "RevOps Lift"
+        },
+        {
+          "number": "Low",
+          "label": "Training Required"
+        },
+        {
+          "number": "Light",
+          "label": "Data Migration"
+        }
       ],
       "note": "Most reps are searching and sequencing within the first day; CRM integration takes under an hour."
     },
     "enterpriseReadiness": [
-      { "label": "SSO / SAML", "value": "SAML SSO on Organization plan", "class": "dm-available" },
-      { "label": "SOC 2", "value": "SOC 2 Type II certified", "class": "dm-available" },
-      { "label": "ISO 27001", "value": "ISO 27001 certified", "class": "dm-available" },
-      { "label": "SCIM", "value": "SCIM provisioning available", "class": "dm-available" },
-      { "label": "RBAC", "value": "Full role-based access", "class": "dm-available" },
-      { "label": "Data Residency", "value": "US and EU available", "class": "dm-available" },
-      { "label": "SLA", "value": "Enterprise SLA available", "class": "dm-available" },
-      { "label": "Audit Logs", "value": "Available on Organization plan", "class": "dm-available" }
+      {
+        "label": "SSO / SAML",
+        "value": "SAML SSO on Organization plan",
+        "class": "dm-available"
+      },
+      {
+        "label": "SOC 2",
+        "value": "SOC 2 Type II certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "ISO 27001",
+        "value": "ISO 27001 certified",
+        "class": "dm-available"
+      },
+      {
+        "label": "SCIM",
+        "value": "SCIM provisioning available",
+        "class": "dm-available"
+      },
+      {
+        "label": "RBAC",
+        "value": "Full role-based access",
+        "class": "dm-available"
+      },
+      {
+        "label": "Data Residency",
+        "value": "US and EU available",
+        "class": "dm-available"
+      },
+      {
+        "label": "SLA",
+        "value": "Enterprise SLA available",
+        "class": "dm-available"
+      },
+      {
+        "label": "Audit Logs",
+        "value": "Available on Organization plan",
+        "class": "dm-available"
+      }
     ],
     "whoThisIsFor": {
       "org": {
@@ -346,20 +559,66 @@
     },
     "stackPairings": {
       "cards": [
-        { "title": "Clay", "titleLink": "/tools/clay-review.html", "description": "Waterfall enrichment on top of Apollo data." },
-        { "title": "Instantly.ai", "titleLink": "/tools/instantly-review.html", "description": "Apollo data + Instantly for high-volume sending." },
-        { "title": "HubSpot CRM", "titleLink": null, "description": "Deeper pipeline management when teams outgrow Apollo's CRM." },
-        { "title": "Gong", "titleLink": "/tools/gong-review.html", "description": "Apollo dialer + Gong call intelligence for coaching." }
+        {
+          "title": "Clay",
+          "titleLink": "/tools/clay-review.html",
+          "description": "Waterfall enrichment on top of Apollo data."
+        },
+        {
+          "title": "Instantly.ai",
+          "titleLink": "/tools/instantly-review.html",
+          "description": "Apollo data + Instantly for high-volume sending."
+        },
+        {
+          "title": "HubSpot CRM",
+          "titleLink": null,
+          "description": "Deeper pipeline management when teams outgrow Apollo's CRM."
+        },
+        {
+          "title": "Gong",
+          "titleLink": "/tools/gong-review.html",
+          "description": "Apollo dialer + Gong call intelligence for coaching."
+        }
       ],
       "exampleStack": "Apollo (prospect) &#8594; Clay (enrich) &#8594; Instantly (send) &#8594; HubSpot (CRM)"
     },
     "alternatives": {
       "rows": [
-        { "tool": "ZoomInfo", "toolLink": "/tools/zoominfo-review.html", "bestFor": "Enterprise-grade data", "g2": "4.4/5", "price": "From $15K/yr" },
-        { "tool": "Lusha", "toolLink": null, "bestFor": "Quick contact lookup", "g2": "4.3/5", "price": "From $29/mo" },
-        { "tool": "Clay", "toolLink": "/tools/clay-review.html", "bestFor": "Advanced data enrichment", "g2": "4.9/5", "price": "From $149/mo" },
-        { "tool": "Cognism", "toolLink": null, "bestFor": "Best for European data", "g2": "4.6/5", "price": "Custom" },
-        { "tool": "LeadIQ", "toolLink": null, "bestFor": "LinkedIn prospecting", "g2": "4.2/5", "price": "From $36/mo" }
+        {
+          "tool": "ZoomInfo",
+          "toolLink": "/tools/zoominfo-review.html",
+          "bestFor": "Enterprise-grade data",
+          "g2": "4.4/5",
+          "price": "From $15K/yr"
+        },
+        {
+          "tool": "Lusha",
+          "toolLink": null,
+          "bestFor": "Quick contact lookup",
+          "g2": "4.3/5",
+          "price": "From $29/mo"
+        },
+        {
+          "tool": "Clay",
+          "toolLink": "/tools/clay-review.html",
+          "bestFor": "Advanced data enrichment",
+          "g2": "4.9/5",
+          "price": "From $149/mo"
+        },
+        {
+          "tool": "Cognism",
+          "toolLink": null,
+          "bestFor": "Best for European data",
+          "g2": "4.6/5",
+          "price": "Custom"
+        },
+        {
+          "tool": "LeadIQ",
+          "toolLink": null,
+          "bestFor": "LinkedIn prospecting",
+          "g2": "4.2/5",
+          "price": "From $36/mo"
+        }
       ]
     },
     "faqs": [
@@ -389,23 +648,53 @@
     "altText": "See Alternatives",
     "altUrl": "/compare/index.html",
     "atAGlance": [
-      { "label": "G2 Rating", "value": "4.7/5" },
-      { "label": "G2 Reviews", "value": "9,344" },
-      { "label": "Starting Price", "value": "$49/user/mo (annual)" },
-      { "label": "Category", "value": "Lead Prospecting" },
-      { "label": "Free Tier", "value": "Yes" }
+      {
+        "label": "G2 Rating",
+        "value": "4.7/5"
+      },
+      {
+        "label": "G2 Reviews",
+        "value": "9,344"
+      },
+      {
+        "label": "Starting Price",
+        "value": "$49/user/mo (annual)"
+      },
+      {
+        "label": "Category",
+        "value": "Lead Prospecting"
+      },
+      {
+        "label": "Free Tier",
+        "value": "Yes"
+      }
     ],
     "ctaUrl": "/go/apollo",
     "comparisons": [
-      { "text": "Clay vs Apollo", "url": "/compare/clay-vs-apollo.html" },
-      { "text": "Apollo vs ZoomInfo", "url": "/compare/apollo-vs-zoominfo.html" },
-      { "text": "Lusha vs Apollo", "url": "/compare/lusha-vs-apollo.html" }
+      {
+        "text": "Clay vs Apollo",
+        "url": "/compare/clay-vs-apollo.html"
+      },
+      {
+        "text": "Apollo vs ZoomInfo",
+        "url": "/compare/apollo-vs-zoominfo.html"
+      },
+      {
+        "text": "Lusha vs Apollo",
+        "url": "/compare/lusha-vs-apollo.html"
+      }
     ],
     "externalReviews": [
-      { "text": "G2 Reviews", "url": "https://www.g2.com/products/apollo-io/reviews" }
+      {
+        "text": "G2 Reviews",
+        "url": "https://www.g2.com/products/apollo-io/reviews"
+      }
     ],
     "relatedGuides": [
-      { "text": "Best AI Prospecting Tools", "url": "/guides/best-ai-outbound-prospecting-tools.html" }
+      {
+        "text": "Best AI Prospecting Tools",
+        "url": "/guides/best-ai-outbound-prospecting-tools.html"
+      }
     ],
     "emailCard": {
       "heading": "Weekly Tool Intel",
