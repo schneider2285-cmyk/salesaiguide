@@ -425,19 +425,23 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "SOC 2 Type II certified; SAML SSO; enterprise RBAC and security controls for global deployments"
+              "text": "SOC 2 Type II certified; SAML SSO; enterprise RBAC and security controls for global deployments",
+              "url": "https://help.highspot.com"
             },
             {
               "source": "G2",
-              "text": "Enterprise reviewers (1000+ employees) rate security and compliance 4.6/5 across 1,100+ reviews"
+              "text": "Enterprise reviewers (1000+ employees) rate security and compliance 4.6/5 across 1,100+ reviews",
+              "url": "https://www.g2.com/products/highspot/reviews"
             },
             {
               "source": "Gartner PI",
-              "text": "Recognized as a leader in sales enablement alongside Seismic for enterprise customers"
+              "text": "Recognized as a leader in sales enablement alongside Seismic for enterprise customers",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/highspot/reviews"
             },
             {
               "source": "TrustRadius",
-              "text": "Enterprise buyers confirm SOC 2 readiness and enterprise-grade security for regulated environments"
+              "text": "Enterprise buyers confirm SOC 2 readiness and enterprise-grade security for regulated environments",
+              "url": "https://www.trustradius.com/products/highspot/reviews"
             }
           ]
         },
@@ -448,19 +452,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Implementation rated 4.0/5; most reviews cite 4-8 week deployment timeline, lighter than Seismic"
+              "text": "Implementation rated 4.0/5; most reviews cite 4-8 week deployment timeline, lighter than Seismic",
+              "url": "https://www.g2.com/products/highspot/reviews"
             },
             {
               "source": "Reddit",
-              "text": "r/salesenablement threads report faster setup than Seismic but still need dedicated admin for content and training"
+              "text": "r/salesenablement threads report faster setup than Seismic but still need dedicated admin for content and training",
+              "url": "https://www.reddit.com/search/?q=highspot+review&sort=top"
             },
             {
               "source": "Capterra",
-              "text": "Users note CRM integration is straightforward but training module setup takes deliberate planning"
+              "text": "Users note CRM integration is straightforward but training module setup takes deliberate planning",
+              "url": "https://www.capterra.com/highspot/software/1017495/"
             },
             {
               "source": "TrustRadius",
-              "text": "Mid-market users report 4-8 week deployment including training configuration and content migration"
+              "text": "Mid-market users report 4-8 week deployment including training configuration and content migration",
+              "url": "https://www.trustradius.com/products/highspot/reviews"
             }
           ]
         },
@@ -471,19 +479,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Copilot AI recommendations rated as effective for surfacing relevant content and guiding rep pitches"
+              "text": "Copilot AI recommendations rated as effective for surfacing relevant content and guiding rep pitches",
+              "url": "https://www.g2.com/products/highspot/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Copilot AI analyzes deal context, buyer persona, and rep behavior to recommend content and coach pitch delivery"
+              "text": "Copilot AI analyzes deal context, buyer persona, and rep behavior to recommend content and coach pitch delivery",
+              "url": "https://help.highspot.com"
             },
             {
               "source": "Gartner PI",
-              "text": "Recognized for AI-driven readiness scoring and content recommendation capabilities"
+              "text": "Recognized for AI-driven readiness scoring and content recommendation capabilities",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/highspot/reviews"
             },
             {
               "source": "YouTube",
-              "text": "Product demos showcase Copilot AI content recommendations, Scorecards readiness tracking, and coaching workflows"
+              "text": "Product demos showcase Copilot AI content recommendations, Scorecards readiness tracking, and coaching workflows",
+              "url": "https://www.youtube.com/results?search_query=highspot+review+demo"
             }
           ]
         },
@@ -494,19 +506,23 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Native integrations with Salesforce, HubSpot, Outreach, Salesloft, Microsoft Teams, and Zoom"
+              "text": "Native integrations with Salesforce, HubSpot, Outreach, Salesloft, Microsoft Teams, and Zoom",
+              "url": "https://help.highspot.com"
             },
             {
               "source": "G2",
-              "text": "Integration depth rated 4.5/5; Salesforce users praise in-CRM content surfacing and activity logging"
+              "text": "Integration depth rated 4.5/5; Salesforce users praise in-CRM content surfacing and activity logging",
+              "url": "https://www.g2.com/products/highspot/reviews"
             },
             {
               "source": "Capterra",
-              "text": "Users confirm reliable CRM sync and content delivery within Outreach and Salesloft sequences"
+              "text": "Users confirm reliable CRM sync and content delivery within Outreach and Salesloft sequences",
+              "url": "https://www.capterra.com/highspot/software/1017495/"
             },
             {
               "source": "TrustRadius",
-              "text": "Enterprise users report strong Teams and Zoom integration for virtual selling and coaching scenarios"
+              "text": "Enterprise users report strong Teams and Zoom integration for virtual selling and coaching scenarios",
+              "url": "https://www.trustradius.com/products/highspot/reviews"
             }
           ]
         },
@@ -517,15 +533,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Zero pricing information on website; 'Request Demo' is the only path to pricing"
+              "text": "Zero pricing information on website; 'Request Demo' is the only path to pricing",
+              "url": "https://help.highspot.com"
             },
             {
               "source": "Reddit",
-              "text": "Users report pricing comparable to Seismic; enterprise-only with annual commitments required"
+              "text": "Users report pricing comparable to Seismic; enterprise-only with annual commitments required",
+              "url": "https://www.reddit.com/search/?q=highspot+review&sort=top"
             },
             {
               "source": "G2",
-              "text": "Pricing transparency rated low; consistently among the lowest-scored dimensions across reviews"
+              "text": "Pricing transparency rated low; consistently among the lowest-scored dimensions across reviews",
+              "url": "https://www.g2.com/products/highspot/reviews"
             }
           ]
         },
@@ -536,19 +555,23 @@
           "evidence": [
             {
               "source": "Gartner PI",
-              "text": "Verified deployments at Fortune 500 companies with large global sales teams"
+              "text": "Verified deployments at Fortune 500 companies with large global sales teams",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/highspot/reviews"
             },
             {
               "source": "G2",
-              "text": "Enterprise users report consistent performance with multi-language content and global training programs"
+              "text": "Enterprise users report consistent performance with multi-language content and global training programs",
+              "url": "https://www.g2.com/products/highspot/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Architecture supports multi-language content management and training across global regions"
+              "text": "Architecture supports multi-language content management and training across global regions",
+              "url": "https://help.highspot.com"
             },
             {
               "source": "TrustRadius",
-              "text": "Large deployments report strong scalability for distributed global sales organizations and training programs"
+              "text": "Large deployments report strong scalability for distributed global sales organizations and training programs",
+              "url": "https://www.trustradius.com/products/highspot/reviews"
             }
           ]
         }
@@ -558,30 +581,12 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis and vendor documentation. Solid G2 review base (1,100+) provides strong signal. Limited public pricing data reduces confidence on cost estimates.",
       "sourcePills": [
-        {
-          "label": "G2: 4.7/5 (1,100+ reviews)",
-          "url": "https://www.g2.com/products/highspot/reviews"
-        },
-        {
-          "label": "Capterra: 4.6/5 (150+ reviews)",
-          "url": "https://www.capterra.com/highspot/software/1017495/"
-        },
-        {
-          "label": "TrustRadius: 8.8/10 (120+ reviews)",
-          "url": "https://www.trustradius.com/products/highspot/reviews"
-        },
-        {
-          "label": "Gartner PI: 4.5/5 (80+ reviews)",
-          "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/highspot/reviews"
-        },
-        {
-          "label": "YouTube: 10+ demos",
-          "url": "https://www.youtube.com/results?search_query=highspot+review+demo"
-        },
-        {
-          "label": "Vendor docs &#10003;",
-          "url": null
-        }
+        "G2: 4.7/5 (1,100+ reviews)",
+        "Capterra: 4.6/5 (150+ reviews)",
+        "TrustRadius: 8.8/10 (120+ reviews)",
+        "Gartner PI: 4.5/5 (80+ reviews)",
+        "YouTube: 10+ demos",
+        "Vendor docs &#10003;"
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -631,8 +636,7 @@
           "TrustRadius: 30 mentions"
         ],
         "quote": "\"Scorecards changed how we run enablement. I can see exactly which reps have completed training, which content they're using, and where the gaps are. It turns enablement from guesswork into data.\"",
-        "quoteCite": "Director of Sales Enablement, 400-person SaaS org [G2 Review, Jan 2026]",
-        "quoteCiteUrl": "https://www.g2.com/products/highspot/reviews"
+        "quoteCite": "Director of Sales Enablement, 400-person SaaS org [G2 Review, Jan 2026]"
       },
       {
         "sentiment": "negative",
@@ -645,8 +649,7 @@
           "Capterra: 40 mentions"
         ],
         "quote": "\"Great platform, but we underestimated the admin work. You need someone dedicated to managing content, updating training modules, and keeping Scorecards relevant. It's not a set-and-forget tool.\"",
-        "quoteCite": "Sales Enablement Manager, 250-person B2B org [Reddit r/salesenablement, Dec 2025]",
-        "quoteCiteUrl": "https://www.reddit.com/search/?q=highspot+review&sort=top"
+        "quoteCite": "Sales Enablement Manager, 250-person B2B org [Reddit r/salesenablement, Dec 2025]"
       },
       {
         "sentiment": "mixed",
@@ -659,8 +662,7 @@
           "Capterra: 20 mentions"
         ],
         "quote": "\"Copilot is a nice-to-have, but honestly we bought Highspot for the training and Scorecards. The AI recommendations are useful but it's the readiness tracking that our leadership actually uses to make decisions.\"",
-        "quoteCite": "VP Sales Operations, 300-person tech company [TrustRadius Review, Nov 2025]",
-        "quoteCiteUrl": "https://www.trustradius.com/products/highspot/reviews"
+        "quoteCite": "VP Sales Operations, 300-person tech company [TrustRadius Review, Nov 2025]"
       }
     ],
     "pricingBreakdown": {

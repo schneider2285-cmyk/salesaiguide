@@ -184,19 +184,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise reviewers confirm SAML SSO and role-based access on all paid plans"
+              "text": "Enterprise reviewers confirm SAML SSO and role-based access on all paid plans",
+              "url": "https://www.g2.com/products/salesloft/reviews"
             },
             {
               "source": "Vendor",
-              "text": "SOC 2 Type II certification and dedicated CSM documented for enterprise tier"
+              "text": "SOC 2 Type II certification and dedicated CSM documented for enterprise tier",
+              "url": "https://support.salesloft.com"
             },
             {
               "source": "Capterra",
-              "text": "Users note strong Salesforce integration comparable to Outreach"
+              "text": "Users note strong Salesforce integration comparable to Outreach",
+              "url": "https://www.capterra.com/salesloft/software/1017499/"
             },
             {
               "source": "Gartner PI",
-              "text": "Enterprise buyers rate governance and compliance 4.3/5; SOC 2 Type II confirmed"
+              "text": "Enterprise buyers rate governance and compliance 4.3/5; SOC 2 Type II confirmed",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/salesloft/reviews"
             }
           ]
         },
@@ -207,19 +211,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Ease of use rated 8.6/10 vs Outreach's 8.2/10; cleaner interface consistently praised"
+              "text": "Ease of use rated 8.6/10 vs Outreach's 8.2/10; cleaner interface consistently praised",
+              "url": "https://www.g2.com/products/salesloft/reviews"
             },
             {
               "source": "Reddit",
-              "text": "Practitioners report faster rep onboarding than Outreach by 1-2 weeks"
+              "text": "Practitioners report faster rep onboarding than Outreach by 1-2 weeks",
+              "url": "https://www.reddit.com/search/?q=salesloft+review&sort=top"
             },
             {
               "source": "Capterra",
-              "text": "Cadence builder specifically cited as intuitive for new users"
+              "text": "Cadence builder specifically cited as intuitive for new users",
+              "url": "https://www.capterra.com/salesloft/software/1017499/"
             },
             {
               "source": "TrustRadius",
-              "text": "80% of reviewers rate Rhythm AI workflow as \"intuitive\" after 2-week ramp"
+              "text": "80% of reviewers rate Rhythm AI workflow as \"intuitive\" after 2-week ramp",
+              "url": "https://www.trustradius.com/products/salesloft/reviews"
             }
           ]
         },
@@ -230,15 +238,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Rhythm engine praised for action prioritization; conversation intelligence is newer addition"
+              "text": "Rhythm engine praised for action prioritization; conversation intelligence is newer addition",
+              "url": "https://www.g2.com/products/salesloft/reviews"
             },
             {
               "source": "Vendor",
-              "text": "AI email generation and Rhythm workflow engine documented as core features"
+              "text": "AI email generation and Rhythm workflow engine documented as core features",
+              "url": "https://support.salesloft.com"
             },
             {
               "source": "Reddit",
-              "text": "Practitioners note conversation intelligence is less mature than Gong's dedicated solution"
+              "text": "Practitioners note conversation intelligence is less mature than Gong's dedicated solution",
+              "url": "https://www.reddit.com/search/?q=salesloft+review&sort=top"
             }
           ]
         },
@@ -249,15 +260,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Native integrations with Salesforce, HubSpot, ZoomInfo, 6sense listed in directory"
+              "text": "Native integrations with Salesforce, HubSpot, ZoomInfo, 6sense listed in directory",
+              "url": "https://support.salesloft.com"
             },
             {
               "source": "G2",
-              "text": "Integration depth rated 4.3/5; fewer third-party connectors than Outreach noted"
+              "text": "Integration depth rated 4.3/5; fewer third-party connectors than Outreach noted",
+              "url": "https://www.g2.com/products/salesloft/reviews"
             },
             {
               "source": "Capterra",
-              "text": "Users confirm reliable CRM sync though API rate limits can be restrictive"
+              "text": "Users confirm reliable CRM sync though API rate limits can be restrictive",
+              "url": "https://www.capterra.com/salesloft/software/1017499/"
             }
           ]
         },
@@ -268,15 +282,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Pricing transparency rated below category average; no public tiers available"
+              "text": "Pricing transparency rated below category average; no public tiers available",
+              "url": "https://www.g2.com/products/salesloft/reviews"
             },
             {
               "source": "Reddit",
-              "text": "Users report $75-125/user/month with annual contracts and implementation fees"
+              "text": "Users report $75-125/user/month with annual contracts and implementation fees",
+              "url": "https://www.reddit.com/search/?q=salesloft+review&sort=top"
             },
             {
               "source": "Capterra",
-              "text": "Acquired Drift features may require additional licensing costs"
+              "text": "Acquired Drift features may require additional licensing costs",
+              "url": "https://www.capterra.com/salesloft/software/1017499/"
             }
           ]
         },
@@ -287,19 +304,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise accounts with 500+ seats report stable cadence execution at volume"
+              "text": "Enterprise accounts with 500+ seats report stable cadence execution at volume",
+              "url": "https://www.g2.com/products/salesloft/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Case studies cite deployments across large enterprise sales organizations"
+              "text": "Case studies cite deployments across large enterprise sales organizations",
+              "url": "https://support.salesloft.com"
             },
             {
               "source": "Reddit",
-              "text": "Teams of 200+ reps report consistent performance with high-volume cadences"
+              "text": "Teams of 200+ reps report consistent performance with high-volume cadences",
+              "url": "https://www.reddit.com/search/?q=salesloft+review&sort=top"
             },
             {
               "source": "TrustRadius",
-              "text": "Mid-market teams of 20-100 reps report strong performance; enterprise teams note occasional sync delays"
+              "text": "Mid-market teams of 20-100 reps report strong performance; enterprise teams note occasional sync delays",
+              "url": "https://www.trustradius.com/products/salesloft/reviews"
             }
           ]
         }
@@ -309,30 +330,12 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis, practitioner community comparison with Outreach, demos verified, and current vendor documentation. Strong signal across 4,260+ public reviews.",
       "sourcePills": [
-        {
-          "label": "G2: 4.5/5 (4,260+ reviews)",
-          "url": "https://www.g2.com/products/salesloft/reviews"
-        },
-        {
-          "label": "Capterra: 4.3/5 (231 reviews)",
-          "url": "https://www.capterra.com/salesloft/software/1017499/"
-        },
-        {
-          "label": "TrustRadius: 7.7/10 (965 reviews)",
-          "url": "https://www.trustradius.com/products/salesloft/reviews"
-        },
-        {
-          "label": "Gartner PI: 4.4/5 (282 reviews)",
-          "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/salesloft/reviews"
-        },
-        {
-          "label": "YouTube: 10+ demos",
-          "url": "https://www.youtube.com/results?search_query=salesloft+review+demo"
-        },
-        {
-          "label": "Trust center ✓",
-          "url": null
-        }
+        "G2: 4.5/5 (4,260+ reviews)",
+        "Capterra: 4.3/5 (231 reviews)",
+        "TrustRadius: 7.7/10 (965 reviews)",
+        "Gartner PI: 4.4/5 (282 reviews)",
+        "YouTube: 10+ demos",
+        "Trust center ✓"
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -382,8 +385,7 @@
           "Capterra: 95 mentions"
         ],
         "quote": "\"We moved 60 reps from Outreach to Salesloft and daily adoption jumped from 65% to 89% in the first month. The interface just gets out of your way.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/salesloft/reviews"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "positive",
@@ -396,8 +398,7 @@
           "Capterra: 68 mentions"
         ],
         "quote": "\"New SDRs are building and launching cadences by day 3. With Outreach, that same ramp took close to two weeks for our team.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/salesloft/reviews"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "mixed",
@@ -410,8 +411,7 @@
           "Capterra: 35 mentions"
         ],
         "quote": "\"Salesloft's call recording works fine for basic coaching, but our sales leaders still need Gong for deal intelligence and competitive insights. It's a solid add-on, not a replacement.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/salesloft/reviews"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "negative",
@@ -424,8 +424,7 @@
           "Capterra: 42 mentions"
         ],
         "quote": "\"The cadence-level reporting is solid, but getting pipeline attribution data requires exporting to Salesforce. Wish the native analytics went deeper.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/salesloft/reviews"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "positive",
@@ -438,8 +437,7 @@
           "G2: 220+ mentions"
         ],
         "quote": "\"Salesloft's Rhythm engine genuinely changed how our reps prioritize their day. Instead of guessing which accounts to work, AI surfaces the highest-intent signals automatically.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/salesloft/reviews"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       }
     ],
     "pricingBreakdown": {
@@ -705,8 +703,5 @@
     "secondaryUrl": "https://www.g2.com/products/salesloft/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "g2Reviews": {
-    "link": "https://www.g2.com/products/salesloft/reviews"
   }
 }

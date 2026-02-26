@@ -183,15 +183,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "No SSO or SOC 2 mentioned on website or documentation"
+              "text": "No SSO or SOC 2 mentioned on website or documentation",
+              "url": "https://help.smartlead.ai"
             },
             {
               "source": "G2",
-              "text": "Enterprise reviewers note lack of admin controls and compliance certifications"
+              "text": "Enterprise reviewers note lack of admin controls and compliance certifications",
+              "url": "https://www.g2.com/products/smartlead-ai/reviews"
             },
             {
               "source": "Reddit",
-              "text": "r/coldoutreach confirms Smartlead targets SMBs and agencies, not enterprise"
+              "text": "r/coldoutreach confirms Smartlead targets SMBs and agencies, not enterprise",
+              "url": "https://www.reddit.com/search/?q=smartlead+ai+review&sort=top"
             }
           ]
         },
@@ -202,15 +205,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Ease of use rated 4.3/5; users note steeper learning curve than Instantly"
+              "text": "Ease of use rated 4.3/5; users note steeper learning curve than Instantly",
+              "url": "https://www.g2.com/products/smartlead-ai/reviews"
             },
             {
               "source": "Reddit",
-              "text": "Practitioners report 1-2 weeks to fully configure mailbox rotation"
+              "text": "Practitioners report 1-2 weeks to fully configure mailbox rotation",
+              "url": "https://www.reddit.com/search/?q=smartlead+ai+review&sort=top"
             },
             {
               "source": "Capterra",
-              "text": "UI praised for power users but criticized for initial complexity"
+              "text": "UI praised for power users but criticized for initial complexity",
+              "url": "https://www.capterra.com/smartlead/software/1017501/"
             }
           ]
         },
@@ -221,15 +227,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "AI features limited to basic email writing suggestions"
+              "text": "AI features limited to basic email writing suggestions",
+              "url": "https://help.smartlead.ai"
             },
             {
               "source": "G2",
-              "text": "AI rarely mentioned as a buying factor in reviews"
+              "text": "AI rarely mentioned as a buying factor in reviews",
+              "url": "https://www.g2.com/products/smartlead-ai/reviews"
             },
             {
               "source": "Reddit",
-              "text": "Users pair Smartlead with external AI tools like ChatGPT for copy"
+              "text": "Users pair Smartlead with external AI tools like ChatGPT for copy",
+              "url": "https://www.reddit.com/search/?q=smartlead+ai+review&sort=top"
             }
           ]
         },
@@ -240,15 +249,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "REST API and webhook documentation available; limited native CRM connectors"
+              "text": "REST API and webhook documentation available; limited native CRM connectors",
+              "url": "https://help.smartlead.ai"
             },
             {
               "source": "G2",
-              "text": "Integration options rated 3.9/5; Zapier dependency noted frequently"
+              "text": "Integration options rated 3.9/5; Zapier dependency noted frequently",
+              "url": "https://www.g2.com/products/smartlead-ai/reviews"
             },
             {
               "source": "Reddit",
-              "text": "Users confirm heavy reliance on Zapier/Make for CRM sync workflows"
+              "text": "Users confirm heavy reliance on Zapier/Make for CRM sync workflows",
+              "url": "https://www.reddit.com/search/?q=smartlead+ai+review&sort=top"
             }
           ]
         },
@@ -259,15 +271,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "All three pricing tiers listed publicly with feature breakdowns"
+              "text": "All three pricing tiers listed publicly with feature breakdowns",
+              "url": "https://help.smartlead.ai"
             },
             {
               "source": "G2",
-              "text": "Pricing clarity praised; value for money rated 4.5/5"
+              "text": "Pricing clarity praised; value for money rated 4.5/5",
+              "url": "https://www.g2.com/products/smartlead-ai/reviews"
             },
             {
               "source": "Capterra",
-              "text": "No reports of hidden fees or surprise charges in reviews"
+              "text": "No reports of hidden fees or surprise charges in reviews",
+              "url": "https://www.capterra.com/smartlead/software/1017501/"
             }
           ]
         },
@@ -278,15 +293,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Unlimited mailbox connections on all plans with auto-rotation"
+              "text": "Unlimited mailbox connections on all plans with auto-rotation",
+              "url": "https://help.smartlead.ai"
             },
             {
               "source": "G2",
-              "text": "Agencies report managing 50+ client accounts without performance issues"
+              "text": "Agencies report managing 50+ client accounts without performance issues",
+              "url": "https://www.g2.com/products/smartlead-ai/reviews"
             },
             {
               "source": "Reddit",
-              "text": "Power users confirm stable performance at 100+ mailbox scale"
+              "text": "Power users confirm stable performance at 100+ mailbox scale",
+              "url": "https://www.reddit.com/search/?q=smartlead+ai+review&sort=top"
             }
           ]
         }

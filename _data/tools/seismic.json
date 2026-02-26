@@ -421,19 +421,23 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "SOC 2 Type II certified; GDPR compliant; SAML SSO; enterprise RBAC and governance controls"
+              "text": "SOC 2 Type II certified; GDPR compliant; SAML SSO; enterprise RBAC and governance controls",
+              "url": "https://help.seismic.com"
             },
             {
               "source": "G2",
-              "text": "Enterprise reviewers (1000+ employees) rate security and compliance 4.7/5 across 1,700+ reviews"
+              "text": "Enterprise reviewers (1000+ employees) rate security and compliance 4.7/5 across 1,700+ reviews",
+              "url": "https://www.g2.com/products/seismic/reviews"
             },
             {
               "source": "Gartner PI",
-              "text": "Recognized as a leader in sales enablement for Fortune 500 and global enterprise customers"
+              "text": "Recognized as a leader in sales enablement for Fortune 500 and global enterprise customers",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/seismic/reviews"
             },
             {
               "source": "TrustRadius",
-              "text": "Enterprise buyers confirm SOC 2, GDPR, HIPAA readiness for regulated industries"
+              "text": "Enterprise buyers confirm SOC 2, GDPR, HIPAA readiness for regulated industries",
+              "url": "https://www.trustradius.com/products/seismic/reviews"
             }
           ]
         },
@@ -444,19 +448,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Implementation rated 3.5/5; most reviews cite 3-6 month deployment timeline for full rollout"
+              "text": "Implementation rated 3.5/5; most reviews cite 3-6 month deployment timeline for full rollout",
+              "url": "https://www.g2.com/products/seismic/reviews"
             },
             {
               "source": "Reddit",
-              "text": "r/salesenablement threads report needing full-time admin and 3+ months for taxonomy setup and content migration"
+              "text": "r/salesenablement threads report needing full-time admin and 3+ months for taxonomy setup and content migration",
+              "url": "https://www.reddit.com/search/?q=seismic+sales+review&sort=top"
             },
             {
               "source": "Capterra",
-              "text": "Users note CRM integration is solid but content organization and tagging setup is time-intensive"
+              "text": "Users note CRM integration is solid but content organization and tagging setup is time-intensive",
+              "url": "https://www.capterra.com/seismic/software/1017500/"
             },
             {
               "source": "TrustRadius",
-              "text": "Mid-market users report 4-6 month full deployment including training and workflow configuration"
+              "text": "Mid-market users report 4-6 month full deployment including training and workflow configuration",
+              "url": "https://www.trustradius.com/products/seismic/reviews"
             }
           ]
         },
@@ -467,19 +475,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "AI content recommendations rated as effective for surfacing relevant materials based on deal stage and persona"
+              "text": "AI content recommendations rated as effective for surfacing relevant materials based on deal stage and persona",
+              "url": "https://www.g2.com/products/seismic/reviews"
             },
             {
               "source": "Vendor",
-              "text": "AI models analyze content usage, deal outcomes, and buyer engagement to recommend and score content"
+              "text": "AI models analyze content usage, deal outcomes, and buyer engagement to recommend and score content",
+              "url": "https://help.seismic.com"
             },
             {
               "source": "Gartner PI",
-              "text": "Recognized for AI-driven content intelligence capabilities in the enablement category"
+              "text": "Recognized for AI-driven content intelligence capabilities in the enablement category",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/seismic/reviews"
             },
             {
               "source": "YouTube",
-              "text": "Product demos showcase AI content recommendations, predictive scoring, and LiveSend engagement analytics"
+              "text": "Product demos showcase AI content recommendations, predictive scoring, and LiveSend engagement analytics",
+              "url": "https://www.youtube.com/results?search_query=seismic+review+demo"
             }
           ]
         },
@@ -490,19 +502,23 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Native integrations with Salesforce, HubSpot, Outreach, Salesloft, Microsoft Teams, and Slack"
+              "text": "Native integrations with Salesforce, HubSpot, Outreach, Salesloft, Microsoft Teams, and Slack",
+              "url": "https://help.seismic.com"
             },
             {
               "source": "G2",
-              "text": "Integration depth rated 4.5/5; Salesforce users rate in-CRM content surfacing as seamless"
+              "text": "Integration depth rated 4.5/5; Salesforce users rate in-CRM content surfacing as seamless",
+              "url": "https://www.g2.com/products/seismic/reviews"
             },
             {
               "source": "Capterra",
-              "text": "Users confirm reliable CRM sync and content delivery within Outreach and Salesloft workflows"
+              "text": "Users confirm reliable CRM sync and content delivery within Outreach and Salesloft workflows",
+              "url": "https://www.capterra.com/seismic/software/1017500/"
             },
             {
               "source": "TrustRadius",
-              "text": "Enterprise users praise Teams and Slack integration for surfacing content in collaboration tools"
+              "text": "Enterprise users praise Teams and Slack integration for surfacing content in collaboration tools",
+              "url": "https://www.trustradius.com/products/seismic/reviews"
             }
           ]
         },
@@ -513,15 +529,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Zero pricing information on website; 'Request Demo' is the only path to pricing"
+              "text": "Zero pricing information on website; 'Request Demo' is the only path to pricing",
+              "url": "https://help.seismic.com"
             },
             {
               "source": "Reddit",
-              "text": "Users report $384-480/seat/year with annual commitments; pricing varies by org size and modules"
+              "text": "Users report $384-480/seat/year with annual commitments; pricing varies by org size and modules",
+              "url": "https://www.reddit.com/search/?q=seismic+sales+review&sort=top"
             },
             {
               "source": "G2",
-              "text": "Pricing transparency rated 2.1/5; consistently the lowest-scored dimension across reviews"
+              "text": "Pricing transparency rated 2.1/5; consistently the lowest-scored dimension across reviews",
+              "url": "https://www.g2.com/products/seismic/reviews"
             }
           ]
         },
@@ -532,19 +551,23 @@
           "evidence": [
             {
               "source": "Gartner PI",
-              "text": "Verified deployments at Fortune 500 companies with 1,000+ seat global teams"
+              "text": "Verified deployments at Fortune 500 companies with 1,000+ seat global teams",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/seismic/reviews"
             },
             {
               "source": "G2",
-              "text": "Enterprise users report consistent performance with multi-language, multi-region content libraries"
+              "text": "Enterprise users report consistent performance with multi-language, multi-region content libraries",
+              "url": "https://www.g2.com/products/seismic/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Architecture supports multi-language content management across global regions with localized workflows"
+              "text": "Architecture supports multi-language content management across global regions with localized workflows",
+              "url": "https://help.seismic.com"
             },
             {
               "source": "TrustRadius",
-              "text": "Large deployments report strong scalability across distributed global sales organizations"
+              "text": "Large deployments report strong scalability across distributed global sales organizations",
+              "url": "https://www.trustradius.com/products/seismic/reviews"
             }
           ]
         }
@@ -554,30 +577,12 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis and vendor documentation. Large G2 review base (1,700+) provides strong signal. Limited public pricing data reduces confidence on cost estimates.",
       "sourcePills": [
-        {
-          "label": "G2: 4.7/5 (1,700+ reviews)",
-          "url": "https://www.g2.com/products/seismic/reviews"
-        },
-        {
-          "label": "Capterra: 4.6/5 (200+ reviews)",
-          "url": "https://www.capterra.com/seismic/software/1017500/"
-        },
-        {
-          "label": "TrustRadius: 8.9/10 (150+ reviews)",
-          "url": "https://www.trustradius.com/products/seismic/reviews"
-        },
-        {
-          "label": "Gartner PI: 4.6/5 (100+ reviews)",
-          "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/seismic/reviews"
-        },
-        {
-          "label": "YouTube: 15+ demos",
-          "url": "https://www.youtube.com/results?search_query=seismic+review+demo"
-        },
-        {
-          "label": "Vendor docs &#10003;",
-          "url": null
-        }
+        "G2: 4.7/5 (1,700+ reviews)",
+        "Capterra: 4.6/5 (200+ reviews)",
+        "TrustRadius: 8.9/10 (150+ reviews)",
+        "Gartner PI: 4.6/5 (100+ reviews)",
+        "YouTube: 15+ demos",
+        "Vendor docs &#10003;"
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -627,8 +632,7 @@
           "TrustRadius: 45 mentions"
         ],
         "quote": "\"LiveSend changed how we follow up. I can see that the CFO spent 8 minutes on the ROI slide and skipped the technical section entirely. That tells me exactly how to frame my next call.\"",
-        "quoteCite": "Enterprise AE, 500-person SaaS org [G2 Review, Jan 2026]",
-        "quoteCiteUrl": "https://www.g2.com/products/seismic/reviews"
+        "quoteCite": "Enterprise AE, 500-person SaaS org [G2 Review, Jan 2026]"
       },
       {
         "sentiment": "negative",
@@ -641,8 +645,7 @@
           "Capterra: 55 mentions"
         ],
         "quote": "\"We underestimated the implementation effort. It took us 5 months to fully deploy, and we still need a full-time admin to manage content updates, permissions, and taxonomy. Budget for the people cost, not just the license.\"",
-        "quoteCite": "VP Sales Enablement, 300-person B2B org [Reddit r/salesenablement, Nov 2025]",
-        "quoteCiteUrl": "https://www.reddit.com/search/?q=seismic+sales+review&sort=top"
+        "quoteCite": "VP Sales Enablement, 300-person B2B org [Reddit r/salesenablement, Nov 2025]"
       },
       {
         "sentiment": "mixed",
@@ -655,8 +658,7 @@
           "Capterra: 30 mentions"
         ],
         "quote": "\"The AI recommendations are great now, but it took us 3 months of cleanup to get our content tagged properly. Once we fixed the taxonomy, the recommendations became genuinely useful for our reps.\"",
-        "quoteCite": "Sales Enablement Manager, 200-person tech company [TrustRadius Review, Dec 2025]",
-        "quoteCiteUrl": "https://www.trustradius.com/products/seismic/reviews"
+        "quoteCite": "Sales Enablement Manager, 200-person tech company [TrustRadius Review, Dec 2025]"
       }
     ],
     "pricingBreakdown": {

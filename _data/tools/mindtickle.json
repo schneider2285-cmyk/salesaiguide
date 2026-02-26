@@ -421,19 +421,23 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "SOC 2 certified; SAML SSO; enterprise RBAC and security controls for regulated industries"
+              "text": "SOC 2 certified; SAML SSO; enterprise RBAC and security controls for regulated industries",
+              "url": "https://help.mindtickle.com"
             },
             {
               "source": "G2",
-              "text": "Enterprise reviewers (1000+ employees) rate security and compliance capabilities highly across 2,000+ reviews"
+              "text": "Enterprise reviewers (1000+ employees) rate security and compliance capabilities highly across 2,000+ reviews",
+              "url": "https://www.g2.com/products/mindtickle/reviews"
             },
             {
               "source": "Gartner PI",
-              "text": "Recognized for enterprise sales readiness with vertical-specific deployments in financial services and healthcare"
+              "text": "Recognized for enterprise sales readiness with vertical-specific deployments in financial services and healthcare",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/mindtickle/reviews"
             },
             {
               "source": "TrustRadius",
-              "text": "Enterprise buyers confirm compliance-ready training and certification modules for regulated environments"
+              "text": "Enterprise buyers confirm compliance-ready training and certification modules for regulated environments",
+              "url": "https://www.trustradius.com/products/mindtickle/reviews"
             }
           ]
         },
@@ -444,19 +448,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Implementation rated moderately; course building and rubric configuration require dedicated admin time upfront"
+              "text": "Implementation rated moderately; course building and rubric configuration require dedicated admin time upfront",
+              "url": "https://www.g2.com/products/mindtickle/reviews"
             },
             {
               "source": "Reddit",
-              "text": "r/sales and r/salesenablement threads report significant admin effort for course creation and Call AI rubric setup"
+              "text": "r/sales and r/salesenablement threads report significant admin effort for course creation and Call AI rubric setup",
+              "url": "https://www.reddit.com/search/?q=mindtickle+review&sort=top"
             },
             {
               "source": "Capterra",
-              "text": "Users note reps mostly experience platform passively through assigned training and coaching reviews"
+              "text": "Users note reps mostly experience platform passively through assigned training and coaching reviews",
+              "url": "https://www.capterra.com/mindtickle/software/1017497/"
             },
             {
               "source": "TrustRadius",
-              "text": "Mid-market users report 6-10 week deployment including training program design and CRM integration"
+              "text": "Mid-market users report 6-10 week deployment including training program design and CRM integration",
+              "url": "https://www.trustradius.com/products/mindtickle/reviews"
             }
           ]
         },
@@ -467,19 +475,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Call AI scoring against custom rubrics praised for giving managers scalable coaching data without reviewing every call"
+              "text": "Call AI scoring against custom rubrics praised for giving managers scalable coaching data without reviewing every call",
+              "url": "https://www.g2.com/products/mindtickle/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Call AI analyzes recorded calls for talk patterns, objection handling, and adherence to methodology with custom scoring rubrics"
+              "text": "Call AI analyzes recorded calls for talk patterns, objection handling, and adherence to methodology with custom scoring rubrics",
+              "url": "https://help.mindtickle.com"
             },
             {
               "source": "Gartner PI",
-              "text": "Recognized for AI-driven call scoring and practice Mission feedback capabilities"
+              "text": "Recognized for AI-driven call scoring and practice Mission feedback capabilities",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/mindtickle/reviews"
             },
             {
               "source": "YouTube",
-              "text": "Product demos showcase Call AI rubric scoring, Mission practice feedback, and readiness analytics dashboards"
+              "text": "Product demos showcase Call AI rubric scoring, Mission practice feedback, and readiness analytics dashboards",
+              "url": "https://www.youtube.com/results?search_query=mindtickle+review+demo"
             }
           ]
         },
@@ -490,19 +502,23 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Native integrations with Salesforce, HubSpot, Microsoft Teams, and Zoom for call recording ingestion"
+              "text": "Native integrations with Salesforce, HubSpot, Microsoft Teams, and Zoom for call recording ingestion",
+              "url": "https://help.mindtickle.com"
             },
             {
               "source": "G2",
-              "text": "CRM integration rated well; some users note fewer native SEP integrations compared to enablement platforms"
+              "text": "CRM integration rated well; some users note fewer native SEP integrations compared to enablement platforms",
+              "url": "https://www.g2.com/products/mindtickle/reviews"
             },
             {
               "source": "Capterra",
-              "text": "Users confirm reliable Salesforce sync and Zoom/Teams call ingestion for Call AI analysis"
+              "text": "Users confirm reliable Salesforce sync and Zoom/Teams call ingestion for Call AI analysis",
+              "url": "https://www.capterra.com/mindtickle/software/1017497/"
             },
             {
               "source": "TrustRadius",
-              "text": "Enterprise users report strong CRM integration but wish for deeper Outreach and Salesloft connections"
+              "text": "Enterprise users report strong CRM integration but wish for deeper Outreach and Salesloft connections",
+              "url": "https://www.trustradius.com/products/mindtickle/reviews"
             }
           ]
         },
@@ -513,15 +529,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Zero pricing information on website; 'Request Demo' is the only path to pricing"
+              "text": "Zero pricing information on website; 'Request Demo' is the only path to pricing",
+              "url": "https://help.mindtickle.com"
             },
             {
               "source": "Reddit",
-              "text": "Users report pricing typically in the $20-40/seat/month range; enterprise-only with annual commitments required"
+              "text": "Users report pricing typically in the $20-40/seat/month range; enterprise-only with annual commitments required",
+              "url": "https://www.reddit.com/search/?q=mindtickle+review&sort=top"
             },
             {
               "source": "G2",
-              "text": "Pricing transparency rated low; consistently among the lowest-scored dimensions across reviews"
+              "text": "Pricing transparency rated low; consistently among the lowest-scored dimensions across reviews",
+              "url": "https://www.g2.com/products/mindtickle/reviews"
             }
           ]
         },
@@ -532,19 +551,23 @@
           "evidence": [
             {
               "source": "Gartner PI",
-              "text": "Verified deployments at large enterprises with global sales teams across multiple verticals"
+              "text": "Verified deployments at large enterprises with global sales teams across multiple verticals",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/mindtickle/reviews"
             },
             {
               "source": "G2",
-              "text": "Enterprise users report consistent performance for large-scale onboarding programs and ongoing training"
+              "text": "Enterprise users report consistent performance for large-scale onboarding programs and ongoing training",
+              "url": "https://www.g2.com/products/mindtickle/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Architecture supports multi-language training programs and global certification tracking across regions"
+              "text": "Architecture supports multi-language training programs and global certification tracking across regions",
+              "url": "https://help.mindtickle.com"
             },
             {
               "source": "TrustRadius",
-              "text": "Large deployments report strong scalability for distributed global sales organizations and compliance training"
+              "text": "Large deployments report strong scalability for distributed global sales organizations and compliance training",
+              "url": "https://www.trustradius.com/products/mindtickle/reviews"
             }
           ]
         }
@@ -554,30 +577,12 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis and vendor documentation. Large G2 review base (2,000+) provides strong signal. Limited public pricing data reduces confidence on cost estimates.",
       "sourcePills": [
-        {
-          "label": "G2: 4.7/5 (2,000+ reviews)",
-          "url": "https://www.g2.com/products/mindtickle/reviews"
-        },
-        {
-          "label": "Capterra: 4.5/5 (100+ reviews)",
-          "url": "https://www.capterra.com/mindtickle/software/1017497/"
-        },
-        {
-          "label": "TrustRadius: 8.5/10 (80+ reviews)",
-          "url": "https://www.trustradius.com/products/mindtickle/reviews"
-        },
-        {
-          "label": "Gartner PI: 4.4/5 (60+ reviews)",
-          "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/mindtickle/reviews"
-        },
-        {
-          "label": "YouTube: 10+ demos",
-          "url": "https://www.youtube.com/results?search_query=mindtickle+review+demo"
-        },
-        {
-          "label": "Vendor docs &#10003;",
-          "url": null
-        }
+        "G2: 4.7/5 (2,000+ reviews)",
+        "Capterra: 4.5/5 (100+ reviews)",
+        "TrustRadius: 8.5/10 (80+ reviews)",
+        "Gartner PI: 4.4/5 (60+ reviews)",
+        "YouTube: 10+ demos",
+        "Vendor docs &#10003;"
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -627,8 +632,7 @@
           "TrustRadius: 25 mentions"
         ],
         "quote": "\"Call AI changed how we coach. Instead of randomly sampling calls, I can see rubric scores across the entire team and focus coaching time where it actually matters. The custom rubrics let us score exactly what our methodology requires.\"",
-        "quoteCite": "VP of Sales Enablement, 500-person SaaS org [G2 Review, Jan 2026]",
-        "quoteCiteUrl": "https://www.g2.com/products/mindtickle/reviews"
+        "quoteCite": "VP of Sales Enablement, 500-person SaaS org [G2 Review, Jan 2026]"
       },
       {
         "sentiment": "negative",
@@ -641,8 +645,7 @@
           "Capterra: 30 mentions"
         ],
         "quote": "\"Powerful platform for the enablement team, but reps see it as 'another training tool they have to log into.' Building the courses and rubrics takes real effort, and you need someone dedicated to it full-time.\"",
-        "quoteCite": "Sales Enablement Manager, 300-person B2B org [Reddit r/salesenablement, Nov 2025]",
-        "quoteCiteUrl": "https://www.reddit.com/search/?q=mindtickle+review&sort=top"
+        "quoteCite": "Sales Enablement Manager, 300-person B2B org [Reddit r/salesenablement, Nov 2025]"
       },
       {
         "sentiment": "mixed",
@@ -655,8 +658,7 @@
           "Capterra: 15 mentions"
         ],
         "quote": "\"Missions are great when mandated. We saw real improvement in pitch consistency when we made them part of onboarding. But good luck getting experienced reps to do practice pitches voluntarily.\"",
-        "quoteCite": "Director of Sales Training, 400-person tech company [TrustRadius Review, Dec 2025]",
-        "quoteCiteUrl": "https://www.trustradius.com/products/mindtickle/reviews"
+        "quoteCite": "Director of Sales Training, 400-person tech company [TrustRadius Review, Dec 2025]"
       }
     ],
     "pricingBreakdown": {

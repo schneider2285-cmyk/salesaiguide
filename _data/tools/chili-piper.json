@@ -439,15 +439,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise reviewers confirm complex routing and territory management"
+              "text": "Enterprise reviewers confirm complex routing and territory management",
+              "url": "https://www.g2.com/products/chili-piper/reviews"
             },
             {
               "source": "Vendor",
-              "text": "SOC 2 Type II; SSO; enterprise SLA available"
+              "text": "SOC 2 Type II; SSO; enterprise SLA available",
+              "url": "https://help.chilipiper.com"
             },
             {
               "source": "TrustRadius",
-              "text": "Fortune 500 companies use for global inbound routing"
+              "text": "Fortune 500 companies use for global inbound routing",
+              "url": "https://www.trustradius.com/products/chili-piper/reviews"
             },
             {
               "source": "Capterra",
@@ -462,19 +465,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Instant Booker installs quickly; Concierge routing needs technical setup"
+              "text": "Instant Booker installs quickly; Concierge routing needs technical setup",
+              "url": "https://www.g2.com/products/chili-piper/reviews"
             },
             {
               "source": "Reddit",
-              "text": "Users report 2-4 weeks for full routing configuration"
+              "text": "Users report 2-4 weeks for full routing configuration",
+              "url": "https://www.reddit.com/search/?q=chili+piper+review&sort=top"
             },
             {
               "source": "Vendor",
-              "text": "Implementation support included; typical setup 1-3 weeks"
+              "text": "Implementation support included; typical setup 1-3 weeks",
+              "url": "https://help.chilipiper.com"
             },
             {
               "source": "TrustRadius",
-              "text": "Routing rules require Salesforce admin expertise"
+              "text": "Routing rules require Salesforce admin expertise",
+              "url": "https://www.trustradius.com/products/chili-piper/reviews"
             }
           ]
         },
@@ -485,15 +492,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "No AI-powered routing or optimization mentioned in reviews"
+              "text": "No AI-powered routing or optimization mentioned in reviews",
+              "url": "https://www.g2.com/products/chili-piper/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Rules-based routing; no machine learning or predictive features"
+              "text": "Rules-based routing; no machine learning or predictive features",
+              "url": "https://help.chilipiper.com"
             },
             {
               "source": "Reddit",
-              "text": "Users note routing is deterministic, which some prefer for auditability"
+              "text": "Users note routing is deterministic, which some prefer for auditability",
+              "url": "https://www.reddit.com/search/?q=chili+piper+review&sort=top"
             }
           ]
         },
@@ -504,11 +514,13 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Salesforce integration rated 4.7/5 across enterprise reviewers"
+              "text": "Salesforce integration rated 4.7/5 across enterprise reviewers",
+              "url": "https://www.g2.com/products/chili-piper/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Native Salesforce, HubSpot, Marketo, Pardot, Outreach connectors"
+              "text": "Native Salesforce, HubSpot, Marketo, Pardot, Outreach connectors",
+              "url": "https://help.chilipiper.com"
             },
             {
               "source": "Capterra",
@@ -516,7 +528,8 @@
             },
             {
               "source": "TrustRadius",
-              "text": "Integration depth cited as primary reason for choosing over Calendly"
+              "text": "Integration depth cited as primary reason for choosing over Calendly",
+              "url": "https://www.trustradius.com/products/chili-piper/reviews"
             }
           ]
         },
@@ -527,15 +540,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Instant Booker and Concierge pricing public; Distro requires inquiry"
+              "text": "Instant Booker and Concierge pricing public; Distro requires inquiry",
+              "url": "https://help.chilipiper.com"
             },
             {
               "source": "G2",
-              "text": "Users note total cost is higher than expected due to per-product pricing"
+              "text": "Users note total cost is higher than expected due to per-product pricing",
+              "url": "https://www.g2.com/products/chili-piper/reviews"
             },
             {
               "source": "Reddit",
-              "text": "Multiple threads discuss pricing complexity for teams using all products"
+              "text": "Multiple threads discuss pricing complexity for teams using all products",
+              "url": "https://www.reddit.com/search/?q=chili+piper+review&sort=top"
             }
           ]
         },
@@ -546,15 +562,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise users report handling 10,000+ monthly form submissions"
+              "text": "Enterprise users report handling 10,000+ monthly form submissions",
+              "url": "https://www.g2.com/products/chili-piper/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Case studies reference high-volume B2B SaaS companies"
+              "text": "Case studies reference high-volume B2B SaaS companies",
+              "url": "https://help.chilipiper.com"
             },
             {
               "source": "TrustRadius",
-              "text": "Scales well for multi-region, multi-product routing"
+              "text": "Scales well for multi-region, multi-product routing",
+              "url": "https://www.trustradius.com/products/chili-piper/reviews"
             }
           ]
         }
@@ -564,26 +583,11 @@
       "confidence": "high",
       "confidenceNote": "Based on 1,000+ G2 reviews, vendor documentation, and active community discussion. Strong signal quality with large enterprise user base.",
       "sourcePills": [
-        {
-          "label": "G2: 4.4/5 (1,000+ reviews)",
-          "url": "https://www.g2.com/products/chili-piper/reviews"
-        },
-        {
-          "label": "TrustRadius: 8.6/10 (70 reviews)",
-          "url": "https://www.trustradius.com/products/chili-piper/reviews"
-        },
-        {
-          "label": "Reddit: 7+ threads",
-          "url": "https://www.reddit.com/search/?q=chili+piper+review&sort=top"
-        },
-        {
-          "label": "YouTube: 8+ demos",
-          "url": "https://www.youtube.com/results?search_query=chili+piper+review+demo"
-        },
-        {
-          "label": "Vendor docs &#10003;",
-          "url": null
-        }
+        "G2: 4.4/5 (1,000+ reviews)",
+        "TrustRadius: 8.6/10 (70 reviews)",
+        "Reddit: 7+ threads",
+        "YouTube: 8+ demos",
+        "Vendor docs &#10003;"
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -633,8 +637,7 @@
           "Reddit: 4 threads"
         ],
         "quote": "\"Before Chili Piper, our average speed-to-lead was 4.2 hours. Now it's 30 seconds. Our inbound meeting conversion rate went from 12% to 35%.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
-        "quoteCiteUrl": "https://www.g2.com/products/chili-piper/reviews"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
       {
         "sentiment": "negative",
@@ -647,8 +650,7 @@
           "Capterra: 14 mentions"
         ],
         "quote": "\"We budgeted for $30/seat for Concierge, then realized we needed Distro too. Our 15-person team went from $450/mo to $800/mo. The per-product model needs a bundle option.\"",
-        "quoteCite": "Synthesized from G2 and Reddit review themes",
-        "quoteCiteUrl": "https://www.g2.com/products/chili-piper/reviews"
+        "quoteCite": "Synthesized from G2 and Reddit review themes"
       },
       {
         "sentiment": "mixed",
@@ -661,8 +663,7 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"Chili Piper's routing is incredibly powerful — we have 7 territories, 3 product lines, and weighted round-robin all working perfectly. But our RevOps lead spent three weeks getting it right.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
-        "quoteCiteUrl": "https://www.g2.com/products/chili-piper/reviews"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       }
     ],
     "pricingBreakdown": {

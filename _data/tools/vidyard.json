@@ -439,15 +439,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise plans include SSO, team analytics, and compliance features"
+              "text": "Enterprise plans include SSO, team analytics, and compliance features",
+              "url": "https://www.g2.com/products/vidyard/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Enterprise tier with SSO, advanced analytics, and dedicated CSM"
+              "text": "Enterprise tier with SSO, advanced analytics, and dedicated CSM",
+              "url": "https://knowledge.vidyard.com"
             },
             {
               "source": "TrustRadius",
-              "text": "Mid-market and enterprise teams use for standardized video outreach"
+              "text": "Mid-market and enterprise teams use for standardized video outreach",
+              "url": "https://www.trustradius.com/products/vidyard/reviews"
             }
           ]
         },
@@ -458,15 +461,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "93% of reviewers rate ease of use 4/5 or higher"
+              "text": "93% of reviewers rate ease of use 4/5 or higher",
+              "url": "https://www.g2.com/products/vidyard/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Chrome extension requires no IT involvement to install"
+              "text": "Chrome extension requires no IT involvement to install",
+              "url": "https://knowledge.vidyard.com"
             },
             {
               "source": "Reddit",
-              "text": "Consistently recommended as the easiest video tool for sales"
+              "text": "Consistently recommended as the easiest video tool for sales",
+              "url": "https://www.reddit.com/search/?q=vidyard+review&sort=top"
             },
             {
               "source": "Capterra",
@@ -481,15 +487,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "AI script feature praised for speeding up video preparation"
+              "text": "AI script feature praised for speeding up video preparation",
+              "url": "https://www.g2.com/products/vidyard/reviews"
             },
             {
               "source": "Vendor",
-              "text": "AI-powered script suggestions based on prospect context"
+              "text": "AI-powered script suggestions based on prospect context",
+              "url": "https://knowledge.vidyard.com"
             },
             {
               "source": "Reddit",
-              "text": "AI scripts good starting point but need personalization"
+              "text": "AI scripts good starting point but need personalization",
+              "url": "https://www.reddit.com/search/?q=vidyard+review&sort=top"
             }
           ]
         },
@@ -500,11 +509,13 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Salesforce and HubSpot integrations rated 4.4/5"
+              "text": "Salesforce and HubSpot integrations rated 4.4/5",
+              "url": "https://www.g2.com/products/vidyard/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Native Salesforce, HubSpot, Outreach, Salesloft, Gmail, Outlook connectors"
+              "text": "Native Salesforce, HubSpot, Outreach, Salesloft, Gmail, Outlook connectors",
+              "url": "https://knowledge.vidyard.com"
             },
             {
               "source": "Capterra",
@@ -519,15 +530,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "All pricing published on vidyard.com with feature comparison"
+              "text": "All pricing published on vidyard.com with feature comparison",
+              "url": "https://knowledge.vidyard.com"
             },
             {
               "source": "G2",
-              "text": "Free tier praised as no-risk entry point for reps"
+              "text": "Free tier praised as no-risk entry point for reps",
+              "url": "https://www.g2.com/products/vidyard/reviews"
             },
             {
               "source": "Reddit",
-              "text": "Users confirm free tier is genuinely useful for testing video outreach"
+              "text": "Users confirm free tier is genuinely useful for testing video outreach",
+              "url": "https://www.reddit.com/search/?q=vidyard+review&sort=top"
             }
           ]
         },
@@ -538,15 +552,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Teams of 50+ report successful deployment with consistent adoption"
+              "text": "Teams of 50+ report successful deployment with consistent adoption",
+              "url": "https://www.g2.com/products/vidyard/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Enterprise features support multi-team deployments with centralized analytics"
+              "text": "Enterprise features support multi-team deployments with centralized analytics",
+              "url": "https://knowledge.vidyard.com"
             },
             {
               "source": "TrustRadius",
-              "text": "Video libraries and templates help maintain quality at scale"
+              "text": "Video libraries and templates help maintain quality at scale",
+              "url": "https://www.trustradius.com/products/vidyard/reviews"
             }
           ]
         }
@@ -556,26 +573,11 @@
       "confidence": "high",
       "confidenceNote": "Based on 800+ G2 reviews, vendor documentation, and active community discussion. Strong signal quality with established market presence.",
       "sourcePills": [
-        {
-          "label": "G2: 4.5/5 (800+ reviews)",
-          "url": "https://www.g2.com/products/vidyard/reviews"
-        },
-        {
-          "label": "TrustRadius: 8.4/10 (80 reviews)",
-          "url": "https://www.trustradius.com/products/vidyard/reviews"
-        },
-        {
-          "label": "Reddit: 8+ threads",
-          "url": "https://www.reddit.com/search/?q=vidyard+review&sort=top"
-        },
-        {
-          "label": "YouTube: 10+ demos",
-          "url": "https://www.youtube.com/results?search_query=vidyard+review+demo"
-        },
-        {
-          "label": "Vendor docs &#10003;",
-          "url": null
-        }
+        "G2: 4.5/5 (800+ reviews)",
+        "TrustRadius: 8.4/10 (80 reviews)",
+        "Reddit: 8+ threads",
+        "YouTube: 10+ demos",
+        "Vendor docs &#10003;"
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -625,8 +627,7 @@
           "Reddit: 5 threads"
         ],
         "quote": "\"Vidyard's analytics show me who rewatched my pricing section. I call those prospects first because they're clearly evaluating. My connect-to-meeting rate went up 30%.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
-        "quoteCiteUrl": "https://www.g2.com/products/vidyard/reviews"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
       {
         "sentiment": "negative",
@@ -639,8 +640,7 @@
           "Capterra: 11 mentions"
         ],
         "quote": "\"Video outreach used to be our secret weapon. Now every SDR sends Vidyard videos and prospects are starting to ignore them like they ignore regular cold emails.\"",
-        "quoteCite": "Synthesized from G2 and Reddit review themes",
-        "quoteCiteUrl": "https://www.g2.com/products/vidyard/reviews"
+        "quoteCite": "Synthesized from G2 and Reddit review themes"
       },
       {
         "sentiment": "mixed",
@@ -653,8 +653,7 @@
           "Capterra: 9 mentions"
         ],
         "quote": "\"I proved the value on the free tier in a week — 3 meetings booked from video outreach. Getting $19/mo approved was easy after that, but the 25-video cap on free forced the conversation.\"",
-        "quoteCite": "Synthesized from G2 and Capterra review themes",
-        "quoteCiteUrl": "https://www.g2.com/products/vidyard/reviews"
+        "quoteCite": "Synthesized from G2 and Capterra review themes"
       }
     ],
     "pricingBreakdown": {

@@ -439,19 +439,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise users confirm SOC 2 compliance and data governance"
+              "text": "Enterprise users confirm SOC 2 compliance and data governance",
+              "url": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Enterprise plan includes custom integrations and SLA guarantees"
+              "text": "Enterprise plan includes custom integrations and SLA guarantees",
+              "url": "https://help.warmly.ai"
             },
             {
               "source": "TrustRadius",
-              "text": "Mid-market and enterprise teams praise alerting workflow customization"
+              "text": "Mid-market and enterprise teams praise alerting workflow customization",
+              "url": "https://www.trustradius.com/products/warmly/reviews"
             },
             {
               "source": "Reddit",
-              "text": "Users report successful integration into existing ABM tech stacks"
+              "text": "Users report successful integration into existing ABM tech stacks",
+              "url": "https://www.reddit.com/search/?q=warmly+ai+review&sort=top"
             }
           ]
         },
@@ -462,15 +466,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Tracking snippet deploys in under 10 minutes; workflow setup takes longer"
+              "text": "Tracking snippet deploys in under 10 minutes; workflow setup takes longer",
+              "url": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Quick start guide for basic visitor ID; advanced features need configuration"
+              "text": "Quick start guide for basic visitor ID; advanced features need configuration",
+              "url": "https://help.warmly.ai"
             },
             {
               "source": "Reddit",
-              "text": "Users note alert routing and enrichment rules require RevOps expertise"
+              "text": "Users note alert routing and enrichment rules require RevOps expertise",
+              "url": "https://www.reddit.com/search/?q=warmly+ai+review&sort=top"
             },
             {
               "source": "Capterra",
@@ -485,19 +492,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Warmly AI agent praised for converting visitors who would otherwise bounce"
+              "text": "Warmly AI agent praised for converting visitors who would otherwise bounce",
+              "url": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
             },
             {
               "source": "Vendor",
-              "text": "AI agent uses visitor context and intent signals for personalized engagement"
+              "text": "AI agent uses visitor context and intent signals for personalized engagement",
+              "url": "https://help.warmly.ai"
             },
             {
               "source": "Reddit",
-              "text": "Users report 15-25% increase in booked meetings from AI chat"
+              "text": "Users report 15-25% increase in booked meetings from AI chat",
+              "url": "https://www.reddit.com/search/?q=warmly+ai+review&sort=top"
             },
             {
               "source": "TrustRadius",
-              "text": "AI engagement feature cited as primary reason for choosing Warmly over alternatives"
+              "text": "AI engagement feature cited as primary reason for choosing Warmly over alternatives",
+              "url": "https://www.trustradius.com/products/warmly/reviews"
             }
           ]
         },
@@ -508,11 +519,13 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Integration ecosystem rated 4.5/5 for breadth and reliability"
+              "text": "Integration ecosystem rated 4.5/5 for breadth and reliability",
+              "url": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Native Clearbit, 6sense, Bombora, Salesforce, HubSpot, Slack connectors"
+              "text": "Native Clearbit, 6sense, Bombora, Salesforce, HubSpot, Slack connectors",
+              "url": "https://help.warmly.ai"
             },
             {
               "source": "Capterra",
@@ -520,7 +533,8 @@
             },
             {
               "source": "TrustRadius",
-              "text": "Slack integration cited as the most-used feature by sales teams"
+              "text": "Slack integration cited as the most-used feature by sales teams",
+              "url": "https://www.trustradius.com/products/warmly/reviews"
             }
           ]
         },
@@ -531,15 +545,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Free tier documented; Business tier listed at $700/mo but requires demo"
+              "text": "Free tier documented; Business tier listed at $700/mo but requires demo",
+              "url": "https://help.warmly.ai"
             },
             {
               "source": "G2",
-              "text": "Pricing jump from free to $700/mo is the most common concern"
+              "text": "Pricing jump from free to $700/mo is the most common concern",
+              "url": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
             },
             {
               "source": "Reddit",
-              "text": "Users wish there was a mid-tier option between free and $700/mo"
+              "text": "Users wish there was a mid-tier option between free and $700/mo",
+              "url": "https://www.reddit.com/search/?q=warmly+ai+review&sort=top"
             }
           ]
         },
@@ -550,15 +567,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise users report handling 50K+ monthly visitors without issues"
+              "text": "Enterprise users report handling 50K+ monthly visitors without issues",
+              "url": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Enterprise plan supports unlimited visitors with custom pricing"
+              "text": "Enterprise plan supports unlimited visitors with custom pricing",
+              "url": "https://help.warmly.ai"
             },
             {
               "source": "TrustRadius",
-              "text": "Scales well for high-traffic B2B sites; less value for low-traffic sites"
+              "text": "Scales well for high-traffic B2B sites; less value for low-traffic sites",
+              "url": "https://www.trustradius.com/products/warmly/reviews"
             }
           ]
         }
@@ -568,26 +588,11 @@
       "confidence": "medium",
       "confidenceNote": "Based on G2 reviews and vendor documentation. Newer tool with fewer total reviews than established alternatives, but high satisfaction scores and strong signal from early adopters.",
       "sourcePills": [
-        {
-          "label": "G2: 4.8/5 (300+ reviews)",
-          "url": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
-        },
-        {
-          "label": "TrustRadius: 8.5/10 (22 reviews)",
-          "url": "https://www.trustradius.com/products/warmly/reviews"
-        },
-        {
-          "label": "Reddit: 6+ threads",
-          "url": "https://www.reddit.com/search/?q=warmly+ai+review&sort=top"
-        },
-        {
-          "label": "YouTube: 4+ demos",
-          "url": "https://www.youtube.com/results?search_query=warmly+review+demo"
-        },
-        {
-          "label": "Vendor docs &#10003;",
-          "url": null
-        }
+        "G2: 4.8/5 (300+ reviews)",
+        "TrustRadius: 8.5/10 (22 reviews)",
+        "Reddit: 6+ threads",
+        "YouTube: 4+ demos",
+        "Vendor docs &#10003;"
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -637,8 +642,7 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"Warmly's AI agent booked 12 meetings in its first month from visitors who would have just bounced. The ROI paid for the entire annual contract in one quarter.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
-        "quoteCiteUrl": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
       {
         "sentiment": "negative",
@@ -651,8 +655,7 @@
           "Capterra: 8 mentions"
         ],
         "quote": "\"The free tier proved the value — we could see exactly who was visiting our pricing page. But $700/mo is a big jump for a startup. Wish there was a $200/mo tier for growing teams.\"",
-        "quoteCite": "Synthesized from G2 and Reddit review themes",
-        "quoteCiteUrl": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
+        "quoteCite": "Synthesized from G2 and Reddit review themes"
       },
       {
         "sentiment": "mixed",
@@ -665,8 +668,7 @@
           "Reddit: 3 threads"
         ],
         "quote": "\"Warmly is incredibly powerful once it's configured properly, but 'properly' meant our RevOps lead spent two weeks building alert rules and enrichment workflows. Not a plug-and-play tool.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
-        "quoteCiteUrl": "https://www.g2.com/products/warmly-formerly-warmly-ai/reviews"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       }
     ],
     "pricingBreakdown": {

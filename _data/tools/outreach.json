@@ -183,19 +183,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise reviewers confirm SAML SSO and granular role-based access controls"
+              "text": "Enterprise reviewers confirm SAML SSO and granular role-based access controls",
+              "url": "https://www.g2.com/products/outreach/reviews"
             },
             {
               "source": "Vendor",
-              "text": "SOC 2 Type II certification and GDPR compliance documented on security page"
+              "text": "SOC 2 Type II certification and GDPR compliance documented on security page",
+              "url": "https://support.outreach.io"
             },
             {
               "source": "Gartner",
-              "text": "Positioned as Leader in Sales Engagement with enterprise-grade security"
+              "text": "Positioned as Leader in Sales Engagement with enterprise-grade security",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/outreach/reviews"
             },
             {
               "source": "Gartner PI",
-              "text": "Enterprise buyers rate security and compliance 4.5/5; SOC 2 Type II + ISO 27001 confirmed"
+              "text": "Enterprise buyers rate security and compliance 4.5/5; SOC 2 Type II + ISO 27001 confirmed",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/outreach/reviews"
             }
           ]
         },
@@ -206,15 +210,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "35% of reviewers cite steep learning curve and need for dedicated admin"
+              "text": "35% of reviewers cite steep learning curve and need for dedicated admin",
+              "url": "https://www.g2.com/products/outreach/reviews"
             },
             {
               "source": "Reddit",
-              "text": "r/sales threads report 4-8 week onboarding for full multichannel deployment"
+              "text": "r/sales threads report 4-8 week onboarding for full multichannel deployment",
+              "url": "https://www.reddit.com/search/?q=outreach.io+review&sort=top"
             },
             {
               "source": "Capterra",
-              "text": "Users note UI complexity drives low initial adoption among reps"
+              "text": "Users note UI complexity drives low initial adoption among reps",
+              "url": "https://www.capterra.com/outreach/software/1017498/"
             }
           ]
         },
@@ -225,19 +232,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "AI email suggestions praised but not considered transformative vs dedicated AI tools"
+              "text": "AI email suggestions praised but not considered transformative vs dedicated AI tools",
+              "url": "https://www.g2.com/products/outreach/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Kaia AI assistant for real-time call coaching and email optimization documented"
+              "text": "Kaia AI assistant for real-time call coaching and email optimization documented",
+              "url": "https://support.outreach.io"
             },
             {
               "source": "Reddit",
-              "text": "Practitioners rate AI features as useful but incremental, not a primary differentiator"
+              "text": "Practitioners rate AI features as useful but incremental, not a primary differentiator",
+              "url": "https://www.reddit.com/search/?q=outreach.io+review&sort=top"
             },
             {
               "source": "TrustRadius",
-              "text": "AI-powered smart send times and sequence optimization praised by 72% of reviewers"
+              "text": "AI-powered smart send times and sequence optimization praised by 72% of reviewers",
+              "url": "https://www.trustradius.com/products/outreach/reviews"
             }
           ]
         },
@@ -248,19 +259,23 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "100+ native integrations listed; Salesforce bi-directional sync is flagship feature"
+              "text": "100+ native integrations listed; Salesforce bi-directional sync is flagship feature",
+              "url": "https://support.outreach.io"
             },
             {
               "source": "G2",
-              "text": "Integration depth rated 4.5/5; Salesforce sync consistently cited as best-in-class"
+              "text": "Integration depth rated 4.5/5; Salesforce sync consistently cited as best-in-class",
+              "url": "https://www.g2.com/products/outreach/reviews"
             },
             {
               "source": "Capterra",
-              "text": "Users confirm reliable CRM sync with HubSpot and Microsoft Dynamics"
+              "text": "Users confirm reliable CRM sync with HubSpot and Microsoft Dynamics",
+              "url": "https://www.capterra.com/outreach/software/1017498/"
             },
             {
               "source": "TrustRadius",
-              "text": "Salesforce integration rated 4.3/5; native bidirectional sync praised"
+              "text": "Salesforce integration rated 4.3/5; native bidirectional sync praised",
+              "url": "https://www.trustradius.com/products/outreach/reviews"
             }
           ]
         },
@@ -271,15 +286,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Pricing transparency rated among lowest in category; reviewers cite opaque quoting"
+              "text": "Pricing transparency rated among lowest in category; reviewers cite opaque quoting",
+              "url": "https://www.g2.com/products/outreach/reviews"
             },
             {
               "source": "Reddit",
-              "text": "Multiple threads report $100-130/user/month with annual commitments required"
+              "text": "Multiple threads report $100-130/user/month with annual commitments required",
+              "url": "https://www.reddit.com/search/?q=outreach.io+review&sort=top"
             },
             {
               "source": "Capterra",
-              "text": "Users flag hidden implementation fees ranging $10K-50K on top of subscription"
+              "text": "Users flag hidden implementation fees ranging $10K-50K on top of subscription",
+              "url": "https://www.capterra.com/outreach/software/1017498/"
             }
           ]
         },
@@ -290,15 +308,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise reviewers with 1,000+ seats report stable performance at scale"
+              "text": "Enterprise reviewers with 1,000+ seats report stable performance at scale",
+              "url": "https://www.g2.com/products/outreach/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Case studies reference deployments at Fortune 500 companies with 5,000+ reps"
+              "text": "Case studies reference deployments at Fortune 500 companies with 5,000+ reps",
+              "url": "https://support.outreach.io"
             },
             {
               "source": "Gartner",
-              "text": "Recognized for enterprise scalability in Peer Insights assessments"
+              "text": "Recognized for enterprise scalability in Peer Insights assessments",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/outreach/reviews"
             }
           ]
         }
@@ -308,30 +329,12 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis, enterprise sales community feedback, demo-verified sequences, and current vendor documentation. Strong signal across 3,527+ public reviews.",
       "sourcePills": [
-        {
-          "label": "G2: 4.3/5 (3,527 reviews)",
-          "url": "https://www.g2.com/products/outreach/reviews"
-        },
-        {
-          "label": "Capterra: 4.4/5 (307 reviews)",
-          "url": "https://www.capterra.com/outreach/software/1017498/"
-        },
-        {
-          "label": "TrustRadius: 8.7/10 (389 reviews)",
-          "url": "https://www.trustradius.com/products/outreach/reviews"
-        },
-        {
-          "label": "Gartner PI: 4.4/5 (183 reviews)",
-          "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/outreach/reviews"
-        },
-        {
-          "label": "YouTube: 14+ demos",
-          "url": "https://www.youtube.com/results?search_query=outreach+review+demo"
-        },
-        {
-          "label": "Trust center ✓",
-          "url": null
-        }
+        "G2: 4.3/5 (3,527 reviews)",
+        "Capterra: 4.4/5 (307 reviews)",
+        "TrustRadius: 8.7/10 (389 reviews)",
+        "Gartner PI: 4.4/5 (183 reviews)",
+        "YouTube: 14+ demos",
+        "Trust center ✓"
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -381,8 +384,7 @@
           "Capterra: 145 mentions"
         ],
         "quote": "\"Outreach's multi-channel sequences cut our SDR ramp time from 6 weeks to 3. The AI-suggested send times alone improved our reply rates by 18%.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/outreach/reviews"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "negative",
@@ -395,8 +397,7 @@
           "Capterra: 98 mentions"
         ],
         "quote": "\"Switching from Salesloft, the first thing our reps noticed was how many more clicks everything takes. The power is there, but the daily UX friction is real.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/outreach/reviews"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "mixed",
@@ -409,8 +410,7 @@
           "Capterra: 72 mentions"
         ],
         "quote": "\"You need a full-time Outreach admin once you hit 50+ seats. The platform is incredibly powerful but the configuration complexity is no joke.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/outreach/reviews"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "negative",
@@ -423,8 +423,7 @@
           "Capterra: 63 mentions"
         ],
         "quote": "\"We evaluated Outreach, Apollo, and Instantly side by side. Outreach was 4x the cost of Apollo for features our 25-person team would never touch.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/outreach/reviews"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       },
       {
         "sentiment": "mixed",
@@ -437,8 +436,7 @@
           "G2: 290+ mentions"
         ],
         "quote": "\"Plan for 6-8 weeks before your team is fully ramped. The investment pays off in pipeline velocity, but the onboarding lift is substantial compared to lighter tools.\"",
-        "quoteCite": "Synthesized from G2, Capterra, and community discussions",
-        "quoteCiteUrl": "https://www.g2.com/products/outreach/reviews"
+        "quoteCite": "Synthesized from G2, Capterra, and community discussions"
       }
     ],
     "pricingBreakdown": {
@@ -697,8 +695,5 @@
     "secondaryUrl": "https://www.g2.com/products/outreach/reviews",
     "secondaryText": "Read G2 Reviews",
     "disclosureText": "Affiliate link &mdash; <a href=\"/disclosure.html\">see our disclosure</a>"
-  },
-  "g2Reviews": {
-    "link": "https://www.g2.com/products/outreach/reviews"
   }
 }

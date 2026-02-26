@@ -440,19 +440,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise users note team management features added recently"
+              "text": "Enterprise users note team management features added recently",
+              "url": "https://www.g2.com/products/clay/reviews"
             },
             {
               "source": "Vendor",
-              "text": "SOC 2 Type II certified via trust.clay.com; SSO available on Enterprise plan"
+              "text": "SOC 2 Type II certified via trust.clay.com; SSO available on Enterprise plan",
+              "url": "https://docs.clay.com"
             },
             {
               "source": "Reddit",
-              "text": "r/sales threads discuss enterprise readiness improvements"
+              "text": "r/sales threads discuss enterprise readiness improvements",
+              "url": "https://www.reddit.com/r/clay/"
             },
             {
               "source": "TrustRadius",
-              "text": "Mid-market users praise team workspace features but note enterprise admin controls are basic"
+              "text": "Mid-market users praise team workspace features but note enterprise admin controls are basic",
+              "url": "https://www.trustradius.com/products/clay/reviews"
             }
           ]
         },
@@ -463,19 +467,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "40% of reviewers mention learning curve in first 2 weeks"
+              "text": "40% of reviewers mention learning curve in first 2 weeks",
+              "url": "https://www.g2.com/products/clay/reviews"
             },
             {
               "source": "Reddit",
-              "text": "r/sales users report 1-2 week ramp for basic workflows"
+              "text": "r/sales users report 1-2 week ramp for basic workflows",
+              "url": "https://www.reddit.com/r/clay/"
             },
             {
               "source": "YouTube",
-              "text": "Demo walkthroughs average 20+ minutes for core features"
+              "text": "Demo walkthroughs average 20+ minutes for core features",
+              "url": "https://www.youtube.com/results?search_query=clay+review+demo"
             },
             {
               "source": "TrustRadius",
-              "text": "8 of 14 reviewers mention significant onboarding effort"
+              "text": "8 of 14 reviewers mention significant onboarding effort",
+              "url": "https://www.trustradius.com/products/clay/reviews"
             }
           ]
         },
@@ -486,15 +494,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "AI enrichment columns consistently praised as differentiator"
+              "text": "AI enrichment columns consistently praised as differentiator",
+              "url": "https://www.g2.com/products/clay/reviews"
             },
             {
               "source": "Vendor",
-              "text": "Native OpenAI + Anthropic integration documented in API docs"
+              "text": "Native OpenAI + Anthropic integration documented in API docs",
+              "url": "https://docs.clay.com"
             },
             {
               "source": "Community",
-              "text": "Practitioners share AI-powered waterfall templates on Slack"
+              "text": "Practitioners share AI-powered waterfall templates on Slack",
+              "url": "https://www.clay.com/community"
             }
           ]
         },
@@ -505,11 +516,13 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "200+ listed integrations on docs site; native CRM connectors"
+              "text": "200+ listed integrations on docs site; native CRM connectors",
+              "url": "https://docs.clay.com"
             },
             {
               "source": "G2",
-              "text": "Integration depth rated 4.6/5 across enterprise reviewers"
+              "text": "Integration depth rated 4.6/5 across enterprise reviewers",
+              "url": "https://www.g2.com/products/clay/reviews"
             },
             {
               "source": "Capterra",
@@ -517,7 +530,8 @@
             },
             {
               "source": "Software Advice",
-              "text": "Users rate integrations 4.8/5 for breadth of connectors"
+              "text": "Users rate integrations 4.8/5 for breadth of connectors",
+              "url": "https://www.softwareadvice.com/crm/clay-profile/"
             }
           ]
         },
@@ -528,15 +542,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Public pricing page with 3 tiers and credit allocations"
+              "text": "Public pricing page with 3 tiers and credit allocations",
+              "url": "https://docs.clay.com"
             },
             {
               "source": "Reddit",
-              "text": "Multiple threads report surprise costs from multi-step waterfalls"
+              "text": "Multiple threads report surprise costs from multi-step waterfalls",
+              "url": "https://www.reddit.com/r/clay/"
             },
             {
               "source": "G2",
-              "text": "Pricing transparency rated 3.9/5; credit model is the main complaint"
+              "text": "Pricing transparency rated 3.9/5; credit model is the main complaint",
+              "url": "https://www.g2.com/products/clay/reviews"
             }
           ]
         },
@@ -547,15 +564,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Enterprise users report table performance degrades past 10K rows"
+              "text": "Enterprise users report table performance degrades past 10K rows",
+              "url": "https://www.g2.com/products/clay/reviews"
             },
             {
               "source": "Reddit",
-              "text": "Teams of 5-15 reps report no issues; 50+ seat deployments less common"
+              "text": "Teams of 5-15 reps report no issues; 50+ seat deployments less common",
+              "url": "https://www.reddit.com/r/clay/"
             },
             {
               "source": "Vendor",
-              "text": "No published performance benchmarks or SLA guarantees"
+              "text": "No published performance benchmarks or SLA guarantees",
+              "url": "https://docs.clay.com"
             }
           ]
         }
@@ -565,30 +585,12 @@
       "confidence": "high",
       "confidenceNote": "Based on multi-platform review synthesis, active practitioner community discussion, demo walkthroughs, and verified vendor documentation. Strong signal across 150+ public reviews.",
       "sourcePills": [
-        {
-          "label": "G2: 4.9/5 (183 reviews)",
-          "url": "https://www.g2.com/products/clay/reviews"
-        },
-        {
-          "label": "TrustRadius: 9.3/10 (135 reviews)",
-          "url": "https://www.trustradius.com/products/clay/reviews"
-        },
-        {
-          "label": "Reddit: 14+ threads",
-          "url": "https://www.reddit.com/r/clay/"
-        },
-        {
-          "label": "YouTube: 8+ demos",
-          "url": "https://www.youtube.com/results?search_query=clay+review+demo"
-        },
-        {
-          "label": "Vendor docs &#10003;",
-          "url": null
-        },
-        {
-          "label": "Trust center &#10003;",
-          "url": null
-        }
+        "G2: 4.9/5 (183 reviews)",
+        "TrustRadius: 9.3/10 (135 reviews)",
+        "Reddit: 14+ threads",
+        "YouTube: 8+ demos",
+        "Vendor docs &#10003;",
+        "Trust center &#10003;"
       ],
       "freshness": [
         "📅 Freshest review: Feb 2026",
@@ -638,8 +640,7 @@
           "Capterra: 18 mentions"
         ],
         "quote": "\"We switched from ZoomInfo to Clay and our match rates jumped from 60% to 85%. The waterfall approach across 50+ providers means we almost never hit a dead end on enrichment.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
-        "quoteCiteUrl": "https://www.g2.com/products/clay/reviews"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
       {
         "sentiment": "negative",
@@ -652,8 +653,7 @@
           "Capterra: 14 mentions"
         ],
         "quote": "\"Love the product, but our monthly bill went from $400 to $1,200 when we added multi-step waterfalls. You need a dedicated ops person just to monitor credit usage.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
-        "quoteCiteUrl": "https://www.g2.com/products/clay/reviews"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
       {
         "sentiment": "mixed",
@@ -666,8 +666,7 @@
           "Capterra: 11 mentions"
         ],
         "quote": "\"It took our team about two weeks to get comfortable with Clay's spreadsheet interface. Once it clicked, we built workflows that would have taken 10x longer in any other tool.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
-        "quoteCiteUrl": "https://www.g2.com/products/clay/reviews"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
       {
         "sentiment": "positive",
@@ -679,8 +678,7 @@
           "Reddit: 5 threads"
         ],
         "quote": "\"Clay's HubSpot integration is the best I've used — bidirectional sync, custom field mapping, and it just works. We retired three Zapier automations after connecting Clay directly.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
-        "quoteCiteUrl": "https://www.g2.com/products/clay/reviews"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       },
       {
         "sentiment": "mixed",
@@ -693,8 +691,7 @@
           "G2: 41 mentions"
         ],
         "quote": "\"We burned through our entire monthly credit allotment in five days after building a 6-step waterfall. Start with simple 2-3 step chains and scale up once you understand the credit math.\"",
-        "quoteCite": "Synthesized from G2 and TrustRadius review themes",
-        "quoteCiteUrl": "https://www.g2.com/products/clay/reviews"
+        "quoteCite": "Synthesized from G2 and TrustRadius review themes"
       }
     ],
     "pricingBreakdown": {

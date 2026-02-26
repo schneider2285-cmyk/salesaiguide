@@ -184,19 +184,23 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "SOC 2 Type II and GDPR/CCPA compliance documented on trust center page"
+              "text": "SOC 2 Type II and GDPR/CCPA compliance documented on trust center page",
+              "url": "https://university.zoominfo.com"
             },
             {
               "source": "G2",
-              "text": "Enterprise reviewers confirm SAML SSO and full RBAC on all paid plans"
+              "text": "Enterprise reviewers confirm SAML SSO and full RBAC on all paid plans",
+              "url": "https://www.g2.com/products/zoominfo-sales/reviews"
             },
             {
               "source": "Gartner",
-              "text": "Peer Insights verified enterprise deployment at Fortune 500 accounts"
+              "text": "Peer Insights verified enterprise deployment at Fortune 500 accounts",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/zoominfo-salesos/reviews"
             },
             {
               "source": "Gartner PI",
-              "text": "Enterprise buyers rate security and compliance 4.6/5; SOC 2 Type II + ISO 27001 confirmed"
+              "text": "Enterprise buyers rate security and compliance 4.6/5; SOC 2 Type II + ISO 27001 confirmed",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/zoominfo-salesos/reviews"
             }
           ]
         },
@@ -207,15 +211,18 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "35% of reviewers mention onboarding complexity with multiple product modules"
+              "text": "35% of reviewers mention onboarding complexity with multiple product modules",
+              "url": "https://www.g2.com/products/zoominfo-sales/reviews"
             },
             {
               "source": "Reddit",
-              "text": "r/sales users report 2-4 week ramp time for full platform proficiency"
+              "text": "r/sales users report 2-4 week ramp time for full platform proficiency",
+              "url": "https://www.reddit.com/search/?q=zoominfo+review&sort=top"
             },
             {
               "source": "Capterra",
-              "text": "Ease of use rated 3.8/5 across 315 reviews"
+              "text": "Ease of use rated 3.8/5 across 315 reviews",
+              "url": "https://www.capterra.com/zoominfo-salesos/software/1017502/"
             }
           ]
         },
@@ -226,15 +233,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "AI features focused on data matching and recommendation algorithms"
+              "text": "AI features focused on data matching and recommendation algorithms",
+              "url": "https://university.zoominfo.com"
             },
             {
               "source": "G2",
-              "text": "AI capabilities rarely mentioned as a primary differentiator in reviews"
+              "text": "AI capabilities rarely mentioned as a primary differentiator in reviews",
+              "url": "https://www.g2.com/products/zoominfo-sales/reviews"
             },
             {
               "source": "Reddit",
-              "text": "Community considers ZoomInfo a data platform, not an AI product"
+              "text": "Community considers ZoomInfo a data platform, not an AI product",
+              "url": "https://www.reddit.com/search/?q=zoominfo+review&sort=top"
             }
           ]
         },
@@ -245,15 +255,18 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "50+ native integrations listed on marketplace including Salesforce and HubSpot"
+              "text": "50+ native integrations listed on marketplace including Salesforce and HubSpot",
+              "url": "https://university.zoominfo.com"
             },
             {
               "source": "G2",
-              "text": "Integration quality rated 4.5/5 across enterprise reviewers"
+              "text": "Integration quality rated 4.5/5 across enterprise reviewers",
+              "url": "https://www.g2.com/products/zoominfo-sales/reviews"
             },
             {
               "source": "Capterra",
-              "text": "CRM sync reliability praised as best-in-class for B2B data tools"
+              "text": "CRM sync reliability praised as best-in-class for B2B data tools",
+              "url": "https://www.capterra.com/zoominfo-salesos/software/1017502/"
             }
           ]
         },
@@ -264,19 +277,23 @@
           "evidence": [
             {
               "source": "G2",
-              "text": "Pricing transparency rated 2.1/5; most common negative theme across all reviews"
+              "text": "Pricing transparency rated 2.1/5; most common negative theme across all reviews",
+              "url": "https://www.g2.com/products/zoominfo-sales/reviews"
             },
             {
               "source": "Reddit",
-              "text": "12+ threads dedicated to contract disputes and billing complaints"
+              "text": "12+ threads dedicated to contract disputes and billing complaints",
+              "url": "https://www.reddit.com/search/?q=zoominfo+review&sort=top"
             },
             {
               "source": "Capterra",
-              "text": "Value for money rated 3.5/5 with frequent mentions of hidden costs"
+              "text": "Value for money rated 3.5/5 with frequent mentions of hidden costs",
+              "url": "https://www.capterra.com/zoominfo-salesos/software/1017502/"
             },
             {
               "source": "TrustRadius",
-              "text": "45% of reviewers mention contract lock-in concerns; annual minimums create friction for mid-market"
+              "text": "45% of reviewers mention contract lock-in concerns; annual minimums create friction for mid-market",
+              "url": "https://www.trustradius.com/products/zoominfo-salesos/reviews"
             }
           ]
         },
@@ -287,19 +304,23 @@
           "evidence": [
             {
               "source": "Vendor",
-              "text": "Published case studies with 500+ seat deployments at Fortune 500 companies"
+              "text": "Published case studies with 500+ seat deployments at Fortune 500 companies",
+              "url": "https://university.zoominfo.com"
             },
             {
               "source": "G2",
-              "text": "Enterprise segment reviewers confirm reliable performance at scale"
+              "text": "Enterprise segment reviewers confirm reliable performance at scale",
+              "url": "https://www.g2.com/products/zoominfo-sales/reviews"
             },
             {
               "source": "Gartner",
-              "text": "Recognized as market leader in B2B data intelligence category"
+              "text": "Recognized as market leader in B2B data intelligence category",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/zoominfo-salesos/reviews"
             },
             {
               "source": "Gartner PI",
-              "text": "Teams of 1,000+ seats report strong performance; API rate limits are the main scaling constraint"
+              "text": "Teams of 1,000+ seats report strong performance; API rate limits are the main scaling constraint",
+              "url": "https://www.gartner.com/reviews/market/sales-engagement-platforms/vendor/zoominfo-salesos/reviews"
             }
           ]
         }
