@@ -132,7 +132,7 @@ extraCss:
                     <section class="content-section review-consensus-section" id="review-consensus">
                         <h2>Review Consensus Across Platforms</h2>
                         <p class="review-consensus-intro">Aggregated from {{ t.reviewSources.sources | length }} independent review platform{% if t.reviewSources.sources | length > 1 %}s{% endif %} as of {{ t.reviewSources.lastUpdated }}. Consensus score is weighted by review volume.</p>
-                        <div class="review-sources-grid">
+                        <div class="review-sources-grid" data-audit="sources-checked">
                             {% for src in t.reviewSources.sources %}
                             <a href="{{ src.url }}" target="_blank" rel="noopener sponsored" class="review-source-card" title="View {{ src.platform }} reviews">
                                 <div class="review-source-platform">{{ src.platform }}</div>
@@ -199,6 +199,13 @@ extraCss:
                             </table>
                         </div>
                         <p>See full comparisons: {% for link in t.competitorTable.seeFullLinks %}{% if not loop.first %} | {% endif %}<a href="{{ link.url }}">{{ link.text }}</a>{% endfor %}</p>
+                    </section>
+                    {% endif %}
+
+                    {% if t.compareLinks and not t.competitorTable %}
+                    <section class="content-section">
+                        <h2>{{ t.hero.breadcrumbName }} Comparisons</h2>
+                        <p>See how {{ t.hero.breadcrumbName }} stacks up against the competition: {% for link in t.compareLinks %}{% if not loop.first %} | {% endif %}<a href="{{ link.url }}">{{ link.text }}</a>{% endfor %}</p>
                     </section>
                     {% endif %}
 

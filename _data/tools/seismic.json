@@ -343,6 +343,14 @@
       {
         "text": "Seismic vs Highspot",
         "url": "/compare/seismic-vs-highspot.html"
+      },
+      {
+        "url": "/compare/seismic-vs-mindtickle.html",
+        "text": "Seismic vs Mindtickle"
+      },
+      {
+        "url": "/compare/seismic-vs-showpad.html",
+        "text": "Seismic vs Showpad"
       }
     ]
   },
@@ -562,9 +570,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 2,150+ total reviews across 4 platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 2,150+ total reviews across 4 platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {

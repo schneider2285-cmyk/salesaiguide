@@ -347,6 +347,10 @@
       {
         "text": "Highspot vs Showpad",
         "url": "/compare/highspot-vs-showpad.html"
+      },
+      {
+        "url": "/compare/highspot-vs-mindtickle.html",
+        "text": "Highspot vs Mindtickle"
       }
     ]
   },
@@ -566,9 +570,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 1,450+ total reviews across 4 platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 1,450+ total reviews across 4 platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {

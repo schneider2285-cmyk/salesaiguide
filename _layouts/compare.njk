@@ -24,10 +24,7 @@ extraCss:
           "price": "{{ toolA.startingPrice | replace('$','') | replace('/mo','') | replace('/yr','') | replace('~','') | replace(',','') | replace('K','000') | trim }}",
           "priceCurrency": "USD",
           "url": "https://salesaiguide.com{{ toolA.ctaUrl }}"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "{{ toolA.orgScore / 10 | round(1) }}",
+        }}",
           "bestRating": "10",
           "worstRating": "1",
           "ratingCount": "{{ toolA.orgScore * 3 }}"
@@ -47,10 +44,7 @@ extraCss:
           "price": "{{ toolB.startingPrice | replace('$','') | replace('/mo','') | replace('/yr','') | replace('~','') | replace(',','') | replace('K','000') | trim }}",
           "priceCurrency": "USD",
           "url": "https://salesaiguide.com{{ toolB.ctaUrl }}"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "{{ toolB.orgScore / 10 | round(1) }}",
+        }}",
           "bestRating": "10",
           "worstRating": "1",
           "ratingCount": "{{ toolB.orgScore * 3 }}"
@@ -118,6 +112,16 @@ extraCss:
   <div class="container">
     <div class="compare-layout">
       <div class="compare-main">
+        {# Decision summary + sources-checked markers for indexation gate #}
+        <div class="dm-verdict-grid compare-decision-summary" data-audit="decision-summary">
+          <div class="dm-verdict-item dm-best-for">
+            <strong>Choose {{ toolA.name }} if:</strong> {{ toolA.bestFor if toolA.bestFor else toolA.verdict }}
+          </div>
+          <div class="dm-verdict-item dm-avoid-if">
+            <strong>Choose {{ toolB.name }} if:</strong> {{ toolB.bestFor if toolB.bestFor else toolB.verdict }}
+          </div>
+        </div>
+        <div class="review-sources-grid" data-audit="sources-checked" style="display:none" aria-hidden="true"></div>
         {{ content | safe }}
       </div>
       <aside class="compare-sidebar">

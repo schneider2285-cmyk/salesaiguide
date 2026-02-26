@@ -1,0 +1,1393 @@
+{
+  "generated": "2026-02-26",
+  "summary": {
+    "total": 152,
+    "tier_a": 6,
+    "tier_b": 142,
+    "tier_c": 4,
+    "indexable": 148,
+    "held": 4
+  },
+  "pages": [
+    {
+      "path": "404.html",
+      "url": "https://salesaiguide.com/404.html",
+      "tier": "C",
+      "noindex": true,
+      "reasons": [
+        "Path matches always-noindex pattern"
+      ],
+      "page_type": "other"
+    },
+    {
+      "path": "about.html",
+      "url": "https://salesaiguide.com/about.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "other",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "alternatives/apollo-alternatives.html",
+      "url": "https://salesaiguide.com/alternatives/apollo-alternatives.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "alternatives",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "alternatives/clay-alternatives.html",
+      "url": "https://salesaiguide.com/alternatives/clay-alternatives.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "alternatives",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "alternatives/gong-alternatives.html",
+      "url": "https://salesaiguide.com/alternatives/gong-alternatives.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "alternatives",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "alternatives/hubspot-alternatives.html",
+      "url": "https://salesaiguide.com/alternatives/hubspot-alternatives.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "alternatives",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "alternatives/outreach-alternatives.html",
+      "url": "https://salesaiguide.com/alternatives/outreach-alternatives.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "alternatives",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "alternatives/zoominfo-alternatives.html",
+      "url": "https://salesaiguide.com/alternatives/zoominfo-alternatives.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "alternatives",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "blog/best-ai-sales-stack-small-team.html",
+      "url": "https://salesaiguide.com/blog/best-ai-sales-stack-small-team.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "blog/best-ai-sales-tools-account-executives.html",
+      "url": "https://salesaiguide.com/blog/best-ai-sales-tools-account-executives.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "blog/best-ai-sales-tools-enterprise.html",
+      "url": "https://salesaiguide.com/blog/best-ai-sales-tools-enterprise.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "blog/best-ai-sdr-tools-2026.html",
+      "url": "https://salesaiguide.com/blog/best-ai-sdr-tools-2026.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "blog/best-cold-email-tool-for-agencies.html",
+      "url": "https://salesaiguide.com/blog/best-cold-email-tool-for-agencies.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "blog/best-cold-email-tools-2026/index.html",
+      "url": "https://salesaiguide.com/blog/best-cold-email-tools-2026/index.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "blog/clay-vs-apollo-for-sdrs.html",
+      "url": "https://salesaiguide.com/blog/clay-vs-apollo-for-sdrs.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "blog/how-to-evaluate-ai-sales-tools.html",
+      "url": "https://salesaiguide.com/blog/how-to-evaluate-ai-sales-tools.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "blog/index.html",
+      "url": "https://salesaiguide.com/blog/index.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/ai-sdrs.html",
+      "url": "https://salesaiguide.com/categories/ai-sdrs.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/cold-outreach.html",
+      "url": "https://salesaiguide.com/categories/cold-outreach.html",
+      "tier": "A",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/conversation-intelligence.html",
+      "url": "https://salesaiguide.com/categories/conversation-intelligence.html",
+      "tier": "A",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/crm-pipeline.html",
+      "url": "https://salesaiguide.com/categories/crm-pipeline.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/data-enrichment.html",
+      "url": "https://salesaiguide.com/categories/data-enrichment.html",
+      "tier": "A",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/dialers-calling.html",
+      "url": "https://salesaiguide.com/categories/dialers-calling.html",
+      "tier": "A",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/index.html",
+      "url": "https://salesaiguide.com/categories/index.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/intent-data.html",
+      "url": "https://salesaiguide.com/categories/intent-data.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/lead-prospecting.html",
+      "url": "https://salesaiguide.com/categories/lead-prospecting.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/meeting-schedulers.html",
+      "url": "https://salesaiguide.com/categories/meeting-schedulers.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/revenue-intelligence.html",
+      "url": "https://salesaiguide.com/categories/revenue-intelligence.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/sales-coaching.html",
+      "url": "https://salesaiguide.com/categories/sales-coaching.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/sales-content.html",
+      "url": "https://salesaiguide.com/categories/sales-content.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/sales-enablement.html",
+      "url": "https://salesaiguide.com/categories/sales-enablement.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "categories/sales-engagement.html",
+      "url": "https://salesaiguide.com/categories/sales-engagement.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "category-hub",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/11x-vs-artisan.html",
+      "url": "https://salesaiguide.com/compare/11x-vs-artisan.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/11x-vs-clay.html",
+      "url": "https://salesaiguide.com/compare/11x-vs-clay.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/6sense-vs-bombora.html",
+      "url": "https://salesaiguide.com/compare/6sense-vs-bombora.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/aisdr-vs-agent-frank.html",
+      "url": "https://salesaiguide.com/compare/aisdr-vs-agent-frank.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/apollo-vs-hubspot.html",
+      "url": "https://salesaiguide.com/compare/apollo-vs-hubspot.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/apollo-vs-outreach.html",
+      "url": "https://salesaiguide.com/compare/apollo-vs-outreach.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/apollo-vs-salesloft.html",
+      "url": "https://salesaiguide.com/compare/apollo-vs-salesloft.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/apollo-vs-zoominfo.html",
+      "url": "https://salesaiguide.com/compare/apollo-vs-zoominfo.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/artisan-vs-clay.html",
+      "url": "https://salesaiguide.com/compare/artisan-vs-clay.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/artisan-vs-regie.html",
+      "url": "https://salesaiguide.com/compare/artisan-vs-regie.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/boostup-vs-clari.html",
+      "url": "https://salesaiguide.com/compare/boostup-vs-clari.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/calendly-vs-chili-piper.html",
+      "url": "https://salesaiguide.com/compare/calendly-vs-chili-piper.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/chili-piper-vs-hubspot.html",
+      "url": "https://salesaiguide.com/compare/chili-piper-vs-hubspot.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/clari-vs-aviso.html",
+      "url": "https://salesaiguide.com/compare/clari-vs-aviso.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/clari-vs-hubspot.html",
+      "url": "https://salesaiguide.com/compare/clari-vs-hubspot.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/clay-vs-apollo.html",
+      "url": "https://salesaiguide.com/compare/clay-vs-apollo.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/clay-vs-clearbit.html",
+      "url": "https://salesaiguide.com/compare/clay-vs-clearbit.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/clay-vs-zoominfo.html",
+      "url": "https://salesaiguide.com/compare/clay-vs-zoominfo.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/cognism-vs-apollo.html",
+      "url": "https://salesaiguide.com/compare/cognism-vs-apollo.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/cognism-vs-lusha.html",
+      "url": "https://salesaiguide.com/compare/cognism-vs-lusha.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/cognism-vs-zoominfo.html",
+      "url": "https://salesaiguide.com/compare/cognism-vs-zoominfo.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/gong-vs-avoma.html",
+      "url": "https://salesaiguide.com/compare/gong-vs-avoma.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/gong-vs-chorus.html",
+      "url": "https://salesaiguide.com/compare/gong-vs-chorus.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/gong-vs-clari.html",
+      "url": "https://salesaiguide.com/compare/gong-vs-clari.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/gong-vs-hubspot.html",
+      "url": "https://salesaiguide.com/compare/gong-vs-hubspot.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/gong-vs-outreach.html",
+      "url": "https://salesaiguide.com/compare/gong-vs-outreach.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/gong-vs-salesloft.html",
+      "url": "https://salesaiguide.com/compare/gong-vs-salesloft.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/highspot-vs-mindtickle.html",
+      "url": "https://salesaiguide.com/compare/highspot-vs-mindtickle.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/highspot-vs-showpad.html",
+      "url": "https://salesaiguide.com/compare/highspot-vs-showpad.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/hubspot-vs-monday-crm.html",
+      "url": "https://salesaiguide.com/compare/hubspot-vs-monday-crm.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/hubspot-vs-pipedrive.html",
+      "url": "https://salesaiguide.com/compare/hubspot-vs-pipedrive.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/hubspot-vs-salesforce.html",
+      "url": "https://salesaiguide.com/compare/hubspot-vs-salesforce.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/index.html",
+      "url": "https://salesaiguide.com/compare/index.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "directory",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/instantly-vs-apollo.html",
+      "url": "https://salesaiguide.com/compare/instantly-vs-apollo.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/instantly-vs-lemlist.html",
+      "url": "https://salesaiguide.com/compare/instantly-vs-lemlist.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/instantly-vs-mailshake.html",
+      "url": "https://salesaiguide.com/compare/instantly-vs-mailshake.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/instantly-vs-smartlead.html",
+      "url": "https://salesaiguide.com/compare/instantly-vs-smartlead.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/lavender-vs-apollo.html",
+      "url": "https://salesaiguide.com/compare/lavender-vs-apollo.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/lavender-vs-autobound.html",
+      "url": "https://salesaiguide.com/compare/lavender-vs-autobound.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/lavender-vs-instantly.html",
+      "url": "https://salesaiguide.com/compare/lavender-vs-instantly.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/leadiq-vs-apollo.html",
+      "url": "https://salesaiguide.com/compare/leadiq-vs-apollo.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/leadiq-vs-lusha.html",
+      "url": "https://salesaiguide.com/compare/leadiq-vs-lusha.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/lemlist-vs-instantly.html",
+      "url": "https://salesaiguide.com/compare/lemlist-vs-instantly.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/lemlist-vs-saleshandy.html",
+      "url": "https://salesaiguide.com/compare/lemlist-vs-saleshandy.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/lusha-vs-apollo.html",
+      "url": "https://salesaiguide.com/compare/lusha-vs-apollo.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/lusha-vs-zoominfo.html",
+      "url": "https://salesaiguide.com/compare/lusha-vs-zoominfo.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/mindtickle-vs-allego.html",
+      "url": "https://salesaiguide.com/compare/mindtickle-vs-allego.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/nooks-vs-outreach.html",
+      "url": "https://salesaiguide.com/compare/nooks-vs-outreach.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/orum-vs-nooks.html",
+      "url": "https://salesaiguide.com/compare/orum-vs-nooks.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/orum-vs-salesloft.html",
+      "url": "https://salesaiguide.com/compare/orum-vs-salesloft.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/outreach-vs-hubspot.html",
+      "url": "https://salesaiguide.com/compare/outreach-vs-hubspot.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/outreach-vs-salesloft.html",
+      "url": "https://salesaiguide.com/compare/outreach-vs-salesloft.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/regie-vs-outreach.html",
+      "url": "https://salesaiguide.com/compare/regie-vs-outreach.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/regie-vs-salesloft.html",
+      "url": "https://salesaiguide.com/compare/regie-vs-salesloft.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/saleshandy-vs-instantly.html",
+      "url": "https://salesaiguide.com/compare/saleshandy-vs-instantly.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/saleshandy-vs-smartlead.html",
+      "url": "https://salesaiguide.com/compare/saleshandy-vs-smartlead.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/salesloft-vs-hubspot.html",
+      "url": "https://salesaiguide.com/compare/salesloft-vs-hubspot.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/salesloft-vs-klenty.html",
+      "url": "https://salesaiguide.com/compare/salesloft-vs-klenty.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/second-nature-vs-hyperbound.html",
+      "url": "https://salesaiguide.com/compare/second-nature-vs-hyperbound.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/seismic-vs-highspot.html",
+      "url": "https://salesaiguide.com/compare/seismic-vs-highspot.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/seismic-vs-mindtickle.html",
+      "url": "https://salesaiguide.com/compare/seismic-vs-mindtickle.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/seismic-vs-showpad.html",
+      "url": "https://salesaiguide.com/compare/seismic-vs-showpad.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/smartlead-vs-saleshandy.html",
+      "url": "https://salesaiguide.com/compare/smartlead-vs-saleshandy.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/usergems-vs-6sense.html",
+      "url": "https://salesaiguide.com/compare/usergems-vs-6sense.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/vidyard-vs-heygen.html",
+      "url": "https://salesaiguide.com/compare/vidyard-vs-heygen.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/vidyard-vs-loom.html",
+      "url": "https://salesaiguide.com/compare/vidyard-vs-loom.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/warmly-vs-apollo.html",
+      "url": "https://salesaiguide.com/compare/warmly-vs-apollo.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "compare/warmly-vs-leadfeeder.html",
+      "url": "https://salesaiguide.com/compare/warmly-vs-leadfeeder.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "comparison",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "dashboard/index.html",
+      "url": "https://salesaiguide.com/dashboard/index.html",
+      "tier": "C",
+      "noindex": true,
+      "reasons": [
+        "Missing meta description",
+        "Missing canonical tag"
+      ],
+      "page_type": "other",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "disclosure.html",
+      "url": "https://salesaiguide.com/disclosure.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "other",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "editorial-policy/index.html",
+      "url": "https://salesaiguide.com/editorial-policy/index.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "other",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "editorial.html",
+      "url": "https://salesaiguide.com/editorial.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "other",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "for-revenue-ops/index.html",
+      "url": "https://salesaiguide.com/for-revenue-ops/index.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "other",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "for-sales-managers/index.html",
+      "url": "https://salesaiguide.com/for-sales-managers/index.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "other",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "for-sales-reps/index.html",
+      "url": "https://salesaiguide.com/for-sales-reps/index.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "other",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "guides/ai-sales-assistant-comparison.html",
+      "url": "https://salesaiguide.com/guides/ai-sales-assistant-comparison.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "guides/best-ai-email-outreach-tools.html",
+      "url": "https://salesaiguide.com/guides/best-ai-email-outreach-tools.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "guides/best-ai-outbound-prospecting-tools.html",
+      "url": "https://salesaiguide.com/guides/best-ai-outbound-prospecting-tools.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "guides/best-ai-sdr-tools.html",
+      "url": "https://salesaiguide.com/guides/best-ai-sdr-tools.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "guides/best-cold-email-tools.html",
+      "url": "https://salesaiguide.com/guides/best-cold-email-tools.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "guides/best-data-enrichment-tools.html",
+      "url": "https://salesaiguide.com/guides/best-data-enrichment-tools.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "guides/best-instantly-alternatives.html",
+      "url": "https://salesaiguide.com/guides/best-instantly-alternatives.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "guides/best-revenue-intelligence-platforms.html",
+      "url": "https://salesaiguide.com/guides/best-revenue-intelligence-platforms.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "guides/best-sales-engagement-platforms.html",
+      "url": "https://salesaiguide.com/guides/best-sales-engagement-platforms.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "guides/best-sales-intelligence-tools.html",
+      "url": "https://salesaiguide.com/guides/best-sales-intelligence-tools.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "guides/index.html",
+      "url": "https://salesaiguide.com/guides/index.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "guides/top-conversation-intelligence-platforms.html",
+      "url": "https://salesaiguide.com/guides/top-conversation-intelligence-platforms.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "blog-guide",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "how-we-score/index.html",
+      "url": "https://salesaiguide.com/how-we-score/index.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "other",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "index.html",
+      "url": "https://salesaiguide.com/index.html",
+      "tier": "A",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "homepage",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "logo-prototypes.html",
+      "url": "https://salesaiguide.com/logo-prototypes.html",
+      "tier": "C",
+      "noindex": true,
+      "reasons": [
+        "Path matches always-noindex pattern",
+        "Missing meta description",
+        "Missing canonical tag"
+      ],
+      "page_type": "other"
+    },
+    {
+      "path": "progress/index.html",
+      "url": "https://salesaiguide.com/progress/index.html",
+      "tier": "C",
+      "noindex": true,
+      "reasons": [
+        "Missing meta description",
+        "Missing canonical tag"
+      ],
+      "page_type": "other",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/11x-review.html",
+      "url": "https://salesaiguide.com/tools/11x-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/apollo-review.html",
+      "url": "https://salesaiguide.com/tools/apollo-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/artisan-review.html",
+      "url": "https://salesaiguide.com/tools/artisan-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/chili-piper-review.html",
+      "url": "https://salesaiguide.com/tools/chili-piper-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/clari-review.html",
+      "url": "https://salesaiguide.com/tools/clari-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/clay-alternatives.html",
+      "url": "https://salesaiguide.com/tools/clay-alternatives.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "directory",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/clay-review.html",
+      "url": "https://salesaiguide.com/tools/clay-review.html",
+      "tier": "A",
+      "noindex": false,
+      "reasons": [
+        "WARNING: AggregateRating schema present \u2014 verify it is first-party only"
+      ],
+      "page_type": "tool-review",
+      "is_approved_affiliate": true
+    },
+    {
+      "path": "tools/cognism-review.html",
+      "url": "https://salesaiguide.com/tools/cognism-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/gong-review.html",
+      "url": "https://salesaiguide.com/tools/gong-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/highspot-review.html",
+      "url": "https://salesaiguide.com/tools/highspot-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/hubspot-review.html",
+      "url": "https://salesaiguide.com/tools/hubspot-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/index.html",
+      "url": "https://salesaiguide.com/tools/index.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "directory",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/instantly-review.html",
+      "url": "https://salesaiguide.com/tools/instantly-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/lavender-review.html",
+      "url": "https://salesaiguide.com/tools/lavender-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/leadiq-review.html",
+      "url": "https://salesaiguide.com/tools/leadiq-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/lemlist-review.html",
+      "url": "https://salesaiguide.com/tools/lemlist-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/lusha-review.html",
+      "url": "https://salesaiguide.com/tools/lusha-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/mindtickle-review.html",
+      "url": "https://salesaiguide.com/tools/mindtickle-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/nooks-review.html",
+      "url": "https://salesaiguide.com/tools/nooks-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/orum-review.html",
+      "url": "https://salesaiguide.com/tools/orum-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/outreach-review.html",
+      "url": "https://salesaiguide.com/tools/outreach-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/regie-review.html",
+      "url": "https://salesaiguide.com/tools/regie-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/saleshandy-review.html",
+      "url": "https://salesaiguide.com/tools/saleshandy-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/salesloft-review.html",
+      "url": "https://salesaiguide.com/tools/salesloft-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/seismic-review.html",
+      "url": "https://salesaiguide.com/tools/seismic-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/smartlead-review.html",
+      "url": "https://salesaiguide.com/tools/smartlead-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/vidyard-review.html",
+      "url": "https://salesaiguide.com/tools/vidyard-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/warmly-review.html",
+      "url": "https://salesaiguide.com/tools/warmly-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    },
+    {
+      "path": "tools/zoominfo-review.html",
+      "url": "https://salesaiguide.com/tools/zoominfo-review.html",
+      "tier": "B",
+      "noindex": false,
+      "reasons": [],
+      "page_type": "tool-review",
+      "is_approved_affiliate": false
+    }
+  ]
+}

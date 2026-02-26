@@ -328,9 +328,9 @@
         }
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 373+ total reviews across 3 platforms (G2 + Capterra + Trustpilot)",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 373+ total reviews across 3 platforms (G2 + Capterra + Trustpilot)",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -719,5 +719,19 @@
     ],
     "consensusScore": 4.8,
     "lastUpdated": "February 2026"
-  }
+  },
+  "compareLinks": [
+    {
+      "url": "/compare/instantly-vs-smartlead.html",
+      "text": "Instantly vs Smartlead"
+    },
+    {
+      "url": "/compare/smartlead-vs-saleshandy.html",
+      "text": "Smartlead vs Saleshandy"
+    },
+    {
+      "url": "/compare/saleshandy-vs-smartlead.html",
+      "text": "Saleshandy vs Smartlead"
+    }
+  ]
 }

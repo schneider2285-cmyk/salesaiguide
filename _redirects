@@ -74,6 +74,13 @@
 /go/reclaim       https://reclaim.ai?ref=salesaiguide           302
 /go/kronologic    https://kronologic.ai?ref=salesaiguide        302
 
+# Alias redirects (slug variants used in category pages)
+/go/chilipiper    https://chilipiper.com?ref=salesaiguide    302
+/go/monday        https://monday.com?ref=salesaiguide        302
+/go/kixie         https://kixie.com?ref=salesaiguide         302
+/go/g2            https://g2.com                             302
+/go/secondnature  https://secondnature.ai?ref=salesaiguide   302
+
 # Sales analytics redirect (removed category)
 /categories/sales-analytics.html  /categories/revenue-intelligence.html  301
 

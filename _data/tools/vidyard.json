@@ -87,7 +87,7 @@
     }
   },
   "quickSummary": {
-    "whatItDoes": "Async video messaging platform for sales outreach \u2014 record screen + webcam videos, embed in emails, and track viewer engagement with CRM-synced analytics.",
+    "whatItDoes": "Async video messaging platform for sales outreach — record screen + webcam videos, embed in emails, and track viewer engagement with CRM-synced analytics.",
     "bestFor": "SDRs and AEs who want to stand out in crowded inboxes with personalized video messages and track prospect engagement.",
     "pricing": "Free tier (25 videos). Pro from $19/mo. Plus from $59/mo. Enterprise custom.",
     "ctaUrl": "/go/vidyard",
@@ -361,6 +361,10 @@
       {
         "text": "Vidyard vs HeyGen",
         "url": "/compare/vidyard-vs-heygen.html"
+      },
+      {
+        "url": "/compare/vidyard-vs-loom.html",
+        "text": "Vidyard vs Loom"
       }
     ]
   },
@@ -563,9 +567,9 @@
         "Vendor docs &#10003;"
       ],
       "freshness": [
-        "\ud83d\udcc5 Freshest review: Feb 2026",
-        "\ud83d\udcca 880+ total reviews across 2 verified platforms",
-        "\ud83d\udd0d Last verified: Feb 2026"
+        "📅 Freshest review: Feb 2026",
+        "📊 880+ total reviews across 2 verified platforms",
+        "🔍 Last verified: Feb 2026"
       ],
       "evidenceGrid": [
         {
@@ -635,7 +639,7 @@
           "Reddit: 3 threads",
           "Capterra: 9 mentions"
         ],
-        "quote": "\"I proved the value on the free tier in a week \u2014 3 meetings booked from video outreach. Getting $19/mo approved was easy after that, but the 25-video cap on free forced the conversation.\"",
+        "quote": "\"I proved the value on the free tier in a week — 3 meetings booked from video outreach. Getting $19/mo approved was easy after that, but the 25-video cap on free forced the conversation.\"",
         "quoteCite": "Synthesized from G2 and Capterra review themes"
       }
     ],

@@ -20,6 +20,7 @@
     <meta name="twitter:title" content="{{ title }} | SalesAIGuide">
     <meta name="twitter:description" content="{{ description }}">
     <meta name="description" content="{{ description }}">
+    {% if canonicalUrl %}<link rel="canonical" href="{{ canonicalUrl }}">{% endif %}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,7 +54,7 @@
         <div class="sidebar-tool-card">
           <div class="sidebar-tool-name">{{ tool.name }}</div>
           <div class="sidebar-tool-best">{{ tool.bestFor }}</div>
-          <a href="{{ tool.ctaUrl }}" class="btn btn-primary btn-sm btn-block" target="_blank" rel="nofollow">
+          <a href="{{ tool.ctaUrl }}" class="btn btn-primary btn-sm btn-block" target="_blank" rel="nofollow sponsored">
             Visit {{ tool.name }} &#8599;
           </a>
         </div>

@@ -41,7 +41,7 @@
     "repRationale": "Reps benefit from both the dialing efficiency and the AI sequencing. The coaching and roleplay features are genuinely useful for skill development, not just monitoring."
   },
   "quickSummary": {
-    "verdict": "Nooks is the most comprehensive AI Sales Assistant Platform in the parallel dialer category. It combines parallel dialing with AI sequencing, signal-based prospecting, and coaching \u2014 making it a strong choice for teams looking to consolidate their outbound stack. Highest G2 rating in its category at 4.8/5.",
+    "verdict": "Nooks is the most comprehensive AI Sales Assistant Platform in the parallel dialer category. It combines parallel dialing with AI sequencing, signal-based prospecting, and coaching — making it a strong choice for teams looking to consolidate their outbound stack. Highest G2 rating in its category at 4.8/5.",
     "bestFor": "Sophisticated outbound teams that want to consolidate dialing, sequencing, and prospecting signals into one platform. Strong for teams already using Gong or Salesloft who want a complementary dialing layer.",
     "avoidIf": "Budget-constrained teams or those needing transparent pricing before a sales call. The Chrome extension's broad data permissions have raised concerns in security-conscious organizations.",
     "enterpriseFit": 6,
@@ -182,6 +182,16 @@
         "4.7/5",
         "4.6/5"
       ]
+    ],
+    "seeFullLinks": [
+      {
+        "url": "/compare/nooks-vs-outreach.html",
+        "text": "Nooks vs Outreach"
+      },
+      {
+        "url": "/compare/orum-vs-nooks.html",
+        "text": "Orum vs Nooks"
+      }
     ]
   },
   "whoIsFor": {
@@ -242,7 +252,7 @@
         },
         {
           "label": "G2 rating",
-          "value": "4.8/5 (1,107 reviews) \u2014 highest in category"
+          "value": "4.8/5 (1,107 reviews) — highest in category"
         },
         {
           "label": "Funding",
@@ -254,7 +264,7 @@
         },
         {
           "label": "Free trial",
-          "value": "Yes \u2014 contact sales"
+          "value": "Yes — contact sales"
         },
         {
           "label": "Key integrations",
@@ -289,11 +299,11 @@
       "heading": "Recurring User Themes",
       "themes": [
         {
-          "theme": "Best parallel dialer on the market \u2014 consistently outperforms manual dialing",
+          "theme": "Best parallel dialer on the market — consistently outperforms manual dialing",
           "sentiment": "positive"
         },
         {
-          "theme": "AI sequencing (2025) is a genuine differentiator \u2014 reduces tool sprawl",
+          "theme": "AI sequencing (2025) is a genuine differentiator — reduces tool sprawl",
           "sentiment": "positive"
         },
         {
@@ -301,7 +311,7 @@
           "sentiment": "positive"
         },
         {
-          "theme": "No transparent pricing \u2014 requires a sales call to get numbers",
+          "theme": "No transparent pricing — requires a sales call to get numbers",
           "sentiment": "negative"
         },
         {
@@ -316,7 +326,7 @@
     },
     "pricingBreakdown": {
       "heading": "Pricing Reality",
-      "summary": "Custom pricing, annual contracts required. Community reports suggest $400-$700/user/month. No public pricing listed \u2014 requires a sales conversation.",
+      "summary": "Custom pricing, annual contracts required. Community reports suggest $400-$700/user/month. No public pricing listed — requires a sales conversation.",
       "items": [
         {
           "tier": "Starter",
@@ -344,8 +354,8 @@
     ],
     "breaksAtScale": [
       "Chrome extension security concerns for enterprise security teams",
-      "Third-party security assessment Grade C (41/100) \u2014 below enterprise standards",
-      "No transparent pricing \u2014 budgeting requires a sales conversation",
+      "Third-party security assessment Grade C (41/100) — below enterprise standards",
+      "No transparent pricing — budgeting requires a sales conversation",
       "Custom pricing makes it hard to compare ROI against alternatives"
     ],
     "whoShouldNotBuy": "Security-conscious organizations that need to pass InfoSec review will struggle with the Chrome extension permissions and the Grade C security score. Budget-constrained teams that need transparent pricing before committing to a sales conversation should look at Kixie instead.",
@@ -398,7 +408,7 @@
         {
           "segment": "High-volume SDR teams",
           "fit": "strong",
-          "reason": "Core use case \u2014 best G2 rating in the parallel dialer category"
+          "reason": "Core use case — best G2 rating in the parallel dialer category"
         },
         {
           "segment": "Teams consolidating their stack",
@@ -451,7 +461,7 @@
         "role": "Alternative dialer",
         "reason": null,
         "replaces": null,
-        "avoidWith": "Direct competitor \u2014 choose based on security requirements and pricing."
+        "avoidWith": "Direct competitor — choose based on security requirements and pricing."
       }
     ],
     "alternatives": [
@@ -474,7 +484,7 @@
     "faqs": [
       {
         "q": "How much does Nooks cost?",
-        "a": "Nooks uses custom pricing \u2014 no public tiers. Community reports suggest $400-$700/user/month with annual contracts. Contact sales for current pricing."
+        "a": "Nooks uses custom pricing — no public tiers. Community reports suggest $400-$700/user/month with annual contracts. Contact sales for current pricing."
       },
       {
         "q": "Is Nooks better than Orum?",
@@ -490,7 +500,7 @@
       },
       {
         "q": "Does Nooks have a free trial?",
-        "a": "Yes \u2014 Nooks offers a free trial. Contact their sales team to get access."
+        "a": "Yes — Nooks offers a free trial. Contact their sales team to get access."
       }
     ],
     "meta": {
@@ -501,7 +511,7 @@
   "sidebar": {
     "affiliateUrl": "https://www.nooks.in",
     "affiliateCta": "Try Nooks Free",
-    "affiliateDisclosure": "Affiliate link \u2014 we may earn a commission at no cost to you.",
+    "affiliateDisclosure": "Affiliate link — we may earn a commission at no cost to you.",
     "relatedComparisons": [
       {
         "label": "Nooks vs Orum",
@@ -536,7 +546,7 @@
     "body": "Nooks is the highest-rated parallel dialer on G2 with 1,107 reviews. If you're running high-volume outbound and want to consolidate dialing, sequencing, and prospecting signals in one platform, it's worth a demo.",
     "ctaText": "Try Nooks Free",
     "ctaUrl": "https://www.nooks.in",
-    "disclaimer": "Affiliate link \u2014 commission earned at no cost to you. Scores and placement are independent of affiliate relationships."
+    "disclaimer": "Affiliate link — commission earned at no cost to you. Scores and placement are independent of affiliate relationships."
   },
   "sourcesChecked": {
     "lastVerified": "February 2026",
@@ -544,7 +554,7 @@
       {
         "name": "G2",
         "type": "review_platform",
-        "icon": "\u2605",
+        "icon": "★",
         "reviewCount": "1,107",
         "rating": "4.8",
         "whatFound": "Highest-rated parallel dialer on G2. Strong praise for AI sequencing (2025) and coaching features. Main concerns: pricing transparency and Chrome extension permissions.",
@@ -553,7 +563,7 @@
       {
         "name": "Reddit (r/sales, r/saleshacks)",
         "type": "community",
-        "icon": "\ud83d\udcac",
+        "icon": "💬",
         "reviewCount": "40+",
         "rating": null,
         "whatFound": "Generally very positive. Reps praise the AI sequencing addition. Security-conscious users flag the Chrome extension permissions.",
@@ -562,7 +572,7 @@
       {
         "name": "YouTube (demos & reviews)",
         "type": "video",
-        "icon": "\u25b6",
+        "icon": "▶",
         "reviewCount": "30+",
         "rating": null,
         "whatFound": "Official demos highlight the full platform evolution. Independent reviewers note the strong G2 rating and AI sequencing as differentiators.",
@@ -571,7 +581,7 @@
       {
         "name": "Vendor documentation",
         "type": "vendor_docs",
-        "icon": "\ud83d\udcc4",
+        "icon": "📄",
         "reviewCount": "Full docs",
         "rating": null,
         "whatFound": "Well-documented integrations. $43M Series B confirmed. AI sequencing and Gong Engage integration confirmed for 2025.",
@@ -580,7 +590,7 @@
       {
         "name": "SaaSPosture security assessment",
         "type": "review_platform",
-        "icon": "\ud83d\udd12",
+        "icon": "🔒",
         "reviewCount": "1 assessment",
         "rating": "C (41/100)",
         "whatFound": "Grade C security score. No confirmed SOC 2, ISO 27001, HIPAA, GDPR, CCPA, or PCI DSS certifications. Chrome extension requests broad data permissions.",

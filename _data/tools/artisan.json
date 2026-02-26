@@ -23,7 +23,7 @@
   },
   "hero": {
     "toolName": "Artisan",
-    "tagline": "Autonomous AI SDR \u2014 Ava handles prospecting end-to-end",
+    "tagline": "Autonomous AI SDR — Ava handles prospecting end-to-end",
     "category": "AI SDR Platform",
     "categoryUrl": "/categories/ai-sdr.html",
     "orgScore": 65,
@@ -85,9 +85,9 @@
     ]
   },
   "quickSummary": {
-    "verdict": "Artisan's AI SDR 'Ava' automates the full prospecting workflow \u2014 lead research, email writing, and follow-up sequencing. Strong for teams that want to delegate outbound entirely, but limited personalization control and a thin G2 review base (19 reviews) make it hard to verify claims at scale.",
+    "verdict": "Artisan's AI SDR 'Ava' automates the full prospecting workflow — lead research, email writing, and follow-up sequencing. Strong for teams that want to delegate outbound entirely, but limited personalization control and a thin G2 review base (19 reviews) make it hard to verify claims at scale.",
     "bestFor": "SMB and mid-market teams without dedicated SDRs who want to automate outbound prospecting entirely",
-    "avoidIf": "Teams with complex, highly personalized sales processes or strict budget constraints \u2014 pricing starts at ~$2,000/month",
+    "avoidIf": "Teams with complex, highly personalized sales processes or strict budget constraints — pricing starts at ~$2,000/month",
     "enterpriseFit": 5,
     "easeOfAdoption": 7,
     "aiDepth": 8
@@ -142,7 +142,7 @@
       }
     ],
     "freeTrial": false,
-    "freeTrialNote": "No free trial \u2014 demo required before pricing is disclosed"
+    "freeTrialNote": "No free trial — demo required before pricing is disclosed"
   },
   "g2Reviews": {
     "rating": 3.8,
@@ -216,11 +216,25 @@
         "Full control",
         "Full control"
       ]
+    ],
+    "seeFullLinks": [
+      {
+        "url": "/compare/11x-vs-artisan.html",
+        "text": "11x vs Artisan"
+      },
+      {
+        "url": "/compare/artisan-vs-clay.html",
+        "text": "Artisan vs Clay"
+      },
+      {
+        "url": "/compare/artisan-vs-regie.html",
+        "text": "Artisan vs Regie.ai"
+      }
     ]
   },
   "whoIsFor": {
     "bestFor": [
-      "SMB teams (5\u201350 employees) without dedicated SDRs",
+      "SMB teams (5–50 employees) without dedicated SDRs",
       "Founders doing outbound without a sales team",
       "Teams wanting to fully automate cold email prospecting",
       "Companies with a well-defined ICP and straightforward messaging"
@@ -228,7 +242,7 @@
     "notFor": [
       "Teams with complex, multi-touch personalization requirements",
       "Enterprise teams with strict data compliance needs",
-      "Companies with tight budgets \u2014 $2,000/mo minimum is steep",
+      "Companies with tight budgets — $2,000/mo minimum is steep",
       "Teams that want full control over every message sent"
     ]
   },
@@ -236,7 +250,7 @@
     "verdict": {
       "summary": "Artisan is an early-stage autonomous AI SDR with genuine potential but limited validation. The 19 G2 reviews make it difficult to assess reliability at scale. Best evaluated as a pilot for teams willing to invest in setup and oversight.",
       "bestFor": "SMB founders and small teams wanting to fully delegate outbound email prospecting without hiring SDRs",
-      "whoShouldNotBuy": "Teams needing proven, validated outbound automation at scale \u2014 the review base is too thin to trust for mission-critical pipeline generation"
+      "whoShouldNotBuy": "Teams needing proven, validated outbound automation at scale — the review base is too thin to trust for mission-critical pipeline generation"
     },
     "subScores": [
       {
@@ -258,7 +272,7 @@
     "faqs": [
       {
         "q": "Does Artisan replace a human SDR?",
-        "a": "Artisan is designed to automate the full outbound SDR workflow \u2014 lead research, email writing, and follow-up. However, most teams still need a human to review campaigns, handle replies, and manage edge cases. It reduces SDR headcount needs but rarely eliminates them entirely."
+        "a": "Artisan is designed to automate the full outbound SDR workflow — lead research, email writing, and follow-up. However, most teams still need a human to review campaigns, handle replies, and manage edge cases. It reduces SDR headcount needs but rarely eliminates them entirely."
       },
       {
         "q": "How does Artisan compare to 11x?",
@@ -342,7 +356,7 @@
     "heading": "Ready to evaluate Artisan?",
     "body": "Visit Artisan to request a demo and get pricing. We recommend comparing it against 11x and Clay before committing to an annual contract.",
     "ctaUrl": "/go/artisan",
-    "ctaText": "Visit Artisan \u2192"
+    "ctaText": "Visit Artisan →"
   },
   "sourcesChecked": [
     {
@@ -359,7 +373,7 @@
       "count": null,
       "rating": null,
       "url": "https://www.reddit.com/r/sales/",
-      "finding": "Mixed sentiment \u2014 some SDRs report good results for cold email volume, others note generic AI output"
+      "finding": "Mixed sentiment — some SDRs report good results for cold email volume, others note generic AI output"
     },
     {
       "source": "Artisan.co (vendor)",
@@ -388,7 +402,7 @@
   ],
   "enterpriseReadiness": {
     "overallScore": 5,
-    "overallNote": "Artisan is primarily SMB/mid-market focused. Enterprise security details are not publicly documented \u2014 contact sales for compliance specifics.",
+    "overallNote": "Artisan is primarily SMB/mid-market focused. Enterprise security details are not publicly documented — contact sales for compliance specifics.",
     "items": [
       {
         "feature": "SSO / SAML",
@@ -426,48 +440,48 @@
     "pairings": [
       {
         "tool": "HubSpot",
-        "role": "CRM \u2014 sync contacts and track pipeline from Ava's outreach",
+        "role": "CRM — sync contacts and track pipeline from Ava's outreach",
         "url": "/tools/hubspot-review.html"
       },
       {
         "tool": "Salesforce",
-        "role": "Enterprise CRM \u2014 native integration for contact and deal sync",
+        "role": "Enterprise CRM — native integration for contact and deal sync",
         "url": "#"
       },
       {
         "tool": "Lavender",
-        "role": "Email coach \u2014 review and improve Ava's AI-generated emails before sending",
+        "role": "Email coach — review and improve Ava's AI-generated emails before sending",
         "url": "/tools/lavender-review.html"
       },
       {
         "tool": "Apollo",
-        "role": "Alternative \u2014 if you want more control over prospecting and sequencing",
+        "role": "Alternative — if you want more control over prospecting and sequencing",
         "url": "/tools/apollo-review.html"
       },
       {
         "tool": "Clay",
-        "role": "Alternative \u2014 if you need custom enrichment workflows with human oversight",
+        "role": "Alternative — if you need custom enrichment workflows with human oversight",
         "url": "/tools/clay-review.html"
       }
     ],
     "replaces": "Manual SDR outbound workflows, basic email sequencing tools",
-    "avoidWith": "Other autonomous AI SDR tools (11x) \u2014 redundant; pick one"
+    "avoidWith": "Other autonomous AI SDR tools (11x) — redundant; pick one"
   },
   "videos": [
     {
-      "title": "Artisan AI SDR Platform \u2014 Official Demo",
+      "title": "Artisan AI SDR Platform — Official Demo",
       "youtubeId": "dQw4w9WgXcQ",
       "type": "official",
       "description": "Official walkthrough of Ava AI SDR capabilities"
     },
     {
-      "title": "Artisan vs Traditional SDR \u2014 Honest Review",
+      "title": "Artisan vs Traditional SDR — Honest Review",
       "youtubeId": "dQw4w9WgXcQ",
       "type": "review",
       "description": "Independent practitioner review comparing Artisan to hiring an SDR"
     },
     {
-      "title": "Artisan vs 11x \u2014 AI SDR Comparison",
+      "title": "Artisan vs 11x — AI SDR Comparison",
       "youtubeId": "dQw4w9WgXcQ",
       "type": "comparison",
       "description": "Side-by-side comparison of the two leading autonomous AI SDR platforms"
