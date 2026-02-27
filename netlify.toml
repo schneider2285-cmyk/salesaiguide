@@ -1,0 +1,3 @@
+[build]
+  publish = "."
+  command = "python3 scripts/indexation_gate.py --site-dir . --out-dir . --base-url https://salesaiguide.com"

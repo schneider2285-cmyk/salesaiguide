@@ -1,0 +1,10 @@
+{
+  "name": "salesaiguide",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "python3 scripts/indexation_gate.py --site-dir . --out-dir . --base-url https://salesaiguide.com",
+    "gate": "python3 scripts/indexation_gate.py --site-dir . --out-dir . --base-url https://salesaiguide.com",
+    "test": "python3 scripts/test_slop_signals.py"
+  }
+}

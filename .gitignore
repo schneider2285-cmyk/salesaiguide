@@ -1,0 +1,11 @@
+.DS_Store
+.netlify/
+node_modules/
+
+# Gate outputs — generated at build time by netlify.toml build command
+# Do NOT commit these; Netlify regenerates them on every deploy
+sitemap.xml
+sitemap-core.xml
+sitemap-hold.xml
+gate-report.json
+_headers
