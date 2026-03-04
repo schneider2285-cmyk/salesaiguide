@@ -339,6 +339,36 @@ body {
     font-size: 0.95rem;
 }
 
+/* Coverage badges in tool cards */
+.tool-coverage {
+    margin-bottom: 0.75rem;
+}
+
+.tool-coverage .coverage-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    line-height: 1;
+}
+
+.tool-coverage .coverage-badge-reviewed {
+    background: #e6f4ea;
+    color: #1a7f37;
+    border: 1px solid #a3d9b1;
+}
+
+.tool-coverage .coverage-badge-listed {
+    background: #f3f4f6;
+    color: #6b7280;
+    border: 1px solid #d1d5db;
+}
+
 .tool-actions {
     display: flex;
     gap: 0.75rem;
@@ -638,6 +668,19 @@ body {
     font-size: 0.9rem;
     line-height: 1.5;
     margin: 0;
+}
+
+/* Hero Checklist Link */
+.hero-checklist-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    color: var(--electric-blue);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hero-checklist-link:hover {
+    text-decoration: underline;
 }
 
 /* Responsive Design */

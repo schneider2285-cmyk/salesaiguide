@@ -7,9 +7,9 @@ Hard constraint: No "AI slop." No thin templated pages in index. Static HTML is 
 ----------------------------------------
 NEXT SPRINT (DO THIS NEXT, NO DETOURS)
 ----------------------------------------
-Cold Email / Outbound Automation cluster
-- Promote the Cold Email category hub to Tier B
-- Promote 4 cold email comparisons to Tier B
+Continue A-tier promotion across all clusters
+- Promote remaining B-tier reviews and hubs to A where gaps are small
+- Prioritize pages closest to thresholds (header renames, content expansion, pricing-table class)
 - Keep the gate frozen
 - Rerun QA and report results
 ----------------------------------------

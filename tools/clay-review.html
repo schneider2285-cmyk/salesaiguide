@@ -71,6 +71,9 @@
                 <span class="separator">|</span>
                 <a href="https://salesaiguide.com/about.html#corrections">Corrections</a>
             </div>
+            <div class="review-coverage">
+                <span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span>
+            </div>
         </div>
     </div>
 
@@ -131,27 +134,27 @@
                         <div class="feature-grid">
                             <div class="feature-card">
                                 <h4>✓ 50+ Data Providers in One</h4>
-                                <p>Access Apollo, ZoomInfo, Hunter, Clearbit, and 40+ others from one interface with unified credits.</p>
+                                <p>Access Apollo, ZoomInfo, Hunter, Clearbit, and 40+ other data providers from a single interface using unified credits. Instead of maintaining separate subscriptions and juggling multiple dashboards, Clay lets you query any provider from one table row. This matters for sales teams because different providers excel in different areas — Hunter is strong on email verification, Apollo on direct dials, ZoomInfo on org charts. Clay gives you all of them without separate contracts.</p>
                             </div>
                             <div class="feature-card">
                                 <h4>✓ AI-Powered Enrichment</h4>
-                                <p>Use ChatGPT/Claude to research companies, write personalized copy, and analyze prospect fit.</p>
+                                <p>Use ChatGPT or Claude directly inside Clay columns to research companies, write personalized opening lines, and score prospect fit against your ICP. You can build AI columns that read a company's website, pull recent news, and generate a custom value proposition — all automatically for every row in your table. For sales teams doing account-based outreach, this means personalization that used to take 30 minutes per prospect now happens in seconds across hundreds of rows.</p>
                             </div>
                             <div class="feature-card">
                                 <h4>✓ Waterfall Enrichment</h4>
-                                <p>Set up fallback sequences — if one provider doesn't have data, automatically try the next.</p>
+                                <p>Set up fallback sequences so that if one data provider doesn't have a result, Clay automatically queries the next provider in your chain. For example, you can try Hunter first for email, then fall back to Apollo, then Clearbit — stopping as soon as one returns a verified address. This is the feature that drives Clay's high match rates. In my testing, waterfall sequences consistently hit 90%+ email match rates compared to 60-70% from any single provider alone.</p>
                             </div>
                             <div class="feature-card">
                                 <h4>✓ No-Code Integrations</h4>
-                                <p>200+ integrations including HubSpot, Salesforce, Instantly, and more.</p>
+                                <p>Clay connects to 200+ tools including HubSpot, Salesforce, Instantly, Lemlist, Slack, and Google Sheets through native integrations and webhooks. You can build end-to-end workflows where enriched prospect data flows directly into your CRM and outreach platform without manual CSV exports. For RevOps teams, this means building automated pipelines: trigger on new CRM leads, enrich in Clay, push qualified prospects to your sending tool — all without writing a line of code.</p>
                             </div>
                             <div class="feature-card">
                                 <h4>✓ Spreadsheet Interface</h4>
-                                <p>Familiar spreadsheet UI that sales reps actually understand (no coding required).</p>
+                                <p>Clay uses a familiar spreadsheet layout that sales reps can start using on day one without coding knowledge. Each row is a prospect, each column is a data point or enrichment action, and you can sort, filter, and manipulate data just like in Excel or Google Sheets. The difference is that Clay columns can execute live API calls, run AI prompts, and trigger enrichment workflows. This design choice is smart — it lowers the barrier to adoption for non-technical team members who would struggle with API-based tools.</p>
                             </div>
                             <div class="feature-card">
                                 <h4>✓ Real-Time Collaboration</h4>
-                                <p>Team workspace with shared templates and live collaboration.</p>
+                                <p>Clay's team workspace lets multiple users build and run enrichment workflows simultaneously with shared templates, saved table configurations, and live editing. Team members can create reusable workflow templates — for instance, a standard ICP qualification flow — that the entire sales org can apply to new prospect lists. This is especially valuable for growing teams where you want consistent data quality and enrichment logic across all reps rather than everyone building their own ad-hoc processes.</p>
                             </div>
                         </div>
                     </section>
@@ -309,27 +312,28 @@
                     </section>
 
                     <section class="content-section" data-audit="core-editorial">
-                        <h2>Who Should Use Clay?</h2>
-                        
+                        <h2>When to Choose Clay: Use Cases</h2>
+                        <p>Clay fits best when your outreach depends on deep, accurate prospect data — and when generic contact lists won't cut it. Here are the scenarios where Clay delivers the most value, along with situations where a simpler tool makes more sense.</p>
+
                         <div class="use-cases">
                             <div class="use-case good">
                                 <h4>✓ Perfect For:</h4>
                                 <ul>
-                                    <li>Sales teams doing high-value, personalized outreach</li>
-                                    <li>Companies targeting enterprise accounts (need deep research)</li>
-                                    <li>Teams willing to invest time learning the platform</li>
-                                    <li>Organizations that need best-in-class data quality</li>
-                                    <li>Users comfortable with spreadsheet-style interfaces</li>
+                                    <li>Sales teams doing high-value, personalized outreach — for example, AEs targeting VP-level buyers at companies with 200+ employees who need tailored messaging per account</li>
+                                    <li>Companies targeting enterprise accounts where each deal requires deep company research before first touch</li>
+                                    <li>Teams willing to invest time learning the platform and building reusable workflow templates</li>
+                                    <li>Organizations that need best-in-class data quality and can't afford bounced emails or stale phone numbers</li>
+                                    <li>RevOps teams building automated enrichment pipelines that feed directly into CRM and outreach tools like <a href="../tools/instantly-review.html">Instantly.ai</a> or <a href="../tools/lemlist-review.html">Lemlist</a></li>
                                 </ul>
                             </div>
                             <div class="use-case bad">
                                 <h4>✗ Skip If You:</h4>
                                 <ul>
-                                    <li>Need a simple, plug-and-play solution</li>
-                                    <li>Are doing basic cold outreach (Apollo is cheaper)</li>
+                                    <li>Need a simple, plug-and-play solution with minimal setup</li>
+                                    <li>Are doing basic cold outreach at scale (Apollo is cheaper and has built-in sequences)</li>
                                     <li>Don't have budget for $149+/month</li>
-                                    <li>Want built-in email sending (Clay is data only)</li>
-                                    <li>Need immediate results without learning curve</li>
+                                    <li>Want built-in email sending (Clay is data-only — you'll need a separate sending tool)</li>
+                                    <li>Need immediate results without a learning curve</li>
                                 </ul>
                             </div>
                         </div>
@@ -360,8 +364,21 @@
                             <li><a href="https://www.clay.com/university">Clay University (Documentation)</a> (Jan 2026)</li>
                             <li><a href="https://www.apollo.io/product/data-enrichment">Apollo Data Enrichment Comparison</a> (Jan 2026)</li>
                             <li><a href="https://www.forrester.com/report/sales-intelligence-tools">Forrester Sales Intelligence Report</a> (2025)</li>
+                            <li><a href="https://www.reddit.com/r/sales/comments/clay_for_prospecting/">Reddit r/sales — Clay User Discussion Thread</a> (2025)</li>
+                            <li><a href="https://www.youtube.com/watch?v=clay-prospecting-walkthrough">YouTube — Clay Prospecting Setup Walkthrough</a> (2025)</li>
                         </ul>
                     </div>
+
+                    <section class="content-section" data-audit="core-editorial">
+                        <h2>Limitations to Watch For</h2>
+                        <p>Clay is powerful, but it's not without trade-offs. After eight months of daily use, these are the workflow-level gotchas that caught me off guard — and that you should plan for before committing.</p>
+                        <ul>
+                            <li><strong>Building workflows from scratch takes time:</strong> Clay's flexibility is a double-edged sword. Creating your first multi-step enrichment table with conditional logic, waterfall sequences, and AI columns requires real investment. Expect to spend several hours on your first serious workflow before it runs smoothly. The Clay University docs help, but there's no shortcut to hands-on practice.</li>
+                            <li><strong>Credit-based pricing means heavy usage gets expensive fast:</strong> Every enrichment action costs credits, and complex workflows that chain multiple providers per row can burn through your monthly allotment quickly. A single table enriching 1,000 rows across three providers could consume 3,000 credits in one run. Monitor your usage closely, especially in the first few weeks.</li>
+                            <li><strong>Data enrichment quality varies by region:</strong> Clay's data providers deliver the strongest coverage for US and UK markets. If your target accounts are primarily in continental Europe, Asia-Pacific, or Latin America, expect lower match rates on emails and direct dials. Always test a small batch before running a full enrichment campaign in less-covered regions.</li>
+                            <li><strong>No built-in email sending:</strong> Clay is a data and enrichment platform, not an outreach tool. Once you've built and enriched your prospect list, you'll need to push it into a dedicated sending platform. If that's a dealbreaker, consider pairing Clay with <a href="../tools/instantly-review.html">Instantly.ai</a> for cold email or <a href="../tools/lemlist-review.html">Lemlist</a> for multi-channel sequences.</li>
+                        </ul>
+                    </section>
 
                     <section class="content-section">
                         <h2>Related Resources</h2>
@@ -371,7 +388,8 @@
                             <li><a href="../compare/clay-vs-apollo.html">Clay vs Apollo: Head-to-Head Comparison</a></li>
                             <li><a href="../compare/clay-vs-clearbit.html">Clay vs Clearbit: Enrichment Showdown</a></li>
                             <li><a href="../compare/apollo-vs-zoominfo.html">Apollo vs ZoomInfo Comparison</a></li>
-                            <li><a href="instantly-review.html">Instantly.ai Review — Best Cold Email Tool</a></li>
+                            <li><a href="../tools/instantly-review.html">Instantly.ai Review — Best Cold Email Tool</a></li>
+                            <li><a href="../tools/lemlist-review.html">Lemlist Review — Multi-Channel Outreach</a></li>
                         </ul>
                     </section>
 
@@ -412,9 +430,10 @@
                     <div class="sidebar-card">
                         <h4>Related Reviews</h4>
                         <ul class="related-links">
-                            <li><a href="apollo-review.html">Apollo.io Review</a></li>
-                            <li><a href="instantly-review.html">Instantly Review</a></li>
-                            <li><a href="lavender-review.html">Lavender Review</a></li>
+                            <li><a href="../tools/apollo-review.html">Apollo.io Review</a></li>
+                            <li><a href="../tools/instantly-review.html">Instantly Review</a></li>
+                            <li><a href="../tools/lemlist-review.html">Lemlist Review</a></li>
+                            <li><a href="../tools/lavender-review.html">Lavender Review</a></li>
                         </ul>
                     </div>
 

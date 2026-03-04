@@ -594,6 +594,47 @@
     font-weight: 500;
 }
 
+/* Coverage Badge */
+.coverage-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.3rem 0.75rem;
+    border-radius: 4px;
+    line-height: 1;
+}
+
+.coverage-badge-reviewed {
+    background: #e6f4ea;
+    color: #1a7f37;
+    border: 1px solid #a3d9b1;
+}
+
+.coverage-badge-listed {
+    background: #f3f4f6;
+    color: #6b7280;
+    border: 1px solid #d1d5db;
+}
+
+.coverage-badge-icon {
+    font-size: 0.8125rem;
+    line-height: 1;
+}
+
+/* Review page coverage badge positioning */
+.review-coverage {
+    margin-bottom: 1.25rem;
+}
+
+/* Hub/directory coverage badge in tool card */
+.tool-card .coverage-badge {
+    margin-top: 0.5rem;
+}
+
 /* Responsive */
 @media (max-width: 968px) {
     .content-wrapper {
