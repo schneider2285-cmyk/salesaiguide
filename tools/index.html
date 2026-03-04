@@ -1,1017 +1,1291 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Sales Tools Directory — Reviews &amp; Listings | Sales AI Guide</title>
-    <meta name="description" content="Directory of 39 AI sales tools. Reviewed tools tested hands-on; listed tools sourced from G2 ratings. Find the best tool for your sales workflow.">
-    <link rel="canonical" href="https://salesaiguide.com/tools/">
-    <link rel="stylesheet" href="../css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Sales Tools Directory — Reviews &amp; Listings | SalesAIGuide</title>
+  <meta name="description" content="Directory of 39 AI sales tools. Reviewed tools tested hands-on; listed tools sourced from G2 ratings. Find the best tool for your sales workflow.">
+  <link rel="canonical" href="https://salesaiguide.com/tools/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AI Sales Tools Directory — Reviews &amp; Listings | SalesAIGuide">
+  <meta property="og:description" content="Directory of 39 AI sales tools. Reviewed tools tested hands-on; listed tools sourced from G2 ratings. Find the best tool for your sales workflow.">
+  <meta property="og:url" content="https://salesaiguide.com/tools/">
+  <meta property="og:site_name" content="SalesAIGuide">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Sales Tools Directory — Reviews &amp; Listings | SalesAIGuide">
+  <meta name="twitter:description" content="Directory of 39 AI sales tools. Reviewed tools tested hands-on; listed tools sourced from G2 ratings. Find the best tool for your sales workflow.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <script>
+  (function(){
+    var t = localStorage.getItem('salesaiguide-theme') ||
+      (window.matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+  </script>
+  <style>
+    .tools-hero {
+      background: var(--color-surface);
+      border-bottom: 1px solid var(--color-border);
+      padding: var(--space-12) 0 var(--space-8);
+      text-align: center;
+    }
+    .tools-hero__eyebrow {
+      display: inline-block;
+      background: var(--color-accent-highlight);
+      color: var(--color-accent);
+      font-size: var(--text-xs);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      padding: .25em .8em;
+      border-radius: var(--radius-full);
+      margin-bottom: var(--space-4);
+    }
+    [data-theme="dark"] .tools-hero__eyebrow { background: rgba(45,212,168,.12); }
+    .tools-hero__title {
+      font-size: var(--text-2xl);
+      font-weight: 800;
+      color: var(--color-text);
+      margin: 0 auto var(--space-4);
+      max-width: 640px;
+      line-height: 1.15;
+    }
+    .tools-hero__subtitle {
+      font-size: var(--text-base);
+      color: var(--color-text-muted);
+      max-width: 680px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .tools-intro {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      padding: var(--space-6);
+      margin-bottom: var(--space-8);
+      font-size: var(--text-base);
+      color: var(--color-text-muted);
+      line-height: 1.7;
+    }
+    .tools-intro a { color: var(--color-accent); }
+    .tools-intro p { margin: 0 0 var(--space-3); }
+    .tools-intro p:last-child { margin: 0; }
+    .tool-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-4);
+    }
+    @media (max-width: 1024px) { .tool-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) { .tool-grid { grid-template-columns: 1fr; } }
+    .tool-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      padding: var(--space-5);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+      transition: all var(--transition-interactive);
+      box-shadow: var(--shadow-sm);
+    }
+    .tool-card:hover {
+      box-shadow: var(--shadow-md);
+      border-color: var(--color-accent);
+      transform: translateY(-2px);
+    }
+    .tool-card__header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: var(--space-2);
+    }
+    .tool-card__name {
+      font-size: var(--text-lg);
+      font-weight: 700;
+      color: var(--color-text);
+      margin: 0;
+    }
+    .tool-card__rating {
+      display: flex;
+      align-items: center;
+      gap: var(--space-1);
+      flex-shrink: 0;
+    }
+    .tool-card__stars {
+      color: var(--color-warning, #f59e0b);
+      font-size: var(--text-sm);
+      letter-spacing: -.05em;
+    }
+    .tool-card__score {
+      font-size: var(--text-sm);
+      font-weight: 600;
+      color: var(--color-text-muted);
+      white-space: nowrap;
+    }
+    .tool-card__category {
+      display: inline-block;
+      font-size: var(--text-xs);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--color-accent);
+      background: var(--color-accent-highlight);
+      padding: .2em .6em;
+      border-radius: var(--radius-full);
+    }
+    [data-theme="dark"] .tool-card__category { background: rgba(45,212,168,.12); }
+    .tool-card__desc {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      line-height: 1.5;
+      margin: 0;
+      flex: 1;
+    }
+    .tool-card__pricing {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+    }
+    .tool-card__price {
+      font-weight: 700;
+      color: var(--color-text);
+    }
+    .tool-card__highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-1);
+    }
+    .tool-card__highlight {
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
+      background: var(--color-surface-2);
+      padding: .2em .5em;
+      border-radius: var(--radius-sm);
+    }
+    .tool-card__badge {
+      display: inline-block;
+      font-size: var(--text-xs);
+      font-weight: 600;
+      padding: .2em .6em;
+      border-radius: var(--radius-full);
+    }
+    .tool-card__badge--reviewed {
+      background: rgba(45,212,168,.12);
+      color: var(--color-accent);
+    }
+    .tool-card__badge--listed {
+      background: var(--color-surface-2);
+      color: var(--color-text-muted);
+    }
+    .tool-card__listed-rating {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-1);
+    }
+    .tool-card__g2 {
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
+    }
+    .tool-card__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-top: auto;
+    }
+    .tool-card__actions .btn {
+      font-size: var(--text-xs);
+      padding: .4em .9em;
+    }
+  </style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <a href="../index.html">
-                    <span class="logo">Sales<span class="highlight">AI</span>Guide</span>
-                </a>
-            </div>
-            <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-menu').classList.toggle('active')">&#9776;</button>
-            <ul class="nav-menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../tools/index.html">Tools</a></li>
-                <li><a href="../compare/index.html">Compare</a></li>
-                <li><a href="../categories/index.html">Categories</a></li>
-                <li><a href="../about.html">About</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <div class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1><span class="highlight">39</span> AI Sales Tools Directory</h1>
-                <p class="hero-subtitle">Reviewed tools are tested hands-on and graded against our editorial methodology. Listed tools are sourced from G2 ratings and public documentation for discovery; full reviews will be added over time as we expand coverage across each sales workflow category. Use the filters below to narrow by workflow, or scroll to browse every tool we track.</p>
-            </div>
-        </div>
+<!-- ============ Navbar ============ -->
+<nav class="navbar" aria-label="Main navigation">
+  <div class="container navbar__inner">
+    <a href="/" class="navbar__logo">
+      <svg class="navbar__logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="32" height="32" rx="8" fill="var(--color-accent)"/>
+        <path d="M8 20 L12 12 L16 18 L20 10 L24 16" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <circle cx="24" cy="16" r="2" fill="#fff"/>
+      </svg>
+      SalesAIGuide
+    </a>
+    <div class="navbar__links">
+      <a href="/tools/" class="navbar__link navbar__link--active">Tools</a>
+      <a href="/compare/" class="navbar__link">Compare</a>
+      <a href="/categories/" class="navbar__link">Categories</a>
+      <a href="/about.html" class="navbar__link">About</a>
+    </div>
+    <div class="navbar__actions">
+      <div class="navbar__search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" placeholder="Search tools..." aria-label="Search tools">
+      </div>
+
+      <button class="theme-toggle" aria-label="Switch to dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+
+      <button class="navbar__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile nav drawer -->
+<div class="mobile-nav__overlay"></div>
+<nav class="mobile-nav" aria-label="Mobile navigation">
+  <a href="/tools/" class="mobile-nav__link">Tools</a>
+  <a href="/compare/" class="mobile-nav__link">Compare</a>
+  <a href="/categories/" class="mobile-nav__link">Categories</a>
+  <a href="/about.html" class="mobile-nav__link">About</a>
+</nav>
+
+<!-- ============ Hero ============ -->
+<section class="tools-hero">
+  <div class="container">
+    <div class="tools-hero__eyebrow">39 AI Sales Tools</div>
+    <h1 class="tools-hero__title">AI Sales Tools Directory</h1>
+    <p class="tools-hero__subtitle">Reviewed tools are tested hands-on and graded against our editorial methodology. Listed tools are sourced from G2 ratings for discovery. Browse by category or scroll the full directory.</p>
+  </div>
+</section>
+
+<!-- ============ Main ============ -->
+<main class="section">
+  <div class="container">
+
+    <div class="tools-intro">
+      <p>The directory spans ten categories covering the full sales workflow, from <a href="/compare/clay-vs-apollo.html">prospecting and enrichment</a> through <a href="/compare/outreach-vs-salesloft.html">engagement and scheduling</a> to <a href="/compare/gong-vs-chorus.html">conversation intelligence and analytics</a>. Each reviewed tool includes a hands-on verdict, pricing breakdown, and links to relevant head-to-head comparisons.</p>
+      <p>Reviewed tools carry an "Evidence Reviewed" badge and link to a full assessment covering features tested, pricing tiers, integration depth, and specific use-case recommendations. If you are building a <a href="/categories/cold-outreach.html">cold outreach</a> stack, we recommend starting with our <a href="/compare/instantly-vs-smartlead.html">Instantly vs Smartlead</a> comparison. For teams focused on <a href="/categories/conversation-intelligence.html">conversation intelligence</a>, the <a href="/compare/fireflies-vs-gong.html">Fireflies vs Gong</a> matchup is a natural entry point.</p>
     </div>
 
-    <section class="featured-tools" style="padding: 4rem 0;">
-        <div class="container">
-            <p>The directory spans ten categories covering the full sales workflow, from <a href="../compare/clay-vs-apollo.html">prospecting and enrichment</a> through <a href="../compare/outreach-vs-salesloft.html">engagement and scheduling</a> to <a href="../compare/gong-vs-chorus.html">conversation intelligence and analytics</a>. Each reviewed tool includes a hands-on verdict, pricing breakdown, and links to relevant head-to-head comparisons so you can evaluate alternatives without switching tabs.</p>
-            <p>Reviewed tools carry an "Evidence Reviewed" badge and link to a full assessment covering features tested, pricing tiers, integration depth, and specific use-case recommendations. Listed tools show G2 ratings and key highlights sourced from public documentation; these are included for discovery so you can see the broader landscape before narrowing your shortlist. If you are building a <a href="../categories/cold-outreach.html">cold outreach</a> stack, we recommend starting with our <a href="../compare/instantly-vs-smartlead.html">Instantly vs Smartlead</a> comparison and the individual reviews for <a href="instantly-review.html">Instantly</a> and <a href="smartlead-review.html">Smartlead</a>. For teams focused on <a href="../categories/conversation-intelligence.html">conversation intelligence</a>, the <a href="../compare/fireflies-vs-gong.html">Fireflies vs Gong</a> matchup is a natural entry point alongside our <a href="fireflies-review.html">Fireflies</a> and <a href="gong-review.html">Gong</a> reviews.</p>
-            <div class="tools-grid">
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Clay</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                            <span class="score">4.9/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Data Enrichment</div>
-                    <p class="tool-description">Data enrichment & outbound automation</p>
-                    <div class="tool-pricing">
-                        <span class="price">$149</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; 50+ data providers</span><span class="highlight-item">&#10003; AI-powered enrichment</span><span class="highlight-item">&#10003; No-code integrations</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/data-enrichment.html" class="btn btn-outline">Category</a>
-                        <a href="clay-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/clay" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Apollo.io</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                            <span class="score">4.8/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Lead Prospecting</div>
-                    <p class="tool-description">All-in-one sales intelligence & engagement</p>
-                    <div class="tool-pricing">
-                        <span class="price">$49</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; 275M+ contact database</span><span class="highlight-item">&#10003; Email sequences</span><span class="highlight-item">&#10003; Built-in dialer</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/lead-prospecting.html" class="btn btn-outline">Category</a>
-                        <a href="apollo-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/apollo" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Instantly.ai</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                            <span class="score">4.8/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Cold Outreach</div>
-                    <p class="tool-description">Cold email at scale with unlimited accounts</p>
-                    <div class="tool-pricing">
-                        <span class="price">$37</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Unlimited email accounts</span><span class="highlight-item">&#10003; Built-in warmup</span><span class="highlight-item">&#10003; Unibox inbox</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/cold-outreach.html" class="btn btn-outline">Category</a>
-                        <a href="instantly-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/instantly" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Woodpecker</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.3/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Cold Outreach</div>
-                    <p class="tool-description">B2B cold email with adaptive sending for reliable deliverability</p>
-                    <div class="tool-pricing">
-                        <span class="price">$29</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Adaptive sending</span><span class="highlight-item">&#10003; Bounce shield</span><span class="highlight-item">&#10003; Email warmup</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/cold-outreach.html" class="btn btn-outline">Category</a>
-                        <a href="woodpecker-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/woodpecker" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Fireflies.ai</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.2/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Conversation Intelligence</div>
-                    <p class="tool-description">AI meeting assistant with transcription, summaries, and search</p>
-                    <div class="tool-pricing">
-                        <span class="price">Free / $10</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; AI transcription</span><span class="highlight-item">&#10003; Meeting summaries</span><span class="highlight-item">&#10003; Smart search</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/conversation-intelligence.html" class="btn btn-outline">Category</a>
-                        <a href="fireflies-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/fireflies" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>JustCall</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.0/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Dialers & Calling</div>
-                    <p class="tool-description">Cloud phone system with power dialer and SMS for sales</p>
-                    <div class="tool-pricing">
-                        <span class="price">From $19</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Power dialer</span><span class="highlight-item">&#10003; SMS campaigns</span><span class="highlight-item">&#10003; Call recording</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/dialers-calling.html" class="btn btn-outline">Category</a>
-                        <a href="justcall-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/justcall" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Smartlead</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.5/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Cold Outreach</div>
-                    <p class="tool-description">Cold email infrastructure for agencies</p>
-                    <div class="tool-pricing">
-                        <span class="price">$39</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Unlimited mailboxes</span><span class="highlight-item">&#10003; Multi-client management</span><span class="highlight-item">&#10003; Auto rotation</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/cold-outreach.html" class="btn btn-outline">Category</a>
-                        <a href="smartlead-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/smartlead" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Mailshake</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.0/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Cold Outreach</div>
-                    <p class="tool-description">Simple cold outreach with built-in dialer</p>
-                    <div class="tool-pricing">
-                        <span class="price">$45</span>
-                        <span class="period">/month per user</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Email sequences + phone dialer</span><span class="highlight-item">&#10003; LinkedIn automation</span><span class="highlight-item">&#10003; Fastest setup</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/cold-outreach.html" class="btn btn-outline">Category</a>
-                        <a href="mailshake-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="https://www.mailshake.com" class="btn btn-primary" rel="nofollow noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Gong</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.7/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Conversation Intelligence</div>
-                    <p class="tool-description">Revenue intelligence platform</p>
-                    <div class="tool-pricing">
-                        <span class="price">Custom</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Call recording & transcription</span><span class="highlight-item">&#10003; Deal intelligence</span><span class="highlight-item">&#10003; Coaching insights</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/conversation-intelligence.html" class="btn btn-outline">Category</a>
-                        <a href="gong-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/gong" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Calendly</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.5/5 — SAG Score</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Meeting Schedulers</div>
-                    <p class="tool-description">Scheduling automation for sales</p>
-                    <div class="tool-pricing">
-                        <span class="price">$10</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Automated scheduling</span><span class="highlight-item">&#10003; Round-robin routing</span><span class="highlight-item">&#10003; CRM integration</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed">Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/meeting-schedulers.html" class="btn btn-outline">Category</a>
-                        <a href="../tools/calendly-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/calendly" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>SavvyCal</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.3/5 — SAG Score</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Meeting Schedulers</div>
-                    <p class="tool-description">Recipient-first scheduling with calendar overlay</p>
-                    <div class="tool-pricing">
-                        <span class="price">$12</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Calendar overlay</span><span class="highlight-item">&#10003; Priority slots</span><span class="highlight-item">&#10003; Personalized links</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/meeting-schedulers.html" class="btn btn-outline">Category</a>
-                        <a href="savvycal-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/savvycal" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Recapped.io</h3>
-                        <div class="rating listed-rating">
-                            <span class="listed-badge">Listed &mdash; not yet reviewed</span>
-                            <span class="g2-source">G2: 4.7/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Sales Engagement</div>
-                    <p class="tool-description">Mutual action plans for deal execution</p>
-                    <div class="tool-pricing">
-                        <span class="price">$49</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Mutual action plans</span><span class="highlight-item">&#10003; Shared workspaces</span><span class="highlight-item">&#10003; Task tracking</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-listed">Listed &mdash; Evidence Pending</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/sales-engagement.html" class="btn btn-outline">Category</a>
-                        <a href="/go/recapped" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Lavender</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.0/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Sales Content</div>
-                    <p class="tool-description">AI email coaching for sales</p>
-                    <div class="tool-pricing">
-                        <span class="price">$29</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Real-time email scoring</span><span class="highlight-item">&#10003; Personalization tips</span><span class="highlight-item">&#10003; Mobile preview</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/sales-content.html" class="btn btn-outline">Category</a>
-                        <a href="lavender-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/lavender" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Orum</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.3/5 — SAG Score</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Dialers & Calling</div>
-                    <p class="tool-description">AI-powered parallel dialer</p>
-                    <div class="tool-pricing">
-                        <span class="price">Custom</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Parallel dialing</span><span class="highlight-item">&#10003; AI voicemail detection</span><span class="highlight-item">&#10003; Live conversation routing</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../tools/orum-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/orum" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Chili Piper</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.4/5 — SAG Score</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Meeting Schedulers</div>
-                    <p class="tool-description">Intelligent meeting scheduling for revenue teams</p>
-                    <div class="tool-pricing">
-                        <span class="price">$15</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Instant booker</span><span class="highlight-item">&#10003; Form routing</span><span class="highlight-item">&#10003; Handoff</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed">Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/meeting-schedulers.html" class="btn btn-outline">Category</a>
-                        <a href="../tools/chili-piper-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/chili-piper" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Reply.io</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.3/5 — SAG Score</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Cold Outreach</div>
-                    <p class="tool-description">Multichannel sales engagement</p>
-                    <div class="tool-pricing">
-                        <span class="price">$59</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Email sequences</span><span class="highlight-item">&#10003; LinkedIn automation</span><span class="highlight-item">&#10003; Cloud calls</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../tools/reply-io-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/reply-io" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Chorus (ZoomInfo)</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.5/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Conversation Intelligence</div>
-                    <p class="tool-description">Conversation intelligence by ZoomInfo</p>
-                    <div class="tool-pricing">
-                        <span class="price">Custom</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Call recording</span><span class="highlight-item">&#10003; AI-driven insights</span><span class="highlight-item">&#10003; CRM integration</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/conversation-intelligence.html" class="btn btn-outline">Category</a>
-                        <a href="chorus-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/chorus" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Salesloft</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.5/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Sales Engagement</div>
-                    <p class="tool-description">Revenue workflow platform</p>
-                    <div class="tool-pricing">
-                        <span class="price">Custom</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Cadence automation</span><span class="highlight-item">&#10003; Conversation intelligence</span><span class="highlight-item">&#10003; Deal management</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/sales-engagement.html" class="btn btn-outline">Category</a>
-                        <a href="salesloft-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/salesloft" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Vidyard</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.3/5 — SAG Score</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Sales Content</div>
-                    <p class="tool-description">Video messaging for sales</p>
-                    <div class="tool-pricing">
-                        <span class="price">$29</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Screen recording</span><span class="highlight-item">&#10003; Video hosting</span><span class="highlight-item">&#10003; Email integration</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/sales-content.html" class="btn btn-outline">Category</a>
-                        <a href="vidyard-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/vidyard" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Clari</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.4/5 — SAG Score</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Sales Analytics</div>
-                    <p class="tool-description">Revenue operations & forecasting</p>
-                    <div class="tool-pricing">
-                        <span class="price">Custom</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Revenue forecasting</span><span class="highlight-item">&#10003; Pipeline inspection</span><span class="highlight-item">&#10003; Deal health scoring</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed">Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/sales-analytics.html" class="btn btn-outline">Category</a>
-                        <a href="../tools/clari-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/clari" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>ZoomInfo</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.6/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Lead Prospecting</div>
-                    <p class="tool-description">B2B contact & company intelligence</p>
-                    <div class="tool-pricing">
-                        <span class="price">$14,995/yr</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; 200M+ business profiles</span><span class="highlight-item">&#10003; Intent data</span><span class="highlight-item">&#10003; Website visitor tracking</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/lead-prospecting.html" class="btn btn-outline">Category</a>
-                        <a href="zoominfo-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/zoominfo" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Lemlist</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.2/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Cold Outreach</div>
-                    <p class="tool-description">Personalized cold outreach at scale</p>
-                    <div class="tool-pricing">
-                        <span class="price">$59</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Personalized images</span><span class="highlight-item">&#10003; Multi-channel sequences</span><span class="highlight-item">&#10003; Email warmup (Lemwarm)</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/cold-outreach.html" class="btn btn-outline">Category</a>
-                        <a href="lemlist-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/lemlist" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Clearbit (HubSpot)</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.4/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Data Enrichment</div>
-                    <p class="tool-description">Real-time data enrichment</p>
-                    <div class="tool-pricing">
-                        <span class="price">Custom</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Real-time enrichment</span><span class="highlight-item">&#10003; Form optimization</span><span class="highlight-item">&#10003; Reveal (IP to company)</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/data-enrichment.html" class="btn btn-outline">Category</a>
-                        <a href="clearbit-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/clearbit" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>HubSpot Sales Hub</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.4/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">CRM & Pipeline</div>
-                    <p class="tool-description">CRM with built-in sales tools</p>
-                    <div class="tool-pricing">
-                        <span class="price">$45</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Free CRM</span><span class="highlight-item">&#10003; Email tracking</span><span class="highlight-item">&#10003; Meeting scheduler</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/crm-pipeline.html" class="btn btn-outline">Category</a>
-                        <a href="hubspot-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/hubspot" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Dialpad</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.4/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Dialers & Calling</div>
-                    <p class="tool-description">AI-powered business communications</p>
-                    <div class="tool-pricing">
-                        <span class="price">$27</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; AI transcription</span><span class="highlight-item">&#10003; Real-time coaching</span><span class="highlight-item">&#10003; Call routing</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/dialers-calling.html" class="btn btn-outline">Category</a>
-                        <a href="dialpad-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/dialpad" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>People.ai</h3>
-                        <div class="rating listed-rating">
-                            <span class="listed-badge">Listed &mdash; not yet reviewed</span>
-                            <span class="g2-source">G2: 4.4/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Sales Analytics</div>
-                    <p class="tool-description">Revenue intelligence platform</p>
-                    <div class="tool-pricing">
-                        <span class="price">Custom</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Activity capture</span><span class="highlight-item">&#10003; Buyer engagement</span><span class="highlight-item">&#10003; Pipeline generation</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-listed">Listed &mdash; Evidence Pending</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/sales-analytics.html" class="btn btn-outline">Category</a>
-                        <a href="/go/people-ai" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Drift (Salesloft)</h3>
-                        <div class="rating listed-rating">
-                            <span class="listed-badge">Listed &mdash; not yet reviewed</span>
-                            <span class="g2-source">G2: 4.4/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Sales Engagement</div>
-                    <p class="tool-description">Conversational sales & marketing</p>
-                    <div class="tool-pricing">
-                        <span class="price">Custom</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; AI chatbots</span><span class="highlight-item">&#10003; Live chat</span><span class="highlight-item">&#10003; Meeting booking</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-listed">Listed &mdash; Evidence Pending</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/sales-engagement.html" class="btn btn-outline">Category</a>
-                        <a href="/go/drift" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Outreach</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.3/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Sales Engagement</div>
-                    <p class="tool-description">Enterprise sales engagement platform</p>
-                    <div class="tool-pricing">
-                        <span class="price">Custom</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Multi-channel sequences</span><span class="highlight-item">&#10003; AI-powered insights</span><span class="highlight-item">&#10003; Meeting scheduling</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/sales-engagement.html" class="btn btn-outline">Category</a>
-                        <a href="outreach-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/outreach" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Lusha</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.3/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Lead Prospecting</div>
-                    <p class="tool-description">B2B contact data platform</p>
-                    <div class="tool-pricing">
-                        <span class="price">$29</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Direct dials</span><span class="highlight-item">&#10003; Email finder</span><span class="highlight-item">&#10003; Chrome extension</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/lead-prospecting.html" class="btn btn-outline">Category</a>
-                        <a href="lusha-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/lusha" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Hunter.io</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.4/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Lead Prospecting</div>
-                    <p class="tool-description">Email finder and domain search engine</p>
-                    <div class="tool-pricing">
-                        <span class="price">$34</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Domain search</span><span class="highlight-item">&#10003; Email verification</span><span class="highlight-item">&#10003; Campaigns</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/lead-prospecting.html" class="btn btn-outline">Category</a>
-                        <a href="hunter-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/hunter" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Aircall</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.3/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Dialers & Calling</div>
-                    <p class="tool-description">Cloud phone system for sales teams</p>
-                    <div class="tool-pricing">
-                        <span class="price">$30</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Power dialer</span><span class="highlight-item">&#10003; Call recording</span><span class="highlight-item">&#10003; CRM integration</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/dialers-calling.html" class="btn btn-outline">Category</a>
-                        <a href="aircall-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/aircall" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Kixie</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.2/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Dialers & Calling</div>
-                    <p class="tool-description">Power dialer with local presence</p>
-                    <div class="tool-pricing">
-                        <span class="price">$35</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Power dialer</span><span class="highlight-item">&#10003; Local presence</span><span class="highlight-item">&#10003; CRM sync</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/dialers-calling.html" class="btn btn-outline">Category</a>
-                        <a href="kixie-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/kixie" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>6sense</h3>
-                        <div class="rating listed-rating">
-                            <span class="listed-badge">Listed &mdash; not yet reviewed</span>
-                            <span class="g2-source">G2: 4.3/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Sales Analytics</div>
-                    <p class="tool-description">ABM & intent data platform</p>
-                    <div class="tool-pricing">
-                        <span class="price">Custom</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Intent data</span><span class="highlight-item">&#10003; Account identification</span><span class="highlight-item">&#10003; Predictive analytics</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-listed">Listed &mdash; Evidence Pending</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/sales-analytics.html" class="btn btn-outline">Category</a>
-                        <a href="/go/6sense" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Seismic</h3>
-                        <div class="rating listed-rating">
-                            <span class="listed-badge">Listed &mdash; not yet reviewed</span>
-                            <span class="g2-source">G2: 4.3/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Sales Content</div>
-                    <p class="tool-description">Sales enablement & content management</p>
-                    <div class="tool-pricing">
-                        <span class="price">Custom</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Content management</span><span class="highlight-item">&#10003; Sales playbooks</span><span class="highlight-item">&#10003; LiveDocs</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-listed">Listed &mdash; Evidence Pending</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/sales-content.html" class="btn btn-outline">Category</a>
-                        <a href="/go/seismic" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Salesforce Sales Cloud</h3>
-                        <div class="rating listed-rating">
-                            <span class="listed-badge">Listed &mdash; not yet reviewed</span>
-                            <span class="g2-source">G2: 4.3/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">CRM & Pipeline</div>
-                    <p class="tool-description">The enterprise CRM standard</p>
-                    <div class="tool-pricing">
-                        <span class="price">$25</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Opportunity management</span><span class="highlight-item">&#10003; Einstein AI</span><span class="highlight-item">&#10003; Reports & dashboards</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-listed">Listed &mdash; Evidence Pending</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/crm-pipeline.html" class="btn btn-outline">Category</a>
-                        <a href="/go/salesforce" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Pipedrive</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.2/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">CRM & Pipeline</div>
-                    <p class="tool-description">Sales CRM designed by salespeople</p>
-                    <div class="tool-pricing">
-                        <span class="price">$14</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Visual pipeline</span><span class="highlight-item">&#10003; Activity tracking</span><span class="highlight-item">&#10003; Email integration</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/crm-pipeline.html" class="btn btn-outline">Category</a>
-                        <a href="pipedrive-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/pipedrive" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Close</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.2/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">CRM & Pipeline</div>
-                    <p class="tool-description">Outbound-first CRM with built-in calling</p>
-                    <div class="tool-pricing">
-                        <span class="price">$29</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Built-in calling</span><span class="highlight-item">&#10003; Email sequences</span><span class="highlight-item">&#10003; Pipeline automation</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/crm-pipeline.html" class="btn btn-outline">Category</a>
-                        <a href="close-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/close" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Freshsales</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.1/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">CRM & Pipeline</div>
-                    <p class="tool-description">AI-native CRM with Freddy lead scoring</p>
-                    <div class="tool-pricing">
-                        <span class="price">$9</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Freddy AI scoring</span><span class="highlight-item">&#10003; Built-in phone</span><span class="highlight-item">&#10003; Workflow automation</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../categories/crm-pipeline.html" class="btn btn-outline">Category</a>
-                        <a href="freshsales-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/freshsales" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Seamless.AI</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.1/5 — SAG Score</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Lead Prospecting</div>
-                    <p class="tool-description">Real-time lead search engine</p>
-                    <div class="tool-pricing">
-                        <span class="price">$147</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Real-time search</span><span class="highlight-item">&#10003; Chrome extension</span><span class="highlight-item">&#10003; Contact verification</span>
-                    </div>
-                    <div class="tool-coverage"><span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span></div>
-                    <div class="tool-actions">
-                        <a href="../tools/seamless-ai-review.html" class="btn btn-outline">Read Review</a>
-                        <a href="/go/seamless-ai" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="tool-grid">
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-col">
-                    <h4>Sales<span class="highlight">AI</span>Guide</h4>
-                    <p>Honest reviews of AI tools for sales professionals who need results, not hype.</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Categories</h4>
-                    <ul>
-                        <li><a href="../categories/cold-outreach.html">Cold Outreach</a></li>
-                        <li><a href="../categories/lead-prospecting.html">Lead Prospecting</a></li>
-                        <li><a href="../categories/conversation-intelligence.html">Conversation Intelligence</a></li>
-                        <li><a href="../categories/sales-engagement.html">Sales Engagement</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="../compare/index.html">Comparisons</a></li>
-                        <li><a href="../about.html">About</a></li>
-                        <li><a href="../disclosure.html">Disclosure</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Top Tools</h4>
-                    <ul>
-                        <li><a href="../tools/index.html">All Tools</a></li>
-                        <li><a href="../compare/clay-vs-apollo.html">Clay vs Apollo</a></li>
-                        <li><a href="../compare/instantly-vs-smartlead.html">Instantly vs Smartlead</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Sales AI Guide. All rights reserved.</p>
-                <p class="disclosure">This site contains affiliate links. We may earn commission when you purchase through our links at no additional cost to you. <a href="../disclosure.html">Learn more</a></p>
-            </div>
+      <!-- Clay -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Clay</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <span class="tool-card__score">4.9/5</span>
+          </div>
         </div>
-    </footer>
+        <span class="tool-card__category">Data Enrichment</span>
+        <p class="tool-card__desc">Data enrichment &amp; outbound automation</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$149</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">50+ data providers</span>
+          <span class="tool-card__highlight">AI-powered enrichment</span>
+          <span class="tool-card__highlight">No-code integrations</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/data-enrichment.html" class="btn btn-outline">Category</a>
+          <a href="clay-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/clay" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
 
-    <script src="../js/main.js"></script>
+      <!-- Apollo.io -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Apollo.io</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <span class="tool-card__score">4.8/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Lead Prospecting</span>
+        <p class="tool-card__desc">All-in-one sales intelligence &amp; engagement</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$49</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">275M+ contact database</span>
+          <span class="tool-card__highlight">Email sequences</span>
+          <span class="tool-card__highlight">Built-in dialer</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/lead-prospecting.html" class="btn btn-outline">Category</a>
+          <a href="apollo-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/apollo" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Instantly.ai -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Instantly.ai</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <span class="tool-card__score">4.8/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Cold Outreach</span>
+        <p class="tool-card__desc">Cold email at scale with unlimited accounts</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$37</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Unlimited email accounts</span>
+          <span class="tool-card__highlight">Built-in warmup</span>
+          <span class="tool-card__highlight">Unibox inbox</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/cold-outreach.html" class="btn btn-outline">Category</a>
+          <a href="instantly-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/instantly" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Woodpecker -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Woodpecker</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.3/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Cold Outreach</span>
+        <p class="tool-card__desc">B2B cold email with adaptive sending for reliable deliverability</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$29</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Adaptive sending</span>
+          <span class="tool-card__highlight">Bounce shield</span>
+          <span class="tool-card__highlight">Email warmup</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/cold-outreach.html" class="btn btn-outline">Category</a>
+          <a href="woodpecker-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/woodpecker" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Fireflies.ai -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Fireflies.ai</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.2/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Conversation Intelligence</span>
+        <p class="tool-card__desc">AI meeting assistant with transcription, summaries, and search</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">Free / $10</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">AI transcription</span>
+          <span class="tool-card__highlight">Meeting summaries</span>
+          <span class="tool-card__highlight">Smart search</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/conversation-intelligence.html" class="btn btn-outline">Category</a>
+          <a href="fireflies-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/fireflies" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- JustCall -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">JustCall</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.0/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Dialers &amp; Calling</span>
+        <p class="tool-card__desc">Cloud phone system with power dialer and SMS for sales</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">From $19</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Power dialer</span>
+          <span class="tool-card__highlight">SMS campaigns</span>
+          <span class="tool-card__highlight">Call recording</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/dialers-calling.html" class="btn btn-outline">Category</a>
+          <a href="justcall-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/justcall" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Smartlead -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Smartlead</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.5/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Cold Outreach</span>
+        <p class="tool-card__desc">Cold email infrastructure for agencies</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$39</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Unlimited mailboxes</span>
+          <span class="tool-card__highlight">Multi-client management</span>
+          <span class="tool-card__highlight">Auto rotation</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/cold-outreach.html" class="btn btn-outline">Category</a>
+          <a href="smartlead-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/smartlead" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Mailshake -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Mailshake</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.0/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Cold Outreach</span>
+        <p class="tool-card__desc">Simple cold outreach with built-in dialer</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$45</span> /month per user</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Email sequences + phone dialer</span>
+          <span class="tool-card__highlight">LinkedIn automation</span>
+          <span class="tool-card__highlight">Fastest setup</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/cold-outreach.html" class="btn btn-outline">Category</a>
+          <a href="mailshake-review.html" class="btn btn-outline">Read Review</a>
+          <a href="https://mailshake.com" class="btn btn-primary" rel="nofollow noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Gong -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Gong</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.7/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Conversation Intelligence</span>
+        <p class="tool-card__desc">Revenue intelligence platform</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">Custom</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Call recording &amp; transcription</span>
+          <span class="tool-card__highlight">Deal intelligence</span>
+          <span class="tool-card__highlight">Coaching insights</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/conversation-intelligence.html" class="btn btn-outline">Category</a>
+          <a href="gong-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/gong" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Calendly -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Calendly</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.5/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Meeting Schedulers</span>
+        <p class="tool-card__desc">Scheduling automation for sales</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$10</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Automated scheduling</span>
+          <span class="tool-card__highlight">Round-robin routing</span>
+          <span class="tool-card__highlight">CRM integration</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/meeting-schedulers.html" class="btn btn-outline">Category</a>
+          <a href="calendly-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/calendly" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- SavvyCal -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">SavvyCal</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.3/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Meeting Schedulers</span>
+        <p class="tool-card__desc">Recipient-first scheduling with calendar overlay</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$12</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Calendar overlay</span>
+          <span class="tool-card__highlight">Priority slots</span>
+          <span class="tool-card__highlight">Personalized links</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/meeting-schedulers.html" class="btn btn-outline">Category</a>
+          <a href="savvycal-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/savvycal" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Recapped.io -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Recapped.io</h3>
+          <div class="tool-card__listed-rating">
+            <span class="tool-card__badge tool-card__badge--listed">Listed &mdash; not yet reviewed</span>
+            <span class="tool-card__g2">G2: 4.7/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Sales Engagement</span>
+        <p class="tool-card__desc">Mutual action plans for deal execution</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$49</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Mutual action plans</span>
+          <span class="tool-card__highlight">Shared workspaces</span>
+          <span class="tool-card__highlight">Task tracking</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--listed">Listed &mdash; Evidence Pending</span>
+        <div class="tool-card__actions">
+          <a href="/categories/sales-engagement.html" class="btn btn-outline">Category</a>
+          <a href="/go/recapped" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Lavender -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Lavender</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.0/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Sales Content</span>
+        <p class="tool-card__desc">AI email coaching for sales</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$29</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Real-time email scoring</span>
+          <span class="tool-card__highlight">Personalization tips</span>
+          <span class="tool-card__highlight">Mobile preview</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/sales-content.html" class="btn btn-outline">Category</a>
+          <a href="lavender-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/lavender" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Orum -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Orum</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.3/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Dialers &amp; Calling</span>
+        <p class="tool-card__desc">AI-powered parallel dialer</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">Custom</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Parallel dialing</span>
+          <span class="tool-card__highlight">AI voicemail detection</span>
+          <span class="tool-card__highlight">Live conversation routing</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="orum-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/orum" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Chili Piper -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Chili Piper</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.4/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Meeting Schedulers</span>
+        <p class="tool-card__desc">Intelligent meeting scheduling for revenue teams</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$15</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Instant booker</span>
+          <span class="tool-card__highlight">Form routing</span>
+          <span class="tool-card__highlight">Handoff</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/meeting-schedulers.html" class="btn btn-outline">Category</a>
+          <a href="chili-piper-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/chili-piper" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Reply.io -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Reply.io</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.3/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Cold Outreach</span>
+        <p class="tool-card__desc">Multichannel sales engagement</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$59</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Email sequences</span>
+          <span class="tool-card__highlight">LinkedIn automation</span>
+          <span class="tool-card__highlight">Cloud calls</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="reply-io-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/reply-io" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Chorus (ZoomInfo) -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Chorus (ZoomInfo)</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.5/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Conversation Intelligence</span>
+        <p class="tool-card__desc">Conversation intelligence by ZoomInfo</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">Custom</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Call recording</span>
+          <span class="tool-card__highlight">AI-driven insights</span>
+          <span class="tool-card__highlight">CRM integration</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/conversation-intelligence.html" class="btn btn-outline">Category</a>
+          <a href="chorus-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/chorus" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Salesloft -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Salesloft</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.5/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Sales Engagement</span>
+        <p class="tool-card__desc">Revenue workflow platform</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">Custom</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Cadence automation</span>
+          <span class="tool-card__highlight">Conversation intelligence</span>
+          <span class="tool-card__highlight">Deal management</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/sales-engagement.html" class="btn btn-outline">Category</a>
+          <a href="salesloft-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/salesloft" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Vidyard -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Vidyard</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.3/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Sales Content</span>
+        <p class="tool-card__desc">Video messaging for sales</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$29</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Screen recording</span>
+          <span class="tool-card__highlight">Video hosting</span>
+          <span class="tool-card__highlight">Email integration</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/sales-content.html" class="btn btn-outline">Category</a>
+          <a href="vidyard-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/vidyard" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Clari -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Clari</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.4/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Sales Analytics</span>
+        <p class="tool-card__desc">Revenue operations &amp; forecasting</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">Custom</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Revenue forecasting</span>
+          <span class="tool-card__highlight">Pipeline inspection</span>
+          <span class="tool-card__highlight">Deal health scoring</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/sales-analytics.html" class="btn btn-outline">Category</a>
+          <a href="clari-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/clari" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- ZoomInfo -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">ZoomInfo</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.6/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Lead Prospecting</span>
+        <p class="tool-card__desc">B2B contact &amp; company intelligence</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$14,995/yr</span></div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">200M+ business profiles</span>
+          <span class="tool-card__highlight">Intent data</span>
+          <span class="tool-card__highlight">Website visitor tracking</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/lead-prospecting.html" class="btn btn-outline">Category</a>
+          <a href="zoominfo-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/zoominfo" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Lemlist -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Lemlist</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.2/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Cold Outreach</span>
+        <p class="tool-card__desc">Personalized cold outreach at scale</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$59</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Personalized images</span>
+          <span class="tool-card__highlight">Multi-channel sequences</span>
+          <span class="tool-card__highlight">Email warmup (Lemwarm)</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/cold-outreach.html" class="btn btn-outline">Category</a>
+          <a href="lemlist-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/lemlist" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Clearbit (HubSpot) -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Clearbit (HubSpot)</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.4/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Data Enrichment</span>
+        <p class="tool-card__desc">Real-time data enrichment</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">Custom</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Real-time enrichment</span>
+          <span class="tool-card__highlight">Form optimization</span>
+          <span class="tool-card__highlight">Reveal (IP to company)</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/data-enrichment.html" class="btn btn-outline">Category</a>
+          <a href="clearbit-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/clearbit" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- HubSpot Sales Hub -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">HubSpot Sales Hub</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.4/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">CRM &amp; Pipeline</span>
+        <p class="tool-card__desc">CRM with built-in sales tools</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$45</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Free CRM</span>
+          <span class="tool-card__highlight">Email tracking</span>
+          <span class="tool-card__highlight">Meeting scheduler</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/crm-pipeline.html" class="btn btn-outline">Category</a>
+          <a href="hubspot-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/hubspot" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Dialpad -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Dialpad</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.4/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Dialers &amp; Calling</span>
+        <p class="tool-card__desc">AI-powered business communications</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$27</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">AI transcription</span>
+          <span class="tool-card__highlight">Real-time coaching</span>
+          <span class="tool-card__highlight">Call routing</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/dialers-calling.html" class="btn btn-outline">Category</a>
+          <a href="dialpad-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/dialpad" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- People.ai -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">People.ai</h3>
+          <div class="tool-card__listed-rating">
+            <span class="tool-card__badge tool-card__badge--listed">Listed &mdash; not yet reviewed</span>
+            <span class="tool-card__g2">G2: 4.4/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Sales Analytics</span>
+        <p class="tool-card__desc">Revenue intelligence platform</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">Custom</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Activity capture</span>
+          <span class="tool-card__highlight">Buyer engagement</span>
+          <span class="tool-card__highlight">Pipeline generation</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--listed">Listed &mdash; Evidence Pending</span>
+        <div class="tool-card__actions">
+          <a href="/categories/sales-analytics.html" class="btn btn-outline">Category</a>
+          <a href="/go/people-ai" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Drift (Salesloft) -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Drift (Salesloft)</h3>
+          <div class="tool-card__listed-rating">
+            <span class="tool-card__badge tool-card__badge--listed">Listed &mdash; not yet reviewed</span>
+            <span class="tool-card__g2">G2: 4.4/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Sales Engagement</span>
+        <p class="tool-card__desc">Conversational sales &amp; marketing</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">Custom</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">AI chatbots</span>
+          <span class="tool-card__highlight">Live chat</span>
+          <span class="tool-card__highlight">Meeting booking</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--listed">Listed &mdash; Evidence Pending</span>
+        <div class="tool-card__actions">
+          <a href="/categories/sales-engagement.html" class="btn btn-outline">Category</a>
+          <a href="/go/drift" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Outreach -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Outreach</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.3/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Sales Engagement</span>
+        <p class="tool-card__desc">Enterprise sales engagement platform</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">Custom</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Multi-channel sequences</span>
+          <span class="tool-card__highlight">AI-powered insights</span>
+          <span class="tool-card__highlight">Meeting scheduling</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/sales-engagement.html" class="btn btn-outline">Category</a>
+          <a href="outreach-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/outreach" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Lusha -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Lusha</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.3/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Lead Prospecting</span>
+        <p class="tool-card__desc">B2B contact data platform</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$29</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Direct dials</span>
+          <span class="tool-card__highlight">Email finder</span>
+          <span class="tool-card__highlight">Chrome extension</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/lead-prospecting.html" class="btn btn-outline">Category</a>
+          <a href="lusha-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/lusha" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Hunter.io -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Hunter.io</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.4/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Lead Prospecting</span>
+        <p class="tool-card__desc">Email finder and domain search engine</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$34</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Domain search</span>
+          <span class="tool-card__highlight">Email verification</span>
+          <span class="tool-card__highlight">Campaigns</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/lead-prospecting.html" class="btn btn-outline">Category</a>
+          <a href="hunter-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/hunter" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Aircall -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Aircall</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.3/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Dialers &amp; Calling</span>
+        <p class="tool-card__desc">Cloud phone system for sales teams</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$30</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Power dialer</span>
+          <span class="tool-card__highlight">Call recording</span>
+          <span class="tool-card__highlight">CRM integration</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/dialers-calling.html" class="btn btn-outline">Category</a>
+          <a href="aircall-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/aircall" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Kixie -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Kixie</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.2/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Dialers &amp; Calling</span>
+        <p class="tool-card__desc">Power dialer with local presence</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$35</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Power dialer</span>
+          <span class="tool-card__highlight">Local presence</span>
+          <span class="tool-card__highlight">CRM sync</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/dialers-calling.html" class="btn btn-outline">Category</a>
+          <a href="kixie-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/kixie" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- 6sense -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">6sense</h3>
+          <div class="tool-card__listed-rating">
+            <span class="tool-card__badge tool-card__badge--listed">Listed &mdash; not yet reviewed</span>
+            <span class="tool-card__g2">G2: 4.3/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Sales Analytics</span>
+        <p class="tool-card__desc">ABM &amp; intent data platform</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">Custom</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Intent data</span>
+          <span class="tool-card__highlight">Account identification</span>
+          <span class="tool-card__highlight">Predictive analytics</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--listed">Listed &mdash; Evidence Pending</span>
+        <div class="tool-card__actions">
+          <a href="/categories/sales-analytics.html" class="btn btn-outline">Category</a>
+          <a href="/go/6sense" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Seismic -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Seismic</h3>
+          <div class="tool-card__listed-rating">
+            <span class="tool-card__badge tool-card__badge--listed">Listed &mdash; not yet reviewed</span>
+            <span class="tool-card__g2">G2: 4.3/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Sales Content</span>
+        <p class="tool-card__desc">Sales enablement &amp; content management</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">Custom</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Content management</span>
+          <span class="tool-card__highlight">Sales playbooks</span>
+          <span class="tool-card__highlight">LiveDocs</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--listed">Listed &mdash; Evidence Pending</span>
+        <div class="tool-card__actions">
+          <a href="/categories/sales-content.html" class="btn btn-outline">Category</a>
+          <a href="/go/seismic" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Salesforce Sales Cloud -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Salesforce Sales Cloud</h3>
+          <div class="tool-card__listed-rating">
+            <span class="tool-card__badge tool-card__badge--listed">Listed &mdash; not yet reviewed</span>
+            <span class="tool-card__g2">G2: 4.3/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">CRM &amp; Pipeline</span>
+        <p class="tool-card__desc">The enterprise CRM standard</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$25</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Opportunity management</span>
+          <span class="tool-card__highlight">Einstein AI</span>
+          <span class="tool-card__highlight">Reports &amp; dashboards</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--listed">Listed &mdash; Evidence Pending</span>
+        <div class="tool-card__actions">
+          <a href="/categories/crm-pipeline.html" class="btn btn-outline">Category</a>
+          <a href="/go/salesforce" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Pipedrive -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Pipedrive</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.2/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">CRM &amp; Pipeline</span>
+        <p class="tool-card__desc">Sales CRM designed by salespeople</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$14</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Visual pipeline</span>
+          <span class="tool-card__highlight">Activity tracking</span>
+          <span class="tool-card__highlight">Email integration</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/crm-pipeline.html" class="btn btn-outline">Category</a>
+          <a href="pipedrive-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/pipedrive" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Close -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Close</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.2/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">CRM &amp; Pipeline</span>
+        <p class="tool-card__desc">Outbound-first CRM with built-in calling</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$29</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Built-in calling</span>
+          <span class="tool-card__highlight">Email sequences</span>
+          <span class="tool-card__highlight">Pipeline automation</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/crm-pipeline.html" class="btn btn-outline">Category</a>
+          <a href="close-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/close" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Freshsales -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Freshsales</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.1/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">CRM &amp; Pipeline</span>
+        <p class="tool-card__desc">AI-native CRM with Freddy lead scoring</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$9</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Freddy AI scoring</span>
+          <span class="tool-card__highlight">Built-in phone</span>
+          <span class="tool-card__highlight">Workflow automation</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="/categories/crm-pipeline.html" class="btn btn-outline">Category</a>
+          <a href="freshsales-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/freshsales" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+      <!-- Seamless.AI -->
+      <div class="tool-card">
+        <div class="tool-card__header">
+          <h3 class="tool-card__name">Seamless.AI</h3>
+          <div class="tool-card__rating">
+            <span class="tool-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="tool-card__score">4.1/5</span>
+          </div>
+        </div>
+        <span class="tool-card__category">Lead Prospecting</span>
+        <p class="tool-card__desc">Real-time lead search engine</p>
+        <div class="tool-card__pricing"><span class="tool-card__price">$147</span> /month</div>
+        <div class="tool-card__highlights">
+          <span class="tool-card__highlight">Real-time search</span>
+          <span class="tool-card__highlight">Chrome extension</span>
+          <span class="tool-card__highlight">Contact verification</span>
+        </div>
+        <span class="tool-card__badge tool-card__badge--reviewed">&#10003; Evidence Reviewed</span>
+        <div class="tool-card__actions">
+          <a href="seamless-ai-review.html" class="btn btn-outline">Read Review</a>
+          <a href="/go/seamless-ai" class="btn btn-primary" rel="nofollow sponsored noopener noreferrer" target="_blank">Try Free</a>
+        </div>
+      </div>
+
+    </div><!-- /.tool-grid -->
+  </div>
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">SalesAIGuide</div>
+        <p class="footer__brand-tagline">Honest reviews of AI tools for sales professionals who need results, not hype.</p>
+      </div>
+      <div>
+        <h4 class="footer__heading">Top Tools</h4>
+        <div class="footer__links">
+          <a href="/tools/instantly-review.html" class="footer__link">Instantly.ai</a>
+          <a href="/tools/clay-review.html" class="footer__link">Clay</a>
+          <a href="/tools/apollo-review.html" class="footer__link">Apollo.io</a>
+          <a href="/tools/gong-review.html" class="footer__link">Gong</a>
+          <a href="/tools/hubspot-review.html" class="footer__link">HubSpot</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Categories</h4>
+        <div class="footer__links">
+          <a href="/categories/cold-outreach.html" class="footer__link">Cold Outreach</a>
+          <a href="/categories/lead-prospecting.html" class="footer__link">Lead Prospecting</a>
+          <a href="/categories/data-enrichment.html" class="footer__link">Data Enrichment</a>
+          <a href="/categories/conversation-intelligence.html" class="footer__link">Conversation Intel</a>
+          <a href="/categories/sales-engagement.html" class="footer__link">Sales Engagement</a>
+          <a href="/categories/crm-pipeline.html" class="footer__link">CRM &amp; Pipeline</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Site</h4>
+        <div class="footer__links">
+          <a href="/about.html" class="footer__link">About</a>
+          <a href="/compare/" class="footer__link">Comparisons</a>
+          <a href="/disclosure.html" class="footer__link">Disclosure</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__disclosure">This site contains affiliate links. We may earn a commission when you purchase through our links at no additional cost to you. Our ratings and rankings are never influenced by affiliate partnerships. <a href="/disclosure.html">Full disclosure</a></p>
+      <p class="footer__copyright">&copy; 2026 SalesAIGuide. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="../js/theme.js" defer></script>
+<script src="../js/nav.js" defer></script>
+
 </body>
 </html>

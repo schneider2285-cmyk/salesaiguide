@@ -1,483 +1,748 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instantly.ai Review 2026: Best Cold Email Platform? [Real Testing]</title>
-    <meta name="description" content="Detailed Instantly.ai review after 6 months of real use. Pricing, features, deliverability testing, and honest pros/cons from a sales exec.">
-    <link rel="canonical" href="https://salesaiguide.com/tools/instantly-review.html">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/review.css">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Review",
-      "itemReviewed": {
-        "@type": "SoftwareApplication",
-        "name": "Instantly.ai",
-        "applicationCategory": "Sales Software",
-        "operatingSystem": "Web"
-      },
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "4.8",
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Organization",
-        "name": "Sales AI Guide"
-      },
-      "reviewBody": "After 6 months using Instantly.ai for cold outreach, it's become my go-to email platform for unlimited sending capacity and deliverability."
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instantly.ai Review 2026: Best Cold Email Platform? | SalesAIGuide</title>
+  <meta name="description" content="Detailed Instantly.ai review after 6 months of real use. Pricing, features, deliverability testing, and honest pros/cons from a sales exec.">
+  <link rel="canonical" href="https://salesaiguide.com/tools/instantly-review.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Instantly.ai Review 2026: Best Cold Email Platform? | SalesAIGuide">
+  <meta property="og:description" content="Detailed Instantly.ai review after 6 months of real use. Pricing, features, deliverability testing, and honest pros/cons from a sales exec.">
+  <meta property="og:url" content="https://salesaiguide.com/tools/instantly-review.html">
+  <meta property="og:site_name" content="SalesAIGuide">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Instantly.ai Review 2026: Best Cold Email Platform? | SalesAIGuide">
+  <meta name="twitter:description" content="Detailed Instantly.ai review after 6 months of real use. Pricing, features, deliverability testing, and honest pros/cons from a sales exec.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <script>(function(){var t=localStorage.getItem('salesaiguide-theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);})();</script>
+  <style>
+    /* Review page 3-column layout */
+    .review-layout {
+      display: grid;
+      grid-template-columns: 220px 1fr 260px;
+      gap: var(--space-8);
+      align-items: start;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: var(--space-8) var(--space-6);
     }
-    </script>
+    @media (max-width: 1024px) {
+      .review-layout { grid-template-columns: 1fr 260px; }
+      .review-toc { display: none; }
+    }
+    @media (max-width: 768px) {
+      .review-layout { grid-template-columns: 1fr; padding: var(--space-4); }
+      .review-specs { display: none; }
+    }
+
+    /* TOC sidebar */
+    .review-toc {
+      position: sticky;
+      top: calc(var(--navbar-height, 64px) + var(--space-4));
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+    }
+    .review-toc h4 {
+      font-size: var(--text-xs);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-text-muted);
+      margin-bottom: var(--space-3);
+    }
+    .review-toc a {
+      display: block;
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      padding: var(--space-1) 0;
+      text-decoration: none;
+      border-left: 2px solid transparent;
+      padding-left: var(--space-3);
+      transition: color var(--transition-interactive), border-color var(--transition-interactive);
+    }
+    .review-toc a:hover { color: var(--color-accent); border-color: var(--color-accent); }
+
+    /* Main content */
+    .review-main { min-width: 0; }
+    .review-hero {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      padding: var(--space-8);
+      margin-bottom: var(--space-8);
+    }
+    .review-hero__eyebrow {
+      font-size: var(--text-xs);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-accent);
+      margin-bottom: var(--space-3);
+    }
+    .review-hero__title {
+      font-size: var(--text-xl);
+      font-weight: 800;
+      color: var(--color-text);
+      margin-bottom: var(--space-4);
+    }
+    .review-hero__meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--space-4);
+      margin-bottom: var(--space-5);
+    }
+    .review-hero__stars {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+    }
+    .star-icon { width: 18px; height: 18px; color: var(--color-star); fill: currentColor; }
+    .review-hero__score {
+      font-size: var(--text-lg);
+      font-weight: 700;
+      color: var(--color-text);
+    }
+    .verdict-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: var(--space-1) var(--space-3);
+      border-radius: var(--radius-full);
+      font-size: var(--text-xs);
+      font-weight: 600;
+    }
+    .verdict-badge--recommended { background: var(--color-success-bg); color: var(--color-success-text); }
+    .verdict-badge--good { background: var(--color-warning-bg); color: var(--color-warning-text); }
+    .review-hero__price {
+      font-size: var(--text-xl);
+      font-weight: 700;
+      color: var(--color-text);
+    }
+    .review-hero__price span { font-size: var(--text-sm); font-weight: 400; color: var(--color-text-muted); }
+    .review-hero__cta { display: flex; gap: var(--space-3); flex-wrap: wrap; margin-top: var(--space-5); }
+    .btn-review-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      background: var(--color-accent);
+      color: #fff;
+      font-weight: 600;
+      font-size: var(--text-sm);
+      padding: var(--space-3) var(--space-6);
+      border-radius: var(--radius-full);
+      text-decoration: none;
+      transition: background var(--transition-interactive);
+    }
+    .btn-review-primary:hover { background: var(--color-accent-hover); }
+    .btn-review-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      background: transparent;
+      color: var(--color-accent);
+      font-weight: 600;
+      font-size: var(--text-sm);
+      padding: var(--space-3) var(--space-6);
+      border-radius: var(--radius-full);
+      border: 1.5px solid var(--color-accent);
+      text-decoration: none;
+      transition: all var(--transition-interactive);
+    }
+    .btn-review-secondary:hover { background: var(--color-accent); color: #fff; }
+
+    /* Sections */
+    .review-section { margin-bottom: var(--space-10); }
+    .review-section h2 {
+      font-size: var(--text-lg);
+      font-weight: 700;
+      color: var(--color-text);
+      margin-bottom: var(--space-4);
+      padding-bottom: var(--space-2);
+      border-bottom: 2px solid var(--color-border);
+    }
+    .review-section p { color: var(--color-text-muted); line-height: 1.7; margin-bottom: var(--space-4); }
+
+    /* Feature grid */
+    .feature-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: var(--space-4);
+    }
+    .feature-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+    }
+    .feature-card h4 {
+      font-size: var(--text-sm);
+      font-weight: 700;
+      color: var(--color-text);
+      margin-bottom: var(--space-2);
+    }
+    .feature-card p { font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.6; margin: 0; }
+
+    /* Pricing */
+    .pricing-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: var(--space-4);
+      margin-bottom: var(--space-5);
+    }
+    .pricing-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+      position: relative;
+    }
+    .pricing-card--featured { border-color: var(--color-accent); }
+    .pricing-card__badge {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--color-accent);
+      color: #fff;
+      font-size: var(--text-xs);
+      font-weight: 700;
+      padding: var(--space-1) var(--space-3);
+      border-radius: var(--radius-full);
+      white-space: nowrap;
+    }
+    .pricing-card h3 { font-size: var(--text-base); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-2); }
+    .pricing-card__price { font-size: var(--text-xl); font-weight: 800; color: var(--color-text); margin-bottom: var(--space-4); }
+    .pricing-card__price span { font-size: var(--text-sm); font-weight: 400; color: var(--color-text-muted); }
+    .pricing-card ul { list-style: none; padding: 0; margin: 0 0 var(--space-4); }
+    .pricing-card ul li {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      padding: var(--space-1) 0;
+      border-bottom: 1px solid var(--color-border);
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-2);
+    }
+    .pricing-card ul li::before { content: '✓'; color: var(--color-accent); font-weight: 700; flex-shrink: 0; }
+
+    /* Pros/Cons */
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-5); }
+    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } }
+    .pros-block, .cons-block {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+    }
+    .pros-block { border-top: 3px solid var(--color-accent); }
+    .cons-block { border-top: 3px solid #f87171; }
+    .pros-block h4, .cons-block h4 { font-size: var(--text-sm); font-weight: 700; margin-bottom: var(--space-3); }
+    .pros-block h4 { color: var(--color-accent); }
+    .cons-block h4 { color: #f87171; }
+    .pros-block ul, .cons-block ul { list-style: none; padding: 0; margin: 0; }
+    .pros-block li, .cons-block li {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      padding: var(--space-2) 0;
+      border-bottom: 1px solid var(--color-border);
+      display: flex;
+      gap: var(--space-2);
+    }
+    .pros-block li:last-child, .cons-block li:last-child { border-bottom: none; }
+    .pros-block li::before { content: '✓'; color: var(--color-accent); font-weight: 700; flex-shrink: 0; }
+    .cons-block li::before { content: '✗'; color: #f87171; font-weight: 700; flex-shrink: 0; }
+
+    /* Who it's for */
+    .who-for { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-5); }
+    @media (max-width: 600px) { .who-for { grid-template-columns: 1fr; } }
+    .who-for-block {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+    }
+    .who-for-block h4 { font-size: var(--text-sm); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-3); }
+    .who-for-block ul { list-style: none; padding: 0; margin: 0; }
+    .who-for-block li {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      padding: var(--space-2) 0;
+      border-bottom: 1px solid var(--color-border);
+      display: flex;
+      gap: var(--space-2);
+    }
+    .who-for-block li:last-child { border-bottom: none; }
+    .who-for-block--good li::before { content: '✓'; color: var(--color-accent); font-weight: 700; flex-shrink: 0; }
+    .who-for-block--skip li::before { content: '✗'; color: #f87171; font-weight: 700; flex-shrink: 0; }
+
+    /* Verdict */
+    .verdict-box {
+      background: var(--color-surface);
+      border: 2px solid var(--color-accent);
+      border-radius: var(--radius-xl);
+      padding: var(--space-8);
+    }
+    .verdict-box__header {
+      display: flex;
+      align-items: center;
+      gap: var(--space-4);
+      margin-bottom: var(--space-5);
+    }
+    .verdict-box__score-large { font-size: var(--text-2xl); font-weight: 800; color: var(--color-accent); }
+    .verdict-box p { color: var(--color-text-muted); line-height: 1.7; margin-bottom: var(--space-4); }
+    .verdict-box p:last-of-type { margin-bottom: var(--space-5); }
+
+    /* Right specs sidebar */
+    .review-specs {
+      position: sticky;
+      top: calc(var(--navbar-height, 64px) + var(--space-4));
+    }
+    .specs-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+      margin-bottom: var(--space-4);
+    }
+    .specs-card h4 {
+      font-size: var(--text-xs);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-text-muted);
+      margin-bottom: var(--space-4);
+      border-bottom: 1px solid var(--color-border);
+      padding-bottom: var(--space-2);
+    }
+    .specs-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: var(--space-2) 0;
+      border-bottom: 1px solid var(--color-border);
+      gap: var(--space-2);
+    }
+    .specs-row:last-child { border-bottom: none; }
+    .specs-label { font-size: var(--text-xs); color: var(--color-text-muted); }
+    .specs-value { font-size: var(--text-xs); font-weight: 600; color: var(--color-text); text-align: right; }
+    .specs-cta {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background: var(--color-accent);
+      color: #fff;
+      font-weight: 600;
+      font-size: var(--text-sm);
+      padding: var(--space-3) var(--space-4);
+      border-radius: var(--radius-full);
+      text-decoration: none;
+      margin-top: var(--space-4);
+      transition: background var(--transition-interactive);
+    }
+    .specs-cta:hover { background: var(--color-accent-hover); }
+    .specs-links { list-style: none; padding: 0; margin: 0; }
+    .specs-links li { border-bottom: 1px solid var(--color-border); }
+    .specs-links li:last-child { border-bottom: none; }
+    .specs-links a {
+      display: block;
+      font-size: var(--text-sm);
+      color: var(--color-accent);
+      padding: var(--space-2) 0;
+      text-decoration: none;
+    }
+    .specs-links a:hover { text-decoration: underline; }
+
+    /* Inline CTA */
+    .inline-cta {
+      background: var(--color-accent-highlight);
+      border: 1px solid var(--color-accent);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+      margin: var(--space-6) 0;
+      flex-wrap: wrap;
+    }
+    [data-theme="dark"] .inline-cta { background: rgba(45, 212, 168, 0.1); }
+    .inline-cta p { font-size: var(--text-sm); color: var(--color-text); font-weight: 600; margin: 0; }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "name": "Instantly.ai",
+      "applicationCategory": "Sales Software",
+      "operatingSystem": "Web"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "4.8",
+      "bestRating": "5"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "SalesAIGuide"
+    }
+  }
+  </script>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <a href="../index.html">
-                    <span class="logo">Sales<span class="highlight">AI</span>Guide</span>
-                </a>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../index.html#tools">Tools</a></li>
-                <li><a href="../index.html#categories">Categories</a></li>
-                <li><a href="../blog.html">Resources</a></li>
-                <li><a href="../about.html">About</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <!-- Review Header -->
-    <div class="review-header">
-        <div class="container">
-            <div class="breadcrumbs">
-                <a href="../index.html">Home</a> / <a href="../index.html#tools">Tools</a> / Instantly.ai Review
-            </div>
-            <h1>Instantly.ai Review 2026: The Best Cold Email Platform?</h1>
-            <div class="review-meta">
-                <div class="rating-large">
-                    <span class="stars">★★★★★</span>
-                    <span class="score">4.8/5</span>
-                </div>
-                <div class="updated">Updated February 2026</div>
-                <div class="tested">Tested for 6 months</div>
-                <div class="last-verified" data-audit="last-verified">Last verified: Feb 2026</div>
-            </div>
-            <div class="editorial-trust">
-                <a href="https://salesaiguide.com/about.html#methodology">Our Methodology</a>
-                <span class="separator">|</span>
-                <a href="https://salesaiguide.com/about.html#editorial">Editorial Policy</a>
-                <span class="separator">|</span>
-                <a href="https://salesaiguide.com/disclosure.html">How We Make Money</a>
-                <span class="separator">|</span>
-                <a href="https://salesaiguide.com/about.html#corrections">Corrections</a>
-            </div>
-            <div class="review-coverage">
-                <span class="coverage-badge coverage-badge-reviewed"><span class="coverage-badge-icon">&#10003;</span> Evidence Reviewed</span>
-            </div>
+<!-- Navbar -->
+<nav class="navbar" aria-label="Main navigation">
+  <div class="container navbar__inner">
+    <a href="/" class="navbar__logo">
+      <svg class="navbar__logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="32" height="32" rx="8" fill="var(--color-accent)"/>
+        <path d="M8 20 L12 12 L16 18 L20 10 L24 16" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <circle cx="24" cy="16" r="2" fill="#fff"/>
+      </svg>
+      SalesAIGuide
+    </a>
+    <div class="navbar__links">
+      <a href="/tools/" class="navbar__link">Tools</a>
+      <a href="/compare/" class="navbar__link">Compare</a>
+      <a href="/categories/" class="navbar__link">Categories</a>
+      <a href="/about.html" class="navbar__link">About</a>
+    </div>
+    <div class="navbar__actions">
+      <div class="navbar__search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" placeholder="Search tools..." aria-label="Search tools">
+      </div>
+      <button class="theme-toggle" aria-label="Switch to dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+      <button class="navbar__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile nav drawer -->
+<div class="mobile-nav__overlay"></div>
+<nav class="mobile-nav" aria-label="Mobile navigation">
+  <a href="/tools/" class="mobile-nav__link">Tools</a>
+  <a href="/compare/" class="mobile-nav__link">Compare</a>
+  <a href="/categories/" class="mobile-nav__link">Categories</a>
+  <a href="/about.html" class="mobile-nav__link">About</a>
+</nav>
+
+<!-- Review Layout -->
+<div class="review-layout">
+
+  <!-- Left TOC -->
+  <aside class="review-toc" aria-label="Table of contents">
+    <h4>On This Page</h4>
+    <a href="#overview">Overview</a>
+    <a href="#features">Key Features</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#pros-cons">Pros &amp; Cons</a>
+    <a href="#who-its-for">Who It's For</a>
+    <a href="#verdict">Final Verdict</a>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="review-main">
+
+    <!-- Hero -->
+    <div class="review-hero" id="overview">
+      <div class="review-hero__eyebrow">Cold Email Platform &bull; Updated March 2026</div>
+      <h1 class="review-hero__title">Instantly.ai Review 2026: The Best Cold Email Platform?</h1>
+      <div class="review-hero__meta">
+        <div class="review-hero__stars" aria-label="4.8 out of 5 stars">
+          <svg class="star-icon" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z"/></svg>
+          <svg class="star-icon" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z"/></svg>
+          <svg class="star-icon" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z"/></svg>
+          <svg class="star-icon" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z"/></svg>
+          <svg class="star-icon" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z"/></svg>
+          <span class="review-hero__score">4.8 / 5</span>
         </div>
+        <span class="verdict-badge verdict-badge--recommended">Recommended</span>
+        <div class="review-hero__price">$37<span>/mo</span></div>
+      </div>
+      <p style="color:var(--color-text-muted);line-height:1.7;margin-bottom:var(--space-4);">Best cold email platform for reps who need unlimited sending capacity without worrying about deliverability. After 6 months sending 2,000+ emails/day, it delivers exactly what it promises.</p>
+      <div class="review-hero__cta">
+        <a href="/go/instantly" class="btn-review-primary" target="_blank" rel="noopener noreferrer">Try Instantly Free &rarr;</a>
+        <a href="#verdict" class="btn-review-secondary">See Full Verdict</a>
+      </div>
     </div>
 
-    <!-- Quick Summary -->
-    <div class="quick-summary">
-        <div class="container">
-            <div class="summary-grid">
-                <div class="summary-item">
-                    <h3>Bottom Line</h3>
-                    <p>Best cold email platform for reps who need unlimited sending capacity without worrying about deliverability tanking.</p>
-                    <ul>
-                        <li>Unlimited email account connections at every plan level</li>
-                        <li>Built-in warmup keeps sender reputation healthy on autopilot</li>
-                        <li>Unibox unifies replies across all accounts in one inbox</li>
-                    </ul>
-                </div>
-                <div class="summary-item">
-                    <h3>Best For</h3>
-                    <p>SDRs, agencies, and anyone doing cold outreach at scale (500+ emails/day).</p>
-                    <ul>
-                        <li>SDR teams sending high-volume cold email daily</li>
-                        <li>Agencies managing outreach across multiple client domains</li>
-                        <li>Individual reps who need better deliverability than their current tool</li>
-                    </ul>
-                </div>
-                <div class="summary-item">
-                    <h3>Pricing</h3>
-                    <p>$37/month for unlimited email accounts. No hidden fees.</p>
-                    <ul>
-                        <li><strong>Growth ($37/mo):</strong> Unlimited accounts, unlimited warmup, 1,000 leads</li>
-                        <li><strong>Hypergrowth ($97/mo):</strong> 25,000 leads, API access, team features</li>
-                        <li><strong>Watch for:</strong> Lead limits on the Growth plan — upgrade when you pass 1,000 active</li>
-                    </ul>
-                </div>
-                <div class="summary-item cta-item">
-                    <a href="https://salesaiguide.com/go/instantly" class="btn btn-primary btn-large" target="_blank">
-                        Try Instantly Free →
-                    </a>
-                    <p class="cta-note">14-day trial, no credit card required</p>
-                </div>
-            </div>
+    <!-- Overview -->
+    <section class="review-section">
+      <h2>What Is Instantly.ai?</h2>
+      <p>Instantly.ai is a cold email platform built specifically for sending high-volume outreach without destroying your sender reputation. Unlike traditional ESP platforms, Instantly lets you connect unlimited email accounts and rotate sending across them to stay under spam radar.</p>
+      <p>After testing it for 6 months sending 2,000+ emails daily, I can confirm it actually delivers on this promise — which is rare in this category. The combination of unlimited accounts, built-in warmup, and a unified inbox at $37/month is genuinely unmatched.</p>
+    </section>
+
+    <!-- Features -->
+    <section class="review-section" id="features">
+      <h2>Key Features</h2>
+      <div class="feature-cards">
+        <div class="feature-card">
+          <h4>Unlimited Email Accounts</h4>
+          <p>Connect as many sending accounts as you want at every pricing tier — no per-seat charges or mailbox caps. Spread volume across 5, 20, or 50 accounts, keeping each one under provider-level rate limits.</p>
         </div>
+        <div class="feature-card">
+          <h4>Built-in Email Warmup</h4>
+          <p>Automatically sends and receives emails between real accounts in their warmup network to build sender reputation before campaigns. New domains reach sendable reputation within 2-3 weeks vs. 4-6 weeks manual.</p>
+        </div>
+        <div class="feature-card">
+          <h4>Unibox Inbox Management</h4>
+          <p>Pulls every reply from every connected account into a single view where you can read, respond, and categorize without switching between mailboxes. Game-changer when sending from 10+ accounts.</p>
+        </div>
+        <div class="feature-card">
+          <h4>Campaign Sequences</h4>
+          <p>Multi-step email sequences with configurable delays, A/B testing on subject lines and body copy, and conditional branching based on recipient behavior. Most users have first campaign live within 30 minutes.</p>
+        </div>
+        <div class="feature-card">
+          <h4>Deliverability Dashboard</h4>
+          <p>Tracks sender reputation scores, inbox vs. spam placement rates, and bounce percentages across all connected accounts in real time. Flags DNS configuration issues like missing SPF or DKIM records.</p>
+        </div>
+        <div class="feature-card">
+          <h4>CRM Integrations</h4>
+          <p>Native integrations with HubSpot, Salesforce, and Pipedrive. Positive replies and meeting-booked events sync directly into your CRM pipeline without manual data entry.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Inline CTA -->
+    <div class="inline-cta">
+      <p>14-day free trial &mdash; no credit card required</p>
+      <a href="/go/instantly" class="btn-review-primary" target="_blank" rel="noopener noreferrer">Start Free Trial &rarr;</a>
     </div>
 
-    <!-- Main Review Content -->
-    <article class="review-content">
-        <div class="container">
-            <div class="content-wrapper">
-                <div class="main-content">
-                    
-                    <section class="content-section" data-audit="core-editorial">
-                        <h2>What Is Instantly.ai?</h2>
-                        <p>Instantly.ai is a cold email platform built specifically for sending high-volume outreach without destroying your sender reputation. Unlike traditional ESP platforms, Instantly lets you connect unlimited email accounts and rotate sending across them to stay under spam radar.</p>
-                        <p>After testing it for 6 months sending 2,000+ emails daily, I can confirm it actually delivers on this promise — which is rare in this category.</p>
-                    </section>
-
-                    <section class="content-section" data-audit="core-editorial">
-                        <h2>Key Features</h2>
-                        
-                        <div class="feature-grid">
-                            <div class="feature-card">
-                                <h4>✓ Unlimited Email Accounts</h4>
-                                <p>Connect as many sending accounts as you want at every pricing tier — there are no per-seat charges or mailbox caps. This is the core advantage of Instantly over most competitors. You can spread your daily send volume across 5, 20, or 50 accounts, keeping each one under provider-level rate limits. For agencies running outreach across multiple client domains, this means one subscription covers every account you manage without incremental costs eating into margins.</p>
-                            </div>
-                            <div class="feature-card">
-                                <h4>✓ Built-in Email Warmup</h4>
-                                <p>Instantly's warmup system automatically sends and receives emails between real accounts in their warmup network to build sender reputation before you launch campaigns. You set a daily warmup volume per account, and the system handles the rest — including marking warmup replies as read and moving them out of your inbox. In practice, this means new domains reach sendable reputation within 2-3 weeks instead of the 4-6 weeks manual warmup typically requires. It runs continuously in the background even after campaigns start.</p>
-                            </div>
-                            <div class="feature-card">
-                                <h4>✓ Unibox Inbox Management</h4>
-                                <p>When you are sending from 10 or more accounts, checking each inbox individually is not realistic. Unibox pulls every reply from every connected account into a single view where you can read, respond, and categorize without switching between mailboxes. You can filter by campaign, label interested replies, and hand off warm leads to your CRM directly from the interface. For teams, this eliminates the risk of missing a positive reply buried in a secondary account.</p>
-                            </div>
-                            <div class="feature-card">
-                                <h4>✓ Campaign Sequences</h4>
-                                <p>Build multi-step email sequences with configurable delays between touches, A/B testing on subject lines and body copy, and conditional branching based on recipient behavior. For example, you can route prospects who open but do not reply into a different follow-up track than those who never engage at all. Each step can pull from different sending accounts automatically. The sequence builder is straightforward — most users have their first campaign live within 30 minutes of importing a list.</p>
-                            </div>
-                            <div class="feature-card">
-                                <h4>✓ Deliverability Dashboard</h4>
-                                <p>The deliverability dashboard tracks sender reputation scores, inbox vs. spam placement rates, and bounce percentages across all your connected accounts in real time. You can spot accounts that are starting to slip before they cause campaign-wide damage. The dashboard also flags DNS configuration issues like missing SPF or DKIM records. It is not as deep as a dedicated deliverability tool, but it covers the essentials that matter for day-to-day cold email operations.</p>
-                            </div>
-                            <div class="feature-card">
-                                <h4>✓ CRM Integrations</h4>
-                                <p>Instantly offers native integrations with HubSpot, Salesforce, and Pipedrive — the three CRMs most common in outbound sales teams. Positive replies and meeting-booked events can sync directly into your CRM pipeline without manual data entry. For CRMs outside the big three, Instantly connects through Zapier and webhook-based workflows, though this adds a step. The native integrations are simple to configure and keep your sales pipeline updated as prospects move through your outreach sequences.</p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="content-section">
-                        <h2>Pricing Breakdown</h2>
-                        <p>Instantly keeps pricing simple with three tiers built around sending capacity and lead volume. All plans include unlimited email accounts and built-in warmup at no extra charge. The main upgrade drivers are active lead limits and analytics depth. Here is what each tier offers.</p>
-
-                        <div class="pricing-table">
-                            <div class="pricing-tier">
-                                <h3>Growth</h3>
-                                <div class="price-amount">$37<span>/month</span></div>
-                                <ul>
-                                    <li>Unlimited email accounts</li>
-                                    <li>Unlimited warmup</li>
-                                    <li>1,000 active leads</li>
-                                    <li>Basic analytics</li>
-                                </ul>
-                                <a href="https://salesaiguide.com/go/instantly" class="btn btn-primary">Start Free Trial</a>
-                            </div>
-                            <div class="pricing-tier featured">
-                                <div class="tier-badge">Most Popular</div>
-                                <h3>Hypergrowth</h3>
-                                <div class="price-amount">$97<span>/month</span></div>
-                                <ul>
-                                    <li>Everything in Growth</li>
-                                    <li>25,000 active leads</li>
-                                    <li>Advanced analytics</li>
-                                    <li>API access</li>
-                                    <li>Team features</li>
-                                </ul>
-                                <a href="https://salesaiguide.com/go/instantly" class="btn btn-primary">Start Free Trial</a>
-                            </div>
-                            <div class="pricing-tier">
-                                <h3>Enterprise</h3>
-                                <div class="price-amount">Custom</div>
-                                <ul>
-                                    <li>Everything in Hypergrowth</li>
-                                    <li>Unlimited leads</li>
-                                    <li>Dedicated support</li>
-                                    <li>Custom integrations</li>
-                                </ul>
-                                <a href="https://salesaiguide.com/go/instantly" class="btn btn-outline">Contact Sales</a>
-                            </div>
-                        </div>
-                        
-                        <p><strong>My take:</strong> At $37/month for unlimited accounts, this is absurdly cheap compared to competitors. The Hypergrowth plan at $97/month is where most serious users land.</p>
-                    </section>
-
-                    <section class="content-section" data-audit="core-editorial">
-                        <h2>Pros & Cons (After Real Testing)</h2>
-                        <p>After six months of daily use sending over two thousand cold emails per day through Instantly, here is an honest assessment of where the platform delivers and where it still needs work. These findings come from real campaign data, not feature-list marketing.</p>
-
-                        <div class="pros-cons">
-                            <div class="pros">
-                                <h3>✓ What's Great</h3>
-                                <ul>
-                                    <li><strong>Actually works for deliverability:</strong> I've maintained 85%+ inbox rates sending 2K emails/day for 6 months straight</li>
-                                    <li><strong>Unlimited accounts = unlimited scale:</strong> No per-seat pricing means you can add accounts as needed</li>
-                                    <li><strong>Warmup is set-and-forget:</strong> Auto-warmup actually keeps accounts healthy without babysitting</li>
-                                    <li><strong>Unibox saves hours:</strong> Managing replies across 10 accounts in one inbox is a game-changer</li>
-                                    <li><strong>Price is unbeatable:</strong> Competitors charge 3-5x more for the same features</li>
-                                    <li><strong>Fast support:</strong> Response times under 2 hours in my experience</li>
-                                </ul>
-                            </div>
-                            <div class="cons">
-                                <h3>✗ What Could Be Better</h3>
-                                <ul>
-                                    <li><strong>Learning curve on setup:</strong> Takes 2-3 hours to properly configure your first campaign</li>
-                                    <li><strong>Limited native integrations:</strong> Zapier required for most CRMs besides the big 3</li>
-                                    <li><strong>Analytics could be deeper:</strong> Basic reporting is fine but power users want more</li>
-                                    <li><strong>No built-in prospecting:</strong> You need to bring your own list (use Clay or Apollo)</li>
-                                    <li><strong>Template library is meh:</strong> Generic examples, you'll write your own anyway</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="content-section" data-audit="core-editorial">
-                        <h2>Deliverability Testing Results</h2>
-                        <p>This is what actually matters. Here's my real data over 6 months:</p>
-                        
-                        <div class="stats-grid">
-                            <div class="stat-card">
-                                <div class="stat-number">85%</div>
-                                <div class="stat-label">Inbox Rate</div>
-                            </div>
-                            <div class="stat-card">
-                                <div class="stat-number">12%</div>
-                                <div class="stat-label">Reply Rate</div>
-                            </div>
-                            <div class="stat-card">
-                                <div class="stat-number">2.1%</div>
-                                <div class="stat-label">Meeting Booked</div>
-                            </div>
-                            <div class="stat-card">
-                                <div class="stat-number">124K</div>
-                                <div class="stat-label">Emails Sent</div>
-                            </div>
-                        </div>
-                        
-                        <p><strong>Context:</strong> These numbers are with proper domain warmup, quality lists from Clay, and personalized copy. Your mileage will vary based on list quality and copy.</p>
-                    </section>
-
-                    <section class="content-section">
-                        <h2>Instantly.ai vs Competitors</h2>
-                        
-                        <div class="comparison-table-wrapper">
-                            <table class="comparison-table">
-                                <thead>
-                                    <tr>
-                                        <th>Feature</th>
-                                        <th>Instantly.ai</th>
-                                        <th>Smartlead</th>
-                                        <th>Lemlist</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Unlimited Accounts</td>
-                                        <td class="check">✓</td>
-                                        <td class="check">✓</td>
-                                        <td class="cross">✗</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Built-in Warmup</td>
-                                        <td class="check">✓</td>
-                                        <td class="check">✓</td>
-                                        <td class="check">✓</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Unified Inbox</td>
-                                        <td class="check">✓</td>
-                                        <td class="check">✓</td>
-                                        <td class="cross">✗</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Price (Base Plan)</td>
-                                        <td>$37/mo</td>
-                                        <td>$39/mo</td>
-                                        <td>$59/mo</td>
-                                    </tr>
-                                    <tr>
-                                        <td>CRM Integrations</td>
-                                        <td class="check">✓</td>
-                                        <td class="check">✓</td>
-                                        <td class="check">✓</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        
-                        <p><strong>Winner:</strong> Instantly for most users. Smartlead is comparable but Instantly's UI is cleaner. Lemlist is overpriced for what you get.</p>
-                        <p><a href="../compare/instantly-vs-smartlead.html">→ See full Instantly vs Smartlead comparison</a></p>
-                    </section>
-
-                    <section class="content-section" data-audit="core-editorial">
-                        <h2>When to Choose Instantly.ai: Use Cases</h2>
-                        <p>Instantly fits a specific profile well: teams and individuals who need to send high-volume cold email and care deeply about landing in primary inboxes. If your outreach motion depends on reaching hundreds or thousands of new prospects each week, this is where the platform earns its keep. It competes most directly with <a href="../tools/smartlead-review.html">Smartlead</a>, but Instantly's interface and onboarding are noticeably smoother for first-time users. Here are the most common scenarios where Instantly makes sense — and a few where it does not.</p>
-
-                        <div class="use-cases">
-                            <div class="use-case good">
-                                <h4>✓ Perfect For:</h4>
-                                <ul>
-                                    <li>SDRs sending 500+ cold emails daily who need reliable inbox placement across multiple sender accounts</li>
-                                    <li>Agencies managing outreach for multiple clients, each with separate domains and sending identities</li>
-                                    <li>Sales teams needing to scale beyond one domain without paying per-seat fees for every mailbox</li>
-                                    <li>Anyone who's been burned by deliverability issues before and wants built-in warmup as a safety net</li>
-                                    <li>Users comfortable with technical setup who can invest 2-3 hours configuring DNS records and campaign logic</li>
-                                </ul>
-                            </div>
-                            <div class="use-case bad">
-                                <h4>✗ Skip If You:</h4>
-                                <ul>
-                                    <li>Send fewer than 100 emails/day (overkill for you)</li>
-                                    <li>Need built-in prospecting/list building</li>
-                                    <li>Want a fully managed solution</li>
-                                    <li>Are completely non-technical</li>
-                                    <li>Need enterprise-level reporting dashboards</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-
-                    <div data-audit="sources-checked" class="sources-checked">
-                        <h4>Sources Checked</h4>
-                        <ul>
-                            <li><a href="https://www.g2.com/products/instantly-ai/reviews">G2 Reviews — Instantly.ai</a> (Feb 2026)</li>
-                            <li><a href="https://instantly.ai/pricing">Instantly.ai Pricing Page</a> (Feb 2026)</li>
-                            <li><a href="https://www.trustpilot.com/review/instantly.ai">Trustpilot — Instantly.ai</a> (Feb 2026)</li>
-                            <li><a href="https://instantly.ai/blog/deliverability">Instantly.ai Deliverability Guide</a> (Jan 2026)</li>
-                            <li><a href="https://www.emailtooltester.com/en/blog/cold-email-software/">Email Tool Tester — Cold Email Software</a> (Feb 2026)</li>
-                            <li><a href="https://woodpecker.co/blog/cold-email-deliverability/">Woodpecker Deliverability Benchmark</a> (Jan 2026)</li>
-                            <li><a href="https://www.reddit.com/r/coldemail/comments/instantly_cold_email/">Reddit r/coldemail — Instantly User Discussion Thread</a> (2025)</li>
-                            <li><a href="https://www.youtube.com/watch?v=instantly-cold-email-setup">YouTube — Instantly Cold Email Setup Walkthrough</a> (2025)</li>
-                        </ul>
-                    </div>
-
-                    <section class="content-section" data-audit="core-editorial">
-                        <h2>Limitations to Watch For</h2>
-                        <p>No tool is perfect, and Instantly has a few workflow-level gotchas worth knowing before you commit. These are not dealbreakers, but planning around them will save you frustration in the first few weeks.</p>
-                        <ul>
-                            <li><strong>Warmup timing matters more than you think:</strong> Deliverability depends heavily on proper warmup completion. Rushing campaigns before your accounts have warmed for at least 2-3 weeks will tank inbox placement rates, and recovering from early spam flags takes longer than waiting would have.</li>
-                            <li><strong>Analytics feel thin for power users:</strong> The built-in reporting covers open rates, reply rates, and bounce tracking, but it lacks the depth of dedicated email analytics tools. If you want granular cohort analysis or custom attribution models, you will need to export data and build your own dashboards.</li>
-                            <li><strong>Lead enrichment is not its strength:</strong> Instantly is a sending platform, not a data provider. The lead data enrichment options are limited compared to specialized tools like <a href="../tools/clay-review.html">Clay</a> or ZoomInfo. Plan on pairing Instantly with a separate enrichment source for best results.</li>
-                            <li><strong>Multi-channel outreach costs extra:</strong> If your workflow includes LinkedIn touches or phone calls alongside email, you will need to upgrade to higher-tier plans or integrate with separate tools. The base plans are email-only.</li>
-                        </ul>
-                    </section>
-
-                    <section class="content-section">
-                        <h2>Related Resources</h2>
-                        <ul>
-                            <li><a href="../categories/cold-outreach.html">Best Cold Outreach Tools</a></li>
-                            <li><a href="../compare/instantly-vs-smartlead.html">Instantly vs Smartlead — Full Comparison</a></li>
-                            <li><a href="../compare/instantly-vs-lemlist.html">Instantly vs Lemlist — Full Comparison</a></li>
-                            <li><a href="../compare/lavender-vs-instantly.html">Lavender vs Instantly</a></li>
-                            <li><a href="../tools/clay-review.html">Clay Review — Data Enrichment for Outbound</a></li>
-                            <li><a href="../tools/smartlead-review.html">Smartlead Review</a></li>
-                        </ul>
-                    </section>
-
-                    <section class="content-section">
-                        <h2>Final Verdict</h2>
-                        <div class="final-verdict">
-                            <div class="verdict-rating">
-                                <div class="stars-large">★★★★★</div>
-                                <div class="score-large">4.8/5</div>
-                            </div>
-                            <div class="verdict-text">
-                                <p><strong>Instantly.ai is the best cold email platform for volume senders in 2026.</strong></p>
-                                <p>After 6 months of daily use, it's delivered exactly what it promises: unlimited sending capacity with solid deliverability. The combination of unlimited accounts, built-in warmup, and unified inbox at $37/month is unmatched.</p>
-                                <p>The setup learning curve is real, but once you're past it, this tool just works. My inbox rates have stayed above 85% for months, which was never achievable with previous tools.</p>
-                                <p><strong>Recommendation:</strong> If you're sending 500+ emails/day, get Instantly. If you're doing true high-volume outreach (2,000+ daily), get the Hypergrowth plan. Simple as that.</p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <div class="final-cta">
-                        <h3>Ready to Try Instantly.ai?</h3>
-                        <p>14-day free trial, no credit card required. Set up takes about 2 hours.</p>
-                        <a href="https://salesaiguide.com/go/instantly" class="btn btn-primary btn-xl" target="_blank">
-                            Start Your Free Trial →
-                        </a>
-                    </div>
-
-                </div>
-
-                <!-- Sidebar -->
-                <aside class="sidebar">
-                    <div class="sidebar-card">
-                        <h4>Quick Stats</h4>
-                        <div class="quick-stats">
-                            <div class="stat">
-                                <span class="label">Overall Rating</span>
-                                <span class="value">4.8/5</span>
-                            </div>
-                            <div class="stat">
-                                <span class="label">Price</span>
-                                <span class="value">$37/mo</span>
-                            </div>
-                            <div class="stat">
-                                <span class="label">Best For</span>
-                                <span class="value">Cold Email</span>
-                            </div>
-                            <div class="stat">
-                                <span class="label">Free Trial</span>
-                                <span class="value">14 days</span>
-                            </div>
-                        </div>
-                        <a href="https://salesaiguide.com/go/instantly" class="btn btn-primary btn-block" target="_blank">Try Free</a>
-                    </div>
-
-                    <div class="sidebar-card">
-                        <h4>Related Reviews</h4>
-                        <ul class="related-links">
-                            <li><a href="../tools/smartlead-review.html">Smartlead Review</a></li>
-                            <li><a href="../tools/apollo-review.html">Apollo.io Review</a></li>
-                            <li><a href="../tools/clay-review.html">Clay Review</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="sidebar-card">
-                        <h4>Comparisons</h4>
-                        <ul class="related-links">
-                            <li><a href="../compare/instantly-vs-smartlead.html">Instantly vs Smartlead</a></li>
-                            <li><a href="../compare/instantly-vs-apollo.html">Instantly vs Apollo</a></li>
-                        </ul>
-                    </div>
-                </aside>
-            </div>
+    <!-- Pricing -->
+    <section class="review-section" id="pricing">
+      <h2>Pricing Breakdown</h2>
+      <p>Instantly keeps pricing simple with three tiers built around sending capacity and lead volume. All plans include unlimited email accounts and built-in warmup at no extra charge.</p>
+      <div class="pricing-cards">
+        <div class="pricing-card">
+          <h3>Growth</h3>
+          <div class="pricing-card__price">$37<span>/mo</span></div>
+          <ul>
+            <li>Unlimited email accounts</li>
+            <li>Unlimited warmup</li>
+            <li>1,000 active leads</li>
+            <li>Basic analytics</li>
+          </ul>
+          <a href="/go/instantly" class="btn-review-primary" target="_blank" rel="noopener noreferrer">Start Free Trial</a>
         </div>
-    </article>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-col">
-                    <h4>Sales<span class="highlight">AI</span>Guide</h4>
-                    <p>Honest reviews of AI tools for sales professionals.</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Top Tools</h4>
-                    <ul>
-                        <li><a href="instantly-review.html">Instantly.ai</a></li>
-                        <li><a href="clay-review.html">Clay</a></li>
-                        <li><a href="gong-review.html">Gong</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Sales AI Guide. All rights reserved.</p>
-                <p class="disclosure">Affiliate disclosure: We earn commission when you purchase through our links. <a href="../disclosure.html">Learn more</a></p>
-            </div>
+        <div class="pricing-card pricing-card--featured">
+          <div class="pricing-card__badge">Most Popular</div>
+          <h3>Hypergrowth</h3>
+          <div class="pricing-card__price">$97<span>/mo</span></div>
+          <ul>
+            <li>Everything in Growth</li>
+            <li>25,000 active leads</li>
+            <li>Advanced analytics</li>
+            <li>API access</li>
+            <li>Team features</li>
+          </ul>
+          <a href="/go/instantly" class="btn-review-primary" target="_blank" rel="noopener noreferrer">Start Free Trial</a>
         </div>
-    </footer>
+        <div class="pricing-card">
+          <h3>Enterprise</h3>
+          <div class="pricing-card__price">Custom</div>
+          <ul>
+            <li>Everything in Hypergrowth</li>
+            <li>Unlimited leads</li>
+            <li>Dedicated support</li>
+            <li>Custom integrations</li>
+          </ul>
+          <a href="/go/instantly" class="btn-review-secondary" target="_blank" rel="noopener noreferrer">Contact Sales</a>
+        </div>
+      </div>
+      <p style="font-size:var(--text-sm);"><strong>My take:</strong> At $37/month for unlimited accounts, this is absurdly cheap compared to competitors. The Hypergrowth plan at $97/month is where most serious users land.</p>
+    </section>
 
-    <script src="../js/main.js"></script>
+    <!-- Pros & Cons -->
+    <section class="review-section" id="pros-cons">
+      <h2>Pros &amp; Cons</h2>
+      <p>After six months of daily use sending over two thousand cold emails per day, here is an honest assessment.</p>
+      <div class="pros-cons">
+        <div class="pros-block">
+          <h4>What's Great</h4>
+          <ul>
+            <li>85%+ inbox rates sending 2K emails/day for 6 months straight</li>
+            <li>Unlimited accounts = unlimited scale, no per-seat pricing</li>
+            <li>Warmup is set-and-forget — keeps accounts healthy on autopilot</li>
+            <li>Unibox saves hours managing replies across 10 accounts</li>
+            <li>Competitors charge 3-5x more for the same features</li>
+            <li>Fast support — response times under 2 hours</li>
+          </ul>
+        </div>
+        <div class="cons-block">
+          <h4>What Could Be Better</h4>
+          <ul>
+            <li>Takes 2-3 hours to properly configure first campaign</li>
+            <li>Zapier required for most CRMs besides the big 3</li>
+            <li>Basic reporting lacks depth for power users</li>
+            <li>No built-in prospecting — need Apollo or Clay for lists</li>
+            <li>Template library is generic</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who It's For -->
+    <section class="review-section" id="who-its-for">
+      <h2>Who It's For</h2>
+      <div class="who-for">
+        <div class="who-for-block who-for-block--good">
+          <h4>Perfect For</h4>
+          <ul>
+            <li>SDRs sending 500+ cold emails daily needing reliable inbox placement</li>
+            <li>Agencies managing outreach across multiple client domains</li>
+            <li>Teams scaling beyond one domain without per-seat mailbox fees</li>
+            <li>Anyone burned by deliverability issues who wants built-in warmup</li>
+            <li>Technical users who can invest 2-3 hours configuring DNS and campaign logic</li>
+          </ul>
+        </div>
+        <div class="who-for-block who-for-block--skip">
+          <h4>Skip If You</h4>
+          <ul>
+            <li>Send fewer than 100 emails/day (overkill for you)</li>
+            <li>Need built-in prospecting/list building</li>
+            <li>Want a fully managed solution</li>
+            <li>Are completely non-technical</li>
+            <li>Need enterprise-level reporting dashboards</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final Verdict -->
+    <section class="review-section" id="verdict">
+      <h2>Final Verdict</h2>
+      <div class="verdict-box">
+        <div class="verdict-box__header">
+          <div class="verdict-box__score-large">4.8 / 5</div>
+          <span class="verdict-badge verdict-badge--recommended">Recommended</span>
+        </div>
+        <p><strong>Instantly.ai is the best cold email platform for volume senders in 2026.</strong> After 6 months of daily use, it's delivered exactly what it promises: unlimited sending capacity with solid deliverability.</p>
+        <p>The combination of unlimited accounts, built-in warmup, and unified inbox at $37/month is unmatched in the market. The setup learning curve is real, but once you're past it, this tool just works. My inbox rates have stayed above 85% for months.</p>
+        <p><strong>Recommendation:</strong> If you're sending 500+ emails/day, get Instantly. For true high-volume outreach (2,000+ daily), get the Hypergrowth plan.</p>
+        <a href="/go/instantly" class="btn-review-primary" target="_blank" rel="noopener noreferrer">Start Your Free Trial &rarr;</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Right Specs Sidebar -->
+  <aside class="review-specs" aria-label="Quick specs">
+    <div class="specs-card">
+      <h4>Quick Specs</h4>
+      <div class="specs-row">
+        <span class="specs-label">Rating</span>
+        <span class="specs-value">4.8 / 5</span>
+      </div>
+      <div class="specs-row">
+        <span class="specs-label">Starting Price</span>
+        <span class="specs-value">$37/mo</span>
+      </div>
+      <div class="specs-row">
+        <span class="specs-label">Best For</span>
+        <span class="specs-value">Cold Email at Scale</span>
+      </div>
+      <div class="specs-row">
+        <span class="specs-label">Free Trial</span>
+        <span class="specs-value">14 days</span>
+      </div>
+      <div class="specs-row">
+        <span class="specs-label">Category</span>
+        <span class="specs-value">Cold Outreach</span>
+      </div>
+      <div class="specs-row">
+        <span class="specs-label">Warmup</span>
+        <span class="specs-value">Built-in</span>
+      </div>
+      <div class="specs-row">
+        <span class="specs-label">Email Accounts</span>
+        <span class="specs-value">Unlimited</span>
+      </div>
+      <a href="/go/instantly" class="specs-cta" target="_blank" rel="noopener noreferrer">Try Free &rarr;</a>
+    </div>
+    <div class="specs-card">
+      <h4>Related Reviews</h4>
+      <ul class="specs-links">
+        <li><a href="/tools/smartlead-review.html">Smartlead Review</a></li>
+        <li><a href="/tools/lemlist-review.html">Lemlist Review</a></li>
+        <li><a href="/tools/apollo-review.html">Apollo.io Review</a></li>
+        <li><a href="/tools/clay-review.html">Clay Review</a></li>
+      </ul>
+    </div>
+    <div class="specs-card">
+      <h4>Comparisons</h4>
+      <ul class="specs-links">
+        <li><a href="/compare/instantly-vs-smartlead.html">Instantly vs Smartlead</a></li>
+        <li><a href="/compare/instantly-vs-lemlist.html">Instantly vs Lemlist</a></li>
+      </ul>
+    </div>
+  </aside>
+
+</div><!-- /review-layout -->
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">SalesAIGuide</div>
+        <p class="footer__brand-tagline">Honest reviews of AI tools for sales professionals who need results, not hype.</p>
+      </div>
+      <div>
+        <h4 class="footer__heading">Top Tools</h4>
+        <div class="footer__links">
+          <a href="/tools/instantly-review.html" class="footer__link">Instantly.ai</a>
+          <a href="/tools/clay-review.html" class="footer__link">Clay</a>
+          <a href="/tools/apollo-review.html" class="footer__link">Apollo.io</a>
+          <a href="/tools/gong-review.html" class="footer__link">Gong</a>
+          <a href="/tools/hubspot-review.html" class="footer__link">HubSpot</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Categories</h4>
+        <div class="footer__links">
+          <a href="/categories/cold-outreach.html" class="footer__link">Cold Outreach</a>
+          <a href="/categories/lead-prospecting.html" class="footer__link">Lead Prospecting</a>
+          <a href="/categories/data-enrichment.html" class="footer__link">Data Enrichment</a>
+          <a href="/categories/conversation-intelligence.html" class="footer__link">Conversation Intel</a>
+          <a href="/categories/sales-engagement.html" class="footer__link">Sales Engagement</a>
+          <a href="/categories/crm-pipeline.html" class="footer__link">CRM &amp; Pipeline</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Site</h4>
+        <div class="footer__links">
+          <a href="/about.html" class="footer__link">About</a>
+          <a href="/compare/" class="footer__link">Comparisons</a>
+          <a href="/disclosure.html" class="footer__link">Disclosure</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__disclosure">This site contains affiliate links. We may earn a commission when you purchase through our links at no additional cost to you. Our ratings and rankings are never influenced by affiliate partnerships. <a href="/disclosure.html">Full disclosure</a></p>
+      <p class="footer__copyright">&copy; 2026 SalesAIGuide. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/theme.js" defer></script>
+<script src="../js/nav.js" defer></script>
 </body>
 </html>

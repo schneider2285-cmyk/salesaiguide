@@ -3,831 +3,1234 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Sales Tool Comparisons - Head-to-Head Reviews | Sales AI Guide</title>
-    <meta name="description" content="Side-by-side comparisons of the best AI sales tools. Find out which tool wins for your specific use case.">
+    <title>AI Sales Tool Comparisons - Head-to-Head Reviews | SalesAIGuide</title>
+    <meta name="description" content="Side-by-side comparisons of the best AI sales tools. Find out which tool wins for your specific use case based on real testing.">
     <link rel="canonical" href="https://salesaiguide.com/compare/">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/review.css">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="AI Sales Tool Comparisons - Head-to-Head Reviews | SalesAIGuide">
+  <meta property="og:description" content="Side-by-side comparisons of the best AI sales tools. Find out which tool wins for your specific use case based on real testing.">
+  <meta property="og:url" content="https://salesaiguide.com/compare/">
+  <meta property="og:site_name" content="SalesAIGuide">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Sales Tool Comparisons - Head-to-Head Reviews | SalesAIGuide">
+  <meta name="twitter:description" content="Side-by-side comparisons of the best AI sales tools. Find out which tool wins for your specific use case based on real testing.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <script>
+    (function(){
+      var t = localStorage.getItem('salesaiguide-theme') ||
+        (window.matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+    </script>
+    <style>
+      .compare-hero {
+        background: var(--color-surface);
+        border-bottom: 1px solid var(--color-border);
+        padding: var(--space-12) 0 var(--space-8);
+        text-align: center;
+      }
+      .compare-hero__eyebrow {
+        display: inline-block;
+        background: var(--color-accent-highlight);
+        color: var(--color-accent);
+        font-size: var(--text-xs);
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .08em;
+        padding: .25em .8em;
+        border-radius: var(--radius-full);
+        margin-bottom: var(--space-4);
+      }
+      [data-theme="dark"] .compare-hero__eyebrow { background: rgba(45,212,168,.12); }
+      .compare-hero__title {
+        font-size: var(--text-2xl);
+        font-weight: 800;
+        color: var(--color-text);
+        margin: 0 auto var(--space-4);
+        max-width: 640px;
+        line-height: 1.15;
+      }
+      .compare-hero__subtitle {
+        font-size: var(--text-lg);
+        color: var(--color-text-muted);
+        max-width: 520px;
+        margin: 0 auto;
+        line-height: 1.5;
+      }
+      .compare-section {
+        padding: var(--space-10) 0 var(--space-6);
+      }
+      .compare-section + .compare-section {
+        padding-top: var(--space-6);
+        border-top: 1px solid var(--color-border);
+      }
+      .compare-section__header {
+        margin-bottom: var(--space-6);
+      }
+      .compare-section__label {
+        font-size: var(--text-xs);
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .08em;
+        color: var(--color-accent);
+        margin-bottom: var(--space-1);
+      }
+      .compare-section__title {
+        font-size: var(--text-xl);
+        font-weight: 700;
+        color: var(--color-text);
+        margin: 0;
+      }
+      .compare-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--space-4);
+      }
+      @media (max-width: 1024px) { .compare-grid { grid-template-columns: repeat(2, 1fr); } }
+      @media (max-width: 600px) { .compare-grid { grid-template-columns: 1fr; } }
+      .comparison-card {
+        display: block;
+        background: var(--color-surface);
+        border: 1px solid var(--color-border);
+        border-radius: var(--radius-xl);
+        padding: var(--space-5);
+        text-decoration: none;
+        transition: all var(--transition-interactive);
+        box-shadow: var(--shadow-sm);
+      }
+      .comparison-card:hover {
+        box-shadow: var(--shadow-md);
+        border-color: var(--color-accent);
+        transform: translateY(-2px);
+      }
+      .comparison-card__vs-row {
+        display: flex;
+        align-items: center;
+        gap: var(--space-3);
+        margin-bottom: var(--space-4);
+      }
+      .comparison-card__tool {
+        flex: 1;
+        min-width: 0;
+      }
+      .comparison-card__tool-name {
+        font-size: var(--text-base);
+        font-weight: 700;
+        color: var(--color-text);
+        margin-bottom: var(--space-1);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .comparison-card__rating {
+        font-size: var(--text-xs);
+        color: var(--color-text-muted);
+        font-weight: 500;
+      }
+      .comparison-card__vs {
+        font-size: var(--text-sm);
+        font-weight: 800;
+        color: var(--color-text-muted);
+        flex-shrink: 0;
+        background: var(--color-surface-2);
+        padding: .15em .5em;
+        border-radius: var(--radius-sm);
+      }
+      .comparison-card__verdict {
+        font-size: var(--text-sm);
+        color: var(--color-text-muted);
+        line-height: 1.5;
+        margin: 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .comparison-card__link {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-1);
+        font-size: var(--text-xs);
+        font-weight: 600;
+        color: var(--color-accent);
+        margin-top: var(--space-3);
+      }
+      .compare-intro {
+        background: var(--color-surface);
+        border: 1px solid var(--color-border);
+        border-radius: var(--radius-xl);
+        padding: var(--space-6);
+        margin-bottom: var(--space-8);
+        font-size: var(--text-base);
+        color: var(--color-text-muted);
+        line-height: 1.7;
+      }
+      .compare-intro a { color: var(--color-accent); }
+      .compare-intro p { margin: 0 0 var(--space-3); }
+      .compare-intro p:last-child { margin: 0; }
+    </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "AI Sales Tool Comparisons: Head-to-Head Reviews 2026",
+    "author": {
+      "@type": "Organization",
+      "name": "SalesAIGuide"
+    },
+    "datePublished": "2026-03-01",
+    "dateModified": "2026-03-04",
+    "publisher": {
+      "@type": "Organization",
+      "name": "SalesAIGuide",
+      "url": "https://salesaiguide.com"
+    }
+  }
+  </script>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <a href="../index.html">
-                    <span class="logo">Sales<span class="highlight">AI</span>Guide</span>
-                </a>
-            </div>
-            <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-menu').classList.toggle('active')">&#9776;</button>
-            <ul class="nav-menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../tools/index.html">Tools</a></li>
-                <li><a href="../compare/index.html">Compare</a></li>
-                <li><a href="../categories/index.html">Categories</a></li>
-                <li><a href="../about.html">About</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <div class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>AI Sales Tool <span class="highlight">Comparisons</span></h1>
-                <p class="hero-subtitle">Head-to-head comparisons based on real testing. Find the right tool for your workflow.</p>
-            </div>
-        </div>
+<!-- ============ Navbar ============ -->
+<nav class="navbar" aria-label="Main navigation">
+  <div class="container navbar__inner">
+    <a href="/" class="navbar__logo">
+      <svg class="navbar__logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="32" height="32" rx="8" fill="var(--color-accent)"/>
+        <path d="M8 20 L12 12 L16 18 L20 10 L24 16" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <circle cx="24" cy="16" r="2" fill="#fff"/>
+      </svg>
+      SalesAIGuide
+    </a>
+    <div class="navbar__links">
+      <a href="/tools/" class="navbar__link">Tools</a>
+      <a href="/compare/" class="navbar__link navbar__link--active">Compare</a>
+      <a href="/categories/" class="navbar__link">Categories</a>
+      <a href="/about.html" class="navbar__link">About</a>
+    </div>
+    <div class="navbar__actions">
+      <div class="navbar__search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" placeholder="Search tools..." aria-label="Search tools">
+      </div>
+      <button class="theme-toggle" aria-label="Switch to dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+      <button class="navbar__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile nav drawer -->
+<div class="mobile-nav__overlay"></div>
+<nav class="mobile-nav" aria-label="Mobile navigation">
+  <a href="/tools/" class="mobile-nav__link">Tools</a>
+  <a href="/compare/" class="mobile-nav__link">Compare</a>
+  <a href="/categories/" class="mobile-nav__link">Categories</a>
+  <a href="/about.html" class="mobile-nav__link">About</a>
+</nav>
+
+<!-- ============ Hero ============ -->
+<section class="compare-hero">
+  <div class="container">
+    <div class="compare-hero__eyebrow">53 Head-to-Head Comparisons</div>
+    <h1 class="compare-hero__title">AI Sales Tool Comparisons</h1>
+    <p class="compare-hero__subtitle">Head-to-head comparisons based on real testing. Find the right tool for your workflow.</p>
+  </div>
+</section>
+
+<!-- ============ Main ============ -->
+<main class="section">
+  <div class="container">
+
+    <div class="compare-intro">
+      <p>Every comparison below is grounded in product documentation, public reviews, and disclosed editorial criteria. Looking for a specific category? Browse <a href="/categories/cold-outreach.html">cold outreach tools</a>, <a href="/categories/lead-prospecting.html">lead prospecting platforms</a>, <a href="/categories/conversation-intelligence.html">conversation intelligence software</a>, <a href="/categories/sales-engagement.html">sales engagement suites</a>, <a href="/categories/crm-pipeline.html">CRM and pipeline management</a>, <a href="/categories/meeting-schedulers.html">meeting schedulers</a>, and <a href="/categories/dialers-calling.html">dialers &amp; calling tools</a>.</p>
+      <p>Each comparison pairs with full individual reviews for both tools. Before reading a head-to-head, you may want to start with our standalone assessments: <a href="/tools/clay-review.html">Clay</a>, <a href="/tools/apollo-review.html">Apollo.io</a>, <a href="/tools/gong-review.html">Gong</a>, <a href="/tools/instantly-review.html">Instantly.ai</a>, and <a href="/tools/outreach-review.html">Outreach</a> are among the most referenced across our comparisons.</p>
     </div>
 
-    <section style="padding: 4rem 0;">
-        <div class="container">
-            <p>Every comparison below is grounded in product documentation, public reviews, and disclosed editorial criteria. Looking for a specific category? Browse <a href="../categories/cold-outreach.html">cold outreach tools</a>, <a href="../categories/lead-prospecting.html">lead prospecting platforms</a>, <a href="../categories/conversation-intelligence.html">conversation intelligence software</a>, <a href="../categories/sales-engagement.html">sales engagement suites</a>, or <a href="../categories/crm-pipeline.html">CRM and pipeline management</a>, <a href="../categories/meeting-schedulers.html">meeting schedulers</a>, and <a href="../categories/sales-analytics.html">sales analytics</a>. You can also explore individual tool reviews in our <a href="../tools/index.html">tools directory</a>.</p>
-            <p>Each comparison pairs with full individual reviews for both tools. Before reading a head-to-head, you may want to start with our standalone assessments: <a href="../tools/clay-review.html">Clay</a>, <a href="../tools/apollo-review.html">Apollo.io</a>, <a href="../tools/gong-review.html">Gong</a>, <a href="../tools/instantly-review.html">Instantly</a>, and <a href="../tools/outreach-review.html">Outreach</a> are among the most referenced across our comparisons. For teams exploring adjacent categories, our <a href="../categories/data-enrichment.html">data enrichment</a> and <a href="../categories/dialers-calling.html">dialers and calling</a> hubs cover tools that often complement the platforms compared here.</p>
-            <div class="compare-grid">
-                <a href="clay-vs-apollo.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Clay</h3>
-                            <span class="compare-rating">4.9/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Apollo.io</h3>
-                            <span class="compare-rating">4.8/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Clay wins for data enrichment depth and multi-source waterfall. Apollo wins as an all-in-one if you need prospecting + o...</p>
-                </a>
-                <a href="instantly-vs-smartlead.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Instantly.ai</h3>
-                            <span class="compare-rating">4.8/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Smartlead</h3>
-                            <span class="compare-rating">4.7/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Instantly wins on UX, deliverability, and Unibox. Smartlead wins for agencies managing multiple clients with white-label...</p>
-                </a>
-                <a href="gong-vs-chorus.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Gong</h3>
-                            <span class="compare-rating">4.7/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Chorus (ZoomInfo)</h3>
-                            <span class="compare-rating">4.5/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Gong is the market leader with deeper analytics and better AI insights. Chorus is solid if you already use ZoomInfo and ...</p>
-                </a>
-                <a href="apollo-vs-zoominfo.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Apollo.io</h3>
-                            <span class="compare-rating">4.8/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>ZoomInfo</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Apollo is the clear winner for SMBs and startups with its free tier and affordable pricing. ZoomInfo is enterprise-grade...</p>
-                </a>
-                <a href="outreach-vs-salesloft.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Outreach</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Salesloft</h3>
-                            <span class="compare-rating">4.5/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Both are excellent enterprise sales engagement platforms. Outreach edges ahead on analytics and AI. Salesloft wins on UX...</p>
-                </a>
-                <a href="instantly-vs-lemlist.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Instantly.ai</h3>
-                            <span class="compare-rating">4.8/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Lemlist</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Instantly wins for pure high-volume cold email with better deliverability. Lemlist wins for creative, personalized multi...</p>
-                </a>
-                <a href="clay-vs-clearbit.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Clay</h3>
-                            <span class="compare-rating">4.9/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Clearbit (HubSpot)</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Clay is far more powerful for enrichment with 50+ data sources. Clearbit is simpler and better for HubSpot-native teams ...</p>
-                </a>
-                <a href="lusha-vs-apollo.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Lusha</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Apollo.io</h3>
-                            <span class="compare-rating">4.8/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Apollo offers far more value as an all-in-one platform. Lusha is simpler and faster for individual reps who just need di...</p>
-                </a>
-                <a href="hubspot-vs-pipedrive.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>HubSpot Sales Hub</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Pipedrive</h3>
-                            <span class="compare-rating">4.2/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">HubSpot wins for growing teams that want marketing + sales unified with a powerful free tier. Pipedrive wins for small t...</p>
-                </a>
-                <a href="lavender-vs-instantly.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Lavender</h3>
-                            <span class="compare-rating">4.6/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Instantly.ai</h3>
-                            <span class="compare-rating">4.8/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">These aren't direct competitors — they're complementary. Lavender coaches you to write better emails. Instantly sends th...</p>
-                </a>
-                <a href="calendly-vs-chili-piper.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Calendly</h3>
-                            <span class="compare-rating">4.7/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Chili Piper</h3>
-                            <span class="compare-rating">4.6/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Calendly wins for self-service booking simplicity and broad use cases. Chili Piper wins for inbound lead routing and spe...</p>
-                </a>
-                <a href="seamless-ai-vs-apollo.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Seamless.AI</h3>
-                            <span class="compare-rating">4.2/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Apollo.io</h3>
-                            <span class="compare-rating">4.8/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Apollo wins as an all-in-one prospecting and outreach platform. Seamless.AI wins for real-time AI-powered contact discov...</p>
-                </a>
-                <a href="clari-vs-gong.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Clari</h3>
-                            <span class="compare-rating">4.6/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Gong</h3>
-                            <span class="compare-rating">4.7/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Clari wins for pipeline forecasting accuracy and revenue operations. Gong wins for conversation intelligence and rep coa...</p>
-                </a>
-                <a href="reply-io-vs-instantly.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Reply.io</h3>
-                            <span class="compare-rating">4.6/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Instantly.ai</h3>
-                            <span class="compare-rating">4.8/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Reply.io wins for multichannel cadences spanning email, LinkedIn, phone, and SMS. Instantly wins for pure email volume w...</p>
-                </a>
-                <a href="clay-vs-zoominfo.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Clay</h3>
-                            <span class="compare-rating">4.9/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>ZoomInfo</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Clay wins for waterfall enrichment across 80+ providers. ZoomInfo wins for enterprise teams needing intent data and sing...</p>
-                </a>
-                <a href="lavender-vs-lemlist.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Lavender</h3>
-                            <span class="compare-rating">4.6/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Lemlist</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Lavender wins as an AI email writing coach that scores and improves drafts. Lemlist wins for visual personalization seque...</p>
-                </a>
-                <a href="aircall-vs-dialpad.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Aircall</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Dialpad</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Aircall wins for traditional call center routing and international numbers. Dialpad wins for AI-native transcription and...</p>
-                </a>
-                <a href="salesloft-vs-instantly.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Salesloft</h3>
-                            <span class="compare-rating">4.5/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Instantly.ai</h3>
-                            <span class="compare-rating">4.8/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Salesloft wins for enterprise revenue orchestration with built-in deal intelligence. Instantly wins for high-volume emai...</p>
-                </a>
-                <a href="chorus-vs-clari.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Chorus (ZoomInfo)</h3>
-                            <span class="compare-rating">4.5/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Clari</h3>
-                            <span class="compare-rating">4.6/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Chorus wins for coaching scorecards and call pattern analysis. Clari wins for pipeline forecasting and revenue operati...</p>
-                </a>
-                <a href="clari-vs-fireflies.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Clari</h3>
-                            <span class="compare-rating">4.6/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Fireflies.ai</h3>
-                            <span class="compare-rating">4.5/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Clari wins for revenue forecasting and pipeline inspection. Fireflies wins for affordable meeting transcription and se...</p>
-                </a>
-                <a href="clearbit-vs-lusha.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Clearbit (HubSpot)</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Lusha</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Clearbit wins for passive website visitor enrichment and HubSpot integration. Lusha wins for on-demand contact reveals ...</p>
-                </a>
-                <a href="clearbit-vs-seamless-ai.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Clearbit (HubSpot)</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Seamless.AI</h3>
-                            <span class="compare-rating">4.2/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Clearbit wins for passive API-first enrichment and CRM integration. Seamless.AI wins for active prospecting with real-t...</p>
-                </a>
-                <a href="dialpad-vs-orum.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Dialpad</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Orum</h3>
-                            <span class="compare-rating">4.6/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Dialpad wins for AI transcription and unified communications. Orum wins for parallel dialing speed and outbound blitz c...</p>
-                </a>
-                <a href="fireflies-vs-chorus.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Fireflies.ai</h3>
-                            <span class="compare-rating">4.5/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Chorus (ZoomInfo)</h3>
-                            <span class="compare-rating">4.5/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Fireflies wins on affordability and standalone meeting transcription. Chorus wins for enterprise conversation intellig...</p>
-                </a>
-                <a href="fireflies-vs-gong.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Fireflies.ai</h3>
-                            <span class="compare-rating">4.5/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Gong</h3>
-                            <span class="compare-rating">4.7/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Fireflies wins on price and lightweight meeting capture. Gong wins for enterprise revenue intelligence and deeper anal...</p>
-                </a>
-                <a href="instantly-vs-mailshake.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Instantly.ai</h3>
-                            <span class="compare-rating">4.8/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Mailshake</h3>
-                            <span class="compare-rating">4.7/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Instantly wins for unlimited email accounts and inbox rotation at scale. Mailshake wins for multi-channel engagement wi...</p>
-                </a>
-                <a href="justcall-vs-aircall.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>JustCall</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Aircall</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">JustCall wins for power dialing with built-in SMS at a lower price. Aircall wins for established call center routing a...</p>
-                </a>
-                <a href="justcall-vs-dialpad.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>JustCall</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Dialpad</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">JustCall wins as a focused power dialer with SMS for sales teams. Dialpad wins for AI-powered unified communications a...</p>
-                </a>
-                <a href="lavender-vs-reply-io.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Lavender</h3>
-                            <span class="compare-rating">4.6/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Reply.io</h3>
-                            <span class="compare-rating">4.6/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Lavender wins as an AI email writing coach that scores and improves drafts. Reply.io wins for multichannel sequence aut...</p>
-                </a>
-                <a href="lemlist-vs-smartlead.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Lemlist</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Smartlead</h3>
-                            <span class="compare-rating">4.7/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Lemlist wins for creative multichannel personalization and visual outreach. Smartlead wins for agency-scale infrastruct...</p>
-                </a>
-                <a href="lusha-vs-zoominfo.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Lusha</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>ZoomInfo</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Lusha wins for self-serve credit-based contact reveals and quick prospecting. ZoomInfo wins for enterprise intelligence...</p>
-                </a>
-                <a href="orum-vs-aircall.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Orum</h3>
-                            <span class="compare-rating">4.6/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Aircall</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Orum wins for outbound parallel dialing speed and SDR productivity. Aircall wins for enterprise cloud phone with inbou...</p>
-                </a>
-                <a href="orum-vs-justcall.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Orum</h3>
-                            <span class="compare-rating">4.6/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>JustCall</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Orum wins for parallel dialing speed and live conversation rates. JustCall wins as an affordable multi-channel phone sy...</p>
-                </a>
-                <a href="reply-io-vs-lemlist.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Reply.io</h3>
-                            <span class="compare-rating">4.6/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Lemlist</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Reply.io wins for four-channel breadth spanning email, LinkedIn, phone, and SMS. Lemlist wins for visual personalizatio...</p>
-                </a>
-                <a href="reply-io-vs-outreach.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Reply.io</h3>
-                            <span class="compare-rating">4.6/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Outreach</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Reply.io wins for self-serve multichannel outreach at an accessible price. Outreach wins for enterprise engagement sui...</p>
-                </a>
-                <a href="seamless-ai-vs-lusha.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Seamless.AI</h3>
-                            <span class="compare-rating">4.2/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Lusha</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Seamless.AI wins for bulk AI-powered contact search at scale. Lusha wins for quick one-at-a-time contact reveals with b...</p>
-                </a>
-                <a href="seamless-ai-vs-zoominfo.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Seamless.AI</h3>
-                            <span class="compare-rating">4.2/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>ZoomInfo</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Seamless.AI wins for credit-based AI search at accessible pricing. ZoomInfo wins for enterprise intent data and compre...</p>
-                </a>
-                <a href="woodpecker-vs-instantly.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Woodpecker</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Instantly.ai</h3>
-                            <span class="compare-rating">4.8/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Woodpecker wins for adaptive sending and small-team deliverability. Instantly wins for unlimited mailbox volume and sca...</p>
-                </a>
-                <a href="woodpecker-vs-lemlist.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Woodpecker</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Lemlist</h3>
-                            <span class="compare-rating">4.4/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Woodpecker wins for adaptive sending intelligence and deliverability focus. Lemlist wins for multichannel personalizati...</p>
-                </a>
-                <a href="woodpecker-vs-mailshake.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Woodpecker</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Mailshake</h3>
-                            <span class="compare-rating">4.7/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Woodpecker wins for adaptive sending and deliverability automation. Mailshake wins for multi-channel control with a bui...</p>
-                </a>
-                <a href="woodpecker-vs-smartlead.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Woodpecker</h3>
-                            <span class="compare-rating">4.3/5 G2</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Smartlead</h3>
-                            <span class="compare-rating">4.7/5 G2</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Woodpecker wins for small-team deliverability and adaptive sending. Smartlead wins for agency multi-client infrastructu...</p>
-                </a>
-                <a href="close-vs-freshsales.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Close</h3>
-                            <span class="compare-rating">4.2/5 SAG</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Freshsales</h3>
-                            <span class="compare-rating">4.1/5 SAG</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Outbound Calling CRM vs AI-Scored Pipeline Manager. Close wins for built-in calling velocity; Freshsales wins for AI le...</p>
-                </a>
-                <a href="close-vs-hubspot.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Close</h3>
-                            <span class="compare-rating">4.2/5 SAG</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>HubSpot</h3>
-                            <span class="compare-rating">4.4/5 SAG</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Built-in dialer CRM vs all-in-one growth platform</p>
-                </a>
-                <a href="close-vs-pipedrive.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Close</h3>
-                            <span class="compare-rating">4.2/5 SAG</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Pipedrive</h3>
-                            <span class="compare-rating">4.2/5 SAG</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Outbound calling CRM vs visual deal pipeline</p>
-                </a>
-                <a href="freshsales-vs-hubspot.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Freshsales</h3>
-                            <span class="compare-rating">4.1/5 SAG</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>HubSpot</h3>
-                            <span class="compare-rating">4.4/5 SAG</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">AI lead scoring engine vs marketing-aligned CRM</p>
-                </a>
-                <a href="freshsales-vs-pipedrive.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Freshsales</h3>
-                            <span class="compare-rating">4.1/5 SAG</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Pipedrive</h3>
-                            <span class="compare-rating">4.2/5 SAG</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Freddy AI suite vs intuitive pipeline builder</p>
-                </a>
-                <a href="kixie-vs-orum.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Kixie</h3>
-                            <span class="compare-rating">4.1/5 SAG</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Orum</h3>
-                            <span class="compare-rating">4.3/5 SAG</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">CRM-Native Power Dialer vs AI Parallel Dialing Platform. Kixie wins for CRM-integrated calling; Orum wins for parallel ...</p>
-                </a>
-                <a href="kixie-vs-aircall.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Kixie</h3>
-                            <span class="compare-rating">4.1/5 SAG</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Aircall</h3>
-                            <span class="compare-rating">4.3/5 SAG</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Local presence dialer vs cloud contact center</p>
-                </a>
-                <a href="kixie-vs-justcall.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Kixie</h3>
-                            <span class="compare-rating">4.1/5 SAG</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>JustCall</h3>
-                            <span class="compare-rating">4.3/5 SAG</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Power dialer vs multi-channel business phone</p>
-                </a>
-                <a href="savvycal-vs-calendly.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>SavvyCal</h3>
-                            <span class="compare-rating">4.3/5 SAG</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Calendly</h3>
-                            <span class="compare-rating">4.5/5 SAG</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Recipient-First Scheduling vs High-Volume Booking Engine. SavvyCal wins for personalized invitee experience; Calendly w...</p>
-                </a>
-                <a href="savvycal-vs-chili-piper.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>SavvyCal</h3>
-                            <span class="compare-rating">4.3/5 SAG</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Chili Piper</h3>
-                            <span class="compare-rating">4.6/5 SAG</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Personalized calendar links vs inbound lead routing</p>
-                </a>
-                <a href="hunter-vs-apollo.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Hunter.io</h3>
-                            <span class="compare-rating">4.2/5 SAG</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Apollo.io</h3>
-                            <span class="compare-rating">4.8/5 SAG</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Email Finder Specialist vs All-in-One Prospecting Platform. Hunter wins for focused email discovery; Apollo wins for ful...</p>
-                </a>
-                <a href="hunter-vs-lusha.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool">
-                            <h3>Hunter.io</h3>
-                            <span class="compare-rating">4.2/5 SAG</span>
-                        </div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool">
-                            <h3>Lusha</h3>
-                            <span class="compare-rating">4.3/5 SAG</span>
-                        </div>
-                    </div>
-                    <p class="compare-summary">Domain search engine vs direct-dial database</p>
-                </a>
-            </div>
-        </div>
-    </section>
+    <!-- Cold Outreach -->
+    <div class="compare-section">
+      <div class="compare-section__header">
+        <div class="compare-section__label">Cold Outreach</div>
+        <h2 class="compare-section__title">Cold Email &amp; Outreach Tools</h2>
+      </div>
+      <div class="compare-grid">
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-col">
-                    <h4>Sales<span class="highlight">AI</span>Guide</h4>
-                    <p>Honest reviews of AI tools for sales professionals who need results, not hype.</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Categories</h4>
-                    <ul>
-                        <li><a href="../categories/cold-outreach.html">Cold Outreach</a></li>
-                        <li><a href="../categories/lead-prospecting.html">Lead Prospecting</a></li>
-                        <li><a href="../categories/conversation-intelligence.html">Conversation Intelligence</a></li>
-                        <li><a href="../categories/sales-engagement.html">Sales Engagement</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="../compare/index.html">Comparisons</a></li>
-                        <li><a href="../about.html">About</a></li>
-                        <li><a href="../disclosure.html">Disclosure</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Top Tools</h4>
-                    <ul>
-                        <li><a href="../tools/index.html">All Tools</a></li>
-                        <li><a href="../compare/clay-vs-apollo.html">Clay vs Apollo</a></li>
-                        <li><a href="../compare/instantly-vs-smartlead.html">Instantly vs Smartlead</a></li>
-                    </ul>
-                </div>
+        <a href="instantly-vs-smartlead.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Instantly.ai</div>
+              <div class="comparison-card__rating">4.8/5 G2</div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Sales AI Guide. All rights reserved.</p>
-                <p class="disclosure">This site contains affiliate links. We may earn commission when you purchase through our links at no additional cost to you. <a href="../disclosure.html">Learn more</a></p>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Smartlead</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
             </div>
-        </div>
-    </footer>
+          </div>
+          <p class="comparison-card__verdict">Instantly wins on UX and deliverability. Smartlead wins for agencies managing multiple clients.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
 
-    <script src="../js/main.js"></script>
+        <a href="instantly-vs-lemlist.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Instantly.ai</div>
+              <div class="comparison-card__rating">4.8/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Lemlist</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Instantly wins for high-volume cold email. Lemlist wins for creative personalized multichannel.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="instantly-vs-mailshake.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Instantly.ai</div>
+              <div class="comparison-card__rating">4.8/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Mailshake</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Instantly for unlimited email accounts. Mailshake for broader sales engagement suite.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="lemlist-vs-smartlead.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Lemlist</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Smartlead</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Lemlist for multichannel personalization. Smartlead for agency volume infrastructure.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="woodpecker-vs-instantly.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Woodpecker</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Instantly.ai</div>
+              <div class="comparison-card__rating">4.8/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Woodpecker for adaptive sending on moderate volume. Instantly for unlimited high-volume sending.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="woodpecker-vs-lemlist.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Woodpecker</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Lemlist</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Woodpecker for deliverability-first campaigns. Lemlist for creative personalization with images.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="woodpecker-vs-mailshake.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Woodpecker</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Mailshake</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Woodpecker for automated deliverability management. Mailshake for phone + email sales engagement.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="woodpecker-vs-smartlead.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Woodpecker</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Smartlead</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Woodpecker for small B2B teams. Smartlead for agency infrastructure managing multiple clients.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- Sales Engagement -->
+    <div class="compare-section">
+      <div class="compare-section__header">
+        <div class="compare-section__label">Sales Engagement</div>
+        <h2 class="compare-section__title">Sales Engagement &amp; Multichannel Outreach</h2>
+      </div>
+      <div class="compare-grid">
+
+        <a href="outreach-vs-salesloft.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Outreach</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Salesloft</div>
+              <div class="comparison-card__rating">4.5/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Both are excellent enterprise platforms. Outreach edges ahead on analytics; Salesloft wins on UX.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="reply-io-vs-outreach.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Reply.io</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Outreach</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Reply.io for SMB self-serve multichannel. Outreach for enterprise sales operations teams.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="reply-io-vs-instantly.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Reply.io</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Instantly.ai</div>
+              <div class="comparison-card__rating">4.8/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Reply.io for multichannel (email + LinkedIn + phone). Instantly.ai for pure-email volume.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="reply-io-vs-lemlist.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Reply.io</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Lemlist</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Reply.io for phone + SMS + LinkedIn in one cadence. Lemlist for creative personalization.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="salesloft-vs-instantly.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Salesloft</div>
+              <div class="comparison-card__rating">4.5/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Instantly.ai</div>
+              <div class="comparison-card__rating">4.8/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Salesloft for full-cycle revenue orchestration. Instantly for pure email volume engine.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="lavender-vs-instantly.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Lavender</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Instantly.ai</div>
+              <div class="comparison-card__rating">4.8/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Not direct competitors — Lavender coaches email writing, Instantly sends at scale.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="lavender-vs-lemlist.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Lavender</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Lemlist</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Lavender for real-time email coaching. Lemlist for visual personalization sequences.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="lavender-vs-reply-io.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Lavender</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Reply.io</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Lavender is an email coaching layer. Reply.io is a full multichannel execution platform.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- Data Enrichment & Prospecting -->
+    <div class="compare-section">
+      <div class="compare-section__header">
+        <div class="compare-section__label">Data Enrichment &amp; Prospecting</div>
+        <h2 class="compare-section__title">Lead Prospecting &amp; Data Enrichment</h2>
+      </div>
+      <div class="compare-grid">
+
+        <a href="clay-vs-apollo.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Clay</div>
+              <div class="comparison-card__rating">4.9/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Apollo.io</div>
+              <div class="comparison-card__rating">4.8/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Clay for RevOps waterfall enrichment. Apollo for daily-driver SDR prospecting and outreach.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="clay-vs-clearbit.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Clay</div>
+              <div class="comparison-card__rating">4.9/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Clearbit (HubSpot)</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Clay for flexible multi-provider waterfall. Clearbit for passive HubSpot-native enrichment.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="clay-vs-zoominfo.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Clay</div>
+              <div class="comparison-card__rating">4.9/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">ZoomInfo</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Clay for waterfall enrichment across 80+ providers. ZoomInfo for intent data and enterprise accounts.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="apollo-vs-zoominfo.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Apollo.io</div>
+              <div class="comparison-card__rating">4.8/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">ZoomInfo</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Apollo for database scale and free tier accessibility. ZoomInfo for intent data and enterprise depth.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="lusha-vs-apollo.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Lusha</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Apollo.io</div>
+              <div class="comparison-card__rating">4.8/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Apollo offers far more value as all-in-one. Lusha is simpler for quick individual contact reveals.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="lusha-vs-zoominfo.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Lusha</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">ZoomInfo</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Lusha for self-serve SMB contact reveals. ZoomInfo for enterprise intent data platform.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="seamless-ai-vs-apollo.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Seamless.AI</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Apollo.io</div>
+              <div class="comparison-card__rating">4.8/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Seamless.AI for real-time AI contact search. Apollo for all-in-one prospecting and outreach.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="seamless-ai-vs-lusha.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Seamless.AI</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Lusha</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Seamless.AI for bulk AI search. Lusha for simple browser extension contact reveal.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="seamless-ai-vs-zoominfo.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Seamless.AI</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">ZoomInfo</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Seamless.AI for credit-based AI search without annual contracts. ZoomInfo for enterprise intent platform.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="clearbit-vs-lusha.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Clearbit</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Lusha</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Clearbit for passive website visitor deanonymization. Lusha for on-demand contact reveal.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="clearbit-vs-seamless-ai.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Clearbit</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Seamless.AI</div>
+              <div class="comparison-card__rating">4.2/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Clearbit for passive HubSpot enrichment. Seamless.AI for active AI-powered contact search.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="hunter-vs-apollo.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Hunter.io</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Apollo.io</div>
+              <div class="comparison-card__rating">4.8/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Hunter.io for domain-level email finding. Apollo for full prospecting and engagement platform.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="hunter-vs-lusha.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Hunter.io</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Lusha</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Hunter.io for email finding and verification. Lusha for direct dial phone numbers.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- Conversation Intelligence -->
+    <div class="compare-section">
+      <div class="compare-section__header">
+        <div class="compare-section__label">Conversation Intelligence</div>
+        <h2 class="compare-section__title">Call Recording &amp; Revenue Intelligence</h2>
+      </div>
+      <div class="compare-grid">
+
+        <a href="gong-vs-chorus.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Gong</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Chorus (ZoomInfo)</div>
+              <div class="comparison-card__rating">4.5/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Gong is the market leader with deeper analytics. Chorus if you already use ZoomInfo.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="fireflies-vs-gong.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Fireflies.ai</div>
+              <div class="comparison-card__rating">4.5/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Gong</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Fireflies for affordable meeting notes. Gong for full revenue intelligence platform.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="fireflies-vs-chorus.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Fireflies.ai</div>
+              <div class="comparison-card__rating">4.5/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Chorus (ZoomInfo)</div>
+              <div class="comparison-card__rating">4.5/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Fireflies for independent affordable transcription. Chorus if embedded in ZoomInfo ecosystem.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="clari-vs-gong.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Clari</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Gong</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Clari for AI-driven pipeline forecasting. Gong for conversation intelligence and coaching.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="clari-vs-fireflies.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Clari</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Fireflies.ai</div>
+              <div class="comparison-card__rating">4.5/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Clari for revenue forecasting and deal inspection. Fireflies for meeting intelligence and notes.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="chorus-vs-clari.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Chorus</div>
+              <div class="comparison-card__rating">4.5/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Clari</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Chorus for coaching scorecards and ZoomInfo integration. Clari for revenue forecasting.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- CRM & Pipeline -->
+    <div class="compare-section">
+      <div class="compare-section__header">
+        <div class="compare-section__label">CRM &amp; Pipeline</div>
+        <h2 class="compare-section__title">CRM &amp; Pipeline Management</h2>
+      </div>
+      <div class="compare-grid">
+
+        <a href="hubspot-vs-pipedrive.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">HubSpot Sales Hub</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Pipedrive</div>
+              <div class="comparison-card__rating">4.2/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">HubSpot for marketing + sales unified with free tier. Pipedrive for simple visual pipeline management.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="close-vs-hubspot.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Close</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">HubSpot</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Close for phone-heavy SMB sales with built-in dialer. HubSpot for complete marketing + sales platform.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="close-vs-pipedrive.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Close</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Pipedrive</div>
+              <div class="comparison-card__rating">4.2/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Close for phone-first sales teams with built-in calling. Pipedrive for visual pipeline simplicity.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="close-vs-freshsales.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Close</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Freshsales</div>
+              <div class="comparison-card__rating">4.5/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Close for outbound-first teams with power dialer. Freshsales for AI scoring and Freshworks ecosystem.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="freshsales-vs-hubspot.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Freshsales</div>
+              <div class="comparison-card__rating">4.5/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">HubSpot CRM</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Freshsales for AI scoring and native phone. HubSpot for complete platform with strong free tier.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="freshsales-vs-pipedrive.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Freshsales</div>
+              <div class="comparison-card__rating">4.5/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Pipedrive</div>
+              <div class="comparison-card__rating">4.2/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Freshsales for AI lead scoring and Freshworks bundle. Pipedrive for visual simplicity and affordability.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- Dialers & Calling -->
+    <div class="compare-section">
+      <div class="compare-section__header">
+        <div class="compare-section__label">Dialers &amp; Calling</div>
+        <h2 class="compare-section__title">Sales Dialers &amp; Calling Platforms</h2>
+      </div>
+      <div class="compare-grid">
+
+        <a href="aircall-vs-dialpad.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Aircall</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Dialpad</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Aircall for call center routing. Dialpad for AI transcription and unified communications.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="dialpad-vs-orum.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Dialpad</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Orum</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Dialpad for UCaaS with transcription. Orum for parallel dialing and virtual salesfloor.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="justcall-vs-aircall.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">JustCall</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Aircall</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">JustCall for calling plus SMS at lower price. Aircall for mature call center routing and teams 10+.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="justcall-vs-dialpad.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">JustCall</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Dialpad</div>
+              <div class="comparison-card__rating">4.4/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">JustCall for focused dialer plus SMS. Dialpad for AI coaching and unified communications.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="kixie-vs-aircall.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Kixie</div>
+              <div class="comparison-card__rating">4.8/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Aircall</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Kixie for CRM-native power dialer with local presence. Aircall for enterprise call center routing.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="kixie-vs-justcall.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Kixie</div>
+              <div class="comparison-card__rating">4.8/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">JustCall</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Kixie for ConnectionBoost and CRM-native dialing. JustCall for SMS-heavy outreach at lower price.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="kixie-vs-orum.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Kixie</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Orum</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Kixie for SMB CRM-native power dialing. Orum for enterprise parallel dialing blitzes.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="orum-vs-aircall.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Orum</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Aircall</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Orum for high-volume SDR parallel dialing. Aircall for structured inbound/outbound call center.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="orum-vs-justcall.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Orum</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">JustCall</div>
+              <div class="comparison-card__rating">4.3/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Orum for SDR parallel dialing and virtual salesfloor. JustCall for affordable power dialer with SMS.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- Meeting Schedulers -->
+    <div class="compare-section">
+      <div class="compare-section__header">
+        <div class="compare-section__label">Meeting Schedulers</div>
+        <h2 class="compare-section__title">Meeting Scheduling &amp; Lead Routing</h2>
+      </div>
+      <div class="compare-grid">
+
+        <a href="calendly-vs-chili-piper.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Calendly</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Chili Piper</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">Calendly for scheduling links and simplicity. Chili Piper for instant inbound form-to-meeting routing.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="savvycal-vs-calendly.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">SavvyCal</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Calendly</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">SavvyCal for recipient-first booking with calendar overlay. Calendly for broad use cases and free tier.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+        <a href="savvycal-vs-chili-piper.html" class="comparison-card">
+          <div class="comparison-card__vs-row">
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">SavvyCal</div>
+              <div class="comparison-card__rating">4.7/5 G2</div>
+            </div>
+            <span class="comparison-card__vs">VS</span>
+            <div class="comparison-card__tool">
+              <div class="comparison-card__tool-name">Chili Piper</div>
+              <div class="comparison-card__rating">4.6/5 G2</div>
+            </div>
+          </div>
+          <p class="comparison-card__verdict">SavvyCal for founder and consultant scheduling. Chili Piper for Salesforce-native inbound lead routing.</p>
+          <span class="comparison-card__link">See Full Comparison &rarr;</span>
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">SalesAIGuide</div>
+        <p class="footer__brand-tagline">Honest reviews of AI tools for sales professionals who need results, not hype.</p>
+      </div>
+      <div>
+        <h4 class="footer__heading">Top Tools</h4>
+        <div class="footer__links">
+          <a href="/tools/instantly-review.html" class="footer__link">Instantly.ai</a>
+          <a href="/tools/clay-review.html" class="footer__link">Clay</a>
+          <a href="/tools/apollo-review.html" class="footer__link">Apollo.io</a>
+          <a href="/tools/gong-review.html" class="footer__link">Gong</a>
+          <a href="/tools/hubspot-review.html" class="footer__link">HubSpot</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Categories</h4>
+        <div class="footer__links">
+          <a href="/categories/cold-outreach.html" class="footer__link">Cold Outreach</a>
+          <a href="/categories/lead-prospecting.html" class="footer__link">Lead Prospecting</a>
+          <a href="/categories/data-enrichment.html" class="footer__link">Data Enrichment</a>
+          <a href="/categories/conversation-intelligence.html" class="footer__link">Conversation Intel</a>
+          <a href="/categories/sales-engagement.html" class="footer__link">Sales Engagement</a>
+          <a href="/categories/crm-pipeline.html" class="footer__link">CRM &amp; Pipeline</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Site</h4>
+        <div class="footer__links">
+          <a href="/about.html" class="footer__link">About</a>
+          <a href="/compare/" class="footer__link">Comparisons</a>
+          <a href="/disclosure.html" class="footer__link">Disclosure</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__disclosure">This site contains affiliate links. We may earn a commission when you purchase through our links at no additional cost to you. Our ratings and rankings are never influenced by affiliate partnerships. <a href="/disclosure.html">Full disclosure</a></p>
+      <p class="footer__copyright">&copy; 2026 SalesAIGuide. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="../js/theme.js" defer></script>
+<script src="../js/nav.js" defer></script>
+
 </body>
 </html>

@@ -6,7 +6,27 @@
     <title>Sales AI Guide - Best AI Tools for Sales Teams in 2026</title>
     <meta name="description" content="Honest reviews and comparisons of the best AI sales tools. Find the perfect AI solution for prospecting, email outreach, and conversation intelligence.">
     <link rel="canonical" href="https://salesaiguide.com/">
-    <link rel="stylesheet" href="css/main.css">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sales AI Guide - Best AI Tools for Sales Teams in 2026">
+    <meta property="og:description" content="Honest reviews and comparisons of the best AI sales tools. Find the perfect AI solution for prospecting, email outreach, and conversation intelligence.">
+    <meta property="og:url" content="https://salesaiguide.com/">
+    <meta property="og:site_name" content="SalesAIGuide">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sales AI Guide - Best AI Tools for Sales Teams in 2026">
+    <meta name="twitter:description" content="Honest reviews and comparisons of the best AI sales tools. Find the perfect AI solution for prospecting, email outreach, and conversation intelligence.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <script>
+    (function(){
+      var t = localStorage.getItem('salesaiguide-theme') ||
+        (window.matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+    </script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -18,457 +38,945 @@
     </script>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <a href="index.html">
-                    <span class="logo">Sales<span class="highlight">AI</span>Guide</span>
-                </a>
+
+<!-- ============ Navbar ============ -->
+<nav class="navbar" aria-label="Main navigation">
+  <div class="container navbar__inner">
+    <a href="/" class="navbar__logo">
+      <svg class="navbar__logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="32" height="32" rx="8" fill="var(--color-accent)"/>
+        <path d="M8 20 L12 12 L16 18 L20 10 L24 16" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <circle cx="24" cy="16" r="2" fill="#fff"/>
+      </svg>
+      SalesAIGuide
+    </a>
+
+    <div class="navbar__links">
+      <a href="/tools/" class="navbar__link">Tools</a>
+      <a href="/compare/" class="navbar__link">Compare</a>
+      <a href="/categories/" class="navbar__link">Categories</a>
+      <a href="/about.html" class="navbar__link">About</a>
+    </div>
+
+    <div class="navbar__actions">
+      <div class="navbar__search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" placeholder="Search tools..." aria-label="Search tools">
+      </div>
+
+      <button class="theme-toggle" aria-label="Switch to dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+
+      <button class="navbar__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile nav drawer -->
+<div class="mobile-nav__overlay"></div>
+<nav class="mobile-nav" aria-label="Mobile navigation">
+  <a href="/tools/" class="mobile-nav__link">Tools</a>
+  <a href="/compare/" class="mobile-nav__link">Compare</a>
+  <a href="/categories/" class="mobile-nav__link">Categories</a>
+  <a href="/about.html" class="mobile-nav__link">About</a>
+</nav>
+
+<!-- ============ Hero ============ -->
+<section class="hero">
+  <div class="container">
+    <div class="hero__eyebrow">Updated March 2026</div>
+    <h1 class="hero__title">Find the Right AI Sales Tool in 60 Seconds</h1>
+    <p class="hero__subtitle">Honest reviews from a sales exec who's tested 40+ AI tools in real revenue workflows. No pay-to-play rankings.</p>
+
+    <!-- Category Tabs -->
+    <div class="category-tabs" data-tabs="categories">
+      <button class="category-tab active" data-tab="cold-outreach">&#x2709;&#xFE0F; Cold Outreach</button>
+      <button class="category-tab" data-tab="lead-prospecting">&#x1F3AF; Lead Prospecting</button>
+      <button class="category-tab" data-tab="data-enrichment">&#x1F4CA; Data Enrichment</button>
+      <button class="category-tab" data-tab="conversation-intel">&#x1F399;&#xFE0F; Conversation Intel</button>
+      <button class="category-tab" data-tab="sales-engagement">&#x26A1; Sales Engagement</button>
+      <button class="category-tab" data-tab="crm-pipeline">&#x1F4BC; CRM &amp; Pipeline</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Tool Cards by Category ============ -->
+<section class="section" id="featured-tools">
+  <div class="container">
+    <div class="tab-panels" data-panels="categories">
+
+      <!-- ====== Cold Outreach ====== -->
+      <div class="tab-panel active" data-panel="cold-outreach">
+        <div class="tool-grid">
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#1</div>
+            <div class="tool-card__best-for">Best for High-Volume Sending</div>
+            <h3 class="tool-card__name">Instantly.ai</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.8</span>
             </div>
-            <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-menu').classList.toggle('active')">&#9776;</button>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="tools/index.html">Tools</a></li>
-                <li><a href="compare/index.html">Compare</a></li>
-                <li><a href="categories/index.html">Categories</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
+            <div class="tool-card__price">$37<span>/mo</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Unlimited email accounts
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Built-in email warmup
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Unibox inbox management
+              </div>
+            </div>
+            <a href="/go/instantly" class="tool-card__cta" target="_blank" rel="noopener">Try Free &rarr;</a>
+            <a href="/tools/instantly-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="instantly" data-compare-name="Instantly.ai" aria-label="Add Instantly.ai to compare">
+              Add to compare
+            </label>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#2</div>
+            <div class="tool-card__best-for">Best for Agencies</div>
+            <h3 class="tool-card__name">Smartlead</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.5</span>
+            </div>
+            <div class="tool-card__price">$39<span>/mo</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Unlimited mailboxes
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Multi-client management
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Auto mailbox rotation
+              </div>
+            </div>
+            <a href="/go/smartlead" class="tool-card__cta" target="_blank" rel="noopener">Try Free &rarr;</a>
+            <a href="/tools/smartlead-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="smartlead" data-compare-name="Smartlead" aria-label="Add Smartlead to compare">
+              Add to compare
+            </label>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#3</div>
+            <div class="tool-card__best-for">Best for Personalization</div>
+            <h3 class="tool-card__name">Lemlist</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.2</span>
+            </div>
+            <div class="tool-card__price">$59<span>/mo</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Personalized images
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Multi-channel sequences
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Lemwarm email warmup
+              </div>
+            </div>
+            <a href="/go/lemlist" class="tool-card__cta" target="_blank" rel="noopener">Try Free &rarr;</a>
+            <a href="/tools/lemlist-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="lemlist" data-compare-name="Lemlist" aria-label="Add Lemlist to compare">
+              Add to compare
+            </label>
+          </div>
+
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Find the Best AI Tools to <span class="highlight">Close More Deals</span></h1>
-                <p class="hero-subtitle">Honest reviews from a sales exec who's tested 50+ AI tools in real revenue workflows. Cut through the hype, find what actually works.</p>
-                <div class="hero-cta">
-                    <a href="#featured-tools" class="btn btn-primary">Explore Top Tools</a>
-                    <a href="#comparisons" class="btn btn-secondary">See Comparisons</a>
-                </div>
-                <div class="trust-badges">
-                    <span>Trusted by sales teams at:</span>
-                    <div class="badge-list">
-                        <span>Fortune 500</span>
-                        <span>Startups</span>
-                        <span>SMBs</span>
-                    </div>
-                </div>
-            </div>
+        <div class="section__view-all">
+          <a href="/categories/cold-outreach.html">View All Cold Outreach Tools &rarr;</a>
         </div>
-    </section>
+      </div>
 
-    <!-- Featured Tools -->
-    <section class="featured-tools" id="featured-tools">
-        <div class="container">
-            <div class="section-header">
-                <h2>Top-Rated AI Sales Tools</h2>
-                <p>The tools I actually use and recommend for revenue teams</p>
+      <!-- ====== Lead Prospecting ====== -->
+      <div class="tab-panel" data-panel="lead-prospecting">
+        <div class="tool-grid">
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#1</div>
+            <div class="tool-card__best-for">Best All-in-One Platform</div>
+            <h3 class="tool-card__name">Apollo.io</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.8</span>
             </div>
-
-            <div class="tools-grid">
-                <!-- Instantly.ai -->
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Instantly.ai</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                            <span class="score">4.8/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Cold Outreach</div>
-                    <p class="tool-description">Best-in-class cold email platform with unlimited accounts and industry-leading deliverability.</p>
-                    <div class="tool-pricing">
-                        <span class="price">$37</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Unlimited email accounts</span>
-                        <span class="highlight-item">&#10003; Built-in email warmup</span>
-                        <span class="highlight-item">&#10003; Unibox inbox management</span>
-                    </div>
-                    <div class="tool-actions">
-                        <a href="categories/cold-outreach.html" class="btn btn-outline">Category</a>
-                        <a href="/go/instantly" class="btn btn-primary" target="_blank">Try Free</a>
-                    </div>
-                </div>
-
-                <!-- Clay.com -->
-                <div class="tool-card featured">
-                    <div class="featured-badge">Editor's Choice</div>
-                    <div class="tool-header">
-                        <h3>Clay</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                            <span class="score">4.9/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Data Enrichment</div>
-                    <p class="tool-description">The most powerful data enrichment platform. Access 50+ data sources in one spreadsheet interface.</p>
-                    <div class="tool-pricing">
-                        <span class="price">$149</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; 50+ data providers</span>
-                        <span class="highlight-item">&#10003; AI-powered enrichment</span>
-                        <span class="highlight-item">&#10003; No-code integrations</span>
-                    </div>
-                    <div class="tool-actions">
-                        <a href="categories/data-enrichment.html" class="btn btn-outline">Category</a>
-                        <a href="/go/clay" class="btn btn-primary" target="_blank">Start Free Trial</a>
-                    </div>
-                </div>
-
-                <!-- Gong.io -->
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Gong</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                            <span class="score">4.7/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Conversation Intelligence</div>
-                    <p class="tool-description">The gold standard for revenue intelligence. Captures and analyzes every customer interaction.</p>
-                    <div class="tool-pricing">
-                        <span class="price">Custom</span>
-                        <span class="period">pricing</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Call recording & transcription</span>
-                        <span class="highlight-item">&#10003; Deal intelligence</span>
-                        <span class="highlight-item">&#10003; Coaching insights</span>
-                    </div>
-                    <div class="tool-actions">
-                        <a href="categories/conversation-intelligence.html" class="btn btn-outline">Category</a>
-                        <a href="/go/gong" class="btn btn-primary" target="_blank">Request Demo</a>
-                    </div>
-                </div>
-
-                <!-- Apollo.io -->
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Apollo.io</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                            <span class="score">4.8/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Lead Prospecting</div>
-                    <p class="tool-description">All-in-one sales platform combining 275M+ contact database with email sequences and calling.</p>
-                    <div class="tool-pricing">
-                        <span class="price">$49</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; 275M+ contacts database</span>
-                        <span class="highlight-item">&#10003; Built-in sequences</span>
-                        <span class="highlight-item">&#10003; Chrome extension</span>
-                    </div>
-                    <div class="tool-actions">
-                        <a href="categories/lead-prospecting.html" class="btn btn-outline">Category</a>
-                        <a href="/go/apollo" class="btn btn-primary" target="_blank">Try Free</a>
-                    </div>
-                </div>
-
-                <!-- Lavender.ai -->
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Lavender</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                            <span class="score">4.6/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Sales Content</div>
-                    <p class="tool-description">AI email coach that helps sales reps write better emails that get replies. Real-time scoring and suggestions.</p>
-                    <div class="tool-pricing">
-                        <span class="price">$29</span>
-                        <span class="period">/month</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Real-time email scoring</span>
-                        <span class="highlight-item">&#10003; Personalization checks</span>
-                        <span class="highlight-item">&#10003; Mobile preview</span>
-                    </div>
-                    <div class="tool-actions">
-                        <a href="categories/sales-content.html" class="btn btn-outline">Category</a>
-                        <a href="/go/lavender" class="btn btn-primary" target="_blank">Start Free</a>
-                    </div>
-                </div>
-
-                <!-- Outreach.io -->
-                <div class="tool-card">
-                    <div class="tool-header">
-                        <h3>Outreach</h3>
-                        <div class="rating">
-                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-                            <span class="score">4.3/5</span>
-                        </div>
-                    </div>
-                    <div class="tool-category">Sales Engagement</div>
-                    <p class="tool-description">Enterprise sales engagement platform for orchestrating multi-channel sequences at scale.</p>
-                    <div class="tool-pricing">
-                        <span class="price">Custom</span>
-                        <span class="period">pricing</span>
-                    </div>
-                    <div class="tool-highlights">
-                        <span class="highlight-item">&#10003; Multi-channel sequences</span>
-                        <span class="highlight-item">&#10003; Sales analytics</span>
-                        <span class="highlight-item">&#10003; CRM integrations</span>
-                    </div>
-                    <div class="tool-actions">
-                        <a href="categories/sales-engagement.html" class="btn btn-outline">Category</a>
-                        <a href="/go/outreach" class="btn btn-primary" target="_blank">Get Demo</a>
-                    </div>
-                </div>
+            <div class="tool-card__price">$49<span>/mo</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                275M+ contact database
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Built-in email sequences
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Chrome extension
+              </div>
             </div>
+            <a href="/go/apollo" class="tool-card__cta" target="_blank" rel="noopener">Try Free &rarr;</a>
+            <a href="/tools/apollo-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="apollo" data-compare-name="Apollo.io" aria-label="Add Apollo.io to compare">
+              Add to compare
+            </label>
+          </div>
 
-            <div class="view-all">
-                <a href="tools/index.html" class="btn btn-outline-large">View All 30+ Tools &rarr;</a>
+          <div class="tool-card">
+            <div class="tool-card__rank">#2</div>
+            <div class="tool-card__best-for">Best for Enterprise Data</div>
+            <h3 class="tool-card__name">ZoomInfo</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.4</span>
             </div>
+            <div class="tool-card__price">$14,995<span>/yr</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                200M+ business profiles
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Intent data signals
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Website visitor tracking
+              </div>
+            </div>
+            <a href="/go/zoominfo" class="tool-card__cta" target="_blank" rel="noopener">Request Demo &rarr;</a>
+            <a href="/tools/zoominfo-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="zoominfo" data-compare-name="ZoomInfo" aria-label="Add ZoomInfo to compare">
+              Add to compare
+            </label>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#3</div>
+            <div class="tool-card__best-for">Best for Quick Lookups</div>
+            <h3 class="tool-card__name">Lusha</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.3</span>
+            </div>
+            <div class="tool-card__price">$29<span>/mo</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Direct dial numbers
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Email finder
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Chrome extension
+              </div>
+            </div>
+            <a href="/go/lusha" class="tool-card__cta" target="_blank" rel="noopener">Try Free &rarr;</a>
+            <a href="/tools/lusha-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="lusha" data-compare-name="Lusha" aria-label="Add Lusha to compare">
+              Add to compare
+            </label>
+          </div>
+
         </div>
-    </section>
-
-    <!-- Comparisons -->
-    <section class="comparisons-section" id="comparisons">
-        <div class="container">
-            <div class="section-header">
-                <h2>Head-to-Head Comparisons</h2>
-                <p>Real testing, real data. Find out which tool wins for your use case.</p>
-            </div>
-
-            <div class="compare-grid">
-                <a href="compare/clay-vs-apollo.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool"><h3>Clay</h3><span class="compare-rating">4.9/5</span></div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool"><h3>Apollo.io</h3><span class="compare-rating">4.8/5</span></div>
-                    </div>
-                    <p class="compare-summary">Clay wins for data enrichment depth. Apollo wins as an all-in-one platform.</p>
-                </a>
-
-                <a href="compare/instantly-vs-smartlead.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool"><h3>Instantly</h3><span class="compare-rating">4.8/5</span></div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool"><h3>Smartlead</h3><span class="compare-rating">4.7/5</span></div>
-                    </div>
-                    <p class="compare-summary">Instantly wins on UX and deliverability. Smartlead wins for agencies.</p>
-                </a>
-
-                <a href="compare/gong-vs-chorus.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool"><h3>Gong</h3><span class="compare-rating">4.7/5</span></div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool"><h3>Chorus</h3><span class="compare-rating">4.5/5</span></div>
-                    </div>
-                    <p class="compare-summary">Gong leads with deeper analytics. Chorus is solid in the ZoomInfo bundle.</p>
-                </a>
-
-                <a href="compare/outreach-vs-salesloft.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool"><h3>Outreach</h3><span class="compare-rating">4.3/5</span></div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool"><h3>Salesloft</h3><span class="compare-rating">4.5/5</span></div>
-                    </div>
-                    <p class="compare-summary">Outreach edges ahead on analytics. Salesloft wins on UX and onboarding.</p>
-                </a>
-
-                <a href="compare/hubspot-vs-pipedrive.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool"><h3>HubSpot</h3><span class="compare-rating">4.4/5</span></div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool"><h3>Pipedrive</h3><span class="compare-rating">4.2/5</span></div>
-                    </div>
-                    <p class="compare-summary">HubSpot wins for ecosystem and free tier. Pipedrive wins on simplicity.</p>
-                </a>
-
-                <a href="compare/apollo-vs-zoominfo.html" class="compare-card">
-                    <div class="compare-vs">
-                        <div class="compare-tool"><h3>Apollo.io</h3><span class="compare-rating">4.8/5</span></div>
-                        <span class="vs-badge">VS</span>
-                        <div class="compare-tool"><h3>ZoomInfo</h3><span class="compare-rating">4.4/5</span></div>
-                    </div>
-                    <p class="compare-summary">Apollo wins for SMBs. ZoomInfo is enterprise-grade with deeper data.</p>
-                </a>
-            </div>
-
-            <div class="view-all">
-                <a href="compare/index.html" class="btn btn-outline-large">View All 10 Comparisons &rarr;</a>
-            </div>
+        <div class="section__view-all">
+          <a href="/categories/lead-prospecting.html">View All Lead Prospecting Tools &rarr;</a>
         </div>
-    </section>
+      </div>
 
-    <!-- Categories -->
-    <section class="categories" id="categories">
-        <div class="container">
-            <div class="section-header">
-                <h2>Browse by Use Case</h2>
-                <p>Find the right tools for your specific sales workflow</p>
+      <!-- ====== Data Enrichment ====== -->
+      <div class="tab-panel" data-panel="data-enrichment">
+        <div class="tool-grid">
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#1</div>
+            <div class="tool-card__best-for">Best for RevOps Workflows</div>
+            <h3 class="tool-card__name">Clay</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.9</span>
             </div>
-
-            <div class="category-grid">
-                <a href="categories/cold-outreach.html" class="category-card">
-                    <div class="category-icon">&#x2709;&#xFE0F;</div>
-                    <h3>Cold Outreach</h3>
-                    <p>Cold email platforms, deliverability, sequencing</p>
-                    <span class="tool-count">4 tools reviewed</span>
-                </a>
-
-                <a href="categories/lead-prospecting.html" class="category-card">
-                    <div class="category-icon">&#x1F3AF;</div>
-                    <h3>Lead Prospecting</h3>
-                    <p>Lead databases, enrichment, contact finding</p>
-                    <span class="tool-count">4 tools reviewed</span>
-                </a>
-
-                <a href="categories/data-enrichment.html" class="category-card">
-                    <div class="category-icon">&#x1F4CA;</div>
-                    <h3>Data Enrichment</h3>
-                    <p>Firmographic, technographic, and intent data</p>
-                    <span class="tool-count">2 tools reviewed</span>
-                </a>
-
-                <a href="categories/conversation-intelligence.html" class="category-card">
-                    <div class="category-icon">&#x1F399;&#xFE0F;</div>
-                    <h3>Conversation Intelligence</h3>
-                    <p>Call recording, analysis, coaching</p>
-                    <span class="tool-count">2 tools reviewed</span>
-                </a>
-
-                <a href="categories/sales-engagement.html" class="category-card">
-                    <div class="category-icon">&#x26A1;</div>
-                    <h3>Sales Engagement</h3>
-                    <p>Multi-channel outreach, cadences, automation</p>
-                    <span class="tool-count">4 tools reviewed</span>
-                </a>
-
-                <a href="categories/crm-pipeline.html" class="category-card">
-                    <div class="category-icon">&#x1F4BC;</div>
-                    <h3>CRM & Pipeline</h3>
-                    <p>Deal management, pipeline tracking, forecasting</p>
-                    <span class="tool-count">3 tools reviewed</span>
-                </a>
-
-                <a href="categories/sales-content.html" class="category-card">
-                    <div class="category-icon">&#x270D;&#xFE0F;</div>
-                    <h3>Sales Content</h3>
-                    <p>Email writing AI, video, enablement</p>
-                    <span class="tool-count">3 tools reviewed</span>
-                </a>
-
-                <a href="categories/sales-analytics.html" class="category-card">
-                    <div class="category-icon">&#x1F4C8;</div>
-                    <h3>Sales Analytics</h3>
-                    <p>Revenue forecasting, pipeline analytics</p>
-                    <span class="tool-count">3 tools reviewed</span>
-                </a>
-
-                <a href="categories/dialers-calling.html" class="category-card">
-                    <div class="category-icon">&#x1F4DE;</div>
-                    <h3>Dialers & Calling</h3>
-                    <p>Power dialers, AI transcription, cloud calling</p>
-                    <span class="tool-count">3 tools reviewed</span>
-                </a>
-
-                <a href="categories/meeting-schedulers.html" class="category-card">
-                    <div class="category-icon">&#x1F4C5;</div>
-                    <h3>Meeting Schedulers</h3>
-                    <p>Automated scheduling, lead routing</p>
-                    <span class="tool-count">2 tools reviewed</span>
-                </a>
+            <div class="tool-card__price">$149<span>/mo</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                50+ data providers
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                AI-powered enrichment
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                No-code integrations
+              </div>
             </div>
+            <a href="/go/clay" class="tool-card__cta" target="_blank" rel="noopener">Start Free Trial &rarr;</a>
+            <a href="/tools/clay-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="clay" data-compare-name="Clay" aria-label="Add Clay to compare">
+              Add to compare
+            </label>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#2</div>
+            <div class="tool-card__best-for">Best for HubSpot Teams</div>
+            <h3 class="tool-card__name">Clearbit</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.4</span>
+            </div>
+            <div class="tool-card__price">Custom<span> pricing</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                HubSpot-native sync
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Form shortening
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Company reveal
+              </div>
+            </div>
+            <a href="/go/clearbit" class="tool-card__cta" target="_blank" rel="noopener">Request Demo &rarr;</a>
+            <a href="/tools/clearbit-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="clearbit" data-compare-name="Clearbit" aria-label="Add Clearbit to compare">
+              Add to compare
+            </label>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#3</div>
+            <div class="tool-card__best-for">Best for Intent Signals</div>
+            <h3 class="tool-card__name">ZoomInfo</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.4</span>
+            </div>
+            <div class="tool-card__price">$14,995<span>/yr</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Intent data signals
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Org chart mapping
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Technographic filters
+              </div>
+            </div>
+            <a href="/go/zoominfo" class="tool-card__cta" target="_blank" rel="noopener">Request Demo &rarr;</a>
+            <a href="/tools/zoominfo-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="zoominfo" data-compare-name="ZoomInfo" aria-label="Add ZoomInfo to compare">
+              Add to compare
+            </label>
+          </div>
+
         </div>
-    </section>
-
-    <!-- Newsletter Signup -->
-    <section class="newsletter">
-        <div class="container">
-            <div class="newsletter-content">
-                <h2>Get Weekly Sales AI Insights</h2>
-                <p>Join 5,000+ sales professionals getting our weekly newsletter with tool reviews, comparison guides, and real-world AI implementation strategies.</p>
-                <form class="newsletter-form" id="newsletter-form">
-                    <input type="email" placeholder="Enter your email" required>
-                    <button type="submit" class="btn btn-primary">Subscribe Free</button>
-                </form>
-                <p class="newsletter-privacy">No spam. Unsubscribe anytime.</p>
-            </div>
+        <div class="section__view-all">
+          <a href="/categories/data-enrichment.html">View All Data Enrichment Tools &rarr;</a>
         </div>
-    </section>
+      </div>
 
-    <!-- Why Trust Us -->
-    <section class="trust-section">
-        <div class="container">
-            <h2>Why Trust Sales AI Guide?</h2>
-            <div class="trust-grid">
-                <div class="trust-item">
-                    <div class="trust-icon">&#10003;</div>
-                    <h3>Real-World Testing</h3>
-                    <p>Every tool reviewed has been used in actual sales workflows, not just trial accounts. I test with real prospects and measure real results.</p>
-                </div>
-                <div class="trust-item">
-                    <div class="trust-icon">&#10003;</div>
-                    <h3>Sales Expertise</h3>
-                    <p>Written by a B2B sales executive managing $10M+ pipeline, not a freelance writer who's never closed a deal.</p>
-                </div>
-                <div class="trust-item">
-                    <div class="trust-icon">&#10003;</div>
-                    <h3>Transparent Reviews</h3>
-                    <p>I call out what sucks. If a tool has issues, you'll know. Affiliate commissions don't influence ratings.</p>
-                </div>
-                <div class="trust-item">
-                    <div class="trust-icon">&#10003;</div>
-                    <h3>Regular Updates</h3>
-                    <p>Reviews updated monthly as tools evolve. Pricing, features, and recommendations stay current.</p>
-                </div>
+      <!-- ====== Conversation Intel ====== -->
+      <div class="tab-panel" data-panel="conversation-intel">
+        <div class="tool-grid">
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#1</div>
+            <div class="tool-card__best-for">Best for Revenue Intelligence</div>
+            <h3 class="tool-card__name">Gong</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.7</span>
             </div>
+            <div class="tool-card__price">Custom<span> pricing</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Call recording &amp; transcription
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Deal intelligence
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Coaching insights
+              </div>
+            </div>
+            <a href="/go/gong" class="tool-card__cta" target="_blank" rel="noopener">Request Demo &rarr;</a>
+            <a href="/tools/gong-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="gong" data-compare-name="Gong" aria-label="Add Gong to compare">
+              Add to compare
+            </label>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#2</div>
+            <div class="tool-card__best-for">Best for ZoomInfo Users</div>
+            <h3 class="tool-card__name">Chorus</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.5</span>
+            </div>
+            <div class="tool-card__price">Custom<span> pricing</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Call recording
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                AI-driven insights
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                CRM integration
+              </div>
+            </div>
+            <a href="/go/chorus" class="tool-card__cta" target="_blank" rel="noopener">Request Demo &rarr;</a>
+            <a href="/tools/chorus-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="chorus" data-compare-name="Chorus" aria-label="Add Chorus to compare">
+              Add to compare
+            </label>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#3</div>
+            <div class="tool-card__best-for">Best Budget Option</div>
+            <h3 class="tool-card__name">Fireflies.ai</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.2</span>
+            </div>
+            <div class="tool-card__price">Free<span> / $10/mo</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                AI transcription
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Meeting summaries
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Smart search
+              </div>
+            </div>
+            <a href="/go/fireflies" class="tool-card__cta" target="_blank" rel="noopener">Try Free &rarr;</a>
+            <a href="/tools/fireflies-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="fireflies" data-compare-name="Fireflies.ai" aria-label="Add Fireflies.ai to compare">
+              Add to compare
+            </label>
+          </div>
+
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-col">
-                    <h4>Sales<span class="highlight">AI</span>Guide</h4>
-                    <p>Honest reviews of AI tools for sales professionals who need results, not hype.</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Categories</h4>
-                    <ul>
-                        <li><a href="categories/cold-outreach.html">Cold Outreach</a></li>
-                        <li><a href="categories/lead-prospecting.html">Lead Prospecting</a></li>
-                        <li><a href="categories/conversation-intelligence.html">Conversation Intelligence</a></li>
-                        <li><a href="categories/sales-engagement.html">Sales Engagement</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="compare/index.html">Comparisons</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="disclosure.html">Disclosure</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Top Tools</h4>
-                    <ul>
-                        <li><a href="tools/index.html">All Tools</a></li>
-                        <li><a href="compare/clay-vs-apollo.html">Clay vs Apollo</a></li>
-                        <li><a href="compare/instantly-vs-smartlead.html">Instantly vs Smartlead</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Sales AI Guide. All rights reserved.</p>
-                <p class="disclosure">This site contains affiliate links. We may earn commission when you purchase through our links at no additional cost to you. <a href="disclosure.html">Learn more</a></p>
-            </div>
+        <div class="section__view-all">
+          <a href="/categories/conversation-intelligence.html">View All Conversation Intel Tools &rarr;</a>
         </div>
-    </footer>
+      </div>
 
-    <script src="js/main.js"></script>
+      <!-- ====== Sales Engagement ====== -->
+      <div class="tab-panel" data-panel="sales-engagement">
+        <div class="tool-grid">
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#1</div>
+            <div class="tool-card__best-for">Best for Mid-Market</div>
+            <h3 class="tool-card__name">Salesloft</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.5</span>
+            </div>
+            <div class="tool-card__price">Custom<span> pricing</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Cadence automation
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Conversation intelligence
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Deal management
+              </div>
+            </div>
+            <a href="/go/salesloft" class="tool-card__cta" target="_blank" rel="noopener">Get Demo &rarr;</a>
+            <a href="/tools/salesloft-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="salesloft" data-compare-name="Salesloft" aria-label="Add Salesloft to compare">
+              Add to compare
+            </label>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#2</div>
+            <div class="tool-card__best-for">Best for Enterprise Scale</div>
+            <h3 class="tool-card__name">Outreach</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.3</span>
+            </div>
+            <div class="tool-card__price">Custom<span> pricing</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Multi-channel sequences
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                AI-powered insights
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Meeting scheduling
+              </div>
+            </div>
+            <a href="/go/outreach" class="tool-card__cta" target="_blank" rel="noopener">Get Demo &rarr;</a>
+            <a href="/tools/outreach-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="outreach" data-compare-name="Outreach" aria-label="Add Outreach to compare">
+              Add to compare
+            </label>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#3</div>
+            <div class="tool-card__best-for">Best for Conversational Sales</div>
+            <h3 class="tool-card__name">Drift</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.4</span>
+            </div>
+            <div class="tool-card__price">Custom<span> pricing</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                AI chatbots
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Live chat
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Meeting booking
+              </div>
+            </div>
+            <a href="/go/drift" class="tool-card__cta" target="_blank" rel="noopener">Get Demo &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="drift" data-compare-name="Drift" aria-label="Add Drift to compare">
+              Add to compare
+            </label>
+          </div>
+
+        </div>
+        <div class="section__view-all">
+          <a href="/categories/sales-engagement.html">View All Sales Engagement Tools &rarr;</a>
+        </div>
+      </div>
+
+      <!-- ====== CRM & Pipeline ====== -->
+      <div class="tab-panel" data-panel="crm-pipeline">
+        <div class="tool-grid">
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#1</div>
+            <div class="tool-card__best-for">Best for Growing Teams</div>
+            <h3 class="tool-card__name">HubSpot Sales Hub</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.4</span>
+            </div>
+            <div class="tool-card__price">$45<span>/mo</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Free CRM included
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Email tracking
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Meeting scheduler
+              </div>
+            </div>
+            <a href="/go/hubspot" class="tool-card__cta" target="_blank" rel="noopener">Start Free &rarr;</a>
+            <a href="/tools/hubspot-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="hubspot" data-compare-name="HubSpot Sales Hub" aria-label="Add HubSpot Sales Hub to compare">
+              Add to compare
+            </label>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#2</div>
+            <div class="tool-card__best-for">Best for Inside Sales</div>
+            <h3 class="tool-card__name">Close</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.6</span>
+            </div>
+            <div class="tool-card__price">$29<span>/mo</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Built-in calling
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                SMS &amp; email
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Pipeline automation
+              </div>
+            </div>
+            <a href="/go/close" class="tool-card__cta" target="_blank" rel="noopener">Try Free &rarr;</a>
+            <a href="/tools/close-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="close" data-compare-name="Close" aria-label="Add Close to compare">
+              Add to compare
+            </label>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-card__rank">#3</div>
+            <div class="tool-card__best-for">Best for Simplicity</div>
+            <h3 class="tool-card__name">Pipedrive</h3>
+            <div class="tool-card__rating">
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:0.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg>
+              <span class="tool-card__score">4.2</span>
+            </div>
+            <div class="tool-card__price">$14<span>/mo</span></div>
+            <div class="tool-card__features">
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Visual pipeline
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Activity tracking
+              </div>
+              <div class="tool-card__feature">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M5 10l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Email integration
+              </div>
+            </div>
+            <a href="/go/pipedrive" class="tool-card__cta" target="_blank" rel="noopener">Try Free &rarr;</a>
+            <a href="/tools/pipedrive-review.html" class="tool-card__review-link">Read Full Review &rarr;</a>
+            <label class="tool-card__compare">
+              <input type="checkbox" data-compare-slug="pipedrive" data-compare-name="Pipedrive" aria-label="Add Pipedrive to compare">
+              Add to compare
+            </label>
+          </div>
+
+        </div>
+        <div class="section__view-all">
+          <a href="/categories/crm-pipeline.html">View All CRM &amp; Pipeline Tools &rarr;</a>
+        </div>
+      </div>
+
+    </div><!-- /tab-panels -->
+  </div>
+</section>
+
+<!-- ============ Trust Bar ============ -->
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="trust-bar">
+      <div class="trust-bar__item">
+        <svg viewBox="0 0 20 20" fill="none"><path d="M3 7h14M3 7l2-4h10l2 4M3 7v9a1 1 0 001 1h12a1 1 0 001-1V7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        40+ Tools Reviewed
+      </div>
+      <div class="trust-bar__item">
+        <svg viewBox="0 0 20 20" fill="none"><path d="M10 2l2 4 4.5.65-3.25 3.17.77 4.47L10 12l-4.02 2.29.77-4.47L3.5 6.65 8 6l2-4z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Real Workflows Tested
+      </div>
+      <div class="trust-bar__item">
+        <svg viewBox="0 0 20 20" fill="none"><path d="M16 2v4m0 0H12m4 0l-5 5m-4-2a7 7 0 107 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Updated Monthly
+      </div>
+      <div class="trust-bar__item">
+        <svg viewBox="0 0 20 20" fill="none"><path d="M9 12l2 2 4-4m2 0a7 7 0 11-14 0 7 7 0 0114 0z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        No Pay-to-Play Rankings
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Popular Comparisons ============ -->
+<section class="section" id="comparisons">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__title">Popular Comparisons</h2>
+      <p class="section__subtitle">Side-by-side breakdowns so you pick the right tool</p>
+    </div>
+
+    <div class="comparison-grid">
+
+      <a href="/compare/clay-vs-apollo.html" class="comparison-card">
+        <div class="comparison-card__matchup">
+          <span class="comparison-card__tool">Clay</span>
+          <span class="comparison-card__vs">VS</span>
+          <span class="comparison-card__tool">Apollo.io</span>
+        </div>
+        <p class="comparison-card__verdict">Clay wins for enrichment depth. Apollo wins as an all-in-one.</p>
+        <span class="comparison-card__link">See Full Comparison &rarr;</span>
+      </a>
+
+      <a href="/compare/instantly-vs-smartlead.html" class="comparison-card">
+        <div class="comparison-card__matchup">
+          <span class="comparison-card__tool">Instantly</span>
+          <span class="comparison-card__vs">VS</span>
+          <span class="comparison-card__tool">Smartlead</span>
+        </div>
+        <p class="comparison-card__verdict">Instantly wins on UX and deliverability. Smartlead wins for agencies.</p>
+        <span class="comparison-card__link">See Full Comparison &rarr;</span>
+      </a>
+
+      <a href="/compare/gong-vs-chorus.html" class="comparison-card">
+        <div class="comparison-card__matchup">
+          <span class="comparison-card__tool">Gong</span>
+          <span class="comparison-card__vs">VS</span>
+          <span class="comparison-card__tool">Chorus</span>
+        </div>
+        <p class="comparison-card__verdict">Gong leads with deeper analytics. Chorus is solid in the ZoomInfo bundle.</p>
+        <span class="comparison-card__link">See Full Comparison &rarr;</span>
+      </a>
+
+      <a href="/compare/outreach-vs-salesloft.html" class="comparison-card">
+        <div class="comparison-card__matchup">
+          <span class="comparison-card__tool">Outreach</span>
+          <span class="comparison-card__vs">VS</span>
+          <span class="comparison-card__tool">Salesloft</span>
+        </div>
+        <p class="comparison-card__verdict">Outreach edges ahead on analytics. Salesloft wins on UX and onboarding.</p>
+        <span class="comparison-card__link">See Full Comparison &rarr;</span>
+      </a>
+
+      <a href="/compare/hubspot-vs-pipedrive.html" class="comparison-card">
+        <div class="comparison-card__matchup">
+          <span class="comparison-card__tool">HubSpot</span>
+          <span class="comparison-card__vs">VS</span>
+          <span class="comparison-card__tool">Pipedrive</span>
+        </div>
+        <p class="comparison-card__verdict">HubSpot wins for ecosystem and free tier. Pipedrive wins on simplicity.</p>
+        <span class="comparison-card__link">See Full Comparison &rarr;</span>
+      </a>
+
+      <a href="/compare/apollo-vs-zoominfo.html" class="comparison-card">
+        <div class="comparison-card__matchup">
+          <span class="comparison-card__tool">Apollo.io</span>
+          <span class="comparison-card__vs">VS</span>
+          <span class="comparison-card__tool">ZoomInfo</span>
+        </div>
+        <p class="comparison-card__verdict">Apollo wins for SMBs. ZoomInfo is enterprise-grade with deeper data.</p>
+        <span class="comparison-card__link">See Full Comparison &rarr;</span>
+      </a>
+
+    </div>
+
+    <div class="section__view-all">
+      <a href="/compare/">View All Comparisons &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Newsletter ============ -->
+<section class="section">
+  <div class="container">
+    <div class="newsletter">
+      <h2 class="newsletter__title">Get Weekly Sales AI Insights</h2>
+      <p class="newsletter__subtitle">Join 5,000+ sales pros getting tool reviews, comparisons, and AI implementation strategies.</p>
+      <form class="newsletter__form" id="newsletter-form">
+        <input type="email" class="newsletter__input" placeholder="Enter your email" required aria-label="Email address">
+        <button type="submit" class="newsletter__btn">Subscribe Free</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Footer ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">SalesAIGuide</div>
+        <p class="footer__brand-tagline">Honest reviews of AI tools for sales professionals who need results, not hype.</p>
+      </div>
+      <div>
+        <h4 class="footer__heading">Top Tools</h4>
+        <div class="footer__links">
+          <a href="/tools/instantly-review.html" class="footer__link">Instantly.ai</a>
+          <a href="/tools/clay-review.html" class="footer__link">Clay</a>
+          <a href="/tools/apollo-review.html" class="footer__link">Apollo.io</a>
+          <a href="/tools/gong-review.html" class="footer__link">Gong</a>
+          <a href="/tools/hubspot-review.html" class="footer__link">HubSpot</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Categories</h4>
+        <div class="footer__links">
+          <a href="/categories/cold-outreach.html" class="footer__link">Cold Outreach</a>
+          <a href="/categories/lead-prospecting.html" class="footer__link">Lead Prospecting</a>
+          <a href="/categories/data-enrichment.html" class="footer__link">Data Enrichment</a>
+          <a href="/categories/conversation-intelligence.html" class="footer__link">Conversation Intel</a>
+          <a href="/categories/sales-engagement.html" class="footer__link">Sales Engagement</a>
+          <a href="/categories/crm-pipeline.html" class="footer__link">CRM &amp; Pipeline</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Site</h4>
+        <div class="footer__links">
+          <a href="/about.html" class="footer__link">About</a>
+          <a href="/compare/" class="footer__link">Comparisons</a>
+          <a href="/disclosure.html" class="footer__link">Disclosure</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__disclosure">This site contains affiliate links. We may earn a commission when you purchase through our links at no additional cost to you. Our ratings and rankings are never influenced by affiliate partnerships. <a href="/disclosure.html">Full disclosure</a></p>
+      <p class="footer__copyright">&copy; 2026 SalesAIGuide. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ Sticky Compare Bar ============ -->
+<div class="compare-bar">
+  <div class="container compare-bar__inner">
+    <div class="compare-bar__slots"></div>
+    <button class="compare-bar__action disabled" disabled aria-disabled="true">Compare Now &rarr;</button>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/theme.js" defer></script>
+<script src="js/nav.js" defer></script>
+<script src="js/compare.js" defer></script>
+<script src="js/tabs.js" defer></script>
+<script src="js/search.js" defer></script>
+
 </body>
 </html>

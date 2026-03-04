@@ -1,154 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cold Outreach Tool Evaluation Checklist (2026) | Sales AI Guide</title>
-    <meta name="description" content="Structured evaluation checklist for choosing a cold outreach platform. Covers deliverability, workflow, compliance, and pilot testing criteria.">
-    <link rel="canonical" href="https://salesaiguide.com/resources/cold-outreach-evaluation-checklist.html">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/review.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cold Outreach Tool Evaluation Checklist (2026) | SalesAIGuide</title>
+  <meta name="description" content="Structured evaluation checklist for choosing a cold outreach platform. Covers deliverability, workflow, compliance, and pilot testing criteria.">
+  <link rel="canonical" href="https://salesaiguide.com/resources/cold-outreach-evaluation-checklist.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Cold Outreach Tool Evaluation Checklist (2026) | SalesAIGuide">
+  <meta property="og:description" content="Structured evaluation checklist for choosing a cold outreach platform. Covers deliverability, workflow, compliance, and pilot testing criteria.">
+  <meta property="og:url" content="https://salesaiguide.com/resources/cold-outreach-evaluation-checklist.html">
+  <meta property="og:site_name" content="SalesAIGuide">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cold Outreach Tool Evaluation Checklist (2026) | SalesAIGuide">
+  <meta name="twitter:description" content="Structured evaluation checklist for choosing a cold outreach platform. Covers deliverability, workflow, compliance, and pilot testing criteria.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <script>
+  (function(){
+    var t = localStorage.getItem('salesaiguide-theme') ||
+      (window.matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+  </script>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <a href="../index.html">
-                    <span class="logo">Sales<span class="highlight">AI</span>Guide</span>
-                </a>
-            </div>
-            <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-menu').classList.toggle('active')">&#9776;</button>
-            <ul class="nav-menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../tools/index.html">Tools</a></li>
-                <li><a href="../compare/index.html">Compare</a></li>
-                <li><a href="../categories/index.html">Categories</a></li>
-                <li><a href="../about.html">About</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <div class="review-header">
-        <div class="container">
-            <div class="breadcrumbs">
-                <a href="../index.html">Home</a> / <a href="../resources/index.html">Resources</a> / Cold Outreach Evaluation Checklist
-            </div>
-            <h1>Cold Outreach Tool Evaluation Checklist</h1>
-            <div class="review-meta">
-                <div class="updated">Updated: Feb 2026</div>
-                <div class="last-verified" data-audit="last-verified">Last verified: Feb 2026</div>
-            </div>
-            <div class="editorial-trust">
-                <a href="https://salesaiguide.com/about.html#methodology">Our Methodology</a>
-                <span class="separator">|</span>
-                <a href="https://salesaiguide.com/about.html#editorial">Editorial Policy</a>
-                <span class="separator">|</span>
-                <a href="https://salesaiguide.com/disclosure.html">How We Make Money</a>
-            </div>
-        </div>
+<!-- ============ Navbar ============ -->
+<nav class="navbar" aria-label="Main navigation">
+  <div class="container navbar__inner">
+    <a href="/" class="navbar__logo">
+      <svg class="navbar__logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="32" height="32" rx="8" fill="var(--color-accent)"/>
+        <path d="M8 20 L12 12 L16 18 L20 10 L24 16" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <circle cx="24" cy="16" r="2" fill="#fff"/>
+      </svg>
+      SalesAIGuide
+    </a>
+    <div class="navbar__links">
+      <a href="/tools/" class="navbar__link">Tools</a>
+      <a href="/compare/" class="navbar__link">Compare</a>
+      <a href="/categories/" class="navbar__link">Categories</a>
+      <a href="/about.html" class="navbar__link">About</a>
+    </div>
+    <div class="navbar__actions">
+      <div class="navbar__search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" placeholder="Search tools..." aria-label="Search tools">
+      </div>
+      <button class="theme-toggle" aria-label="Switch to dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+      <button class="navbar__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile nav drawer -->
+<div class="mobile-nav__overlay"></div>
+<nav class="mobile-nav" aria-label="Mobile navigation">
+  <a href="/tools/" class="mobile-nav__link">Tools</a>
+  <a href="/compare/" class="mobile-nav__link">Compare</a>
+  <a href="/categories/" class="mobile-nav__link">Categories</a>
+  <a href="/about.html" class="mobile-nav__link">About</a>
+</nav>
+
+<!-- ============ Hero ============ -->
+<section class="hero">
+  <div class="container">
+    <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-4); font-size: var(--text-sm); color: var(--color-text-muted);">
+      <a href="/" style="color: var(--color-accent);">Home</a> /
+      <a href="/resources/" style="color: var(--color-accent);">Resources</a> /
+      Cold Outreach Evaluation Checklist
+    </nav>
+    <h1 class="hero__title">Cold Outreach Tool Evaluation Checklist</h1>
+    <p class="hero__subtitle">Updated: Feb 2026 &nbsp;&middot;&nbsp; Last verified: Feb 2026</p>
+    <p style="font-size: var(--text-sm); color: var(--color-text-muted); margin-top: var(--space-3);">
+      <a href="/about.html#methodology" style="color: var(--color-accent);">Our Methodology</a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="/about.html#editorial" style="color: var(--color-accent);">Editorial Policy</a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="/disclosure.html" style="color: var(--color-accent);">How We Make Money</a>
+    </p>
+  </div>
+</section>
+
+<!-- ============ Content ============ -->
+<article class="section">
+  <div class="container" style="max-width: 800px; margin: 0 auto;">
+
+    <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: var(--space-6);">This checklist helps sales teams evaluate cold outreach platforms systematically. It covers the criteria that matter for deliverability, workflow efficiency, and compliance so you can compare vendors against your actual requirements instead of feature marketing.</p>
+
+    <div style="background: var(--color-surface); border-left: 4px solid var(--color-accent); padding: var(--space-5); margin-bottom: var(--space-8); border-radius: 0 var(--radius-lg) var(--radius-lg) 0; border: 1px solid var(--color-border); border-left-color: var(--color-accent);">
+      <strong style="color: var(--color-text);">Why trust this checklist:</strong> <span style="color: var(--color-text-muted);">Every criterion below comes from hands-on testing across multiple cold outreach platforms and real sending workflows. Our evaluation process is documented in our <a href="/about.html#methodology" style="color: var(--color-accent);">methodology</a>, and our editorial standards are published in our <a href="/about.html#editorial" style="color: var(--color-accent);">editorial policy</a>. No vendor influenced the criteria or weighting in this checklist.</span>
     </div>
 
-    <article style="padding: 3rem 0;">
-        <div class="container" style="max-width: 800px; margin: 0 auto;">
+    <h2 style="font-size: var(--text-xl); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-4);">How to Use This Checklist</h2>
+    <ol style="color: var(--color-text-muted); line-height: 1.9; padding-left: var(--space-6); margin-bottom: var(--space-8);">
+      <li><strong style="color: var(--color-text);">Filter by your scenario.</strong> Start with the "Quick Decision Shortcuts" section below to find the profile that matches your team size and sending model.</li>
+      <li><strong style="color: var(--color-text);">Score each vendor.</strong> Walk through the evaluation criteria and mark which requirements each platform meets. Use the pilot scorecard at the bottom to track your scores side by side.</li>
+      <li><strong style="color: var(--color-text);">Run a 7-day pilot.</strong> Before committing, test your top pick against the pilot validation checklist with real sending volume on a live domain.</li>
+    </ol>
 
-            <p>This checklist helps sales teams evaluate cold outreach platforms systematically. It covers the criteria that matter for deliverability, workflow efficiency, and compliance so you can compare vendors against your actual requirements instead of feature marketing.</p>
+    <h2 style="font-size: var(--text-xl); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-4);">When You Need a Cold Outreach Tool</h2>
+    <ul style="color: var(--color-text-muted); line-height: 1.9; padding-left: var(--space-6); margin-bottom: var(--space-8);">
+      <li>Your team sends more than fifty cold emails per day and manual sending from Gmail or Outlook creates a bottleneck.</li>
+      <li>You need to run multi-step sequences with automated follow-ups timed to prospect behavior.</li>
+      <li>Deliverability is a concern because emails are landing in spam or primary domain reputation is at risk.</li>
+      <li>You manage multiple sending accounts or domains and need centralized rotation and warmup.</li>
+      <li>Reporting on open rates, reply rates, and sequence performance is required for pipeline forecasting.</li>
+    </ul>
 
-            <div style="background: var(--gray-light); border-left: 4px solid var(--electric-blue); padding: 1.25rem 1.5rem; margin: 2rem 0; border-radius: 0 8px 8px 0;">
-                <strong>Why trust this checklist:</strong> Every criterion below comes from hands-on testing across multiple cold outreach platforms and real sending workflows. Our evaluation process is documented in our <a href="../about.html#methodology">methodology</a>, and our editorial standards are published in our <a href="../about.html#editorial">editorial policy</a>. No vendor influenced the criteria or weighting in this checklist.
-            </div>
+    <h2 id="criteria" style="font-size: var(--text-xl); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-4);">Evaluation Criteria</h2>
 
-            <h2>How to Use This Checklist</h2>
-            <ol>
-                <li><strong>Filter by your scenario.</strong> Start with the "Quick Decision Shortcuts" section below to find the profile that matches your team size and sending model.</li>
-                <li><strong>Score each vendor.</strong> Walk through the evaluation criteria and mark which requirements each platform meets. Use the pilot scorecard at the bottom to track your scores side by side.</li>
-                <li><strong>Run a 7-day pilot.</strong> Before committing, test your top pick against the pilot validation checklist with real sending volume on a live domain.</li>
-            </ol>
+    <h3 style="font-size: var(--text-lg); font-weight: 600; color: var(--color-text); margin-bottom: var(--space-3);">Deliverability and Sending Infrastructure</h3>
+    <ul style="color: var(--color-text-muted); line-height: 1.9; padding-left: var(--space-6); margin-bottom: var(--space-6);">
+      <li><strong style="color: var(--color-text);">Domain and inbox rotation:</strong> The platform should rotate sending across multiple inboxes and domains automatically to distribute volume and protect sender reputation.</li>
+      <li><strong style="color: var(--color-text);">Warmup controls:</strong> Built-in warmup that ramps sending volume gradually on new inboxes, with visibility into warmup progress and reputation signals.</li>
+      <li><strong style="color: var(--color-text);">Deliverability monitoring:</strong> Real-time or near-real-time tracking of bounce rates, spam complaints, and inbox placement so you can intervene before reputation damage compounds.</li>
+    </ul>
 
-            <h2>When You Need a Cold Outreach Tool</h2>
-            <ul>
-                <li>Your team sends more than fifty cold emails per day and manual sending from Gmail or Outlook creates a bottleneck.</li>
-                <li>You need to run multi-step sequences with automated follow-ups timed to prospect behavior.</li>
-                <li>Deliverability is a concern because emails are landing in spam or primary domain reputation is at risk.</li>
-                <li>You manage multiple sending accounts or domains and need centralized rotation and warmup.</li>
-                <li>Reporting on open rates, reply rates, and sequence performance is required for pipeline forecasting.</li>
-            </ul>
+    <h3 style="font-size: var(--text-lg); font-weight: 600; color: var(--color-text); margin-bottom: var(--space-3);">Workflow and Execution</h3>
+    <ul style="color: var(--color-text-muted); line-height: 1.9; padding-left: var(--space-6); margin-bottom: var(--space-6);">
+      <li><strong style="color: var(--color-text);">Sequence builder:</strong> A clear interface for building multi-step email sequences with conditional logic, delay settings, and A/B variant support.</li>
+      <li><strong style="color: var(--color-text);">Reply management:</strong> Automatic detection of replies, out-of-office messages, and bounces that removes engaged prospects from the sequence without manual intervention.</li>
+      <li><strong style="color: var(--color-text);">Personalization support:</strong> Variable insertion for merge fields at minimum, with support for custom fields, conditional blocks, or dynamic content if your outreach model requires it.</li>
+    </ul>
 
-            <h2 id="criteria">Evaluation Criteria</h2>
+    <h3 style="font-size: var(--text-lg); font-weight: 600; color: var(--color-text); margin-bottom: var(--space-3);">Admin and Scale</h3>
+    <ul style="color: var(--color-text-muted); line-height: 1.9; padding-left: var(--space-6); margin-bottom: var(--space-6);">
+      <li><strong style="color: var(--color-text);">Team permissions:</strong> Role-based access that lets managers view all campaigns while reps manage only their own sequences and contacts.</li>
+      <li><strong style="color: var(--color-text);">Reporting:</strong> Campaign-level and sequence-level metrics including send volume, open rates, reply rates, and bounce rates with export capability.</li>
+      <li><strong style="color: var(--color-text);">Client or account separation:</strong> For agencies or multi-brand operations, the ability to isolate sending domains, contacts, and reporting by client or business unit.</li>
+    </ul>
 
-            <h3>Deliverability and Sending Infrastructure</h3>
-            <ul>
-                <li><strong>Domain and inbox rotation:</strong> The platform should rotate sending across multiple inboxes and domains automatically to distribute volume and protect sender reputation.</li>
-                <li><strong>Warmup controls:</strong> Built-in warmup that ramps sending volume gradually on new inboxes, with visibility into warmup progress and reputation signals.</li>
-                <li><strong>Deliverability monitoring:</strong> Real-time or near-real-time tracking of bounce rates, spam complaints, and inbox placement so you can intervene before reputation damage compounds.</li>
-            </ul>
+    <h3 style="font-size: var(--text-lg); font-weight: 600; color: var(--color-text); margin-bottom: var(--space-3);">Risk and Compliance</h3>
+    <ul style="color: var(--color-text-muted); line-height: 1.9; padding-left: var(--space-6); margin-bottom: var(--space-8);">
+      <li><strong style="color: var(--color-text);">Unsubscribe and suppression handling:</strong> Automatic processing of unsubscribe requests and a global suppression list that prevents re-contacting opted-out addresses across all campaigns.</li>
+      <li><strong style="color: var(--color-text);">Logging and auditability:</strong> A searchable record of every email sent, including timestamps, recipient addresses, and content, for compliance reviews or dispute resolution.</li>
+    </ul>
 
-            <h3>Workflow and Execution</h3>
-            <ul>
-                <li><strong>Sequence builder:</strong> A clear interface for building multi-step email sequences with conditional logic, delay settings, and A/B variant support.</li>
-                <li><strong>Reply management:</strong> Automatic detection of replies, out-of-office messages, and bounces that removes engaged prospects from the sequence without manual intervention.</li>
-                <li><strong>Personalization support:</strong> Variable insertion for merge fields at minimum, with support for custom fields, conditional blocks, or dynamic content if your outreach model requires it.</li>
-            </ul>
+    <h2 id="failure-modes" style="font-size: var(--text-xl); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-4);">Common Failure Modes</h2>
+    <ul style="color: var(--color-text-muted); line-height: 1.9; padding-left: var(--space-6); margin-bottom: var(--space-8);">
+      <li><strong style="color: var(--color-text);">Skipping warmup on new domains:</strong> Sending at full volume on day one flags the domain with email providers. Platforms without enforced warmup ramps make this mistake easy to repeat.</li>
+      <li><strong style="color: var(--color-text);">Over-rotating sending accounts:</strong> Adding too many inboxes without enough volume per account looks suspicious to providers. Each inbox needs consistent, moderate activity to maintain reputation.</li>
+      <li><strong style="color: var(--color-text);">Ignoring bounce rate thresholds:</strong> Continuing to send from a domain after bounce rates exceed two to three percent accelerates reputation damage. Teams need clear alerts and automatic pausing.</li>
+      <li><strong style="color: var(--color-text);">Running identical copy across all variants:</strong> A/B testing only subject lines while sending the same body text limits what you can learn. Test one variable at a time with meaningfully different variants.</li>
+      <li><strong style="color: var(--color-text);">Treating the tool as a set-and-forget system:</strong> Cold outreach platforms require weekly monitoring of deliverability metrics, reply quality, and sequence performance to maintain results.</li>
+    </ul>
 
-            <h3>Admin and Scale</h3>
-            <ul>
-                <li><strong>Team permissions:</strong> Role-based access that lets managers view all campaigns while reps manage only their own sequences and contacts.</li>
-                <li><strong>Reporting:</strong> Campaign-level and sequence-level metrics including send volume, open rates, reply rates, and bounce rates with export capability.</li>
-                <li><strong>Client or account separation:</strong> For agencies or multi-brand operations, the ability to isolate sending domains, contacts, and reporting by client or business unit.</li>
-            </ul>
+    <h2 style="font-size: var(--text-xl); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-4);">Quick Decision Shortcuts</h2>
 
-            <h3>Risk and Compliance</h3>
-            <ul>
-                <li><strong>Unsubscribe and suppression handling:</strong> Automatic processing of unsubscribe requests and a global suppression list that prevents re-contacting opted-out addresses across all campaigns.</li>
-                <li><strong>Logging and auditability:</strong> A searchable record of every email sent, including timestamps, recipient addresses, and content, for compliance reviews or dispute resolution.</li>
-            </ul>
+    <h3 style="font-size: var(--text-lg); font-weight: 600; color: var(--color-text); margin-bottom: var(--space-3);">Solo sender or freelancer</h3>
+    <ul style="color: var(--color-text-muted); line-height: 1.9; padding-left: var(--space-6); margin-bottom: var(--space-5);">
+      <li>Prioritize simple sequence setup and built-in warmup over advanced team features.</li>
+      <li>Look for plans that include at least three to five sending accounts to enable basic rotation.</li>
+      <li>Deliverability monitoring matters more than team permissions at this scale.</li>
+    </ul>
 
-            <h2 id="failure-modes">Common Failure Modes</h2>
-            <ul>
-                <li><strong>Skipping warmup on new domains:</strong> Sending at full volume on day one flags the domain with email providers. Platforms without enforced warmup ramps make this mistake easy to repeat.</li>
-                <li><strong>Over-rotating sending accounts:</strong> Adding too many inboxes without enough volume per account looks suspicious to providers. Each inbox needs consistent, moderate activity to maintain reputation.</li>
-                <li><strong>Ignoring bounce rate thresholds:</strong> Continuing to send from a domain after bounce rates exceed two to three percent accelerates reputation damage. Teams need clear alerts and automatic pausing.</li>
-                <li><strong>Running identical copy across all variants:</strong> A/B testing only subject lines while sending the same body text limits what you can learn. Test one variable at a time with meaningfully different variants.</li>
-                <li><strong>Treating the tool as a set-and-forget system:</strong> Cold outreach platforms require weekly monitoring of deliverability metrics, reply quality, and sequence performance to maintain results.</li>
-            </ul>
+    <h3 style="font-size: var(--text-lg); font-weight: 600; color: var(--color-text); margin-bottom: var(--space-3);">Small sales team (two to ten reps)</h3>
+    <ul style="color: var(--color-text-muted); line-height: 1.9; padding-left: var(--space-6); margin-bottom: var(--space-5);">
+      <li>Team permissions and shared reporting become necessary so managers can monitor across reps.</li>
+      <li>CRM integration depth determines whether reps spend time on manual data entry or selling.</li>
+      <li>Evaluate whether the platform charges per seat or per sending account, as pricing models vary.</li>
+    </ul>
 
-            <h2>Quick Decision Shortcuts</h2>
+    <h3 style="font-size: var(--text-lg); font-weight: 600; color: var(--color-text); margin-bottom: var(--space-3);">Agency managing multiple clients</h3>
+    <ul style="color: var(--color-text-muted); line-height: 1.9; padding-left: var(--space-6); margin-bottom: var(--space-8);">
+      <li>Client separation is non-negotiable. Sending domains, suppression lists, and reporting must be fully isolated per client.</li>
+      <li>White-label or client-facing reporting reduces the manual work of building custom reports.</li>
+      <li>Volume-based pricing with no per-client surcharge keeps margins predictable as the client roster grows.</li>
+    </ul>
 
-            <h3>Solo sender or freelancer</h3>
-            <ul>
-                <li>Prioritize simple sequence setup and built-in warmup over advanced team features.</li>
-                <li>Look for plans that include at least three to five sending accounts to enable basic rotation.</li>
-                <li>Deliverability monitoring matters more than team permissions at this scale.</li>
-            </ul>
+    <h2 id="pilot" style="font-size: var(--text-xl); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-4);">What to Validate in a 7-Day Pilot</h2>
+    <ul style="color: var(--color-text-muted); line-height: 1.9; padding-left: var(--space-6); margin-bottom: var(--space-8);">
+      <li>Connect a real sending domain and run warmup for at least five days before sending live outreach.</li>
+      <li>Send a test sequence of at least one hundred emails to confirm deliverability metrics match the platform's claims.</li>
+      <li>Verify that replies, bounces, and out-of-office messages are detected and handled automatically.</li>
+      <li>Test CRM sync by checking whether activities, dispositions, and contact updates appear in your CRM within the expected timeframe.</li>
+      <li>Confirm that unsubscribe requests are processed and added to the suppression list without manual steps.</li>
+      <li>Have a second team member log in to verify that permissions, shared views, and reporting work as expected.</li>
+      <li>Export a campaign report and verify that the data is complete and formatted for your existing reporting workflow.</li>
+    </ul>
 
-            <h3>Small sales team (two to ten reps)</h3>
-            <ul>
-                <li>Team permissions and shared reporting become necessary so managers can monitor across reps.</li>
-                <li>CRM integration depth determines whether reps spend time on manual data entry or selling.</li>
-                <li>Evaluate whether the platform charges per seat or per sending account, as pricing models vary.</li>
-            </ul>
-
-            <h3>Agency managing multiple clients</h3>
-            <ul>
-                <li>Client separation is non-negotiable. Sending domains, suppression lists, and reporting must be fully isolated per client.</li>
-                <li>White-label or client-facing reporting reduces the manual work of building custom reports.</li>
-                <li>Volume-based pricing with no per-client surcharge keeps margins predictable as the client roster grows.</li>
-            </ul>
-
-            <h2 id="pilot">What to Validate in a 7-Day Pilot</h2>
-            <ul>
-                <li>Connect a real sending domain and run warmup for at least five days before sending live outreach.</li>
-                <li>Send a test sequence of at least one hundred emails to confirm deliverability metrics match the platform's claims.</li>
-                <li>Verify that replies, bounces, and out-of-office messages are detected and handled automatically.</li>
-                <li>Test CRM sync by checking whether activities, dispositions, and contact updates appear in your CRM within the expected timeframe.</li>
-                <li>Confirm that unsubscribe requests are processed and added to the suppression list without manual steps.</li>
-                <li>Have a second team member log in to verify that permissions, shared views, and reporting work as expected.</li>
-                <li>Export a campaign report and verify that the data is complete and formatted for your existing reporting workflow.</li>
-            </ul>
-
-            <h2>Pilot Scorecard</h2>
-            <p>Copy and paste this scorecard into a document to compare vendors side by side during your evaluation.</p>
-<pre style="background: var(--gray-light); padding: 1.5rem; border-radius: 8px; overflow-x: auto; font-size: 0.85rem; line-height: 1.8;">
-COLD OUTREACH TOOL PILOT SCORECARD
+    <h2 style="font-size: var(--text-xl); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-4);">Pilot Scorecard</h2>
+    <p style="color: var(--color-text-muted); margin-bottom: var(--space-4);">Copy and paste this scorecard into a document to compare vendors side by side during your evaluation.</p>
+    <pre style="background: var(--color-surface); border: 1px solid var(--color-border); padding: var(--space-5); border-radius: var(--radius-lg); overflow-x: auto; font-size: var(--text-sm); line-height: 1.8; color: var(--color-text-muted);">COLD OUTREACH TOOL PILOT SCORECARD
 ===================================
 Tool Name: _______________    Pilot Dates: _____ to _____
 
@@ -179,63 +223,69 @@ PILOT RESULTS (7-day)
   Team permissions OK:  Yes / No
 
 OVERALL: Recommend / Do Not Recommend
-Notes: ___________________________________
-</pre>
+Notes: ___________________________________</pre>
 
-            <h2>Related Resources</h2>
-            <ul>
-                <li><a href="../categories/cold-outreach.html">Best Cold Outreach Tools</a> — Full category overview with pricing and feature comparison.</li>
-                <li><a href="../tools/woodpecker-review.html">Woodpecker Review</a> — Detailed review after hands-on testing for team-based cold email.</li>
-                <li><a href="../tools/instantly-review.html">Instantly.ai Review</a> — Full review covering deliverability, pricing, and scale.</li>
-                <li><a href="../compare/woodpecker-vs-lemlist.html">Woodpecker vs Lemlist</a> — Head-to-head comparison for multi-channel outreach.</li>
-                <li><a href="../compare/instantly-vs-smartlead.html">Instantly vs Smartlead</a> — Comparison for high-volume cold email senders.</li>
-                <li><a href="../compare/woodpecker-vs-instantly.html">Woodpecker vs Instantly</a> — Comparison focused on team workflows and deliverability.</li>
-            </ul>
+    <h2 style="font-size: var(--text-xl); font-weight: 700; color: var(--color-text); margin-top: var(--space-8); margin-bottom: var(--space-4);">Related Resources</h2>
+    <ul style="color: var(--color-text-muted); line-height: 1.9; padding-left: var(--space-6);">
+      <li><a href="/categories/cold-outreach.html" style="color: var(--color-accent);">Best Cold Outreach Tools</a> — Full category overview with pricing and feature comparison.</li>
+      <li><a href="/tools/woodpecker-review.html" style="color: var(--color-accent);">Woodpecker Review</a> — Detailed review after hands-on testing for team-based cold email.</li>
+      <li><a href="/tools/instantly-review.html" style="color: var(--color-accent);">Instantly.ai Review</a> — Full review covering deliverability, pricing, and scale.</li>
+      <li><a href="/compare/woodpecker-vs-lemlist.html" style="color: var(--color-accent);">Woodpecker vs Lemlist</a> — Head-to-head comparison for multi-channel outreach.</li>
+      <li><a href="/compare/instantly-vs-smartlead.html" style="color: var(--color-accent);">Instantly vs Smartlead</a> — Comparison for high-volume cold email senders.</li>
+      <li><a href="/compare/woodpecker-vs-instantly.html" style="color: var(--color-accent);">Woodpecker vs Instantly</a> — Comparison focused on team workflows and deliverability.</li>
+    </ul>
 
+  </div>
+</article>
+
+<!-- ============ Footer ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">SalesAIGuide</div>
+        <p class="footer__brand-tagline">Honest reviews of AI tools for sales professionals who need results, not hype.</p>
+      </div>
+      <div>
+        <h4 class="footer__heading">Top Tools</h4>
+        <div class="footer__links">
+          <a href="/tools/instantly-review.html" class="footer__link">Instantly.ai</a>
+          <a href="/tools/clay-review.html" class="footer__link">Clay</a>
+          <a href="/tools/apollo-review.html" class="footer__link">Apollo.io</a>
+          <a href="/tools/gong-review.html" class="footer__link">Gong</a>
+          <a href="/tools/hubspot-review.html" class="footer__link">HubSpot</a>
         </div>
-    </article>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-col">
-                    <h4>Sales<span class="highlight">AI</span>Guide</h4>
-                    <p>Honest reviews of AI tools for sales professionals who need results, not hype.</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Categories</h4>
-                    <ul>
-                        <li><a href="../categories/cold-outreach.html">Cold Outreach</a></li>
-                        <li><a href="../categories/lead-prospecting.html">Lead Prospecting</a></li>
-                        <li><a href="../categories/conversation-intelligence.html">Conversation Intelligence</a></li>
-                        <li><a href="../categories/sales-engagement.html">Sales Engagement</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="../resources/index.html">Evaluation Checklists</a></li>
-                        <li><a href="../compare/index.html">Comparisons</a></li>
-                        <li><a href="../about.html">About</a></li>
-                        <li><a href="../disclosure.html">Disclosure</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Top Tools</h4>
-                    <ul>
-                        <li><a href="../tools/index.html">All Tools</a></li>
-                        <li><a href="../compare/clay-vs-apollo.html">Clay vs Apollo</a></li>
-                        <li><a href="../compare/instantly-vs-smartlead.html">Instantly vs Smartlead</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Sales AI Guide. All rights reserved.</p>
-                <p class="disclosure">This site contains affiliate links. We may earn commission when you purchase through our links at no additional cost to you. <a href="../disclosure.html">Learn more</a></p>
-            </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Categories</h4>
+        <div class="footer__links">
+          <a href="/categories/cold-outreach.html" class="footer__link">Cold Outreach</a>
+          <a href="/categories/lead-prospecting.html" class="footer__link">Lead Prospecting</a>
+          <a href="/categories/data-enrichment.html" class="footer__link">Data Enrichment</a>
+          <a href="/categories/conversation-intelligence.html" class="footer__link">Conversation Intel</a>
+          <a href="/categories/sales-engagement.html" class="footer__link">Sales Engagement</a>
+          <a href="/categories/crm-pipeline.html" class="footer__link">CRM &amp; Pipeline</a>
         </div>
-    </footer>
+      </div>
+      <div>
+        <h4 class="footer__heading">Site</h4>
+        <div class="footer__links">
+          <a href="/about.html" class="footer__link">About</a>
+          <a href="/compare/" class="footer__link">Comparisons</a>
+          <a href="/disclosure.html" class="footer__link">Disclosure</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__disclosure">This site contains affiliate links. We may earn a commission when you purchase through our links at no additional cost to you. Our ratings and rankings are never influenced by affiliate partnerships. <a href="/disclosure.html">Full disclosure</a></p>
+      <p class="footer__copyright">&copy; 2026 SalesAIGuide. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
 
-    <script src="../js/main.js"></script>
+<!-- Scripts -->
+<script src="../js/theme.js" defer></script>
+<script src="../js/nav.js" defer></script>
+
 </body>
 </html>

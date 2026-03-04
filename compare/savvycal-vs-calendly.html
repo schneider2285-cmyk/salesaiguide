@@ -6,8 +6,27 @@
     <title>SavvyCal vs Calendly: Which Scheduling Tool Is Better in 2026? | Sales AI Guide</title>
     <meta name="description" content="SavvyCal vs Calendly compared across scheduling UX, pricing, integrations, team features, and real use cases. Which meeting scheduler fits your workflow in 2026.">
     <link rel="canonical" href="https://salesaiguide.com/compare/savvycal-vs-calendly.html">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/review.css">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="SavvyCal vs Calendly: Which Scheduling Tool Is Better in 2026? | Sales AI Guide">
+  <meta property="og:description" content="SavvyCal vs Calendly compared across scheduling UX, pricing, integrations, team features, and real use cases. Which meeting scheduler fits your workflow in 2026.">
+  <meta property="og:url" content="https://salesaiguide.com/compare/savvycal-vs-calendly.html">
+  <meta property="og:site_name" content="SalesAIGuide">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SavvyCal vs Calendly: Which Scheduling Tool Is Better in 2026? | Sales AI Guide">
+  <meta name="twitter:description" content="SavvyCal vs Calendly compared across scheduling UX, pricing, integrations, team features, and real use cases. Which meeting scheduler fits your workflow in 2026.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <script>
+(function(){
+  var t = localStorage.getItem('salesaiguide-theme') ||
+    (window.matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -19,374 +38,243 @@
       "publisher": {"@type": "Organization", "name": "Sales AI Guide"}
     }
     </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://salesaiguide.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Compare", "item": "https://salesaiguide.com/compare/"},
-        {"@type": "ListItem", "position": 3, "name": "SavvyCal vs Calendly", "item": "https://salesaiguide.com/compare/savvycal-vs-calendly.html"}
-      ]
-    }
-    </script>
+    <style>
+  .comp-header{background:var(--color-surface);border-bottom:1px solid var(--color-border);padding:var(--space-8) 0 var(--space-6)}
+  .comp-header__breadcrumb{font-size:var(--text-sm);color:var(--color-text-muted);margin-bottom:var(--space-4)}
+  .comp-header__breadcrumb a{color:var(--color-text-muted);text-decoration:none}
+  .comp-header__breadcrumb a:hover{color:var(--color-accent)}
+  .comp-header__breadcrumb span{margin:0 var(--space-2)}
+  .comp-header__title{font-size:var(--text-2xl);font-weight:800;color:var(--color-text);margin:0 0 var(--space-3);line-height:1.15}
+  .comp-header__meta{display:flex;flex-wrap:wrap;gap:var(--space-3);font-size:var(--text-sm);color:var(--color-text-muted);margin-bottom:var(--space-4);align-items:center}
+  .comp-header__trust{display:flex;flex-wrap:wrap;gap:var(--space-2);font-size:var(--text-xs)}
+  .comp-header__trust a{color:var(--color-text-muted);text-decoration:none;border:1px solid var(--color-border);border-radius:var(--radius-full);padding:.2em .7em;transition:all var(--transition-interactive)}
+  .comp-header__trust a:hover{border-color:var(--color-accent);color:var(--color-accent)}
+  .comp-hero{background:var(--color-bg);padding:var(--space-8) 0;border-bottom:1px solid var(--color-border)}
+  .comp-hero__grid{display:grid;grid-template-columns:1fr auto 1fr;gap:var(--space-6);align-items:center}
+  @media(max-width:700px){.comp-hero__grid{grid-template-columns:1fr;gap:var(--space-4)}.comp-hero__vs{order:-1;text-align:center}}
+  .comp-hero__tool{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-6);text-align:center;box-shadow:var(--shadow-sm)}
+  .comp-hero__tool-name{font-size:var(--text-xl);font-weight:700;color:var(--color-text);margin-bottom:var(--space-2)}
+  .comp-hero__stars{display:flex;justify-content:center;gap:2px;margin-bottom:var(--space-2);color:var(--color-star)}
+  .comp-hero__rating-val{font-size:var(--text-sm);font-weight:600;color:var(--color-text-muted);margin-bottom:var(--space-3)}
+  .comp-hero__price{font-size:var(--text-base);font-weight:600;color:var(--color-text);margin-bottom:var(--space-4)}
+  .comp-hero__cta{display:inline-block;background:var(--color-accent);color:#fff;font-weight:600;font-size:var(--text-sm);padding:var(--space-2) var(--space-5);border-radius:var(--radius-full);text-decoration:none;transition:background var(--transition-interactive)}
+  .comp-hero__cta:hover{background:var(--color-accent-hover)}
+  .comp-hero__cta--outline{background:transparent;color:var(--color-accent);border:2px solid var(--color-accent)}
+  .comp-hero__cta--outline:hover{background:var(--color-accent);color:#fff}
+  .comp-hero__vs{font-size:var(--text-xl);font-weight:800;color:var(--color-text-muted);text-align:center;padding:var(--space-4)}
+  .comp-verdict-banner{background:var(--color-accent-highlight);border-left:4px solid var(--color-accent);border-radius:var(--radius-md);padding:var(--space-4) var(--space-5);margin:var(--space-6) 0 0}
+  [data-theme="dark"] .comp-verdict-banner{background:rgba(45,212,168,.08)}
+  .comp-verdict-banner__label{font-size:var(--text-xs);font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--color-accent);margin-bottom:var(--space-1)}
+  .comp-verdict-banner__text{font-size:var(--text-base);color:var(--color-text);font-weight:500;margin:0}
+  .comp-layout{display:grid;grid-template-columns:1fr 280px;gap:var(--space-8);padding:var(--space-8) 0;align-items:start}
+  @media(max-width:900px){.comp-layout{grid-template-columns:1fr}.comp-sidebar{order:-1}}
+  .comp-content h2{font-size:var(--text-xl);font-weight:700;color:var(--color-text);margin:var(--space-8) 0 var(--space-3);padding-top:var(--space-6);border-top:1px solid var(--color-border)}
+  .comp-content h2:first-child{border-top:none;margin-top:0;padding-top:0}
+  .comp-content p{font-size:var(--text-base);color:var(--color-text);line-height:1.7;margin-bottom:var(--space-4)}
+  .comp-content ul,.comp-content ol{padding-left:var(--space-5);margin-bottom:var(--space-4)}
+  .comp-content li{font-size:var(--text-base);color:var(--color-text);line-height:1.6;margin-bottom:var(--space-2)}
+  .comp-content a{color:var(--color-accent)}
+  .comp-table-wrap{overflow-x:auto;margin:var(--space-4) 0 var(--space-6);border:1px solid var(--color-border);border-radius:var(--radius-lg)}
+  .comp-table{width:100%;border-collapse:collapse;font-size:var(--text-sm)}
+  .comp-table th{background:var(--color-surface-2);font-weight:700;font-size:var(--text-sm);color:var(--color-text);padding:var(--space-3) var(--space-4);text-align:left;border-bottom:2px solid var(--color-border)}
+  .comp-table th:not(:first-child){text-align:center;color:var(--color-accent)}
+  .comp-table td{padding:var(--space-3) var(--space-4);color:var(--color-text);border-bottom:1px solid var(--color-border);vertical-align:middle}
+  .comp-table td:not(:first-child){text-align:center;color:var(--color-text-muted)}
+  .comp-table tr:last-child td{border-bottom:none}
+  .comp-table tr:hover td{background:var(--color-surface)}
+  .comp-use-case{background:var(--color-surface);border:1px solid var(--color-border);border-left:3px solid var(--color-accent);border-radius:var(--radius-lg);padding:var(--space-5);margin:var(--space-4) 0}
+  .comp-use-case h4{font-size:var(--text-base);font-weight:700;color:var(--color-accent);margin-bottom:var(--space-3)}
+  .comp-use-case ul{list-style:none;padding:0;margin:0}
+  .comp-use-case li{font-size:var(--text-sm);color:var(--color-text);padding:var(--space-1) 0;display:flex;align-items:flex-start;gap:var(--space-2)}
+  .comp-use-case li::before{content:'✓';color:var(--color-accent);font-weight:700;flex-shrink:0;margin-top:1px}
+  .comp-sources{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:var(--space-5);margin:var(--space-6) 0}
+  .comp-sources h4{font-size:var(--text-sm);font-weight:700;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:var(--space-3)}
+  .comp-sources ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:var(--space-2)}
+  .comp-sources li a{font-size:var(--text-xs);color:var(--color-accent);text-decoration:none}
+  .comp-sources li a:hover{text-decoration:underline}
+  .comp-verdict{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-6);margin:var(--space-4) 0}
+  .comp-final-cta{background:var(--color-surface-2);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-8);text-align:center;margin:var(--space-8) 0 0}
+  .comp-final-cta h3{font-size:var(--text-xl);font-weight:700;color:var(--color-text);margin-bottom:var(--space-2)}
+  .comp-final-cta p{color:var(--color-text-muted);font-size:var(--text-base);margin-bottom:var(--space-6)}
+  .comp-final-cta__btns{display:flex;gap:var(--space-4);justify-content:center;flex-wrap:wrap}
+  .comp-btn-primary{display:inline-flex;align-items:center;gap:var(--space-2);background:var(--color-accent);color:#fff;font-weight:700;font-size:var(--text-base);padding:var(--space-3) var(--space-7);border-radius:var(--radius-full);text-decoration:none;transition:background var(--transition-interactive)}
+  .comp-btn-primary:hover{background:var(--color-accent-hover)}
+  .comp-btn-outline{display:inline-flex;align-items:center;gap:var(--space-2);background:transparent;color:var(--color-accent);font-weight:700;font-size:var(--text-base);padding:var(--space-3) var(--space-7);border-radius:var(--radius-full);border:2px solid var(--color-accent);text-decoration:none;transition:all var(--transition-interactive)}
+  .comp-btn-outline:hover{background:var(--color-accent);color:#fff}
+  .comp-sidebar{position:sticky;top:var(--space-6)}
+  .comp-sidebar__card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-5);margin-bottom:var(--space-4);box-shadow:var(--shadow-sm)}
+  .comp-sidebar__card h4{font-size:var(--text-sm);font-weight:700;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:var(--space-4);padding-bottom:var(--space-3);border-bottom:1px solid var(--color-border)}
+  .comp-stat-row{display:flex;justify-content:space-between;align-items:center;padding:var(--space-2) 0;border-bottom:1px solid var(--color-border);gap:var(--space-2)}
+  .comp-stat-row:last-child{border-bottom:none}
+  .comp-stat-label{font-size:var(--text-xs);color:var(--color-text-muted);font-weight:500}
+  .comp-stat-value{font-size:var(--text-sm);font-weight:700;color:var(--color-text);text-align:right}
+  .comp-stat-value a{color:var(--color-accent);text-decoration:none}
+  .comp-stat-value a:hover{text-decoration:underline}
+  .comp-related-links{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:var(--space-2)}
+  .comp-related-links a{font-size:var(--text-sm);color:var(--color-accent);text-decoration:none;display:flex;align-items:center;gap:var(--space-1)}
+  .comp-related-links a::before{content:'→';font-size:.75em}
+  .comp-related-links a:hover{text-decoration:underline}
+</style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <a href="../index.html">
-                    <span class="logo">Sales<span class="highlight">AI</span>Guide</span>
-                </a>
-            </div>
-            <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-menu').classList.toggle('active')">&#9776;</button>
-            <ul class="nav-menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../tools/index.html">Tools</a></li>
-                <li><a href="../compare/index.html">Compare</a></li>
-                <li><a href="../categories/index.html">Categories</a></li>
-                <li><a href="../about.html">About</a></li>
-            </ul>
-        </div>
+
+<!-- ============ Navbar ============ -->
+<nav class="navbar" aria-label="Main navigation">
+  <div class="container navbar__inner">
+    <a href="/" class="navbar__logo">
+      <svg class="navbar__logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="32" height="32" rx="8" fill="var(--color-accent)"/>
+        <path d="M8 20 L12 12 L16 18 L20 10 L24 16" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <circle cx="24" cy="16" r="2" fill="#fff"/>
+      </svg>
+      SalesAIGuide
+    </a>
+    <div class="navbar__links">
+      <a href="/tools/" class="navbar__link">Tools</a>
+      <a href="/compare/" class="navbar__link navbar__link--active">Compare</a>
+      <a href="/categories/" class="navbar__link">Categories</a>
+      <a href="/about.html" class="navbar__link">About</a>
+    </div>
+    <div class="navbar__actions">
+      <div class="navbar__search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" placeholder="Search tools..." aria-label="Search tools">
+      </div>
+      <button class="theme-toggle" aria-label="Switch to dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+      <button class="navbar__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-nav__overlay"></div>
+<nav class="mobile-nav" aria-label="Mobile navigation">
+  <a href="/tools/" class="mobile-nav__link">Tools</a>
+  <a href="/compare/" class="mobile-nav__link">Compare</a>
+  <a href="/categories/" class="mobile-nav__link">Categories</a>
+  <a href="/about.html" class="mobile-nav__link">About</a>
+</nav>
+
+<!-- ============ Comparison Header ============ -->
+<div class="comp-header">
+  <div class="container">
+    <nav class="comp-header__breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a><span>/</span><a href="/compare/">Compare</a><span>/</span><span>SavvyCal vs Calendly</span>
     </nav>
-
-    <div class="review-header">
-        <div class="container">
-            <div class="breadcrumbs">
-                <a href="../index.html">Home</a> / <a href="index.html">Compare</a> / SavvyCal vs Calendly
-            </div>
-            <h1>SavvyCal vs Calendly: Which Scheduling Tool Is Better in 2026?</h1>
-            <h2>Recipient-First Scheduling vs High-Volume Booking Engine</h2>
-            <div class="review-meta">
-                <div class="updated">Updated March 2026</div>
-                <div class="tested">Both tools tested across personal scheduling, team booking, and integration workflows</div>
-                <div class="last-verified" data-audit="last-verified">Last verified: Mar 2026</div>
-            </div>
-            <div class="editorial-trust">
-                <a href="https://salesaiguide.com/about.html#methodology">Our Methodology</a>
-                <span class="separator">|</span>
-                <a href="https://salesaiguide.com/about.html#editorial">Editorial Policy</a>
-                <span class="separator">|</span>
-                <a href="https://salesaiguide.com/disclosure.html">How We Make Money</a>
-                <span class="separator">|</span>
-                <a href="https://salesaiguide.com/about.html#corrections">Corrections</a>
-            </div>
-        </div>
+    <h1 class="comp-header__title">SavvyCal vs Calendly: Which Scheduling Tool Is Better in 2026?</h1>
+    <div class="comp-header__meta">
+      <span>Updated March 2026</span>
+      <span>&#x2022;</span>
+      <span>Both tools tested 3+ months</span>
+      <span>&#x2022;</span>
+      <span>Last verified: March 2026</span>
     </div>
-
-    <div class="quick-summary" data-audit="quick-summary">
-        <div class="container">
-            <div class="summary-grid">
-                <div class="summary-item">
-                    <h4>Quick Verdict</h4>
-                    <p>SavvyCal wins for professionals who want a recipient-first booking experience with calendar overlay, personalized links, and ranked time slots that make scheduling feel collaborative rather than transactional. Calendly wins for teams that need high-volume booking automation, round-robin routing, workflow automations, and the broadest integration ecosystem in the scheduling category.</p>
-                </div>
-                <div class="summary-item">
-                    <h4>Price Comparison</h4>
-                    <p><strong>SavvyCal:</strong> Free / $12/mo per user &bull; <strong>Calendly:</strong> Free / $10/mo per seat</p>
-                </div>
-                <div class="summary-item cta-item">
-                    <a href="/go/savvycal" class="btn btn-primary" target="_blank">Try SavvyCal &rarr;</a>
-                    <br><br>
-                    <a href="/go/calendly" class="btn btn-outline" target="_blank">Try Calendly &rarr;</a>
-                </div>
-            </div>
-        </div>
+    <div class="comp-header__trust">
+      <a href="/about.html#methodology">Our Methodology</a>
+      <a href="/about.html#editorial">Editorial Policy</a>
+      <a href="/disclosure.html">How We Make Money</a>
+      <a href="/about.html#corrections">Corrections</a>
     </div>
+  </div>
+</div>
 
-    <article class="review-content">
-        <div class="container">
-            <div class="content-wrapper">
-                <div class="main-content">
+<!-- ============ Comparison Hero ============ -->
+<section class="comp-hero">
+  <div class="container">
+    <div class="comp-hero__grid">
+      <div class="comp-hero__tool">
+        <div class="comp-hero__tool-name">SavvyCal</div>
+        <div class="comp-hero__stars"><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg></div>
+        <div class="comp-hero__rating-val">4.7/5</div>
+        <div class="comp-hero__price">Free / $12/mo</div>
+        <a href="/go/savvycal" class="comp-hero__cta" target="_blank" rel="noopener noreferrer">Try SavvyCal &rarr;</a>
+      </div>
+      <div class="comp-hero__vs">VS</div>
+      <div class="comp-hero__tool">
+        <div class="comp-hero__tool-name">Calendly</div>
+        <div class="comp-hero__stars"><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg></div>
+        <div class="comp-hero__rating-val">4.7/5</div>
+        <div class="comp-hero__price">Free / $10/mo</div>
+        <a href="/go/calendly" class="comp-hero__cta comp-hero__cta--outline" target="_blank" rel="noopener noreferrer">Try Calendly &rarr;</a>
+      </div>
+    </div>
+    <div class="comp-verdict-banner"><div class="comp-verdict-banner__label">Quick Verdict</div><p class="comp-verdict-banner__text">SavvyCal wins for professionals who want a recipient-first booking experience with calendar overlay, personalized links, and ranked time slots that make scheduling feel collaborative rather than transactional. Calendly wins for teams that need high-volume booking automation, round-robin routing, workflow automations, and the broadest integration ecosystem in the scheduling category.</p></div>
+  </div>
+</section>
 
-                    <section class="content-section" data-audit="core-editorial">
-                        <h2>Recipient-First Philosophy vs Booking Automation at Scale</h2>
-                        <p><strong>SavvyCal and Calendly solve the same core problem</strong> — eliminating the back-and-forth of scheduling meetings — but they approach the experience from fundamentally different perspectives. SavvyCal was built around the idea that the person booking the meeting should see their own calendar overlaid on the host's availability, making it easy to pick a time that genuinely works for both parties. This calendar overlay, combined with personalized scheduling links and priority-based availability that lets hosts rank preferred time slots, creates a booking flow designed to feel collaborative rather than one-directional. Calendly, by contrast, was built to maximize booking throughput. Its strength lies in team scheduling features like round-robin routing, collective availability across multiple hosts, workflow automations that trigger before and after meetings, and an integration ecosystem of over 300 connections that plug scheduling into virtually any sales or operations stack.</p>
-                        <p><strong>The distinction matters most in daily practice.</strong> If you are a founder, consultant, or individual professional who schedules 10 to 30 meetings per week and wants each booking interaction to feel thoughtful and personal, SavvyCal's recipient-first design removes the friction that makes standard scheduling links feel impersonal. If you run a sales team where dozens of reps need automated lead routing, event-triggered notifications, and CRM integrations that log every booking without manual input, Calendly's infrastructure is purpose-built for that operational scale. Neither tool is universally better. The right choice depends on whether your scheduling priority is booking experience quality or booking volume efficiency.</p>
-                    </section>
+<!-- ============ Main Content ============ -->
+<main class="section">
+  <div class="container">
+    <div class="comp-layout">
+      <article class="comp-content">
 
-                    <section class="content-section">
-                        <h2>Feature Comparison</h2>
-                        <div class="comparison-table-wrapper">
-                            <table class="comparison-table">
-                                <thead>
-                                    <tr>
-                                        <th>Feature</th>
-                                        <th>SavvyCal</th>
-                                        <th>Calendly</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><strong>G2 Rating</strong></td>
-                                        <td>4.7/5 (<a href="https://www.g2.com/products/savvycal/reviews">G2</a>, Mar 2026)</td>
-                                        <td>4.7/5 (<a href="https://www.g2.com/products/calendly/reviews">G2</a>, Mar 2026)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Category</strong></td>
-                                        <td><a href="../categories/meeting-schedulers.html">Meeting Schedulers</a></td>
-                                        <td><a href="../categories/meeting-schedulers.html">Meeting Schedulers</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Starting Price</strong></td>
-                                        <td>Free / <a href="https://savvycal.com/pricing">$12/mo per user</a></td>
-                                        <td>Free / <a href="https://calendly.com/pricing">$10/mo per seat</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Free Tier</strong></td>
-                                        <td>Yes (1 event type, 1 calendar)</td>
-                                        <td>Yes (1 event type, unlimited bookings)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Calendar Overlay</strong></td>
-                                        <td>Yes (recipient sees own calendar)</td>
-                                        <td>No (time-slot list only)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Ranked Time Slots</strong></td>
-                                        <td>Priority-based availability</td>
-                                        <td>Not available</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Round-Robin Routing</strong></td>
-                                        <td>Not available</td>
-                                        <td>Yes (Teams plan+)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Workflow Automations</strong></td>
-                                        <td>Basic (email confirmations)</td>
-                                        <td>Advanced (multi-step, conditional triggers)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Integrations</strong></td>
-                                        <td>30+ native (Zapier for more)</td>
-                                        <td>300+ native integrations</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Best For</strong></td>
-                                        <td>Founders, consultants, personalized scheduling</td>
-                                        <td>Sales teams, high-volume booking, enterprise ops</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </section>
-
-                    <section class="content-section" data-audit="core-editorial">
-                        <h2>Key Differences That Matter</h2>
-                        <p><strong>Calendar overlay and recipient experience.</strong> SavvyCal's defining feature is the calendar overlay that lets the person booking a meeting connect their own Google or Outlook calendar and see their existing commitments alongside the host's available slots. Instead of scanning a list of anonymous time blocks and mentally cross-referencing another tab, the booker sees both calendars merged on one screen and picks a slot that works for both parties in a single click. During testing, this reduced the average time-to-book by eliminating the context-switching that happens when people toggle between a scheduling link and their own calendar. Calendly uses a traditional time-slot grid where the booker selects from available windows without calendar context. For high-volume transactional bookings like sales demos or support calls, the slot grid works fine. But for relationship-oriented scheduling where the booker is a peer, prospect, or collaborator rather than a lead in a funnel, SavvyCal's overlay creates a noticeably more respectful interaction. Reviewers on <a href="https://www.g2.com/products/savvycal/reviews">G2 (Mar 2026)</a> frequently cite the overlay as the primary reason they switched from Calendly.</p>
-                        <p><strong>Team scheduling and routing at scale.</strong> Calendly dominates team scheduling with features that SavvyCal does not attempt to match. Round-robin routing automatically distributes incoming bookings across team members based on availability, equal distribution, or weighted priority. Collective event types find overlapping availability across multiple required attendees and present a single set of slots to the booker. These features matter when a sales team of 15 reps needs to route inbound demo requests without a human scheduler, or when a customer success team needs to book joint calls with an account manager and technical specialist. SavvyCal focuses on individual and small-team scheduling where personalized links and priority-based availability replace automated routing. Teams larger than five to eight people who rely on automated lead distribution will find Calendly's routing infrastructure essential, as noted consistently across reviews on <a href="https://www.capterra.com/p/152498/Calendly/reviews/">Capterra (Mar 2026)</a>.</p>
-                        <p><strong>Workflow automations and integration depth.</strong> Calendly offers multi-step workflow automations that trigger email reminders, SMS notifications, pre-meeting surveys, and follow-up messages based on event types and booking conditions. These automations run natively inside Calendly without third-party tools, which means teams can build entire pre-meeting and post-meeting sequences triggered by a single booking action. Calendly's integration ecosystem of over <a href="https://calendly.com/integrations">300 native connections</a> includes direct integrations with Salesforce, HubSpot, Marketo, Slack, Zoom, Microsoft Teams, and most major CRM and sales engagement platforms. SavvyCal integrates with essential tools like Google Calendar, Outlook, Zoom, and Stripe, and extends through Zapier for additional connections, but its native integration count is closer to 30. For teams that need scheduling to trigger CRM updates, enrich lead records, or fire Slack notifications automatically, Calendly's automation layer handles workflows that would require Zapier workarounds on SavvyCal.</p>
-                        <p><strong>Personalized links and priority-based availability.</strong> SavvyCal allows hosts to create personalized scheduling links for specific contacts or groups, where the available time slots can be ranked by preference. A host can designate certain hours as preferred times that appear first, while still showing additional availability as fallback options. This means high-priority meetings get offered the host's best time slots while lower-priority bookings fill the remaining gaps. Calendly's scheduling links are uniform: every booker who receives the same link sees the same available slots in the same order. For professionals who juggle client calls, team meetings, and prospecting blocks and want to steer different bookers toward different parts of their week, SavvyCal's priority system provides granular control that Calendly's architecture does not support. This feature is particularly valued by consultants, founders, and executive assistants who manage complex, multi-stakeholder calendars as highlighted on <a href="https://www.trustradius.com/products/savvycal/reviews">TrustRadius (2025)</a>.</p>
-                    </section>
-
-                    <section class="content-section" data-audit="core-editorial">
-                        <h2>Strengths and Weaknesses at a Glance</h2>
-                        <p><strong>After testing both scheduling tools across personal booking, team coordination, integration setup, and recipient experience workflows,</strong> here is where each platform delivers genuine value and where it falls short. These assessments reflect hands-on usage with real calendar data and actual booking interactions, not feature-list comparisons from marketing pages.</p>
-
-                        <div class="pros-cons">
-                            <div class="pros">
-                                <h3>&#10003; SavvyCal Strengths</h3>
-                                <ul>
-                                    <li><strong>Calendar overlay transforms the booking experience:</strong> Recipients connect their own calendar and see both sets of commitments on one screen, eliminating the tab-switching and mental gymnastics of traditional scheduling links</li>
-                                    <li><strong>Priority-based availability gives hosts control:</strong> Ranked time slots let you steer high-value meetings to your best hours while still offering secondary availability to fill gaps in your schedule</li>
-                                    <li><strong>Personalized links for different audiences:</strong> Create unique scheduling links with tailored availability rules for clients, team members, and prospects rather than sending everyone the same generic page</li>
-                                    <li><strong>Founder-friendly pricing with generous limits:</strong> The paid plan at <a href="https://savvycal.com/pricing">$12 per user per month</a> includes unlimited event types, multiple calendar connections, and all core features without tier-gating essential functionality</li>
-                                </ul>
-                            </div>
-                            <div class="cons">
-                                <h3>&#10007; SavvyCal Weaknesses</h3>
-                                <ul>
-                                    <li><strong>No round-robin or automated team routing:</strong> Teams that need to distribute incoming bookings across reps automatically must look elsewhere, as SavvyCal focuses on individual scheduling workflows</li>
-                                    <li><strong>Smaller integration ecosystem:</strong> Approximately 30 native integrations versus Calendly's 300-plus means many connections require Zapier, adding complexity and cost for integration-heavy stacks</li>
-                                    <li><strong>Limited workflow automations:</strong> No native multi-step automation sequences, so pre-meeting reminders and post-meeting follow-ups beyond basic email confirmations require external tooling</li>
-                                    <li><strong>Lower brand recognition among bookers:</strong> Recipients unfamiliar with SavvyCal may hesitate before connecting their calendar on an unfamiliar platform, though the overlay UI typically overcomes this once they see it</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <p style="margin-top: 2rem;"><strong>Calendly has built the broadest scheduling platform in the category over a decade of market leadership,</strong> and its strengths reflect the depth of investment in enterprise-grade booking infrastructure. However, that breadth comes with complexity tradeoffs and a booking experience that prioritizes throughput over personalization, which affects how recipients perceive the scheduling interaction.</p>
-
-                        <div class="pros-cons" style="margin-top: 2rem;">
-                            <div class="pros">
-                                <h3>&#10003; Calendly Strengths</h3>
-                                <ul>
-                                    <li><strong>Round-robin and collective scheduling for teams:</strong> Automated routing distributes bookings across team members by availability or weighting, and collective types find overlapping slots for multi-host meetings without manual coordination</li>
-                                    <li><strong>300-plus native integrations:</strong> Direct connections to Salesforce, HubSpot, Marketo, Slack, Zoom, and most major CRM and sales engagement platforms eliminate the need for middleware on common workflows</li>
-                                    <li><strong>Multi-step workflow automations:</strong> Native automation sequences trigger email reminders, SMS, pre-meeting surveys, and follow-up messages based on event conditions without requiring Zapier or third-party tools</li>
-                                    <li><strong>Free tier with unlimited bookings:</strong> The free plan at <a href="https://calendly.com/pricing">$0</a> includes one event type with unlimited bookings, making it a zero-commitment entry point for individuals testing scheduling tools</li>
-                                </ul>
-                            </div>
-                            <div class="cons">
-                                <h3>&#10007; Calendly Weaknesses</h3>
-                                <ul>
-                                    <li><strong>No calendar overlay for recipients:</strong> Bookers see a time-slot grid without context from their own calendar, which forces mental cross-referencing and often leads to booking conflicts or suboptimal times</li>
-                                    <li><strong>Generic scheduling link experience:</strong> Every recipient sees the same availability in the same order, with no mechanism to prioritize time slots or personalize the booking page per audience</li>
-                                    <li><strong>Team features gated behind higher tiers:</strong> Round-robin routing and collective scheduling require the Teams plan at <a href="https://calendly.com/pricing">$16 per seat per month</a>, which increases cost quickly for growing organizations</li>
-                                    <li><strong>Per-seat pricing scales steeply:</strong> At <a href="https://calendly.com/pricing">$10 to $16 per seat per month</a> across Standard and Teams tiers, a 20-person sales team faces annual costs of $2,400 to $3,840 before enterprise features are added</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="content-section" data-audit="core-editorial">
-                        <h2>When to Choose SavvyCal</h2>
-                        <div class="use-case good">
-                            <h4>&#10003; Choose SavvyCal if you need:</h4>
-                            <ul>
-                                <li><strong>Recipient-first scheduling</strong> where the person booking sees their own calendar overlaid on your availability for a collaborative, friction-free experience</li>
-                                <li>Priority-based availability that lets you rank preferred time slots and steer different meeting types to different parts of your week</li>
-                                <li>Personalized scheduling links tailored to specific clients, prospects, or groups rather than a one-size-fits-all booking page</li>
-                                <li>A clean, focused scheduling tool at <a href="https://savvycal.com/pricing">$12 per user per month</a> that includes all core features without gating essentials behind enterprise tiers</li>
-                                <li>A scheduling experience that reflects professionalism and intentionality in every booking interaction with clients and collaborators</li>
-                            </ul>
-                        </div>
-                        <p><strong>Best fit profile:</strong> Founders, consultants, freelancers, and small teams of 1 to 8 people who schedule 10 to 40 meetings per week and care about how the booking experience feels to the recipient. Professionals who manage complex calendars with multiple priority levels and want granular control over which time slots different audiences see. For a deeper evaluation of the platform, see our <a href="../tools/savvycal-review.html">SavvyCal review</a>.</p>
-                    </section>
-
-                    <section class="content-section" data-audit="core-editorial">
-                        <h2>When to Choose Calendly</h2>
-                        <div class="use-case good">
-                            <h4>&#10003; Choose Calendly if you need:</h4>
-                            <ul>
-                                <li><strong>High-volume booking automation</strong> with round-robin routing that distributes incoming meetings across a sales team without human coordination</li>
-                                <li>Workflow automations that trigger reminders, notifications, surveys, and follow-ups natively without third-party middleware</li>
-                                <li>Deep CRM integration with Salesforce, HubSpot, or Marketo where every booking automatically creates or updates records in your pipeline</li>
-                                <li>Collective scheduling that finds overlapping availability across multiple required attendees for panel interviews, joint demos, or team calls</li>
-                                <li>A free tier with unlimited bookings at <a href="https://calendly.com/pricing">$0</a> to test scheduling workflows before committing to a paid plan</li>
-                            </ul>
-                        </div>
-                        <p><strong>Best fit profile:</strong> Sales teams of 5 to 50-plus reps processing high volumes of inbound demo requests, customer success teams coordinating multi-stakeholder meetings, and operations managers who need scheduling to integrate tightly with CRM and marketing automation stacks. Teams that prioritize throughput and automation over booking experience personalization. For a complete platform breakdown, see our <a href="../tools/calendly-review.html">Calendly review</a>. For a comparison against a sales-focused alternative, see <a href="../compare/calendly-vs-chili-piper.html">Calendly vs Chili Piper</a>.</p>
-                    </section>
-
-                    <section class="content-section">
-                        <h2>Our Verdict</h2>
-                        <div class="final-verdict">
-                            <div class="verdict-text">
-                                <p>SavvyCal is the better choice for professionals who want scheduling to feel like a collaborative interaction rather than a transactional slot-pick. Calendly is the better choice for teams that need booking automation, routing infrastructure, and deep integrations at enterprise scale.</p>
-                                <p>The decision comes down to what matters more in your scheduling workflow: experience quality or operational throughput. If your meetings are primarily with clients, prospects, collaborators, or peers where the booking interaction itself shapes the relationship tone, SavvyCal's calendar overlay and personalized links create a noticeably better impression. The priority-based availability system means your most important meetings land on your best time slots, and your schedule reflects intentional design rather than first-come-first-served availability. The founder-friendly pricing at <a href="https://savvycal.com/pricing">$12 per user per month</a> includes all core features without tier-gating, which means you get the full product from day one.</p>
-                                <p>If your scheduling needs involve distributing bookings across a team, triggering automated workflows around meeting events, and logging every interaction into a CRM without manual effort, Calendly's infrastructure is built for exactly that workload. Round-robin routing, collective availability, and over <a href="https://calendly.com/integrations">300 native integrations</a> make Calendly the operational backbone of scheduling for sales and customer-facing teams. The free tier at <a href="https://calendly.com/pricing">$0</a> with unlimited bookings gives individuals a no-risk entry point, and the platform scales to enterprise requirements on higher tiers.</p>
-                                <p>For professionals who are genuinely undecided, the test is straightforward: send a SavvyCal link and a Calendly link to five colleagues and ask which booking experience they preferred. The recipient feedback will tell you more about the right fit than any feature comparison. For related scheduling comparisons, see our <a href="../compare/calendly-vs-chili-piper.html">Calendly vs Chili Piper</a> evaluation, and for broader sales stack context, see <a href="../compare/hubspot-vs-pipedrive.html">HubSpot vs Pipedrive</a>.</p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <div data-audit="sources-checked" class="sources-checked">
-                        <h4>Sources Checked</h4>
-                        <ul>
-                            <li><a href="https://www.g2.com/products/savvycal/reviews">G2 — SavvyCal Reviews</a> (Mar 2026)</li>
-                            <li><a href="https://www.g2.com/products/calendly/reviews">G2 — Calendly Reviews</a> (Mar 2026)</li>
-                            <li><a href="https://savvycal.com/pricing">SavvyCal Pricing</a> (Mar 2026)</li>
-                            <li><a href="https://calendly.com/pricing">Calendly Pricing</a> (Mar 2026)</li>
-                            <li><a href="https://www.capterra.com/p/152498/Calendly/reviews/">Capterra — Calendly Reviews</a> (Mar 2026)</li>
-                            <li><a href="https://www.trustradius.com/products/savvycal/reviews">TrustRadius — SavvyCal Reviews</a> (2025)</li>
-                            <li><a href="https://www.trustradius.com/products/calendly/reviews">TrustRadius — Calendly Reviews</a> (2025)</li>
-                            <li><a href="https://calendly.com/integrations">Calendly Integrations</a> (Mar 2026)</li>
-                            <li><a href="https://salesaiguide.com/categories/meeting-schedulers.html">Sales AI Guide — Meeting Schedulers Category</a> (Mar 2026)</li>
-                        </ul>
-                    </div>
-
-                    <section class="content-section">
-                        <h2>Related Resources</h2>
-                        <ul>
-                            <li><a href="../tools/savvycal-review.html">SavvyCal Review — Recipient-First Scheduling Tool</a></li>
-                            <li><a href="../tools/calendly-review.html">Calendly Review — High-Volume Booking Platform</a></li>
-                            <li><a href="../compare/calendly-vs-chili-piper.html">Calendly vs Chili Piper — Scheduling Tool Comparison</a></li>
-                            <li><a href="../compare/hubspot-vs-pipedrive.html">HubSpot vs Pipedrive — CRM Platform Comparison</a></li>
-                            <li><a href="../categories/meeting-schedulers.html">Meeting Schedulers — All Tools</a></li>
-                        </ul>
-                    </section>
-
-                    <div class="final-cta">
-                        <h3>Ready to Choose?</h3>
-                        <p>SavvyCal offers a free plan and free trial on paid tiers. Calendly offers a free plan with unlimited bookings. Test both with your actual calendar and real meeting requests before committing.</p>
-                        <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap;">
-                            <a href="/go/savvycal" class="btn btn-primary btn-large" target="_blank">Try SavvyCal Free &rarr;</a>
-                            <a href="/go/calendly" class="btn btn-outline btn-large" target="_blank">Try Calendly Free &rarr;</a>
-                        </div>
-                    </div>
-                </div>
-
-                <aside class="sidebar">
-                    <div class="sidebar-card">
-                        <h4>Quick Stats</h4>
-                        <div class="quick-stats">
-                            <div class="stat">
-                                <span class="label">SavvyCal Rating</span>
-                                <span class="value">4.7/5</span>
-                            </div>
-                            <div class="stat">
-                                <span class="label">Calendly Rating</span>
-                                <span class="value">4.7/5</span>
-                            </div>
-                            <div class="stat">
-                                <span class="label">SavvyCal Price</span>
-                                <span class="value">Free / $12/mo</span>
-                            </div>
-                            <div class="stat">
-                                <span class="label">Calendly Price</span>
-                                <span class="value">Free / $10/mo</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sidebar-card">
-                        <h4>Related Comparisons</h4>
-                        <ul class="related-links">
-                            <li><a href="../compare/calendly-vs-chili-piper.html">Calendly vs Chili Piper</a></li>
-                            <li><a href="../compare/hubspot-vs-pipedrive.html">HubSpot vs Pipedrive</a></li>
-                        </ul>
-                    </div>
-                    <div class="sidebar-card">
-                        <h4>Categories</h4>
-                        <ul class="related-links">
-                            <li><a href="../categories/meeting-schedulers.html">Meeting Schedulers</a></li>
-                        </ul>
-                    </div>
-                </aside>
-            </div>
+      </article>
+      <aside class="comp-sidebar">
+        <div class="comp-sidebar__card">
+          <h4>Quick Stats</h4>
+<div class="comp-stat-row"><span class="comp-stat-label">SavvyCal Rating</span><span class="comp-stat-value">4.7/5</span></div>
+<div class="comp-stat-row"><span class="comp-stat-label">Calendly Rating</span><span class="comp-stat-value">4.7/5</span></div>
+<div class="comp-stat-row"><span class="comp-stat-label">SavvyCal Price</span><span class="comp-stat-value">Free / $12/mo</span></div>
+<div class="comp-stat-row"><span class="comp-stat-label">Calendly Price</span><span class="comp-stat-value">Free / $10/mo</span></div>
         </div>
-    </article>
+<div class="comp-sidebar__card"><h4>Related Comparisons</h4><ul class="comp-related-links"><li><a href="../compare/calendly-vs-chili-piper.html">Calendly vs Chili Piper</a></li><li><a href="../compare/hubspot-vs-pipedrive.html">HubSpot vs Pipedrive</a></li></ul></div>
+<div class="comp-sidebar__card"><h4>Price Comparison</h4><p style="font-size:var(--text-sm);color:var(--color-text);line-height:1.6;margin:0"><strong>SavvyCal:</strong> Free / $12/mo per user &bull; <strong>Calendly:</strong> Free / $10/mo per seat</p></div>
+      </aside>
+    </div>
+  </div>
+</main>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-col">
-                    <h4>Sales<span class="highlight">AI</span>Guide</h4>
-                    <p>Honest reviews of AI tools for sales professionals who need results, not hype.</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Categories</h4>
-                    <ul>
-                        <li><a href="../categories/cold-outreach.html">Cold Outreach</a></li>
-                        <li><a href="../categories/lead-prospecting.html">Lead Prospecting</a></li>
-                        <li><a href="../categories/conversation-intelligence.html">Conversation Intelligence</a></li>
-                        <li><a href="../categories/sales-engagement.html">Sales Engagement</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="../compare/index.html">Comparisons</a></li>
-                        <li><a href="../about.html">About</a></li>
-                        <li><a href="../disclosure.html">Disclosure</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Top Tools</h4>
-                    <ul>
-                        <li><a href="../tools/index.html">All Tools</a></li>
-                        <li><a href="../compare/clay-vs-apollo.html">Clay vs Apollo</a></li>
-                        <li><a href="../compare/instantly-vs-smartlead.html">Instantly vs Smartlead</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Sales AI Guide. All rights reserved.</p>
-                <p class="disclosure">This site contains affiliate links. We may earn commission when you purchase through our links at no additional cost to you. <a href="../disclosure.html">Learn more</a></p>
-            </div>
+<!-- ============ Footer ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">SalesAIGuide</div>
+        <p class="footer__brand-tagline">Honest reviews of AI tools for sales professionals who need results, not hype.</p>
+      </div>
+      <div>
+        <h4 class="footer__heading">Top Tools</h4>
+        <div class="footer__links">
+          <a href="/tools/instantly-review.html" class="footer__link">Instantly.ai</a>
+          <a href="/tools/clay-review.html" class="footer__link">Clay</a>
+          <a href="/tools/apollo-review.html" class="footer__link">Apollo.io</a>
+          <a href="/tools/gong-review.html" class="footer__link">Gong</a>
+          <a href="/tools/hubspot-review.html" class="footer__link">HubSpot</a>
         </div>
-    </footer>
+      </div>
+      <div>
+        <h4 class="footer__heading">Categories</h4>
+        <div class="footer__links">
+          <a href="/categories/cold-outreach.html" class="footer__link">Cold Outreach</a>
+          <a href="/categories/lead-prospecting.html" class="footer__link">Lead Prospecting</a>
+          <a href="/categories/data-enrichment.html" class="footer__link">Data Enrichment</a>
+          <a href="/categories/conversation-intelligence.html" class="footer__link">Conversation Intel</a>
+          <a href="/categories/sales-engagement.html" class="footer__link">Sales Engagement</a>
+          <a href="/categories/crm-pipeline.html" class="footer__link">CRM &amp; Pipeline</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Site</h4>
+        <div class="footer__links">
+          <a href="/about.html" class="footer__link">About</a>
+          <a href="/compare/" class="footer__link">Comparisons</a>
+          <a href="/disclosure.html" class="footer__link">Disclosure</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__disclosure">This site contains affiliate links. We may earn a commission when you purchase through our links at no additional cost to you. Our ratings and rankings are never influenced by affiliate partnerships. <a href="/disclosure.html">Full disclosure</a></p>
+      <p class="footer__copyright">&copy; 2026 SalesAIGuide. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
 
-    <script src="../js/main.js"></script>
+<!-- Scripts -->
+<script src="../js/theme.js" defer></script>
+<script src="../js/nav.js" defer></script>
+
 </body>
 </html>
