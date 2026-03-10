@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+  <rect x="80" y="520" width="1040" height="2" fill="#334155" rx="1"/>
+  <!-- Logo mark -->
+  <circle cx="130" cy="260" r="48" fill="none" stroke="url(#accent)" stroke-width="3"/>
+  <text x="130" y="275" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="36" fill="#3b82f6" text-anchor="middle">AI</text>
+  <!-- Brand name -->
+  <text x="200" y="250" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="56" fill="#f8fafc">SalesAIGuide</text>
+  <!-- Tagline -->
+  <text x="200" y="300" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="26" fill="#94a3b8">Honest Reviews &amp; Comparisons of AI Sales Tools</text>
+  <!-- Descriptor cards -->
+  <rect x="80" y="370" width="300" height="110" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="110" y="415" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="20" fill="#f8fafc">Tool Reviews</text>
+  <text x="110" y="450" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="16" fill="#94a3b8">In-depth analysis with real</text>
+  <text x="110" y="470" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="16" fill="#94a3b8">testing and honest scores</text>
+
+  <rect x="420" y="370" width="300" height="110" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="450" y="415" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="20" fill="#f8fafc">Comparisons</text>
+  <text x="450" y="450" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="16" fill="#94a3b8">Head-to-head breakdowns</text>
+  <text x="450" y="470" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="16" fill="#94a3b8">with clear verdicts</text>
+
+  <rect x="760" y="370" width="300" height="110" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="790" y="415" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="20" fill="#f8fafc">Category Guides</text>
+  <text x="790" y="450" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="16" fill="#94a3b8">Best tools for every sales</text>
+  <text x="790" y="470" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="16" fill="#94a3b8">workflow and use case</text>
+
+  <!-- URL -->
+  <text x="600" y="565" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="18" fill="#64748b" text-anchor="middle">salesaiguide.com</text>
+</svg>
