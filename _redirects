@@ -33,6 +33,30 @@
 /go/fireflies     https://fireflies.ai/?fpr=matthew16         302
 /go/justcall      https://justcall.io?fp_ref=matthew95        302
 
+# Sprint 20 tools
+/go/close         https://close.com?ref=salesaiguide           302
+/go/freshsales    https://freshworks.com/crm/sales?ref=salesaiguide  302
+/go/hunter        https://hunter.io?ref=salesaiguide           302
+/go/kixie         https://kixie.com?ref=salesaiguide           302
+/go/savvycal      https://savvycal.com?ref=salesaiguide        302
+/go/mailshake     https://mailshake.com?ref=salesaiguide       302
+
+# Alternate slug formats (some pages use hyphenless variants)
+/go/replyio       https://reply.io?ref=salesaiguide            302
+/go/seamlessai    https://seamless.ai?ref=salesaiguide         302
+/go/chilipiper    https://chilipiper.com?ref=salesaiguide      302
+
+# Listed tools on hubs
+/go/acuity        https://acuityscheduling.com?ref=salesaiguide  302
+/go/aviso         https://aviso.com?ref=salesaiguide           302
+/go/avoma         https://avoma.com?ref=salesaiguide           302
+/go/clari-copilot https://clari.com/copilot?ref=salesaiguide   302
+/go/copyai        https://copy.ai?ref=salesaiguide             302
+/go/groove        https://groove.co?ref=salesaiguide           302
+/go/insightsquared https://insightsquared.com?ref=salesaiguide 302
+/go/reclaim       https://reclaim.ai?ref=salesaiguide          302
+/go/regie         https://regie.ai?ref=salesaiguide            302
+
 # Directory index redirects
 /compare          /compare/index.html                        200
 /categories       /categories/index.html                     200

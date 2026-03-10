@@ -7,11 +7,14 @@ Hard constraint: No "AI slop." No thin templated pages in index. Static HTML is 
 ----------------------------------------
 NEXT SPRINT (DO THIS NEXT, NO DETOURS)
 ----------------------------------------
-Continue A-tier promotion across all clusters
-- Promote remaining B-tier reviews and hubs to A where gaps are small
-- Prioritize pages closest to thresholds (header renames, content expansion, pricing-table class)
-- Keep the gate frozen
-- Rerun QA and report results
+All 105 pages are A-tier. Focus areas:
+- Expand content buffer on pages near gate thresholds (5 pages at exact floor)
+- Create additional comparison pages for underrepresented tools (Vidyard has 0 comparisons)
+- Convert Listed tools to Reviewed status (6 tools still Listed-only on hubs)
+- Improve site infrastructure: schema markup, performance, Core Web Vitals
+- Sign up for real affiliate programs (most /go/ links use generic ?ref= tracking)
+- Keep the gate frozen — do not modify indexation_gate.py
+- Run QA before every deploy
 ----------------------------------------
 1) NORTH STAR POSITIONING
 ----------------------------------------

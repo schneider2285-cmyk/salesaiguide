@@ -6,6 +6,7 @@
   <title>Affiliate Disclosure - Sales AI Guide</title>
   <meta name="description" content="Transparency about how Sales AI Guide earns affiliate commissions and our commitment to honest reviews.">
   <link rel="canonical" href="https://salesaiguide.com/disclosure.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Affiliate Disclosure - Sales AI Guide">
   <meta property="og:description" content="Transparency about how Sales AI Guide earns affiliate commissions and our commitment to honest reviews.">
@@ -20,13 +21,21 @@
   <link rel="stylesheet" href="css/tokens.css">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/components.css">
-  <script>
-  (function(){
-    var t = localStorage.getItem('salesaiguide-theme') ||
-      (window.matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
-    document.documentElement.setAttribute('data-theme', t);
-  })();
-  </script>
+  <script src="js/theme-init.js"></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Affiliate Disclosure",
+  "description": "Transparency about how Sales AI Guide earns affiliate commissions and our commitment to honest reviews.",
+  "url": "https://salesaiguide.com/disclosure.html",
+  "publisher": {
+    "@type": "Organization",
+    "name": "SalesAIGuide",
+    "url": "https://salesaiguide.com"
+  }
+}
+    </script>
 </head>
 <body>
 
@@ -69,7 +78,7 @@
 
 <!-- Mobile nav drawer -->
 <div class="mobile-nav__overlay"></div>
-<nav class="mobile-nav" aria-label="Mobile navigation">
+<nav class="mobile-nav nav-menu" aria-label="Mobile navigation">
   <a href="/tools/" class="mobile-nav__link">Tools</a>
   <a href="/compare/" class="mobile-nav__link">Compare</a>
   <a href="/categories/" class="mobile-nav__link">Categories</a>
@@ -209,6 +218,8 @@
           <a href="/about.html" class="footer__link">About</a>
           <a href="/compare/" class="footer__link">Comparisons</a>
           <a href="/disclosure.html" class="footer__link">Disclosure</a>
+          <a href="/privacy.html" class="footer__link">Privacy Policy</a>
+          <a href="/terms.html" class="footer__link">Terms of Use</a>
         </div>
       </div>
     </div>

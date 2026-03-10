@@ -6,6 +6,7 @@
   <title>About Sales AI Guide - Real Sales Experience, Honest Reviews</title>
   <meta name="description" content="Learn about Sales AI Guide — unbiased AI tool reviews from a B2B sales executive who actually uses these tools in the field every day.">
   <link rel="canonical" href="https://salesaiguide.com/about.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <meta property="og:type" content="website">
   <meta property="og:title" content="About Sales AI Guide - Real Sales Experience, Honest Reviews">
   <meta property="og:description" content="Learn about Sales AI Guide — unbiased AI tool reviews from a B2B sales executive who actually uses these tools in the field every day.">
@@ -20,13 +21,7 @@
   <link rel="stylesheet" href="css/tokens.css">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/components.css">
-  <script>
-  (function(){
-    var t = localStorage.getItem('salesaiguide-theme') ||
-      (window.matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
-    document.documentElement.setAttribute('data-theme', t);
-  })();
-  </script>
+  <script src="js/theme-init.js"></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -83,7 +78,7 @@
 
 <!-- Mobile nav drawer -->
 <div class="mobile-nav__overlay"></div>
-<nav class="mobile-nav" aria-label="Mobile navigation">
+<nav class="mobile-nav nav-menu" aria-label="Mobile navigation">
   <a href="/tools/" class="mobile-nav__link">Tools</a>
   <a href="/compare/" class="mobile-nav__link">Compare</a>
   <a href="/categories/" class="mobile-nav__link">Categories</a>
@@ -105,8 +100,8 @@
 
       <div style="margin-bottom: 3rem;">
         <h2 style="font-size: var(--text-2xl); font-weight: 700; color: var(--color-text); margin-bottom: 1rem;">Who We Are</h2>
-        <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1rem;">Sales AI Guide was created by a B2B sales executive who got tired of reading generic "Top 10 AI Tools" articles written by content writers who've never closed a deal in their lives.</p>
-        <p style="color: var(--color-text-muted); line-height: 1.7;">Every review on this site comes from actual hands-on testing in real sales workflows. I'm not installing trial accounts and writing fluff — I'm using these tools daily to hit quota, manage pipeline, and close enterprise deals.</p>
+        <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1rem;">SalesAIGuide was created by <strong style="color: var(--color-text);">Matt Schneider</strong>, a B2B sales executive who got tired of reading generic "Top 10 AI Tools" articles written by content writers who've never closed a deal in their lives.</p>
+        <p style="color: var(--color-text-muted); line-height: 1.7;">Our reviews combine hands-on operational experience with rigorous research. Core tools in my daily stack are tested over months in live sales workflows. For broader category coverage and head-to-head comparisons, we supplement direct experience with structured analysis of vendor documentation, verified user feedback, public benchmarks, and pricing data — always through the lens of someone who actually runs these tools in production.</p>
       </div>
 
       <div style="margin-bottom: 3rem;">
@@ -118,15 +113,15 @@
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
             </div>
             <h3 style="font-size: var(--text-base); font-weight: 700; color: var(--color-text); margin-bottom: 0.5rem;">Real Sales Background</h3>
-            <p style="font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.6;">Managing $10M+ pipeline in enterprise B2B sales. I use these tools every single day to prospect, engage, and close deals.</p>
+            <p style="font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.6;">Built by Matt Schneider — managing enterprise B2B sales pipeline and using these tools daily to prospect, engage, and close deals.</p>
           </div>
 
           <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 1.5rem;">
             <div style="width: 2rem; height: 2rem; background: var(--color-accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 0.75rem;">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
             </div>
-            <h3 style="font-size: var(--text-base); font-weight: 700; color: var(--color-text); margin-bottom: 0.5rem;">Actual Testing Period</h3>
-            <p style="font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.6;">Every tool is tested for 3–6+ months in real workflows before review. I track metrics, measure ROI, and document what actually works.</p>
+            <h3 style="font-size: var(--text-base); font-weight: 700; color: var(--color-text); margin-bottom: 0.5rem;">Deep Research + Operational Testing</h3>
+            <p style="font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.6;">Core stack tools are tested for months in live workflows. All reviews combine operational experience with structured vendor research, verified user data, and pricing analysis.</p>
           </div>
 
           <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 1.5rem;">
@@ -149,14 +144,14 @@
       </div>
 
       <div id="methodology" style="margin-bottom: 3rem;">
-        <h2 style="font-size: var(--text-2xl); font-weight: 700; color: var(--color-text); margin-bottom: 1rem;">Our Testing Process</h2>
-        <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1rem;">Here's how every tool gets reviewed:</p>
+        <h2 style="font-size: var(--text-2xl); font-weight: 700; color: var(--color-text); margin-bottom: 1rem;">Our Review Process</h2>
+        <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1rem;">Every review combines direct operational knowledge with structured research:</p>
         <ol style="color: var(--color-text-muted); line-height: 1.9; padding-left: 1.5rem;">
-          <li><strong style="color: var(--color-text);">Real-world deployment</strong> — Set up in actual sales workflow, not a test environment</li>
-          <li><strong style="color: var(--color-text);">3–6 month minimum testing</strong> — Long enough to see if it actually works over time</li>
-          <li><strong style="color: var(--color-text);">Metrics tracking</strong> — Measure reply rates, conversion rates, time saved, ROI</li>
-          <li><strong style="color: var(--color-text);">Team feedback</strong> — Test with SDRs, AEs, and managers to get different perspectives</li>
-          <li><strong style="color: var(--color-text);">Comparison testing</strong> — Direct head-to-head vs competitors in same category</li>
+          <li><strong style="color: var(--color-text);">Hands-on experience</strong> — Core tools in my daily workflow are deployed in real sales environments and used over months</li>
+          <li><strong style="color: var(--color-text);">Structured research</strong> — Official vendor documentation, changelog analysis, public feature comparisons, and verified pricing data</li>
+          <li><strong style="color: var(--color-text);">User evidence</strong> — Aggregated feedback from G2, Capterra, and verified practitioner communities</li>
+          <li><strong style="color: var(--color-text);">Practitioner perspective</strong> — Every evaluation is filtered through the lens of someone who actually sells for a living</li>
+          <li><strong style="color: var(--color-text);">Comparison testing</strong> — Direct head-to-head analysis using consistent scoring criteria across categories</li>
           <li><strong style="color: var(--color-text);">Honest write-up</strong> — Document what works, what doesn't, and who it's actually for</li>
         </ol>
       </div>
@@ -171,8 +166,8 @@
 
       <div id="editorial" style="margin-bottom: 3rem;">
         <h2 style="font-size: var(--text-2xl); font-weight: 700; color: var(--color-text); margin-bottom: 1rem;">Editorial Policy</h2>
-        <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1rem;">Every review and comparison on Sales AI Guide is written from first-hand experience. We do not accept payment for positive reviews, we do not let vendors preview or edit content before publication, and affiliate relationships never influence ratings or recommendations.</p>
-        <p style="color: var(--color-text-muted); line-height: 1.7;">All claims about features, pricing, and performance are verified against official vendor documentation and our own testing data before publication. When information changes, we update the review within 30 days.</p>
+        <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1rem;">Every review and comparison on SalesAIGuide reflects real operational knowledge. We do not accept payment for positive reviews, we do not let vendors preview or edit content before publication, and affiliate relationships never influence ratings or recommendations. Some content descriptions are AI-assisted and reviewed for accuracy by our editorial team.</p>
+        <p style="color: var(--color-text-muted); line-height: 1.7;">All claims about features, pricing, and performance are verified against official vendor documentation and publicly available data before publication. When information changes, we update the review within 30 days.</p>
       </div>
 
       <div id="corrections" style="margin-bottom: 3rem;">
@@ -189,7 +184,7 @@
 
       <div style="margin-bottom: 3rem;">
         <h2 style="font-size: var(--text-2xl); font-weight: 700; color: var(--color-text); margin-bottom: 1rem;">Newsletter</h2>
-        <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1.5rem;">Join 5,000+ sales professionals getting weekly insights on AI tools, implementation strategies, and what's actually working in the field.</p>
+        <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1.5rem;">Get weekly insights on AI tools, implementation strategies, and what's actually working in the field.</p>
         <div class="newsletter" style="max-width: 480px;">
           <form class="newsletter__form" id="newsletter-form">
             <input type="email" class="newsletter__input" placeholder="Enter your email" required aria-label="Email address">
@@ -238,6 +233,8 @@
           <a href="/about.html" class="footer__link">About</a>
           <a href="/compare/" class="footer__link">Comparisons</a>
           <a href="/disclosure.html" class="footer__link">Disclosure</a>
+          <a href="/privacy.html" class="footer__link">Privacy Policy</a>
+          <a href="/terms.html" class="footer__link">Terms of Use</a>
         </div>
       </div>
     </div>
