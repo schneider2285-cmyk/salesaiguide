@@ -37,14 +37,71 @@
       "publisher": {"@type": "Organization", "name": "SalesAIGuide"}
     }
     </script>
-</head>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://salesaiguide.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Comparisons",
+          "item": "https://salesaiguide.com/compare/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Gong vs Chorus"
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the main difference between Gong and Chorus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gong and Chorus serve similar markets but differ in their core approach, feature depth, and pricing model. Read our detailed comparison to see how they stack up across key evaluation criteria."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is better for small sales teams, Gong or Chorus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best choice between Gong and Chorus for small teams depends on budget, team size, and which features matter most. Our comparison breaks down pricing tiers and ease of use for teams under 20 reps."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do Gong and Chorus compare on pricing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both Gong and Chorus offer tiered pricing plans. We compare their starter, professional, and enterprise tiers side by side with transparent cost breakdowns in our full analysis above."
+          }
+        }
+      ]
+    }
+    </script>
+    </head>
 <body>
 
 <!-- ============ Navbar ============ -->
 <nav class="navbar" aria-label="Main navigation">
   <div class="container navbar__inner">
     <a href="/" class="navbar__logo">
-      <svg class="navbar__logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg aria-hidden="true" class="navbar__logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="32" height="32" rx="8" fill="var(--color-accent)"/>
         <path d="M8 20 L12 12 L16 18 L20 10 L24 16" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         <circle cx="24" cy="16" r="2" fill="#fff"/>
@@ -59,12 +116,12 @@
     </div>
     <div class="navbar__actions">
       <div class="navbar__search">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <input type="text" placeholder="Search tools..." aria-label="Search tools">
       </div>
       <button class="theme-toggle" aria-label="Switch to dark mode">
-        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg>
-        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg aria-hidden="true" class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg>
+        <svg aria-hidden="true" class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
       </button>
       <button class="navbar__hamburger" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -109,7 +166,7 @@
     <div class="comp-hero__grid nav-brand">
       <div class="comp-hero__tool">
         <div class="comp-hero__tool-name">Gong</div>
-        <div class="comp-hero__stars"><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg></div>
+        <div class="comp-hero__stars"><svg aria-hidden="true" class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg aria-hidden="true" class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg aria-hidden="true" class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg aria-hidden="true" class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg aria-hidden="true" class="tool-card__star" viewBox="0 0 20 20" style="opacity:.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg></div>
         <div class="comp-hero__rating-val">4.7/5</div>
         <div class="comp-hero__price">Custom/mo</div>
         <a href="/go/gong" class="comp-hero__cta" target="_blank" rel="noopener noreferrer">Try Gong &rarr;</a>
@@ -117,7 +174,7 @@
       <div class="comp-hero__vs">VS</div>
       <div class="comp-hero__tool">
         <div class="comp-hero__tool-name">Chorus (ZoomInfo)</div>
-        <div class="comp-hero__stars"><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg class="tool-card__star" viewBox="0 0 20 20" style="opacity:.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg></div>
+        <div class="comp-hero__stars"><svg aria-hidden="true" class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg aria-hidden="true" class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg aria-hidden="true" class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg aria-hidden="true" class="tool-card__star" viewBox="0 0 20 20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg><svg aria-hidden="true" class="tool-card__star" viewBox="0 0 20 20" style="opacity:.3"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.27l-4.77 2.51.91-5.33L2.27 6.68l5.34-.78L10 1z" fill="currentColor"/></svg></div>
         <div class="comp-hero__rating-val">4.5/5</div>
         <div class="comp-hero__price">Custom/mo</div>
         <a href="/go/chorus" class="comp-hero__cta comp-hero__cta--outline" target="_blank" rel="noopener noreferrer">Try Chorus (ZoomInfo) &rarr;</a>
