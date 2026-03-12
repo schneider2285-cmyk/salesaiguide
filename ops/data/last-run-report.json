@@ -1,0 +1,51 @@
+{
+  "runNumber": 2,
+  "timestamp": "2026-03-12T21:08:01.193Z",
+  "durationMs": 2104,
+  "status": "success",
+  "overallScore": {
+    "before": 0,
+    "after": 59
+  },
+  "issuesByAgent": {
+    "sitehealth": {
+      "found": 19,
+      "fixed": 0
+    },
+    "revenuefunnel": {
+      "found": 3,
+      "fixed": 0
+    },
+    "linkhealth": {
+      "found": 50,
+      "fixed": 0
+    },
+    "priceverify": {
+      "found": 118,
+      "fixed": 0
+    },
+    "contentguard": {
+      "found": 60,
+      "fixed": 0
+    },
+    "seopower": {
+      "found": 136,
+      "fixed": 0
+    },
+    "trafficintel": {
+      "found": 0,
+      "fixed": 0
+    },
+    "contentengine": {
+      "found": 0,
+      "fixed": 0
+    },
+    "revenueops": {
+      "found": 0,
+      "fixed": 0
+    }
+  },
+  "filesChanged": 144,
+  "deployStatus": "skipped",
+  "failureReason": null
+}

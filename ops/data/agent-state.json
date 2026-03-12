@@ -1,0 +1,1591 @@
+{
+  "lastRun": "2026-03-12T21:08:00.655Z",
+  "runCount": 2,
+  "autoFixCapabilities": {
+    "price_consistency": true,
+    "title_length": true,
+    "meta_desc_length": true,
+    "og_tags": true,
+    "freshness_dates": true,
+    "banned_phrases": true,
+    "demo_ctas": true,
+    "name_leaks": true,
+    "orphan_pages": false,
+    "schema_errors": false,
+    "link_building": false
+  },
+  "agents": {
+    "sitehealth": {
+      "name": "SITEHEALTH",
+      "icon": "🏥",
+      "description": "Monitors page titles, meta descriptions, OG tags, canonicals, GA4 coverage, and newsletter forms across all 157 pages",
+      "lastAction": "2026-03-12T21:08:00.143Z",
+      "plan": {
+        "reactive": "Auto-fixes title length, meta descriptions, missing OG tags, and freshness dates on every scan",
+        "strategic": "Targeting 100% compliance: all titles under 60 chars, all meta descriptions 120-160 chars, OG tags on every page"
+      },
+      "status": "warning",
+      "lastRun": "2026-03-12T21:08:00.655Z",
+      "metrics": {
+        "pagesAudited": 157,
+        "issuesFound": 19,
+        "issuesFixed": 0,
+        "ga4Coverage": "157/157",
+        "canonicalsValid": 157,
+        "schemasValid": 466,
+        "newsletterFormsValid": 139,
+        "brokenLinks": 0
+      },
+      "issues": [
+        {
+          "check": "meta-description",
+          "severity": "med",
+          "detail": "Meta description length 35 out of 120-160 range in 404.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in alternatives/outreach.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in categories/cold-outreach.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in categories/crm-pipeline.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in categories/data-enrichment.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in categories/dialers-calling.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in categories/index.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in categories/lead-prospecting.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in categories/meeting-schedulers.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in categories/sales-analytics.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in categories/sales-content.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in categories/sales-engagement.html"
+        },
+        {
+          "check": "meta-description",
+          "severity": "med",
+          "detail": "Meta description length 10 out of 120-160 range in pricing/gong.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in resources/cold-outreach-evaluation-checklist.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in resources/index.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in resources/sales-dialer-evaluation-checklist.html"
+        },
+        {
+          "check": "meta-description",
+          "severity": "med",
+          "detail": "Meta description length 113 out of 120-160 range in tools/clay-review.html"
+        },
+        {
+          "check": "meta-description",
+          "severity": "med",
+          "detail": "Meta description length 89 out of 120-160 range in tools/close-review.html"
+        },
+        {
+          "check": "json-ld",
+          "severity": "med",
+          "detail": "JSON-LD block missing @type in tools/index.html"
+        }
+      ],
+      "score": 66
+    },
+    "revenuefunnel": {
+      "name": "REVENUEFUNNEL",
+      "icon": "💰",
+      "description": "Ensures every product link routes through /go/ affiliate redirects — protects revenue by catching direct vendor link leaks",
+      "lastAction": "2026-03-12T21:08:00.210Z",
+      "plan": {
+        "reactive": "Scans all pages for new direct vendor links and auto-converts to /go/ redirects",
+        "strategic": "Maintaining 100% /go/ coverage across 1,314 affiliate links on 149 pages"
+      },
+      "status": "healthy",
+      "lastRun": "2026-03-12T21:08:00.655Z",
+      "metrics": {
+        "pagesAudited": 125,
+        "totalGoLinks": 1230,
+        "totalDirectLeaks": 0,
+        "leaksFixed": 0,
+        "pagesWithNoAffiliateCta": 3,
+        "avgLinkDensity": 6.64,
+        "avgPageScore": 99.9
+      },
+      "issues": [
+        {
+          "type": "low_affiliate_density",
+          "page": "alternatives/index.html",
+          "density": 0,
+          "message": "Affiliate link density below 1.0 per 1000 words (0)"
+        },
+        {
+          "type": "low_affiliate_density",
+          "page": "best/index.html",
+          "density": 0,
+          "message": "Affiliate link density below 1.0 per 1000 words (0)"
+        },
+        {
+          "type": "low_affiliate_density",
+          "page": "compare/index.html",
+          "density": 0,
+          "message": "Affiliate link density below 1.0 per 1000 words (0)"
+        }
+      ],
+      "score": 99.9
+    },
+    "linkhealth": {
+      "name": "LINKHEALTH",
+      "icon": "🔗",
+      "description": "Maps the internal link graph, finds orphaned pages with too few inbound links, and identifies cross-linking opportunities",
+      "lastAction": "Mapped 9463 internal links across 157 pages. 58 orphans, 0 cross-link gaps.",
+      "plan": {
+        "reactive": "Flags any page that drops below 3 inbound links as an orphan alert",
+        "strategic": "Building toward full cross-link coverage: every comparison page linked from both tool reviews and category hubs"
+      },
+      "status": "critical",
+      "lastRun": "2026-03-12T21:08:00.655Z",
+      "metrics": {
+        "totalInternalLinks": 9463,
+        "orphanedPages": 58,
+        "avgLinksPerPage": 60.3,
+        "missingCrossLinks": 0,
+        "sitemapConsistent": true
+      },
+      "issues": [
+        {
+          "check": "orphan_page",
+          "severity": "high",
+          "detail": "alternatives/calendly.html: only 0 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "med",
+          "detail": "alternatives/clay.html: only 1 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "high",
+          "detail": "alternatives/close.html: only 0 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "med",
+          "detail": "alternatives/gong.html: only 2 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "med",
+          "detail": "alternatives/lemlist.html: only 1 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "high",
+          "detail": "alternatives/pipedrive.html: only 0 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "high",
+          "detail": "alternatives/reply-io.html: only 0 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "high",
+          "detail": "alternatives/salesforce.html: only 0 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "med",
+          "detail": "alternatives/salesloft.html: only 2 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "med",
+          "detail": "alternatives/zoominfo.html: only 2 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "med",
+          "detail": "best/cold-calling-software.html: only 2 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "med",
+          "detail": "best/dialer-software.html: only 2 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "med",
+          "detail": "best/free-crm-software.html: only 2 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "med",
+          "detail": "best/meeting-scheduling-software.html: only 1 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "high",
+          "detail": "best/sales-tools-for-solopreneurs.html: only 0 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "med",
+          "detail": "compare/aircall-vs-dialpad.html: only 2 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "med",
+          "detail": "compare/apollo-vs-clearbit.html: only 1 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "med",
+          "detail": "compare/chorus-vs-clari.html: only 2 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "med",
+          "detail": "compare/clari-vs-fireflies.html: only 2 inbound links (minimum 3)"
+        },
+        {
+          "check": "orphan_page",
+          "severity": "med",
+          "detail": "compare/clay-vs-clearbit.html: only 2 inbound links (minimum 3)"
+        }
+      ],
+      "score": 0
+    },
+    "priceverify": {
+      "name": "PRICEVERIFY",
+      "icon": "💲",
+      "description": "Compares prices on every page against review pages (source of truth) and auto-corrects mismatches",
+      "lastAction": "Audited 31 tool prices across 157 pages",
+      "plan": {
+        "reactive": "Auto-fixes any price mismatch found between review pages and all other page types",
+        "strategic": "Monitoring 33 tools across 149 pages — targeting zero price inconsistencies site-wide"
+      },
+      "status": "warning",
+      "lastRun": "2026-03-12T21:08:00.655Z",
+      "metrics": {
+        "toolsAudited": 31,
+        "consistentTools": 4,
+        "inconsistentTools": 27,
+        "staleTools": 0,
+        "autoFixed": 0
+      },
+      "issues": [
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "alternatives/apollo.html",
+          "detail": "Expected $49 (from apollo-review.html) but found $15,000"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "alternatives/calendly.html",
+          "detail": "Expected $10 (from calendly-review.html) but found $22.50/user"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "alternatives/clay.html",
+          "detail": "Expected $149/mo (from clay-review.html) but found $49/user"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "alternatives/close.html",
+          "detail": "Expected $29 (from close-review.html) but found $45/mo"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "alternatives/gong.html",
+          "detail": "Expected $100 (from gong-review.html) but found $10/user"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "alternatives/hubspot-crm.html",
+          "detail": "Expected $45 (from hubspot-review.html) but found $20/user"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "alternatives/instantly.html",
+          "detail": "Expected $37/mo (from instantly-review.html) but found $29/mo"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "alternatives/lemlist.html",
+          "detail": "Expected $39/mo (from lemlist-review.html) but found $37/mo"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "alternatives/outreach.html",
+          "detail": "Expected $100 (from outreach-review.html) but found $37/mo"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "alternatives/pipedrive.html",
+          "detail": "Expected $14 (from pipedrive-review.html) but found $14/mo"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "alternatives/salesloft.html",
+          "detail": "Expected $75 (from salesloft-review.html) but found $37/mo"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "alternatives/zoominfo.html",
+          "detail": "Expected $14,995 (from zoominfo-review.html) but found $49/user"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "categories/cold-outreach.html",
+          "detail": "Expected $100 (from outreach-review.html) but found $30"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "compare/aircall-vs-dialpad.html",
+          "detail": "Expected $30 (from aircall-review.html) but found $30/user"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "compare/aircall-vs-dialpad.html",
+          "detail": "Expected $15 (from dialpad-review.html) but found $30/user"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "compare/apollo-vs-clearbit.html",
+          "detail": "Expected $49 (from apollo-review.html) but found $49/user"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "compare/apollo-vs-clearbit.html",
+          "detail": "Expected $15,000 (from clearbit-review.html) but found $49/user"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "compare/apollo-vs-zoominfo.html",
+          "detail": "Expected $49 (from apollo-review.html) but found $49/mo"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "compare/apollo-vs-zoominfo.html",
+          "detail": "Expected $14,995 (from zoominfo-review.html) but found $49/mo"
+        },
+        {
+          "type": "price_mismatch",
+          "severity": "high",
+          "file": "compare/calendly-vs-chili-piper.html",
+          "detail": "Expected $10 (from calendly-review.html) but found $10/mo"
+        }
+      ],
+      "score": 0
+    },
+    "contentguard": {
+      "name": "CONTENTGUARD",
+      "icon": "🛡️",
+      "description": "Scans for name leaks, banned marketing phrases, rating mismatches, demo CTA errors, schema issues, and thin content",
+      "lastAction": null,
+      "plan": {
+        "reactive": "Auto-replaces banned phrases, fixes demo CTA text for 8 demo-only tools, and detects name leaks (highest priority)",
+        "strategic": "Eliminating all marketing slop and ensuring every page has complete, valid JSON-LD structured data"
+      },
+      "status": "warning",
+      "lastRun": "2026-03-12T21:08:00.655Z",
+      "metrics": {
+        "pagesScanned": 157,
+        "nameLeaks": 0,
+        "bannedPhrases": 1,
+        "bannedPhrasesFixed": 0,
+        "ratingMismatches": 0,
+        "demoCtaErrors": 43,
+        "demoCtaFixed": 0,
+        "schemaErrors": 13,
+        "thinContentPages": 3
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "check": "schema",
+          "page": "alternatives/close.html",
+          "detail": "Missing schema type \"FAQPage\" for page type \"alternatives\""
+        },
+        {
+          "severity": "warning",
+          "check": "demo-cta",
+          "page": "alternatives/gong.html",
+          "detail": "Missing demo CTA (Start Free Trial / Try Free) (tool: gong)"
+        },
+        {
+          "severity": "warning",
+          "check": "schema",
+          "page": "alternatives/index.html",
+          "detail": "Missing schema type \"ItemList\" for page type \"alternatives\""
+        },
+        {
+          "severity": "warning",
+          "check": "schema",
+          "page": "alternatives/index.html",
+          "detail": "Missing schema type \"FAQPage\" for page type \"alternatives\""
+        },
+        {
+          "severity": "warning",
+          "check": "thin-content",
+          "page": "alternatives/index.html",
+          "detail": "Thin content: 541 words (minimum 800)"
+        },
+        {
+          "severity": "warning",
+          "check": "schema",
+          "page": "alternatives/lemlist.html",
+          "detail": "Missing schema type \"FAQPage\" for page type \"alternatives\""
+        },
+        {
+          "severity": "warning",
+          "check": "demo-cta",
+          "page": "alternatives/outreach.html",
+          "detail": "Missing demo CTA (Start Free Trial / Try Free) (tool: outreach)"
+        },
+        {
+          "severity": "warning",
+          "check": "schema",
+          "page": "alternatives/pipedrive.html",
+          "detail": "Missing schema type \"FAQPage\" for page type \"alternatives\""
+        },
+        {
+          "severity": "warning",
+          "check": "schema",
+          "page": "alternatives/reply-io.html",
+          "detail": "Missing schema type \"FAQPage\" for page type \"alternatives\""
+        },
+        {
+          "severity": "warning",
+          "check": "demo-cta",
+          "page": "alternatives/salesloft.html",
+          "detail": "Missing demo CTA (Start Free Trial / Try Free) (tool: salesloft)"
+        },
+        {
+          "severity": "warning",
+          "check": "demo-cta",
+          "page": "alternatives/zoominfo.html",
+          "detail": "Missing demo CTA (Start Free Trial / Try Free) (tool: zoominfo)"
+        },
+        {
+          "severity": "warning",
+          "check": "schema",
+          "page": "best/index.html",
+          "detail": "Missing schema type \"Article\" for page type \"best-pick\""
+        },
+        {
+          "severity": "warning",
+          "check": "schema",
+          "page": "best/index.html",
+          "detail": "Missing schema type \"ItemList\" for page type \"best-pick\""
+        },
+        {
+          "severity": "warning",
+          "check": "schema",
+          "page": "best/index.html",
+          "detail": "Missing schema type \"FAQPage\" for page type \"best-pick\""
+        },
+        {
+          "severity": "warning",
+          "check": "demo-cta",
+          "page": "categories/cold-outreach.html",
+          "detail": "Missing demo CTA (Start Free Trial / Try Free) (tool: outreach)"
+        },
+        {
+          "severity": "warning",
+          "check": "schema",
+          "page": "categories/index.html",
+          "detail": "Missing schema type \"ItemList\" for page type \"category\""
+        },
+        {
+          "severity": "warning",
+          "check": "schema",
+          "page": "categories/index.html",
+          "detail": "Missing schema type \"FAQPage\" for page type \"category\""
+        },
+        {
+          "severity": "warning",
+          "check": "thin-content",
+          "page": "categories/index.html",
+          "detail": "Thin content: 353 words (minimum 800)"
+        },
+        {
+          "severity": "warning",
+          "check": "demo-cta",
+          "page": "compare/apollo-vs-clearbit.html",
+          "detail": "Missing demo CTA (Start Free Trial / Try Free) (tool: clearbit)"
+        },
+        {
+          "severity": "warning",
+          "check": "demo-cta",
+          "page": "compare/apollo-vs-zoominfo.html",
+          "detail": "Missing demo CTA (Start Free Trial / Try Free) (tool: zoominfo)"
+        }
+      ],
+      "score": 0
+    },
+    "seopower": {
+      "name": "SEOPOWER",
+      "icon": "🔍",
+      "description": "Scores every page on title optimization, meta descriptions, freshness signals, keyword placement, and schema coverage",
+      "lastAction": "audited 148 pages, avgScore=94",
+      "plan": {
+        "reactive": "Auto-adds year freshness to comparison titles, auto-trims over-length titles by removing filler words",
+        "strategic": "Pushing all 143 scored pages above 80/100 — currently at 79.4 average with 107 pages above 80"
+      },
+      "status": "healthy",
+      "lastRun": "2026-03-12T21:08:00.655Z",
+      "metrics": {
+        "pagesAudited": 148,
+        "avgSeoScore": 94,
+        "pagesAbove80": 147,
+        "pagesBelow50": 0,
+        "missingMetaDesc": 0,
+        "staleFreshness": 0,
+        "autoFixed": 0
+      },
+      "issues": [
+        "title-length:alternatives/clay.html (28 chars)",
+        "title-length:alternatives/gong.html (28 chars)",
+        "content-thin:alternatives/index.html (541/1200 words)",
+        "content-thin:best/index.html (872/1500 words)",
+        "insufficient-h2:categories/index.html (0/2)",
+        "content-thin:categories/index.html (353/800 words)",
+        "missing-schema:categories/index.html",
+        "title-length:compare/aircall-vs-dialpad.html (25 chars)",
+        "content-thin:compare/aircall-vs-dialpad.html (1012/2000 words)",
+        "title-length:compare/apollo-vs-clearbit.html (25 chars)",
+        "content-thin:compare/apollo-vs-zoominfo.html (1173/2000 words)",
+        "content-thin:compare/calendly-vs-chili-piper.html (1038/2000 words)",
+        "title-length:compare/chorus-vs-clari.html (22 chars)",
+        "content-thin:compare/chorus-vs-clari.html (1041/2000 words)",
+        "title-length:compare/clari-vs-fireflies.html (25 chars)",
+        "content-thin:compare/clari-vs-fireflies.html (1016/2000 words)",
+        "content-thin:compare/clari-vs-gong.html (1014/2000 words)",
+        "content-thin:compare/clay-vs-apollo.html (1232/2000 words)",
+        "content-thin:compare/clay-vs-clearbit.html (1037/2000 words)",
+        "title-length:compare/clay-vs-zoominfo.html (23 chars)"
+      ],
+      "score": 94
+    },
+    "trafficintel": {
+      "name": "TRAFFICINTEL",
+      "icon": "📊",
+      "description": "Calculates commercial intent, competition proxy, and content quality for every page to rank revenue potential",
+      "lastAction": "Revenue potential scored across 148 pages",
+      "plan": {
+        "reactive": "Re-scores all pages on each run to detect quality drops or improvements",
+        "strategic": "Identifying which pages to invest in for maximum affiliate revenue — pricing pages lead at 68/100 revenue potential"
+      },
+      "status": "healthy",
+      "lastRun": "2026-03-12T21:08:00.655Z",
+      "metrics": {
+        "pagesAnalyzed": 148,
+        "highPotentialPages": 0,
+        "underperformingPages": 1,
+        "avgRevenueScore": 36
+      },
+      "issues": [],
+      "score": 36
+    },
+    "contentengine": {
+      "name": "CONTENTENGINE",
+      "icon": "📝",
+      "description": "Finds content gaps — missing comparisons, best-picks pages, and alternatives pages — and generates publication-ready briefs",
+      "lastAction": "Content gap analysis complete: 466 comparison gaps, 21 alternatives gaps",
+      "plan": {
+        "reactive": "Re-scans for new gaps as tools are added or pages are published",
+        "strategic": "Top 3 opportunities: Best B2B Data Providers (7 tools), Best AI Tools for SDRs (5 tools), Best Email Warmup Tools (5 tools)"
+      },
+      "status": "healthy",
+      "lastRun": "2026-03-12T21:08:00.655Z",
+      "metrics": {
+        "comparisonGaps": 466,
+        "bestPicksGaps": 0,
+        "alternativesGaps": 21,
+        "briefsGenerated": 0,
+        "topOpportunity": "comparison pages (466 gaps)"
+      },
+      "issues": [],
+      "score": null
+    },
+    "revenueops": {
+      "name": "REVENUEOPS",
+      "icon": "💎",
+      "description": "Strategic command layer — aggregates all agent data, tracks affiliate inventory, calculates concentration risk, and prioritizes weekly actions",
+      "lastAction": "Affiliate inventory built: 52 slugs, 1350 total links",
+      "plan": {
+        "reactive": "Re-prioritizes action queue based on latest agent scores and new issues found",
+        "strategic": "Driving overall score from 88 toward 95+ by resolving remaining cross-link gaps and publishing high-value content briefs"
+      },
+      "status": "healthy",
+      "lastRun": "2026-03-12T21:08:00.655Z",
+      "metrics": {
+        "totalGoSlugs": 52,
+        "totalGoLinksAcrossSite": 1350,
+        "totalDirectLeaks": 0,
+        "concentrationRisk": "low",
+        "weeklyActionItems": [
+          {
+            "priority": "P0",
+            "source": "linkhealth",
+            "issue": "{\"check\":\"orphan_page\",\"severity\":\"high\",\"detail\":\"alternatives/calendly.html: only 0 inbound links (minimum 3)\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "linkhealth",
+            "issue": "{\"check\":\"orphan_page\",\"severity\":\"high\",\"detail\":\"alternatives/close.html: only 0 inbound links (minimum 3)\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "linkhealth",
+            "issue": "{\"check\":\"orphan_page\",\"severity\":\"high\",\"detail\":\"alternatives/pipedrive.html: only 0 inbound links (minimum 3)\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "linkhealth",
+            "issue": "{\"check\":\"orphan_page\",\"severity\":\"high\",\"detail\":\"alternatives/reply-io.html: only 0 inbound links (minimum 3)\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "linkhealth",
+            "issue": "{\"check\":\"orphan_page\",\"severity\":\"high\",\"detail\":\"alternatives/salesforce.html: only 0 inbound links (minimum 3)\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "linkhealth",
+            "issue": "{\"check\":\"orphan_page\",\"severity\":\"high\",\"detail\":\"best/sales-tools-for-solopreneurs.html: only 0 inbound links (minimum 3)\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "linkhealth",
+            "issue": "{\"check\":\"orphan_page\",\"severity\":\"high\",\"detail\":\"compare/clearbit-vs-lusha.html: only 0 inbound links (minimum 3)\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "linkhealth",
+            "issue": "{\"check\":\"orphan_page\",\"severity\":\"high\",\"detail\":\"compare/clearbit-vs-seamless-ai.html: only 0 inbound links (minimum 3)\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "linkhealth",
+            "issue": "{\"check\":\"orphan_page\",\"severity\":\"high\",\"detail\":\"compare/close-vs-freshsales.html: only 0 inbound links (minimum 3)\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "linkhealth",
+            "issue": "{\"check\":\"orphan_page\",\"severity\":\"high\",\"detail\":\"compare/dialpad-vs-orum.html: only 0 inbound links (minimum 3)\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "linkhealth",
+            "issue": "{\"check\":\"orphan_page\",\"severity\":\"high\",\"detail\":\"compare/salesloft-vs-reply-io.html: only 0 inbound links (minimum 3)\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "linkhealth",
+            "issue": "{\"check\":\"orphan_page\",\"severity\":\"high\",\"detail\":\"compare/seamless-ai-vs-zoominfo.html: only 0 inbound links (minimum 3)\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"alternatives/apollo.html\",\"detail\":\"Expected $49 (from apollo-review.html) but found $15,000\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"alternatives/calendly.html\",\"detail\":\"Expected $10 (from calendly-review.html) but found $22.50/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"alternatives/clay.html\",\"detail\":\"Expected $149/mo (from clay-review.html) but found $49/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"alternatives/close.html\",\"detail\":\"Expected $29 (from close-review.html) but found $45/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"alternatives/gong.html\",\"detail\":\"Expected $100 (from gong-review.html) but found $10/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"alternatives/hubspot-crm.html\",\"detail\":\"Expected $45 (from hubspot-review.html) but found $20/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"alternatives/instantly.html\",\"detail\":\"Expected $37/mo (from instantly-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"alternatives/lemlist.html\",\"detail\":\"Expected $39/mo (from lemlist-review.html) but found $37/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"alternatives/outreach.html\",\"detail\":\"Expected $100 (from outreach-review.html) but found $37/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"alternatives/pipedrive.html\",\"detail\":\"Expected $14 (from pipedrive-review.html) but found $14/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"alternatives/salesloft.html\",\"detail\":\"Expected $75 (from salesloft-review.html) but found $37/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"alternatives/zoominfo.html\",\"detail\":\"Expected $14,995 (from zoominfo-review.html) but found $49/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"categories/cold-outreach.html\",\"detail\":\"Expected $100 (from outreach-review.html) but found $30\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/aircall-vs-dialpad.html\",\"detail\":\"Expected $30 (from aircall-review.html) but found $30/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/aircall-vs-dialpad.html\",\"detail\":\"Expected $15 (from dialpad-review.html) but found $30/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/apollo-vs-clearbit.html\",\"detail\":\"Expected $49 (from apollo-review.html) but found $49/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/apollo-vs-clearbit.html\",\"detail\":\"Expected $15,000 (from clearbit-review.html) but found $49/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/apollo-vs-zoominfo.html\",\"detail\":\"Expected $49 (from apollo-review.html) but found $49/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/apollo-vs-zoominfo.html\",\"detail\":\"Expected $14,995 (from zoominfo-review.html) but found $49/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/calendly-vs-chili-piper.html\",\"detail\":\"Expected $10 (from calendly-review.html) but found $10/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/clari-vs-fireflies.html\",\"detail\":\"Expected $50 (from clari-review.html) but found $10/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/clari-vs-fireflies.html\",\"detail\":\"Expected $10 (from fireflies-review.html) but found $10/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/clay-vs-apollo.html\",\"detail\":\"Expected $49 (from apollo-review.html) but found $149/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/clay-vs-apollo.html\",\"detail\":\"Expected $149/mo (from clay-review.html) but found $49/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/clay-vs-clearbit.html\",\"detail\":\"Expected $15,000 (from clearbit-review.html) but found $149/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/clay-vs-zoominfo.html\",\"detail\":\"Expected $149/mo (from clay-review.html) but found $15\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/clay-vs-zoominfo.html\",\"detail\":\"Expected $14,995 (from zoominfo-review.html) but found $149/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/clearbit-vs-lusha.html\",\"detail\":\"Expected $15,000 (from clearbit-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/clearbit-vs-lusha.html\",\"detail\":\"Expected $29/mo (from lusha-review.html) but found $29/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/clearbit-vs-seamless-ai.html\",\"detail\":\"Expected $15,000 (from clearbit-review.html) but found $65/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/clearbit-vs-zoominfo.html\",\"detail\":\"Expected $15,000 (from clearbit-review.html) but found $20,000\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/clearbit-vs-zoominfo.html\",\"detail\":\"Expected $14,995 (from zoominfo-review.html) but found $20,000\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/close-vs-freshsales.html\",\"detail\":\"Expected $29 (from close-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/close-vs-freshsales.html\",\"detail\":\"Expected $15 (from freshsales-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/close-vs-hubspot.html\",\"detail\":\"Expected $29 (from close-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/close-vs-hubspot.html\",\"detail\":\"Expected $45 (from hubspot-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/close-vs-pipedrive.html\",\"detail\":\"Expected $29 (from close-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/close-vs-pipedrive.html\",\"detail\":\"Expected $14 (from pipedrive-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/dialpad-vs-kixie.html\",\"detail\":\"Expected $15 (from dialpad-review.html) but found $15/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/dialpad-vs-kixie.html\",\"detail\":\"Expected $35/mo (from kixie-review.html) but found $15/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/dialpad-vs-orum.html\",\"detail\":\"Expected $15 (from dialpad-review.html) but found $15/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/fireflies-vs-chorus.html\",\"detail\":\"Expected $10 (from fireflies-review.html) but found $10/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/fireflies-vs-gong.html\",\"detail\":\"Expected $10 (from fireflies-review.html) but found $10/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/fireflies-vs-gong.html\",\"detail\":\"Expected $100 (from gong-review.html) but found $10/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/freshsales-vs-hubspot.html\",\"detail\":\"Expected $15 (from freshsales-review.html) but found $15/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/freshsales-vs-hubspot.html\",\"detail\":\"Expected $45 (from hubspot-review.html) but found $15/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/freshsales-vs-pipedrive.html\",\"detail\":\"Expected $15 (from freshsales-review.html) but found $9/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/freshsales-vs-pipedrive.html\",\"detail\":\"Expected $14 (from pipedrive-review.html) but found $9/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/hubspot-vs-pipedrive.html\",\"detail\":\"Expected $45 (from hubspot-review.html) but found $45/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/hubspot-vs-pipedrive.html\",\"detail\":\"Expected $14 (from pipedrive-review.html) but found $45/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/hunter-vs-apollo.html\",\"detail\":\"Expected $49 (from apollo-review.html) but found $34/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/hunter-vs-apollo.html\",\"detail\":\"Expected $34/mo (from hunter-review.html) but found $49/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/hunter-vs-lusha.html\",\"detail\":\"Expected $34/mo (from hunter-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/hunter-vs-lusha.html\",\"detail\":\"Expected $29/mo (from lusha-review.html) but found $34/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/hunter-vs-seamless-ai.html\",\"detail\":\"Expected $34/mo (from hunter-review.html) but found $34\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/hunter-vs-zoominfo.html\",\"detail\":\"Expected $34/mo (from hunter-review.html) but found $49/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/hunter-vs-zoominfo.html\",\"detail\":\"Expected $14,995 (from zoominfo-review.html) but found $49/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/instantly-vs-lemlist.html\",\"detail\":\"Expected $37/mo (from instantly-review.html) but found $39/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/instantly-vs-lemlist.html\",\"detail\":\"Expected $39/mo (from lemlist-review.html) but found $37/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/instantly-vs-mailshake.html\",\"detail\":\"Expected $37/mo (from instantly-review.html) but found $58/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/instantly-vs-mailshake.html\",\"detail\":\"Expected $58 (from mailshake-review.html) but found $37/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/instantly-vs-smartlead.html\",\"detail\":\"Expected $37/mo (from instantly-review.html) but found $39/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/instantly-vs-smartlead.html\",\"detail\":\"Expected $39 (from smartlead-review.html) but found $37/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/justcall-vs-aircall.html\",\"detail\":\"Expected $30 (from aircall-review.html) but found $19/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/justcall-vs-aircall.html\",\"detail\":\"Expected $19/mo (from justcall-review.html) but found $30/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/justcall-vs-dialpad.html\",\"detail\":\"Expected $15 (from dialpad-review.html) but found $19/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/justcall-vs-dialpad.html\",\"detail\":\"Expected $19/mo (from justcall-review.html) but found $15/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/kixie-vs-aircall.html\",\"detail\":\"Expected $30 (from aircall-review.html) but found $35/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/kixie-vs-aircall.html\",\"detail\":\"Expected $35/mo (from kixie-review.html) but found $30/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/kixie-vs-justcall.html\",\"detail\":\"Expected $19/mo (from justcall-review.html) but found $35/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/kixie-vs-justcall.html\",\"detail\":\"Expected $35/mo (from kixie-review.html) but found $19/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/kixie-vs-orum.html\",\"detail\":\"Expected $35/mo (from kixie-review.html) but found $35/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/lavender-vs-instantly.html\",\"detail\":\"Expected $37/mo (from instantly-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/lavender-vs-instantly.html\",\"detail\":\"Expected $29/mo (from lavender-review.html) but found $37/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/lavender-vs-lemlist.html\",\"detail\":\"Expected $29/mo (from lavender-review.html) but found $39/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/lavender-vs-lemlist.html\",\"detail\":\"Expected $39/mo (from lemlist-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/lavender-vs-reply-io.html\",\"detail\":\"Expected $29/mo (from lavender-review.html) but found $60/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/lemlist-vs-smartlead.html\",\"detail\":\"Expected $39 (from smartlead-review.html) but found $39/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/lusha-vs-apollo.html\",\"detail\":\"Expected $49 (from apollo-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/lusha-vs-apollo.html\",\"detail\":\"Expected $29/mo (from lusha-review.html) but found $49/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/lusha-vs-zoominfo.html\",\"detail\":\"Expected $29/mo (from lusha-review.html) but found $29/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/lusha-vs-zoominfo.html\",\"detail\":\"Expected $14,995 (from zoominfo-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/mailshake-vs-reply-io.html\",\"detail\":\"Expected $58 (from mailshake-review.html) but found $25\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/orum-vs-aircall.html\",\"detail\":\"Expected $30 (from aircall-review.html) but found $30/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/orum-vs-justcall.html\",\"detail\":\"Expected $19/mo (from justcall-review.html) but found $19/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/outreach-vs-instantly.html\",\"detail\":\"Expected $37/mo (from instantly-review.html) but found $100\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/outreach-vs-instantly.html\",\"detail\":\"Expected $100 (from outreach-review.html) but found $150\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/outreach-vs-salesloft.html\",\"detail\":\"Expected $75 (from salesloft-review.html) but found $100\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/reply-io-vs-instantly.html\",\"detail\":\"Expected $37/mo (from instantly-review.html) but found $60/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/reply-io-vs-lemlist.html\",\"detail\":\"Expected $39/mo (from lemlist-review.html) but found $60/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/reply-io-vs-outreach.html\",\"detail\":\"Expected $100 (from outreach-review.html) but found $60/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/salesloft-vs-instantly.html\",\"detail\":\"Expected $75 (from salesloft-review.html) but found $37/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/salesloft-vs-reply-io.html\",\"detail\":\"Expected $75 (from salesloft-review.html) but found $49\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/savvycal-vs-calendly.html\",\"detail\":\"Expected $10 (from calendly-review.html) but found $12/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/savvycal-vs-calendly.html\",\"detail\":\"Expected $12 (from savvycal-review.html) but found $12/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/savvycal-vs-chili-piper.html\",\"detail\":\"Expected $12 (from savvycal-review.html) but found $12/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/seamless-ai-vs-apollo.html\",\"detail\":\"Expected $49 (from apollo-review.html) but found $65/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/seamless-ai-vs-lusha.html\",\"detail\":\"Expected $29/mo (from lusha-review.html) but found $65/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/seamless-ai-vs-zoominfo.html\",\"detail\":\"Expected $14,995 (from zoominfo-review.html) but found $65/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/smartlead-vs-reply-io.html\",\"detail\":\"Expected $39 (from smartlead-review.html) but found $49\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/woodpecker-vs-instantly.html\",\"detail\":\"Expected $37/mo (from instantly-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/woodpecker-vs-instantly.html\",\"detail\":\"Expected $29 (from woodpecker-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/woodpecker-vs-lemlist.html\",\"detail\":\"Expected $39/mo (from lemlist-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/woodpecker-vs-lemlist.html\",\"detail\":\"Expected $29 (from woodpecker-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/woodpecker-vs-mailshake.html\",\"detail\":\"Expected $58 (from mailshake-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/woodpecker-vs-mailshake.html\",\"detail\":\"Expected $29 (from woodpecker-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/woodpecker-vs-smartlead.html\",\"detail\":\"Expected $39 (from smartlead-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"compare/woodpecker-vs-smartlead.html\",\"detail\":\"Expected $29 (from woodpecker-review.html) but found $29/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"pricing/apollo.html\",\"detail\":\"Expected $49 (from apollo-review.html) but found $49/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"pricing/clay.html\",\"detail\":\"Expected $149/mo (from clay-review.html) but found $349/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"pricing/gong.html\",\"detail\":\"Expected $100 (from gong-review.html) but found $70\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"pricing/hubspot.html\",\"detail\":\"Expected $45 (from hubspot-review.html) but found $45/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"pricing/instantly.html\",\"detail\":\"Expected $37/mo (from instantly-review.html) but found $97/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"pricing/lemlist.html\",\"detail\":\"Expected $39/mo (from lemlist-review.html) but found $39/seat\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"pricing/outreach.html\",\"detail\":\"Expected $100 (from outreach-review.html) but found $100/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"pricing/salesloft.html\",\"detail\":\"Expected $75 (from salesloft-review.html) but found $75/user\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"pricing/smartlead.html\",\"detail\":\"Expected $39 (from smartlead-review.html) but found $39/mo\"}"
+          },
+          {
+            "priority": "P0",
+            "source": "priceverify",
+            "issue": "{\"type\":\"price_mismatch\",\"severity\":\"high\",\"file\":\"pricing/zoominfo.html\",\"detail\":\"Expected $14,995 (from zoominfo-review.html) but found $15\"}"
+          }
+        ]
+      },
+      "issues": [],
+      "score": null
+    }
+  },
+  "orphanAlerts": [
+    {
+      "page": "404.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "alternatives/calendly.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "alternatives/clay.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "alternatives/close.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "alternatives/gong.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "alternatives/lemlist.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "alternatives/pipedrive.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "alternatives/reply-io.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "alternatives/salesforce.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "alternatives/salesloft.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "alternatives/zoominfo.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "best/cold-calling-software.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "best/dialer-software.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "best/free-crm-software.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "best/meeting-scheduling-software.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "best/sales-tools-for-solopreneurs.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "compare/aircall-vs-dialpad.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "compare/apollo-vs-clearbit.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/chorus-vs-clari.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "compare/clari-vs-fireflies.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "compare/clay-vs-clearbit.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "compare/clearbit-vs-lusha.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "compare/clearbit-vs-seamless-ai.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "compare/clearbit-vs-zoominfo.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/close-vs-freshsales.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "compare/close-vs-pipedrive.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/dialpad-vs-kixie.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/dialpad-vs-orum.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "compare/freshsales-vs-pipedrive.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/hunter-vs-apollo.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "compare/hunter-vs-seamless-ai.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/hunter-vs-zoominfo.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/instantly-vs-mailshake.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/kixie-vs-aircall.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "compare/kixie-vs-justcall.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "compare/kixie-vs-orum.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/lavender-vs-reply-io.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "compare/lusha-vs-zoominfo.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/mailshake-vs-reply-io.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/orum-vs-aircall.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/orum-vs-justcall.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/reply-io-vs-instantly.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "compare/reply-io-vs-lemlist.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/reply-io-vs-outreach.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/salesloft-vs-reply-io.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "compare/savvycal-vs-calendly.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "compare/savvycal-vs-chili-piper.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "compare/seamless-ai-vs-apollo.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/seamless-ai-vs-lusha.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/seamless-ai-vs-zoominfo.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "compare/smartlead-vs-reply-io.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/woodpecker-vs-mailshake.html",
+      "inboundLinks": 1
+    },
+    {
+      "page": "compare/woodpecker-vs-smartlead.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "index.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "resources/cold-outreach-evaluation-checklist.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "resources/index.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "resources/sales-dialer-evaluation-checklist.html",
+      "inboundLinks": 0
+    },
+    {
+      "page": "tools/freshsales-review.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "tools/orum-review.html",
+      "inboundLinks": 2
+    },
+    {
+      "page": "tools/seamless-ai-review.html",
+      "inboundLinks": 2
+    }
+  ],
+  "overallScore": 59
+}

@@ -1,0 +1,1006 @@
+[
+  {
+    "file": "alternatives/calendly.html",
+    "fix_type": "orphan_page",
+    "details": "alternatives/calendly.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "alternatives/close.html",
+    "fix_type": "orphan_page",
+    "details": "alternatives/close.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "alternatives/pipedrive.html",
+    "fix_type": "orphan_page",
+    "details": "alternatives/pipedrive.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "alternatives/reply-io.html",
+    "fix_type": "orphan_page",
+    "details": "alternatives/reply-io.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "alternatives/salesforce.html",
+    "fix_type": "orphan_page",
+    "details": "alternatives/salesforce.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "best/sales-tools-for-solopreneurs.html",
+    "fix_type": "orphan_page",
+    "details": "best/sales-tools-for-solopreneurs.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "compare/clearbit-vs-lusha.html",
+    "fix_type": "orphan_page",
+    "details": "compare/clearbit-vs-lusha.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "compare/clearbit-vs-seamless-ai.html",
+    "fix_type": "orphan_page",
+    "details": "compare/clearbit-vs-seamless-ai.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "compare/close-vs-freshsales.html",
+    "fix_type": "orphan_page",
+    "details": "compare/close-vs-freshsales.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "compare/dialpad-vs-orum.html",
+    "fix_type": "orphan_page",
+    "details": "compare/dialpad-vs-orum.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "compare/salesloft-vs-reply-io.html",
+    "fix_type": "orphan_page",
+    "details": "compare/salesloft-vs-reply-io.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "compare/seamless-ai-vs-zoominfo.html",
+    "fix_type": "orphan_page",
+    "details": "compare/seamless-ai-vs-zoominfo.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $49 (from apollo-review.html) but found $15,000",
+    "details": "Expected $49 (from apollo-review.html) but found $15,000",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $10 (from calendly-review.html) but found $22.50/user",
+    "details": "Expected $10 (from calendly-review.html) but found $22.50/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $149/mo (from clay-review.html) but found $49/user",
+    "details": "Expected $149/mo (from clay-review.html) but found $49/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29 (from close-review.html) but found $45/mo",
+    "details": "Expected $29 (from close-review.html) but found $45/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $100 (from gong-review.html) but found $10/user",
+    "details": "Expected $100 (from gong-review.html) but found $10/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $45 (from hubspot-review.html) but found $20/user",
+    "details": "Expected $45 (from hubspot-review.html) but found $20/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $37/mo (from instantly-review.html) but found $29/mo",
+    "details": "Expected $37/mo (from instantly-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $39/mo (from lemlist-review.html) but found $37/mo",
+    "details": "Expected $39/mo (from lemlist-review.html) but found $37/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $100 (from outreach-review.html) but found $37/mo",
+    "details": "Expected $100 (from outreach-review.html) but found $37/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $14 (from pipedrive-review.html) but found $14/mo",
+    "details": "Expected $14 (from pipedrive-review.html) but found $14/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $75 (from salesloft-review.html) but found $37/mo",
+    "details": "Expected $75 (from salesloft-review.html) but found $37/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $14,995 (from zoominfo-review.html) but found $49/user",
+    "details": "Expected $14,995 (from zoominfo-review.html) but found $49/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $100 (from outreach-review.html) but found $30",
+    "details": "Expected $100 (from outreach-review.html) but found $30",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $30 (from aircall-review.html) but found $30/user",
+    "details": "Expected $30 (from aircall-review.html) but found $30/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $15 (from dialpad-review.html) but found $30/user",
+    "details": "Expected $15 (from dialpad-review.html) but found $30/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $49 (from apollo-review.html) but found $49/user",
+    "details": "Expected $49 (from apollo-review.html) but found $49/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $15,000 (from clearbit-review.html) but found $49/user",
+    "details": "Expected $15,000 (from clearbit-review.html) but found $49/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $49 (from apollo-review.html) but found $49/mo",
+    "details": "Expected $49 (from apollo-review.html) but found $49/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $14,995 (from zoominfo-review.html) but found $49/mo",
+    "details": "Expected $14,995 (from zoominfo-review.html) but found $49/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $10 (from calendly-review.html) but found $10/mo",
+    "details": "Expected $10 (from calendly-review.html) but found $10/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $50 (from clari-review.html) but found $10/mo",
+    "details": "Expected $50 (from clari-review.html) but found $10/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $10 (from fireflies-review.html) but found $10/mo",
+    "details": "Expected $10 (from fireflies-review.html) but found $10/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $49 (from apollo-review.html) but found $149/mo",
+    "details": "Expected $49 (from apollo-review.html) but found $149/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $149/mo (from clay-review.html) but found $49/mo",
+    "details": "Expected $149/mo (from clay-review.html) but found $49/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $15,000 (from clearbit-review.html) but found $149/mo",
+    "details": "Expected $15,000 (from clearbit-review.html) but found $149/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $149/mo (from clay-review.html) but found $15",
+    "details": "Expected $149/mo (from clay-review.html) but found $15",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $14,995 (from zoominfo-review.html) but found $149/mo",
+    "details": "Expected $14,995 (from zoominfo-review.html) but found $149/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $15,000 (from clearbit-review.html) but found $29/mo",
+    "details": "Expected $15,000 (from clearbit-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29/mo (from lusha-review.html) but found $29/user",
+    "details": "Expected $29/mo (from lusha-review.html) but found $29/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $15,000 (from clearbit-review.html) but found $65/mo",
+    "details": "Expected $15,000 (from clearbit-review.html) but found $65/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $15,000 (from clearbit-review.html) but found $20,000",
+    "details": "Expected $15,000 (from clearbit-review.html) but found $20,000",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $14,995 (from zoominfo-review.html) but found $20,000",
+    "details": "Expected $14,995 (from zoominfo-review.html) but found $20,000",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29 (from close-review.html) but found $29/mo",
+    "details": "Expected $29 (from close-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $15 (from freshsales-review.html) but found $29/mo",
+    "details": "Expected $15 (from freshsales-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29 (from close-review.html) but found $29/mo",
+    "details": "Expected $29 (from close-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $45 (from hubspot-review.html) but found $29/mo",
+    "details": "Expected $45 (from hubspot-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29 (from close-review.html) but found $29/mo",
+    "details": "Expected $29 (from close-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $14 (from pipedrive-review.html) but found $29/mo",
+    "details": "Expected $14 (from pipedrive-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $15 (from dialpad-review.html) but found $15/user",
+    "details": "Expected $15 (from dialpad-review.html) but found $15/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $35/mo (from kixie-review.html) but found $15/user",
+    "details": "Expected $35/mo (from kixie-review.html) but found $15/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $15 (from dialpad-review.html) but found $15/mo",
+    "details": "Expected $15 (from dialpad-review.html) but found $15/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $10 (from fireflies-review.html) but found $10/mo",
+    "details": "Expected $10 (from fireflies-review.html) but found $10/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $10 (from fireflies-review.html) but found $10/mo",
+    "details": "Expected $10 (from fireflies-review.html) but found $10/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $100 (from gong-review.html) but found $10/mo",
+    "details": "Expected $100 (from gong-review.html) but found $10/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $15 (from freshsales-review.html) but found $15/mo",
+    "details": "Expected $15 (from freshsales-review.html) but found $15/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $45 (from hubspot-review.html) but found $15/mo",
+    "details": "Expected $45 (from hubspot-review.html) but found $15/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $15 (from freshsales-review.html) but found $9/mo",
+    "details": "Expected $15 (from freshsales-review.html) but found $9/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $14 (from pipedrive-review.html) but found $9/mo",
+    "details": "Expected $14 (from pipedrive-review.html) but found $9/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $45 (from hubspot-review.html) but found $45/mo",
+    "details": "Expected $45 (from hubspot-review.html) but found $45/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $14 (from pipedrive-review.html) but found $45/mo",
+    "details": "Expected $14 (from pipedrive-review.html) but found $45/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $49 (from apollo-review.html) but found $34/mo",
+    "details": "Expected $49 (from apollo-review.html) but found $34/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $34/mo (from hunter-review.html) but found $49/mo",
+    "details": "Expected $34/mo (from hunter-review.html) but found $49/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $34/mo (from hunter-review.html) but found $29/mo",
+    "details": "Expected $34/mo (from hunter-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29/mo (from lusha-review.html) but found $34/mo",
+    "details": "Expected $29/mo (from lusha-review.html) but found $34/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $34/mo (from hunter-review.html) but found $34",
+    "details": "Expected $34/mo (from hunter-review.html) but found $34",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $34/mo (from hunter-review.html) but found $49/mo",
+    "details": "Expected $34/mo (from hunter-review.html) but found $49/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $14,995 (from zoominfo-review.html) but found $49/mo",
+    "details": "Expected $14,995 (from zoominfo-review.html) but found $49/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $37/mo (from instantly-review.html) but found $39/mo",
+    "details": "Expected $37/mo (from instantly-review.html) but found $39/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $39/mo (from lemlist-review.html) but found $37/mo",
+    "details": "Expected $39/mo (from lemlist-review.html) but found $37/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $37/mo (from instantly-review.html) but found $58/mo",
+    "details": "Expected $37/mo (from instantly-review.html) but found $58/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $58 (from mailshake-review.html) but found $37/mo",
+    "details": "Expected $58 (from mailshake-review.html) but found $37/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $37/mo (from instantly-review.html) but found $39/mo",
+    "details": "Expected $37/mo (from instantly-review.html) but found $39/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $39 (from smartlead-review.html) but found $37/mo",
+    "details": "Expected $39 (from smartlead-review.html) but found $37/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $30 (from aircall-review.html) but found $19/mo",
+    "details": "Expected $30 (from aircall-review.html) but found $19/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $19/mo (from justcall-review.html) but found $30/mo",
+    "details": "Expected $19/mo (from justcall-review.html) but found $30/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $15 (from dialpad-review.html) but found $19/mo",
+    "details": "Expected $15 (from dialpad-review.html) but found $19/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $19/mo (from justcall-review.html) but found $15/mo",
+    "details": "Expected $19/mo (from justcall-review.html) but found $15/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $30 (from aircall-review.html) but found $35/mo",
+    "details": "Expected $30 (from aircall-review.html) but found $35/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $35/mo (from kixie-review.html) but found $30/mo",
+    "details": "Expected $35/mo (from kixie-review.html) but found $30/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $19/mo (from justcall-review.html) but found $35/mo",
+    "details": "Expected $19/mo (from justcall-review.html) but found $35/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $35/mo (from kixie-review.html) but found $19/mo",
+    "details": "Expected $35/mo (from kixie-review.html) but found $19/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $35/mo (from kixie-review.html) but found $35/user",
+    "details": "Expected $35/mo (from kixie-review.html) but found $35/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $37/mo (from instantly-review.html) but found $29/mo",
+    "details": "Expected $37/mo (from instantly-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29/mo (from lavender-review.html) but found $37/mo",
+    "details": "Expected $29/mo (from lavender-review.html) but found $37/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29/mo (from lavender-review.html) but found $39/mo",
+    "details": "Expected $29/mo (from lavender-review.html) but found $39/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $39/mo (from lemlist-review.html) but found $29/mo",
+    "details": "Expected $39/mo (from lemlist-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29/mo (from lavender-review.html) but found $60/mo",
+    "details": "Expected $29/mo (from lavender-review.html) but found $60/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $39 (from smartlead-review.html) but found $39/mo",
+    "details": "Expected $39 (from smartlead-review.html) but found $39/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $49 (from apollo-review.html) but found $29/mo",
+    "details": "Expected $49 (from apollo-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29/mo (from lusha-review.html) but found $49/mo",
+    "details": "Expected $29/mo (from lusha-review.html) but found $49/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29/mo (from lusha-review.html) but found $29/user",
+    "details": "Expected $29/mo (from lusha-review.html) but found $29/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $14,995 (from zoominfo-review.html) but found $29/mo",
+    "details": "Expected $14,995 (from zoominfo-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $58 (from mailshake-review.html) but found $25",
+    "details": "Expected $58 (from mailshake-review.html) but found $25",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $30 (from aircall-review.html) but found $30/mo",
+    "details": "Expected $30 (from aircall-review.html) but found $30/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $19/mo (from justcall-review.html) but found $19/user",
+    "details": "Expected $19/mo (from justcall-review.html) but found $19/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $37/mo (from instantly-review.html) but found $100",
+    "details": "Expected $37/mo (from instantly-review.html) but found $100",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $100 (from outreach-review.html) but found $150",
+    "details": "Expected $100 (from outreach-review.html) but found $150",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $75 (from salesloft-review.html) but found $100",
+    "details": "Expected $75 (from salesloft-review.html) but found $100",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $37/mo (from instantly-review.html) but found $60/mo",
+    "details": "Expected $37/mo (from instantly-review.html) but found $60/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $39/mo (from lemlist-review.html) but found $60/mo",
+    "details": "Expected $39/mo (from lemlist-review.html) but found $60/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $100 (from outreach-review.html) but found $60/mo",
+    "details": "Expected $100 (from outreach-review.html) but found $60/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $75 (from salesloft-review.html) but found $37/mo",
+    "details": "Expected $75 (from salesloft-review.html) but found $37/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $75 (from salesloft-review.html) but found $49",
+    "details": "Expected $75 (from salesloft-review.html) but found $49",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $10 (from calendly-review.html) but found $12/mo",
+    "details": "Expected $10 (from calendly-review.html) but found $12/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $12 (from savvycal-review.html) but found $12/mo",
+    "details": "Expected $12 (from savvycal-review.html) but found $12/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $12 (from savvycal-review.html) but found $12/mo",
+    "details": "Expected $12 (from savvycal-review.html) but found $12/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $49 (from apollo-review.html) but found $65/mo",
+    "details": "Expected $49 (from apollo-review.html) but found $65/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29/mo (from lusha-review.html) but found $65/mo",
+    "details": "Expected $29/mo (from lusha-review.html) but found $65/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $14,995 (from zoominfo-review.html) but found $65/mo",
+    "details": "Expected $14,995 (from zoominfo-review.html) but found $65/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $39 (from smartlead-review.html) but found $49",
+    "details": "Expected $39 (from smartlead-review.html) but found $49",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $37/mo (from instantly-review.html) but found $29/mo",
+    "details": "Expected $37/mo (from instantly-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29 (from woodpecker-review.html) but found $29/mo",
+    "details": "Expected $29 (from woodpecker-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $39/mo (from lemlist-review.html) but found $29/mo",
+    "details": "Expected $39/mo (from lemlist-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29 (from woodpecker-review.html) but found $29/mo",
+    "details": "Expected $29 (from woodpecker-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $58 (from mailshake-review.html) but found $29/mo",
+    "details": "Expected $58 (from mailshake-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29 (from woodpecker-review.html) but found $29/mo",
+    "details": "Expected $29 (from woodpecker-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $39 (from smartlead-review.html) but found $29/mo",
+    "details": "Expected $39 (from smartlead-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $29 (from woodpecker-review.html) but found $29/mo",
+    "details": "Expected $29 (from woodpecker-review.html) but found $29/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $49 (from apollo-review.html) but found $49/user",
+    "details": "Expected $49 (from apollo-review.html) but found $49/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $149/mo (from clay-review.html) but found $349/mo",
+    "details": "Expected $149/mo (from clay-review.html) but found $349/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $100 (from gong-review.html) but found $70",
+    "details": "Expected $100 (from gong-review.html) but found $70",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $45 (from hubspot-review.html) but found $45/mo",
+    "details": "Expected $45 (from hubspot-review.html) but found $45/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $37/mo (from instantly-review.html) but found $97/mo",
+    "details": "Expected $37/mo (from instantly-review.html) but found $97/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $39/mo (from lemlist-review.html) but found $39/seat",
+    "details": "Expected $39/mo (from lemlist-review.html) but found $39/seat",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $100 (from outreach-review.html) but found $100/user",
+    "details": "Expected $100 (from outreach-review.html) but found $100/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $75 (from salesloft-review.html) but found $75/user",
+    "details": "Expected $75 (from salesloft-review.html) but found $75/user",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $39 (from smartlead-review.html) but found $39/mo",
+    "details": "Expected $39 (from smartlead-review.html) but found $39/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $14,995 (from zoominfo-review.html) but found $15",
+    "details": "Expected $14,995 (from zoominfo-review.html) but found $15",
+    "priority": "P0"
+  },
+  {
+    "file": "Meta description length 35 out of 120-160 range in 404.html",
+    "fix_type": "meta-description",
+    "details": "Meta description length 35 out of 120-160 range in 404.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in alternatives/outreach.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in alternatives/outreach.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in categories/cold-outreach.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in categories/cold-outreach.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in categories/crm-pipeline.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in categories/crm-pipeline.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in categories/data-enrichment.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in categories/data-enrichment.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in categories/dialers-calling.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in categories/dialers-calling.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in categories/index.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in categories/index.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in categories/lead-prospecting.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in categories/lead-prospecting.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in categories/meeting-schedulers.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in categories/meeting-schedulers.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in categories/sales-analytics.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in categories/sales-analytics.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in categories/sales-content.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in categories/sales-content.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in categories/sales-engagement.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in categories/sales-engagement.html",
+    "priority": "P1"
+  },
+  {
+    "file": "Meta description length 10 out of 120-160 range in pricing/gong.html",
+    "fix_type": "meta-description",
+    "details": "Meta description length 10 out of 120-160 range in pricing/gong.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in resources/cold-outreach-evaluation-checklist.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in resources/cold-outreach-evaluation-checklist.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in resources/index.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in resources/index.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in resources/sales-dialer-evaluation-checklist.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in resources/sales-dialer-evaluation-checklist.html",
+    "priority": "P1"
+  },
+  {
+    "file": "Meta description length 113 out of 120-160 range in tools/clay-review.html",
+    "fix_type": "meta-description",
+    "details": "Meta description length 113 out of 120-160 range in tools/clay-review.html",
+    "priority": "P1"
+  },
+  {
+    "file": "Meta description length 89 out of 120-160 range in tools/close-review.html",
+    "fix_type": "meta-description",
+    "details": "Meta description length 89 out of 120-160 range in tools/close-review.html",
+    "priority": "P1"
+  },
+  {
+    "file": "JSON-LD block missing @type in tools/index.html",
+    "fix_type": "json-ld",
+    "details": "JSON-LD block missing @type in tools/index.html",
+    "priority": "P1"
+  },
+  {
+    "file": "alternatives/clay.html",
+    "fix_type": "orphan_page",
+    "details": "alternatives/clay.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "alternatives/gong.html",
+    "fix_type": "orphan_page",
+    "details": "alternatives/gong.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "alternatives/lemlist.html",
+    "fix_type": "orphan_page",
+    "details": "alternatives/lemlist.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "alternatives/salesloft.html",
+    "fix_type": "orphan_page",
+    "details": "alternatives/salesloft.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "alternatives/zoominfo.html",
+    "fix_type": "orphan_page",
+    "details": "alternatives/zoominfo.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "best/cold-calling-software.html",
+    "fix_type": "orphan_page",
+    "details": "best/cold-calling-software.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "best/dialer-software.html",
+    "fix_type": "orphan_page",
+    "details": "best/dialer-software.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "best/free-crm-software.html",
+    "fix_type": "orphan_page",
+    "details": "best/free-crm-software.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "best/meeting-scheduling-software.html",
+    "fix_type": "orphan_page",
+    "details": "best/meeting-scheduling-software.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/aircall-vs-dialpad.html",
+    "fix_type": "orphan_page",
+    "details": "compare/aircall-vs-dialpad.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/apollo-vs-clearbit.html",
+    "fix_type": "orphan_page",
+    "details": "compare/apollo-vs-clearbit.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/chorus-vs-clari.html",
+    "fix_type": "orphan_page",
+    "details": "compare/chorus-vs-clari.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/clari-vs-fireflies.html",
+    "fix_type": "orphan_page",
+    "details": "compare/clari-vs-fireflies.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/clay-vs-clearbit.html",
+    "fix_type": "orphan_page",
+    "details": "compare/clay-vs-clearbit.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/clearbit-vs-zoominfo.html",
+    "fix_type": "orphan_page",
+    "details": "compare/clearbit-vs-zoominfo.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/close-vs-pipedrive.html",
+    "fix_type": "orphan_page",
+    "details": "compare/close-vs-pipedrive.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/dialpad-vs-kixie.html",
+    "fix_type": "orphan_page",
+    "details": "compare/dialpad-vs-kixie.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/freshsales-vs-pipedrive.html",
+    "fix_type": "orphan_page",
+    "details": "compare/freshsales-vs-pipedrive.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/hunter-vs-apollo.html",
+    "fix_type": "orphan_page",
+    "details": "compare/hunter-vs-apollo.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/hunter-vs-seamless-ai.html",
+    "fix_type": "orphan_page",
+    "details": "compare/hunter-vs-seamless-ai.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/hunter-vs-zoominfo.html",
+    "fix_type": "orphan_page",
+    "details": "compare/hunter-vs-zoominfo.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/instantly-vs-mailshake.html",
+    "fix_type": "orphan_page",
+    "details": "compare/instantly-vs-mailshake.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/kixie-vs-aircall.html",
+    "fix_type": "orphan_page",
+    "details": "compare/kixie-vs-aircall.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/kixie-vs-justcall.html",
+    "fix_type": "orphan_page",
+    "details": "compare/kixie-vs-justcall.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/kixie-vs-orum.html",
+    "fix_type": "orphan_page",
+    "details": "compare/kixie-vs-orum.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/lavender-vs-reply-io.html",
+    "fix_type": "orphan_page",
+    "details": "compare/lavender-vs-reply-io.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/lusha-vs-zoominfo.html",
+    "fix_type": "orphan_page",
+    "details": "compare/lusha-vs-zoominfo.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/mailshake-vs-reply-io.html",
+    "fix_type": "orphan_page",
+    "details": "compare/mailshake-vs-reply-io.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/orum-vs-aircall.html",
+    "fix_type": "orphan_page",
+    "details": "compare/orum-vs-aircall.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/orum-vs-justcall.html",
+    "fix_type": "orphan_page",
+    "details": "compare/orum-vs-justcall.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/reply-io-vs-instantly.html",
+    "fix_type": "orphan_page",
+    "details": "compare/reply-io-vs-instantly.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/reply-io-vs-lemlist.html",
+    "fix_type": "orphan_page",
+    "details": "compare/reply-io-vs-lemlist.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/reply-io-vs-outreach.html",
+    "fix_type": "orphan_page",
+    "details": "compare/reply-io-vs-outreach.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/savvycal-vs-calendly.html",
+    "fix_type": "orphan_page",
+    "details": "compare/savvycal-vs-calendly.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/savvycal-vs-chili-piper.html",
+    "fix_type": "orphan_page",
+    "details": "compare/savvycal-vs-chili-piper.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/seamless-ai-vs-apollo.html",
+    "fix_type": "orphan_page",
+    "details": "compare/seamless-ai-vs-apollo.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/seamless-ai-vs-lusha.html",
+    "fix_type": "orphan_page",
+    "details": "compare/seamless-ai-vs-lusha.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "compare/smartlead-vs-reply-io.html",
+    "fix_type": "orphan_page",
+    "details": "compare/smartlead-vs-reply-io.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  }
+]
