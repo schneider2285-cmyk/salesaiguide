@@ -1,0 +1,42 @@
+{
+  "runs": [
+    {
+      "date": "2026-03-12",
+      "runNumber": 1,
+      "overallScore": 88,
+      "issuesFound": 607,
+      "issuesFixed": 607,
+      "topAction": "Fixed all P0/P1 issues: prices, orphans, titles, metas, OG tags, schemas. Built auto-repair system.",
+      "agentScores": {
+        "sitehealth": 95,
+        "seopower": 95,
+        "revenuefunnel": 100,
+        "contentguard": 85,
+        "priceverify": 95,
+        "linkhealth": 25,
+        "trafficintel": 39,
+        "contentengine": null,
+        "revenueops": null
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "runNumber": 2,
+      "overallScore": 59,
+      "issuesFound": 386,
+      "issuesFixed": 0,
+      "topAction": "Weekly cycle #2 — score 59/100",
+      "agentScores": {
+        "sitehealth": 66,
+        "revenuefunnel": 99.9,
+        "linkhealth": 0,
+        "priceverify": 0,
+        "contentguard": 0,
+        "seopower": 94,
+        "trafficintel": 36,
+        "contentengine": null,
+        "revenueops": null
+      }
+    }
+  ]
+}
