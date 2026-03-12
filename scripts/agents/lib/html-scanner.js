@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const SKIP_DIRS = ['ops', 'node_modules', '.git', '.claude', '.playwright-cli', 'scripts', '.github'];
+const SKIP_DIRS = ['ops', 'node_modules', '.git', '.claude', '.playwright-cli', '.playwright-mcp', 'scripts', '.github', '_private', 'docs', 'progress'];
 
 /**
  * Recursively walk directories and return all .html files.

@@ -326,15 +326,8 @@ function phase7(runCount, overall, issuesFixed) {
     run('git commit -m "' + msg + '"');
     log('P7', 'Committed.');
 
-    log('P7', 'Deploying to Netlify...');
-    try {
-      run('npx netlify-cli deploy --dir . --prod', { timeout: 300000 });
-      log('P7', 'Deployed successfully.');
-      return 'success';
-    } catch (e) {
-      log('P7', 'Deploy FAILED: ' + e.message);
-      return 'deploy_failed';
-    }
+    log('P7', 'Skipping CLI deploy — Netlify auto-deploys from git push.');
+    return 'success';
   } catch (e) {
     log('P7', 'Commit/deploy failed: ' + e.message);
     return 'failed';
