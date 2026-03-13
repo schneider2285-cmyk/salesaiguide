@@ -908,3 +908,42 @@
     display: none;
   }
 }
+
+/* Accessibility: make in-content links distinguishable beyond color */
+main p a,
+main li a,
+main td a,
+.review-content a,
+.comparison-content a,
+.prose a {
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-underline-offset: 2px;
+}
+
+/* Exclude already-distinct elements from underline */
+nav a,
+footer a,
+.tool-card a,
+.btn-review-primary,
+.btn-review-secondary,
+.comp-hero__cta,
+.mid-cta__btn,
+.verdict-cta__btn,
+.sticky-cta__btn,
+.newsletter-cta a,
+[class*="cta"] a {
+  text-decoration: none;
+}
+
+/* Touch target minimum sizing */
+.category-tab {
+  min-height: 48px;
+  padding: 12px 20px;
+}
+
+.footer__link {
+  display: inline-block;
+  min-height: 44px;
+  line-height: 44px;
+}
