@@ -71,43 +71,36 @@
   from = "/tools/:slug.html"
   to = "/tools/:slug"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/compare/:slug.html"
   to = "/compare/:slug"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/categories/:slug.html"
   to = "/categories/:slug"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/best/:slug.html"
   to = "/best/:slug"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/pricing/:slug.html"
   to = "/pricing/:slug"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/alternatives/:slug.html"
   to = "/alternatives/:slug"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/resources/:slug.html"
   to = "/resources/:slug"
   status = 301
-  force = true
 
 # Redirect dead pages Google still has indexed
 [[redirects]]
