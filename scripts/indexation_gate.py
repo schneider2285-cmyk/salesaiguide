@@ -51,9 +51,27 @@ BESTPICK_RE = re.compile(r"best.+for|pick.+by.+scenario|recommended.+for", re.IG
 EDITORIAL_FILES = {"about.html", "disclosure.html", "methodology.html",
                    "editorial-policy.html", "corrections.html"}
 
+STATIC_FILES = {"privacy.html", "terms.html"}
+
 PRIORITY_MAP = {
     "homepage": "1.0", "review": "0.9", "comparison": "0.8",
-    "directory": "0.8", "category_hub": "0.7", "editorial": "0.5",
+    "directory": "0.8", "best_of": "0.8", "alternatives": "0.7",
+    "pricing": "0.7", "category_hub": "0.6", "resource": "0.5",
+    "editorial": "0.3", "static_page": "0.3",
+}
+
+CHANGEFREQ_MAP = {
+    "homepage": "weekly",
+    "review": "monthly",
+    "comparison": "monthly",
+    "best_of": "monthly",
+    "alternatives": "monthly",
+    "pricing": "weekly",
+    "category_hub": "monthly",
+    "directory": "monthly",
+    "resource": "monthly",
+    "editorial": "yearly",
+    "static_page": "yearly",
 }
 
 # ---------------------------------------------------------------------------
@@ -612,13 +630,20 @@ def detect_page_type(rel_path):
     if rel_path == "index.html":
         return "homepage"
 
-    # Editorial
+    # Static pages (privacy, terms)
     base = os.path.basename(rel_path)
+    if base in STATIC_FILES:
+        return "static_page"
+
+    # Editorial (about, disclosure, etc.)
     if base in EDITORIAL_FILES:
         return "editorial"
 
     # Directory indexes
-    if rel_path in ("tools/index.html", "compare/index.html", "categories/index.html"):
+    if rel_path in ("tools/index.html", "compare/index.html",
+                     "categories/index.html", "best/index.html",
+                     "pricing/index.html", "alternatives/index.html",
+                     "resources/index.html"):
         return "directory"
 
     # Reviews
@@ -644,6 +669,26 @@ def detect_page_type(rel_path):
             if len(parts) == 3 and parts[2] == "index.html":
                 return "category_hub"
 
+    # Best-of pages
+    if rel_path.startswith("best/"):
+        if base != "index.html":
+            return "best_of"
+
+    # Alternatives pages
+    if rel_path.startswith("alternatives/"):
+        if base != "index.html":
+            return "alternatives"
+
+    # Pricing pages
+    if rel_path.startswith("pricing/"):
+        if base != "index.html":
+            return "pricing"
+
+    # Resources
+    if rel_path.startswith("resources/"):
+        if base != "index.html":
+            return "resource"
+
     return "editorial"  # fallback
 
 
@@ -655,11 +700,25 @@ def normalize_path(rel_path):
     """Normalize rel_path for canonical comparison.
     */index.html -> /path/  (not /path/index.html)
     Root index.html -> '' (just base_url/)
+    *.html -> strip .html (pretty URLs)
     """
     if rel_path == "index.html":
         return ""
     if rel_path.endswith("/index.html"):
         return rel_path[:-len("index.html")]
+    if rel_path.endswith(".html"):
+        return rel_path[:-len(".html")]
+    return rel_path
+
+
+def sitemap_url_path(rel_path):
+    """Normalize path for sitemap URLs (strip .html for pretty URLs)."""
+    if rel_path == "index.html":
+        return ""
+    if rel_path.endswith("/index.html"):
+        return rel_path[:-len("index.html")]
+    if rel_path.endswith(".html"):
+        return rel_path[:-len(".html")]
     return rel_path
 
 
@@ -1765,19 +1824,28 @@ def check_global_uniqueness(all_pages):
 # Output Generation
 # ---------------------------------------------------------------------------
 
-def generate_sitemap_core(results, base_url, out_dir):
+def generate_sitemap_core(results, base_url, out_dir, site_dir=None):
     """Generate sitemap-core.xml with A+B pages."""
     lines = ['<?xml version="1.0" encoding="UTF-8"?>']
     lines.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
 
     for r in sorted(results, key=lambda x: x["file"]):
         if r["grade"] in ("A", "B"):
-            norm = normalize_path(r["file"])
+            norm = sitemap_url_path(r["file"])
             url = base_url.rstrip("/") + "/" + norm
             priority = PRIORITY_MAP.get(r["page_type"], "0.5")
+            changefreq = CHANGEFREQ_MAP.get(r["page_type"], "monthly")
+            # Use actual file modification date for lastmod
+            lastmod = datetime.utcnow().strftime("%Y-%m-%d")
+            if site_dir:
+                fpath = os.path.join(site_dir, r["file"])
+                if os.path.exists(fpath):
+                    mtime = os.path.getmtime(fpath)
+                    lastmod = datetime.utcfromtimestamp(mtime).strftime("%Y-%m-%d")
             lines.append("  <url>")
             lines.append(f"    <loc>{url}</loc>")
-            lines.append("    <changefreq>monthly</changefreq>")
+            lines.append(f"    <lastmod>{lastmod}</lastmod>")
+            lines.append(f"    <changefreq>{changefreq}</changefreq>")
             lines.append(f"    <priority>{priority}</priority>")
             lines.append("  </url>")
 
@@ -1789,18 +1857,26 @@ def generate_sitemap_core(results, base_url, out_dir):
     return path
 
 
-def generate_sitemap_hold(results, base_url, out_dir):
+def generate_sitemap_hold(results, base_url, out_dir, site_dir=None):
     """Generate sitemap-hold.xml with C pages (monitoring only)."""
     lines = ['<?xml version="1.0" encoding="UTF-8"?>']
     lines.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
 
     for r in sorted(results, key=lambda x: x["file"]):
         if r["grade"] == "C":
-            norm = normalize_path(r["file"])
+            norm = sitemap_url_path(r["file"])
             url = base_url.rstrip("/") + "/" + norm
+            changefreq = CHANGEFREQ_MAP.get(r["page_type"], "monthly")
+            lastmod = datetime.utcnow().strftime("%Y-%m-%d")
+            if site_dir:
+                fpath = os.path.join(site_dir, r["file"])
+                if os.path.exists(fpath):
+                    mtime = os.path.getmtime(fpath)
+                    lastmod = datetime.utcfromtimestamp(mtime).strftime("%Y-%m-%d")
             lines.append("  <url>")
             lines.append(f"    <loc>{url}</loc>")
-            lines.append("    <changefreq>monthly</changefreq>")
+            lines.append(f"    <lastmod>{lastmod}</lastmod>")
+            lines.append(f"    <changefreq>{changefreq}</changefreq>")
             lines.append("    <priority>0.1</priority>")
             lines.append("  </url>")
 
@@ -2102,8 +2178,8 @@ def main():
 
     # 6. Generate outputs
     if not args.dry_run:
-        generate_sitemap_core(results, base_url, out_dir)
-        generate_sitemap_hold(results, base_url, out_dir)
+        generate_sitemap_core(results, base_url, out_dir, site_dir)
+        generate_sitemap_hold(results, base_url, out_dir, site_dir)
         generate_sitemap_index(base_url, out_dir)
         generate_headers(results, out_dir)
 

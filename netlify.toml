@@ -22,3 +22,120 @@
   for = "/js/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# Strip index.html from directory hubs
+[[redirects]]
+  from = "/tools/index.html"
+  to = "/tools/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/compare/index.html"
+  to = "/compare/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/categories/index.html"
+  to = "/categories/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best/index.html"
+  to = "/best/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pricing/index.html"
+  to = "/pricing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/alternatives/index.html"
+  to = "/alternatives/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/index.html"
+  to = "/resources/"
+  status = 301
+  force = true
+
+# Strip .html from content pages
+[[redirects]]
+  from = "/tools/:slug.html"
+  to = "/tools/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/compare/:slug.html"
+  to = "/compare/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/categories/:slug.html"
+  to = "/categories/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best/:slug.html"
+  to = "/best/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pricing/:slug.html"
+  to = "/pricing/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/alternatives/:slug.html"
+  to = "/alternatives/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/:slug.html"
+  to = "/resources/:slug"
+  status = 301
+  force = true
+
+# Redirect dead pages Google still has indexed
+[[redirects]]
+  from = "/blog"
+  to = "/resources/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/"
+  to = "/resources/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/resources/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/methodology"
+  to = "/disclosure"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/categories/sales-coaching"
+  to = "/categories/"
+  status = 301
+  force = true

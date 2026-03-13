@@ -155,3 +155,15 @@ table {
   white-space: nowrap;
   border: 0;
 }
+
+/* Accessible link distinguishability — content links get underlines */
+main a:not(.btn-review-primary):not(.btn-review-secondary):not(.tool-card__cta):not(.navbar__link):not(.navbar__logo):not(.mobile-nav__link):not(.footer__link):not(.section__view-all a):not([class*="btn"]):not([class*="cta"]):not(.tool-card__review-link):not(.comparison-card):not(.comparison-card__link):not(.category-tab):not(.comp-header__breadcrumb a):not(.review-toc a) {
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-underline-offset: 2px;
+}
+
+.tool-card__review-link {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
