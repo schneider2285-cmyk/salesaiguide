@@ -936,6 +936,21 @@ footer a,
   text-decoration: none;
 }
 
+/* Footer disclosure link underline */
+.footer__disclosure a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Social icon touch targets */
+.footer__social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  min-height: 48px;
+}
+
 /* Touch target minimum sizing */
 .category-tab {
   min-height: 48px;
