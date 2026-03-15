@@ -1,5 +1,143 @@
 [
   {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in 404.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in 404.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in about.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in about.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/apollo.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/apollo.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/calendly.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/calendly.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/clay.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/clay.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/gong.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/gong.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Title exceeds 60 chars (65) in alternatives/gong.html",
+    "fix_type": "title",
+    "details": "Title exceeds 60 chars (65) in alternatives/gong.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/hubspot-crm.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/hubspot-crm.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/index.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/index.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/instantly.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/instantly.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/outreach.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/outreach.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Title exceeds 60 chars (65) in alternatives/outreach.html",
+    "fix_type": "title",
+    "details": "Title exceeds 60 chars (65) in alternatives/outreach.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/salesforce.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/salesforce.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/salesloft.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/salesloft.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Title exceeds 60 chars (61) in alternatives/salesloft.html",
+    "fix_type": "title",
+    "details": "Title exceeds 60 chars (61) in alternatives/salesloft.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/zoominfo.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in alternatives/zoominfo.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Title exceeds 60 chars (68) in alternatives/zoominfo.html",
+    "fix_type": "title",
+    "details": "Title exceeds 60 chars (68) in alternatives/zoominfo.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in best/ai-sales-tools.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in best/ai-sales-tools.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in best/cold-email-software-for-startups.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in best/cold-email-software-for-startups.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in best/crm-for-small-business.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in best/crm-for-small-business.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in best/free-crm-software.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in best/free-crm-software.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in best/index.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in best/index.html",
+    "priority": "P0"
+  },
+  {
+    "file": "Missing GA4 snippet (G-VRBZ6Z6885) in best/sales-automation-software.html",
+    "fix_type": "ga4",
+    "details": "Missing GA4 snippet (G-VRBZ6Z6885) in best/sales-automation-software.html",
+    "priority": "P0"
+  },
+  {
     "file": "alternatives/calendly.html",
     "fix_type": "orphan_page",
     "details": "alternatives/calendly.html: only 0 inbound links (minimum 3)",
@@ -30,9 +168,27 @@
     "priority": "P0"
   },
   {
+    "file": "best/meeting-scheduling-software.html",
+    "fix_type": "orphan_page",
+    "details": "best/meeting-scheduling-software.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
     "file": "best/sales-tools-for-solopreneurs.html",
     "fix_type": "orphan_page",
     "details": "best/sales-tools-for-solopreneurs.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "compare/apollo-vs-clearbit.html",
+    "fix_type": "orphan_page",
+    "details": "compare/apollo-vs-clearbit.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "compare/clay-vs-clearbit.html",
+    "fix_type": "orphan_page",
+    "details": "compare/clay-vs-clearbit.html: only 0 inbound links (minimum 3)",
     "priority": "P0"
   },
   {
@@ -48,9 +204,27 @@
     "priority": "P0"
   },
   {
+    "file": "compare/clearbit-vs-zoominfo.html",
+    "fix_type": "orphan_page",
+    "details": "compare/clearbit-vs-zoominfo.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
     "file": "compare/close-vs-freshsales.html",
     "fix_type": "orphan_page",
     "details": "compare/close-vs-freshsales.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "compare/close-vs-pipedrive.html",
+    "fix_type": "orphan_page",
+    "details": "compare/close-vs-pipedrive.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "compare/dialpad-vs-kixie.html",
+    "fix_type": "orphan_page",
+    "details": "compare/dialpad-vs-kixie.html: only 0 inbound links (minimum 3)",
     "priority": "P0"
   },
   {
@@ -60,25 +234,61 @@
     "priority": "P0"
   },
   {
-    "file": "compare/salesloft-vs-reply-io.html",
+    "file": "compare/fireflies-vs-chorus.html",
     "fix_type": "orphan_page",
-    "details": "compare/salesloft-vs-reply-io.html: only 0 inbound links (minimum 3)",
+    "details": "compare/fireflies-vs-chorus.html: only 0 inbound links (minimum 3)",
     "priority": "P0"
   },
   {
-    "file": "compare/seamless-ai-vs-zoominfo.html",
+    "file": "compare/freshsales-vs-pipedrive.html",
     "fix_type": "orphan_page",
-    "details": "compare/seamless-ai-vs-zoominfo.html: only 0 inbound links (minimum 3)",
+    "details": "compare/freshsales-vs-pipedrive.html: only 0 inbound links (minimum 3)",
     "priority": "P0"
   },
   {
-    "file": "Expected $49 (from apollo-review.html) but found $15,000",
-    "details": "Expected $49 (from apollo-review.html) but found $15,000",
+    "file": "compare/hunter-vs-apollo.html",
+    "fix_type": "orphan_page",
+    "details": "compare/hunter-vs-apollo.html: only 0 inbound links (minimum 3)",
     "priority": "P0"
   },
   {
-    "file": "Expected $10 (from calendly-review.html) but found $22.50/user",
-    "details": "Expected $10 (from calendly-review.html) but found $22.50/user",
+    "file": "compare/hunter-vs-lusha.html",
+    "fix_type": "orphan_page",
+    "details": "compare/hunter-vs-lusha.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "compare/hunter-vs-seamless-ai.html",
+    "fix_type": "orphan_page",
+    "details": "compare/hunter-vs-seamless-ai.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "compare/hunter-vs-zoominfo.html",
+    "fix_type": "orphan_page",
+    "details": "compare/hunter-vs-zoominfo.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "compare/instantly-vs-mailshake.html",
+    "fix_type": "orphan_page",
+    "details": "compare/instantly-vs-mailshake.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "compare/kixie-vs-justcall.html",
+    "fix_type": "orphan_page",
+    "details": "compare/kixie-vs-justcall.html: only 0 inbound links (minimum 3)",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $49 (from apollo-review.html) but found $14,995",
+    "details": "Expected $49 (from apollo-review.html) but found $14,995",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $10/mo (from calendly-review.html) but found $12/user",
+    "details": "Expected $10/mo (from calendly-review.html) but found $12/user",
     "priority": "P0"
   },
   {
@@ -92,28 +302,28 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $100 (from gong-review.html) but found $10/user",
-    "details": "Expected $100 (from gong-review.html) but found $10/user",
+    "file": "Expected $100 (from gong-review.html) but found $24,000",
+    "details": "Expected $100 (from gong-review.html) but found $24,000",
     "priority": "P0"
   },
   {
-    "file": "Expected $45 (from hubspot-review.html) but found $20/user",
-    "details": "Expected $45 (from hubspot-review.html) but found $20/user",
+    "file": "Expected $45 (from hubspot-review.html) but found $29/user",
+    "details": "Expected $45 (from hubspot-review.html) but found $29/user",
     "priority": "P0"
   },
   {
-    "file": "Expected $37/mo (from instantly-review.html) but found $29/mo",
-    "details": "Expected $37/mo (from instantly-review.html) but found $29/mo",
+    "file": "Expected $37 (from instantly-review.html) but found $30/mo",
+    "details": "Expected $37 (from instantly-review.html) but found $30/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $39/mo (from lemlist-review.html) but found $37/mo",
-    "details": "Expected $39/mo (from lemlist-review.html) but found $37/mo",
+    "file": "Expected $59 (from lemlist-review.html) but found $39/mo",
+    "details": "Expected $59 (from lemlist-review.html) but found $39/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $100 (from outreach-review.html) but found $37/mo",
-    "details": "Expected $100 (from outreach-review.html) but found $37/mo",
+    "file": "Expected $100 (from outreach-review.html) but found $29",
+    "details": "Expected $100 (from outreach-review.html) but found $29",
     "priority": "P0"
   },
   {
@@ -122,8 +332,8 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $75 (from salesloft-review.html) but found $37/mo",
-    "details": "Expected $75 (from salesloft-review.html) but found $37/mo",
+    "file": "Expected $75 (from salesloft-review.html) but found $100",
+    "details": "Expected $75 (from salesloft-review.html) but found $100",
     "priority": "P0"
   },
   {
@@ -167,18 +377,13 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $10 (from calendly-review.html) but found $10/mo",
-    "details": "Expected $10 (from calendly-review.html) but found $10/mo",
+    "file": "Expected $10/mo (from calendly-review.html) but found $12/mo",
+    "details": "Expected $10/mo (from calendly-review.html) but found $12/mo",
     "priority": "P0"
   },
   {
     "file": "Expected $50 (from clari-review.html) but found $10/mo",
     "details": "Expected $50 (from clari-review.html) but found $10/mo",
-    "priority": "P0"
-  },
-  {
-    "file": "Expected $10 (from fireflies-review.html) but found $10/mo",
-    "details": "Expected $10 (from fireflies-review.html) but found $10/mo",
     "priority": "P0"
   },
   {
@@ -207,18 +412,18 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $15,000 (from clearbit-review.html) but found $29/mo",
-    "details": "Expected $15,000 (from clearbit-review.html) but found $29/mo",
+    "file": "Expected $15,000 (from clearbit-review.html) but found $49/mo",
+    "details": "Expected $15,000 (from clearbit-review.html) but found $49/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $29/mo (from lusha-review.html) but found $29/user",
-    "details": "Expected $29/mo (from lusha-review.html) but found $29/user",
+    "file": "Expected $29 (from lusha-review.html) but found $49/mo",
+    "details": "Expected $29 (from lusha-review.html) but found $49/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $15,000 (from clearbit-review.html) but found $65/mo",
-    "details": "Expected $15,000 (from clearbit-review.html) but found $65/mo",
+    "file": "Expected $15,000 (from clearbit-review.html) but found $147/mo",
+    "details": "Expected $15,000 (from clearbit-review.html) but found $147/mo",
     "priority": "P0"
   },
   {
@@ -237,8 +442,8 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $15 (from freshsales-review.html) but found $29/mo",
-    "details": "Expected $15 (from freshsales-review.html) but found $29/mo",
+    "file": "Expected $15/mo (from freshsales-review.html) but found $29/mo",
+    "details": "Expected $15/mo (from freshsales-review.html) but found $29/mo",
     "priority": "P0"
   },
   {
@@ -252,13 +457,13 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $29 (from close-review.html) but found $29/mo",
-    "details": "Expected $29 (from close-review.html) but found $29/mo",
+    "file": "Expected $29 (from close-review.html) but found $35/mo",
+    "details": "Expected $29 (from close-review.html) but found $35/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $14 (from pipedrive-review.html) but found $29/mo",
-    "details": "Expected $14 (from pipedrive-review.html) but found $29/mo",
+    "file": "Expected $14 (from pipedrive-review.html) but found $35/mo",
+    "details": "Expected $14 (from pipedrive-review.html) but found $35/mo",
     "priority": "P0"
   },
   {
@@ -267,8 +472,8 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $35/mo (from kixie-review.html) but found $15/user",
-    "details": "Expected $35/mo (from kixie-review.html) but found $15/user",
+    "file": "Expected $35 (from kixie-review.html) but found $15/user",
+    "details": "Expected $35 (from kixie-review.html) but found $15/user",
     "priority": "P0"
   },
   {
@@ -277,13 +482,8 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $10 (from fireflies-review.html) but found $10/mo",
-    "details": "Expected $10 (from fireflies-review.html) but found $10/mo",
-    "priority": "P0"
-  },
-  {
-    "file": "Expected $10 (from fireflies-review.html) but found $10/mo",
-    "details": "Expected $10 (from fireflies-review.html) but found $10/mo",
+    "file": "Expected $10/mo (from fireflies-review.html) but found $100",
+    "details": "Expected $10/mo (from fireflies-review.html) but found $100",
     "priority": "P0"
   },
   {
@@ -292,18 +492,18 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $15 (from freshsales-review.html) but found $15/mo",
-    "details": "Expected $15 (from freshsales-review.html) but found $15/mo",
+    "file": "Expected $15/mo (from freshsales-review.html) but found $9/mo",
+    "details": "Expected $15/mo (from freshsales-review.html) but found $9/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $45 (from hubspot-review.html) but found $15/mo",
-    "details": "Expected $45 (from hubspot-review.html) but found $15/mo",
+    "file": "Expected $45 (from hubspot-review.html) but found $9/mo",
+    "details": "Expected $45 (from hubspot-review.html) but found $9/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $15 (from freshsales-review.html) but found $9/mo",
-    "details": "Expected $15 (from freshsales-review.html) but found $9/mo",
+    "file": "Expected $15/mo (from freshsales-review.html) but found $9/mo",
+    "details": "Expected $15/mo (from freshsales-review.html) but found $9/mo",
     "priority": "P0"
   },
   {
@@ -327,28 +527,28 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $34/mo (from hunter-review.html) but found $49/mo",
-    "details": "Expected $34/mo (from hunter-review.html) but found $49/mo",
+    "file": "Expected $34 (from hunter-review.html) but found $34/mo",
+    "details": "Expected $34 (from hunter-review.html) but found $34/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $34/mo (from hunter-review.html) but found $29/mo",
-    "details": "Expected $34/mo (from hunter-review.html) but found $29/mo",
+    "file": "Expected $34 (from hunter-review.html) but found $34/mo",
+    "details": "Expected $34 (from hunter-review.html) but found $34/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $29/mo (from lusha-review.html) but found $34/mo",
-    "details": "Expected $29/mo (from lusha-review.html) but found $34/mo",
+    "file": "Expected $29 (from lusha-review.html) but found $34/mo",
+    "details": "Expected $29 (from lusha-review.html) but found $34/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $34/mo (from hunter-review.html) but found $34",
-    "details": "Expected $34/mo (from hunter-review.html) but found $34",
+    "file": "Expected $34 (from hunter-review.html) but found $349",
+    "details": "Expected $34 (from hunter-review.html) but found $349",
     "priority": "P0"
   },
   {
-    "file": "Expected $34/mo (from hunter-review.html) but found $49/mo",
-    "details": "Expected $34/mo (from hunter-review.html) but found $49/mo",
+    "file": "Expected $34 (from hunter-review.html) but found $49/mo",
+    "details": "Expected $34 (from hunter-review.html) but found $49/mo",
     "priority": "P0"
   },
   {
@@ -357,18 +557,18 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $37/mo (from instantly-review.html) but found $39/mo",
-    "details": "Expected $37/mo (from instantly-review.html) but found $39/mo",
+    "file": "Expected $37 (from instantly-review.html) but found $37/mo",
+    "details": "Expected $37 (from instantly-review.html) but found $37/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $39/mo (from lemlist-review.html) but found $37/mo",
-    "details": "Expected $39/mo (from lemlist-review.html) but found $37/mo",
+    "file": "Expected $59 (from lemlist-review.html) but found $37/mo",
+    "details": "Expected $59 (from lemlist-review.html) but found $37/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $37/mo (from instantly-review.html) but found $58/mo",
-    "details": "Expected $37/mo (from instantly-review.html) but found $58/mo",
+    "file": "Expected $37 (from instantly-review.html) but found $37/mo",
+    "details": "Expected $37 (from instantly-review.html) but found $37/mo",
     "priority": "P0"
   },
   {
@@ -377,8 +577,8 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $37/mo (from instantly-review.html) but found $39/mo",
-    "details": "Expected $37/mo (from instantly-review.html) but found $39/mo",
+    "file": "Expected $37 (from instantly-review.html) but found $37/mo",
+    "details": "Expected $37 (from instantly-review.html) but found $37/mo",
     "priority": "P0"
   },
   {
@@ -392,8 +592,8 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $19/mo (from justcall-review.html) but found $30/mo",
-    "details": "Expected $19/mo (from justcall-review.html) but found $30/mo",
+    "file": "Expected $19 (from justcall-review.html) but found $19/mo",
+    "details": "Expected $19 (from justcall-review.html) but found $19/mo",
     "priority": "P0"
   },
   {
@@ -402,8 +602,8 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $19/mo (from justcall-review.html) but found $15/mo",
-    "details": "Expected $19/mo (from justcall-review.html) but found $15/mo",
+    "file": "Expected $19 (from justcall-review.html) but found $19/mo",
+    "details": "Expected $19 (from justcall-review.html) but found $19/mo",
     "priority": "P0"
   },
   {
@@ -412,53 +612,58 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $35/mo (from kixie-review.html) but found $30/mo",
-    "details": "Expected $35/mo (from kixie-review.html) but found $30/mo",
+    "file": "Expected $35 (from kixie-review.html) but found $35/mo",
+    "details": "Expected $35 (from kixie-review.html) but found $35/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $19/mo (from justcall-review.html) but found $35/mo",
-    "details": "Expected $19/mo (from justcall-review.html) but found $35/mo",
+    "file": "Expected $19 (from justcall-review.html) but found $35/mo",
+    "details": "Expected $19 (from justcall-review.html) but found $35/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $35/mo (from kixie-review.html) but found $19/mo",
-    "details": "Expected $35/mo (from kixie-review.html) but found $19/mo",
+    "file": "Expected $35 (from kixie-review.html) but found $35/mo",
+    "details": "Expected $35 (from kixie-review.html) but found $35/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $35/mo (from kixie-review.html) but found $35/user",
-    "details": "Expected $35/mo (from kixie-review.html) but found $35/user",
+    "file": "Expected $35 (from kixie-review.html) but found $35/mo",
+    "details": "Expected $35 (from kixie-review.html) but found $35/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $37/mo (from instantly-review.html) but found $29/mo",
-    "details": "Expected $37/mo (from instantly-review.html) but found $29/mo",
+    "file": "Expected $37 (from instantly-review.html) but found $29/mo",
+    "details": "Expected $37 (from instantly-review.html) but found $29/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $29/mo (from lavender-review.html) but found $37/mo",
-    "details": "Expected $29/mo (from lavender-review.html) but found $37/mo",
+    "file": "Expected $29 (from lavender-review.html) but found $29/mo",
+    "details": "Expected $29 (from lavender-review.html) but found $29/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $29/mo (from lavender-review.html) but found $39/mo",
-    "details": "Expected $29/mo (from lavender-review.html) but found $39/mo",
+    "file": "Expected $29 (from lavender-review.html) but found $29/mo",
+    "details": "Expected $29 (from lavender-review.html) but found $29/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $39/mo (from lemlist-review.html) but found $29/mo",
-    "details": "Expected $39/mo (from lemlist-review.html) but found $29/mo",
+    "file": "Expected $59 (from lemlist-review.html) but found $29/mo",
+    "details": "Expected $59 (from lemlist-review.html) but found $29/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $29/mo (from lavender-review.html) but found $60/mo",
-    "details": "Expected $29/mo (from lavender-review.html) but found $60/mo",
+    "file": "Expected $29 (from lavender-review.html) but found $29/mo",
+    "details": "Expected $29 (from lavender-review.html) but found $29/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $39 (from smartlead-review.html) but found $39/mo",
-    "details": "Expected $39 (from smartlead-review.html) but found $39/mo",
+    "file": "Expected $59 (from lemlist-review.html) but found $59/mo",
+    "details": "Expected $59 (from lemlist-review.html) but found $59/mo",
+    "priority": "P0"
+  },
+  {
+    "file": "Expected $39 (from smartlead-review.html) but found $59/mo",
+    "details": "Expected $39 (from smartlead-review.html) but found $59/mo",
     "priority": "P0"
   },
   {
@@ -467,18 +672,18 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $29/mo (from lusha-review.html) but found $49/mo",
-    "details": "Expected $29/mo (from lusha-review.html) but found $49/mo",
+    "file": "Expected $29 (from lusha-review.html) but found $29/mo",
+    "details": "Expected $29 (from lusha-review.html) but found $29/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $29/mo (from lusha-review.html) but found $29/user",
-    "details": "Expected $29/mo (from lusha-review.html) but found $29/user",
+    "file": "Expected $29 (from lusha-review.html) but found $49/mo",
+    "details": "Expected $29 (from lusha-review.html) but found $49/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $14,995 (from zoominfo-review.html) but found $29/mo",
-    "details": "Expected $14,995 (from zoominfo-review.html) but found $29/mo",
+    "file": "Expected $14,995 (from zoominfo-review.html) but found $49/mo",
+    "details": "Expected $14,995 (from zoominfo-review.html) but found $49/mo",
     "priority": "P0"
   },
   {
@@ -492,13 +697,13 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $19/mo (from justcall-review.html) but found $19/user",
-    "details": "Expected $19/mo (from justcall-review.html) but found $19/user",
+    "file": "Expected $19 (from justcall-review.html) but found $19/mo",
+    "details": "Expected $19 (from justcall-review.html) but found $19/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $37/mo (from instantly-review.html) but found $100",
-    "details": "Expected $37/mo (from instantly-review.html) but found $100",
+    "file": "Expected $37 (from instantly-review.html) but found $100",
+    "details": "Expected $37 (from instantly-review.html) but found $100",
     "priority": "P0"
   },
   {
@@ -507,23 +712,23 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $75 (from salesloft-review.html) but found $100",
-    "details": "Expected $75 (from salesloft-review.html) but found $100",
+    "file": "Expected $37 (from instantly-review.html) but found $59/mo",
+    "details": "Expected $37 (from instantly-review.html) but found $59/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $37/mo (from instantly-review.html) but found $60/mo",
-    "details": "Expected $37/mo (from instantly-review.html) but found $60/mo",
+    "file": "Expected $59 (from lemlist-review.html) but found $59/mo",
+    "details": "Expected $59 (from lemlist-review.html) but found $59/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $39/mo (from lemlist-review.html) but found $60/mo",
-    "details": "Expected $39/mo (from lemlist-review.html) but found $60/mo",
+    "file": "Expected $100 (from outreach-review.html) but found $59/mo",
+    "details": "Expected $100 (from outreach-review.html) but found $59/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $100 (from outreach-review.html) but found $60/mo",
-    "details": "Expected $100 (from outreach-review.html) but found $60/mo",
+    "file": "Expected $37 (from instantly-review.html) but found $37/mo",
+    "details": "Expected $37 (from instantly-review.html) but found $37/mo",
     "priority": "P0"
   },
   {
@@ -537,8 +742,8 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $10 (from calendly-review.html) but found $12/mo",
-    "details": "Expected $10 (from calendly-review.html) but found $12/mo",
+    "file": "Expected $10/mo (from calendly-review.html) but found $12/mo",
+    "details": "Expected $10/mo (from calendly-review.html) but found $12/mo",
     "priority": "P0"
   },
   {
@@ -552,18 +757,13 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $49 (from apollo-review.html) but found $65/mo",
-    "details": "Expected $49 (from apollo-review.html) but found $65/mo",
+    "file": "Expected $49 (from apollo-review.html) but found $49/mo",
+    "details": "Expected $49 (from apollo-review.html) but found $49/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $29/mo (from lusha-review.html) but found $65/mo",
-    "details": "Expected $29/mo (from lusha-review.html) but found $65/mo",
-    "priority": "P0"
-  },
-  {
-    "file": "Expected $14,995 (from zoominfo-review.html) but found $65/mo",
-    "details": "Expected $14,995 (from zoominfo-review.html) but found $65/mo",
+    "file": "Expected $29 (from lusha-review.html) but found $49/mo",
+    "details": "Expected $29 (from lusha-review.html) but found $49/mo",
     "priority": "P0"
   },
   {
@@ -572,8 +772,8 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $37/mo (from instantly-review.html) but found $29/mo",
-    "details": "Expected $37/mo (from instantly-review.html) but found $29/mo",
+    "file": "Expected $37 (from instantly-review.html) but found $29/mo",
+    "details": "Expected $37 (from instantly-review.html) but found $29/mo",
     "priority": "P0"
   },
   {
@@ -582,8 +782,8 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $39/mo (from lemlist-review.html) but found $29/mo",
-    "details": "Expected $39/mo (from lemlist-review.html) but found $29/mo",
+    "file": "Expected $59 (from lemlist-review.html) but found $29/mo",
+    "details": "Expected $59 (from lemlist-review.html) but found $29/mo",
     "priority": "P0"
   },
   {
@@ -632,13 +832,13 @@
     "priority": "P0"
   },
   {
-    "file": "Expected $37/mo (from instantly-review.html) but found $97/mo",
-    "details": "Expected $37/mo (from instantly-review.html) but found $97/mo",
+    "file": "Expected $37 (from instantly-review.html) but found $37/mo",
+    "details": "Expected $37 (from instantly-review.html) but found $37/mo",
     "priority": "P0"
   },
   {
-    "file": "Expected $39/mo (from lemlist-review.html) but found $39/seat",
-    "details": "Expected $39/mo (from lemlist-review.html) but found $39/seat",
+    "file": "Expected $59 (from lemlist-review.html) but found $39/seat",
+    "details": "Expected $59 (from lemlist-review.html) but found $39/seat",
     "priority": "P0"
   },
   {
@@ -662,9 +862,87 @@
     "priority": "P0"
   },
   {
-    "file": "Meta description length 35 out of 120-160 range in 404.html",
+    "file": "Canonical href contains .html extension in 404.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in 404.html (got: https://salesaiguide.com/404.html)",
+    "priority": "P1"
+  },
+  {
+    "file": "Meta description length 12 out of 120-160 range in 404.html",
     "fix_type": "meta-description",
-    "details": "Meta description length 35 out of 120-160 range in 404.html",
+    "details": "Meta description length 12 out of 120-160 range in 404.html",
+    "priority": "P1"
+  },
+  {
+    "file": "Canonical href contains .html extension in about.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in about.html (got: https://salesaiguide.com/about.html)",
+    "priority": "P1"
+  },
+  {
+    "file": "Canonical href contains .html extension in alternatives/apollo.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in alternatives/apollo.html (got: https://salesaiguide.com/alternatives/apollo.html)",
+    "priority": "P1"
+  },
+  {
+    "file": "Canonical href contains .html extension in alternatives/calendly.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in alternatives/calendly.html (got: https://salesaiguide.com/alternatives/calendly.html)",
+    "priority": "P1"
+  },
+  {
+    "file": "Canonical href contains .html extension in alternatives/clay.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in alternatives/clay.html (got: https://salesaiguide.com/alternatives/clay.html)",
+    "priority": "P1"
+  },
+  {
+    "file": "Meta description length 104 out of 120-160 range in alternatives/clay.html",
+    "fix_type": "meta-description",
+    "details": "Meta description length 104 out of 120-160 range in alternatives/clay.html",
+    "priority": "P1"
+  },
+  {
+    "file": "Canonical href contains .html extension in alternatives/gong.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in alternatives/gong.html (got: https://salesaiguide.com/alternatives/gong.html)",
+    "priority": "P1"
+  },
+  {
+    "file": "Meta description length 75 out of 120-160 range in alternatives/gong.html",
+    "fix_type": "meta-description",
+    "details": "Meta description length 75 out of 120-160 range in alternatives/gong.html",
+    "priority": "P1"
+  },
+  {
+    "file": "Canonical href contains .html extension in alternatives/hubspot-crm.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in alternatives/hubspot-crm.html (got: https://salesaiguide.com/alternatives/hubspot-crm.html)",
+    "priority": "P1"
+  },
+  {
+    "file": "Meta description length 90 out of 120-160 range in alternatives/hubspot-crm.html",
+    "fix_type": "meta-description",
+    "details": "Meta description length 90 out of 120-160 range in alternatives/hubspot-crm.html",
+    "priority": "P1"
+  },
+  {
+    "file": "Canonical href contains .html extension in alternatives/instantly.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in alternatives/instantly.html (got: https://salesaiguide.com/alternatives/instantly.html)",
+    "priority": "P1"
+  },
+  {
+    "file": "Meta description length 74 out of 120-160 range in alternatives/instantly.html",
+    "fix_type": "meta-description",
+    "details": "Meta description length 74 out of 120-160 range in alternatives/instantly.html",
+    "priority": "P1"
+  },
+  {
+    "file": "Canonical href contains .html extension in alternatives/outreach.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in alternatives/outreach.html (got: https://salesaiguide.com/alternatives/outreach.html)",
     "priority": "P1"
   },
   {
@@ -674,105 +952,75 @@
     "priority": "P1"
   },
   {
-    "file": "JSON-LD block missing @type in categories/cold-outreach.html",
-    "fix_type": "json-ld",
-    "details": "JSON-LD block missing @type in categories/cold-outreach.html",
+    "file": "Canonical href contains .html extension in alternatives/salesforce.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in alternatives/salesforce.html (got: https://salesaiguide.com/alternatives/salesforce.html)",
     "priority": "P1"
   },
   {
-    "file": "JSON-LD block missing @type in categories/crm-pipeline.html",
-    "fix_type": "json-ld",
-    "details": "JSON-LD block missing @type in categories/crm-pipeline.html",
-    "priority": "P1"
-  },
-  {
-    "file": "JSON-LD block missing @type in categories/data-enrichment.html",
-    "fix_type": "json-ld",
-    "details": "JSON-LD block missing @type in categories/data-enrichment.html",
-    "priority": "P1"
-  },
-  {
-    "file": "JSON-LD block missing @type in categories/dialers-calling.html",
-    "fix_type": "json-ld",
-    "details": "JSON-LD block missing @type in categories/dialers-calling.html",
-    "priority": "P1"
-  },
-  {
-    "file": "JSON-LD block missing @type in categories/index.html",
-    "fix_type": "json-ld",
-    "details": "JSON-LD block missing @type in categories/index.html",
-    "priority": "P1"
-  },
-  {
-    "file": "JSON-LD block missing @type in categories/lead-prospecting.html",
-    "fix_type": "json-ld",
-    "details": "JSON-LD block missing @type in categories/lead-prospecting.html",
-    "priority": "P1"
-  },
-  {
-    "file": "JSON-LD block missing @type in categories/meeting-schedulers.html",
-    "fix_type": "json-ld",
-    "details": "JSON-LD block missing @type in categories/meeting-schedulers.html",
-    "priority": "P1"
-  },
-  {
-    "file": "JSON-LD block missing @type in categories/sales-analytics.html",
-    "fix_type": "json-ld",
-    "details": "JSON-LD block missing @type in categories/sales-analytics.html",
-    "priority": "P1"
-  },
-  {
-    "file": "JSON-LD block missing @type in categories/sales-content.html",
-    "fix_type": "json-ld",
-    "details": "JSON-LD block missing @type in categories/sales-content.html",
-    "priority": "P1"
-  },
-  {
-    "file": "JSON-LD block missing @type in categories/sales-engagement.html",
-    "fix_type": "json-ld",
-    "details": "JSON-LD block missing @type in categories/sales-engagement.html",
-    "priority": "P1"
-  },
-  {
-    "file": "Meta description length 10 out of 120-160 range in pricing/gong.html",
+    "file": "Meta description length 98 out of 120-160 range in alternatives/salesforce.html",
     "fix_type": "meta-description",
-    "details": "Meta description length 10 out of 120-160 range in pricing/gong.html",
+    "details": "Meta description length 98 out of 120-160 range in alternatives/salesforce.html",
     "priority": "P1"
   },
   {
-    "file": "JSON-LD block missing @type in resources/cold-outreach-evaluation-checklist.html",
-    "fix_type": "json-ld",
-    "details": "JSON-LD block missing @type in resources/cold-outreach-evaluation-checklist.html",
+    "file": "Canonical href contains .html extension in alternatives/salesloft.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in alternatives/salesloft.html (got: https://salesaiguide.com/alternatives/salesloft.html)",
     "priority": "P1"
   },
   {
-    "file": "JSON-LD block missing @type in resources/index.html",
-    "fix_type": "json-ld",
-    "details": "JSON-LD block missing @type in resources/index.html",
+    "file": "Canonical href contains .html extension in alternatives/zoominfo.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in alternatives/zoominfo.html (got: https://salesaiguide.com/alternatives/zoominfo.html)",
     "priority": "P1"
   },
   {
-    "file": "JSON-LD block missing @type in resources/sales-dialer-evaluation-checklist.html",
-    "fix_type": "json-ld",
-    "details": "JSON-LD block missing @type in resources/sales-dialer-evaluation-checklist.html",
-    "priority": "P1"
-  },
-  {
-    "file": "Meta description length 113 out of 120-160 range in tools/clay-review.html",
+    "file": "Meta description length 103 out of 120-160 range in alternatives/zoominfo.html",
     "fix_type": "meta-description",
-    "details": "Meta description length 113 out of 120-160 range in tools/clay-review.html",
+    "details": "Meta description length 103 out of 120-160 range in alternatives/zoominfo.html",
     "priority": "P1"
   },
   {
-    "file": "Meta description length 89 out of 120-160 range in tools/close-review.html",
+    "file": "Canonical href contains .html extension in best/ai-sales-tools.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in best/ai-sales-tools.html (got: https://salesaiguide.com/best/ai-sales-tools.html)",
+    "priority": "P1"
+  },
+  {
+    "file": "Meta description length 90 out of 120-160 range in best/ai-sales-tools.html",
     "fix_type": "meta-description",
-    "details": "Meta description length 89 out of 120-160 range in tools/close-review.html",
+    "details": "Meta description length 90 out of 120-160 range in best/ai-sales-tools.html",
     "priority": "P1"
   },
   {
-    "file": "JSON-LD block missing @type in tools/index.html",
-    "fix_type": "json-ld",
-    "details": "JSON-LD block missing @type in tools/index.html",
+    "file": "Canonical href contains .html extension in best/cold-email-software-for-startups.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in best/cold-email-software-for-startups.html (got: https://salesaiguide.com/best/cold-email-software-for-startups.html)",
+    "priority": "P1"
+  },
+  {
+    "file": "Canonical href contains .html extension in best/crm-for-small-business.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in best/crm-for-small-business.html (got: https://salesaiguide.com/best/crm-for-small-business.html)",
+    "priority": "P1"
+  },
+  {
+    "file": "Canonical href contains .html extension in best/free-crm-software.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in best/free-crm-software.html (got: https://salesaiguide.com/best/free-crm-software.html)",
+    "priority": "P1"
+  },
+  {
+    "file": "Canonical href contains .html extension in best/sales-automation-software.html (got",
+    "fix_type": "canonical",
+    "details": "Canonical href contains .html extension in best/sales-automation-software.html (got: https://salesaiguide.com/best/sales-automation-software.html)",
+    "priority": "P1"
+  },
+  {
+    "file": "alternatives/apollo.html",
+    "fix_type": "orphan_page",
+    "details": "alternatives/apollo.html: only 2 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
@@ -784,13 +1032,31 @@
   {
     "file": "alternatives/gong.html",
     "fix_type": "orphan_page",
-    "details": "alternatives/gong.html: only 2 inbound links (minimum 3)",
+    "details": "alternatives/gong.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "alternatives/hubspot-crm.html",
+    "fix_type": "orphan_page",
+    "details": "alternatives/hubspot-crm.html: only 2 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "alternatives/instantly.html",
+    "fix_type": "orphan_page",
+    "details": "alternatives/instantly.html: only 2 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
     "file": "alternatives/lemlist.html",
     "fix_type": "orphan_page",
     "details": "alternatives/lemlist.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "alternatives/outreach.html",
+    "fix_type": "orphan_page",
+    "details": "alternatives/outreach.html: only 2 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
@@ -808,37 +1074,49 @@
   {
     "file": "best/cold-calling-software.html",
     "fix_type": "orphan_page",
-    "details": "best/cold-calling-software.html: only 2 inbound links (minimum 3)",
+    "details": "best/cold-calling-software.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "best/conversation-intelligence-software.html",
+    "fix_type": "orphan_page",
+    "details": "best/conversation-intelligence-software.html: only 1 inbound links (minimum 3)",
+    "priority": "P1"
+  },
+  {
+    "file": "best/crm-for-small-business.html",
+    "fix_type": "orphan_page",
+    "details": "best/crm-for-small-business.html: only 1 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
     "file": "best/dialer-software.html",
     "fix_type": "orphan_page",
-    "details": "best/dialer-software.html: only 2 inbound links (minimum 3)",
+    "details": "best/dialer-software.html: only 1 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
     "file": "best/free-crm-software.html",
     "fix_type": "orphan_page",
-    "details": "best/free-crm-software.html: only 2 inbound links (minimum 3)",
+    "details": "best/free-crm-software.html: only 1 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
-    "file": "best/meeting-scheduling-software.html",
+    "file": "best/sales-automation-software.html",
     "fix_type": "orphan_page",
-    "details": "best/meeting-scheduling-software.html: only 1 inbound links (minimum 3)",
+    "details": "best/sales-automation-software.html: only 2 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
     "file": "compare/aircall-vs-dialpad.html",
     "fix_type": "orphan_page",
-    "details": "compare/aircall-vs-dialpad.html: only 2 inbound links (minimum 3)",
+    "details": "compare/aircall-vs-dialpad.html: only 1 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
-    "file": "compare/apollo-vs-clearbit.html",
+    "file": "compare/calendly-vs-chili-piper.html",
     "fix_type": "orphan_page",
-    "details": "compare/apollo-vs-clearbit.html: only 1 inbound links (minimum 3)",
+    "details": "compare/calendly-vs-chili-piper.html: only 2 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
@@ -854,153 +1132,45 @@
     "priority": "P1"
   },
   {
-    "file": "compare/clay-vs-clearbit.html",
+    "file": "compare/clari-vs-gong.html",
     "fix_type": "orphan_page",
-    "details": "compare/clay-vs-clearbit.html: only 2 inbound links (minimum 3)",
+    "details": "compare/clari-vs-gong.html: only 2 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
-    "file": "compare/clearbit-vs-zoominfo.html",
+    "file": "compare/close-vs-hubspot.html",
     "fix_type": "orphan_page",
-    "details": "compare/clearbit-vs-zoominfo.html: only 1 inbound links (minimum 3)",
+    "details": "compare/close-vs-hubspot.html: only 2 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
-    "file": "compare/close-vs-pipedrive.html",
+    "file": "compare/freshsales-vs-hubspot.html",
     "fix_type": "orphan_page",
-    "details": "compare/close-vs-pipedrive.html: only 1 inbound links (minimum 3)",
+    "details": "compare/freshsales-vs-hubspot.html: only 1 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
-    "file": "compare/dialpad-vs-kixie.html",
+    "file": "compare/justcall-vs-aircall.html",
     "fix_type": "orphan_page",
-    "details": "compare/dialpad-vs-kixie.html: only 1 inbound links (minimum 3)",
+    "details": "compare/justcall-vs-aircall.html: only 2 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
-    "file": "compare/freshsales-vs-pipedrive.html",
+    "file": "compare/justcall-vs-dialpad.html",
     "fix_type": "orphan_page",
-    "details": "compare/freshsales-vs-pipedrive.html: only 1 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/hunter-vs-apollo.html",
-    "fix_type": "orphan_page",
-    "details": "compare/hunter-vs-apollo.html: only 2 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/hunter-vs-seamless-ai.html",
-    "fix_type": "orphan_page",
-    "details": "compare/hunter-vs-seamless-ai.html: only 1 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/hunter-vs-zoominfo.html",
-    "fix_type": "orphan_page",
-    "details": "compare/hunter-vs-zoominfo.html: only 1 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/instantly-vs-mailshake.html",
-    "fix_type": "orphan_page",
-    "details": "compare/instantly-vs-mailshake.html: only 1 inbound links (minimum 3)",
+    "details": "compare/justcall-vs-dialpad.html: only 2 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
     "file": "compare/kixie-vs-aircall.html",
     "fix_type": "orphan_page",
-    "details": "compare/kixie-vs-aircall.html: only 2 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/kixie-vs-justcall.html",
-    "fix_type": "orphan_page",
-    "details": "compare/kixie-vs-justcall.html: only 2 inbound links (minimum 3)",
+    "details": "compare/kixie-vs-aircall.html: only 1 inbound links (minimum 3)",
     "priority": "P1"
   },
   {
     "file": "compare/kixie-vs-orum.html",
     "fix_type": "orphan_page",
     "details": "compare/kixie-vs-orum.html: only 1 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/lavender-vs-reply-io.html",
-    "fix_type": "orphan_page",
-    "details": "compare/lavender-vs-reply-io.html: only 2 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/lusha-vs-zoominfo.html",
-    "fix_type": "orphan_page",
-    "details": "compare/lusha-vs-zoominfo.html: only 1 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/mailshake-vs-reply-io.html",
-    "fix_type": "orphan_page",
-    "details": "compare/mailshake-vs-reply-io.html: only 1 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/orum-vs-aircall.html",
-    "fix_type": "orphan_page",
-    "details": "compare/orum-vs-aircall.html: only 1 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/orum-vs-justcall.html",
-    "fix_type": "orphan_page",
-    "details": "compare/orum-vs-justcall.html: only 1 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/reply-io-vs-instantly.html",
-    "fix_type": "orphan_page",
-    "details": "compare/reply-io-vs-instantly.html: only 2 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/reply-io-vs-lemlist.html",
-    "fix_type": "orphan_page",
-    "details": "compare/reply-io-vs-lemlist.html: only 1 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/reply-io-vs-outreach.html",
-    "fix_type": "orphan_page",
-    "details": "compare/reply-io-vs-outreach.html: only 1 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/savvycal-vs-calendly.html",
-    "fix_type": "orphan_page",
-    "details": "compare/savvycal-vs-calendly.html: only 2 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/savvycal-vs-chili-piper.html",
-    "fix_type": "orphan_page",
-    "details": "compare/savvycal-vs-chili-piper.html: only 2 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/seamless-ai-vs-apollo.html",
-    "fix_type": "orphan_page",
-    "details": "compare/seamless-ai-vs-apollo.html: only 1 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/seamless-ai-vs-lusha.html",
-    "fix_type": "orphan_page",
-    "details": "compare/seamless-ai-vs-lusha.html: only 1 inbound links (minimum 3)",
-    "priority": "P1"
-  },
-  {
-    "file": "compare/smartlead-vs-reply-io.html",
-    "fix_type": "orphan_page",
-    "details": "compare/smartlead-vs-reply-io.html: only 1 inbound links (minimum 3)",
     "priority": "P1"
   }
 ]
