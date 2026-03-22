@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-03-15T07:08:14.358Z",
-  "runCount": 3,
+  "lastRun": "2026-03-22T07:00:12.667Z",
+  "runCount": 4,
   "autoFixCapabilities": {
     "price_consistency": true,
     "title_length": true,
@@ -19,13 +19,13 @@
       "name": "SITEHEALTH",
       "icon": "🏥",
       "description": "Monitors page titles, meta descriptions, OG tags, canonicals, GA4 coverage, and newsletter forms across all 157 pages",
-      "lastAction": "2026-03-15T07:08:13.894Z",
+      "lastAction": "2026-03-22T07:00:12.195Z",
       "plan": {
         "reactive": "Auto-fixes title length, meta descriptions, missing OG tags, and freshness dates on every scan",
         "strategic": "Targeting 100% compliance: all titles under 60 chars, all meta descriptions 120-160 chars, OG tags on every page"
       },
       "status": "critical",
-      "lastRun": "2026-03-15T07:08:14.358Z",
+      "lastRun": "2026-03-22T07:00:12.667Z",
       "metrics": {
         "pagesAudited": 157,
         "issuesFound": 50,
@@ -144,13 +144,13 @@
       "name": "REVENUEFUNNEL",
       "icon": "💰",
       "description": "Ensures every product link routes through /go/ affiliate redirects — protects revenue by catching direct vendor link leaks",
-      "lastAction": "2026-03-15T07:08:13.969Z",
+      "lastAction": "2026-03-22T07:00:12.272Z",
       "plan": {
         "reactive": "Scans all pages for new direct vendor links and auto-converts to /go/ redirects",
         "strategic": "Maintaining 100% /go/ coverage across 1,314 affiliate links on 149 pages"
       },
       "status": "critical",
-      "lastRun": "2026-03-15T07:08:14.358Z",
+      "lastRun": "2026-03-22T07:00:12.667Z",
       "metrics": {
         "pagesAudited": 125,
         "totalGoLinks": 471,
@@ -314,7 +314,7 @@
         "strategic": "Building toward full cross-link coverage: every comparison page linked from both tool reviews and category hubs"
       },
       "status": "critical",
-      "lastRun": "2026-03-15T07:08:14.358Z",
+      "lastRun": "2026-03-22T07:00:12.667Z",
       "metrics": {
         "totalInternalLinks": 7945,
         "orphanedPages": 80,
@@ -436,7 +436,7 @@
         "strategic": "Monitoring 33 tools across 149 pages — targeting zero price inconsistencies site-wide"
       },
       "status": "warning",
-      "lastRun": "2026-03-15T07:08:14.358Z",
+      "lastRun": "2026-03-22T07:00:12.667Z",
       "metrics": {
         "toolsAudited": 31,
         "consistentTools": 4,
@@ -578,7 +578,7 @@
         "strategic": "Eliminating all marketing slop and ensuring every page has complete, valid JSON-LD structured data"
       },
       "status": "warning",
-      "lastRun": "2026-03-15T07:08:14.358Z",
+      "lastRun": "2026-03-22T07:00:12.667Z",
       "metrics": {
         "pagesScanned": 157,
         "nameLeaks": 0,
@@ -724,7 +724,7 @@
         "strategic": "Pushing all 143 scored pages above 80/100 — currently at 79.4 average with 107 pages above 80"
       },
       "status": "healthy",
-      "lastRun": "2026-03-15T07:08:14.358Z",
+      "lastRun": "2026-03-22T07:00:12.667Z",
       "metrics": {
         "pagesAudited": 148,
         "avgSeoScore": 91,
@@ -768,7 +768,7 @@
         "strategic": "Identifying which pages to invest in for maximum affiliate revenue — pricing pages lead at 68/100 revenue potential"
       },
       "status": "healthy",
-      "lastRun": "2026-03-15T07:08:14.358Z",
+      "lastRun": "2026-03-22T07:00:12.667Z",
       "metrics": {
         "pagesAnalyzed": 148,
         "highPotentialPages": 0,
@@ -788,7 +788,7 @@
         "strategic": "Top 3 opportunities: Best B2B Data Providers (7 tools), Best AI Tools for SDRs (5 tools), Best Email Warmup Tools (5 tools)"
       },
       "status": "healthy",
-      "lastRun": "2026-03-15T07:08:14.358Z",
+      "lastRun": "2026-03-22T07:00:12.667Z",
       "metrics": {
         "comparisonGaps": 466,
         "bestPicksGaps": 0,
@@ -809,7 +809,7 @@
         "strategic": "Driving overall score from 88 toward 95+ by resolving remaining cross-link gaps and publishing high-value content briefs"
       },
       "status": "healthy",
-      "lastRun": "2026-03-15T07:08:14.358Z",
+      "lastRun": "2026-03-22T07:00:12.667Z",
       "metrics": {
         "totalGoSlugs": 51,
         "totalGoLinksAcrossSite": 590,
