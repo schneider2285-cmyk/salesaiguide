@@ -29,7 +29,12 @@ LINKS_FILE = ROOT / "affiliate-links.json"
 SCAN_DIRS = ["tools", "compare", "best", "alternatives", "categories", "pricing", "resources"]
 SCAN_ROOT_FILES = ["index.html", "about.html"]
 
-ANCHOR_RE = re.compile(r'(<a\b[^>]*?\bhref=")([^"]+)(")', re.IGNORECASE)
+# Match a full opening anchor tag so we can require a CTA class. Only CTA
+# buttons get re-routed; classless citation links ("Official Site", inline
+# mentions) stay as direct vendor links.
+ANCHOR_RE = re.compile(r'<a\b[^>]*?>', re.IGNORECASE)
+HREF_RE = re.compile(r'(\bhref=")([^"]+)(")', re.IGNORECASE)
+CTA_CLASS_RE = re.compile(r'class="[^"]*(btn-review|specs-cta|review-hero__cta|inline-cta)[^"]*"', re.IGNORECASE)
 
 
 def build_domain_map():
@@ -71,12 +76,18 @@ def process_file(path, dmap, apply):
     changes = []
 
     def repl(m):
-        pre, url, post = m.group(1), m.group(2), m.group(3)
+        tag = m.group(0)
+        if not CTA_CLASS_RE.search(tag):
+            return tag  # citation / non-CTA link: leave direct
+        href_m = HREF_RE.search(tag)
+        if not href_m:
+            return tag
+        url = href_m.group(2)
         slug = qualifies(url, dmap)
         if slug is None:
-            return m.group(0)
+            return tag
         changes.append((url, f"/go/{slug}"))
-        return f"{pre}/go/{slug}{post}"
+        return tag[:href_m.start()] + f'href="/go/{slug}"' + tag[href_m.end():]
 
     new_text = ANCHOR_RE.sub(repl, text)
     if changes and apply:
