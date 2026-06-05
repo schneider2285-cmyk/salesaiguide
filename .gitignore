@@ -9,3 +9,7 @@ sitemap-core.xml
 sitemap-hold.xml
 gate-report.json
 _headers
+
+# Python
+__pycache__/
+*.pyc

@@ -3,8 +3,55 @@ set -euo pipefail
 
 # SalesAIGuide — one-command deploy
 # Usage: bash deploy.sh
+#
+# This is the ONLY sanctioned way to deploy salesaiguide.com.
+# Identity guards below prevent the May 2026 incident where another
+# project's files were uploaded to this Netlify site.
 
 cd "$(dirname "$0")"
+
+EXPECTED_SITE_ID="c79f346d-e91d-42cf-80e2-295f8d7095e9"
+EXPECTED_REMOTE_SUFFIX="salesaiguide.git"
+EXPECTED_TITLE_MARKER="Sales AI Guide"
+
+# ── Identity guards (abort fast if anything looks wrong) ─────────────
+echo "==> Verifying deploy identity..."
+
+# 1. Git remote must point at the salesaiguide repo
+if [ -d .git ]; then
+  REMOTE_URL=$(git remote get-url origin 2>/dev/null || echo "")
+  if [[ "$REMOTE_URL" != *"$EXPECTED_REMOTE_SUFFIX" ]]; then
+    echo "  ✗ ABORT: git remote 'origin' is '$REMOTE_URL'"
+    echo "    Expected suffix: $EXPECTED_REMOTE_SUFFIX"
+    echo "    You are deploying from the wrong directory."
+    exit 1
+  fi
+  echo "  ✓ git remote matches salesaiguide repo"
+else
+  echo "  ✗ ABORT: no .git directory — refusing to deploy un-versioned files"
+  exit 1
+fi
+
+# 2. Netlify link must point at the salesaiguide site ID
+if [ -f .netlify/state.json ]; then
+  LINKED_SITE_ID=$(python3 -c "import json;print(json.load(open('.netlify/state.json')).get('siteId',''))" 2>/dev/null || echo "")
+  if [ "$LINKED_SITE_ID" != "$EXPECTED_SITE_ID" ]; then
+    echo "  ✗ ABORT: .netlify/state.json points at site '$LINKED_SITE_ID'"
+    echo "    Expected: $EXPECTED_SITE_ID (resilient-salamander-b2ddc4)"
+    exit 1
+  fi
+  echo "  ✓ Netlify link matches expected site ID"
+fi
+
+# 3. Content sentinel — index.html must look like the Sales AI Guide
+if ! grep -q "$EXPECTED_TITLE_MARKER" index.html 2>/dev/null; then
+  echo "  ✗ ABORT: index.html does not contain '$EXPECTED_TITLE_MARKER'"
+  echo "    The file in this directory is not the Sales AI Guide homepage."
+  exit 1
+fi
+echo "  ✓ index.html contains Sales AI Guide title marker"
+
+echo ""
 
 # ── Load nvm + node ──────────────────────────────────
 export NVM_DIR="$HOME/.nvm"
@@ -15,7 +62,18 @@ if ! command -v netlify &>/dev/null; then
   exit 1
 fi
 
-# ── Step 1: Gate ──────────────────────────────────────
+# ── Step 1a: Affiliate links ──────────────────────────
+echo "==> Regenerating affiliate redirects from affiliate-links.json..."
+python3 scripts/build_redirects.py
+
+echo "==> Checking affiliate link integrity (no $0 leaks)..."
+if ! python3 scripts/check_affiliate_links.py; then
+  echo "  ✗ ABORT: affiliate link guard failed. Fix the issues above before deploying."
+  exit 1
+fi
+echo ""
+
+# ── Step 1b: Gate ─────────────────────────────────────
 echo "==> Running indexation gate..."
 python3 scripts/indexation_gate.py --site-dir . --out-dir . \
   --base-url https://salesaiguide.com || true

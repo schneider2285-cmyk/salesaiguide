@@ -966,10 +966,11 @@
     <div class="newsletter">
       <h2 class="newsletter__title">Get Weekly Sales AI Insights</h2>
       <p class="newsletter__subtitle">Get weekly insights on AI sales tools, head-to-head comparisons, and implementation strategies that work.</p>
-      <form class="newsletter__form" id="newsletter-form">
-        <input type="email" class="newsletter__input" placeholder="Enter your email" required aria-label="Email address">
+      <form class="newsletter__form" id="newsletter-form" data-utm-medium="homepage">
+        <input type="email" name="email" class="newsletter__input" placeholder="Enter your email" required aria-label="Email address">
         <button type="submit" class="newsletter__btn">Subscribe Free</button>
       </form>
+      <p class="newsletter__status" id="newsletter-status" style="font-size:var(--text-sm);margin-top:0.75rem;display:none;"></p>
     </div>
   </div>
 </section>
@@ -993,7 +994,7 @@
         </div>
       </div>
       <div>
-        <h3 class="footer__heading">Top Tools</h3>
+        <p class="footer__heading">Top Tools</p>
         <div class="footer__links">
           <a href="/tools/instantly-review.html" class="footer__link">Instantly.ai</a>
           <a href="/tools/clay-review.html" class="footer__link">Clay</a>
@@ -1003,7 +1004,7 @@
         </div>
       </div>
       <div>
-        <h3 class="footer__heading">Categories</h3>
+        <p class="footer__heading">Categories</p>
         <div class="footer__links">
           <a href="/categories/cold-outreach.html" class="footer__link">Cold Outreach</a>
           <a href="/categories/lead-prospecting.html" class="footer__link">Lead Prospecting</a>
@@ -1014,7 +1015,7 @@
         </div>
       </div>
       <div>
-        <h3 class="footer__heading">Resources</h3>
+        <p class="footer__heading">Resources</p>
         <div class="footer__links">
           <a href="/best/" class="footer__link">Best Picks</a>
           <a href="/pricing/" class="footer__link">Pricing Guides</a>
@@ -1023,7 +1024,7 @@
         </div>
       </div>
       <div>
-        <h3 class="footer__heading">Site</h3>
+        <p class="footer__heading">Site</p>
         <div class="footer__links">
           <a href="/about.html" class="footer__link">About</a>
           <a href="/compare/" class="footer__link">Comparisons</a>
@@ -1055,5 +1056,47 @@
 <script src="js/tabs.js" defer></script>
 <script src="js/search.js" defer></script>
 
+<script>
+(function(){
+  var form = document.getElementById('newsletter-form');
+  var status = document.getElementById('newsletter-status');
+  if (!form) return;
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    var email = form.querySelector('input[name="email"]').value;
+    var btn = form.querySelector('button');
+    var utmMedium = form.getAttribute('data-utm-medium') || 'website';
+    btn.disabled = true;
+    btn.textContent = 'Subscribing...';
+    status.style.display = 'none';
+    fetch('/.netlify/functions/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: email, utm_source: 'salesaiguide', utm_medium: utmMedium })
+    })
+    .then(function(res) { return res.json().then(function(d) { return { ok: res.ok, data: d }; }); })
+    .then(function(result) {
+      if (result.ok) {
+        status.style.color = 'var(--color-success-text, #16a34a)';
+        status.textContent = 'You\'re in! Check your inbox to confirm.';
+        form.querySelector('input[name="email"]').value = '';
+      } else {
+        status.style.color = 'var(--color-error, #dc2626)';
+        status.textContent = result.data.error || 'Something went wrong. Please try again.';
+      }
+      status.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = 'Subscribe Free';
+    })
+    .catch(function() {
+      status.style.color = 'var(--color-error, #dc2626)';
+      status.textContent = 'Network error. Please try again.';
+      status.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = 'Subscribe Free';
+    });
+  });
+})();
+</script>
 </body>
 </html>
