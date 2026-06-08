@@ -71,6 +71,12 @@ if ! python3 scripts/check_affiliate_links.py; then
   echo "  ✗ ABORT: affiliate link guard failed. Fix the issues above before deploying."
   exit 1
 fi
+
+echo "==> Checking for owner PII leaks..."
+if ! python3 scripts/scrub_pii.py --check; then
+  echo "  ✗ ABORT: owner PII found on public pages. Run: python3 scripts/scrub_pii.py"
+  exit 1
+fi
 echo ""
 
 # ── Step 1b: Gate ─────────────────────────────────────

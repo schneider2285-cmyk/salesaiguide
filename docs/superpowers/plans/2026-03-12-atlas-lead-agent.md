@@ -769,12 +769,9 @@ const { getAllHtmlFiles, readHtml, extractJsonLd, classifyPage, countWords } = r
 
 var DEMO_ONLY_TOOLS = ['gong', 'chorus', 'outreach', 'salesloft', 'zoominfo', 'clearbit', 'clari', 'orum'];
 
-var NAME_LEAK_PATTERNS = [
-  { re: /Matt\s/gi, label: 'Matt' },
-  { re: /Matthew/gi, label: 'Matthew' },
-  { re: /Schneider/gi, label: 'Schneider' },
-  { re: /Toptal/gi, label: 'Toptal' }
-];
+// See NAME_LEAK_PATTERNS in scripts/agents/05-contentguard.js for the canonical
+// list of blocked personal-name / prior-employer regexes.
+var NAME_LEAK_PATTERNS = require('./lib/name-leak-patterns');
 
 var BANNED_PHRASES = [
   'stands out', "it's worth noting", "it\u2019s worth noting", 'comprehensive solution',
@@ -1490,7 +1487,7 @@ var ALLOWED_STAGE_PATHS = [
 
 var PROTECTED_PATHS = ['.github/', 'scripts/', 'ops/js/', 'ops/css/', 'ops/index.html'];
 
-var NAME_LEAK_PATTERNS = [/Matt\s/gi, /Matthew/gi, /Schneider/gi, /Toptal/gi];
+var NAME_LEAK_PATTERNS = require('./lib/name-leak-patterns'); // see scripts/atlas.js for canonical list
 
 function log(phase, msg) {
   console.log('[ATLAS:' + phase + '] ' + msg);

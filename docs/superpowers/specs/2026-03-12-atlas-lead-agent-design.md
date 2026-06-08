@@ -160,7 +160,7 @@ No agent reads or writes JSON data files. No agent modifies HTML. They only read
 ## Safety Rails
 
 ### Hard Rules (abort on violation)
-1. **Name leak check**: If ANY file contains "Matt", "Matthew", "Schneider", or "Toptal" after fixes, rollback everything and abort
+1. **Name leak check**: If ANY file contains any of the blocked personal-name or prior-employer patterns (see `NAME_LEAK_PATTERNS` in `scripts/atlas.js`) after fixes, rollback everything and abort
 2. **Review page protection**: Never modify body content, prices, or ratings on `tools/*-review.html` pages (review pages are canonical source of truth)
 3. **GA4 protection**: Never modify `G-VRBZ6Z6885` snippet
 4. **Affiliate link protection**: Never modify `/go/` redirect URLs
