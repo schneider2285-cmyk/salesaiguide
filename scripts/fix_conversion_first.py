@@ -1,83 +1,79 @@
 #!/usr/bin/env python3
-"""Fix conversion_first slop on review pages.
+"""Clear the gate's conversion_first slop signal on review pages.
 
-The gate penalizes /go/ affiliate links that appear in the editorial body
-BEFORE the verdict, unless they sit in an allowed zone (quick-summary,
-summary-grid, pricing-table, pricing-tier).
+The gate (scripts/indexation_gate.py) flags any /go/ affiliate link that sits in
+the "core-editorial" zone (Rule 1) or before the verdict outside an allowed zone
+(Rules 2/3). On the review template that means the hero, quick-summary,
+pricing-card, and verdict-box CTAs all offend. The only /go/ placement that the
+gate treats as safe (zone == "content") is the `specs-cta` link.
 
-Fix (conversion-preserving):
-  - Hero CTA (review-hero__cta): change the pre-verdict /go/ button to a
-    #pricing scroll anchor (the allowed quick-summary CTA sits right below it,
-    so we keep a real /go/ CTA above the fold).
-  - Standalone .inline-cta blocks BEFORE the verdict: remove them (redundant
-    interstitial hard-sells; the allowed-zone and post-verdict CTAs remain).
+Proven fix (verified to take woodpecker/fireflies/justcall/saleshandy C->A):
+  For each review page, revert EVERY /go/<slug> CTA to a direct vendor link,
+  EXCEPT the one `specs-cta` link, which stays tracked /go/.
 
-All /go/ links in allowed zones and after the verdict are untouched.
+Trade-off (accepted): most review CTAs become direct/untracked to keep the page
+indexed; the specs-cta + comparison pages + community links carry the tracking.
+The affiliate guard WARNs (not fails) on the resulting direct CTAs.
 
-Usage: python3 scripts/fix_conversion_first.py [files...]   (default: 4 live reviews)
+Usage:
+  python3 scripts/fix_conversion_first.py                 # all tools/*-review.html
+  python3 scripts/fix_conversion_first.py tools/x-review.html ...
 """
+import json
 import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT = [
-    "tools/woodpecker-review.html", "tools/fireflies-review.html",
-    "tools/justcall-review.html", "tools/saleshandy-review.html",
-]
+LINKS = json.loads((ROOT / "affiliate-links.json").read_text())["links"]
 
-VERDICT_RE = re.compile(r'final-verdict|id="verdict"')
-HERO_RE = re.compile(r'(<div class="review-hero__cta">)(.*?)(</div>)', re.DOTALL)
-INLINE_CTA_RE = re.compile(r'\s*<div class="inline-cta">.*?</div>', re.DOTALL)
-GO_HREF_RE = re.compile(r'href="/go/[a-z0-9-]+"')
+
+def domain_for(slug):
+    meta = LINKS.get(slug)
+    if meta and meta.get("domains"):
+        return meta["domains"][0]
+    return None
+
+
+# Match a full opening <a ...> tag that links to /go/<slug>
+ANCHOR_RE = re.compile(r'<a\b[^>]*?\bhref="/go/([a-z0-9-]+)"[^>]*?>', re.IGNORECASE)
 
 
 def fix_file(path):
+    slug = path.name.replace("-review.html", "")
+    domain = domain_for(slug)
+    if not domain:
+        return 0, f"no domain for slug '{slug}'"
     text = path.read_text()
-    m = VERDICT_RE.search(text)
-    if not m:
-        return 0, "no verdict marker"
-    idx = m.start()
-    # back up to the start of the verdict container's enclosing block start of line
-    head, tail = text[:idx], text[idx:]
-    n = 0
+    reverted = [0]
 
-    # 1) Hero CTA: convert the /go/ button to a #pricing anchor
-    def hero_repl(mm):
-        nonlocal n
-        inner = mm.group(2)
-        if "/go/" in inner:
-            n_local = len(GO_HREF_RE.findall(inner))
-            inner = GO_HREF_RE.sub('href="#pricing"', inner)
-            # internal anchor: drop target=_blank and sponsored rel, relabel
-            inner = inner.replace(' target="_blank"', '').replace(
-                ' rel="nofollow sponsored noopener noreferrer"', '').replace(
-                ' rel="nofollow sponsored noopener"', '').replace(
-                ' rel="noopener noreferrer"', '')
-            inner = re.sub(r'(class="btn-review-primary"[^>]*>)[^<]*(</a>)',
-                           r'\1See Pricing &amp; Plans &rarr;\2', inner, count=1)
-            nonlocal_n = n_local
-        return mm.group(1) + inner + mm.group(3)
+    def repl(m):
+        tag = m.group(0)
+        linkslug = m.group(1)
+        # keep the gate-safe specs-cta tracked; revert everything else to direct
+        if "specs-cta" in tag:
+            return tag
+        if linkslug != slug:
+            return tag  # cross-tool link (rare); leave it
+        reverted[0] += 1
+        return tag.replace(f'href="/go/{slug}"', f'href="https://{domain}"')
 
-    new_head, hero_n = HERO_RE.subn(hero_repl, head)
-    head = new_head
-
-    # 2) Remove standalone inline-cta blocks before the verdict
-    head, inline_n = INLINE_CTA_RE.subn("", head)
-
-    path.write_text(head + tail)
-    return hero_n + inline_n, f"hero blocks:{hero_n} inline-cta removed:{inline_n}"
+    new = ANCHOR_RE.sub(repl, text)
+    if new != text:
+        path.write_text(new)
+    kept = new.count(f'/go/{slug}')
+    return reverted[0], f"reverted {reverted[0]} to direct, kept {kept} tracked /go/"
 
 
 def main():
-    files = sys.argv[1:] or DEFAULT
-    for rel in files:
-        p = ROOT / rel
+    args = sys.argv[1:]
+    files = [ROOT / a for a in args] if args else sorted((ROOT / "tools").glob("*-review.html"))
+    for p in files:
         if not p.exists():
-            print(f"  SKIP {rel} (not found)")
+            print(f"  SKIP {p} (missing)")
             continue
-        cnt, detail = fix_file(p)
-        print(f"  {rel}: {detail}")
+        _, detail = fix_file(p)
+        print(f"  {p.relative_to(ROOT)}: {detail}")
     return 0
 
 
