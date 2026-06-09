@@ -5,7 +5,8 @@
   "scripts": {
     "build": "python3 scripts/indexation_gate.py --site-dir . --out-dir . --base-url https://salesaiguide.com; test -f sitemap.xml && test -f _headers",
     "gate": "python3 scripts/indexation_gate.py --site-dir . --out-dir . --base-url https://salesaiguide.com || true",
-    "test": "python3 scripts/test_slop_signals.py"
+    "test": "python3 scripts/test_slop_signals.py",
+    "aros": "node scripts/aros.js"
   },
   "dependencies": {
     "canvas": "^3.2.1"
