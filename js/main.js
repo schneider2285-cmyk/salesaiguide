@@ -31,14 +31,17 @@ document.addEventListener('DOMContentLoaded', function() {
         form.addEventListener('submit', function(e) {
             e.preventDefault();
             const email = this.querySelector('input[type="email"]').value;
-            
-            // Log newsletter signup
-            console.log('Newsletter signup:', email);
-            
-            // Google Analytics event
+            if (!email) return; // nothing to submit; do not fire a signup event
+
+            // Log a non-PII marker only. Never log the email value (PII).
+            console.log('Newsletter signup submitted');
+
+            // Google Analytics event, non-PII only. GA4 must never receive an
+            // email or other PII (Google policy and privacy law). Send context instead.
             if (typeof gtag !== 'undefined') {
                 gtag('event', 'newsletter_signup', {
-                    'email': email
+                    'method': 'newsletter_form',
+                    'page_path': window.location.pathname
                 });
             }
             
