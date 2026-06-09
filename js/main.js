@@ -24,6 +24,37 @@ document.addEventListener('DOMContentLoaded', function() {
             return true;
         });
     });
+
+    // Derive a non-PII "zone" label for an outbound link (a CTA class if present,
+    // else the nearest data-audit zone, else a container hint).
+    function outboundZone(a) {
+        const cls = (a.className || '').toString();
+        const ctaClass = cls.split(/\s+/).find(function (c) { return /btn|cta/i.test(c); });
+        if (ctaClass) return ctaClass;
+        const zoneEl = a.closest && a.closest('[data-audit]');
+        if (zoneEl) return zoneEl.getAttribute('data-audit') || 'other';
+        const box = a.closest && a.closest('footer, nav, header, section, aside');
+        if (box && box.className) return box.className.toString().split(/\s+/)[0] || 'other';
+        return 'other';
+    }
+
+    // Track outbound clicks to external vendor sites. These are the direct vendor
+    // CTAs the indexation gate requires in review bodies (no /go/), which otherwise
+    // fire no analytics. /go/ links are same-origin and keep firing affiliate_click
+    // above, so there is no double count. No PII is sent.
+    document.addEventListener('click', function (e) {
+        const a = e.target.closest ? e.target.closest('a[href]') : null;
+        if (!a) return;
+        const external = (a.protocol === 'http:' || a.protocol === 'https:') &&
+            a.hostname && a.hostname !== window.location.hostname;
+        if (!external || typeof gtag === 'undefined') return;
+        gtag('event', 'outbound_click', {
+            'dest_domain': a.hostname,
+            'dest_url': a.href,
+            'page_path': window.location.pathname,
+            'cta_zone': outboundZone(a)
+        });
+    });
     
     // Newsletter form handling
     const newsletterForms = document.querySelectorAll('#newsletter-form');
@@ -48,6 +79,20 @@ document.addEventListener('DOMContentLoaded', function() {
             // Show success message (customize based on your email provider)
             alert('Thanks for subscribing! Check your email to confirm.');
             this.reset();
+        });
+    });
+
+    // ButtonDown newsletter forms (embedded on guide pages, post cross-domain to
+    // ButtonDown). Fire a non-PII signup event WITHOUT preventing the native submit.
+    // "method" distinguishes these from the Beehiiv form above. No email is sent to GA.
+    document.querySelectorAll('form[action*="buttondown.com"]').forEach(function (form) {
+        form.addEventListener('submit', function () {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'newsletter_signup', {
+                    'method': 'buttondown',
+                    'page_path': window.location.pathname
+                });
+            }
         });
     });
     
