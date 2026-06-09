@@ -1,0 +1,74 @@
+{
+  "version": "0.1.0-scaffold",
+  "description": "AROS agent registry and state contract. Scaffold only; no fixes implemented.",
+  "dryRunDefault": true,
+  "stateDir": "ops/data",
+  "guards": {
+    "deployOnlyVia": "deploy.sh",
+    "indexationGate": "scripts/indexation_gate.py (read-only referee)",
+    "affiliateGuard": "scripts/check_affiliate_links.py",
+    "piiGuard": "scripts/scrub_pii.py --check"
+  },
+  "agents": [
+    {
+      "id": "aros-orchestrator",
+      "def": "ops/aros/agents/aros-orchestrator.md",
+      "owns": ["agent-state.json", "activity-log.json", "history.json", "last-run-report.json", "fix-plan.json"],
+      "tasks": ["sequence-agents", "enforce-guards", "write-run-report"]
+    },
+    {
+      "id": "revenue-analyst",
+      "def": "ops/aros/agents/revenue-analyst.md",
+      "owns": ["revenue-funnel.json"],
+      "skill": "ops/aros/skills/conversion-tracking-setup/SKILL.md",
+      "tasks": ["fix-ga4-pii", "track-direct-ctas", "track-buttondown-signups", "populate-revenue-funnel"]
+    },
+    {
+      "id": "growth-engineer",
+      "def": "ops/aros/agents/growth-engineer.md",
+      "owns": ["autofix-log.json"],
+      "skill": "ops/aros/skills/repo-hygiene/SKILL.md",
+      "tasks": ["remove-empty-literal-dir", "archive-oneoff-scripts", "refresh-feed", "index-scripts", "gitignore-env"]
+    },
+    {
+      "id": "monetization-manager",
+      "def": "ops/aros/agents/monetization-manager.md",
+      "owns": [],
+      "sources": ["affiliate-links.json"],
+      "skill": "ops/aros/skills/affiliate-program-activator/SKILL.md",
+      "tasks": ["activate-placeholder-programs"]
+    },
+    {
+      "id": "distribution-lead",
+      "def": "ops/aros/agents/distribution-lead.md",
+      "owns": [],
+      "reads": ["docs/marketing/distribution-plan.md"],
+      "tasks": ["run-2week-demand-probe"]
+    },
+    {
+      "id": "content-steward",
+      "def": "ops/aros/agents/content-steward.md",
+      "owns": ["content-scores.json"],
+      "tasks": ["hold-a-tier", "verify-pricing", "freshness-after-recheck"]
+    }
+  ],
+  "skills": [
+    "ops/aros/skills/affiliate-program-activator/SKILL.md",
+    "ops/aros/skills/conversion-tracking-setup/SKILL.md",
+    "ops/aros/skills/repo-hygiene/SKILL.md"
+  ],
+  "secretsDoc": "ops/aros/SECRETS.md",
+  "requiredSecrets": [
+    "GA4_API_SECRET",
+    "BEEHIIV_API_KEY",
+    "BEEHIIV_PUBLICATION_ID",
+    "BUTTONDOWN_API_KEY",
+    "NETLIFY_AUTH_TOKEN",
+    "NETLIFY_SITE_ID",
+    "PARTNERSTACK_API_KEY",
+    "REWARDFUL_API_SECRET",
+    "FIRSTPROMOTER_API_KEY",
+    "IMPACT_ACCOUNT_SID",
+    "IMPACT_AUTH_TOKEN"
+  ]
+}
