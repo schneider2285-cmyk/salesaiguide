@@ -18,6 +18,7 @@ Drive the 45 placeholder programs to live (4 of 49 are live today), sequenced to
 
 ## Skill
 - `ops/aros/skills/affiliate-program-activator/SKILL.md`
+- Tool: `scripts/affiliate_manager.py` (`npm run affiliates`) - status / health / queue / pipeline / activate / sync.
 
 ## Guardrails
 - `status:live` only after a real approval with a real tracking param. Never invent params (no `?ref=salesaiguide`).
