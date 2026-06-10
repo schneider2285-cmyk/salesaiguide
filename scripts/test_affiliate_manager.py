@@ -30,6 +30,18 @@ def run():
     ok, _ = am.validate_activation("nope", "https://x?a=b", links)
     check("validate_unknown_slug", not ok)
 
+    # activation_queue: rank placeholders by surfaces desc, exclude live
+    links2 = {"a": {"status": "placeholder"}, "b": {"status": "placeholder"}, "c": {"status": "live"}}
+    funnel = {"slugCoverage": {"a": {"monetizableSurfaces": 5}, "b": {"monetizableSurfaces": 20}, "c": {"monetizableSurfaces": 99}}}
+    q = am.activation_queue(links2, funnel, {"pipeline": {}})
+    check("queue_excludes_live", all(r["slug"] != "c" for r in q))
+    check("queue_sorted_desc", [r["slug"] for r in q] == ["b", "a"])
+
+    # portfolio_rows: live-first, count matches
+    rows = am.portfolio_rows(links2, funnel, {"pipeline": {}})
+    check("portfolio_live_first", rows[0]["status"] == "live")
+    check("portfolio_count", len(rows) == 3)
+
     passed = sum(1 for _, ok in CASES if ok)
     print("Running %d affiliate-manager tests...\n" % len(CASES))
     for name, ok in CASES:
