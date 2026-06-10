@@ -1,1 +1,684 @@
-{"lastUpdated":"2026-03-12","leaks":[],"slugCoverage":{},"summary":{"totalGoLinks":0,"totalLeaks":0,"coveragePercent":100}}
+{
+  "lastUpdated": "2026-06-09",
+  "generatedBy": "scripts/build_revenue_funnel.py",
+  "dataSource": "static structural analysis of the site plus the GA4 conversion events in js/main.js; NOT live GA4 data",
+  "note": "Actual event/click/conversion counts require the GA4 Data API and credentials (ops/aros/SECRETS.md: GA4_API_SECRET), which are not connected. This snapshot reports tracking coverage and the live-vs-placeholder program gap.",
+  "leaksDefinition": "monetizable click surfaces that point to a placeholder (not-yet-activated) program and therefore earn nothing; ranked by surface count as activation targets. Under the pre-outbound_click model 'leak' meant an untracked /go/ bypass; every outbound click is now instrumented, so the real leak is unactivated programs.",
+  "pagesScanned": 162,
+  "stages": [
+    {
+      "stage": "impression",
+      "ga4_event": "page_view",
+      "instrumented": true
+    },
+    {
+      "stage": "engagement",
+      "ga4_event": "scroll_depth / time_on_page",
+      "instrumented": true
+    },
+    {
+      "stage": "outbound_click",
+      "ga4_event": "affiliate_click (/go/) + outbound_click (direct vendor)",
+      "instrumented": true
+    },
+    {
+      "stage": "newsletter_signup",
+      "ga4_event": "newsletter_signup",
+      "methods": [
+        "newsletter_form",
+        "buttondown"
+      ],
+      "instrumented": true
+    },
+    {
+      "stage": "conversion",
+      "ga4_event": null,
+      "instrumented": false,
+      "blockedBy": "no vendor-side pixel or affiliate-network postback yet"
+    }
+  ],
+  "newsletterCoverage": {
+    "beehiivPages": 2,
+    "buttondownPages": 18
+  },
+  "programCoverage": {
+    "totalSlugs": 49,
+    "live": 4,
+    "placeholder": 45,
+    "liveSlugs": [
+      "woodpecker",
+      "fireflies",
+      "justcall",
+      "saleshandy"
+    ]
+  },
+  "slugCoverage": {
+    "clay": {
+      "status": "placeholder",
+      "goLinks": 24,
+      "directLinks": 41,
+      "monetizableSurfaces": 65,
+      "pages": 15
+    },
+    "apollo": {
+      "status": "placeholder",
+      "goLinks": 31,
+      "directLinks": 69,
+      "monetizableSurfaces": 100,
+      "pages": 19
+    },
+    "instantly": {
+      "status": "placeholder",
+      "goLinks": 44,
+      "directLinks": 64,
+      "monetizableSurfaces": 108,
+      "pages": 24
+    },
+    "smartlead": {
+      "status": "placeholder",
+      "goLinks": 21,
+      "directLinks": 38,
+      "monetizableSurfaces": 59,
+      "pages": 12
+    },
+    "gong": {
+      "status": "placeholder",
+      "goLinks": 14,
+      "directLinks": 19,
+      "monetizableSurfaces": 33,
+      "pages": 11
+    },
+    "chorus": {
+      "status": "placeholder",
+      "goLinks": 12,
+      "directLinks": 15,
+      "monetizableSurfaces": 27,
+      "pages": 9
+    },
+    "zoominfo": {
+      "status": "placeholder",
+      "goLinks": 27,
+      "directLinks": 52,
+      "monetizableSurfaces": 79,
+      "pages": 18
+    },
+    "outreach": {
+      "status": "placeholder",
+      "goLinks": 18,
+      "directLinks": 34,
+      "monetizableSurfaces": 52,
+      "pages": 13
+    },
+    "salesloft": {
+      "status": "placeholder",
+      "goLinks": 17,
+      "directLinks": 29,
+      "monetizableSurfaces": 46,
+      "pages": 12
+    },
+    "lemlist": {
+      "status": "placeholder",
+      "goLinks": 32,
+      "directLinks": 44,
+      "monetizableSurfaces": 76,
+      "pages": 17
+    },
+    "clearbit": {
+      "status": "placeholder",
+      "goLinks": 17,
+      "directLinks": 40,
+      "monetizableSurfaces": 57,
+      "pages": 12
+    },
+    "lusha": {
+      "status": "placeholder",
+      "goLinks": 24,
+      "directLinks": 37,
+      "monetizableSurfaces": 61,
+      "pages": 15
+    },
+    "hubspot": {
+      "status": "placeholder",
+      "goLinks": 28,
+      "directLinks": 41,
+      "monetizableSurfaces": 69,
+      "pages": 17
+    },
+    "pipedrive": {
+      "status": "placeholder",
+      "goLinks": 25,
+      "directLinks": 38,
+      "monetizableSurfaces": 63,
+      "pages": 14
+    },
+    "lavender": {
+      "status": "placeholder",
+      "goLinks": 10,
+      "directLinks": 24,
+      "monetizableSurfaces": 34,
+      "pages": 7
+    },
+    "vidyard": {
+      "status": "placeholder",
+      "goLinks": 3,
+      "directLinks": 15,
+      "monetizableSurfaces": 18,
+      "pages": 3
+    },
+    "dialpad": {
+      "status": "placeholder",
+      "goLinks": 20,
+      "directLinks": 34,
+      "monetizableSurfaces": 54,
+      "pages": 9
+    },
+    "aircall": {
+      "status": "placeholder",
+      "goLinks": 18,
+      "directLinks": 20,
+      "monetizableSurfaces": 38,
+      "pages": 9
+    },
+    "orum": {
+      "status": "placeholder",
+      "goLinks": 13,
+      "directLinks": 17,
+      "monetizableSurfaces": 30,
+      "pages": 9
+    },
+    "calendly": {
+      "status": "placeholder",
+      "goLinks": 9,
+      "directLinks": 21,
+      "monetizableSurfaces": 30,
+      "pages": 7
+    },
+    "chili-piper": {
+      "status": "placeholder",
+      "goLinks": 11,
+      "directLinks": 22,
+      "monetizableSurfaces": 33,
+      "pages": 7
+    },
+    "clari": {
+      "status": "placeholder",
+      "goLinks": 12,
+      "directLinks": 17,
+      "monetizableSurfaces": 29,
+      "pages": 8
+    },
+    "people-ai": {
+      "status": "placeholder",
+      "goLinks": 2,
+      "directLinks": 0,
+      "monetizableSurfaces": 2,
+      "pages": 2
+    },
+    "6sense": {
+      "status": "placeholder",
+      "goLinks": 2,
+      "directLinks": 0,
+      "monetizableSurfaces": 2,
+      "pages": 2
+    },
+    "seismic": {
+      "status": "placeholder",
+      "goLinks": 2,
+      "directLinks": 0,
+      "monetizableSurfaces": 2,
+      "pages": 2
+    },
+    "drift": {
+      "status": "placeholder",
+      "goLinks": 4,
+      "directLinks": 7,
+      "monetizableSurfaces": 11,
+      "pages": 4
+    },
+    "reply-io": {
+      "status": "placeholder",
+      "goLinks": 34,
+      "directLinks": 71,
+      "monetizableSurfaces": 105,
+      "pages": 17
+    },
+    "seamless-ai": {
+      "status": "placeholder",
+      "goLinks": 15,
+      "directLinks": 38,
+      "monetizableSurfaces": 53,
+      "pages": 12
+    },
+    "salesforce": {
+      "status": "placeholder",
+      "goLinks": 2,
+      "directLinks": 4,
+      "monetizableSurfaces": 6,
+      "pages": 4
+    },
+    "recapped": {
+      "status": "placeholder",
+      "goLinks": 2,
+      "directLinks": 0,
+      "monetizableSurfaces": 2,
+      "pages": 2
+    },
+    "close": {
+      "status": "placeholder",
+      "goLinks": 20,
+      "directLinks": 36,
+      "monetizableSurfaces": 56,
+      "pages": 13
+    },
+    "freshsales": {
+      "status": "placeholder",
+      "goLinks": 23,
+      "directLinks": 39,
+      "monetizableSurfaces": 62,
+      "pages": 12
+    },
+    "hunter": {
+      "status": "placeholder",
+      "goLinks": 16,
+      "directLinks": 50,
+      "monetizableSurfaces": 66,
+      "pages": 11
+    },
+    "kixie": {
+      "status": "placeholder",
+      "goLinks": 20,
+      "directLinks": 38,
+      "monetizableSurfaces": 58,
+      "pages": 9
+    },
+    "savvycal": {
+      "status": "placeholder",
+      "goLinks": 10,
+      "directLinks": 20,
+      "monetizableSurfaces": 30,
+      "pages": 7
+    },
+    "mailshake": {
+      "status": "placeholder",
+      "goLinks": 22,
+      "directLinks": 53,
+      "monetizableSurfaces": 75,
+      "pages": 11
+    },
+    "woodpecker": {
+      "status": "live",
+      "goLinks": 26,
+      "directLinks": 49,
+      "monetizableSurfaces": 75,
+      "pages": 15
+    },
+    "fireflies": {
+      "status": "live",
+      "goLinks": 16,
+      "directLinks": 28,
+      "monetizableSurfaces": 44,
+      "pages": 10
+    },
+    "justcall": {
+      "status": "live",
+      "goLinks": 21,
+      "directLinks": 27,
+      "monetizableSurfaces": 48,
+      "pages": 10
+    },
+    "saleshandy": {
+      "status": "live",
+      "goLinks": 11,
+      "directLinks": 36,
+      "monetizableSurfaces": 47,
+      "pages": 8
+    },
+    "acuity": {
+      "status": "placeholder",
+      "goLinks": 1,
+      "directLinks": 0,
+      "monetizableSurfaces": 1,
+      "pages": 1
+    },
+    "aviso": {
+      "status": "placeholder",
+      "goLinks": 1,
+      "directLinks": 0,
+      "monetizableSurfaces": 1,
+      "pages": 1
+    },
+    "avoma": {
+      "status": "placeholder",
+      "goLinks": 1,
+      "directLinks": 0,
+      "monetizableSurfaces": 1,
+      "pages": 1
+    },
+    "clari-copilot": {
+      "status": "placeholder",
+      "goLinks": 1,
+      "directLinks": 0,
+      "monetizableSurfaces": 1,
+      "pages": 1
+    },
+    "copyai": {
+      "status": "placeholder",
+      "goLinks": 1,
+      "directLinks": 0,
+      "monetizableSurfaces": 1,
+      "pages": 1
+    },
+    "groove": {
+      "status": "placeholder",
+      "goLinks": 1,
+      "directLinks": 0,
+      "monetizableSurfaces": 1,
+      "pages": 1
+    },
+    "insightsquared": {
+      "status": "placeholder",
+      "goLinks": 1,
+      "directLinks": 0,
+      "monetizableSurfaces": 1,
+      "pages": 1
+    },
+    "reclaim": {
+      "status": "placeholder",
+      "goLinks": 1,
+      "directLinks": 0,
+      "monetizableSurfaces": 1,
+      "pages": 1
+    },
+    "regie": {
+      "status": "placeholder",
+      "goLinks": 1,
+      "directLinks": 0,
+      "monetizableSurfaces": 1,
+      "pages": 1
+    }
+  },
+  "leaks": [
+    {
+      "slug": "instantly",
+      "status": "placeholder",
+      "monetizableSurfaces": 108,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "reply-io",
+      "status": "placeholder",
+      "monetizableSurfaces": 105,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "apollo",
+      "status": "placeholder",
+      "monetizableSurfaces": 100,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "zoominfo",
+      "status": "placeholder",
+      "monetizableSurfaces": 79,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "lemlist",
+      "status": "placeholder",
+      "monetizableSurfaces": 76,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "mailshake",
+      "status": "placeholder",
+      "monetizableSurfaces": 75,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "hubspot",
+      "status": "placeholder",
+      "monetizableSurfaces": 69,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "hunter",
+      "status": "placeholder",
+      "monetizableSurfaces": 66,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "clay",
+      "status": "placeholder",
+      "monetizableSurfaces": 65,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "pipedrive",
+      "status": "placeholder",
+      "monetizableSurfaces": 63,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "freshsales",
+      "status": "placeholder",
+      "monetizableSurfaces": 62,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "lusha",
+      "status": "placeholder",
+      "monetizableSurfaces": 61,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "smartlead",
+      "status": "placeholder",
+      "monetizableSurfaces": 59,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "kixie",
+      "status": "placeholder",
+      "monetizableSurfaces": 58,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "clearbit",
+      "status": "placeholder",
+      "monetizableSurfaces": 57,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "close",
+      "status": "placeholder",
+      "monetizableSurfaces": 56,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "dialpad",
+      "status": "placeholder",
+      "monetizableSurfaces": 54,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "seamless-ai",
+      "status": "placeholder",
+      "monetizableSurfaces": 53,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "outreach",
+      "status": "placeholder",
+      "monetizableSurfaces": 52,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "salesloft",
+      "status": "placeholder",
+      "monetizableSurfaces": 46,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "aircall",
+      "status": "placeholder",
+      "monetizableSurfaces": 38,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "lavender",
+      "status": "placeholder",
+      "monetizableSurfaces": 34,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "gong",
+      "status": "placeholder",
+      "monetizableSurfaces": 33,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "chili-piper",
+      "status": "placeholder",
+      "monetizableSurfaces": 33,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "orum",
+      "status": "placeholder",
+      "monetizableSurfaces": 30,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "calendly",
+      "status": "placeholder",
+      "monetizableSurfaces": 30,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "savvycal",
+      "status": "placeholder",
+      "monetizableSurfaces": 30,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "clari",
+      "status": "placeholder",
+      "monetizableSurfaces": 29,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "chorus",
+      "status": "placeholder",
+      "monetizableSurfaces": 27,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "vidyard",
+      "status": "placeholder",
+      "monetizableSurfaces": 18,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "drift",
+      "status": "placeholder",
+      "monetizableSurfaces": 11,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "salesforce",
+      "status": "placeholder",
+      "monetizableSurfaces": 6,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "people-ai",
+      "status": "placeholder",
+      "monetizableSurfaces": 2,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "6sense",
+      "status": "placeholder",
+      "monetizableSurfaces": 2,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "seismic",
+      "status": "placeholder",
+      "monetizableSurfaces": 2,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "recapped",
+      "status": "placeholder",
+      "monetizableSurfaces": 2,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "acuity",
+      "status": "placeholder",
+      "monetizableSurfaces": 1,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "aviso",
+      "status": "placeholder",
+      "monetizableSurfaces": 1,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "avoma",
+      "status": "placeholder",
+      "monetizableSurfaces": 1,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "clari-copilot",
+      "status": "placeholder",
+      "monetizableSurfaces": 1,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "copyai",
+      "status": "placeholder",
+      "monetizableSurfaces": 1,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "groove",
+      "status": "placeholder",
+      "monetizableSurfaces": 1,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "insightsquared",
+      "status": "placeholder",
+      "monetizableSurfaces": 1,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "reclaim",
+      "status": "placeholder",
+      "monetizableSurfaces": 1,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    },
+    {
+      "slug": "regie",
+      "status": "placeholder",
+      "monetizableSurfaces": 1,
+      "reason": "links resolve to a vendor with no active affiliate program; clicks earn nothing until the program is activated"
+    }
+  ],
+  "summary": {
+    "totalGoLinks": 687,
+    "totalLeaks": 45,
+    "coveragePercent": 100.0,
+    "totalDirectVendorLinks": 1227,
+    "monetizableSurfaces": 1914,
+    "trackedSurfaces": 1914,
+    "trackingCoveragePercent": 100.0,
+    "liveProgramSurfaces": 214,
+    "liveProgramCoveragePercent": 11.2,
+    "placeholderLeakSurfaces": 1700
+  }
+}
