@@ -26,6 +26,10 @@ jobs:
         with:
           node-version: '20'
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
       - name: Configure git identity
         run: |
           git config user.name "atlas-bot"
@@ -40,6 +44,10 @@ jobs:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           ATLAS_DRY_RUN: ${{ inputs.dry_run || 'false' }}
         run: node scripts/atlas.js
+
+      - name: AROS team report (read-only)
+        if: always()
+        run: npm run aros
 
       - name: Push changes
         if: success() && inputs.dry_run != 'true'
