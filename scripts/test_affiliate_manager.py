@@ -42,6 +42,19 @@ def run():
     check("portfolio_live_first", rows[0]["status"] == "live")
     check("portfolio_count", len(rows) == 3)
 
+    # set_pipeline_stage stamps dates and keeps earlier ones
+    pl2 = {"pipeline": {}}
+    am.set_pipeline_stage(pl2, "a", "applied", today="2026-06-09")
+    check("applied_date", pl2["pipeline"]["a"]["appliedDate"] == "2026-06-09")
+    am.set_pipeline_stage(pl2, "a", "approved", today="2026-06-10")
+    check("approved_date", pl2["pipeline"]["a"]["approvedDate"] == "2026-06-10")
+    check("applied_date_kept", pl2["pipeline"]["a"]["appliedDate"] == "2026-06-09")
+    try:
+        am.set_pipeline_stage(pl2, "a", "bogus")
+        check("reject_bad_stage", False)
+    except ValueError:
+        check("reject_bad_stage", True)
+
     passed = sum(1 for _, ok in CASES if ok)
     print("Running %d affiliate-manager tests...\n" % len(CASES))
     for name, ok in CASES:

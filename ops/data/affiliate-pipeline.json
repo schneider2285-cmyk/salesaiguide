@@ -1,0 +1,10 @@
+{
+  "_meta": "Human application workflow state for affiliate programs. affiliate-links.json stays the link source of truth; this tracks the path to live. Managed by scripts/affiliate_manager.py.",
+  "lastUpdated": "2026-06-09",
+  "pipeline": {
+    "woodpecker": {"stage": "live", "network": "in-house", "signup_url": "", "appliedDate": null, "approvedDate": null, "notes": "live with red=salesa145703"},
+    "fireflies": {"stage": "live", "network": "FirstPromoter", "signup_url": "", "appliedDate": null, "approvedDate": null, "notes": "live with fpr=matthew16"},
+    "justcall": {"stage": "live", "network": "FirstPromoter", "signup_url": "", "appliedDate": null, "approvedDate": null, "notes": "live with fp_ref=matthew95"},
+    "saleshandy": {"stage": "live", "network": "Rewardful", "signup_url": "", "appliedDate": null, "approvedDate": null, "notes": "live with via=matthew"}
+  }
+}
