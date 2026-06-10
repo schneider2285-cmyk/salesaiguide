@@ -1,0 +1,41 @@
+{
+  "_meta": "Distribution probe config. Strategy and rationale: docs/marketing/distribution-plan.md. The decisionRule below is PRE-COMMITTED before the probe starts (the plan insists the rule be fixed up front so sunk-cost bias cannot move it). Harness: scripts/distribution_probe.py. This file drives nothing automatically; it sends no email and connects no credentials.",
+  "wedge": "cold-email tools",
+  "durationDays": 14,
+  "baseUrl": "https://salesaiguide.com",
+  "liveProgramsEarningNow": ["woodpecker", "saleshandy"],
+  "dailyCadence": {
+    "helpfulAnswersPerDay": "3-5",
+    "linkRatio": "<= 1 link per 5 genuinely helpful answers",
+    "ruleOfEngagement": "Lead with a useful answer, disclose you run the site, link a comparison only when it is honestly the best answer."
+  },
+  "utm": {
+    "medium": "community",
+    "campaign": "cold-email-probe-2026-06"
+  },
+  "channels": [
+    {"name": "Reddit r/cold_email", "utm_source": "reddit", "where": "r/cold_email (sort by new)"},
+    {"name": "Reddit r/Emailmarketing", "utm_source": "reddit", "where": "r/Emailmarketing"},
+    {"name": "Reddit r/sales", "utm_source": "reddit", "where": "r/sales"},
+    {"name": "Quora", "utm_source": "quora", "where": "cold email software questions (also rank long-tail)"},
+    {"name": "Slack/Discord", "utm_source": "community", "where": "RevGenius, Pavilion, Indie Hackers"}
+  ],
+  "targets": [
+    {"label": "Woodpecker review (LIVE program)", "path": "/tools/woodpecker-review"},
+    {"label": "Saleshandy review (LIVE program)", "path": "/tools/saleshandy-review"},
+    {"label": "Saleshandy vs Woodpecker (both LIVE)", "path": "/compare/saleshandy-vs-woodpecker"},
+    {"label": "Woodpecker vs Instantly", "path": "/compare/woodpecker-vs-instantly"},
+    {"label": "Saleshandy vs Instantly", "path": "/compare/saleshandy-vs-instantly"},
+    {"label": "Saleshandy vs Mailshake", "path": "/compare/saleshandy-vs-mailshake"},
+    {"label": "Best cold email software for startups", "path": "/best/cold-email-software-for-startups"}
+  ],
+  "decisionRule": {
+    "_committedOn": "2026-06-10",
+    "minHelpfulAnswers": 30,
+    "stopClicksMax": 2,
+    "commitClicksMin": 10,
+    "commitQualifiedVisitsMin": 15,
+    "logic": "COMMIT if signups >= 1 OR (clicks >= commitClicksMin AND qualified_visits >= commitQualifiedVisitsMin). Else INSUFFICIENT_EFFORT if helpful_answers < minHelpfulAnswers (cannot STOP before honest effort). Else STOP if clicks <= stopClicksMax AND signups == 0. Else CONTINUE (iterate messaging once)."
+  },
+  "measurement": "Primary: Woodpecker + Saleshandy affiliate dashboards (clicks + signups), live regardless of UTM. Secondary: GA4 sessions by utm_campaign plus the outbound_click / affiliate_click / newsletter_signup events from #39/#40. qualified_visits = engaged sessions (scroll_depth or time_on_page fired) from the probe UTMs."
+}

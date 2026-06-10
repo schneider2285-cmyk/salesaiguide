@@ -7,7 +7,8 @@
     "gate": "python3 scripts/indexation_gate.py --site-dir . --out-dir . --base-url https://salesaiguide.com || true",
     "test": "python3 scripts/test_slop_signals.py",
     "aros": "node scripts/aros.js",
-    "funnel": "python3 scripts/build_revenue_funnel.py"
+    "funnel": "python3 scripts/build_revenue_funnel.py",
+    "probe": "python3 scripts/distribution_probe.py"
   },
   "dependencies": {
     "canvas": "^3.2.1"

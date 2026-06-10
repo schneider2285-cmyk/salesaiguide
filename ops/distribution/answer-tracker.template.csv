@@ -1,0 +1,2 @@
+date,channel,where,thread_url,helpful,link_dropped,target,clicks,signups,qualified_visits,notes
+EXAMPLE,Reddit r/cold_email,r/cold_email,https://reddit.com/r/cold_email/...,y,n,,0,0,0,delete this example row; helpful answer with no link
