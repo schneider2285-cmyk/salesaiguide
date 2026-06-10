@@ -8,7 +8,8 @@
     "test": "python3 scripts/test_slop_signals.py",
     "aros": "node scripts/aros.js",
     "funnel": "python3 scripts/build_revenue_funnel.py",
-    "probe": "python3 scripts/distribution_probe.py"
+    "probe": "python3 scripts/distribution_probe.py",
+    "affiliates": "python3 scripts/affiliate_manager.py"
   },
   "dependencies": {
     "canvas": "^3.2.1"
