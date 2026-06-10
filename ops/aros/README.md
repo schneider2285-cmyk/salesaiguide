@@ -1,6 +1,6 @@
 # Agentic Revenue Operating System (AROS)
 
-Scaffold v0.1.0. No fix code is implemented here. This directory defines the agent roster, their state contract, and an inert orchestration entry point that extends the existing ATLAS weekly runner. The actual fixes (GA4 PII, conversion tracking, cruft cleanup, program activation) are the WORK these agents will perform later, gated behind explicit approval.
+v0.2.0. This directory defines the agent roster, their state contract, and a read-only reporting orchestrator (`scripts/aros.js`) that runs each role's safe op and writes a team status report. The orchestrator never activates a program or deploys (agents propose; only `deploy.sh` disposes). Three roles now have real tools (Revenue Analyst -> `build_revenue_funnel.py`, Monetization Manager -> `affiliate_manager.py`, Distribution Lead -> `distribution_probe.py`); Growth Engineer and Content Steward remain definition-only.
 
 - Design spec: `docs/superpowers/specs/2026-06-09-agentic-revenue-operating-system.md`
 - Current-state audit: `docs/ARCHITECTURE.md`
@@ -24,15 +24,15 @@ No agent deploys or mutates production directly. Every change still flows throug
 | Distribution Lead | agents/distribution-lead.md | (marketing docs) | run demand probe (traffic) |
 | Content Steward | agents/content-steward.md | content-scores.json | hold A-tier, pricing freshness |
 
-## Run the scaffold (inert)
+## Run the orchestrator
 
 ```bash
-npm run aros                                 # dry-run: prints what each agent WOULD do
-node scripts/aros.js --list                  # list agents and their tasks
-node scripts/aros.js --agent revenue-analyst # single agent, dry-run
+npm run aros                     # run each role's safe read-only op, print + write the team report
+node scripts/aros.js --dry-run   # print planned actions only (no exec, no write)
+node scripts/aros.js --list      # list agents and their tasks
 ```
 
-The orchestrator stub is intentionally side-effect-free. It reads the config and state, prints planned actions, and exits. It does not implement any fix, write any file, call the network, or deploy.
+A real run executes only read-only / reporting operations (funnel summary, `affiliate_manager.py status`/`health`, `distribution_probe.py validate`/`score`), assembles a team status report, and writes it to `ops/data/aros-report.json` (gitignored, timestamped). It never activates a program and never deploys. Money-mutating ops (`affiliate_manager.py activate`) and deploys stay manual, behind `deploy.sh`.
 
 ## Integration with ATLAS
 
