@@ -132,6 +132,25 @@
         "contentengine": null,
         "revenueops": null
       }
+    },
+    {
+      "date": "2026-07-19",
+      "runNumber": 8,
+      "overallScore": 41,
+      "issuesFound": 1223,
+      "issuesFixed": 0,
+      "topAction": "Weekly cycle #8 — score 41/100",
+      "agentScores": {
+        "sitehealth": 0,
+        "revenuefunnel": 76.1,
+        "linkhealth": 0,
+        "priceverify": 0,
+        "contentguard": 0,
+        "seopower": 91,
+        "trafficintel": 36,
+        "contentengine": null,
+        "revenueops": null
+      }
     }
   ]
 }
